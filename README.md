@@ -7,6 +7,7 @@ Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên Gi
 Giữ nguyên thứ tự và cụm ngôn ngữ của 24 tuần/chủ điểm trong `references/curriculum.md` thuộc Buddhist English Expression Coach v4. Đối chiếu tại [CURRICULUM.md](CURRICULUM.md).
 
 - 24 chủ điểm thực sự có nội dung; 36 câu/chủ điểm, tổng 864 câu.
+- Chọn tự do bất kỳ chủ điểm nào, đổi chủ điểm rồi quay lại đúng tiến độ riêng. Trong mỗi chủ điểm, các bộ vẫn phải PASS mới chuyển tiếp.
 - Mỗi chủ điểm gồm 6 bộ × 6 câu cùng thể loại, theo một cột.
 - 6 câu làm quen và 30 câu vận dụng/chủ điểm; 720/864 câu thuộc phần vận dụng.
 - Bài 1 tập trung đúng `mean`, `refer to`, `consist of`, `be regarded as`.

@@ -43,6 +43,7 @@ Nguồn thiết kế: **Buddhist English Expression Coach v4**, `references/curr
 
 - Dùng thao tác click thay cho gõ câu: chọn, điền từ bằng nút, nối, ghép câu, dựng đoạn.
 - Mỗi bộ 5–7 câu cùng thể loại, bản này dùng 6; tất cả câu xếp một cột.
+- Người học tự do chọn bất kỳ chủ điểm nào. Quy tắc hoàn thành áp dụng cho các bộ bên trong chủ điểm, không khóa quyền chọn chủ điểm.
 - Làm đủ mới submit và reveal; retry chỉ câu sai; PASS mới tiến tiếp.
 - Phần làm quen ngắn, tập trung vận dụng khó.
 - Nội dung giáo lý có định vị nguồn; lặp mẫu ngôn ngữ qua nhiều nội dung.

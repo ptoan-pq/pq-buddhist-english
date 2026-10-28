@@ -1,5 +1,11 @@
 # Lịch sử phiên bản web
 
+## 2.1 — 2026-10-28
+
+- Mở tự do tất cả 24 chủ điểm theo lựa chọn của người học.
+- Giữ tiến độ từng chủ điểm và quy tắc PASS giữa các bộ bên trong chủ điểm.
+- Kiểm thử chuyển giữa chủ điểm đầu và cuối mà không mất đáp án.
+
 ## 2.0 — 2026-10-27
 
 - Đưa đúng 24 tuần/chủ điểm và core language của curriculum v4 lên danh mục.

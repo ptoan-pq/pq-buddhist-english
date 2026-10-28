@@ -38,10 +38,18 @@ test('Every chapter is usable through completion, retry, restore, and Markdown e
 test('Natural alternative orders are accepted in paragraph composition',()=>{
   for(const c of courses){const set=c.sets.at(-1);for(const q of set.items){assert(E.isCorrect(q,[0,2,1]));assert(!E.isCorrect(q,[3,0,1]));assert(!E.isCorrect(q,[0,1,4]));}}
 });
-test('A future chapter remains locked until earlier chapters actually pass',()=>{
-  const states=Object.fromEntries(courses.map(c=>[c.id,E.create(c)]));
-  assert(P.canOpen(courses,states,courses[0].id));assert(!P.canOpen(courses,states,courses[1].id));
-  states[courses[0].id]=passCourse(courses[0]);assert(P.canOpen(courses,states,courses[1].id));assert(!P.canOpen(courses,states,courses[2].id));
+test('All 24 topics are freely selectable while set progression stays gated',()=>{
+  for(const course of courses){assert(P.canOpen(courses,course.id));const state=E.create(course);assert.throws(()=>E.advance(course,state),/PASS/);}
+  assert(!P.canOpen(courses,'unknown-course'));
+});
+test('Studying a later topic leaves earlier and later progress independent',()=>{
+  const first=courses[0],last=courses.at(-1),states={[first.id]:E.create(first),[last.id]:E.create(last)};
+  const early=first.sets[0].items[0],late=last.sets[0].items[0];
+  E.saveResponse(first,states[first.id],'M01',early.id,early.answer);
+  E.saveResponse(last,states[last.id],'M01',late.id,late.answer);
+  const restored=P.validateBackup(courses,P.exportProject(courses,states,last.id));
+  assert.deepEqual(restored.progress[first.id].sets.M01.responses,{[early.id]:early.answer});
+  assert.deepEqual(restored.progress[last.id].sets.M01.responses,{[late.id]:late.answer});
 });
 test('Original progress is stored separately and old JSON backups remain importable',()=>{
   assert.equal(P.key(legacy),'pq-english-progress-v1');assert.notEqual(P.key(courses[0]),P.key(legacy));
