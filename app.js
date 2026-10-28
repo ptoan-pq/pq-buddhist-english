@@ -12,6 +12,12 @@
   displayed=state.active;
   function save(){states[C.id]=state;if(blocked.has(C.id))return;try{localStorage.setItem(P.key(C),JSON.stringify(state));localStorage.setItem(SELECTED,C.id);}catch(err){announce('Trình duyệt chưa lưu được tiến độ. Hãy dùng Tiến độ → Tải sao lưu để giữ lại bài đang làm.');}}
   function openCourse(course){if(course.weekId&&!P.canOpen(courses,course.id))return;C=course;state=states[C.id];displayed=state.active;gapFocus={};view='learn';try{localStorage.setItem(SELECTED,C.id);}catch(err){}render();goTop();}
+  function renderTopicPicker(){
+    const picker=node('div',undefined,'topic-picker'),label=node('label','Chọn chủ điểm'),select=node('select');label.htmlFor='topic-select';select.id='topic-select';
+    const placeholder=node('option','Chọn bất kỳ chủ điểm nào…');placeholder.value='';placeholder.disabled=true;placeholder.selected=view==='catalog';select.append(placeholder);
+    allCourses.forEach(course=>{const option=node('option',course.title);option.value=course.id;option.selected=view!=='catalog'&&course.id===C.id;select.append(option);});
+    select.onchange=()=>{const course=allCourses.find(c=>c.id===select.value);if(course)openCourse(course);};picker.append(label,select);main.append(picker);
+  }
   function button(text,handler,cls='secondary',key){const b=node('button',text,cls);b.type='button';if(key)b.dataset.focus=key;b.onclick=handler;return b;}
   function change(fn,key){try{fn();save();render();if(key)document.querySelector(`[data-focus="${key}"]`)?.focus({preventScroll:true});}catch(err){announce(err.message);}}
   function goTop(){main.scrollIntoView({behavior:'auto',block:'start'});}
@@ -92,6 +98,6 @@
     let phase='';courses.forEach(course=>{if(course.phase!==phase){phase=course.phase;main.append(node('h2',phase,'catalog-phase'));}const card=node('section',undefined,'catalog-card'),status=P.complete(course,states[course.id]);card.append(node('div',`TUẦN ${String(course.week).padStart(2,'0')} · ${course.subtitle}`,'eyebrow'),node('h3',course.title.replace(/^Chủ điểm \d+ — /,''),'catalog-title'),node('p',course.targets.join(' · '),'catalog-targets'));const actions=node('div',undefined,'meta-row');actions.append(node('span',`${status?'Đã PASS':'Sẵn sàng học'} · 36 câu`,'helper'));const b=button(status?'Xem lại':'Học chủ điểm này',()=>openCourse(course),'primary');actions.append(b);card.append(actions);main.append(card);});
     const old=node('section',undefined,'note-section');old.append(node('h2','Bản học tổng hợp v1'),node('p','72 câu của bản cũ được giữ riêng cùng tiến độ cũ. Bản này không tính thành chủ điểm 1 của chương trình mới.'));old.append(button('Mở bản cũ và tiến độ',()=>openCourse(legacy)));main.append(old);
   }
-  function render(){main.replaceChildren();document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(view==='catalog')renderCatalog();else if(view==='notes')renderNotes();else if(view==='progress')renderProgress();else renderLesson();}
+  function render(){main.replaceChildren();renderTopicPicker();document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(view==='catalog')renderCatalog();else if(view==='notes')renderNotes();else if(view==='progress')renderProgress();else renderLesson();}
   render();
 })();

@@ -1,5 +1,11 @@
 # Lịch sử phiên bản web
 
+## 2.2 — 2026-10-28
+
+- Thêm ô “Chọn chủ điểm” ngay trong mọi màn hình, luôn hiện khi cuộn.
+- Đổi trực tiếp giữa 24 chủ điểm mà không cần trở về menu Chương trình.
+- Kiểm tra trên giao diện: đổi 24 → 7 → 24 khi chưa nộp, câu đã chọn vẫn còn.
+
 ## 2.1 — 2026-10-28
 
 - Mở tự do tất cả 24 chủ điểm theo lựa chọn của người học.
