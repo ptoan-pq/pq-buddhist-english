@@ -96,8 +96,9 @@
   function markdown(course,state) {
     const stats=statistics(course,state),done=stats.completedSets===course.sets.length;
     const lines=[`# ${course.title}`,``,`${done?'Hoàn thành':'Ghi chú đang học'} · Cập nhật ${new Date().toLocaleDateString('vi-VN')}`,``,`Đã PASS: ${stats.passed}/${stats.total} câu · ${stats.completedSets}/${course.sets.length} bộ.`,``,`## Ý tưởng cốt lõi`,``,`- Đọc toàn ý trước khi chọn cách diễn đạt.`,`- Chọn đúng chủ ngữ và động từ trung tâm.`,`- Giữ phạm vi, điều kiện và mức độ khẳng định.`,`- Liên kết câu bằng quan hệ ý nghĩa và đối tượng quy chiếu rõ.`,``,`## Cấu trúc và câu đã làm chủ`,` `];
+    if(course.targets)lines.splice(4,0,'## Trọng tâm theo curriculum gốc','',...course.targets.map(v=>`- ${v}`),'');
     const patterns=new Set(),sources=new Set();
-    course.sets.forEach(set=>{const r=state.sets[set.id];if(!r||!r.passedItems.length)return;lines.push(`### ${set.id} — ${set.title}`,``);set.items.forEach(q=>{if(!r.passedItems.includes(q.id))return;patterns.add(q.pattern);sources.add(`${q.source.title} — ${q.source.locator}`);lines.push(`- **${q.topic}**: ${sequence(set,q,r.responses[q.id]).replace(/\n/g,' ')}`,`  - Mẫu: ${q.pattern}`,`  - ${q.analysis}`);});lines.push('');});
+    course.sets.forEach(set=>{const r=state.sets[set.id];if(!r||!r.passedItems.length)return;lines.push(`### ${set.id} — ${set.title}`,``);set.items.forEach(q=>{if(!r.passedItems.includes(q.id))return;patterns.add(q.pattern);(q.sources||[q.source]).forEach(s=>sources.add(`${s.title} — ${s.locator}`));lines.push(`- **${q.topic}**: ${sequence(set,q,r.responses[q.id]).replace(/\n/g,' ')}`,`  - Mẫu: ${q.pattern}`,`  - ${q.analysis}`);});lines.push('');});
     lines.push('## Mẫu ngôn ngữ cần nhớ','',...[...patterns].map(p=>`- ${p}`),'','## Những điểm cần ôn lại','');
     let retries=0;
     course.sets.forEach(set=>{const r=state.sets[set.id];if(!r?.history.length)return;r.history[0].wrong.forEach(id=>{const q=set.items.find(q=>q.id===id);lines.push(`- ${q.id} — ${q.topic}: ${q.analysis}`);retries++;});});
