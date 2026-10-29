@@ -6,12 +6,13 @@
   function create(course) { return {schema:1,courseId:course.id,courseVersion:course.version,active:0,startedAt:now(),updatedAt:now(),sets:{[course.sets[0].id]:record(course.sets[0])}}; }
   function isSequence(type) { return type!=='choice'; }
   function validResponse(set,q,value,allowPartial=false) {
-    if(set.type==='choice') return Number.isInteger(value)&&value>=0&&value<q.options.length;
+    const type=q.type||set.type;
+    if(type==='choice') return Number.isInteger(value)&&value>=0&&value<q.options.length;
     if(!Array.isArray(value))return false;
-    const expected=q.answer.length,limit=(set.type==='order'||set.type==='paragraph')?q.tokens.length:q.options.length;
+    const expected=q.answer.length,limit=(type==='order'||type==='paragraph')?q.tokens.length:q.options.length;
     if(allowPartial ? value.length>expected : value.length!==expected)return false;
     if(!value.every(n=>(allowPartial&&n===null)||(Number.isInteger(n)&&n>=0&&n<limit)))return false;
-    if(set.type==='order'||set.type==='paragraph'||set.type==='match'){
+    if(type==='order'||type==='paragraph'||type==='match'){
       const selected=value.filter(n=>n!==null);
       if(new Set(selected).size!==selected.length)return false;
     }
@@ -45,15 +46,21 @@
   }
   function advance(course,state) {
     const set=current(course,state);
-    if(state.sets[set.id].status!=='passed')throw Error('Cần PASS bộ hiện tại trước khi chuyển tiếp.');
+    if(!course.freeSets&&state.sets[set.id].status!=='passed')throw Error('Cần PASS bộ hiện tại trước khi chuyển tiếp.');
     if(state.active>=course.sets.length-1)return false;
-    state.active++;const next=current(course,state);state.sets[next.id]=record(next);state.updatedAt=now();return true;
+    state.active++;const next=current(course,state);if(!state.sets[next.id])state.sets[next.id]=record(next);if(course.freeSets)state.sets[next.id].visited=true;state.updatedAt=now();return true;
+  }
+  function openSet(course,state,index){
+    if(!course.freeSets)throw Error('Khóa học này dùng trình tự bộ bài cũ.');
+    if(!Number.isInteger(index)||index<0||index>=course.sets.length)throw Error('Không có gói này.');
+    state.active=index;const set=current(course,state);if(!state.sets[set.id])state.sets[set.id]=record(set);state.sets[set.id].visited=true;state.updatedAt=now();
   }
   function sequence(set,q,value) {
     if(value===undefined)return 'Chưa trả lời';
-    if(set.type==='choice')return q.options[value];
-    if(set.type==='order'||set.type==='paragraph')return value.map(n=>q.tokens[n]).join(set.type==='paragraph'?'\n\n':' ');
-    if(set.type==='match')return q.left.map((v,i)=>`${v} → ${value[i]===null?'…':q.options[value[i]]}`).join('\n');
+    const type=q.type||set.type;
+    if(type==='choice')return q.options[value];
+    if(type==='order'||type==='paragraph')return value.map(n=>q.tokens[n]).join(type==='paragraph'?'\n\n':' ');
+    if(type==='match')return q.left.map((v,i)=>`${v} → ${value[i]===null?'…':q.options[value[i]]}`).join('\n');
     return q.parts.map((part,i)=>part+(i<value.length?(value[i]===null?'[…]':q.options[value[i]]):'')).join('');
   }
   function shuffled(length,seed) {
@@ -62,13 +69,27 @@
     return ids;
   }
   function validate(course,state) {
+    if(course.previousVersion&&state?.courseVersion===course.previousVersion){
+      const legacy={...course,version:course.previousVersion,previousVersion:null,sets:course.sets.map(s=>({...s,items:s.items.slice(0,s.baseItemCount)}))};
+      const migrated=validate(legacy,state);
+      for(const set of course.sets){
+        const r=migrated.sets[set.id];if(!r)continue;
+        const pending=set.items.filter(q=>!r.passedItems.includes(q.id)).map(q=>q.id);
+        r.status='answer';r.round=pending;
+      }
+      migrated.courseVersion=course.version;migrated.active=course.freeSets?state.active:0;
+      return validate(course,migrated);
+    }
     if(!state||state.schema!==1||state.courseId!==course.id||state.courseVersion!==course.version)throw Error('Bản sao lưu không đúng khóa học hoặc phiên bản.');
     if(!Number.isInteger(state.active)||state.active<0||state.active>=course.sets.length||!state.sets||typeof state.sets!=='object')throw Error('Trạng thái học không hợp lệ.');
-    const clean=create(course);clean.active=state.active;clean.startedAt=typeof state.startedAt==='string'?state.startedAt:clean.startedAt;
-    for(let i=0;i<=state.active;i++){
+    if(!Object.hasOwn(state.sets,course.sets[state.active].id))throw Error('Thiếu gói đang chọn trong bản lưu.');
+    const clean=create(course);clean.sets={};clean.active=state.active;clean.startedAt=typeof state.startedAt==='string'?state.startedAt:clean.startedAt;
+    const lastSaved=course.sets.reduce((last,set,i)=>Object.hasOwn(state.sets,set.id)?i:last,state.active);
+    for(let i=0;i<=lastSaved;i++){
       const set=course.sets[i],r=state.sets[set.id],ids=set.items.map(q=>q.id);
+      if(!r&&course.freeSets)continue;
       if(!r||!['answer','review','passed'].includes(r.status)||!Array.isArray(r.round)||!r.round.length||new Set(r.round).size!==r.round.length||r.round.some(id=>!ids.includes(id))||!Array.isArray(r.history)||!Array.isArray(r.passedItems)||!r.responses||typeof r.responses!=='object')throw Error('Bản sao lưu thiếu dữ liệu một bộ bài.');
-      const target=record(set);target.status=r.status;target.round=copy(r.round);
+      const target=record(set);target.status=r.status;target.round=copy(r.round);if(course.freeSets)target.visited=!!r.visited||r.history.length>0||Object.keys(r.responses).length>0;
       for(const q of set.items)if(Object.hasOwn(r.responses,q.id)){
         if(!validResponse(set,q,r.responses[q.id],true))throw Error('Bản sao lưu có đáp án không hợp lệ.');
         target.responses[q.id]=copy(r.responses[q.id]);
@@ -80,7 +101,7 @@
         target.history.push({submittedAt:typeof attempt.submittedAt==='string'?attempt.submittedAt:now(),round:copy(attempt.round),responses,wrong});
       }
       target.passedItems=ids.filter(id=>target.history.some(attempt=>attempt.round.includes(id)&&!attempt.wrong.includes(id)));
-      if(i<state.active&&target.status!=='passed')throw Error('Có bộ trước chưa PASS.');
+      if(!course.freeSets&&i<state.active&&target.status!=='passed')throw Error('Có bộ trước chưa PASS.');
       if(target.status==='passed'&&(target.passedItems.length!==ids.length||set.items.some(q=>!isComplete(set,q,target.responses[q.id])||!isCorrect(q,target.responses[q.id]))))throw Error('PASS chưa có đủ đáp án đúng.');
       if(target.status==='review'&&(!target.history.length||missing(set,target).length||!target.history.at(-1).wrong.length))throw Error('Lượt chữa bài không hợp lệ.');
       if(target.round.length<ids.length){const earned=ids.filter(id=>!target.round.includes(id));if(earned.some(id=>!target.passedItems.includes(id)))throw Error('Bản sao lưu bỏ qua câu chưa PASS.');}
@@ -105,6 +126,6 @@
     if(!retries)lines.push('- Chưa ghi nhận lỗi ở các lượt nộp đầu. Tiếp tục chuyển giao sang ngữ cảnh mới.');
     lines.push('','## Nguồn nội dung','',...[...sources].map(v=>`- ${v}`),'','Thuật ngữ Anh trong bài là cách dịch theo ngữ cảnh. Ghi chú này không thay thế nguyên tác.','');return lines.join('\n');
   }
-  const api={create,record,current,isSequence,isComplete,isCorrect,saveResponse,missing,submit,retry,advance,sequence,shuffled,validate,statistics,markdown};
+  const api={create,record,current,isSequence,isComplete,isCorrect,saveResponse,missing,submit,retry,advance,openSet,sequence,shuffled,validate,statistics,markdown};
   root.PQEngine=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

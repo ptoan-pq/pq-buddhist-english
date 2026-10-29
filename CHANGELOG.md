@@ -1,5 +1,15 @@
 # Lịch sử phiên bản web
 
+## 4.0 — 2026-10-29
+
+- Giữ nguyên ngân hàng 1.440 câu cũ và thêm 1.440 câu chọn động từ theo sắc thái khi dịch: 288 gói × 10 câu.
+- Câu 1–5 giữ dạng bài cũ; câu 6–10 là chọn động từ/cụm động từ, không giới hạn theo từ đích của chủ điểm.
+- Mỗi câu mới giải thích ý nghĩa của cả bốn lựa chọn và nét nghĩa quyết định đáp án theo yêu cầu diễn đạt.
+- Cho mở bất kỳ gói theo đoạn; ghi riêng chưa học, đã học chưa hoàn thành và hoàn thành. Đổi gói giữ các đáp án đang làm.
+- Vẫn nộp đủ câu của một gói mới mở phản hồi của gói đó; chỉ làm lại câu sai.
+- Lưu bản mở rộng dưới khóa mới, giữ nguyên bản lưu cũ. Chuyển lịch sử, đáp án và các câu đã PASS từ bản 5 câu sang bản 10 câu.
+- Bổ sung kiểm thử dạng bài hỗn hợp, chọn gói không tuần tự, chuyển tiến độ cũ và bảo toàn 5 câu gốc.
+
 ## 3.1 — 2026-10-29
 
 - Rà toàn bộ 1.440 lời hỏi và hướng dẫn tiếng Việt trên 24 chủ điểm.

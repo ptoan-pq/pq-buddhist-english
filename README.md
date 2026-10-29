@@ -2,7 +2,19 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Chương trình v2
+## Chương trình hiện tại — v4.0
+
+- 24 chủ điểm, 288 đoạn; mỗi đoạn là một gói gồm **5 câu gốc + 5 câu chọn động từ khi dịch**, tổng **2.880 câu**.
+- Động từ được chọn theo ý và sắc thái của đoạn, không bị giới hạn bởi danh sách từ của chủ điểm. Các lựa chọn phân biệt cách thức, cường độ, thời điểm, chủ ý, kết quả và mức khẳng định.
+- Mở bất kỳ gói nào qua ô **Chọn gói theo đoạn** hoặc các nút gói. Không cần PASS gói trước để mở gói khác.
+- Trạng thái riêng: chưa học, đã học chưa hoàn thành, hoàn thành; đổi gói không xóa đáp án dở.
+- Nộp đủ gói mới mở phản hồi; trong gói chỉ làm lại câu sai. Các câu cũ đã PASS được giữ, chỉ bổ sung những câu mới chưa làm.
+- `context-bank.js` giữ nguyên 1.440 câu cũ; `context-verbs.js` bổ sung 1.440 câu mới; `context-lessons.js` ghép thành gói 10 câu. `engine.js` chấm theo dạng riêng của từng câu.
+- Tiến độ mở rộng dùng khóa `pq-english-context-Wxx-verbs-v1`; bản cũ `pq-english-Wxx-v1` không bị ghi đè. Chuyển cả lịch sử và các gói đã học, không gán PASS cho câu mới.
+
+Phần chọn động từ là bài luyện có lựa chọn, không phải chứng nhận đã làm chủ động từ qua tự viết. Các phương án khác có thể đúng ở ngữ cảnh khác; lời giải nêu nét nghĩa cụ thể được yêu cầu trong câu hỏi.
+
+## Chương trình v2 — hồ sơ các file cũ được giữ lại
 
 Giữ nguyên thứ tự và cụm ngôn ngữ của 24 tuần/chủ điểm trong `references/curriculum.md` thuộc Buddhist English Expression Coach v4. Đối chiếu tại [CURRICULUM.md](CURRICULUM.md).
 
@@ -37,7 +49,7 @@ Mỗi chủ điểm có khóa lưu riêng. Khóa `pq-english-progress-v1` đư�
 
 ## Nguồn nội dung
 
-`course.js` là nội dung v1; `curriculum.js`, `lesson-facts.js`, `lesson-language.js` và `lessons.js` chứa chương trình v2. Mỗi câu có tên nguồn và locator trong phần phản hồi. Repository không chứa sách gốc, hồ sơ học viên, lịch sử chat, dữ liệu học cá nhân hay thông tin đăng nhập. Không áp dụng giấy phép mở cho các nguyên tác được dẫn tên.
+`context-bank.js` chứa các đoạn trích và 5 câu gốc theo đoạn; `context-verbs.js` chứa câu bổ sung. `course.js` là nội dung v1; `curriculum.js`, `lesson-facts.js`, `lesson-language.js` và `lessons.js` giữ chương trình v2. Mỗi câu có tên nguồn và locator trong phản hồi. Repository không chứa toàn bộ sách gốc, hồ sơ học viên, lịch sử chat, dữ liệu học cá nhân hay thông tin đăng nhập. Không áp dụng giấy phép mở cho các nguyên tác được dẫn tên.
 
 Đáp án Anh là phương án theo ngữ cảnh; không phải bản dịch bắt buộc của nguyên tác. Bài tập có lựa chọn kiểm tra vận dụng có hỗ trợ, không thay thế đánh giá tự viết hay phát âm. Trang không tạo bài bằng AI trực tiếp.
 
