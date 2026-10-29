@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  const E=window.PQEngine,P=window.PQProject,courses=window.PQCourses,legacy=window.PQCourse,allCourses=[...courses,legacy],states={},blocked=new Set(),SELECTED='pq-english-selected-v2';
+  const E=window.PQEngine,P=window.PQProject,courses=window.PQContextCourses||window.PQCourses,legacy=window.PQCourse,allCourses=[...courses,legacy],states={},blocked=new Set(),SELECTED='pq-english-selected-v3';
   let selected;try{selected=localStorage.getItem(SELECTED);}catch(err){}
   let C=allCourses.find(c=>c.id===selected)||courses[0];
   const main=document.getElementById('main'),warning=document.getElementById('storage-warning');
@@ -33,6 +33,15 @@
     feedback.append(node('p',q.analysis,'analysis'),node('div',`Mẫu cần nhớ · ${q.pattern}`,'pattern'));
     const details=node('details');details.append(node('summary','Nguồn và thuật ngữ'));(q.sources||[q.source]).forEach(s=>details.append(node('div',`${s.title} · ${s.locator}`,'source-ref')));details.append(node('p','Nội dung được biên soạn theo ý Việt trong nguồn. Cách dùng từ Anh ở đây là theo ngữ cảnh, không phải đáp án dịch duy nhất.','helper'));feedback.append(details);card.append(feedback);
   }
+  function contextPanel(set,review){
+    if(!set.context)return null;
+    const box=node('section',undefined,'context-panel');
+    box.append(node('div','Ngữ cảnh nguồn','eyebrow'),node('h2',set.context.title,'context-title'));
+    const vi=node('div',undefined,'context-vietnamese');set.context.vietnamese.split(/\n\n/).forEach(p=>vi.append(node('p',p)));box.append(vi);
+    if(review){const en=node('details');en.open=true;en.append(node('summary','Bản dịch tiếng Anh tham khảo'));set.context.translation.split(/\n\n/).forEach(p=>en.append(node('p',p)));en.append(node('div',`${set.context.source.title} · ${set.context.source.locator}`,'source-ref'));box.append(en);}
+    else box.append(node('p','Đọc toàn đoạn trước khi làm. Bản dịch tiếng Anh sẽ mở sau khi nộp đủ 5 câu.','helper'));
+    return box;
+  }
   function choiceUI(set,q,r,card){
     const options=node('div',undefined,'options');E.shuffled(q.options.length,q.id).forEach((j,position)=>{const key=`${q.id}-option-${j}`,b=button('',()=>choose(set,q,j,key),'option',key);b.setAttribute('aria-pressed',String(r.responses[q.id]===j));b.append(node('span',String.fromCharCode(65+position),'option-letter'),node('span',q.options[j],'option-text'));options.append(b);});card.append(options);
   }
@@ -61,6 +70,7 @@
     const route=node('nav',undefined,'set-route');route.setAttribute('aria-label','Các bộ bài');C.sets.forEach((b,i)=>{const rec=state.sets[b.id],done=rec?.status==='passed',link=button(done?'✓ '+(i+1):String(i+1),()=>{displayed=i;gapFocus={};render();goTop();},`set-number${i===displayed?' active':''}${done?' done':''}`);link.disabled=i>state.active;link.setAttribute('aria-label',`Bộ ${i+1}: ${b.title}${done?' — đã PASS':''}`);if(i===displayed)link.setAttribute('aria-current','step');route.append(link);});main.append(route);
     if(r.status!=='passed'&&r.round.length<set.items.length)main.append(node('div',`Lượt sửa: chỉ hiện ${r.round.length} câu chưa đạt. Các câu đã PASS vẫn được giữ lại.`,'notice'));
     if(displayed<state.active)main.append(node('div','Bạn đang xem lại bộ đã hoàn thành.','notice'));
+    const context=contextPanel(set,review);if(context)main.append(context);
     const list=node('div',undefined,'question-list');indices.forEach(i=>{const q=set.items[i],card=node('section',undefined,'question');card.id=q.id.replace('.','-');card.setAttribute('aria-labelledby',`${card.id}-title`);const head=node('div',undefined,'question-head');head.append(node('span',`Câu ${i+1} / ${set.items.length}`),node('span',q.topic,'topic'));const title=node('h2',q.prompt,'question-title');title.id=`${card.id}-title`;card.append(head,title);if(q.original)card.append(node('div',`Bản dịch cần sửa: ${q.original}`,'original'));
       if(review)reviewCard(set,q,r,card);else if(set.type==='choice')choiceUI(set,q,r,card);else if(set.type==='gaps')gapsUI(set,q,r,card);else if(set.type==='match')matchUI(set,q,r,card);else orderUI(set,q,r,card);list.append(card);});main.append(list);
     const submit=node('div',undefined,'submit-bar'),message=node('span',undefined,'submit-status'),actions=node('div',undefined,'button-group');message.setAttribute('aria-live','polite');
@@ -85,7 +95,7 @@
     const metrics=node('div',undefined,'stats');[[`${stats.passed}/${stats.total}`,'Câu đã PASS'],[`${stats.completedSets}/${C.sets.length}`,'Bộ đã hoàn thành'],[stats.firstTotal?`${Math.round(100*stats.firstCorrect/stats.firstTotal)}%`:'—','Đúng ở lượt nộp đầu']].forEach(([value,label])=>{const stat=node('div',undefined,'stat');stat.append(node('strong',value),node('span',label));metrics.append(stat);});main.append(metrics);
     const tools=node('div',undefined,'button-group');tools.append(button('Tải sao lưu JSON',()=>download('PQ-English-project-v2.backup.json',JSON.stringify(P.exportProject(allCourses,states,C.id),null,2),'application/json'),'primary'),button('Khôi phục từ JSON',()=>document.getElementById('backup-file').click()),button('Tải sổ tay Markdown',downloadNote));main.append(tools,node('p','Không có đồng bộ tài khoản tự động. Xóa dữ liệu trình duyệt có thể xóa tiến độ; bản sao lưu giúp khôi phục. Câu trả lời của bạn không được gửi lên GitHub.','helper'));
     const section=node('section',undefined,'progress-section');section.append(node('h2',C.title));const list=node('ol',undefined,'progress-list');C.sets.forEach((set,i)=>{const r=state.sets[set.id],row=node('li'),name=node('div',`${i+1}. ${set.title}`,'progress-name');name.append(node('small',`${set.phase} · ${set.items.length} câu · ${r?.status==='passed'?'Đã PASS':i===state.active?'Đang học':'Chưa mở'}`));const b=button(r?.status==='passed'?'Xem lại':'Mở bộ',()=>{view='learn';displayed=i;render();goTop();});b.disabled=i>state.active;row.append(name,b);list.append(row);});section.append(list);main.append(section);
-    const info=node('section',undefined,'progress-section');info.append(node('h2','Về nội dung và cách chấm'),node('p','24 chủ điểm lấy nguyên thứ tự và cụm ngôn ngữ trong curriculum.md của Buddhist English Expression Coach v4. Đây là bản chuyển sang học bằng thao tác bấm, không phải 120 buổi nói/viết tự do đã soạn sẵn.'),node('p','Mỗi chủ điểm có 6 bộ × 6 câu: 6 câu làm quen và 30 câu vận dụng. Nguồn Việt quyết định nội dung; đáp án Anh là cách diễn đạt theo ngữ cảnh. Bài chọn và ghép câu không thay thế đánh giá tự viết hoặc phát âm.'));main.append(info);
+    const info=node('section',undefined,'progress-section');info.append(node('h2','Về nội dung và cách chấm'),node('p','24 chủ điểm giữ nguyên thứ tự và trọng tâm trong curriculum.md của Buddhist English Expression Coach v4. Mỗi chủ điểm có 12 ngữ cảnh, mỗi ngữ cảnh 5 câu vận dụng cùng thể loại; tổng cộng 1.440 câu.'),node('p','Nguồn Việt quyết định nội dung; đáp án Anh là cách diễn đạt theo ngữ cảnh. Bạn đọc đoạn trọn vẹn, bấm làm cả nhóm rồi mới mở bản dịch và phân tích.'));main.append(info);
   }
   document.getElementById('backup-file').addEventListener('change',async event=>{
     const file=event.target.files[0];if(!file)return;
@@ -93,9 +103,9 @@
   });
   window.addEventListener('storage',event=>{const course=allCourses.find(c=>P.key(c)===event.key);if(!course||!event.newValue)return;try{states[course.id]=E.validate(course,JSON.parse(event.newValue));if(course.id===C.id){state=states[C.id];displayed=state.active;}render();}catch(err){announce('Tiến độ ở tab khác chưa đọc được. Hãy tải sao lưu trước khi đóng trang.');}});
   function renderCatalog(){
-    heading('Buddhist English Expression Coach v4','Chương trình 24 chủ điểm','Chọn bất kỳ chủ điểm nào bạn muốn học. Mỗi chủ điểm có tiến độ riêng, gồm 6 bộ × 6 câu. Bạn có thể đổi chủ điểm và quay lại đúng chỗ đang dở.');
-    const done=courses.filter(c=>P.complete(c,states[c.id])).length;main.append(node('span',`${done}/24 chủ điểm đã hoàn thành · 864 câu`,'pill'));
-    let phase='';courses.forEach(course=>{if(course.phase!==phase){phase=course.phase;main.append(node('h2',phase,'catalog-phase'));}const card=node('section',undefined,'catalog-card'),status=P.complete(course,states[course.id]);card.append(node('div',`TUẦN ${String(course.week).padStart(2,'0')} · ${course.subtitle}`,'eyebrow'),node('h3',course.title.replace(/^Chủ điểm \d+ — /,''),'catalog-title'),node('p',course.targets.join(' · '),'catalog-targets'));const actions=node('div',undefined,'meta-row');actions.append(node('span',`${status?'Đã PASS':'Sẵn sàng học'} · 36 câu`,'helper'));const b=button(status?'Xem lại':'Học chủ điểm này',()=>openCourse(course),'primary');actions.append(b);card.append(actions);main.append(card);});
+    heading('Buddhist English Expression Coach v4','Chương trình 24 chủ điểm','Chọn bất kỳ chủ điểm nào bạn muốn học. Mỗi chủ điểm có 12 ngữ cảnh × 5 câu, đọc trọn đoạn rồi vận dụng ngay dưới đoạn. Bạn có thể đổi chủ điểm và quay lại đúng chỗ đang dở.');
+    const done=courses.filter(c=>P.complete(c,states[c.id])).length;main.append(node('span',`${done}/24 chủ điểm đã hoàn thành · 1.440 câu`,'pill'));
+    let phase='';courses.forEach(course=>{if(course.phase!==phase){phase=course.phase;main.append(node('h2',phase,'catalog-phase'));}const card=node('section',undefined,'catalog-card'),status=P.complete(course,states[course.id]);card.append(node('div',`TUẦN ${String(course.week).padStart(2,'0')} · ${course.subtitle}`,'eyebrow'),node('h3',course.title.replace(/^Chủ điểm \d+ — /,''),'catalog-title'),node('p',course.targets.join(' · '),'catalog-targets'));const actions=node('div',undefined,'meta-row');actions.append(node('span',`${status?'Đã PASS':'Sẵn sàng học'} · 60 câu · 12 ngữ cảnh`,'helper'));const b=button(status?'Xem lại':'Học chủ điểm này',()=>openCourse(course),'primary');actions.append(b);card.append(actions);main.append(card);});
     const old=node('section',undefined,'note-section');old.append(node('h2','Bản học tổng hợp v1'),node('p','72 câu của bản cũ được giữ riêng cùng tiến độ cũ. Bản này không tính thành chủ điểm 1 của chương trình mới.'));old.append(button('Mở bản cũ và tiến độ',()=>openCourse(legacy)));main.append(old);
   }
   function render(){main.replaceChildren();renderTopicPicker();document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(view==='catalog')renderCatalog();else if(view==='notes')renderNotes();else if(view==='progress')renderProgress();else renderLesson();}
