@@ -8,20 +8,21 @@ test('Two independent programs expose unchanged topics, a new advanced verb cour
   assert.equal(new Set(all.map(c=>c.programId)).size,2);
   assert.equal(new Set(all.map(c=>P.key(c))).size,all.length);
   assert.equal(topics.flatMap(c=>c.sets.flatMap(s=>s.items)).length,1440);
-  assert.equal(verbs.sets.length,12);assert.equal(archive.archive,true);
+  assert.equal(verbs.sets.length,288);assert.equal(archive.archive,true);
+  assert.equal(verbs.sets.flatMap(s=>s.items).length,1452);
   assert.equal(archive.sets.flatMap(s=>s.items).length,1440);
   assert(!topics.some(c=>c.sets.some(s=>s.items.some(q=>q.group?.startsWith('verb-')))));
 });
-test('All 72 authored advanced questions have complete English frames, recalled Vietnamese and source-supported alternatives',()=>{
+test('All 1452 advanced questions have complete frames, recalled Vietnamese and source-supported alternatives',()=>{
   const ids=new Set(),dimensions=new Set();
-  for(const set of verbs.sets){assert.equal(set.items.length,6);for(const q of set.items){
+  for(const set of verbs.sets){assert(set.items.length===5||set.items.length===6);for(const q of set.items){
     assert(!ids.has(q.id));ids.add(q.id);dimensions.add(q.dimension);
-    assert.equal(q.difficulty,'advanced-contextual');assert.equal(q.sentence.split('___').length,2);
-    assert(q.prompt.startsWith(`Câu tiếng Việt: “${q.evidence}”`));assert(set.context.vietnamese.includes(q.evidence));assert(q.evidence.includes(q.sourceCue));
+    assert(q.difficulty.startsWith('advanced-contextual'));assert.equal(q.sentence.split('___').length,2);
+    assert(q.prompt.includes(`“${q.evidence}”`));assert(set.context.vietnamese.includes(q.evidence));assert(q.evidence.includes(q.sourceCue));
     assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);
     assert(q.analysis.includes(q.sentence.replace('___',q.options[q.answer])));
     assert(q.analysis.split('\n')[1].length>70);assert(q.source.locator&&q.source.title);
-  }}assert.equal(ids.size,72);assert(dimensions.size>=24);
+  }}assert.equal(ids.size,1452);assert(dimensions.size>=24);
 });
 test('Advanced sets submit six together, retry only wrong answers, and allow free packet selection',()=>{
   const s=E.create(verbs),set=verbs.sets[0];
@@ -36,7 +37,7 @@ test('Advanced sets submit six together, retry only wrong answers, and allow fre
 });
 test('Displayed answer positions are not biased by using the same shuffle twice',()=>{
   const count=[0,0,0,0];for(const q of verbs.sets.flatMap(s=>s.items))count[E.shuffled(4,q.id).indexOf(q.answer)]++;
-  assert(Math.max(...count)<=30,JSON.stringify(count));assert(Math.min(...count)>=8,JSON.stringify(count));
+  assert(Math.max(...count)-Math.min(...count)<=100,JSON.stringify(count));assert(Math.min(...count)>=250,JSON.stringify(count));
 });
 test('Splitting combined progress retains correct original and archived items but awards no advanced credit',()=>{
   const old=previousCombined(),s=E.create(old),set=old.sets[0];
@@ -64,6 +65,6 @@ test('Old combined JSON imports into both programs and new backups round trip wi
 });
 test('Every advanced packet completes, restores and exports source-aware Markdown',()=>{
   const s=E.create(verbs);for(const set of verbs.sets){for(const q of set.items)E.saveResponse(verbs,s,set.id,q.id,q.answer);E.submit(verbs,s);E.advance(verbs,s);}
-  assert(P.complete(verbs,s));assert.equal(E.statistics(verbs,s).passed,72);
+  assert(P.complete(verbs,s));assert.equal(E.statistics(verbs,s).passed,1452);
   assert.doesNotThrow(()=>E.validate(verbs,JSON.parse(JSON.stringify(s))));assert(E.markdown(verbs,s).includes(verbs.title));
 });

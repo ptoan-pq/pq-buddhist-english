@@ -2,7 +2,13 @@
 
 ## 5.0 — 2026-10-29
 
-- Tách hai chương trình: Diễn đạt Phật học (24 chủ điểm, 1.440 câu gốc) và Master động từ (12 gói riêng × 6 câu nâng cao mới).
+### Mở rộng khóa Master động từ
+
+- Mở rộng từ 72 lên **1.452 câu nâng cao trong 288 gói**, ngang quy mô ngân hàng cơ bản 1.440 câu.
+- Giữ nguyên 72 câu đã biên soạn chuyên sâu; bổ sung 1.380 câu vận dụng theo các đoạn nguồn còn lại của 24 chủ điểm.
+- Mỗi câu mở rộng vẫn nhắc lại câu Việt đầy đủ, cụm nguồn và bốn lựa chọn; tiến độ được chuyển sang khóa `verb-mastery-v2`, không trộn với kho ôn cơ bản.
+
+- Tách hai chương trình: Diễn đạt Phật học (24 chủ điểm, 1.440 câu gốc) và Master động từ (288 gói, 1.452 câu nâng cao).
 - Không còn gói gộp 5 câu gốc + 5 câu động từ. Kho 1.440 câu động từ cũ vẫn được giữ nguyên trong mục ôn cơ bản của khóa động từ.
 - Soạn 72 câu mới với khung câu Anh đầy đủ, câu Việt nhắc ngữ cảnh và phương án nhiễu gần về nghĩa/chức năng. Phản hồi phân biệt căn cứ nhận thức, tác nhân, độ hoàn tất, cường độ và diễn tiến; không chỉ dùng các từ trái nghĩa rõ rệt.
 - Thêm chọn khóa học, danh mục gói động từ độc lập, bộ chọn gói mở tự do và sổ tay/tiến độ riêng.
