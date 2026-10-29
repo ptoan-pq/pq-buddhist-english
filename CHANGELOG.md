@@ -1,5 +1,14 @@
 # Lịch sử phiên bản web
 
+## 5.0 — 2026-10-29
+
+- Tách hai chương trình: Diễn đạt Phật học (24 chủ điểm, 1.440 câu gốc) và Master động từ (12 gói riêng × 6 câu nâng cao mới).
+- Không còn gói gộp 5 câu gốc + 5 câu động từ. Kho 1.440 câu động từ cũ vẫn được giữ nguyên trong mục ôn cơ bản của khóa động từ.
+- Soạn 72 câu mới với khung câu Anh đầy đủ, câu Việt nhắc ngữ cảnh và phương án nhiễu gần về nghĩa/chức năng. Phản hồi phân biệt căn cứ nhận thức, tác nhân, độ hoàn tất, cường độ và diễn tiến; không chỉ dùng các từ trái nghĩa rõ rệt.
+- Thêm chọn khóa học, danh mục gói động từ độc lập, bộ chọn gói mở tự do và sổ tay/tiến độ riêng.
+- Chuyển dữ liệu bộ gộp sang phần gốc và kho ôn theo ID; giữ bản lưu cũ, hỗ trợ nhập JSON cũ, không chuyển PASS cơ bản thành PASS nâng cao.
+- Thêm kiểm thử tách đủ 24 chủ điểm, dữ liệu lỗi, khôi phục/xuất ghi chú, nộp 6 câu cùng lúc và tương tác đổi khóa/giữ lựa chọn qua DOM test double. Không coi kiểm thử DOM là kiểm tra trực quan trình duyệt.
+
 ## 4.1.1 — 2026-10-29
 
 - Hiện lại nguyên câu tiếng Việt chứa ý đang hỏi ngay trong từng câu hỏi động từ, thay vì chỉ đưa cụm rời như “vào được”, “tìm tòi”.

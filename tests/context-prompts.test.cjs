@@ -1,22 +1,26 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const E=require('../engine.js');
+const P=require('../project.js');
 const sandbox={window:{}};
 vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../context-bank.js'),'utf8'),sandbox);
 vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../context-verbs.js'),'utf8'),sandbox);
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../advanced-verbs.js'),'utf8'),sandbox);
 globalThis.PQContextBank=JSON.parse(JSON.stringify(sandbox.window.PQContextBank));
 globalThis.PQVerbBank=JSON.parse(JSON.stringify(sandbox.window.PQVerbBank));
+globalThis.PQAdvancedVerbs=JSON.parse(JSON.stringify(sandbox.window.PQAdvancedVerbs));
 const courses=require('../context-lessons.js');
+const {archive}=require('../verb-lessons.js');
 
-test('Published contextual bank keeps 1440 old questions and appends 1440 verb questions',()=>{
+test('The 24-topic course keeps its 1440 original questions and no longer mixes in verb practice',()=>{
   assert.equal(courses.length,24);
   for(const course of courses){
     assert.equal(course.sets.length,12);
     for(const set of course.sets){
-      assert.equal(set.items.length,10);
+      assert.equal(set.items.length,5);
       const oldBlock=globalThis.PQContextBank.topics.flatMap(t=>t.blocks).find(b=>b.id===set.id);
       for(let i=0;i<5;i++)for(const field of ['id','prompt','options','tokens','parts','answer','accepted','analysis'])assert.deepEqual(set.items[i][field],oldBlock.questions[i][field],set.id+': old '+field);
-      assert(set.items.slice(5).every(q=>q.type==='choice'&&q.group==='verb-nuance'));
+      assert(set.items.every(q=>q.group!=='verb-nuance'&&q.group!=='verb-advanced'));
       for(const q of set.items){
         assert(!/^(Giữ |Sửa |Dịch |That |Those |Depends |From )/.test(q.prompt),q.id);
         assert(!/register|collocation|glossary|\uFFFD/.test(q.prompt),q.id);
@@ -39,7 +43,7 @@ test('Revised prompt text does not break completion, restore or notes in any con
       assert.equal(E.submit(course,state).wrong.length,0);
       E.advance(course,state);
     }
-    assert.equal(E.statistics(course,state).passed,120);
+    assert.equal(E.statistics(course,state).passed,60);
     assert.doesNotThrow(()=>E.validate(course,JSON.parse(JSON.stringify(state))));
     assert(E.markdown(course,state).includes(course.title));
   }
@@ -88,27 +92,27 @@ test('Every verb question repeats its full Vietnamese source sentence before the
   assert(longSentence.length>340);
   assert(globalThis.PQVerbBank.blocks['W03-B01'][0].prompt.includes(longSentence),'Do not crop a long source sentence');
 });
-test('Restating Vietnamese context changes no answer key, option order or storage version',()=>{
+test('The archived verb bank retains every answer key and option order from before the split',()=>{
   const crypto=require('node:crypto');
   const questions=Object.values(globalThis.PQVerbBank.blocks).flat().map(({id,options,answer})=>({id,options,answer}));
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(questions)).digest('hex'),'bcce9b2e3629c3998471e038cbf09915e1ec06f1f80bfa375cb6a27b04adfa2e');
-  for(const c of courses){assert.equal(c.version,`context-bank-v3-${c.week}`);assert.equal(c.storageKey,`pq-english-context-${c.weekId}-verbs-v2`);}
+  assert.equal(archive.sets.flatMap(s=>s.items).length,1440);
 });
-test('Each actual topic migrates a completed 5-question history without losing a single old PASS',()=>{
+test('Every actual combined topic splits into the main course and verb archive without losing PASS history',()=>{
   for(const course of courses){
-    const legacy={...course,version:course.previousVersion,previousVersion:null,freeSets:false,sets:course.sets.map(s=>({...s,items:s.items.slice(0,5)}))};
+    const legacy={...course,version:`context-bank-v3-${course.week}`,previousSources:null,sets:course.sets.map(s=>({...s,items:[...s.items,...archive.sets.find(a=>a.id===s.id).items]}))};
     const old=E.create(legacy);
     for(const set of legacy.sets){for(const q of set.items)E.saveResponse(legacy,old,set.id,q.id,q.answer);E.submit(legacy,old);E.advance(legacy,old);}
-    const expanded=E.validate(course,JSON.parse(JSON.stringify(old)));
+    const expanded=P.migrateSubset(course,[JSON.parse(JSON.stringify(old))]);
+    const separated=P.migrateSubset(archive,[JSON.parse(JSON.stringify(old))]);
     assert.equal(expanded.active,old.active);
     for(const set of course.sets){
-      const r=expanded.sets[set.id];assert.equal(r.passedItems.length,5);assert.equal(r.round.length,5);
-      assert.deepEqual(r.history,old.sets[set.id].history);
-      E.openSet(course,expanded,course.sets.indexOf(set));
-      for(const q of set.items.slice(5))E.saveResponse(course,expanded,set.id,q.id,q.answer);
-      assert.equal(E.submit(course,expanded).wrong.length,0);
+      const r=expanded.sets[set.id];assert.equal(r.passedItems.length,5);assert.equal(r.status,'passed');
+      assert.deepEqual(r.history[0].round,set.items.map(q=>q.id));
+      assert.equal(separated.sets[set.id].passedItems.length,5);assert.equal(separated.sets[set.id].status,'passed');
     }
-    assert.equal(E.statistics(course,expanded).passed,120);
+    assert.equal(E.statistics(course,expanded).passed,60);
+    assert.equal(E.statistics(archive,separated).passed,60);
     assert.doesNotThrow(()=>E.validate(course,expanded));
   }
 });

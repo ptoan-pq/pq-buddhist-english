@@ -2,18 +2,18 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Chương trình hiện tại — v4.1.1
+## Hai khóa học độc lập — v5.0
 
-- 24 chủ điểm, 288 đoạn; mỗi đoạn là một gói gồm **5 câu gốc + 5 câu chọn động từ khi dịch**, tổng **2.880 câu**.
-- Câu động từ phải hỏi cách diễn đạt một ý/cụm có thật trong đoạn Việt, không tự đặt mục tiêu nghĩa mới. Mỗi câu chỉ rõ cụm nguồn; không chọn từ theo một tính từ hoặc từ khóa tình cờ xuất hiện. Động từ không bị giới hạn bởi danh sách từ của chủ điểm.
-- Ngay trong từng câu hỏi động từ, nhắc lại đầy đủ câu tiếng Việt chứa cụm đang hỏi để người học không phải cuộn lên tìm ngữ cảnh. Không cắt giữa câu dài.
-- Mở bất kỳ gói nào qua ô **Chọn gói theo đoạn** hoặc các nút gói. Không cần PASS gói trước để mở gói khác.
-- Trạng thái riêng: chưa học, đã học chưa hoàn thành, hoàn thành; đổi gói không xóa đáp án dở.
-- Nộp đủ gói mới mở phản hồi; trong gói chỉ làm lại câu sai. Các câu cũ đã PASS được giữ, chỉ bổ sung những câu mới chưa làm.
-- `context-bank.js` giữ nguyên 1.440 câu cũ; `context-verbs.js` bổ sung 1.440 câu mới; `context-lessons.js` ghép thành gói 10 câu. `engine.js` chấm theo dạng riêng của từng câu.
-- Tiến độ mới dùng khóa `pq-english-context-Wxx-verbs-v2`; đọc bản trước từ `pq-english-context-Wxx-verbs-v1` hoặc `pq-english-Wxx-v1` mà không ghi đè. Giữ đáp án/lịch sử của 5 câu gốc, bắt đầu lại 5 câu động từ đã viết lại để không diễn giải nhầm đáp án cũ.
+- **Diễn đạt Phật học:** giữ nguyên 1.440 câu gốc, 24 chủ điểm × 12 gói × 5 câu. Không trộn phần động từ bổ sung vào các gói này nữa.
+- **Master động từ:** chương trình riêng, bản đầu có **12 gói nâng cao × 6 câu = 72 câu mới**. Các gói tổ chức theo sự khác nhau về nghĩa, cường độ, tác nhân, căn cứ nhận thức, diễn tiến và kết quả; không đi lại mục lục 24 chủ điểm.
+- Mỗi câu nâng cao có nguyên câu Việt để nhớ ngữ cảnh, một câu Anh khuyết vị ngữ và bốn lựa chọn cùng lĩnh vực/ngữ cảnh nhưng khác một nét nghĩa. Lời giải nêu câu hoàn chỉnh và vì sao từng lựa chọn làm đổi ý nguồn. Không tự động coi một từ đồng nghĩa đúng là sai.
+- **Bộ ôn động từ cơ bản:** 1.440 câu động từ của bản trước được giữ nguyên, truy cập từ bên trong khóa Master động từ. Đây là kho ôn cũ, không phải 1.440 câu nâng cao mới.
+- Đổi khóa bằng **Chọn khóa học**; chọn chủ điểm hoặc gói tùy ý. Tất cả gói của hai chương trình chính đều mở tự do. Nộp đủ 5 hoặc 6 câu mới mở phản hồi; chỉ làm lại câu sai.
+- Tiến độ và sổ tay tách riêng; thay đổi ở khóa này không sửa đáp án khóa kia. Khóa gốc dùng `pq-english-context-Wxx-base-v1`, khóa nâng cao dùng `pq-english-verb-mastery-v1`, kho ôn dùng `pq-english-verb-review-v1`.
+- Chuyển dữ liệu từ bộ gộp v4: giữ câu trả lời/lịch sử hợp lệ của câu gốc và bộ động từ cũ vào đúng kho. Không trao PASS nâng cao từ câu dễ. Khóa lưu cũ không bị ghi đè; JSON cũ vẫn nhập được.
+- `context-bank.js` và `context-verbs.js` không bị sửa/xóa. `context-lessons.js` chỉ tạo chủ điểm gốc; `advanced-verbs.js` và `verb-lessons.js` tạo khóa động từ và kho ôn. `project.js` tách tiến độ theo mã câu.
 
-Phần chọn động từ là bài luyện có lựa chọn, không phải chứng nhận đã làm chủ động từ qua tự viết. Các phương án khác có thể đúng ở ngữ cảnh khác; lời giải phải quay về ý nguồn trong toàn đoạn để giải thích lựa chọn. Không dùng kiểm thử cấu trúc thay cho việc rà ngôn ngữ.
+Phần nâng cao được biên soạn, không được sinh bằng cách thay hàng loạt từ đồng nghĩa vào câu cũ. Độ khó chưa được hiệu chuẩn bằng dữ liệu người học và chưa có rà soát độc lập của người bản xứ. Chọn đáp án đúng không thay thế năng lực tự viết/nói. Kiểm thử chương trình không chứng nhận chất lượng ngôn ngữ.
 
 ## Chương trình v2 — hồ sơ các file cũ được giữ lại
 
