@@ -4009,7 +4009,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Dịch tạo điều kiện dễ hơn, không bảo đảm tức thì.",
+              "prompt": "Chọn câu diễn đạt ý “phước tạo điều kiện dễ hơn”, không bảo đảm tức thì.",
               "evidence": "dễ dàng",
               "analysis": "Easier giữ hỗ trợ chứ không bảo đảm mọi buổi thiền.",
               "options": [
@@ -4023,7 +4023,7 @@ window.PQContextBank={
               "id": "W04-B01-Q01"
             },
             {
-              "prompt": "Giữ phân biệt phước và công đức.",
+              "prompt": "Chọn câu giữ đúng sự phân biệt giữa phước và công đức.",
               "evidence": "Phước được tạo ra từ Đạo đức",
               "analysis": "Merit nêu phước gắn công lao/đạo đức theo đoạn.",
               "options": [
