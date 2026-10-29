@@ -41,7 +41,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn cách xếp loại đúng: Buddhism is…",
+              "prompt": "Chọn cụm hoàn thành câu phân loại: “Buddhism is…”.",
               "evidence": "một tôn giáo lớn",
               "analysis": "A xếp loại; B/C thay tôn giáo bằng cơ sở hoặc hệ thống.",
               "options": [
@@ -55,7 +55,7 @@ window.PQContextBank={
               "id": "W01-B01-Q01"
             },
             {
-              "prompt": "Cụm nào giữ đúng tác nhân sáng lập?",
+              "prompt": "Cụm nào nêu đúng người sáng lập đạo Phật?",
               "evidence": "được sáng lập bởi",
               "analysis": "Founded by nêu người sáng lập, không phải nơi phát sinh.",
               "options": [
@@ -69,7 +69,7 @@ window.PQContextBank={
               "id": "W01-B01-Q02"
             },
             {
-              "prompt": "Dịch mốc thời gian mà không thêm độ chính xác.",
+              "prompt": "Cách diễn đạt nào giữ tính ước lượng của mốc thế kỷ trong nguồn?",
               "evidence": "khoảng thế kỷ thứ 5-6",
               "analysis": "Around giữ xấp xỉ; nguồn không cho một năm chính xác.",
               "options": [
@@ -83,7 +83,7 @@ window.PQContextBank={
               "id": "W01-B01-Q03"
             },
             {
-              "prompt": "Those teachings trong bản Anh quy chiếu tới đâu?",
+              "prompt": "Trong bản Anh, cụm “those teachings” quy chiếu tới điều gì?",
               "evidence": "những lời dạy của Đức Phật",
               "analysis": "Đại từ thay giáo lý, không thay người tu hay nghi lễ.",
               "options": [
@@ -97,7 +97,7 @@ window.PQContextBank={
               "id": "W01-B01-Q04"
             },
             {
-              "prompt": "Chọn câu giữ đủ ba nhiệm vụ của cộng đồng.",
+              "prompt": "Câu nào nêu đủ ba nhiệm vụ của cộng đồng tu sĩ trong đoạn?",
               "evidence": "giữ gìn, truyền bá giáo lý",
               "analysis": "Không bỏ hướng dẫn thực hành hoặc đổi người được hướng dẫn.",
               "options": [
@@ -132,7 +132,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền trục định nghĩa.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cái tốt ở bên trong” trong ngữ cảnh.",
               "evidence": "cái tốt ở bên trong",
               "analysis": "Goodness within không đồng nhất đạo đức với hành vi.",
               "parts": [
@@ -152,7 +152,7 @@ window.PQContextBank={
               "id": "W01-B02-Q01"
             },
             {
-              "prompt": "Điền quan hệ đánh giá.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “được đánh giá bằng” trong ngữ cảnh.",
               "evidence": "được đánh giá bằng",
               "analysis": "Through nêu căn cứ biểu hiện, không phải nguồn sinh đạo đức.",
               "parts": [
@@ -172,7 +172,7 @@ window.PQContextBank={
               "id": "W01-B02-Q02"
             },
             {
-              "prompt": "Giữ chính xác phủ định.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không phải là hành vi” trong ngữ cảnh.",
               "evidence": "không phải là hành vi",
               "analysis": "Not giữ phân biệt khái niệm; không phủ nhận ảnh hưởng.",
               "parts": [
@@ -192,7 +192,7 @@ window.PQContextBank={
               "id": "W01-B02-Q03"
             },
             {
-              "prompt": "Chọn động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chi phối hành vi” trong ngữ cảnh.",
               "evidence": "chi phối hành vi",
               "analysis": "Governs diễn đạt chi phối, không tự thêm bảo đảm mọi hành vi.",
               "parts": [
@@ -212,7 +212,7 @@ window.PQContextBank={
               "id": "W01-B02-Q04"
             },
             {
-              "prompt": "Giữ hình ảnh gốc.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “là gốc” trong ngữ cảnh.",
               "evidence": "là gốc",
               "analysis": "Root giữ quan hệ nền bên trong với biểu hiện bên ngoài.",
               "parts": [
@@ -253,7 +253,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép định nghĩa, giữ nghĩa còn dùng được.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vẫn còn có thể sử dụng được” trong đoạn.",
               "evidence": "vẫn còn có thể sử dụng được",
               "analysis": "Can still be used không bị thu hẹp thành ta còn muốn dùng.",
               "tokens": [
@@ -273,7 +273,7 @@ window.PQContextBank={
               "id": "W01-B03-Q01"
             },
             {
-              "prompt": "Ghép câu diễn đạt truyền thống.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhặt hạt cơm rơi” trong đoạn.",
               "evidence": "nhặt hạt cơm rơi",
               "analysis": "Rather than giữ lựa chọn ăn thay vì bỏ.",
               "tokens": [
@@ -293,7 +293,7 @@ window.PQContextBank={
               "id": "W01-B03-Q02"
             },
             {
-              "prompt": "Ghép câu với quan hệ thời điểm đúng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đến được mâm cơm” trong đoạn.",
               "evidence": "đến được mâm cơm",
               "analysis": "Chặng lao động đi trước lúc hạt cơm đến bàn.",
               "tokens": [
@@ -313,7 +313,7 @@ window.PQContextBank={
               "id": "W01-B03-Q03"
             },
             {
-              "prompt": "Ghép tương phản hạt nhỏ, công lớn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhỏ bé, nhưng chứa đựng” trong đoạn.",
               "evidence": "nhỏ bé, nhưng chứa đựng",
               "analysis": "Yet giữ tương phản, không chuyển thành nguyên nhân.",
               "tokens": [
@@ -333,7 +333,7 @@ window.PQContextBank={
               "id": "W01-B03-Q04"
             },
             {
-              "prompt": "Ghép ý yêu quý hạt cơm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tấm lòng và công lao” trong đoạn.",
               "evidence": "tấm lòng và công lao",
               "analysis": "It chỉ hạt cơm; behind it chỉ công lao gắn với nó.",
               "tokens": [
@@ -377,7 +377,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn bản sửa giữ độ tuyệt đối.",
+              "prompt": "Chọn bản sửa giữ đúng ý Niết-bàn hoàn toàn không còn đau khổ.",
               "evidence": "tuyệt đối không còn đau khổ",
               "analysis": "Nguồn nêu hết khổ tuyệt đối, không phải giảm cảm giác đau.",
               "options": [
@@ -392,7 +392,7 @@ window.PQContextBank={
               "id": "W01-B04-Q01"
             },
             {
-              "prompt": "Sửa phần Chấp ngã.",
+              "prompt": "Chọn bản sửa đúng ý không còn chấp ngã.",
               "evidence": "tuyệt đối không còn Chấp ngã",
               "analysis": "Clinging to a self giữ khái niệm, không đổi thành áp lực xã hội.",
               "options": [
@@ -407,7 +407,7 @@ window.PQContextBank={
               "id": "W01-B04-Q02"
             },
             {
-              "prompt": "Sửa từ nối mở đoạn hai.",
+              "prompt": "Chọn từ nối mở đoạn hai, giữ đúng cách tác giả đổi hướng diễn giải.",
               "evidence": "Nói ngược lại",
               "analysis": "Đoạn hai diễn đạt mặt khẳng định của cùng một trạng thái.",
               "options": [
@@ -422,7 +422,7 @@ window.PQContextBank={
               "id": "W01-B04-Q03"
             },
             {
-              "prompt": "Sửa phạm vi biết rõ.",
+              "prompt": "Chọn bản sửa nêu đúng phạm vi hiểu biết về luân hồi tái sinh.",
               "evidence": "biết rõ luân hồi tái sinh",
               "analysis": "Nguồn kể cả nghiệp và luân hồi; không được đặt phủ định mới.",
               "options": [
@@ -437,7 +437,7 @@ window.PQContextBank={
               "id": "W01-B04-Q04"
             },
             {
-              "prompt": "Sửa quan hệ giữa hai đoạn.",
+              "prompt": "Chọn bản sửa giữ đúng quan hệ giữa hai đoạn: diễn đạt lại, không phủ nhận nhau.",
               "evidence": "Nói ngược lại",
               "analysis": "Hai cách phủ định/khẳng định cùng diễn tả Niết bàn.",
               "options": [
@@ -473,7 +473,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Câu mở đoạn cần quan hệ nào?",
+              "prompt": "Quan hệ nào cần được thể hiện trong câu mở đầu?",
               "evidence": "Mặc dù Thiền",
               "analysis": "Although giữ nhượng bộ giữa mô tả phương pháp và phạm vi đời sống.",
               "options": [
@@ -487,7 +487,7 @@ window.PQContextBank={
               "id": "W01-B05-Q01"
             },
             {
-              "prompt": "That whole chỉ gì?",
+              "prompt": "Cụm “that whole” quy chiếu tới toàn bộ điều gì?",
               "evidence": "một tổng thể của con người",
               "analysis": "Quy chiếu tới tổng thể con người, không phải nhóm kỹ thuật.",
               "options": [
@@ -501,7 +501,7 @@ window.PQContextBank={
               "id": "W01-B05-Q02"
             },
             {
-              "prompt": "Chọn danh sách giữ các phạm trù riêng.",
+              "prompt": "Danh sách nào giữ các yếu tố trong đoạn thành những phạm trù riêng?",
               "evidence": "Sức khỏe, Đạo đức, Giới hạnh",
               "analysis": "Không đồng nhất công đức với sức khỏe hoặc bỏ giới hạnh.",
               "options": [
@@ -515,7 +515,7 @@ window.PQContextBank={
               "id": "W01-B05-Q03"
             },
             {
-              "prompt": "Dịch điều kiện cuối mà không hứa thành công.",
+              "prompt": "Câu nào giữ đúng điều kiện cuối đoạn mà không hứa chắc thành công?",
               "evidence": "Thiếu một trong",
               "analysis": "Thiếu một thì không thể; đủ chúng chưa được nói là bảo đảm.",
               "options": [
@@ -529,7 +529,7 @@ window.PQContextBank={
               "id": "W01-B05-Q04"
             },
             {
-              "prompt": "Cụm diễn đạt nhiếp tâm phù hợp?",
+              "prompt": "Cụm nào diễn đạt “nhiếp tâm” phù hợp với ngữ cảnh?",
               "evidence": "nhiếp tâm",
               "analysis": "Gather the mind nói thu nhiếp, không nói ép ngừng cơ thể.",
               "options": [
@@ -567,7 +567,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền cụm định nghĩa hà tiện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không chịu đem ra sử dụng” trong ngữ cảnh.",
               "evidence": "không chịu đem ra sử dụng",
               "analysis": "Refusing nhấn sự không chịu, không phải không có tiền.",
               "parts": [
@@ -587,7 +587,7 @@ window.PQContextBank={
               "id": "W01-B06-Q01"
             },
             {
-              "prompt": "Giữ quan hệ dù biết hại tình nghĩa.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù biết có thể mất đi tình nghĩa” trong ngữ cảnh.",
               "evidence": "dù biết có thể mất đi tình nghĩa",
               "analysis": "Though giữ nhượng bộ; because đảo động cơ.",
               "parts": [
@@ -607,7 +607,7 @@ window.PQContextBank={
               "id": "W01-B06-Q02"
             },
             {
-              "prompt": "Điền cấu trúc huống chi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chứ đừng nói đến” trong ngữ cảnh.",
               "evidence": "chứ đừng nói đến",
               "analysis": "Let alone nối việc lớn hơn sau việc nhỏ còn không chịu.",
               "parts": [
@@ -627,7 +627,7 @@ window.PQContextBank={
               "id": "W01-B06-Q03"
             },
             {
-              "prompt": "Giữ mức cảnh báo tương lai.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “sẽ cực kỳ nghèo khổ” trong ngữ cảnh.",
               "evidence": "sẽ cực kỳ nghèo khổ",
               "analysis": "Will giữ lời khẳng định của tác giả, không tự hạ thành đôi khi.",
               "parts": [
@@ -647,7 +647,7 @@ window.PQContextBank={
               "id": "W01-B06-Q04"
             },
             {
-              "prompt": "Giữ hai phẩm chất cùng có.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhưng cũng rất tiết kiệm” trong ngữ cảnh.",
               "evidence": "nhưng cũng rất tiết kiệm",
               "analysis": "Yet giữ khả năng vừa giúp rộng rãi vừa tiết kiệm.",
               "parts": [
@@ -691,7 +691,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép tên gọi nơi loài người.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nơi loài người gọi là Công lý” trong đoạn.",
               "evidence": "nơi loài người gọi là Công lý",
               "analysis": "Among human beings xác định phạm vi của tên gọi.",
               "tokens": [
@@ -711,7 +711,7 @@ window.PQContextBank={
               "id": "W01-B07-Q01"
             },
             {
-              "prompt": "Ghép nguyên nhân giới hạn công lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bị tác động bởi lợi ích riêng tư” trong đoạn.",
               "evidence": "bị tác động bởi lợi ích riêng tư",
               "analysis": "Private interests là lực tác động, không là người chịu công lý.",
               "tokens": [
@@ -731,7 +731,7 @@ window.PQContextBank={
               "id": "W01-B07-Q02"
             },
             {
-              "prompt": "Ghép mức độ gần tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “gần như tuyệt đối” trong đoạn.",
               "evidence": "gần như tuyệt đối",
               "analysis": "Almost giữ giới hạn; không nâng thành hoàn toàn.",
               "tokens": [
@@ -751,7 +751,7 @@ window.PQContextBank={
               "id": "W01-B07-Q03"
             },
             {
-              "prompt": "Ghép phần nhượng bộ còn tình cảm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhưng chư thiên vẫn còn tình cảm” trong đoạn.",
               "evidence": "nhưng chư thiên vẫn còn tình cảm",
               "analysis": "Though nói giới hạn còn lại trong tính công tâm.",
               "tokens": [
@@ -771,7 +771,7 @@ window.PQContextBank={
               "id": "W01-B07-Q04"
             },
             {
-              "prompt": "Ghép lời yêu cầu tìm hiểu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “càng thấu đáo càng tốt” trong đoạn.",
               "evidence": "càng thấu đáo càng tốt",
               "analysis": "Must giữ yêu cầu; as thoroughly as possible giữ mức tối đa.",
               "tokens": [
@@ -812,7 +812,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa đúng chiều quan tâm.",
+              "prompt": "Chọn bản sửa xác định đúng người quan tâm và người được quan tâm.",
               "evidence": "quan tâm đến những người khác",
               "analysis": "Chủ thể quan tâm là ta; không đảo người cho/nhận.",
               "options": [
@@ -827,7 +827,7 @@ window.PQContextBank={
               "id": "W01-B08-Q01"
             },
             {
-              "prompt": "Sửa phạm vi so sánh.",
+              "prompt": "Chọn bản sửa giữ đúng mức so sánh “thậm chí còn hơn”.",
               "evidence": "thậm chí còn hơn",
               "analysis": "Even more than giữ mức so sánh, không xóa bản thân hoàn toàn.",
               "options": [
@@ -842,7 +842,7 @@ window.PQContextBank={
               "id": "W01-B08-Q02"
             },
             {
-              "prompt": "Sửa chuỗi nhận biết rồi giúp.",
+              "prompt": "Chọn bản sửa giữ trình tự: nhận biết khó khăn rồi tìm cách giúp đỡ.",
               "evidence": "để tìm cách giúp đỡ",
               "analysis": "Notice leads to looking for help, không thành công cá nhân.",
               "options": [
@@ -857,7 +857,7 @@ window.PQContextBank={
               "id": "W01-B08-Q03"
             },
             {
-              "prompt": "Sửa lượng và tần suất.",
+              "prompt": "Chọn bản sửa giữ đúng mức độ và tần suất giúp đỡ trong nguồn.",
               "evidence": "Có khi chúng ta chỉ giúp",
               "analysis": "Sometimes/at other times giữ đa dạng mức giúp.",
               "options": [
@@ -872,7 +872,7 @@ window.PQContextBank={
               "id": "W01-B08-Q04"
             },
             {
-              "prompt": "Sửa collocation.",
+              "prompt": "Chọn cách kết hợp từ tự nhiên để nói về việc giúp người vượt qua khó khăn.",
               "evidence": "giúp người qua lúc khó khăn",
               "analysis": "Help someone through là giúp vượt thời kỳ khó.",
               "options": [
@@ -911,7 +911,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn cách diễn đạt phân loại hai cõi đầu.",
+              "prompt": "Cách diễn đạt nào phân loại đúng hai cõi đầu tiên trong đoạn?",
               "evidence": "cõi Người và cõi Thú",
               "analysis": "In nêu phạm vi cõi, không nói nguồn loài.",
               "options": [
@@ -925,7 +925,7 @@ window.PQContextBank={
               "id": "W01-B09-Q01"
             },
             {
-              "prompt": "Starting again as embryos giữ ý nào?",
+              "prompt": "Cụm “starting again as embryos” diễn đạt ý nào?",
               "evidence": "làm lại từ đầu",
               "analysis": "Starting again giữ khởi đầu sinh học mới trong nguồn.",
               "options": [
@@ -939,7 +939,7 @@ window.PQContextBank={
               "id": "W01-B09-Q02"
             },
             {
-              "prompt": "The other four realms giữ quan hệ nào?",
+              "prompt": "Cụm “the other four realms” thể hiện quan hệ nào với hai cõi đã nêu?",
               "evidence": "Còn bốn cõi kia",
               "analysis": "Other phân nhóm đối chiếu, không nâng thứ bậc.",
               "options": [
@@ -953,7 +953,7 @@ window.PQContextBank={
               "id": "W01-B09-Q03"
             },
             {
-              "prompt": "Cụm gloss giải nghĩa Hóa sinh phù hợp?",
+              "prompt": "Cụm nào giải nghĩa “hóa sinh” phù hợp với đoạn?",
               "evidence": "biến đổi thành đời sống mới",
               "analysis": "Gloss truyền nghĩa có sẵn trong ngoặc nguồn.",
               "options": [
@@ -967,7 +967,7 @@ window.PQContextBank={
               "id": "W01-B09-Q04"
             },
             {
-              "prompt": "Hai điều kiện được nối thế nào ở cõi Trời?",
+              "prompt": "Cách diễn đạt nào nối đúng hai điều kiện được nêu về cõi Trời?",
               "evidence": "cộng với một nội tâm",
               "analysis": "And also giữ hai thành phần, không thay bằng either/or.",
               "options": [
@@ -1008,7 +1008,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền đúng thuật ngữ định nghĩa.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Chánh Kiến” trong ngữ cảnh.",
               "evidence": "Chánh Kiến",
               "analysis": "Right View không được đổi thành một chi phần khác.",
               "parts": [
@@ -1028,7 +1028,7 @@ window.PQContextBank={
               "id": "W01-B10-Q01"
             },
             {
-              "prompt": "Giữ mức một nền tảng quan trọng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một nền tảng quan trọng” trong ngữ cảnh.",
               "evidence": "một nền tảng quan trọng",
               "analysis": "An important foundation không đồng nghĩa toàn bộ giáo lý.",
               "parts": [
@@ -1048,7 +1048,7 @@ window.PQContextBank={
               "id": "W01-B10-Q02"
             },
             {
-              "prompt": "Điền kết quả đóng góp, không bảo đảm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “góp phần hoàn thiện” trong ngữ cảnh.",
               "evidence": "góp phần hoàn thiện",
               "analysis": "Contributes to giữ quan hệ hỗ trợ, không hứa hoàn hảo tức thì.",
               "parts": [
@@ -1068,7 +1068,7 @@ window.PQContextBank={
               "id": "W01-B10-Q03"
             },
             {
-              "prompt": "Giữ hình ảnh định hướng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tấm bản đồ” trong ngữ cảnh.",
               "evidence": "tấm bản đồ",
               "analysis": "Map mang hướng đi; không tự thêm người cầm lái.",
               "parts": [
@@ -1088,7 +1088,7 @@ window.PQContextBank={
               "id": "W01-B10-Q04"
             },
             {
-              "prompt": "Điền nhượng bộ bất chấp nỗ lực.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù có gắng công tu tập” trong ngữ cảnh.",
               "evidence": "dù có gắng công tu tập",
               "analysis": "However hard giữ nỗ lực không đủ cứu bản đồ sai.",
               "parts": [
@@ -1129,7 +1129,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép lý do xếp khiêm hạ vào đạo đức.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thúc đẩy ta phải tôn trọng” trong đoạn.",
               "evidence": "thúc đẩy ta phải tôn trọng",
               "analysis": "Because đưa đúng lý do, không phải mục đích kiếm danh.",
               "tokens": [
@@ -1149,7 +1149,7 @@ window.PQContextBank={
               "id": "W01-B11-Q01"
             },
             {
-              "prompt": "Ghép nhu cầu được nhìn nhận giá trị.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cần được xem là có giá trị” trong đoạn.",
               "evidence": "cần được xem là có giá trị",
               "analysis": "Passive giữ con người là người được nhìn nhận.",
               "tokens": [
@@ -1169,7 +1169,7 @@ window.PQContextBank={
               "id": "W01-B11-Q02"
             },
             {
-              "prompt": "Ghép hành động đem an vui.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tôn trọng chân thành” trong đoạn.",
               "evidence": "tôn trọng chân thành",
               "analysis": "Sincerely bổ nghĩa respect, không chứng nhận người khác hoàn hảo.",
               "tokens": [
@@ -1189,7 +1189,7 @@ window.PQContextBank={
               "id": "W01-B11-Q03"
             },
             {
-              "prompt": "Ghép điều kiện không thấy mình hơn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đừng thấy mình hơn người” trong đoạn.",
               "evidence": "đừng thấy mình hơn người",
               "analysis": "Must not giữ lời răn và chủ thể tự đánh giá.",
               "tokens": [
@@ -1209,7 +1209,7 @@ window.PQContextBank={
               "id": "W01-B11-Q04"
             },
             {
-              "prompt": "Ghép nhận biết giới hạn bản thân.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhỏ bé kém cỏi” trong đoạn.",
               "evidence": "nhỏ bé kém cỏi",
               "analysis": "Our own xác định đối tượng tự xét.",
               "tokens": [
@@ -1256,7 +1256,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa định nghĩa độ sáng.",
+              "prompt": "Chọn bản sửa giữ đúng mức “sáng suốt tột cùng” trong định nghĩa.",
               "evidence": "sáng suốt tột cùng",
               "analysis": "Utmost clarity giữ mức tột cùng, không đổi thành quan điểm.",
               "options": [
@@ -1271,7 +1271,7 @@ window.PQContextBank={
               "id": "W01-B12-Q01"
             },
             {
-              "prompt": "Sửa phân biệt trong ngoặc.",
+              "prompt": "Chọn bản sửa giữ đúng phần giải thích về cái tôi trong ngoặc.",
               "evidence": "xem cái tôi là quan trọng",
               "analysis": "Nguồn gán việc coi tôi quan trọng cho chấp ngã.",
               "options": [
@@ -1286,7 +1286,7 @@ window.PQContextBank={
               "id": "W01-B12-Q02"
             },
             {
-              "prompt": "Sửa điều kiện thời điểm.",
+              "prompt": "Chọn bản sửa giữ đúng điều kiện đã đạt Niết-bàn trọn vẹn.",
               "evidence": "nếu đã đạt được Niết bàn trọn vẹn",
               "analysis": "Once diễn đạt điều kiện đã hoàn tất, không đảo trước/sau.",
               "options": [
@@ -1301,7 +1301,7 @@ window.PQContextBank={
               "id": "W01-B12-Q03"
             },
             {
-              "prompt": "Sửa phần chưa giải thoát hoàn toàn.",
+              "prompt": "Chọn bản sửa đúng với trường hợp chưa hoàn toàn giải thoát.",
               "evidence": "chưa đạt hoàn toàn sự giải thoát",
               "analysis": "If/not yet giữ trường hợp còn tu, không gom mọi đệ tử.",
               "options": [
@@ -1316,7 +1316,7 @@ window.PQContextBank={
               "id": "W01-B12-Q04"
             },
             {
-              "prompt": "Sửa quan hệ đến khi.",
+              "prompt": "Chọn bản sửa giữ quan hệ thời gian “cho đến khi đạt được”.",
               "evidence": "cho đến khi đạt được",
               "analysis": "Until xác định đích tiếp tục tu, không chuyển sang sau đích.",
               "options": [
@@ -1372,7 +1372,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ chiều tác động: whatever…",
+              "prompt": "Câu nào diễn đạt đúng điều ta gây ra cho người khác và tác động quay trở lại?",
               "evidence": "chúng ta gây ra cho kẻ khác",
               "analysis": "Ta gây ra, rồi ta nhận lại; không đảo người làm.",
               "options": [
@@ -1386,7 +1386,7 @@ window.PQContextBank={
               "id": "W02-B01-Q01"
             },
             {
-              "prompt": "Dịch một cách công bằng.",
+              "prompt": "Cụm nào diễn đạt đúng ý “một cách công bằng”?",
               "evidence": "một cách công bằng",
               "analysis": "Fairly nêu tính công bằng, không phải tốc độ.",
               "options": [
@@ -1400,7 +1400,7 @@ window.PQContextBank={
               "id": "W02-B01-Q02"
             },
             {
-              "prompt": "Chọn từ nối trước quan điểm riêng về hạnh phúc.",
+              "prompt": "Chọn từ nối để chuyển sang bàn về quan niệm hạnh phúc của mỗi người.",
               "evidence": "Còn hạnh phúc là gì",
               "analysis": "However tách quy luật trở lại khỏi định nghĩa mỗi người.",
               "options": [
@@ -1414,7 +1414,7 @@ window.PQContextBank={
               "id": "W02-B01-Q03"
             },
             {
-              "prompt": "Depends on giữ gì?",
+              "prompt": "Cụm “depends on” nêu sự phụ thuộc vào yếu tố nào?",
               "evidence": "tùy theo quan điểm",
               "analysis": "Phụ thuộc vào quan điểm, không phải do luật cho một định nghĩa duy nhất.",
               "options": [
@@ -1428,7 +1428,7 @@ window.PQContextBank={
               "id": "W02-B01-Q04"
             },
             {
-              "prompt": "Giữ lực của sẽ trở lại.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của ý “sẽ trở lại”?",
               "evidence": "sẽ trở lại",
               "analysis": "Will giữ sự khẳng định của nguồn, không sửa thành dự đoán khoa học.",
               "options": [
@@ -1466,7 +1466,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ điều kiện giả định xã hội.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nếu Luật Nhân Quả” trong ngữ cảnh.",
               "evidence": "Nếu Luật Nhân Quả",
               "analysis": "If/would giữ giả định chứ không khẳng định sự việc đã xong.",
               "parts": [
@@ -1486,7 +1486,7 @@ window.PQContextBank={
               "id": "W02-B02-Q01"
             },
             {
-              "prompt": "Chọn động từ với hạnh phúc.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đi tìm hạnh phúc” trong ngữ cảnh.",
               "evidence": "đi tìm hạnh phúc",
               "analysis": "Seek happiness là mưu tìm, không phải yêu cầu trả nợ.",
               "parts": [
@@ -1506,7 +1506,7 @@ window.PQContextBank={
               "id": "W02-B02-Q02"
             },
             {
-              "prompt": "Giữ phủ định đầy đủ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không bao giờ” trong ngữ cảnh.",
               "evidence": "không bao giờ",
               "analysis": "Never không được hạ thành hiếm khi.",
               "parts": [
@@ -1526,7 +1526,7 @@ window.PQContextBank={
               "id": "W02-B02-Q03"
             },
             {
-              "prompt": "Điền quan hệ phương thức.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “bằng cách đem niềm vui” trong ngữ cảnh.",
               "evidence": "bằng cách đem niềm vui",
               "analysis": "By + V-ing nêu cách tìm hạnh phúc.",
               "parts": [
@@ -1546,7 +1546,7 @@ window.PQContextBank={
               "id": "W02-B02-Q04"
             },
             {
-              "prompt": "Giữ mức gấp bội lần.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “gấp bội lần” trong ngữ cảnh.",
               "evidence": "gấp bội lần",
               "analysis": "Many times over chỉ mức tăng, không phải lịch trả đúng ngày.",
               "parts": [
@@ -1593,7 +1593,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép hai vai trò song song.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nghiệp được xem là nguyên nhân” trong đoạn.",
               "evidence": "Nghiệp được xem là nguyên nhân",
               "analysis": "While nối song song, không đảo cause/result.",
               "tokens": [
@@ -1613,7 +1613,7 @@ window.PQContextBank={
               "id": "W02-B03-Q01"
             },
             {
-              "prompt": "Ghép phạm vi tên gọi rộng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một phạm vi quá rộng” trong đoạn.",
               "evidence": "một phạm vi quá rộng",
               "analysis": "Including mở danh sách dạng nhân quả.",
               "tokens": [
@@ -1633,7 +1633,7 @@ window.PQContextBank={
               "id": "W02-B03-Q02"
             },
             {
-              "prompt": "Ghép nghĩa chuyên biệt của nghiệp báo.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thiện ác” trong đoạn.",
               "evidence": "thiện ác",
               "analysis": "Specifically giữ phạm vi thiện ác.",
               "tokens": [
@@ -1653,7 +1653,7 @@ window.PQContextBank={
               "id": "W02-B03-Q03"
             },
             {
-              "prompt": "Ghép ví dụ lửa và nước sôi.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ngọn lửa là nguyên nhân” trong đoạn.",
               "evidence": "ngọn lửa là nguyên nhân",
               "analysis": "Cause là fire, result là boiling water.",
               "tokens": [
@@ -1673,7 +1673,7 @@ window.PQContextBank={
               "id": "W02-B03-Q04"
             },
             {
-              "prompt": "Ghép quan hệ nhiên liệu làm xe khởi động.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhờ nhiên liệu” trong đoạn.",
               "evidence": "nhờ nhiên liệu",
               "analysis": "Because giữ nhân quả vật lý.",
               "tokens": [
@@ -1714,7 +1714,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa vai trò điều kiện.",
+              "prompt": "Chọn bản sửa giữ đúng vai trò của các điều kiện bổ sung.",
               "evidence": "điều kiện được bổ sung",
               "analysis": "Các điều kiện được thêm cho hạt, không do hạt tạo ra.",
               "options": [
@@ -1729,7 +1729,7 @@ window.PQContextBank={
               "id": "W02-B04-Q01"
             },
             {
-              "prompt": "Sửa thứ tự phát triển.",
+              "prompt": "Chọn bản sửa giữ đúng trình tự nảy mầm, thành cây rồi kết trái.",
               "evidence": "nẩy mầm, thành cây, kết trái",
               "analysis": "Giữ thứ tự nảy mầm→cây→quả.",
               "options": [
@@ -1744,7 +1744,7 @@ window.PQContextBank={
               "id": "W02-B04-Q02"
             },
             {
-              "prompt": "Sửa sức chứng minh của hình ảnh.",
+              "prompt": "Chọn bản sửa coi hình ảnh là ví dụ minh họa, không phải bằng chứng tuyệt đối.",
               "evidence": "để minh họa",
               "analysis": "Illustrate là minh họa, không phải chứng minh mọi chi tiết.",
               "options": [
@@ -1759,7 +1759,7 @@ window.PQContextBank={
               "id": "W02-B04-Q03"
             },
             {
-              "prompt": "Sửa quan hệ nhượng bộ.",
+              "prompt": "Chọn bản sửa giữ đúng quan hệ nhượng bộ trong đoạn.",
               "evidence": "mặc dù",
               "analysis": "Although giữ sự khác biệt dù dùng làm ví dụ.",
               "options": [
@@ -1774,7 +1774,7 @@ window.PQContextBank={
               "id": "W02-B04-Q04"
             },
             {
-              "prompt": "Sửa đối tượng được ví.",
+              "prompt": "Chọn bản sửa xác định đúng đối tượng mà hình ảnh dùng để minh họa.",
               "evidence": "hình ảnh này",
               "analysis": "Image là ví dụ thực vật, không nhân cách hóa thành người phán xét.",
               "options": [
@@ -1810,7 +1810,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ đối tượng bị phê phán.",
+              "prompt": "Câu nào xác định đúng đối tượng bị phê phán là sự đòi hỏi tiện nghi quá mức?",
               "evidence": "tiện nghi quá đáng",
               "analysis": "Excessive giữ mức quá đáng, không quy mọi tiện nghi thành sai.",
               "options": [
@@ -1824,7 +1824,7 @@ window.PQContextBank={
               "id": "W02-B05-Q01"
             },
             {
-              "prompt": "Chọn động từ trung tâm cho ảnh hưởng.",
+              "prompt": "Chọn động từ diễn đạt đúng tác động gây tổn hại môi trường.",
               "evidence": "đưa đến sự phá hoại",
               "analysis": "Damages nói tác động gây hại, không phải chỉ đo đạc.",
               "options": [
@@ -1838,7 +1838,7 @@ window.PQContextBank={
               "id": "W02-B05-Q02"
             },
             {
-              "prompt": "Rather than giữ quan hệ gì?",
+              "prompt": "Cụm “rather than” thể hiện quan hệ gì?",
               "evidence": "hơn là cứ mãi đòi hỏi",
               "analysis": "Đề xuất hướng sống thay thói đòi hỏi; không phải hai việc đồng thời.",
               "options": [
@@ -1852,7 +1852,7 @@ window.PQContextBank={
               "id": "W02-B05-Q03"
             },
             {
-              "prompt": "Giữ ý tập sống.",
+              "prompt": "Câu nào giữ đúng ý khuyên tập sống giản dị?",
               "evidence": "nên tập sống",
               "analysis": "Learn to live có tiến trình rèn, không tự thêm ép buộc cư trú.",
               "options": [
@@ -1866,7 +1866,7 @@ window.PQContextBank={
               "id": "W02-B05-Q04"
             },
             {
-              "prompt": "Limited capacity to bear the strain dịch gì?",
+              "prompt": "Cụm “limited capacity to bear the strain” diễn đạt giới hạn nào?",
               "evidence": "sức chịu đựng có hạn",
               "analysis": "Giới hạn chịu tải, không phải vô hạn hồi phục.",
               "options": [
@@ -1901,7 +1901,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Dịch vô học đúng ngữ cảnh, không thành thất học.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “được xem là vô học” trong ngữ cảnh.",
               "evidence": "được xem là vô học",
               "analysis": "No further training nói hoàn tất tu học, không thiếu giáo dục.",
               "parts": [
@@ -1921,7 +1921,7 @@ window.PQContextBank={
               "id": "W02-B06-Q01"
             },
             {
-              "prompt": "Giữ cấu trúc ngay cả…vẫn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ngay cả các hàng Alahán” trong ngữ cảnh.",
               "evidence": "Ngay cả các hàng Alahán",
               "analysis": "Even/still giữ nhượng bộ mức cao.",
               "parts": [
@@ -1941,7 +1941,7 @@ window.PQContextBank={
               "id": "W02-B06-Q02"
             },
             {
-              "prompt": "Điền điều kiện sử dụng kiến thức.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu quay lại cứu độ mọi người” trong ngữ cảnh.",
               "evidence": "nếu quay lại cứu độ mọi người",
               "analysis": "If giữ phạm vi khi trở lại giúp người.",
               "parts": [
@@ -1961,7 +1961,7 @@ window.PQContextBank={
               "id": "W02-B06-Q03"
             },
             {
-              "prompt": "Giữ chủ thể của quan sát khoa học.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ông Krishnamurti” trong ngữ cảnh.",
               "evidence": "Ông Krishnamurti",
               "analysis": "Tên riêng là người quan sát, không phải điều được nghiên cứu.",
               "parts": [
@@ -1981,7 +1981,7 @@ window.PQContextBank={
               "id": "W02-B06-Q04"
             },
             {
-              "prompt": "Giữ tần suất không bao giờ xao lãng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không bao giờ xao lãng” trong ngữ cảnh.",
               "evidence": "không bao giờ xao lãng",
               "analysis": "Never giữ mức tần suất, không đổi thành một lần.",
               "parts": [
@@ -2022,7 +2022,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép nguyên nhân vị trụ trì sai.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “do thiếu kiến thức” trong đoạn.",
               "evidence": "do thiếu kiến thức",
               "analysis": "Through lack of knowledge không phải cộng đồng thiếu kiến thức.",
               "tokens": [
@@ -2042,7 +2042,7 @@ window.PQContextBank={
               "id": "W02-B07-Q01"
             },
             {
-              "prompt": "Ghép hai lĩnh vực bị ảnh hưởng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “sức khỏe và tâm linh” trong đoạn.",
               "evidence": "sức khỏe và tâm linh",
               "analysis": "Hai tân ngữ phải đều thuộc cộng đồng.",
               "tokens": [
@@ -2062,7 +2062,7 @@ window.PQContextBank={
               "id": "W02-B07-Q02"
             },
             {
-              "prompt": "Ghép vai trò nhà thuyết pháp.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Một nhà thuyết pháp” trong đoạn.",
               "evidence": "Một nhà thuyết pháp",
               "analysis": "A Dharma teacher là người giải thích, không phải giáo lý tự nói.",
               "tokens": [
@@ -2082,7 +2082,7 @@ window.PQContextBank={
               "id": "W02-B07-Q03"
             },
             {
-              "prompt": "Ghép hệ quả mê tín.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “gây mê tín” trong đoạn.",
               "evidence": "gây mê tín",
               "analysis": "Fostering diễn đạt gây/nuôi mê tín theo nguồn.",
               "tokens": [
@@ -2102,7 +2102,7 @@ window.PQContextBank={
               "id": "W02-B07-Q04"
             },
             {
-              "prompt": "Ghép hai hệ quả song song.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “làm giảm giá trị của đạo” trong đoạn.",
               "evidence": "làm giảm giá trị của đạo",
               "analysis": "Diminishing không phải làm giảm số lượng tôn giáo.",
               "tokens": [
@@ -2149,7 +2149,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa tác nhân ví dụ đầu.",
+              "prompt": "Chọn bản sửa xác định đúng người thực hiện hành vi trong ví dụ đầu.",
               "evidence": "kẻ phạm tội",
               "analysis": "Người phạm tội bị bắt; nhà tù không là tác nhân tội.",
               "options": [
@@ -2164,7 +2164,7 @@ window.PQContextBank={
               "id": "W02-B08-Q01"
             },
             {
-              "prompt": "Sửa chiều khen thưởng.",
+              "prompt": "Chọn bản sửa xác định đúng người được khen thưởng và thăng chức.",
               "evidence": "ông được khen thưởng và thăng chức",
               "analysis": "Doctor là người nhận khen thưởng, không phải bệnh nhân.",
               "options": [
@@ -2179,7 +2179,7 @@ window.PQContextBank={
               "id": "W02-B08-Q02"
             },
             {
-              "prompt": "Sửa kết luận toàn đoạn.",
+              "prompt": "Chọn bản sửa giữ kết luận: công lý con người chưa hoàn toàn công bằng.",
               "evidence": "chưa đạt đến sự công bình tuyệt đối",
               "analysis": "Yet giới hạn ví dụ, không chứng nhận luật người hoàn hảo.",
               "options": [
@@ -2194,7 +2194,7 @@ window.PQContextBank={
               "id": "W02-B08-Q03"
             },
             {
-              "prompt": "Sửa thành ngữ che mắt luật pháp.",
+              "prompt": "Chọn cách diễn đạt đúng thành ngữ “che mắt luật pháp”.",
               "evidence": "che mắt luật pháp",
               "analysis": "Deceive the law nói tránh bị phát hiện/xử lý, không nhắm mắt.",
               "options": [
@@ -2209,7 +2209,7 @@ window.PQContextBank={
               "id": "W02-B08-Q04"
             },
             {
-              "prompt": "Sửa phủ định nguyên nhân.",
+              "prompt": "Chọn bản sửa giữ đúng lý do “không ăn cánh với kẻ xấu”.",
               "evidence": "không ăn cánh với kẻ xấu",
               "analysis": "Because they refuse giữ phủ định và lý do bị trù dập.",
               "options": [
@@ -2248,7 +2248,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ phép lược ở vế sau: an evil action…",
+              "prompt": "Chọn cách hoàn thành vế “an evil action…” sao cho song song với vế trước.",
               "evidence": "một kết quả khổ",
               "analysis": "A painful one thay result, không thay người làm.",
               "options": [
@@ -2262,7 +2262,7 @@ window.PQContextBank={
               "id": "W02-B09-Q01"
             },
             {
-              "prompt": "Thường san sẻ vật chất giữ tần suất nào?",
+              "prompt": "Cụm nào giữ đúng tần suất của ý “hay san sẻ vật chất”?",
               "evidence": "hay san sẻ vật chất",
               "analysis": "Often nói thói quen, không phải một lần duy nhất.",
               "options": [
@@ -2276,7 +2276,7 @@ window.PQContextBank={
               "id": "W02-B09-Q02"
             },
             {
-              "prompt": "However trước đoạn hai làm gì?",
+              "prompt": "Từ “however” ở đầu đoạn hai có chức năng gì?",
               "evidence": "Tuy nhiên",
               "analysis": "Đưa yêu cầu xét hoàn cảnh, không xóa toàn bộ nhân quả.",
               "options": [
@@ -2290,7 +2290,7 @@ window.PQContextBank={
               "id": "W02-B09-Q03"
             },
             {
-              "prompt": "Take into account hợp với đối tượng nào?",
+              "prompt": "Trong đoạn, cần “take into account” những yếu tố nào?",
               "evidence": "hoàn cảnh thời đại",
               "analysis": "Circumstances and the age giữ bối cảnh, không chỉ danh tính.",
               "options": [
@@ -2304,7 +2304,7 @@ window.PQContextBank={
               "id": "W02-B09-Q04"
             },
             {
-              "prompt": "Giữ hai tiêu chí thông thường.",
+              "prompt": "Câu nào giữ đúng hai tiêu chí thông thường dùng để xét thiện và ác?",
               "evidence": "đem niềm vui",
               "analysis": "And giữ cả đem vui và được nhiều người khen.",
               "options": [
@@ -2342,7 +2342,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền cách đền ơn tự nhiên.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “họ đền ơn” trong ngữ cảnh.",
               "evidence": "họ đền ơn",
               "analysis": "Repay kindness giữ đáp lại sự giúp đỡ, không nói trả lương.",
               "parts": [
@@ -2362,7 +2362,7 @@ window.PQContextBank={
               "id": "W02-B10-Q01"
             },
             {
-              "prompt": "Giữ mức đôi khi ngoại lệ tâm lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đôi khi gặp kẻ vô ơn” trong ngữ cảnh.",
               "evidence": "đôi khi gặp kẻ vô ơn",
               "analysis": "Sometimes giữ ngoại lệ, không tổng quát mọi người.",
               "parts": [
@@ -2382,7 +2382,7 @@ window.PQContextBank={
               "id": "W02-B10-Q02"
             },
             {
-              "prompt": "Giữ chiều mưu hại sau bị hại.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “họ mang oán thù” trong ngữ cảnh.",
               "evidence": "họ mang oán thù",
               "analysis": "Someone harmed bears grudge; we không tự động là người trả thù.",
               "parts": [
@@ -2402,7 +2402,7 @@ window.PQContextBank={
               "id": "W02-B10-Q03"
             },
             {
-              "prompt": "Giữ vẻ công bình, không tự xác nhận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “có vẻ công bình” trong ngữ cảnh.",
               "evidence": "có vẻ công bình",
               "analysis": "Seems giữ mức phán đoán ở câu này.",
               "parts": [
@@ -2422,7 +2422,7 @@ window.PQContextBank={
               "id": "W02-B10-Q04"
             },
             {
-              "prompt": "Điền hành vi người tha thứ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không tìm cách trả thù” trong ngữ cảnh.",
               "evidence": "không tìm cách trả thù",
               "analysis": "Do not seek revenge giữ phần phủ định.",
               "parts": [
@@ -2466,7 +2466,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép quan hệ không phụ thuộc tâm lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không dựa vào tâm lý” trong đoạn.",
               "evidence": "không dựa vào tâm lý",
               "analysis": "Depend on nói sự lệ thuộc, không phủ nhận tồn tại tâm lý.",
               "tokens": [
@@ -2486,7 +2486,7 @@ window.PQContextBank={
               "id": "W02-B11-Q01"
             },
             {
-              "prompt": "Ghép bất chấp cảm xúc đổi.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mặc cho tâm lý” trong đoạn.",
               "evidence": "mặc cho tâm lý",
               "analysis": "Whatever giữ bất chấp thay đổi.",
               "tokens": [
@@ -2506,7 +2506,7 @@ window.PQContextBank={
               "id": "W02-B11-Q02"
             },
             {
-              "prompt": "Ghép hình ảnh đèn qua vách.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một ngọn đèn ở đây” trong đoạn.",
               "evidence": "một ngọn đèn ở đây",
               "analysis": "Here/over there giữ khoảng cách minh họa.",
               "tokens": [
@@ -2526,7 +2526,7 @@ window.PQContextBank={
               "id": "W02-B11-Q03"
             },
             {
-              "prompt": "Ghép điểm nối tương tự.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Cũng vậy” trong đoạn.",
               "evidence": "Cũng vậy",
               "analysis": "Likewise nối tương tự, không chứng minh vật lý về nghiệp.",
               "tokens": [
@@ -2546,7 +2546,7 @@ window.PQContextBank={
               "id": "W02-B11-Q04"
             },
             {
-              "prompt": "Ghép hai chiều phân cách.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thời gian và không gian” trong đoạn.",
               "evidence": "thời gian và không gian",
               "analysis": "Time and place giữ hai trục, không chỉ thời gian.",
               "tokens": [
@@ -2587,7 +2587,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa chiều phát sinh.",
+              "prompt": "Chọn bản sửa giữ đúng quan hệ ý nghiệp làm phát sinh thân nghiệp và khẩu nghiệp.",
               "evidence": "Ý nghiệp là NGUYÊN NHÂN",
               "analysis": "Mental karma là nguyên nhân, không là kết quả của thân/khẩu ở câu này.",
               "options": [
@@ -2602,7 +2602,7 @@ window.PQContextBank={
               "id": "W02-B12-Q01"
             },
             {
-              "prompt": "Sửa căn cứ tạo quả báo.",
+              "prompt": "Chọn bản sửa nêu đúng căn cứ khiến hành động tạo thành quả báo.",
               "evidence": "có tác dụng với mọi người",
               "analysis": "Affect others giữ đối tượng bị tác động.",
               "options": [
@@ -2617,7 +2617,7 @@ window.PQContextBank={
               "id": "W02-B12-Q02"
             },
             {
-              "prompt": "Sửa vai trò trong chuỗi.",
+              "prompt": "Chọn bản sửa giữ đúng vai trò của kết quả trong mắt xích tiếp theo.",
               "evidence": "lại chính là kết quả",
               "analysis": "Một bước là quả của trước và nhân của sau.",
               "options": [
@@ -2632,7 +2632,7 @@ window.PQContextBank={
               "id": "W02-B12-Q03"
             },
             {
-              "prompt": "Sửa phạm vi thời gian nguồn nêu.",
+              "prompt": "Chọn bản sửa giữ đúng thời điểm “ở đời sau” mà nguồn nêu.",
               "evidence": "ở đời sau",
               "analysis": "Nguồn nói đời sau ở phần luật nghiệp, không chỉ đời này.",
               "options": [
@@ -2647,7 +2647,7 @@ window.PQContextBank={
               "id": "W02-B12-Q04"
             },
             {
-              "prompt": "Sửa tần suất quá khứ trong ví dụ.",
+              "prompt": "Chọn bản sửa giữ đúng tần suất “rất nhiều” trong ví dụ về quá khứ.",
               "evidence": "rất nhiều",
               "analysis": "Repeatedly giữ rất nhiều, không biến thoáng nghĩ thành bảo đảm.",
               "options": [
@@ -2702,7 +2702,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Conditioned illusion giữ điều kiện nào?",
+              "prompt": "Cụm “conditioned illusion” diễn đạt sự phụ thuộc vào những điều kiện nào?",
               "evidence": "điều kiện tham sân si",
               "analysis": "Nguồn gắn khổ với tham sân si, không chỉ hoàn cảnh ngoài.",
               "options": [
@@ -2716,7 +2716,7 @@ window.PQContextBank={
               "id": "W03-B01-Q01"
             },
             {
-              "prompt": "Khi điều kiện bị đoạn trừ, quan hệ nguồn là gì?",
+              "prompt": "Theo đoạn, điều gì xảy ra khi các điều kiện ấy bị đoạn trừ?",
               "evidence": "đau khổ biến mất",
               "analysis": "When giữ quan hệ chấm dứt theo đoạn.",
               "options": [
@@ -2730,7 +2730,7 @@ window.PQContextBank={
               "id": "W03-B01-Q02"
             },
             {
-              "prompt": "Neither…nor trong bản Anh ứng với gì?",
+              "prompt": "Cụm “neither…nor” tương ứng với ý phủ định hai thái cực nào?",
               "evidence": "không thiên về khổ hạnh hay hưởng thụ",
               "analysis": "Không thiên về hai cực, không phải cả hai đều mục tiêu.",
               "options": [
@@ -2744,7 +2744,7 @@ window.PQContextBank={
               "id": "W03-B01-Q03"
             },
             {
-              "prompt": "To remain healthy nêu chức năng gì?",
+              "prompt": "Trong đoạn, việc duy trì sức khỏe có vai trò gì đối với thiền?",
               "evidence": "đủ sức khỏe để trợ giúp",
               "analysis": "Sức khỏe hỗ trợ tọa thiền, không thay thế thiền.",
               "options": [
@@ -2758,7 +2758,7 @@ window.PQContextBank={
               "id": "W03-B01-Q04"
             },
             {
-              "prompt": "Đoạn nói ascetics look down on ai?",
+              "prompt": "Theo đoạn, những người khổ hạnh xem thường ai?",
               "evidence": "xem thường đệ tử Phật",
               "analysis": "Họ là ascetics; đối tượng là đệ tử Phật.",
               "options": [
@@ -2793,7 +2793,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ giả định nếu cố định.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nếu Nghiệp báo này cố định” trong ngữ cảnh.",
               "evidence": "Nếu Nghiệp báo này cố định",
               "analysis": "Were fixed giữ giả định, không tuyên bố nghiệp bất biến.",
               "parts": [
@@ -2813,7 +2813,7 @@ window.PQContextBank={
               "id": "W03-B02-Q01"
             },
             {
-              "prompt": "Điền tác động kéo níu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ái dục kéo níu” trong ngữ cảnh.",
               "evidence": "ái dục kéo níu",
               "analysis": "Hold back giữ tác động cản, không phải dẫn đường giải thoát.",
               "parts": [
@@ -2833,7 +2833,7 @@ window.PQContextBank={
               "id": "W03-B02-Q02"
             },
             {
-              "prompt": "Điền thuật ngữ con đường.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Bát thánh đạo” trong ngữ cảnh.",
               "evidence": "Bát thánh đạo",
               "analysis": "Dùng tên khóa Noble Eightfold Path.",
               "parts": [
@@ -2853,7 +2853,7 @@ window.PQContextBank={
               "id": "W03-B02-Q03"
             },
             {
-              "prompt": "Giữ vai trò cốt tủy.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chánh định là cốt tủy” trong ngữ cảnh.",
               "evidence": "chánh định là cốt tủy",
               "analysis": "At its core không phải vật thay toàn bộ đường tu.",
               "parts": [
@@ -2873,7 +2873,7 @@ window.PQContextBank={
               "id": "W03-B02-Q04"
             },
             {
-              "prompt": "Điền hệ quả chặt duyên cũ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “những duyên nợ quá khứ cắt đứt” trong ngữ cảnh.",
               "evidence": "những duyên nợ quá khứ cắt đứt",
               "analysis": "Are cut giữ bị động và đối tượng ties.",
               "parts": [
@@ -2914,7 +2914,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép quan hệ định sinh huệ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Do định sinh huệ” trong đoạn.",
               "evidence": "Do định sinh huệ",
               "analysis": "Gives rise to giữ chiều từ định tới huệ.",
               "tokens": [
@@ -2934,7 +2934,7 @@ window.PQContextBank={
               "id": "W03-B03-Q01"
             },
             {
-              "prompt": "Ghép phủ định mất cái biết.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái biết vẫn không mất” trong đoạn.",
               "evidence": "cái biết vẫn không mất",
               "analysis": "Not lost không đồng nghĩa không có nhận biết.",
               "tokens": [
@@ -2954,7 +2954,7 @@ window.PQContextBank={
               "id": "W03-B03-Q02"
             },
             {
-              "prompt": "Ghép phép nhượng bộ không học trước.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không cần học trước” trong đoạn.",
               "evidence": "không cần học trước",
               "analysis": "Without prior study không phủ định mọi học tập.",
               "tokens": [
@@ -2974,7 +2974,7 @@ window.PQContextBank={
               "id": "W03-B03-Q03"
             },
             {
-              "prompt": "Ghép bối cảnh cám dỗ bất ngờ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bất ngờ có duyên sự cám dỗ” trong đoạn.",
               "evidence": "bất ngờ có duyên sự cám dỗ",
               "analysis": "Unexpectedly giữ bất ngờ, không tự thêm cố ý tìm cám dỗ.",
               "tokens": [
@@ -2994,7 +2994,7 @@ window.PQContextBank={
               "id": "W03-B03-Q04"
             },
             {
-              "prompt": "Ghép hệ quả không theo ngoại cảnh.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không bị duyên theo ngoại cảnh” trong đoạn.",
               "evidence": "không bị duyên theo ngoại cảnh",
               "analysis": "Not drawn after nói không bị kéo theo, không phủ nhận ngoại cảnh tồn tại.",
               "tokens": [
@@ -3035,7 +3035,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa mức kết quả.",
+              "prompt": "Chọn bản sửa giữ đúng ý “dễ được định”, không biến thành bảo đảm chứng đắc.",
               "evidence": "dễ được định",
               "analysis": "More readily không phải immediately guarantees awakening.",
               "options": [
@@ -3050,7 +3050,7 @@ window.PQContextBank={
               "id": "W03-B04-Q01"
             },
             {
-              "prompt": "Sửa kết luận bị nguồn giới hạn.",
+              "prompt": "Chọn bản sửa giữ đúng giới hạn “chưa hiểu hết ý nghĩa”.",
               "evidence": "chưa hiểu hết ý nghĩa",
               "analysis": "Does not exhaust giữ lời nhắc nghĩa còn rộng hơn.",
               "options": [
@@ -3065,7 +3065,7 @@ window.PQContextBank={
               "id": "W03-B04-Q02"
             },
             {
-              "prompt": "Sửa chiều công năng trì giới.",
+              "prompt": "Chọn bản sửa giữ quan hệ trì giới kỹ lưỡng dẫn đến uy đức.",
               "evidence": "trì giới kỹ lưỡng được uy đức",
               "analysis": "Careful observance là căn cứ đem uy đức.",
               "options": [
@@ -3080,7 +3080,7 @@ window.PQContextBank={
               "id": "W03-B04-Q03"
             },
             {
-              "prompt": "Sửa danh tính thành tựu.",
+              "prompt": "Chọn bản sửa không đồng nhất những người được nói đến với người đã đạt đạo.",
               "evidence": "không phải là những vị đạt đạo",
               "analysis": "Không âm thầm nâng phẩm vị theo công lao.",
               "options": [
@@ -3095,7 +3095,7 @@ window.PQContextBank={
               "id": "W03-B04-Q04"
             },
             {
-              "prompt": "Sửa quan hệ qua công năng.",
+              "prompt": "Chọn bản sửa diễn đạt đúng vai trò của công năng trì giới.",
               "evidence": "bởi công năng trì giới",
               "analysis": "Through giữ căn cứ đóng góp, không thành thay thế.",
               "options": [
@@ -3131,7 +3131,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Enough resolve giữ nét nào?",
+              "prompt": "Cụm “enough resolve” giữ nét nghĩa nào của ý chí?",
               "evidence": "đủ ý chí",
               "analysis": "Enough giữ ngưỡng đủ, không nói có một chút là đủ.",
               "options": [
@@ -3145,7 +3145,7 @@ window.PQContextBank={
               "id": "W03-B05-Q01"
             },
             {
-              "prompt": "Nguồn giải thích khó tiến bằng gì?",
+              "prompt": "Nguồn nêu nguyên nhân nào khiến người tu khó tiến bộ?",
               "evidence": "không dứt khoát với vọng tưởng",
               "analysis": "Because nối khó tiến với dây dưa, không đổ cho người khác.",
               "options": [
@@ -3159,7 +3159,7 @@ window.PQContextBank={
               "id": "W03-B05-Q02"
             },
             {
-              "prompt": "Điền sắc thái decisive with thoughts.",
+              "prompt": "Cách diễn đạt nào giữ đúng ý “dứt khoát với vọng tưởng”?",
               "evidence": "dứt khoát với vọng tưởng",
               "analysis": "Decisive không thêm bạo lực với thân hay đè hơi thở.",
               "options": [
@@ -3173,7 +3173,7 @@ window.PQContextBank={
               "id": "W03-B05-Q03"
             },
             {
-              "prompt": "Chọn chuỗi không đảo bước.",
+              "prompt": "Chọn chuỗi diễn tiến giữ đúng thứ tự các bước trong đoạn.",
               "evidence": "Ý chí của quyết tâm trì giới",
               "analysis": "Nguồn nối resolve giới→resolve vọng tưởng→định.",
               "options": [
@@ -3187,7 +3187,7 @@ window.PQContextBank={
               "id": "W03-B05-Q04"
             },
             {
-              "prompt": "Essential trong câu gần nghĩa với gì?",
+              "prompt": "Từ “essential” trong câu gần nghĩa với cách diễn đạt nào?",
               "evidence": "rất cần thiết",
               "analysis": "Essential nêu cần thiết, không bảo đảm riêng một yếu tố.",
               "options": [
@@ -3222,7 +3222,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ quan hệ ngoài…còn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ngoài ý nghĩa” trong ngữ cảnh.",
               "evidence": "Ngoài ý nghĩa",
               "analysis": "Beyond thêm tầng ý nghĩa, không xóa tầng đầu.",
               "parts": [
@@ -3242,7 +3242,7 @@ window.PQContextBank={
               "id": "W03-B06-Q01"
             },
             {
-              "prompt": "Điền đối tượng của niềm tin.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đối với chư Tăng” trong ngữ cảnh.",
               "evidence": "đối với chư Tăng",
               "analysis": "Trust in + đối tượng được tin.",
               "parts": [
@@ -3262,7 +3262,7 @@ window.PQContextBank={
               "id": "W03-B06-Q02"
             },
             {
-              "prompt": "Giữ người gặp bất hạnh.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “họ sẽ gặp nhiều bất hạnh” trong ngữ cảnh.",
               "evidence": "họ sẽ gặp nhiều bất hạnh",
               "analysis": "They chỉ người mất tin, không tự chuyển sang tu sĩ.",
               "parts": [
@@ -3282,7 +3282,7 @@ window.PQContextBank={
               "id": "W03-B06-Q03"
             },
             {
-              "prompt": "Điền mục đích giữ giới.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vì lợi ích của chúng sinh” trong ngữ cảnh.",
               "evidence": "vì lợi ích của chúng sinh",
               "analysis": "For the benefit giữ động cơ vị người.",
               "parts": [
@@ -3302,7 +3302,7 @@ window.PQContextBank={
               "id": "W03-B06-Q04"
             },
             {
-              "prompt": "Giữ đủ số ý nghĩa.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “trên hai ý nghĩa” trong ngữ cảnh.",
               "evidence": "trên hai ý nghĩa",
               "analysis": "Both giữ đồng thời hai ý, không chọn một.",
               "parts": [
@@ -3343,7 +3343,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép thời điểm mới bắt đầu kiểm soát.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bắt đầu được kiểm soát” trong đoạn. Bắt đầu bằng “kiểm soát”.",
               "evidence": "bắt đầu được kiểm soát",
               "analysis": "Begin to giữ tiến trình, không thành đã hết.",
               "tokens": [
@@ -3363,7 +3363,7 @@ window.PQContextBank={
               "id": "W03-B07-Q01"
             },
             {
-              "prompt": "Ghép chú thích chưa hết.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chứ chưa hết” trong đoạn.",
               "evidence": "chứ chưa hết",
               "analysis": "Not yet giữ giới hạn của thành tựu.",
               "tokens": [
@@ -3383,7 +3383,7 @@ window.PQContextBank={
               "id": "W03-B07-Q02"
             },
             {
-              "prompt": "Ghép phạm vi người cùng tin.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “như mình hoặc hơn mình” trong đoạn.",
               "evidence": "như mình hoặc hơn mình",
               "analysis": "Equal or greater nói mức thực hành, không danh vị xã hội.",
               "tokens": [
@@ -3403,7 +3403,7 @@ window.PQContextBank={
               "id": "W03-B07-Q03"
             },
             {
-              "prompt": "Ghép nguồn của hồ nghi.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “xuất phát từ nội tâm” trong đoạn.",
               "evidence": "xuất phát từ nội tâm",
               "analysis": "Arising from đi từ trạng thái nghi về căn nguyên nội tâm.",
               "tokens": [
@@ -3423,7 +3423,7 @@ window.PQContextBank={
               "id": "W03-B07-Q04"
             },
             {
-              "prompt": "Ghép đối tượng niềm tin nơi mình.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tin nơi chính mình” trong đoạn.",
               "evidence": "tin nơi chính mình",
               "analysis": "Trusts themselves giữ chủ thể số ít they nhất quán.",
               "tokens": [
@@ -3464,7 +3464,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa phủ định có giới hạn.",
+              "prompt": "Chọn bản sửa giữ đúng ý: nguồn không phủ nhận hoàn toàn năng lực của người ngoài đạo.",
               "evidence": "không phải ngoại đạo không có",
               "analysis": "Nguồn không phủ nhận có sở đắc; xét đủ và đúng.",
               "options": [
@@ -3479,7 +3479,7 @@ window.PQContextBank={
               "id": "W03-B08-Q01"
             },
             {
-              "prompt": "Sửa hệ quả của sở đắc đang nói.",
+              "prompt": "Chọn bản sửa nêu đúng hệ quả của sự chứng đắc đang được bàn tới.",
               "evidence": "thấy được sự cần thiết",
               "analysis": "Đang nói sở đắc khiến thấy cần giới, không miễn giới.",
               "options": [
@@ -3494,7 +3494,7 @@ window.PQContextBank={
               "id": "W03-B08-Q02"
             },
             {
-              "prompt": "Sửa cấu trúc phân biệt.",
+              "prompt": "Chọn bản sửa phân biệt đúng thiện và ác.",
               "evidence": "phân biệt thiện ác",
               "analysis": "Distinguish A from B là mẫu diễn đạt đúng.",
               "options": [
@@ -3509,7 +3509,7 @@ window.PQContextBank={
               "id": "W03-B08-Q03"
             },
             {
-              "prompt": "Sửa lý do giữ giới.",
+              "prompt": "Chọn bản sửa nêu đúng lý do giữ giới: thấy lợi ích của việc giữ giới.",
               "evidence": "vì thấy ích lợi",
               "analysis": "Because their benefit is seen, không tự thêm danh tiếng.",
               "options": [
@@ -3524,7 +3524,7 @@ window.PQContextBank={
               "id": "W03-B08-Q04"
             },
             {
-              "prompt": "Sửa thuật ngữ công đức.",
+              "prompt": "Chọn bản sửa dùng đúng thuật ngữ cho “công đức”.",
               "evidence": "đủ công đức",
               "analysis": "Theo glossary, công đức là merit; giữ riêng phước.",
               "options": [
@@ -3560,7 +3560,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Does not mean trong câu đầu chặn suy diễn nào?",
+              "prompt": "Cụm “does not mean” trong câu đầu ngăn người đọc suy diễn điều gì?",
               "evidence": "Không phải được Pháp nhãn rồi",
               "analysis": "Không tự gán đoạn sạch mọi vết cho Dharma eye.",
               "options": [
@@ -3574,7 +3574,7 @@ window.PQContextBank={
               "id": "W03-B09-Q01"
             },
             {
-              "prompt": "Linger diễn tả gì?",
+              "prompt": "Động từ “linger” diễn tả trạng thái nào?",
               "evidence": "còn đọng lại kéo dài",
               "analysis": "Linger là còn lưu lâu, không chỉ xuất hiện thoáng qua.",
               "options": [
@@ -3588,7 +3588,7 @@ window.PQContextBank={
               "id": "W03-B09-Q02"
             },
             {
-              "prompt": "Some attention giữ lượng nào?",
+              "prompt": "Cụm “some attention” thể hiện mức độ chú ý nào?",
               "evidence": "chút phần chú ý",
               "analysis": "Some giữ một phần, không phải toàn bộ hoặc bằng không.",
               "options": [
@@ -3602,7 +3602,7 @@ window.PQContextBank={
               "id": "W03-B09-Q03"
             },
             {
-              "prompt": "The Non-returner ứng với ai?",
+              "prompt": "Danh xưng “the Non-returner” tương ứng với ai?",
               "evidence": "Bậc A Na Hàm",
               "analysis": "Dùng tên Thánh quả khóa, không lẫn Arahant.",
               "options": [
@@ -3616,7 +3616,7 @@ window.PQContextBank={
               "id": "W03-B09-Q04"
             },
             {
-              "prompt": "Hai câu cause/result đối chiếu ra sao?",
+              "prompt": "Hai trường hợp còn duyên và đã cắt duyên được đối chiếu như thế nào?",
               "evidence": "sự không còn trở lại",
               "analysis": "Duyên còn/cắt được nối hai kết quả khác nhau.",
               "options": [
@@ -3651,7 +3651,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền hai phạm trù được phân biệt.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tầng bậc Thiền Định và thứ bậc đạo quả” trong ngữ cảnh.",
               "evidence": "tầng bậc Thiền Định và thứ bậc đạo quả",
               "analysis": "From giữ phân biệt, không coi hai thang đồng nhất.",
               "parts": [
@@ -3671,7 +3671,7 @@ window.PQContextBank={
               "id": "W03-B10-Q01"
             },
             {
-              "prompt": "Điền thước đo tầng thiền.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mức độ lắng sâu của niệm tưởng” trong ngữ cảnh.",
               "evidence": "mức độ lắng sâu của niệm tưởng",
               "analysis": "How deeply thoughts settle không phải số giới đã thuộc lòng.",
               "parts": [
@@ -3691,7 +3691,7 @@ window.PQContextBank={
               "id": "W03-B10-Q02"
             },
             {
-              "prompt": "Điền thước đo đạo quả.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mức độ đoạn tận kiết sử” trong ngữ cảnh.",
               "evidence": "mức độ đoạn tận kiết sử",
               "analysis": "Fetters đúng kiết sử, không lẫn hindrances.",
               "parts": [
@@ -3711,7 +3711,7 @@ window.PQContextBank={
               "id": "W03-B10-Q03"
             },
             {
-              "prompt": "Giữ mức cùng đạt một định.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cùng đạt Phi phi tưởng định” trong ngữ cảnh.",
               "evidence": "cùng đạt Phi phi tưởng định",
               "analysis": "Both giữ điểm chung trước phân biệt.",
               "parts": [
@@ -3731,7 +3731,7 @@ window.PQContextBank={
               "id": "W03-B10-Q04"
             },
             {
-              "prompt": "Điền điều kiện không trở lại.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dứt được năm hạ phần kiết sử” trong ngữ cảnh.",
               "evidence": "dứt được năm hạ phần kiết sử",
               "analysis": "Having eliminated giữ điều được nêu, không chỉ đã nghe tên.",
               "parts": [
@@ -3772,7 +3772,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép căn cứ hiện tại.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Do giới hạnh trong hiện tại” trong đoạn.",
               "evidence": "Do giới hạnh trong hiện tại",
               "analysis": "Because of giữ quan hệ với hiện tại, không chỉ quá khứ.",
               "tokens": [
@@ -3792,7 +3792,7 @@ window.PQContextBank={
               "id": "W03-B11-Q01"
             },
             {
-              "prompt": "Ghép phần bổ sung nguyên nhân quá khứ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cũng xuất phát từ công đức” trong đoạn.",
               "evidence": "cũng xuất phát từ công đức",
               "analysis": "Also giữ thêm căn nguyên, không xóa phần hiện tại.",
               "tokens": [
@@ -3812,7 +3812,7 @@ window.PQContextBank={
               "id": "W03-B11-Q02"
             },
             {
-              "prompt": "Ghép giới hạn chỉ gieo phước.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chỉ lo gieo phước” trong đoạn.",
               "evidence": "chỉ lo gieo phước",
               "analysis": "Only/lacks giữ hai nét thiếu cân đối.",
               "tokens": [
@@ -3832,7 +3832,7 @@ window.PQContextBank={
               "id": "W03-B11-Q03"
             },
             {
-              "prompt": "Ghép phân biệt phước và đức.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chỉ được phước mà kém đức” trong đoạn.",
               "evidence": "chỉ được phước mà kém đức",
               "analysis": "Blessings khác virtue, không một từ đổi qua lại.",
               "tokens": [
@@ -3852,7 +3852,7 @@ window.PQContextBank={
               "id": "W03-B11-Q04"
             },
             {
-              "prompt": "Ghép chỗ đặt phẩm chất vị Tăng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chính là giới hạnh” trong đoạn.",
               "evidence": "chính là giới hạnh",
               "analysis": "Lies in đặt nội dung virtue ở giới hiện tại.",
               "tokens": [
@@ -3893,7 +3893,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa yếu tố quyết định.",
+              "prompt": "Chọn bản sửa nêu đúng yếu tố quyết định tiến bộ tu hành.",
               "evidence": "tùy thuộc vào công năng tu tập",
               "analysis": "Depends on cultivation, không phải chỉ mong ước.",
               "options": [
@@ -3908,7 +3908,7 @@ window.PQContextBank={
               "id": "W03-B12-Q01"
             },
             {
-              "prompt": "Sửa quan hệ dù cúng dường.",
+              "prompt": "Chọn bản sửa giữ đúng ý: phát nguyện và cúng dường không thay thế công phu.",
               "evidence": "Dù người này có phát nguyện",
               "analysis": "Even if giữ các việc tốt chưa thay công phu.",
               "options": [
@@ -3923,7 +3923,7 @@ window.PQContextBank={
               "id": "W03-B12-Q02"
             },
             {
-              "prompt": "Sửa vai trò công đức trước.",
+              "prompt": "Chọn bản sửa giữ đúng vai trò trợ duyên của công đức đã tạo.",
               "evidence": "trổi dậy trợ duyên",
               "analysis": "Supporting condition giữ tác dụng trợ duyên khi đủ công phu.",
               "options": [
@@ -3938,7 +3938,7 @@ window.PQContextBank={
               "id": "W03-B12-Q03"
             },
             {
-              "prompt": "Sửa mốc phải đợi đến khi.",
+              "prompt": "Chọn bản sửa giữ đúng điều kiện thời gian “phải đợi đến khi”.",
               "evidence": "Phải đợi đến khi",
               "analysis": "Only when giữ điều kiện thời điểm, không đảo trước/sau.",
               "options": [
@@ -3953,7 +3953,7 @@ window.PQContextBank={
               "id": "W03-B12-Q04"
             },
             {
-              "prompt": "Sửa mức thuận tiện dễ dàng.",
+              "prompt": "Chọn bản sửa không biến “thuận tiện, dễ dàng hơn” thành hoàn toàn không cần nỗ lực.",
               "evidence": "thuận tiện dễ dàng",
               "analysis": "Smoother không đồng nghĩa nỗ lực không còn.",
               "options": [
@@ -4009,7 +4009,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu diễn đạt ý “phước tạo điều kiện dễ hơn”, không bảo đảm tức thì.",
+              "prompt": "Câu nào diễn đạt đúng ý phước giúp nhiếp tâm dễ hơn, không bảo đảm chứng đắc tức thì?",
               "evidence": "dễ dàng",
               "analysis": "Easier giữ hỗ trợ chứ không bảo đảm mọi buổi thiền.",
               "options": [
@@ -4023,7 +4023,7 @@ window.PQContextBank={
               "id": "W04-B01-Q01"
             },
             {
-              "prompt": "Chọn câu giữ đúng sự phân biệt giữa phước và công đức.",
+              "prompt": "Câu nào giải thích đúng mối liên hệ giữa phước do đạo đức tạo ra và công đức?",
               "evidence": "Phước được tạo ra từ Đạo đức",
               "analysis": "Merit nêu phước gắn công lao/đạo đức theo đoạn.",
               "options": [
@@ -4037,7 +4037,7 @@ window.PQContextBank={
               "id": "W04-B01-Q02"
             },
             {
-              "prompt": "From one matter to another chỉ chuyển gì?",
+              "prompt": "Cụm “from one matter to another” chỉ sự chuyển đổi nào?",
               "evidence": "từ vấn đề này sang vấn đề khác",
               "analysis": "Chuyển đối tượng nghĩ, không đi lại không gian.",
               "options": [
@@ -4051,7 +4051,7 @@ window.PQContextBank={
               "id": "W04-B01-Q03"
             },
             {
-              "prompt": "Giữ xen kẽ trạng thái.",
+              "prompt": "Cách diễn đạt nào giữ đúng việc tâm có lúc sáng suốt, có lúc mờ mịt?",
               "evidence": "Khi thì tâm",
               "analysis": "At times/at other times giữ tính thay đổi.",
               "options": [
@@ -4065,7 +4065,7 @@ window.PQContextBank={
               "id": "W04-B01-Q04"
             },
             {
-              "prompt": "Tự nhiên tâm thường xuyên dễ tỉnh giác giữ gì?",
+              "prompt": "Cụm nào giữ cả tần suất lẫn sự dễ dàng trong ý “thường xuyên dễ tỉnh giác”?",
               "evidence": "thường xuyên dễ tỉnh giác",
               "analysis": "More regularly/readily là tần suất và độ thuận, không suy toàn tri.",
               "options": [
@@ -4103,7 +4103,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền động từ chấm dứt.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chấm dứt đau khổ” trong ngữ cảnh.",
               "evidence": "chấm dứt đau khổ",
               "analysis": "Has ended không phải tạm né tránh hay phớt lờ.",
               "parts": [
@@ -4123,7 +4123,7 @@ window.PQContextBank={
               "id": "W04-B02-Q01"
             },
             {
-              "prompt": "Giữ tính dè dặt với cách diễn đạt.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cách nói gượng gạo” trong ngữ cảnh.",
               "evidence": "cách nói gượng gạo",
               "analysis": "Strained language đánh giá lời diễn đạt, không đánh giá giá trị giác ngộ.",
               "parts": [
@@ -4143,7 +4143,7 @@ window.PQContextBank={
               "id": "W04-B02-Q02"
             },
             {
-              "prompt": "Điền phạm vi hoàn toàn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chấm dứt hoàn toàn” trong ngữ cảnh.",
               "evidence": "chấm dứt hoàn toàn",
               "analysis": "Complete giữ toàn bộ mức chấm dứt.",
               "parts": [
@@ -4163,7 +4163,7 @@ window.PQContextBank={
               "id": "W04-B02-Q03"
             },
             {
-              "prompt": "Giữ nghĩa buông hạnh phúc trần gian.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “bỏ hết mọi hạnh phúc trần gian” trong ngữ cảnh.",
               "evidence": "bỏ hết mọi hạnh phúc trần gian",
               "analysis": "Relinquish là buông, không phải tích lũy để đổi thưởng.",
               "parts": [
@@ -4183,7 +4183,7 @@ window.PQContextBank={
               "id": "W04-B02-Q04"
             },
             {
-              "prompt": "Điền đường tu cụ thể.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tu đúng theo Bát Chánh Đạo” trong ngữ cảnh.",
               "evidence": "tu đúng theo Bát Chánh Đạo",
               "analysis": "Correctly practicing giữ điều kiện thực hành đúng.",
               "parts": [
@@ -4224,7 +4224,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép cấu trúc kính thầy mới làm thầy.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Kính thầy mới được làm thầy” trong đoạn.",
               "evidence": "Kính thầy mới được làm thầy",
               "analysis": "Only by giữ điều kiện, không cam kết ai kính cũng lập tức làm thầy.",
               "tokens": [
@@ -4244,7 +4244,7 @@ window.PQContextBank={
               "id": "W04-B03-Q01"
             },
             {
-              "prompt": "Ghép tiến trình phẩm chất Phật.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dần dần đạt được” trong đoạn.",
               "evidence": "dần dần đạt được",
               "analysis": "Gradually giữ tiến trình, không thành ngay tức thì.",
               "tokens": [
@@ -4264,7 +4264,7 @@ window.PQContextBank={
               "id": "W04-B03-Q02"
             },
             {
-              "prompt": "Ghép giới hạn một phần.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một phần các tính chất” trong đoạn.",
               "evidence": "một phần các tính chất",
               "analysis": "Some giữ lượng có giới hạn.",
               "tokens": [
@@ -4284,7 +4284,7 @@ window.PQContextBank={
               "id": "W04-B03-Q03"
             },
             {
-              "prompt": "Ghép lời nhắc không sánh bằng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không thể nào bì được” trong đoạn.",
               "evidence": "không thể nào bì được",
               "analysis": "Cannot compare nhấn giới hạn so sánh.",
               "tokens": [
@@ -4304,7 +4304,7 @@ window.PQContextBank={
               "id": "W04-B03-Q04"
             },
             {
-              "prompt": "Ghép đối tượng của our own minds.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nơi tâm của mình” trong đoạn.",
               "evidence": "nơi tâm của mình",
               "analysis": "Our own minds đặt phẩm chất ở người kính, không thay danh tiếng Phật.",
               "tokens": [
@@ -4345,7 +4345,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa số lượng giai đoạn.",
+              "prompt": "Chọn bản sửa giữ đúng ý Diệt Đế có nhiều giai đoạn.",
               "evidence": "có nhiều giai đoạn",
               "analysis": "Many stages giữ lộ trình, không rút về một khoảnh khắc.",
               "options": [
@@ -4360,7 +4360,7 @@ window.PQContextBank={
               "id": "W04-B04-Q01"
             },
             {
-              "prompt": "Sửa mốc chưa đạt.",
+              "prompt": "Chọn bản sửa giữ đúng ý vẫn chưa đạt Diệt Đế.",
               "evidence": "chưa đạt được Diệt Đế",
               "analysis": "Although/not yet giữ hiện trạng chưa đến đích.",
               "options": [
@@ -4375,7 +4375,7 @@ window.PQContextBank={
               "id": "W04-B04-Q02"
             },
             {
-              "prompt": "Sửa chiều xa/gần.",
+              "prompt": "Chọn bản sửa giữ đúng hướng: xa dần đau khổ, gần dần con đường giải thoát.",
               "evidence": "xa dần con đường đau khổ",
               "analysis": "Farther from suffering, closer to peace đúng hướng.",
               "options": [
@@ -4390,7 +4390,7 @@ window.PQContextBank={
               "id": "W04-B04-Q03"
             },
             {
-              "prompt": "Sửa lượng thời gian.",
+              "prompt": "Chọn bản sửa giữ đúng ý kết quả dần dần hiện ra, không xuất hiện tức thì.",
               "evidence": "dần dần hiện ra",
               "analysis": "Gradually không có thời hạn chính xác.",
               "options": [
@@ -4405,7 +4405,7 @@ window.PQContextBank={
               "id": "W04-B04-Q04"
             },
             {
-              "prompt": "Sửa tương quan đỉnh cao và bước đầu.",
+              "prompt": "Chọn bản sửa phân biệt đúng bước đầu với đỉnh cao của Diệt Đế.",
               "evidence": "đỉnh cao của Diệt Đế",
               "analysis": "Đoạn phân biệt summit và từng bước hiện tại.",
               "options": [
@@ -4441,7 +4441,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Must express itself giữ nét nào?",
+              "prompt": "Cụm “must express itself” thể hiện yêu cầu nào?",
               "evidence": "phải biểu lộ ra hành động",
               "analysis": "Must giữ yêu cầu biểu hiện, không chỉ có thể nếu thích.",
               "options": [
@@ -4455,7 +4455,7 @@ window.PQContextBank={
               "id": "W04-B05-Q01"
             },
             {
-              "prompt": "In the same way nối gì?",
+              "prompt": "Cụm “in the same way” nối nguyên tắc chung với trường hợp cụ thể nào?",
               "evidence": "Cũng vậy",
               "analysis": "Áp nguyên tắc nội dung→hình thức vào lòng kính.",
               "options": [
@@ -4469,7 +4469,7 @@ window.PQContextBank={
               "id": "W04-B05-Q02"
             },
             {
-              "prompt": "Daily acts of bowing dịch gì?",
+              "prompt": "Cụm “daily acts of bowing” diễn đạt đúng ý nào?",
               "evidence": "công hạnh lễ kính mỗi ngày",
               "analysis": "Daily giữ nhịp mỗi ngày; bowing giữ hành động lễ.",
               "options": [
@@ -4483,7 +4483,7 @@ window.PQContextBank={
               "id": "W04-B05-Q03"
             },
             {
-              "prompt": "Sustain trong đoạn nên hiểu thế nào?",
+              "prompt": "Động từ “sustain” trong đoạn nên được hiểu như thế nào?",
               "evidence": "duy trì suốt đời suốt kiếp",
               "analysis": "Sustain là tiếp tục gìn giữ, không tăng tốc hay bỏ hẳn.",
               "options": [
@@ -4497,7 +4497,7 @@ window.PQContextBank={
               "id": "W04-B05-Q04"
             },
             {
-              "prompt": "Merit chọn cho chữ nào?",
+              "prompt": "Trong đoạn, từ “merit” tương ứng với khái niệm nào?",
               "evidence": "tạo thành công đức",
               "analysis": "Công đức dùng merit, không đổi sang reputation.",
               "options": [
@@ -4532,7 +4532,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền tiến trình nuôi dưỡng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nuôi dưỡng dần dần” trong ngữ cảnh.",
               "evidence": "nuôi dưỡng dần dần",
               "analysis": "Gradually giữ quá trình, không tự hứa ngay ngày đầu.",
               "parts": [
@@ -4552,7 +4552,7 @@ window.PQContextBank={
               "id": "W04-B06-Q01"
             },
             {
-              "prompt": "Chọn động từ lắng tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tâm ta tự nhiên lắng đọng” trong ngữ cảnh.",
               "evidence": "tâm ta tự nhiên lắng đọng",
               "analysis": "Settles không có nghĩa mất mọi nhận biết.",
               "parts": [
@@ -4572,7 +4572,7 @@ window.PQContextBank={
               "id": "W04-B06-Q02"
             },
             {
-              "prompt": "Giữ đối tượng nhận lỗi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhận ra lỗi của mình” trong ngữ cảnh.",
               "evidence": "nhận ra lỗi của mình",
               "analysis": "Our own faults không chuyển sang lỗi người khác.",
               "parts": [
@@ -4592,7 +4592,7 @@ window.PQContextBank={
               "id": "W04-B06-Q03"
             },
             {
-              "prompt": "Giữ hành động dừng lại.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không còn trách người nữa” trong ngữ cảnh.",
               "evidence": "không còn trách người nữa",
               "analysis": "Stop blaming diễn đạt chấm dứt hành vi.",
               "parts": [
@@ -4612,7 +4612,7 @@ window.PQContextBank={
               "id": "W04-B06-Q04"
             },
             {
-              "prompt": "Giữ mức một chút đạo đức.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một chút đạo đức” trong ngữ cảnh.",
               "evidence": "một chút đạo đức",
               "analysis": "A little không nâng thành đức hoàn hảo.",
               "parts": [
@@ -4653,7 +4653,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép lượng nhiều và tiến trình.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phát dần dần rất nhiều lời nguyện” trong đoạn.",
               "evidence": "phát dần dần rất nhiều lời nguyện",
               "analysis": "Gradually/many giữ cả hai, không chỉ một lời tức thì.",
               "tokens": [
@@ -4673,7 +4673,7 @@ window.PQContextBank={
               "id": "W04-B07-Q01"
             },
             {
-              "prompt": "Ghép thời lượng vài năm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “qua vài ba năm” trong đoạn.",
               "evidence": "qua vài ba năm",
               "analysis": "Several years không tự đổi thành vài phút.",
               "tokens": [
@@ -4693,7 +4693,7 @@ window.PQContextBank={
               "id": "W04-B07-Q02"
             },
             {
-              "prompt": "Ghép điều kiện thấm sâu rồi phát tiếp.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đến khi thấm sâu rồi” trong đoạn.",
               "evidence": "đến khi thấm sâu rồi",
               "analysis": "Once nối bước tiếp sau sự thấm sâu.",
               "tokens": [
@@ -4713,7 +4713,7 @@ window.PQContextBank={
               "id": "W04-B07-Q03"
             },
             {
-              "prompt": "Ghép vai trò định hướng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “sự định hướng” trong đoạn.",
               "evidence": "sự định hướng",
               "analysis": "Orient giữ hướng đi chứ không tự cấp quả vị.",
               "tokens": [
@@ -4733,7 +4733,7 @@ window.PQContextBank={
               "id": "W04-B07-Q04"
             },
             {
-              "prompt": "Ghép phạm vi nhiều đời.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vô lượng kiếp sắp tới” trong đoạn.",
               "evidence": "vô lượng kiếp sắp tới",
               "analysis": "Countless lifetimes giữ phạm vi của lời nguồn.",
               "tokens": [
@@ -4774,7 +4774,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa kết luận đích cuối.",
+              "prompt": "Chọn bản sửa không biến một giai đoạn tạm thời thành đích đến cuối cùng.",
               "evidence": "chỉ là một giai đoạn tạm thời",
               "analysis": "Only a stage giữ giới hạn, không xem kết quả tốt là hoàn tất.",
               "options": [
@@ -4789,7 +4789,7 @@ window.PQContextBank={
               "id": "W04-B08-Q01"
             },
             {
-              "prompt": "Sửa nghĩa bình thản.",
+              "prompt": "Chọn bản sửa đúng ý bình thản trước buồn vui, không phải mất mọi cảm xúc.",
               "evidence": "bình thản trước những buồn vui",
               "analysis": "Composed là vững tâm trước cả vui buồn.",
               "options": [
@@ -4804,7 +4804,7 @@ window.PQContextBank={
               "id": "W04-B08-Q02"
             },
             {
-              "prompt": "Sửa lượng trường hợp.",
+              "prompt": "Chọn bản sửa giữ đúng phạm vi “nhiều khi”, không khẳng định mọi trường hợp.",
               "evidence": "Nhiều khi chúng ta tu suốt một đời",
               "analysis": "Sometimes/lifetime không thành mọi người đều hết giận.",
               "options": [
@@ -4819,7 +4819,7 @@ window.PQContextBank={
               "id": "W04-B08-Q03"
             },
             {
-              "prompt": "Sửa chức năng ví dụ tuổi.",
+              "prompt": "Chọn bản sửa giữ đúng vai trò minh họa của các độ tuổi trong đoạn.",
               "evidence": "ba mươi, bốn mươi hoặc năm mươi",
               "analysis": "Các tuổi là ví dụ kết quả đáng quý, không hạn chót.",
               "options": [
@@ -4834,7 +4834,7 @@ window.PQContextBank={
               "id": "W04-B08-Q04"
             },
             {
-              "prompt": "Sửa lực còn phải cố gắng.",
+              "prompt": "Chọn bản sửa giữ đúng yêu cầu còn phải tiếp tục cố gắng.",
               "evidence": "còn phải phấn đấu rất nhiều",
               "analysis": "Still/much giữ công việc còn lại.",
               "options": [
@@ -4870,7 +4870,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ chưa hoàn toàn.",
+              "prompt": "Câu nào giữ đúng giới hạn: có tiến bộ nhưng chưa thành tựu hoàn toàn?",
               "evidence": "dù chưa thể thành tựu hoàn toàn",
               "analysis": "Even though/not yet giữ khoảng cách mẫu mực và hiện tại.",
               "options": [
@@ -4884,7 +4884,7 @@ window.PQContextBank={
               "id": "W04-B09-Q01"
             },
             {
-              "prompt": "Hai hướng biến đổi mỗi ngày?",
+              "prompt": "Hai khuynh hướng tình cảm thay đổi mỗi ngày theo chiều nào?",
               "evidence": "càng lúc càng lan rộng",
               "analysis": "Mở tình thương chung, giảm tình riêng, không đảo chiều.",
               "options": [
@@ -4898,7 +4898,7 @@ window.PQContextBank={
               "id": "W04-B09-Q02"
             },
             {
-              "prompt": "Excessively partial giữ mức nào?",
+              "prompt": "Cụm “excessively partial” thể hiện mức độ thiên vị nào?",
               "evidence": "thiên vị quá đáng",
               "analysis": "Excessively giữ quá đáng, không khẳng định quan hệ đều hệt nhau.",
               "options": [
@@ -4912,7 +4912,7 @@ window.PQContextBank={
               "id": "W04-B09-Q03"
             },
             {
-              "prompt": "All fellow practitioners làm gì trong mạch?",
+              "prompt": "Cụm “all fellow practitioners” mở rộng phạm vi quan tâm như thế nào?",
               "evidence": "tất cả huynh đệ",
               "analysis": "All mở phạm vi khỏi vài bạn thân, không loại người mới.",
               "options": [
@@ -4926,7 +4926,7 @@ window.PQContextBank={
               "id": "W04-B09-Q04"
             },
             {
-              "prompt": "Giving compassion room to develop nêu gì?",
+              "prompt": "Cụm “giving compassion room to develop” diễn đạt ý nào?",
               "evidence": "cơ hội phát triển",
               "analysis": "Room là cơ hội phát triển, không phải phòng vật lý.",
               "options": [
@@ -4964,7 +4964,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền thuật ngữ của thanh tịnh ở đây.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chánh niệm tỉnh giác” trong ngữ cảnh.",
               "evidence": "chánh niệm tỉnh giác",
               "analysis": "Right Mindfulness/lucid awareness giữ hai thuật ngữ.",
               "parts": [
@@ -4984,7 +4984,7 @@ window.PQContextBank={
               "id": "W04-B10-Q01"
             },
             {
-              "prompt": "Giữ chưa nhập sâu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chưa nhập sâu vào thiền định” trong ngữ cảnh.",
               "evidence": "chưa nhập sâu vào thiền định",
               "analysis": "Not yet entered deep giữ giai đoạn chưa phải định sâu.",
               "parts": [
@@ -5004,7 +5004,7 @@ window.PQContextBank={
               "id": "W04-B10-Q02"
             },
             {
-              "prompt": "Điền cả ý niệm nhỏ mới nhen.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ vừa chớm manh nha” trong ngữ cảnh.",
               "evidence": "chỉ vừa chớm manh nha",
               "analysis": "Barely emerging giữ độ sớm, không thêm đã thành hành vi.",
               "parts": [
@@ -5024,7 +5024,7 @@ window.PQContextBank={
               "id": "W04-B10-Q03"
             },
             {
-              "prompt": "Giữ điều kiện còn vọng tưởng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “còn nhiều vọng tưởng” trong ngữ cảnh.",
               "evidence": "còn nhiều vọng tưởng",
               "analysis": "Many wandering thoughts là bằng chứng chưa có kết quả được nói.",
               "parts": [
@@ -5044,7 +5044,7 @@ window.PQContextBank={
               "id": "W04-B10-Q04"
             },
             {
-              "prompt": "Điền nhượng bộ có đạo đức mà tâm còn động.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Cho dù ta có đạo đức” trong ngữ cảnh.",
               "evidence": "Cho dù ta có đạo đức",
               "analysis": "Even if giữ phẩm chất chưa đủ thay kết quả tâm.",
               "parts": [
@@ -5085,7 +5085,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép tác động tăng trưởng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đạo đức được tăng trưởng” trong đoạn.",
               "evidence": "đạo đức được tăng trưởng",
               "analysis": "Strengthens diễn đạt tăng trưởng, không chỉ bàn luận.",
               "tokens": [
@@ -5105,7 +5105,7 @@ window.PQContextBank={
               "id": "W04-B11-Q01"
             },
             {
-              "prompt": "Ghép yêu cầu tu cả hai.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phải tu cả hai” trong đoạn.",
               "evidence": "phải tu cả hai",
               "analysis": "Both giữ hai phần, không chọn một thay phần kia.",
               "tokens": [
@@ -5125,7 +5125,7 @@ window.PQContextBank={
               "id": "W04-B11-Q02"
             },
             {
-              "prompt": "Ghép đồng thời kiểm tra nội tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “luôn luôn kiểm soát đúng sai” trong đoạn.",
               "evidence": "luôn luôn kiểm soát đúng sai",
               "analysis": "Continually giữ nhịp thường trực.",
               "tokens": [
@@ -5145,7 +5145,7 @@ window.PQContextBank={
               "id": "W04-B11-Q03"
             },
             {
-              "prompt": "Ghép sự giới hạn đạo đức không thiền.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chỉ tu mặt đạo đức mà không tu thiền” trong đoạn.",
               "evidence": "chỉ tu mặt đạo đức mà không tu thiền",
               "analysis": "Conversely giữ chiều bổ sung, không phủ nhận đạo đức.",
               "tokens": [
@@ -5165,7 +5165,7 @@ window.PQContextBank={
               "id": "W04-B11-Q04"
             },
             {
-              "prompt": "Ghép cấu trúc càng…càng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm định càng sâu, đạo đức càng dày” trong đoạn.",
               "evidence": "tâm định càng sâu, đạo đức càng dày",
               "analysis": "The deeper/the more giữ tương quan tăng trưởng.",
               "tokens": [
@@ -5224,7 +5224,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa trạng thái hai người.",
+              "prompt": "Chọn bản sửa phân biệt đúng tình trạng tu tập của hai người trong câu chuyện.",
               "evidence": "ông Nandaka rất khó khăn mà vẫn chưa chứng được",
               "analysis": "Parata đã chứng trước; Nandaka chưa, không đồng nhất.",
               "options": [
@@ -5239,7 +5239,7 @@ window.PQContextBank={
               "id": "W04-B12-Q01"
             },
             {
-              "prompt": "Sửa lời nói trực tiếp.",
+              "prompt": "Chọn bản sửa giữ đúng lời khuyên trực tiếp về con bò.",
               "evidence": "Đừng đánh con bò nữa",
               "analysis": "Stop beating giữ mệnh lệnh dừng, không tăng lực.",
               "options": [
@@ -5254,7 +5254,7 @@ window.PQContextBank={
               "id": "W04-B12-Q02"
             },
             {
-              "prompt": "Sửa thứ tự phục hồi.",
+              "prompt": "Chọn bản sửa giữ đúng thứ tự chăm sóc và cho con bò nghỉ ngơi.",
               "evidence": "cho ăn, uống, vỗ về, và cho nó nghỉ ngơi",
               "analysis": "Được chăm và nghỉ trước khi kéo trở lại.",
               "options": [
@@ -5269,7 +5269,7 @@ window.PQContextBank={
               "id": "W04-B12-Q03"
             },
             {
-              "prompt": "Sửa vai trò người phụ đẩy.",
+              "prompt": "Chọn bản sửa nêu đúng vai trò của những người được nhờ phụ đẩy.",
               "evidence": "nhờ thêm vài người phụ đẩy",
               "analysis": "Giữ trợ lực ngoài nghỉ ngơi, không quy hết cho một yếu tố.",
               "options": [
@@ -5284,7 +5284,7 @@ window.PQContextBank={
               "id": "W04-B12-Q04"
             },
             {
-              "prompt": "Sửa kết luận ẩn dụ.",
+              "prompt": "Chọn bản sửa giữ đúng kết luận của ẩn dụ: hồi phục sức lực để tiếp tục đi.",
               "evidence": "lấy sức tiếp tục mà đi tới nữa",
               "analysis": "Rest để lấy sức tiếp tục, không phải bỏ đường.",
               "options": [
@@ -5339,7 +5339,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Taken form as giữ chuyển đổi nào?",
+              "prompt": "Cụm “taken form as” diễn đạt sự chuyển đổi nào?",
               "evidence": "biến thành ngôn ngữ",
               "analysis": "Tư tưởng hiện thành dạng rõ, không phải âm thanh tự biến thành người.",
               "options": [
@@ -5353,7 +5353,7 @@ window.PQContextBank={
               "id": "W05-B01-Q01"
             },
             {
-              "prompt": "The mind’s surface giữ hình ảnh gì?",
+              "prompt": "Cụm “the mind’s surface” giữ hình ảnh nào trong đoạn?",
               "evidence": "phần nổi của tâm",
               "analysis": "Surface đối với phần chìm, không nói lớp da.",
               "options": [
@@ -5367,7 +5367,7 @@ window.PQContextBank={
               "id": "W05-B01-Q02"
             },
             {
-              "prompt": "Associated with đúng lực nguồn?",
+              "prompt": "Cách diễn đạt nào giữ mức “liên quan đến”, không nâng thành nguyên nhân duy nhất?",
               "evidence": "liên quan đến",
               "analysis": "Association không tự nâng thành độc nhất do một vùng gây ra.",
               "options": [
@@ -5381,7 +5381,7 @@ window.PQContextBank={
               "id": "W05-B01-Q03"
             },
             {
-              "prompt": "Ai có thể thấy hoạt động?",
+              "prompt": "Theo đoạn, chủ thể nào có thể quan sát các hoạt động tâm đang được nói tới?",
               "evidence": "Ý thức có thể thấy được",
               "analysis": "Conscious mind là chủ thể quan sát, không những vùng não tự kể.",
               "options": [
@@ -5395,7 +5395,7 @@ window.PQContextBank={
               "id": "W05-B01-Q04"
             },
             {
-              "prompt": "So nối lý do phân loại nào?",
+              "prompt": "Từ “so” nối khả năng quan sát với kết luận phân loại nào?",
               "evidence": "nên Tưởng và Thọ",
               "analysis": "Khả năng quan sát là căn cứ phân loại tác giả nêu.",
               "options": [
@@ -5430,7 +5430,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ gần như toàn bộ, không toàn bộ tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “gần như toàn bộ” trong ngữ cảnh.",
               "evidence": "gần như toàn bộ",
               "analysis": "Almost giới hạn lượng hoạt động.",
               "parts": [
@@ -5450,7 +5450,7 @@ window.PQContextBank={
               "id": "W05-B02-Q01"
             },
             {
-              "prompt": "Điền hệ quả hoạt động quá nhanh.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ý thức của chúng ta không thấy kịp” trong ngữ cảnh.",
               "evidence": "Ý thức của chúng ta không thấy kịp",
               "analysis": "Cannot observe in time không đồng nghĩa không có hoạt động.",
               "parts": [
@@ -5470,7 +5470,7 @@ window.PQContextBank={
               "id": "W05-B02-Q02"
             },
             {
-              "prompt": "Điền cách phân loại.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “phần Vô thức” trong ngữ cảnh.",
               "evidence": "phần Vô thức",
               "analysis": "Unconscious là phần chìm theo phân loại của tác giả.",
               "parts": [
@@ -5490,7 +5490,7 @@ window.PQContextBank={
               "id": "W05-B02-Q03"
             },
             {
-              "prompt": "Giữ bản năng ví dụ, không danh sách đóng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “như Bản năng sinh tồn” trong ngữ cảnh.",
               "evidence": "như Bản năng sinh tồn",
               "analysis": "Such as mở ví dụ, không nói chỉ hai bản năng.",
               "parts": [
@@ -5510,7 +5510,7 @@ window.PQContextBank={
               "id": "W05-B02-Q04"
             },
             {
-              "prompt": "Giữ điều kiện thần thông trong nguồn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi Tâm vào được định” trong ngữ cảnh.",
               "evidence": "Khi Tâm vào được định",
               "analysis": "When nhập định là bối cảnh được nêu, không biến mọi hồi ức thành thần thông.",
               "parts": [
@@ -5551,7 +5551,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép phạm vi tất cả cái biết.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tất cả những cái biết” trong đoạn.",
               "evidence": "tất cả những cái biết",
               "analysis": "Comprises giữ phạm vi tổng, không chỉ tri giác mắt.",
               "tokens": [
@@ -5571,7 +5571,7 @@ window.PQContextBank={
               "id": "W05-B03-Q01"
             },
             {
-              "prompt": "Ghép mệnh đề không biết không phải tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Không có biết thì không phải là Tâm” trong đoạn.",
               "evidence": "Không có biết thì không phải là Tâm",
               "analysis": "Without giữ điều kiện phủ định.",
               "tokens": [
@@ -5591,7 +5591,7 @@ window.PQContextBank={
               "id": "W05-B03-Q02"
             },
             {
-              "prompt": "Ghép tự biết nội tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tự biết nội tâm của mình” trong đoạn.",
               "evidence": "tự biết nội tâm của mình",
               "analysis": "Its own giữ quy chiếu về chủ thể nhận biết.",
               "tokens": [
@@ -5611,7 +5611,7 @@ window.PQContextBank={
               "id": "W05-B03-Q03"
             },
             {
-              "prompt": "Ghép lĩnh hội vấn đề trừu tượng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những vấn đề trừu tượng” trong đoạn.",
               "evidence": "những vấn đề trừu tượng",
               "analysis": "Understanding abstract matters không chỉ ghi nhớ âm thanh.",
               "tokens": [
@@ -5631,7 +5631,7 @@ window.PQContextBank={
               "id": "W05-B03-Q04"
             },
             {
-              "prompt": "Ghép so sánh tốc độ của nguồn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “gấp ngàn lần Hành uẩn” trong đoạn.",
               "evidence": "gấp ngàn lần Hành uẩn",
               "analysis": "Faster than giữ đối tượng so sánh, không tự chứng nhận đo khoa học.",
               "tokens": [
@@ -5672,7 +5672,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa phạm vi nguồn dữ liệu.",
+              "prompt": "Chọn bản sửa giữ đúng các nguồn hình thành dữ liệu trong tâm.",
               "evidence": "hay khởi từ nội tâm ra",
               "analysis": "Or arising within giữ dữ liệu nội tâm, không chỉ ngoài.",
               "options": [
@@ -5687,7 +5687,7 @@ window.PQContextBank={
               "id": "W05-B04-Q01"
             },
             {
-              "prompt": "Sửa khác biệt cá nhân.",
+              "prompt": "Chọn bản sửa giữ đúng sự khác nhau về khả năng giữa các cá nhân.",
               "evidence": "Có người có khả năng",
               "analysis": "Some/others giữ hai khả năng khác nhau.",
               "options": [
@@ -5702,7 +5702,7 @@ window.PQContextBank={
               "id": "W05-B04-Q02"
             },
             {
-              "prompt": "Sửa động từ tìm lại.",
+              "prompt": "Chọn động từ diễn đạt đúng việc tìm lại dữ liệu đã lưu.",
               "evidence": "tìm lại dữ liệu",
               "analysis": "Retrieve là truy hồi, không tạo mới.",
               "options": [
@@ -5717,7 +5717,7 @@ window.PQContextBank={
               "id": "W05-B04-Q03"
             },
             {
-              "prompt": "Sửa vai trò chủ thể và bị lưu.",
+              "prompt": "Chọn bản sửa phân biệt đúng điều được lưu với nơi lưu giữ.",
               "evidence": "sở thích đa dạng cũng được cất giữ",
               "analysis": "Preferences được lưu trong memory, không ngược lại.",
               "options": [
@@ -5732,7 +5732,7 @@ window.PQContextBank={
               "id": "W05-B04-Q04"
             },
             {
-              "prompt": "Sửa mức ảnh hưởng.",
+              "prompt": "Chọn bản sửa giữ đúng mức ảnh hưởng lên suy nghĩ và hành vi.",
               "evidence": "chi phối suy nghĩ hành vi",
               "analysis": "Influence giữ tác động, không tự thêm bảo đảm tuyệt đối.",
               "options": [
@@ -5768,7 +5768,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Suppose trong câu đầu giữ gì?",
+              "prompt": "Từ “suppose” ở câu đầu thể hiện suy nghĩ của người tu hay sự xác nhận của tác giả?",
               "evidence": "hành giả tưởng mình",
               "analysis": "Suppose là tưởng đã đạt, không lời xác nhận của tác giả.",
               "options": [
@@ -5782,7 +5782,7 @@ window.PQContextBank={
               "id": "W05-B05-Q01"
             },
             {
-              "prompt": "Still pouring forth giữ tiến trình nào?",
+              "prompt": "Cụm “still pouring forth” diễn tả tiến trình nào vẫn tiếp diễn?",
               "evidence": "vẫn đang còn",
               "analysis": "Still giữ hoạt động tiếp diễn dù không nhận ra.",
               "options": [
@@ -5796,7 +5796,7 @@ window.PQContextBank={
               "id": "W05-B05-Q02"
             },
             {
-              "prompt": "Most dangerous nhắm loại nào?",
+              "prompt": "Cụm “most dangerous” nhắm tới loại tư tưởng nào?",
               "evidence": "có tính tự khen ngợi mình",
               "analysis": "Đối tượng cảnh báo là tư tưởng tự khen/kiêu mạn.",
               "options": [
@@ -5810,7 +5810,7 @@ window.PQContextBank={
               "id": "W05-B05-Q03"
             },
             {
-              "prompt": "Undermine the work of practice diễn đạt gì?",
+              "prompt": "Cụm “undermine the work of practice” diễn đạt tác động nào?",
               "evidence": "phá vỡ công phu tu hành",
               "analysis": "Undermine giữ hủy hại công phu, không chỉ chậm lịch buổi học.",
               "options": [
@@ -5824,7 +5824,7 @@ window.PQContextBank={
               "id": "W05-B05-Q04"
             },
             {
-              "prompt": "Empty/pure trong đoạn được đặt thế nào?",
+              "prompt": "Đoạn phân biệt cảm giác “trống không” với sự “thanh tịnh” như thế nào?",
               "evidence": "trống không",
               "analysis": "Cảm giác trống không chưa đủ kết luận thanh tịnh.",
               "options": [
@@ -5859,7 +5859,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền chủ thể nhận biết.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ý thức là cái biết” trong ngữ cảnh.",
               "evidence": "Ý thức là cái biết",
               "analysis": "Conscious mind giữ thuật ngữ của nguồn.",
               "parts": [
@@ -5879,7 +5879,7 @@ window.PQContextBank={
               "id": "W05-B06-Q01"
             },
             {
-              "prompt": "Giữ tự biết đang nghĩ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “biết ta đang suy nghĩ” trong ngữ cảnh.",
               "evidence": "biết ta đang suy nghĩ",
               "analysis": "We know that we are thinking giữ phản tỉnh.",
               "parts": [
@@ -5899,7 +5899,7 @@ window.PQContextBank={
               "id": "W05-B06-Q02"
             },
             {
-              "prompt": "Giữ quan hệ bên cạnh hoạt động.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Bên cạnh các hoạt động” trong ngữ cảnh.",
               "evidence": "Bên cạnh các hoạt động",
               "analysis": "Alongside không phủ định hoạt động đang có.",
               "parts": [
@@ -5919,7 +5919,7 @@ window.PQContextBank={
               "id": "W05-B06-Q03"
             },
             {
-              "prompt": "Điền nét độc lập.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “độc lập khỏi tư tưởng tình cảm” trong ngữ cảnh.",
               "evidence": "độc lập khỏi tư tưởng tình cảm",
               "analysis": "Stand apart không tự nhận biết mọi tâm người khác.",
               "parts": [
@@ -5939,7 +5939,7 @@ window.PQContextBank={
               "id": "W05-B06-Q04"
             },
             {
-              "prompt": "Giữ dần dần tu tập để dừng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dần dần tu tập” trong ngữ cảnh.",
               "evidence": "dần dần tu tập",
               "analysis": "Gradually giữ công phu, không biến thành tức thì khi đặt tên.",
               "parts": [
@@ -5983,7 +5983,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép tình huống làm nền ví dụ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đang ngồi xem” trong đoạn.",
               "evidence": "đang ngồi xem",
               "analysis": "Watching giữ vai quan sát trước khi bị cuốn.",
               "tokens": [
@@ -6003,7 +6003,7 @@ window.PQContextBank={
               "id": "W05-B07-Q01"
             },
             {
-              "prompt": "Ghép trường hợp bị cuốn vào.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bị lôi kéo để nhào theo” trong đoạn.",
               "evidence": "bị lôi kéo để nhào theo",
               "analysis": "Drawn in chuyển vai từ xem sang tham gia.",
               "tokens": [
@@ -6023,7 +6023,7 @@ window.PQContextBank={
               "id": "W05-B07-Q02"
             },
             {
-              "prompt": "Ghép quan hệ so sánh với ý thức.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Ý thức giống như người theo dõi” trong đoạn.",
               "evidence": "Ý thức giống như người theo dõi",
               "analysis": "Likewise giữ phép ví, không phải khẳng định có người thật trong não.",
               "tokens": [
@@ -6043,7 +6043,7 @@ window.PQContextBank={
               "id": "W05-B07-Q03"
             },
             {
-              "prompt": "Ghép tác dụng chìm theo suy nghĩ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “gia tăng sức mạnh cho tư tưởng” trong đoạn.",
               "evidence": "gia tăng sức mạnh cho tư tưởng",
               "analysis": "Lending strength cho thought, không cho người ngoài.",
               "tokens": [
@@ -6063,7 +6063,7 @@ window.PQContextBank={
               "id": "W05-B07-Q04"
             },
             {
-              "prompt": "Ghép trạng thái để tư tưởng yếu tắt.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “yếu đi và tắt” trong đoạn.",
               "evidence": "yếu đi và tắt",
               "analysis": "Weaken and fade là hai bước giảm, không tăng.",
               "tokens": [
@@ -6107,7 +6107,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa phân biệt biết và theo.",
+              "prompt": "Chọn bản sửa phân biệt đúng việc biết rõ tư tưởng với bị tư tưởng lôi cuốn.",
               "evidence": "biết rõ tưởng nhưng độc lập",
               "analysis": "Knowing clearly và independent cùng có, không đồng nhất theo đuổi.",
               "options": [
@@ -6122,7 +6122,7 @@ window.PQContextBank={
               "id": "W05-B08-Q01"
             },
             {
-              "prompt": "Sửa quan hệ nói và làm.",
+              "prompt": "Chọn bản sửa giữ đúng đối chiếu: nói thì dễ, thực hành thì khó.",
               "evidence": "Nói thì dễ, nhưng",
               "analysis": "But giữ độ khó thực hành trái lời nói dễ.",
               "options": [
@@ -6137,7 +6137,7 @@ window.PQContextBank={
               "id": "W05-B08-Q02"
             },
             {
-              "prompt": "Sửa hướng tiến tới.",
+              "prompt": "Chọn bản sửa giữ đúng hướng tiến tới chấm dứt vọng tưởng.",
               "evidence": "tiến tới chấm dứt vọng tưởng",
               "analysis": "Toward cessation giữ hướng, không nói đã hoàn tất.",
               "options": [
@@ -6152,7 +6152,7 @@ window.PQContextBank={
               "id": "W05-B08-Q03"
             },
             {
-              "prompt": "Sửa thuật ngữ.",
+              "prompt": "Chọn bản sửa dùng đúng thuật ngữ cho “công đức”.",
               "evidence": "nhiều công đức",
               "analysis": "Merit là công đức, không phải lời công nhận.",
               "options": [
@@ -6167,7 +6167,7 @@ window.PQContextBank={
               "id": "W05-B08-Q04"
             },
             {
-              "prompt": "Sửa đối tượng tự quan sát.",
+              "prompt": "Chọn bản sửa xác định đúng đối tượng cần tự quan sát là nội tâm của mình.",
               "evidence": "nội tâm của mình",
               "analysis": "Your own inner life giữ yêu cầu phản tỉnh.",
               "options": [
@@ -6203,7 +6203,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Without understanding nêu thiếu hụt gì?",
+              "prompt": "Cụm “without understanding” nêu khoảng thiếu hụt nào trong tri thức?",
               "evidence": "Thiếu hiểu biết",
               "analysis": "Nguồn nêu thiếu mảng tri thức, không chỉ thiếu tên thuật ngữ.",
               "options": [
@@ -6217,7 +6217,7 @@ window.PQContextBank={
               "id": "W05-B09-Q01"
             },
             {
-              "prompt": "Must quickly introduce giữ lực nào?",
+              "prompt": "Cụm “must quickly introduce” giữ mức độ thúc bách nào trong đề xuất của tác giả?",
               "evidence": "phải nhanh chóng đưa môn",
               "analysis": "Giữ lời đề nghị mạnh của tác giả cho trường học.",
               "options": [
@@ -6231,7 +6231,7 @@ window.PQContextBank={
               "id": "W05-B09-Q02"
             },
             {
-              "prompt": "An Arahant can see giữ chủ thể nào?",
+              "prompt": "Cụm “an Arahant can see” xác định chủ thể nào có khả năng thấy?",
               "evidence": "Vị Arahanta có thể nhìn thấy",
               "analysis": "Không mở khả năng tới mọi người mới thiền.",
               "options": [
@@ -6245,7 +6245,7 @@ window.PQContextBank={
               "id": "W05-B09-Q03"
             },
             {
-              "prompt": "Such as trong danh sách cõi?",
+              "prompt": "Cụm “such as” trong danh sách các cõi có chức năng gì?",
               "evidence": "như cõi trời",
               "analysis": "Mở ví dụ, không tự đóng danh sách chỉ ba cõi.",
               "options": [
@@ -6259,7 +6259,7 @@ window.PQContextBank={
               "id": "W05-B09-Q04"
             },
             {
-              "prompt": "Both independent and connected giữ gì?",
+              "prompt": "Cụm “both independent and connected” giữ đồng thời hai nét nghĩa nào?",
               "evidence": "vừa độc lập, vừa liên quan",
               "analysis": "Giữ hai nét đồng thời, không ép thành đồng nhất.",
               "options": [
@@ -6294,7 +6294,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ nhượng bộ biết đường siêu thế.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tuy biết Thiền” trong ngữ cảnh.",
               "evidence": "tuy biết Thiền",
               "analysis": "Although giữ thừa nhận nhưng đổi trọng tâm chú ý.",
               "parts": [
@@ -6314,7 +6314,7 @@ window.PQContextBank={
               "id": "W05-B10-Q01"
             },
             {
-              "prompt": "Điền tiêu chí đánh giá.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “căn cứ trên Đạo đức giới hạnh” trong ngữ cảnh.",
               "evidence": "căn cứ trên Đạo đức giới hạnh",
               "analysis": "Basis giữ căn cứ, không tự cấp khả năng đo tâm chứng.",
               "parts": [
@@ -6334,7 +6334,7 @@ window.PQContextBank={
               "id": "W05-B10-Q02"
             },
             {
-              "prompt": "Giữ cảnh báo đừng lung lạc.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đừng để bị lung lạc” trong ngữ cảnh.",
               "evidence": "đừng để bị lung lạc",
               "analysis": "Not be swayed không đồng nghĩa cấm nghe mọi người.",
               "parts": [
@@ -6354,7 +6354,7 @@ window.PQContextBank={
               "id": "W05-B10-Q03"
             },
             {
-              "prompt": "Điền quy chiếu người được xét.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “người đó” trong ngữ cảnh.",
               "evidence": "người đó",
               "analysis": "That person’s gắn đạo đức với người nói, không người nghe.",
               "parts": [
@@ -6374,7 +6374,7 @@ window.PQContextBank={
               "id": "W05-B10-Q04"
             },
             {
-              "prompt": "Giữ lượng không chú ý nhiều.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không nên chú ý nhiều” trong ngữ cảnh.",
               "evidence": "không nên chú ý nhiều",
               "analysis": "Not much attention khác không được biết gì về.",
               "parts": [
@@ -6415,7 +6415,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép hai điều cần kiểm tra.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mềm mại và bất động” trong đoạn.",
               "evidence": "mềm mại và bất động",
               "analysis": "Relaxed and still giữ cả hai, không một thay một.",
               "tokens": [
@@ -6435,7 +6435,7 @@ window.PQContextBank={
               "id": "W05-B11-Q01"
             },
             {
-              "prompt": "Ghép lỗi gồng cơ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “gồng cứng vài cơ bắp” trong đoạn.",
               "evidence": "gồng cứng vài cơ bắp",
               "analysis": "Certain giữ một số cơ, không toàn thân mọi lúc.",
               "tokens": [
@@ -6455,7 +6455,7 @@ window.PQContextBank={
               "id": "W05-B11-Q02"
             },
             {
-              "prompt": "Ghép lỗi lay động.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhúc nhích một vài bộ phận” trong đoạn.",
               "evidence": "nhúc nhích một vài bộ phận",
               "analysis": "Moving nói vận động, không tưởng tượng.",
               "tokens": [
@@ -6475,7 +6475,7 @@ window.PQContextBank={
               "id": "W05-B11-Q03"
             },
             {
-              "prompt": "Ghép chiều gây chướng ngại.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “làm tâm bị chướng ngại” trong đoạn.",
               "evidence": "làm tâm bị chướng ngại",
               "analysis": "Mistakes hinder mind theo cách nguồn giải thích.",
               "tokens": [
@@ -6495,7 +6495,7 @@ window.PQContextBank={
               "id": "W05-B11-Q04"
             },
             {
-              "prompt": "Ghép quan hệ liên quan không đồng nhất.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “có liên quan đến một khu vực của não” trong đoạn.",
               "evidence": "có liên quan đến một khu vực của não",
               "analysis": "Linked with nói liên quan, không cơ thể chính là não.",
               "tokens": [
@@ -6536,7 +6536,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa kết quả mưu hại.",
+              "prompt": "Chọn bản sửa giữ đúng kết quả của âm mưu gây hại trong câu chuyện.",
               "evidence": "nhưng may mắn không bị",
               "analysis": "Attempt failed giữ không bị tù, không tự kể đã ở tù.",
               "options": [
@@ -6551,7 +6551,7 @@ window.PQContextBank={
               "id": "W05-B12-Q01"
             },
             {
-              "prompt": "Sửa hiểu lầm cốt lõi.",
+              "prompt": "Chọn bản sửa giữ đúng sự hiểu lầm: tưởng đã quên nhưng cơn giận vẫn còn.",
               "evidence": "tưởng đã quên nhưng cái giận vẫn còn",
               "analysis": "Seemed forgotten chưa chứng minh hết giận.",
               "options": [
@@ -6566,7 +6566,7 @@ window.PQContextBank={
               "id": "W05-B12-Q02"
             },
             {
-              "prompt": "Sửa thời điểm nhận ra.",
+              "prompt": "Chọn bản sửa giữ đúng thời điểm người đó mới nhận ra cơn giận.",
               "evidence": "Lúc đó, người này mới biết",
               "analysis": "Only then giữ nhận ra sau thử thương không được.",
               "options": [
@@ -6581,7 +6581,7 @@ window.PQContextBank={
               "id": "W05-B12-Q03"
             },
             {
-              "prompt": "Sửa công phu và thời lượng.",
+              "prompt": "Chọn bản sửa giữ đúng công phu được thực hiện trong nhiều ngày.",
               "evidence": "suốt mấy ngày",
               "analysis": "Several days/determined giữ công phu không tức thì.",
               "options": [
@@ -6596,7 +6596,7 @@ window.PQContextBank={
               "id": "W05-B12-Q04"
             },
             {
-              "prompt": "Sửa chiều tác ý thương.",
+              "prompt": "Chọn bản sửa xác định đúng đối tượng mà người tu chủ ý khởi lòng thương.",
               "evidence": "tác ý thương kẻ đó",
               "analysis": "Người luyện hướng tình thương tới kẻ hại, không ép nhận lại.",
               "options": [
@@ -6651,7 +6651,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Vô minh không chỉ là một ý niệm”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Vô minh không chỉ là một ý niệm”?",
               "focus": "main idea",
               "evidence": "vô minh quá mơ hồ",
               "options": [
@@ -6665,7 +6665,7 @@ window.PQContextBank={
               "id": "W06-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "vô minh quá mơ hồ",
               "options": [
@@ -6679,7 +6679,7 @@ window.PQContextBank={
               "id": "W06-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "vô minh quá mơ hồ",
               "options": [
@@ -6707,7 +6707,7 @@ window.PQContextBank={
               "id": "W06-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "vô minh quá mơ hồ",
               "options": [
@@ -6742,7 +6742,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhìn lỗi mình”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm",
               "parts": [
@@ -6762,7 +6762,7 @@ window.PQContextBank={
               "id": "W06-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm",
               "parts": [
@@ -6782,7 +6782,7 @@ window.PQContextBank={
               "id": "W06-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm",
               "parts": [
@@ -6802,7 +6802,7 @@ window.PQContextBank={
               "id": "W06-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm",
               "parts": [
@@ -6822,7 +6822,7 @@ window.PQContextBank={
               "id": "W06-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Biết được lỗi của mình vừa là trí tuệ, vừa là can đảm",
               "parts": [
@@ -6863,7 +6863,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hiền lành không phải nhu nhược”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái hiền lành của người có đạo đức khác với cái nhu nhược” trong đoạn.",
               "focus": "main idea",
               "evidence": "cái hiền lành của người có đạo đức khác với cái nhu nhược",
               "tokens": [
@@ -6892,7 +6892,7 @@ window.PQContextBank={
               "id": "W06-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái hiền lành của người có đạo đức khác với cái nhu nhược” trong đoạn.",
               "focus": "scope",
               "evidence": "cái hiền lành của người có đạo đức khác với cái nhu nhược",
               "tokens": [
@@ -6920,7 +6920,7 @@ window.PQContextBank={
               "id": "W06-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái hiền lành của người có đạo đức khác với cái nhu nhược” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "cái hiền lành của người có đạo đức khác với cái nhu nhược",
               "tokens": [
@@ -6948,7 +6948,7 @@ window.PQContextBank={
               "id": "W06-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái hiền lành của người có đạo đức khác với cái nhu nhược” trong đoạn.",
               "focus": "relation",
               "evidence": "cái hiền lành của người có đạo đức khác với cái nhu nhược",
               "tokens": [
@@ -6976,7 +6976,7 @@ window.PQContextBank={
               "id": "W06-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cái hiền lành của người có đạo đức khác với cái nhu nhược” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "cái hiền lành của người có đạo đức khác với cái nhu nhược",
               "tokens": [
@@ -7025,7 +7025,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hiểu sai nhân quả”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu không hiểu kỹ về Luật Nhân Quả” trong đoạn.",
               "focus": "main idea",
               "evidence": "Nếu không hiểu kỹ về Luật Nhân Quả",
               "options": [
@@ -7040,7 +7040,7 @@ window.PQContextBank={
               "id": "W06-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu không hiểu kỹ về Luật Nhân Quả” trong đoạn.",
               "focus": "scope",
               "evidence": "Nếu không hiểu kỹ về Luật Nhân Quả",
               "options": [
@@ -7055,7 +7055,7 @@ window.PQContextBank={
               "id": "W06-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu không hiểu kỹ về Luật Nhân Quả” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Nếu không hiểu kỹ về Luật Nhân Quả",
               "options": [
@@ -7070,7 +7070,7 @@ window.PQContextBank={
               "id": "W06-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu không hiểu kỹ về Luật Nhân Quả” trong đoạn.",
               "focus": "relation",
               "evidence": "Nếu không hiểu kỹ về Luật Nhân Quả",
               "options": [
@@ -7085,7 +7085,7 @@ window.PQContextBank={
               "id": "W06-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu không hiểu kỹ về Luật Nhân Quả” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Nếu không hiểu kỹ về Luật Nhân Quả",
               "options": [
@@ -7121,7 +7121,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Chấp Không và phủ nhận nhân quả”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Chấp Không và phủ nhận nhân quả”?",
               "focus": "main idea",
               "evidence": "Chấp không khiến người ta bác bỏ luôn cả nhân quả",
               "options": [
@@ -7135,7 +7135,7 @@ window.PQContextBank={
               "id": "W06-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Chấp không khiến người ta bác bỏ luôn cả nhân quả",
               "options": [
@@ -7149,7 +7149,7 @@ window.PQContextBank={
               "id": "W06-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Chấp không khiến người ta bác bỏ luôn cả nhân quả",
               "options": [
@@ -7177,7 +7177,7 @@ window.PQContextBank={
               "id": "W06-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Chấp không khiến người ta bác bỏ luôn cả nhân quả",
               "options": [
@@ -7212,7 +7212,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tự biện hộ và trách nhiệm”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc cho bản năng tìm cách biện hộ” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Mặc cho bản năng tìm cách biện hộ",
               "parts": [
@@ -7232,7 +7232,7 @@ window.PQContextBank={
               "id": "W06-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc cho bản năng tìm cách biện hộ” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Mặc cho bản năng tìm cách biện hộ",
               "parts": [
@@ -7252,7 +7252,7 @@ window.PQContextBank={
               "id": "W06-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc cho bản năng tìm cách biện hộ” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Mặc cho bản năng tìm cách biện hộ",
               "parts": [
@@ -7272,7 +7272,7 @@ window.PQContextBank={
               "id": "W06-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc cho bản năng tìm cách biện hộ” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Mặc cho bản năng tìm cách biện hộ",
               "parts": [
@@ -7292,7 +7292,7 @@ window.PQContextBank={
               "id": "W06-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc cho bản năng tìm cách biện hộ” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Mặc cho bản năng tìm cách biện hộ",
               "parts": [
@@ -7333,7 +7333,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhìn lỗi để dạy người”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Biết lỗi chính mình cũng là sự can đảm” trong đoạn.",
               "focus": "main idea",
               "evidence": "Biết lỗi chính mình cũng là sự can đảm",
               "tokens": [
@@ -7368,7 +7368,7 @@ window.PQContextBank={
               "id": "W06-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Biết lỗi chính mình cũng là sự can đảm” trong đoạn.",
               "focus": "scope",
               "evidence": "Biết lỗi chính mình cũng là sự can đảm",
               "tokens": [
@@ -7402,7 +7402,7 @@ window.PQContextBank={
               "id": "W06-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Biết lỗi chính mình cũng là sự can đảm” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Biết lỗi chính mình cũng là sự can đảm",
               "tokens": [
@@ -7436,7 +7436,7 @@ window.PQContextBank={
               "id": "W06-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Biết lỗi chính mình cũng là sự can đảm” trong đoạn.",
               "focus": "relation",
               "evidence": "Biết lỗi chính mình cũng là sự can đảm",
               "tokens": [
@@ -7470,7 +7470,7 @@ window.PQContextBank={
               "id": "W06-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Biết lỗi chính mình cũng là sự can đảm” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Biết lỗi chính mình cũng là sự can đảm",
               "tokens": [
@@ -7525,7 +7525,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Thấy lỗi và khiêm tốn”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết lỗi mới có thể sửa lỗi” trong đoạn.",
               "focus": "main idea",
               "evidence": "biết lỗi mới có thể sửa lỗi",
               "options": [
@@ -7540,7 +7540,7 @@ window.PQContextBank={
               "id": "W06-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết lỗi mới có thể sửa lỗi” trong đoạn.",
               "focus": "scope",
               "evidence": "biết lỗi mới có thể sửa lỗi",
               "options": [
@@ -7555,7 +7555,7 @@ window.PQContextBank={
               "id": "W06-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết lỗi mới có thể sửa lỗi” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "biết lỗi mới có thể sửa lỗi",
               "options": [
@@ -7570,7 +7570,7 @@ window.PQContextBank={
               "id": "W06-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết lỗi mới có thể sửa lỗi” trong đoạn.",
               "focus": "relation",
               "evidence": "biết lỗi mới có thể sửa lỗi",
               "options": [
@@ -7585,7 +7585,7 @@ window.PQContextBank={
               "id": "W06-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết lỗi mới có thể sửa lỗi” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "biết lỗi mới có thể sửa lỗi",
               "options": [
@@ -7621,7 +7621,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Kinh nghiệm để dạy đạo đức”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Kinh nghiệm để dạy đạo đức”?",
               "focus": "main idea",
               "evidence": "Một cái lợi lớn đối với người biết được lỗi mình",
               "options": [
@@ -7635,7 +7635,7 @@ window.PQContextBank={
               "id": "W06-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Một cái lợi lớn đối với người biết được lỗi mình",
               "options": [
@@ -7649,7 +7649,7 @@ window.PQContextBank={
               "id": "W06-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Một cái lợi lớn đối với người biết được lỗi mình",
               "options": [
@@ -7677,7 +7677,7 @@ window.PQContextBank={
               "id": "W06-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Một cái lợi lớn đối với người biết được lỗi mình",
               "options": [
@@ -7712,7 +7712,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tâm yên chưa phải chứng Thánh”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có nhiều mức độ tâm yên tĩnh” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Có nhiều mức độ tâm yên tĩnh",
               "parts": [
@@ -7732,7 +7732,7 @@ window.PQContextBank={
               "id": "W06-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có nhiều mức độ tâm yên tĩnh” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Có nhiều mức độ tâm yên tĩnh",
               "parts": [
@@ -7752,7 +7752,7 @@ window.PQContextBank={
               "id": "W06-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có nhiều mức độ tâm yên tĩnh” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Có nhiều mức độ tâm yên tĩnh",
               "parts": [
@@ -7772,7 +7772,7 @@ window.PQContextBank={
               "id": "W06-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có nhiều mức độ tâm yên tĩnh” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Có nhiều mức độ tâm yên tĩnh",
               "parts": [
@@ -7792,7 +7792,7 @@ window.PQContextBank={
               "id": "W06-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có nhiều mức độ tâm yên tĩnh” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Có nhiều mức độ tâm yên tĩnh",
               "parts": [
@@ -7833,7 +7833,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhầm sự yên tĩnh với địa vị”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh” trong đoạn.",
               "focus": "main idea",
               "evidence": "tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh",
               "tokens": [
@@ -7868,7 +7868,7 @@ window.PQContextBank={
               "id": "W06-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh” trong đoạn.",
               "focus": "scope",
               "evidence": "tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh",
               "tokens": [
@@ -7902,7 +7902,7 @@ window.PQContextBank={
               "id": "W06-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh",
               "tokens": [
@@ -7936,7 +7936,7 @@ window.PQContextBank={
               "id": "W06-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh” trong đoạn.",
               "focus": "relation",
               "evidence": "tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh",
               "tokens": [
@@ -7970,7 +7970,7 @@ window.PQContextBank={
               "id": "W06-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "tâm một phàm phu có khi dụng công đúng phương pháp cũng được yên tĩnh",
               "tokens": [
@@ -8025,7 +8025,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhận đúng hoàn cảnh để tu”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không được ảo tưởng mình cao siêu” trong đoạn.",
               "focus": "main idea",
               "evidence": "không được ảo tưởng mình cao siêu",
               "options": [
@@ -8040,7 +8040,7 @@ window.PQContextBank={
               "id": "W06-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không được ảo tưởng mình cao siêu” trong đoạn.",
               "focus": "scope",
               "evidence": "không được ảo tưởng mình cao siêu",
               "options": [
@@ -8055,7 +8055,7 @@ window.PQContextBank={
               "id": "W06-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không được ảo tưởng mình cao siêu” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "không được ảo tưởng mình cao siêu",
               "options": [
@@ -8070,7 +8070,7 @@ window.PQContextBank={
               "id": "W06-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không được ảo tưởng mình cao siêu” trong đoạn.",
               "focus": "relation",
               "evidence": "không được ảo tưởng mình cao siêu",
               "options": [
@@ -8085,7 +8085,7 @@ window.PQContextBank={
               "id": "W06-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không được ảo tưởng mình cao siêu” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "không được ảo tưởng mình cao siêu",
               "options": [
@@ -8140,7 +8140,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng chiều phát sinh ở đầu đoạn.",
+              "prompt": "Câu nào giữ đúng quan hệ: kiêu mạn làm phát sinh ham muốn quyền lực?",
               "focus": "relation",
               "evidence": "Tâm kiêu mạn còn sinh ra",
               "options": [
@@ -8154,7 +8154,7 @@ window.PQContextBank={
               "id": "W07-B01-Q01"
             },
             {
-              "prompt": "Cụm nào giữ cả tính tiềm ẩn và sức cảnh báo?",
+              "prompt": "Cụm nào diễn đạt được cả tính tiềm ẩn lẫn mức nguy hiểm của ham muốn quyền lực?",
               "focus": "force",
               "evidence": "rất sâu kín của con người, rất nguy hiểm",
               "options": [
@@ -8231,7 +8231,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền động từ giữ nghĩa một tham vọng đang được nuôi kín.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngấm ngầm có tham vọng quyền lực” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "ngấm ngầm có tham vọng quyền lực",
               "parts": [
@@ -8251,7 +8251,7 @@ window.PQContextBank={
               "id": "W07-B02-Q01"
             },
             {
-              "prompt": "Giữ đúng mục đích của việc thích nghe theo người khác.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để diệt bản ngã” trong ngữ cảnh.",
               "focus": "purpose",
               "evidence": "để diệt bản ngã",
               "parts": [
@@ -8271,7 +8271,7 @@ window.PQContextBank={
               "id": "W07-B02-Q02"
             },
             {
-              "prompt": "Cụm nào chỉ đúng người đặc biệt đáng nghe theo?",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhất là được vâng lời những kẻ trí tuệ đạo hạnh thanh cao” trong ngữ cảnh.",
               "focus": "reference",
               "evidence": "nhất là được vâng lời những kẻ trí tuệ đạo hạnh thanh cao",
               "parts": [
@@ -8291,7 +8291,7 @@ window.PQContextBank={
               "id": "W07-B02-Q03"
             },
             {
-              "prompt": "Điền cụm giữ đúng vai trò của người không biết tu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thích được người khác vâng lời mình” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "thích được người khác vâng lời mình",
               "parts": [
@@ -8311,7 +8311,7 @@ window.PQContextBank={
               "id": "W07-B02-Q04"
             },
             {
-              "prompt": "Chọn kết luận giữ mức độ dấu hiệu, không biến thành định nghĩa.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đó là dấu hiệu của kiêu mạn” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Đó là dấu hiệu của kiêu mạn",
               "parts": [
@@ -8352,7 +8352,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu mở đoạn, giữ cả tiến trình và nhượng bộ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dù trước đó chúng ta giữ được trong sạch” trong đoạn.",
               "focus": "relation",
               "evidence": "dù trước đó chúng ta giữ được trong sạch",
               "tokens": [
@@ -8373,7 +8373,7 @@ window.PQContextBank={
               "id": "W07-B03-Q01"
             },
             {
-              "prompt": "Ghép câu mô tả khả năng của một số người tu, không đổi thành tất cả.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Có những người tu luyện theo một tông phái đặc biệt có thể phát triển” trong đoạn.",
               "focus": "scope",
               "evidence": "Có những người tu luyện theo một tông phái đặc biệt có thể phát triển",
               "tokens": [
@@ -8394,7 +8394,7 @@ window.PQContextBank={
               "id": "W07-B03-Q02"
             },
             {
-              "prompt": "Ghép danh sách ba loại khả năng theo câu nguồn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chữa bệnh, tiên tri, thay đổi hoàn cảnh” trong đoạn.",
               "focus": "parallelism",
               "evidence": "chữa bệnh, tiên tri, thay đổi hoàn cảnh",
               "tokens": [
@@ -8415,7 +8415,7 @@ window.PQContextBank={
               "id": "W07-B03-Q03"
             },
             {
-              "prompt": "Ghép câu giữ nguyên nhân không khéo giữ khiêm hạ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì không khéo giữ tâm khiêm hạ” trong đoạn.",
               "focus": "agency",
               "evidence": "vì không khéo giữ tâm khiêm hạ",
               "tokens": [
@@ -8436,7 +8436,7 @@ window.PQContextBank={
               "id": "W07-B03-Q04"
             },
             {
-              "prompt": "Ghép câu giữ đúng thứ tự tác giả cảnh báo.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “kiêu mạn xuất hiện thì tham ái và tham dục sẽ nối theo” trong đoạn.",
               "focus": "sequence",
               "evidence": "kiêu mạn xuất hiện thì tham ái và tham dục sẽ nối theo",
               "tokens": [
@@ -8481,7 +8481,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu để giữ đúng việc tuyên bố sai, không nói rằng mọi chứng ngộ đều giả.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nói dối xưng mình đắc đạo” trong đoạn.",
               "focus": "scope",
               "evidence": "nói dối xưng mình đắc đạo",
               "options": [
@@ -8496,7 +8496,7 @@ window.PQContextBank={
               "id": "W07-B04-Q01"
             },
             {
-              "prompt": "Sửa quan hệ giữa hiểu biết chưa đủ và việc giảng sai.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Thế rồi chúng ta giải thích sai, hướng dẫn sai” trong đoạn.",
               "focus": "cause",
               "evidence": "Thế rồi chúng ta giải thích sai, hướng dẫn sai",
               "options": [
@@ -8511,7 +8511,7 @@ window.PQContextBank={
               "id": "W07-B04-Q02"
             },
             {
-              "prompt": "Giữ sự biết rõ mà vẫn nói dối.",
+              "prompt": "Chọn bản sửa giữ đúng ý người đó biết mình chưa đắc đạo nhưng vẫn nói dối.",
               "focus": "concession",
               "evidence": "biết rõ mình không đắc đạo, nhưng vẫn nói dối",
               "options": [
@@ -8526,7 +8526,7 @@ window.PQContextBank={
               "id": "W07-B04-Q03"
             },
             {
-              "prompt": "Sửa câu mất nét khát khao danh lợi.",
+              "prompt": "Chọn bản sửa giữ đúng sự khát khao danh tiếng và lợi lộc.",
               "focus": "collocation",
               "evidence": "tham vọng khát khao danh lợi phù ảo",
               "options": [
@@ -8541,7 +8541,7 @@ window.PQContextBank={
               "id": "W07-B04-Q04"
             },
             {
-              "prompt": "Sửa câu kết giữ cả sự giải thoát và từ bỏ cái tôi.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “từ bỏ tất cả những ham muốn riêng, ngay đến bản ngã của mình” trong đoạn.",
               "focus": "focus",
               "evidence": "từ bỏ tất cả những ham muốn riêng, ngay đến bản ngã của mình",
               "options": [
@@ -8577,7 +8577,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Câu nào giữ đúng đối lập được thêm và mất đi ở đầu đoạn?",
+              "prompt": "Câu nào giữ đúng đối chiếu giữa mong được thêm lợi ích và sợ mất đi?",
               "focus": "contrast",
               "evidence": "muốn đem lại cho mình lợi ích chứ không muốn mất đi",
               "options": [
@@ -8633,7 +8633,7 @@ window.PQContextBank={
               "id": "W07-B05-Q04"
             },
             {
-              "prompt": "Câu kết nào giữ cái khiến nhóm thứ hai thích thú?",
+              "prompt": "Câu nào nêu đúng lý do nhóm thứ hai thích thú với việc tu?",
               "focus": "reference",
               "evidence": "tu không cần phải thêm mà được bớt đi",
               "options": [
@@ -8671,7 +8671,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ đúng phạm vi cảnh báo, không phủ nhận mọi mục tiêu tâm linh.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu không cẩn thận cũng sẽ làm mình đau khổ” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "nếu không cẩn thận cũng sẽ làm mình đau khổ",
               "parts": [
@@ -8691,7 +8691,7 @@ window.PQContextBank={
               "id": "W07-B06-Q01"
             },
             {
-              "prompt": "Điền cụm phân biệt thay đổi đối tượng ham muốn với hết ham muốn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi vào Đạo, chúng ta sẽ đau khổ vì những mục tiêu của Đạo” trong ngữ cảnh.",
               "focus": "contrast",
               "evidence": "Khi vào Đạo, chúng ta sẽ đau khổ vì những mục tiêu của Đạo",
               "parts": [
@@ -8711,7 +8711,7 @@ window.PQContextBank={
               "id": "W07-B06-Q02"
             },
             {
-              "prompt": "Giữ ý mọi người mong một người nhận truyền thừa, chưa phải sự kiện đã xảy ra.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ai cũng mong rằng Ngài được Ngũ Tổ truyền Y bát” trong ngữ cảnh.",
               "focus": "force",
               "evidence": "ai cũng mong rằng Ngài được Ngũ Tổ truyền Y bát",
               "parts": [
@@ -8731,7 +8731,7 @@ window.PQContextBank={
               "id": "W07-B06-Q03"
             },
             {
-              "prompt": "Điền cụm giữ đúng điều kiện xứng đáng nhận y bát theo nguồn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ có người đã đắc đạo, đã giác ngộ mới xứng đáng” trong ngữ cảnh.",
               "focus": "condition",
               "evidence": "chỉ có người đã đắc đạo, đã giác ngộ mới xứng đáng",
               "parts": [
@@ -8751,7 +8751,7 @@ window.PQContextBank={
               "id": "W07-B06-Q04"
             },
             {
-              "prompt": "Giữ đúng sự việc khơi lên chống đối trong câu chuyện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi nghe tin Ngài Huệ Năng đã lãnh được Y bát đó” trong ngữ cảnh.",
               "focus": "sequence",
               "evidence": "Khi nghe tin Ngài Huệ Năng đã lãnh được Y bát đó",
               "parts": [
@@ -8792,7 +8792,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu nêu nét chung trước khi phân biệt.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đều có hoài bão lớn, mục tiêu lớn, dự định lớn” trong đoạn.",
               "focus": "cohesion",
               "evidence": "đều có hoài bão lớn, mục tiêu lớn, dự định lớn",
               "tokens": [
@@ -8813,7 +8813,7 @@ window.PQContextBank={
               "id": "W07-B07-Q01"
             },
             {
-              "prompt": "Ghép câu giữ đúng cơ sở xác định lý tưởng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu thật sự vì Phật pháp, vì chúng sinh” trong đoạn.",
               "focus": "criterion",
               "evidence": "nếu thật sự vì Phật pháp, vì chúng sinh",
               "tokens": [
@@ -8834,7 +8834,7 @@ window.PQContextBank={
               "id": "W07-B07-Q02"
             },
             {
-              "prompt": "Ghép câu giữ fame/profit làm ví dụ cho lợi ích riêng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “danh tiếng, lợi lộc chẳng hạn” trong đoạn.",
               "focus": "example",
               "evidence": "danh tiếng, lợi lộc chẳng hạn",
               "tokens": [
@@ -8855,7 +8855,7 @@ window.PQContextBank={
               "id": "W07-B07-Q03"
             },
             {
-              "prompt": "Ghép câu đối chiếu động cơ của hai phía.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “hễ vì mình là tham vọng, vì người là lý tưởng” trong đoạn.",
               "focus": "contrast",
               "evidence": "hễ vì mình là tham vọng, vì người là lý tưởng",
               "tokens": [
@@ -8876,7 +8876,7 @@ window.PQContextBank={
               "id": "W07-B07-Q04"
             },
             {
-              "prompt": "Ghép câu kết nối kế hoạch lớn với việc xét tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phải cẩn thận xét kĩ tâm mình” trong đoạn.",
               "focus": "purpose",
               "evidence": "phải cẩn thận xét kĩ tâm mình",
               "tokens": [
@@ -8921,7 +8921,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu để giữ thứ tự quan sát rồi tìm hiểu.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhận ra số người nghe mình giảng Pháp giảm xuống” trong đoạn.",
               "focus": "sequence",
               "evidence": "nhận ra số người nghe mình giảng Pháp giảm xuống",
               "options": [
@@ -8936,7 +8936,7 @@ window.PQContextBank={
               "id": "W07-B08-Q01"
             },
             {
-              "prompt": "Sửa vai trò của người sẽ chia sẻ sự cúng dường.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đó sẽ được san sẻ quyền lợi, sự cúng dường” trong đoạn.",
               "focus": "reference",
               "evidence": "người đó sẽ được san sẻ quyền lợi, sự cúng dường",
               "options": [
@@ -8951,7 +8951,7 @@ window.PQContextBank={
               "id": "W07-B08-Q02"
             },
             {
-              "prompt": "Sửa câu biến câu hỏi tự xét thành lời buộc tội chắc chắn.",
+              "prompt": "Chọn bản sửa giữ dạng câu hỏi tự xét, không biến thành lời buộc tội.",
               "focus": "force",
               "evidence": "Phải chăng",
               "options": [
@@ -8966,7 +8966,7 @@ window.PQContextBank={
               "id": "W07-B08-Q03"
             },
             {
-              "prompt": "Sửa câu để giữ đối tượng phải vui mừng.",
+              "prompt": "Chọn bản sửa nêu đúng điều người tu nên vui mừng khi chúng sinh được hóa độ.",
               "focus": "agency",
               "evidence": "chúng ta phải vui mừng dù họ được hóa độ bởi bất cứ ai",
               "options": [
@@ -8981,7 +8981,7 @@ window.PQContextBank={
               "id": "W07-B08-Q04"
             },
             {
-              "prompt": "Sửa cách nói về sự cạnh tranh danh tiếng.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sự hơn thua danh tiếng” trong đoạn.",
               "focus": "collocation",
               "evidence": "sự hơn thua danh tiếng",
               "options": [
@@ -9019,7 +9019,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu mở giữ lời cảnh báo không đánh đồng.",
+              "prompt": "Câu mở nào giữ đúng lời cảnh báo đừng nhầm lý tưởng với tham vọng?",
               "focus": "classification",
               "evidence": "đừng nhầm giữa Lý tưởng và Tham vọng",
               "options": [
@@ -9033,7 +9033,7 @@ window.PQContextBank={
               "id": "W07-B09-Q01"
             },
             {
-              "prompt": "Điểm gặp nhau được diễn đạt thế nào?",
+              "prompt": "Điểm chung giữa lý tưởng và tham vọng được diễn đạt thế nào?",
               "focus": "scope",
               "evidence": "đều gặp nhau ở chí lớn",
               "options": [
@@ -9061,7 +9061,7 @@ window.PQContextBank={
               "id": "W07-B09-Q03"
             },
             {
-              "prompt": "Cụm nào giữ ý cao thượng dần?",
+              "prompt": "Cụm nào diễn đạt đúng tiến trình trở nên cao thượng hơn?",
               "focus": "aspect",
               "evidence": "trở nên cao thượng dần",
               "options": [
@@ -9075,7 +9075,7 @@ window.PQContextBank={
               "id": "W07-B09-Q04"
             },
             {
-              "prompt": "Câu kết nên xử lý hình ảnh “ác quỷ” thế nào?",
+              "prompt": "Câu nào giữ đúng tính ẩn dụ của hình ảnh “ác quỷ” trong lời cảnh báo?",
               "focus": "imagery",
               "evidence": "Tham vọng tàn phá tâm hồn khiến ta trở thành ác quỷ",
               "options": [
@@ -9113,7 +9113,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ đúng hai lý do được liệt kê, không thêm một lý do chắc chắn bảo đảm hạnh phúc.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “bởi hai lẽ” trong ngữ cảnh.",
               "focus": "structure",
               "evidence": "bởi hai lẽ",
               "parts": [
@@ -9133,7 +9133,7 @@ window.PQContextBank={
               "id": "W07-B10-Q01"
             },
             {
-              "prompt": "Điền cụm giữ đúng việc tìm bạn tình và bạn đời.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tìm bạn tình, tìm bạn đời” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "tìm bạn tình, tìm bạn đời",
               "parts": [
@@ -9153,7 +9153,7 @@ window.PQContextBank={
               "id": "W07-B10-Q02"
             },
             {
-              "prompt": "Giữ sự tiếp nối dòng họ, không biến thành hưởng tài sản.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “duy trì nòi giống đối với dòng họ” trong ngữ cảnh.",
               "focus": "collocation",
               "evidence": "duy trì nòi giống đối với dòng họ",
               "parts": [
@@ -9173,7 +9173,7 @@ window.PQContextBank={
               "id": "W07-B10-Q03"
             },
             {
-              "prompt": "Giữ quan hệ mong muốn của các thế hệ và các cộng đồng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhân loại rất lo sợ không còn người duy trì nền văn minh” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "nhân loại rất lo sợ không còn người duy trì nền văn minh",
               "parts": [
@@ -9193,7 +9193,7 @@ window.PQContextBank={
               "id": "W07-B10-Q04"
             },
             {
-              "prompt": "Giữ vai trò của câu cuối như báo trước đối chiếu chưa triển khai.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nhưng đạo Phật nghĩ khác” trong ngữ cảnh.",
               "focus": "cohesion",
               "evidence": "Nhưng đạo Phật nghĩ khác",
               "parts": [
@@ -9237,7 +9237,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu giữ hình ảnh bài toán và nhiều đời chưa xong.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giải bài toán khó mà nhiều kiếp chưa giải hoàn tất” trong đoạn.",
               "focus": "imagery",
               "evidence": "giải bài toán khó mà nhiều kiếp chưa giải hoàn tất",
               "tokens": [
@@ -9258,7 +9258,7 @@ window.PQContextBank={
               "id": "W07-B11-Q01"
             },
             {
-              "prompt": "Ghép câu đối chiếu mục đích tu với tạo thêm nghiệp.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để tu chứ không phải để tạo thêm nghiệp” trong đoạn.",
               "focus": "purpose",
               "evidence": "để tu chứ không phải để tạo thêm nghiệp",
               "tokens": [
@@ -9279,7 +9279,7 @@ window.PQContextBank={
               "id": "W07-B11-Q02"
             },
             {
-              "prompt": "Ghép câu giữ đúng trách nhiệm đối với con cháu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ta có trách nhiệm chuẩn bị cho các cháu” trong đoạn.",
               "focus": "agency",
               "evidence": "ta có trách nhiệm chuẩn bị cho các cháu",
               "tokens": [
@@ -9300,7 +9300,7 @@ window.PQContextBank={
               "id": "W07-B11-Q03"
             },
             {
-              "prompt": "Ghép câu điều kiện nêu việc đã chuẩn bị.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu ta đã có lộ trình, có phương pháp, có đạo lý sẵn sàng” trong đoạn.",
               "focus": "condition",
               "evidence": "Nếu ta đã có lộ trình, có phương pháp, có đạo lý sẵn sàng",
               "tokens": [
@@ -9321,7 +9321,7 @@ window.PQContextBank={
               "id": "W07-B11-Q04"
             },
             {
-              "prompt": "Ghép câu phê phán việc đưa trẻ vào đời mà không chuẩn bị.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu ta chưa có gì cả” trong đoạn.",
               "focus": "contrast",
               "evidence": "nếu ta chưa có gì cả",
               "tokens": [
@@ -9363,7 +9363,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu để giữ đúng phạm vi giới luật được dẫn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giới luật Tỳ kheo có cấm việc làm mai mối” trong đoạn.",
               "focus": "scope",
               "evidence": "giới luật Tỳ kheo có cấm việc làm mai mối",
               "options": [
@@ -9378,7 +9378,7 @@ window.PQContextBank={
               "id": "W07-B12-Q01"
             },
             {
-              "prompt": "Sửa quan hệ tác động trở lại người mai mối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng khiến ta bị đẩy vào ái dục khó cưỡng lại” trong đoạn.",
               "focus": "causality",
               "evidence": "cũng khiến ta bị đẩy vào ái dục khó cưỡng lại",
               "options": [
@@ -9393,7 +9393,7 @@ window.PQContextBank={
               "id": "W07-B12-Q02"
             },
             {
-              "prompt": "Sửa câu hiểu bàng quan thành thù ghét.",
+              "prompt": "Chọn bản sửa không hiểu “bàng quan” thành thù ghét.",
               "focus": "wording",
               "evidence": "giữ thái độ bàng quan trước hôn sự của mọi người",
               "options": [
@@ -9408,7 +9408,7 @@ window.PQContextBank={
               "id": "W07-B12-Q03"
             },
             {
-              "prompt": "Giữ việc giúp đôi vợ chồng học đạo lý, không đổi thành giúp họ có thêm ham muốn.",
+              "prompt": "Chọn bản sửa đúng ý giúp đôi vợ chồng học đạo lý, không khơi thêm ham muốn.",
               "focus": "purpose",
               "evidence": "giúp cho các cặp vợ chồng biết đạo lý tu hành",
               "options": [
@@ -9423,7 +9423,7 @@ window.PQContextBank={
               "id": "W07-B12-Q04"
             },
             {
-              "prompt": "Sửa điều kiện có con về sau, tránh biến thành yêu cầu phải sinh con.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “để sau này họ có con thì họ biết dạy con” trong đoạn.",
               "focus": "condition",
               "evidence": "để sau này họ có con thì họ biết dạy con",
               "options": [
@@ -9481,7 +9481,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu mở giữ phạm vi “không có gì luôn”.",
+              "prompt": "Câu mở nào giữ đúng ý không có điều gì luôn luôn như ý ta?",
               "focus": "negation",
               "evidence": "không có gì luôn đúng ý thích của ta",
               "options": [
@@ -9495,7 +9495,7 @@ window.PQContextBank={
               "id": "W08-B01-Q01"
             },
             {
-              "prompt": "Cụm nào dịch “có hoàn cảnh ngang trái với ta” tự nhiên?",
+              "prompt": "Cụm nào diễn đạt tự nhiên ý gặp hoàn cảnh trái ý?",
               "focus": "wording",
               "evidence": "Có hoàn cảnh ngang trái với ta",
               "options": [
@@ -9509,7 +9509,7 @@ window.PQContextBank={
               "id": "W08-B01-Q02"
             },
             {
-              "prompt": "Chọn cách nói giữ đức tin được nguồn nêu, không biến thành điều người học đã chứng minh.",
+              "prompt": "Câu nào trình bày đúng niềm tin của nguồn, không coi đó là điều bài học đã chứng minh?",
               "focus": "register",
               "evidence": "ta tin rằng",
               "options": [
@@ -9523,7 +9523,7 @@ window.PQContextBank={
               "id": "W08-B01-Q03"
             },
             {
-              "prompt": "Câu nào giữ chỗ nhấn của “thành công” trong đoạn sau?",
+              "prompt": "Câu nào thể hiện đúng điều được gọi là “thành công” trong đoạn?",
               "focus": "focus",
               "evidence": "làm sao để đừng động tâm, đó là thành công",
               "options": [
@@ -9578,7 +9578,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền cụm giữ cả tai nạn và bệnh tật làm tình huống gây buồn khổ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi ta bị tai nạn, bị bệnh tật” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "khi ta bị tai nạn, bị bệnh tật",
               "parts": [
@@ -9598,7 +9598,7 @@ window.PQContextBank={
               "id": "W08-B02-Q01"
             },
             {
-              "prompt": "Giữ nghĩa “hạ uy tín trước công chúng”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hạ uy tín ta với công chúng” trong ngữ cảnh.",
               "focus": "collocation",
               "evidence": "hạ uy tín ta với công chúng",
               "parts": [
@@ -9618,7 +9618,7 @@ window.PQContextBank={
               "id": "W08-B02-Q02"
             },
             {
-              "prompt": "Giữ tính kéo dài của thù dai.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ôm mối thù hoài” trong ngữ cảnh.",
               "focus": "aspect",
               "evidence": "ôm mối thù hoài",
               "parts": [
@@ -9638,7 +9638,7 @@ window.PQContextBank={
               "id": "W08-B02-Q03"
             },
             {
-              "prompt": "Điền cụm giữ đúng “hiện tại chưa trả đũa được”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hiện tại chưa trả đũa được” trong ngữ cảnh.",
               "focus": "time",
               "evidence": "hiện tại chưa trả đũa được",
               "parts": [
@@ -9658,7 +9658,7 @@ window.PQContextBank={
               "id": "W08-B02-Q04"
             },
             {
-              "prompt": "Chọn cụm nhận diện tự ái trong hoàn cảnh nguồn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không được tôn trọng đúng mức trước mọi người” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "không được tôn trọng đúng mức trước mọi người",
               "parts": [
@@ -9699,7 +9699,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép điều kiện để nhìn cách xử lý hợp lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tâm có bất động rồi ta mới có sáng suốt” trong đoạn.",
               "focus": "condition",
               "evidence": "Tâm có bất động rồi ta mới có sáng suốt",
               "tokens": [
@@ -9720,7 +9720,7 @@ window.PQContextBank={
               "id": "W08-B03-Q01"
             },
             {
-              "prompt": "Ghép câu giữ mục đích xả giận và việc bỏ mặc hậu quả.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “làm liều cho bõ tức, mặc kệ hậu quả” trong đoạn.",
               "focus": "purpose",
               "evidence": "làm liều cho bõ tức, mặc kệ hậu quả",
               "tokens": [
@@ -9741,7 +9741,7 @@ window.PQContextBank={
               "id": "W08-B03-Q02"
             },
             {
-              "prompt": "Ghép câu đối chiếu mức độ của hai hành vi.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “câu chửi là rất nhẹ, giết người là quá nặng” trong đoạn.",
               "focus": "contrast",
               "evidence": "câu chửi là rất nhẹ, giết người là quá nặng",
               "tokens": [
@@ -9762,7 +9762,7 @@ window.PQContextBank={
               "id": "W08-B03-Q03"
             },
             {
-              "prompt": "Ghép câu diễn tả đáp trả quá mức.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dùng cái tội nặng để đáp lại cái tội nhẹ” trong đoạn.",
               "focus": "agency",
               "evidence": "dùng cái tội nặng để đáp lại cái tội nhẹ",
               "tokens": [
@@ -9783,7 +9783,7 @@ window.PQContextBank={
               "id": "W08-B03-Q04"
             },
             {
-              "prompt": "Ghép lời kết giữ giọng đánh giá dứt khoát.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chẳng khôn ngoan chút nào” trong đoạn.",
               "focus": "force",
               "evidence": "Chẳng khôn ngoan chút nào",
               "tokens": [
@@ -9835,7 +9835,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu đánh đồng mọi cách nhìn của người ngoài.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có người cho ta yếu hèn, có người cho ta biết kềm chế” trong đoạn.",
               "focus": "scope",
               "evidence": "có người cho ta yếu hèn, có người cho ta biết kềm chế",
               "options": [
@@ -9850,7 +9850,7 @@ window.PQContextBank={
               "id": "W08-B04-Q01"
             },
             {
-              "prompt": "Sửa mục đích tu nội tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “vì đạo đức mà thôi” trong đoạn.",
               "focus": "purpose",
               "evidence": "vì đạo đức mà thôi",
               "options": [
@@ -9865,7 +9865,7 @@ window.PQContextBank={
               "id": "W08-B04-Q02"
             },
             {
-              "prompt": "Giữ hình ảnh tài sản mà không biến thành tiền bạc thật.",
+              "prompt": "Chọn bản sửa giữ hình ảnh tài sản như một ẩn dụ, không hiểu thành tiền bạc.",
               "focus": "imagery",
               "evidence": "Tâm bất động là tài sản quý giá của ta",
               "options": [
@@ -9880,7 +9880,7 @@ window.PQContextBank={
               "id": "W08-B04-Q03"
             },
             {
-              "prompt": "Sửa quan hệ thêm buồn khổ khi đã bất lợi.",
+              "prompt": "Chọn bản sửa giữ đúng ý: khởi thêm buồn khổ khiến tổn thất nặng hơn.",
               "focus": "relation",
               "evidence": "khởi tâm buồn khổ để tổn thất nặng hơn",
               "options": [
@@ -9895,7 +9895,7 @@ window.PQContextBank={
               "id": "W08-B04-Q04"
             },
             {
-              "prompt": "Sửa “công đức” theo glossary và giữ hướng tổn thất.",
+              "prompt": "Chọn bản sửa dùng đúng thuật ngữ và giữ ý mất thêm công đức, đạo đức.",
               "focus": "terminology",
               "evidence": "mất mát công đức đạo đức thêm",
               "options": [
@@ -9981,7 +9981,7 @@ window.PQContextBank={
               "id": "W08-B05-Q03"
             },
             {
-              "prompt": "Câu nào giữ phạm vi tôn giáo trong phương pháp thứ ba?",
+              "prompt": "Câu nào giữ đúng phạm vi của lời khuyên “mỗi người theo tôn giáo mình”?",
               "focus": "scope",
               "evidence": "Mỗi người theo tôn giáo mình",
               "options": [
@@ -9995,7 +9995,7 @@ window.PQContextBank={
               "id": "W08-B05-Q04"
             },
             {
-              "prompt": "Câu nào trình bày kết luận đúng tư cách của văn bản?",
+              "prompt": "Câu nào trình bày kết luận như nhận định của nguồn, không thêm bằng chứng ngoài nguồn?",
               "focus": "register",
               "evidence": "đó là quy luật",
               "options": [
@@ -10033,7 +10033,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền cụm mô tả đáp trả ngay khi bị nói nặng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cự nự lại ngay” trong ngữ cảnh.",
               "focus": "aspect",
               "evidence": "cự nự lại ngay",
               "parts": [
@@ -10053,7 +10053,7 @@ window.PQContextBank={
               "id": "W08-B06-Q01"
             },
             {
-              "prompt": "Giữ nghĩa cơn giận thấy rõ từ bên ngoài.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “người ngoài nhìn vào sẽ thấy ngay” trong ngữ cảnh.",
               "focus": "perspective",
               "evidence": "người ngoài nhìn vào sẽ thấy ngay",
               "parts": [
@@ -10073,7 +10073,7 @@ window.PQContextBank={
               "id": "W08-B06-Q02"
             },
             {
-              "prompt": "Giữ mục đích của việc quay lưng đi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để không bộc lộ thái độ ra bên ngoài” trong ngữ cảnh.",
               "focus": "purpose",
               "evidence": "để không bộc lộ thái độ ra bên ngoài",
               "parts": [
@@ -10093,7 +10093,7 @@ window.PQContextBank={
               "id": "W08-B06-Q03"
             },
             {
-              "prompt": "Điền từ nối giữ giận vẫn tồn tại dù đã kiềm chế.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mặc dù đã kiềm chế” trong ngữ cảnh.",
               "focus": "concession",
               "evidence": "mặc dù đã kiềm chế",
               "parts": [
@@ -10113,7 +10113,7 @@ window.PQContextBank={
               "id": "W08-B06-Q04"
             },
             {
-              "prompt": "Giữ thời điểm nhận lỗi hơi chậm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhưng hơi chậm” trong ngữ cảnh.",
               "focus": "time",
               "evidence": "nhưng hơi chậm",
               "parts": [
@@ -10154,7 +10154,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép thói quen nhìn gương đúng tần suất.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “hai ba lần” trong đoạn.",
               "focus": "quantity",
               "evidence": "hai ba lần",
               "tokens": [
@@ -10175,7 +10175,7 @@ window.PQContextBank={
               "id": "W08-B07-Q01"
             },
             {
-              "prompt": "Ghép lời nhận xét đến bất ngờ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Một hôm, bỗng dưng có người” trong đoạn.",
               "focus": "sequence",
               "evidence": "Một hôm, bỗng dưng có người",
               "tokens": [
@@ -10196,7 +10196,7 @@ window.PQContextBank={
               "id": "W08-B07-Q02"
             },
             {
-              "prompt": "Ghép câu đặt chấp thân làm nguyên nhân của phản ứng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Do chấp cái thân mỗi ngày như vậy” trong đoạn.",
               "focus": "cause",
               "evidence": "Do chấp cái thân mỗi ngày như vậy",
               "tokens": [
@@ -10217,7 +10217,7 @@ window.PQContextBank={
               "id": "W08-B07-Q03"
             },
             {
-              "prompt": "Ghép danh sách các cảm giác dâng lên.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Cái bực bội, khó chịu, cái cảm giác mất bình tĩnh” trong đoạn.",
               "focus": "parallelism",
               "evidence": "Cái bực bội, khó chịu, cái cảm giác mất bình tĩnh",
               "tokens": [
@@ -10238,7 +10238,7 @@ window.PQContextBank={
               "id": "W08-B07-Q04"
             },
             {
-              "prompt": "Ghép định danh trạng thái mà không kết luận lời nói gây mọi dạng giận.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Trạng thái ấy gọi là sân” trong đoạn.",
               "focus": "scope",
               "evidence": "Trạng thái ấy gọi là sân",
               "tokens": [
@@ -10280,7 +10280,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa tần suất bị đẩy thành tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chúng ta thường chấp địa vị của mình” trong đoạn.",
               "focus": "scope",
               "evidence": "chúng ta thường chấp địa vị của mình",
               "options": [
@@ -10295,7 +10295,7 @@ window.PQContextBank={
               "id": "W08-B08-Q01"
             },
             {
-              "prompt": "Sửa đối tượng vâng lời trong câu về cấp dưới.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người dưới nhất thiết phải nghe theo” trong đoạn.",
               "focus": "agency",
               "evidence": "người dưới nhất thiết phải nghe theo",
               "options": [
@@ -10310,7 +10310,7 @@ window.PQContextBank={
               "id": "W08-B08-Q02"
             },
             {
-              "prompt": "Giữ nhượng bộ cấp dưới có khi lớn tuổi hơn.",
+              "prompt": "Chọn bản sửa giữ đúng ý cấp dưới có khi lớn tuổi hơn người giữ chức vụ.",
               "focus": "relation",
               "evidence": "dù có khi người đó lớn tuổi hơn mình",
               "options": [
@@ -10325,7 +10325,7 @@ window.PQContextBank={
               "id": "W08-B08-Q03"
             },
             {
-              "prompt": "Sửa cách dịch bản ngã ở quan hệ với chức vụ.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “xem chức vụ ấy là bản ngã của mình” trong đoạn.",
               "focus": "terminology",
               "evidence": "xem chức vụ ấy là bản ngã của mình",
               "options": [
@@ -10340,7 +10340,7 @@ window.PQContextBank={
               "id": "W08-B08-Q04"
             },
             {
-              "prompt": "Sửa mức độ của câu kết.",
+              "prompt": "Chọn bản sửa giữ đúng mức “có khi nổi sân”, không biến thành luôn luôn.",
               "focus": "force",
               "evidence": "có khi nổi sân",
               "options": [
@@ -10376,7 +10376,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu mở giữ cả giận và yêu cầu bình tĩnh.",
+              "prompt": "Câu mở nào giữ cả thực tế có giận lẫn yêu cầu phải bình tĩnh?",
               "focus": "concession",
               "evidence": "dù giận chúng ta cũng phải bình tĩnh",
               "options": [
@@ -10432,7 +10432,7 @@ window.PQContextBank={
               "id": "W08-B09-Q04"
             },
             {
-              "prompt": "Chọn câu giữ phạm vi “đừng bao giờ chỉ dựa”.",
+              "prompt": "Câu nào giữ đúng lời khuyên không chỉ dựa vào hành động bên ngoài?",
               "focus": "negation",
               "evidence": "đừng bao giờ chỉ dựa vào hành động",
               "options": [
@@ -10467,7 +10467,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền cụm giữ mục tiêu sửa từ trong tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cần phải được sửa từ trong tâm” trong ngữ cảnh.",
               "focus": "focus",
               "evidence": "cần phải được sửa từ trong tâm",
               "parts": [
@@ -10487,7 +10487,7 @@ window.PQContextBank={
               "id": "W08-B10-Q01"
             },
             {
-              "prompt": "Giữ mức khó làm việc lớn, không nâng thành hoàn toàn bất khả.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “sau này họ khó làm được việc lớn” trong ngữ cảnh.",
               "focus": "force",
               "evidence": "sau này họ khó làm được việc lớn",
               "parts": [
@@ -10507,7 +10507,7 @@ window.PQContextBank={
               "id": "W08-B10-Q02"
             },
             {
-              "prompt": "Giữ thế đối chiếu hai bên đều có phần sai.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chúng ta giận dữ, nóng nảy lại càng sai” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "chúng ta giận dữ, nóng nảy lại càng sai",
               "parts": [
@@ -10527,7 +10527,7 @@ window.PQContextBank={
               "id": "W08-B10-Q03"
             },
             {
-              "prompt": "Điền cụm giữ nghĩa chấp chức quyền.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chấp chức quyền của mình nặng quá” trong ngữ cảnh.",
               "focus": "collocation",
               "evidence": "chấp chức quyền của mình nặng quá",
               "parts": [
@@ -10547,7 +10547,7 @@ window.PQContextBank={
               "id": "W08-B10-Q04"
             },
             {
-              "prompt": "Giữ tác ý như hành động tu tập có chủ ý trước khi gặp chuyện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “phải tác ý làm sao” trong ngữ cảnh.",
               "focus": "intention",
               "evidence": "phải tác ý làm sao",
               "parts": [
@@ -10588,7 +10588,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép ba biểu hiện mà vẫn giữ tần suất.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thường có nét mặt dữ dằn, lời nói to, hành động thô bạo” trong đoạn.",
               "focus": "parallelism",
               "evidence": "thường có nét mặt dữ dằn, lời nói to, hành động thô bạo",
               "tokens": [
@@ -10609,7 +10609,7 @@ window.PQContextBank={
               "id": "W08-B11-Q01"
             },
             {
-              "prompt": "Ghép khả năng nói tục khi quá giận.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Có khi quá giận, người ta còn nói tục, chửi thề” trong đoạn.",
               "focus": "force",
               "evidence": "Có khi quá giận, người ta còn nói tục, chửi thề",
               "tokens": [
@@ -10630,7 +10630,7 @@ window.PQContextBank={
               "id": "W08-B11-Q02"
             },
             {
-              "prompt": "Ghép lời nhận định đúng người phát biểu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Các triết gia còn cho rằng” trong đoạn.",
               "focus": "attribution",
               "evidence": "Các triết gia còn cho rằng",
               "tokens": [
@@ -10651,7 +10651,7 @@ window.PQContextBank={
               "id": "W08-B11-Q03"
             },
             {
-              "prompt": "Ghép chuỗi hành vi trong lúc giận.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “họ thường có những quyết định sai lầm” trong đoạn.",
               "focus": "agency",
               "evidence": "họ thường có những quyết định sai lầm",
               "tokens": [
@@ -10672,7 +10672,7 @@ window.PQContextBank={
               "id": "W08-B11-Q04"
             },
             {
-              "prompt": "Ghép câu kết giữ khả năng tổn hại phẩm giá.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “có thể làm mất tư cách của con người” trong đoạn.",
               "focus": "collocation",
               "evidence": "có thể làm mất tư cách của con người",
               "tokens": [
@@ -10714,7 +10714,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu đánh đồng điều nguồn đang phân biệt.",
+              "prompt": "Chọn bản sửa không đánh đồng vẻ hung dữ với sân trong mọi trường hợp.",
               "focus": "classification",
               "evidence": "bản chất không phải là sân",
               "options": [
@@ -10729,7 +10729,7 @@ window.PQContextBank={
               "id": "W08-B12-Q01"
             },
             {
-              "prompt": "Sửa hướng tác động của vẻ hăm dọa.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “làm cho người khác phải sợ” trong đoạn.",
               "focus": "agency",
               "evidence": "làm cho người khác phải sợ",
               "options": [
@@ -10744,7 +10744,7 @@ window.PQContextBank={
               "id": "W08-B12-Q02"
             },
             {
-              "prompt": "Sửa ba phương tiện biểu lộ hăm dọa.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “thần sắc của họ, cử chỉ, lời nói” trong đoạn.",
               "focus": "parallelism",
               "evidence": "thần sắc của họ, cử chỉ, lời nói",
               "options": [
@@ -10759,7 +10759,7 @@ window.PQContextBank={
               "id": "W08-B12-Q03"
             },
             {
-              "prompt": "Sửa collocation của việc đè bẹp tinh thần và ý chí.",
+              "prompt": "Chọn bản sửa dùng cụm từ tự nhiên để nói về việc đè bẹp tinh thần và ý chí.",
               "focus": "wording",
               "evidence": "đè bẹp tinh thần và ý chí người khác",
               "options": [
@@ -10774,7 +10774,7 @@ window.PQContextBank={
               "id": "W08-B12-Q04"
             },
             {
-              "prompt": "Sửa tần suất của hành vi nhục hình.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Có khi, vì hung dữ” trong đoạn.",
               "focus": "scope",
               "evidence": "Có khi, vì hung dữ",
               "options": [
@@ -10843,7 +10843,7 @@ window.PQContextBank={
               "id": "W09-B01-Q01"
             },
             {
-              "prompt": "Cụm nào giữ số tiền lớn mà không bịa con số?",
+              "prompt": "Cụm nào diễn đạt số tiền lớn mà không tự thêm con số?",
               "focus": "quantity",
               "evidence": "số tiền lớn",
               "options": [
@@ -10857,7 +10857,7 @@ window.PQContextBank={
               "id": "W09-B01-Q02"
             },
             {
-              "prompt": "Câu hỏi nào giữ sự lựa chọn nội tâm?",
+              "prompt": "Câu hỏi nào diễn đạt đúng sự lựa chọn giữa yêu điều thiện và thích tiền?",
               "focus": "focus",
               "evidence": "yêu điều Thiện hơn hay là thích tiền hơn",
               "options": [
@@ -10885,7 +10885,7 @@ window.PQContextBank={
               "id": "W09-B01-Q04"
             },
             {
-              "prompt": "Cụm nào nói đúng việc quyết tìm bằng được để trả?",
+              "prompt": "Cụm nào nêu đúng quyết tâm tìm bằng được người đánh rơi ví để trả lại?",
               "focus": "purpose",
               "evidence": "quyết tìm cho bằng được người đánh rơi ví để trả lại",
               "options": [
@@ -10920,7 +10920,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ việc người kia có tình ý với ta.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một người có tình ý với ta” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "một người có tình ý với ta",
               "parts": [
@@ -10940,7 +10940,7 @@ window.PQContextBank={
               "id": "W09-B02-Q01"
             },
             {
-              "prompt": "Điền cụm giữ hoàn cảnh không hợp lý, không phán mọi tình cảm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi mọi điều đều không hợp lý” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "khi mọi điều đều không hợp lý",
               "parts": [
@@ -10960,7 +10960,7 @@ window.PQContextBank={
               "id": "W09-B02-Q02"
             },
             {
-              "prompt": "Giữ nhượng bộ về vẻ đẹp, giàu có và điều kiện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Mặc dù người đó rất đẹp, rất giàu” trong ngữ cảnh.",
               "focus": "concession",
               "evidence": "Mặc dù người đó rất đẹp, rất giàu",
               "parts": [
@@ -10980,7 +10980,7 @@ window.PQContextBank={
               "id": "W09-B02-Q03"
             },
             {
-              "prompt": "Cụm nào đặt trách nhiệm đúng vai trò ưu tiên?",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nghĩ đến trách nhiệm hơn” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "nghĩ đến trách nhiệm hơn",
               "parts": [
@@ -11000,7 +11000,7 @@ window.PQContextBank={
               "id": "W09-B02-Q04"
             },
             {
-              "prompt": "Giữ quyết định vượt qua sự mời gọi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vượt qua sự mời gọi của họ” trong ngữ cảnh.",
               "focus": "choice",
               "evidence": "vượt qua sự mời gọi của họ",
               "parts": [
@@ -11044,7 +11044,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép phạm vi thử thách từ nhỏ đến lớn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “từ việc nho nhỏ đến những việc lớn lao” trong đoạn.",
               "focus": "scope",
               "evidence": "từ việc nho nhỏ đến những việc lớn lao",
               "tokens": [
@@ -11065,7 +11065,7 @@ window.PQContextBank={
               "id": "W09-B03-Q01"
             },
             {
-              "prompt": "Ghép từ chối nói dối dù có lợi.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Không chịu nói dối dù lời nói dối cho ta một điều lợi” trong đoạn.",
               "focus": "concession",
               "evidence": "Không chịu nói dối dù lời nói dối cho ta một điều lợi",
               "tokens": [
@@ -11086,7 +11086,7 @@ window.PQContextBank={
               "id": "W09-B03-Q02"
             },
             {
-              "prompt": "Ghép hành động nhặt rác ngoài trách nhiệm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhặt rác dù không phải trách nhiệm của mình” trong đoạn.",
               "focus": "agency",
               "evidence": "nhặt rác dù không phải trách nhiệm của mình",
               "tokens": [
@@ -11107,7 +11107,7 @@ window.PQContextBank={
               "id": "W09-B03-Q03"
             },
             {
-              "prompt": "Ghép việc cứu người được ưu tiên trước sợ hiểu lầm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phải đưa nạn nhân đi cấp cứu tính mạng cái đã” trong đoạn.",
               "focus": "priority",
               "evidence": "phải đưa nạn nhân đi cấp cứu tính mạng cái đã",
               "tokens": [
@@ -11128,7 +11128,7 @@ window.PQContextBank={
               "id": "W09-B03-Q04"
             },
             {
-              "prompt": "Ghép nguyên nhân của lòng thanh thản.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì lương tâm trong sáng” trong đoạn.",
               "focus": "cause",
               "evidence": "vì lương tâm trong sáng",
               "tokens": [
@@ -11173,7 +11173,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu biến quá vì mình thành mọi chăm sóc bản thân đều sai.",
+              "prompt": "Chọn bản sửa không biến “vì mình quá nhiều” thành lời phủ nhận mọi chăm sóc bản thân.",
               "focus": "scope",
               "evidence": "Vì mình nhiều quá",
               "options": [
@@ -11188,7 +11188,7 @@ window.PQContextBank={
               "id": "W09-B04-Q01"
             },
             {
-              "prompt": "Sửa thứ tự lo mình trước rồi người khác.",
+              "prompt": "Chọn bản sửa giữ đúng thứ tự lo cho mình trước rồi mới nghĩ đến người khác.",
               "focus": "sequence",
               "evidence": "rồi mới nghĩ đến người khác sau",
               "options": [
@@ -11203,7 +11203,7 @@ window.PQContextBank={
               "id": "W09-B04-Q02"
             },
             {
-              "prompt": "Sửa điều kiện để mặc không giáo dục.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu để tự nhiên không giáo dục” trong đoạn.",
               "focus": "condition",
               "evidence": "Nếu để tự nhiên không giáo dục",
               "options": [
@@ -11218,7 +11218,7 @@ window.PQContextBank={
               "id": "W09-B04-Q03"
             },
             {
-              "prompt": "Sửa cấu trúc “chỉ khi…mới”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Chỉ khi có giáo dục” trong đoạn.",
               "focus": "force",
               "evidence": "Chỉ khi có giáo dục",
               "options": [
@@ -11233,7 +11233,7 @@ window.PQContextBank={
               "id": "W09-B04-Q04"
             },
             {
-              "prompt": "Sửa cụm sống vị tha.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sống Vị tha” trong đoạn.",
               "focus": "wording",
               "evidence": "biết sống Vị tha",
               "options": [
@@ -11283,7 +11283,7 @@ window.PQContextBank={
               "id": "W09-B05-Q01"
             },
             {
-              "prompt": "Chọn câu giữ việc đổi mục đích khoản tiền để dành.",
+              "prompt": "Câu nào nêu đúng việc chuyển khoản tiền dành mua xe sang một mục đích khác?",
               "focus": "intention",
               "evidence": "Số tiền dành dụm định mua chiếc xe máy mới",
               "options": [
@@ -11363,7 +11363,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ tiến trình ban đầu khó rồi thành tự nhiên.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ban đầu” trong ngữ cảnh.",
               "focus": "aspect",
               "evidence": "Ban đầu",
               "parts": [
@@ -11383,7 +11383,7 @@ window.PQContextBank={
               "id": "W09-B06-Q01"
             },
             {
-              "prompt": "Điền cụm giữ điều kiện thành thói quen.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đã trở thành thói quen tự nhiên” trong ngữ cảnh.",
               "focus": "condition",
               "evidence": "đã trở thành thói quen tự nhiên",
               "parts": [
@@ -11403,7 +11403,7 @@ window.PQContextBank={
               "id": "W09-B06-Q02"
             },
             {
-              "prompt": "Giữ phân biệt hai loại niềm vui.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Lối sống Vị kỷ cho ta cảm giác khoái chí tầm thường.” trong ngữ cảnh.",
               "focus": "contrast",
               "evidence": "Lối sống Vị kỷ cho ta cảm giác khoái chí tầm thường.",
               "parts": [
@@ -11423,7 +11423,7 @@ window.PQContextBank={
               "id": "W09-B06-Q03"
             },
             {
-              "prompt": "Giữ quyền được thụ hưởng một số niềm vui.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “có quyền được thụ hưởng một số” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "có quyền được thụ hưởng một số",
               "parts": [
@@ -11443,7 +11443,7 @@ window.PQContextBank={
               "id": "W09-B06-Q04"
             },
             {
-              "prompt": "Giữ sự ưu tiên chứ không biến thành cấm tiêu dùng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thích cống hiến nhiều hơn thụ hưởng” trong ngữ cảnh.",
               "focus": "preference",
               "evidence": "thích cống hiến nhiều hơn thụ hưởng",
               "parts": [
@@ -11493,7 +11493,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu giữ việc từ chối tất cả cũng là cực đoan.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “từ chối mọi sự thụ hưởng cũng là cực đoan” trong đoạn.",
               "focus": "scope",
               "evidence": "từ chối mọi sự thụ hưởng cũng là cực đoan",
               "tokens": [
@@ -11514,7 +11514,7 @@ window.PQContextBank={
               "id": "W09-B07-Q01"
             },
             {
-              "prompt": "Ghép điều kiện đủ ăn để làm việc.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không làm việc được nếu ăn không đủ no” trong đoạn.",
               "focus": "condition",
               "evidence": "không làm việc được nếu ăn không đủ no",
               "tokens": [
@@ -11535,7 +11535,7 @@ window.PQContextBank={
               "id": "W09-B07-Q02"
             },
             {
-              "prompt": "Ghép mục đích ăn của người cha.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để đi cày ruộng làm lúa nuôi gia đình” trong đoạn.",
               "focus": "purpose",
               "evidence": "để đi cày ruộng làm lúa nuôi gia đình",
               "tokens": [
@@ -11556,7 +11556,7 @@ window.PQContextBank={
               "id": "W09-B07-Q03"
             },
             {
-              "prompt": "Ghép mục đích tiết kiệm của doanh nhân.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để doanh nghiệp tồn tại cho nhân viên có việc làm ổn định” trong đoạn.",
               "focus": "agency",
               "evidence": "để doanh nghiệp tồn tại cho nhân viên có việc làm ổn định",
               "tokens": [
@@ -11577,7 +11577,7 @@ window.PQContextBank={
               "id": "W09-B07-Q04"
             },
             {
-              "prompt": "Ghép câu kết giữ đối lập có vẻ và thực sự.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như Vì mình nhưng thật sự là Vì người” trong đoạn.",
               "focus": "contrast",
               "evidence": "giống như Vì mình nhưng thật sự là Vì người",
               "tokens": [
@@ -11619,7 +11619,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa trục mục đích ở đầu đoạn.",
+              "prompt": "Chọn bản sửa nêu đúng mục đích nuôi dưỡng khuynh hướng vị tha.",
               "focus": "purpose",
               "evidence": "Muốn thành hình được khuynh hướng Vị tha cao quý",
               "options": [
@@ -11634,7 +11634,7 @@ window.PQContextBank={
               "id": "W09-B08-Q01"
             },
             {
-              "prompt": "Sửa chiều của lời tâm nguyện.",
+              "prompt": "Chọn bản sửa giữ đúng lời tâm nguyện sống vị tha.",
               "focus": "intention",
               "evidence": "tự tâm nguyện sẽ sống vị tha",
               "options": [
@@ -11649,7 +11649,7 @@ window.PQContextBank={
               "id": "W09-B08-Q02"
             },
             {
-              "prompt": "Sửa cách khuyên cùng sống vị tha.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “khéo khuyên mọi người” trong đoạn.",
               "focus": "wording",
               "evidence": "khéo khuyên mọi người",
               "options": [
@@ -11664,7 +11664,7 @@ window.PQContextBank={
               "id": "W09-B08-Q03"
             },
             {
-              "prompt": "Sửa sự khác nhau giữa không chê trách và không giúp.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Đừng chê trách kẻ sống vị kỷ” trong đoạn.",
               "focus": "negation",
               "evidence": "Đừng chê trách kẻ sống vị kỷ",
               "options": [
@@ -11679,7 +11679,7 @@ window.PQContextBank={
               "id": "W09-B08-Q04"
             },
             {
-              "prompt": "Sửa cụm chỉ khuynh hướng hướng đến một nếp sống.",
+              "prompt": "Chọn bản sửa diễn đạt đúng khuynh hướng sống vị tha.",
               "focus": "collocation",
               "evidence": "khuynh hướng Vị tha",
               "options": [
@@ -11732,7 +11732,7 @@ window.PQContextBank={
               "id": "W09-B09-Q01"
             },
             {
-              "prompt": "Chọn quyết định gồm cả nương tựa người vững và giúp người còn non.",
+              "prompt": "Câu nào giữ cả hai việc: nương tựa người vững vàng và giúp đỡ người còn non kém?",
               "focus": "parallelism",
               "evidence": "và cũng rộng lòng",
               "options": [
@@ -11746,7 +11746,7 @@ window.PQContextBank={
               "id": "W09-B09-Q02"
             },
             {
-              "prompt": "Điều kiện tránh đi được dịch đúng thế nào?",
+              "prompt": "Câu nào giữ đúng điều kiện nên tránh người ngoan cố không chịu tu sửa?",
               "focus": "condition",
               "evidence": "lại ngoan cố không chịu tu sửa",
               "options": [
@@ -11812,7 +11812,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ hai việc cần làm song song.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vừa lo sinh kế, vừa tìm cơ hội làm phước” trong ngữ cảnh.",
               "focus": "parallelism",
               "evidence": "vừa lo sinh kế, vừa tìm cơ hội làm phước",
               "parts": [
@@ -11832,7 +11832,7 @@ window.PQContextBank={
               "id": "W09-B10-Q01"
             },
             {
-              "prompt": "Giữ hình ảnh gieo thêm khi hái trái.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vừa hái trái vừa gieo hạt trồng thêm cây mới” trong ngữ cảnh.",
               "focus": "imagery",
               "evidence": "vừa hái trái vừa gieo hạt trồng thêm cây mới",
               "parts": [
@@ -11852,7 +11852,7 @@ window.PQContextBank={
               "id": "W09-B10-Q02"
             },
             {
-              "prompt": "Giữ tính bất chợt của cơ hội.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngẫu nhiên, bất chợt” trong ngữ cảnh.",
               "focus": "aspect",
               "evidence": "ngẫu nhiên, bất chợt",
               "parts": [
@@ -11872,7 +11872,7 @@ window.PQContextBank={
               "id": "W09-B10-Q03"
             },
             {
-              "prompt": "Điền hành động đánh giá nguồn lực trước khi giúp.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tự đánh giá khả năng của mình” trong ngữ cảnh.",
               "focus": "choice",
               "evidence": "tự đánh giá khả năng của mình",
               "parts": [
@@ -11892,7 +11892,7 @@ window.PQContextBank={
               "id": "W09-B10-Q04"
             },
             {
-              "prompt": "Giữ giới hạn bảo vệ đời sống gia đình.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không ảnh hưởng đến đời sống gia đình gây xung đột không hay” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "không ảnh hưởng đến đời sống gia đình gây xung đột không hay",
               "parts": [
@@ -11936,7 +11936,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép việc có người cư sĩ đáng tin là bình thường.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “điều này cũng là bình thường” trong đoạn.",
               "focus": "scope",
               "evidence": "điều này cũng là bình thường",
               "tokens": [
@@ -11957,7 +11957,7 @@ window.PQContextBank={
               "id": "W09-B11-Q01"
             },
             {
-              "prompt": "Ghép mong tiến bộ thật kèm sự cẩn thận.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhưng ta cũng cẩn thận hết sức” trong đoạn.",
               "focus": "contrast",
               "evidence": "nhưng ta cũng cẩn thận hết sức",
               "tokens": [
@@ -11978,7 +11978,7 @@ window.PQContextBank={
               "id": "W09-B11-Q02"
             },
             {
-              "prompt": "Ghép vị trí của đạo đức trong việc tu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Cái gốc của sự tu hành” trong đoạn.",
               "focus": "emphasis",
               "evidence": "Cái gốc của sự tu hành",
               "tokens": [
@@ -11999,7 +11999,7 @@ window.PQContextBank={
               "id": "W09-B11-Q03"
             },
             {
-              "prompt": "Ghép điều chưa đủ của nói lưu loát.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu không ổn về đạo đức” trong đoạn.",
               "focus": "condition",
               "evidence": "nếu không ổn về đạo đức",
               "tokens": [
@@ -12020,7 +12020,7 @@ window.PQContextBank={
               "id": "W09-B11-Q04"
             },
             {
-              "prompt": "Ghép thứ tự đánh giá các tiêu chuẩn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Phải vững chắc về đạo đức rồi mới có thể đánh giá tiếp” trong đoạn.",
               "focus": "sequence",
               "evidence": "Phải vững chắc về đạo đức rồi mới có thể đánh giá tiếp",
               "tokens": [
@@ -12065,7 +12065,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa phạm vi “thậm chí có khi đã từng là tu sĩ”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “thậm chí có khi đã từng là tu sĩ” trong đoạn.",
               "focus": "force",
               "evidence": "thậm chí có khi đã từng là tu sĩ",
               "options": [
@@ -12080,7 +12080,7 @@ window.PQContextBank={
               "id": "W09-B12-Q01"
             },
             {
-              "prompt": "Sửa công thức coi của cải là quyền nghỉ trách nhiệm.",
+              "prompt": "Chọn bản sửa không hiểu của cải là lý do để được miễn trách nhiệm.",
               "focus": "relation",
               "evidence": "phải gánh trách nhiệm nhiều hơn",
               "options": [
@@ -12095,7 +12095,7 @@ window.PQContextBank={
               "id": "W09-B12-Q02"
             },
             {
-              "prompt": "Giữ việc dùng phước đúng để tránh sai lầm.",
+              "prompt": "Chọn bản sửa giữ đúng yêu cầu sử dụng phước báo cho đúng.",
               "focus": "purpose",
               "evidence": "phải sử dụng phước báo của mình cho đúng",
               "options": [
@@ -12110,7 +12110,7 @@ window.PQContextBank={
               "id": "W09-B12-Q03"
             },
             {
-              "prompt": "Sửa hai hoạt động cùng phải dành thời gian.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng phải dành thời gian để tu tập” trong đoạn.",
               "focus": "parallelism",
               "evidence": "cũng phải dành thời gian để tu tập",
               "options": [
@@ -12125,7 +12125,7 @@ window.PQContextBank={
               "id": "W09-B12-Q04"
             },
             {
-              "prompt": "Sửa lời cảnh báo dùng hết phước.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hết phước rất nguy hiểm” trong đoạn.",
               "focus": "terminology",
               "evidence": "hết phước rất nguy hiểm",
               "options": [
@@ -12184,7 +12184,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn cách diễn đạt chuỗi mở đầu.",
+              "prompt": "Câu nào giữ đúng chuỗi tác động khiến các quan hệ xã hội xấu dần?",
               "focus": "causality",
               "evidence": "các quan hệ xã hội xấu đi dần dần",
               "options": [
@@ -12198,7 +12198,7 @@ window.PQContextBank={
               "id": "W10-B01-Q01"
             },
             {
-              "prompt": "Cụm nào tự nhiên cho mích lòng?",
+              "prompt": "Cụm nào diễn đạt tự nhiên ý làm người khác mích lòng?",
               "focus": "collocation",
               "evidence": "làm mích lòng người khác",
               "options": [
@@ -12226,7 +12226,7 @@ window.PQContextBank={
               "id": "W10-B01-Q03"
             },
             {
-              "prompt": "Chọn câu giữ đánh giá đạo đức thay vì biến thành chẩn đoán.",
+              "prompt": "Câu nào giữ lời đánh giá đạo đức trong nguồn, không biến thành chẩn đoán?",
               "focus": "register",
               "evidence": "Hay chê bai cũng là ác độc",
               "options": [
@@ -12240,7 +12240,7 @@ window.PQContextBank={
               "id": "W10-B01-Q04"
             },
             {
-              "prompt": "Câu nào giữ đối tượng tổn hại của lời chê?",
+              "prompt": "Câu nào xác định đúng điều bị tổn hại bởi lời chê bai?",
               "focus": "agency",
               "evidence": "Làm tổn hại danh dự người khác",
               "options": [
@@ -12281,7 +12281,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ tính khó bỏ sau khi thành thói quen.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai quen miệng chê bai thiên hạ rồi khó bỏ” trong ngữ cảnh.",
               "focus": "aspect",
               "evidence": "Ai quen miệng chê bai thiên hạ rồi khó bỏ",
               "parts": [
@@ -12301,7 +12301,7 @@ window.PQContextBank={
               "id": "W10-B02-Q01"
             },
             {
-              "prompt": "Điền cụm giữ sự thích thú kín đáo.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một khoái cảm thầm kín” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "một khoái cảm thầm kín",
               "parts": [
@@ -12321,7 +12321,7 @@ window.PQContextBank={
               "id": "W10-B02-Q02"
             },
             {
-              "prompt": "Giữ chiều vòng lặp trong câu tiếp.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Càng nghiện thì lại càng thích chê bai” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Càng nghiện thì lại càng thích chê bai",
               "parts": [
@@ -12341,7 +12341,7 @@ window.PQContextBank={
               "id": "W10-B02-Q03"
             },
             {
-              "prompt": "Điền cụm giữ hình ảnh phúc đổ sông đổ bể.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đổ sông đổ bể” trong ngữ cảnh.",
               "focus": "imagery",
               "evidence": "đổ sông đổ bể",
               "parts": [
@@ -12361,7 +12361,7 @@ window.PQContextBank={
               "id": "W10-B02-Q04"
             },
             {
-              "prompt": "Giữ quan hệ đối chiếu lời chê và lời khen.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thì ngược lại” trong ngữ cảnh.",
               "focus": "contrast",
               "evidence": "thì ngược lại",
               "parts": [
@@ -12408,7 +12408,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép điều cần làm trước khi khen.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Muốn ngợi khen ai” trong đoạn.",
               "focus": "sequence",
               "evidence": "Muốn ngợi khen ai",
               "tokens": [
@@ -12429,7 +12429,7 @@ window.PQContextBank={
               "id": "W10-B03-Q01"
             },
             {
-              "prompt": "Ghép phạm vi liệt kê lợi ích.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ít nhất 3 cái lợi” trong đoạn.",
               "focus": "quantity",
               "evidence": "ít nhất 3 cái lợi",
               "tokens": [
@@ -12450,7 +12450,7 @@ window.PQContextBank={
               "id": "W10-B03-Q02"
             },
             {
-              "prompt": "Ghép lợi ích khích lệ đúng người nhận.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “động viên người kia cố gắng thêm” trong đoạn.",
               "focus": "agency",
               "evidence": "động viên người kia cố gắng thêm",
               "tokens": [
@@ -12471,7 +12471,7 @@ window.PQContextBank={
               "id": "W10-B03-Q03"
             },
             {
-              "prompt": "Ghép sự tự mãn và dừng phấn đấu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thỏa mãn không phấn đấu tiếp” trong đoạn.",
               "focus": "consequence",
               "evidence": "thỏa mãn không phấn đấu tiếp",
               "tokens": [
@@ -12492,7 +12492,7 @@ window.PQContextBank={
               "id": "W10-B03-Q04"
             },
             {
-              "prompt": "Ghép tác dụng của khen đúng lúc.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “lấy lại tinh thần để bước tới” trong đoạn.",
               "focus": "collocation",
               "evidence": "lấy lại tinh thần để bước tới",
               "tokens": [
@@ -12537,7 +12537,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu dịch lời đáp khen.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Thanks, you're very kind” trong đoạn.",
               "focus": "idiom",
               "evidence": "Thanks, you're very kind",
               "options": [
@@ -12552,7 +12552,7 @@ window.PQContextBank={
               "id": "W10-B04-Q01"
             },
             {
-              "prompt": "Sửa người thấy điểm hay mà không chịu khen.",
+              "prompt": "Chọn bản sửa đúng ý thấy điểm hay của người khác nhưng không chịu khen.",
               "focus": "agency",
               "evidence": "thấy người khác hay cũng không thèm khen",
               "options": [
@@ -12567,7 +12567,7 @@ window.PQContextBank={
               "id": "W10-B04-Q02"
             },
             {
-              "prompt": "Giữ nghĩa hà tiện lời khen, không phải thiếu tiền mua quà.",
+              "prompt": "Chọn bản sửa đúng ý “hà tiện lời khen”, không hiểu thành thiếu tiền mua quà.",
               "focus": "wording",
               "evidence": "hà tiện lời khen",
               "options": [
@@ -12582,7 +12582,7 @@ window.PQContextBank={
               "id": "W10-B04-Q03"
             },
             {
-              "prompt": "Sửa “khen sau lưng” không thành nói xấu.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ khen sau lưng thôi” trong đoạn.",
               "focus": "idiom",
               "evidence": "chỉ khen sau lưng thôi",
               "options": [
@@ -12597,7 +12597,7 @@ window.PQContextBank={
               "id": "W10-B04-Q04"
             },
             {
-              "prompt": "Giữ hình ảnh bức tranh và hai động từ đối chiếu.",
+              "prompt": "Chọn bản sửa giữ hình ảnh bức tranh cuộc đời và hai hành động đối chiếu.",
               "focus": "imagery",
               "evidence": "bức tranh cuộc đời",
               "options": [
@@ -12639,7 +12639,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ ngoại lệ khiến lời khuyên tránh chê cần được hiểu trong ngữ cảnh.",
+              "prompt": "Câu nào nêu đúng trường hợp ngoại lệ khiến lời khuyên tránh chê bai cần được hiểu trong ngữ cảnh?",
               "focus": "qualification",
               "evidence": "Tuy nhiên trên cuộc đời có những kẻ không tốt, làm điều bất nhân thất đức",
               "options": [
@@ -12681,7 +12681,7 @@ window.PQContextBank={
               "id": "W10-B05-Q03"
             },
             {
-              "prompt": "Chọn cặp mục đích nguồn đang phân biệt.",
+              "prompt": "Cặp cách diễn đạt nào phân biệt đúng hai mục đích được nêu trong đoạn?",
               "focus": "contrast",
               "evidence": "không phải nói xấu vì tâm hơn thua",
               "options": [
@@ -12695,7 +12695,7 @@ window.PQContextBank={
               "id": "W10-B05-Q04"
             },
             {
-              "prompt": "Cụm nào tự nhiên cho đấu tranh bênh vực?",
+              "prompt": "Cụm nào diễn đạt tự nhiên ý đấu tranh để bênh vực?",
               "focus": "collocation",
               "evidence": "đấu tranh bênh vực",
               "options": [
@@ -12730,7 +12730,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ điều kiện góp ý trực tiếp.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nếu có duyên” trong ngữ cảnh.",
               "focus": "condition",
               "evidence": "Nếu có duyên",
               "parts": [
@@ -12750,7 +12750,7 @@ window.PQContextBank={
               "id": "W10-B06-Q01"
             },
             {
-              "prompt": "Điền cách xử lý khi ít duyên.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhờ người đức độ nói giùm” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "nhờ người đức độ nói giùm",
               "parts": [
@@ -12770,7 +12770,7 @@ window.PQContextBank={
               "id": "W10-B06-Q02"
             },
             {
-              "prompt": "Giữ chức năng giúp nhau vượt lỗi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giúp nhau vượt qua lỗi lầm” trong ngữ cảnh.",
               "focus": "purpose",
               "evidence": "giúp nhau vượt qua lỗi lầm",
               "parts": [
@@ -12790,7 +12790,7 @@ window.PQContextBank={
               "id": "W10-B06-Q03"
             },
             {
-              "prompt": "Giữ điều kiện được phép nói về lỗi.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ bởi lòng thương yêu” trong ngữ cảnh.",
               "focus": "force",
               "evidence": "chỉ bởi lòng thương yêu",
               "parts": [
@@ -12810,7 +12810,7 @@ window.PQContextBank={
               "id": "W10-B06-Q04"
             },
             {
-              "prompt": "Chọn hậu quả khi thiếu tình thương.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ đem lại giận hờn tự ái nhiều thêm” trong ngữ cảnh.",
               "focus": "consequence",
               "evidence": "chỉ đem lại giận hờn tự ái nhiều thêm",
               "parts": [
@@ -12851,7 +12851,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép sự tự tin xuất phát từ tâm từ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Khi có tâm từ” trong đoạn.",
               "focus": "cause",
               "evidence": "Khi có tâm từ",
               "tokens": [
@@ -12872,7 +12872,7 @@ window.PQContextBank={
               "id": "W10-B07-Q01"
             },
             {
-              "prompt": "Ghép việc sống tốt trước thời điểm góp ý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đã thương yêu, đã đối xử tốt với họ” trong đoạn.",
               "focus": "sequence",
               "evidence": "đã thương yêu, đã đối xử tốt với họ",
               "tokens": [
@@ -12893,7 +12893,7 @@ window.PQContextBank={
               "id": "W10-B07-Q02"
             },
             {
-              "prompt": "Ghép mục đích giúp tốt hơn thay chê trách.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “muốn giúp họ tốt hơn chứ không có ý chê bai trách móc” trong đoạn.",
               "focus": "contrast",
               "evidence": "muốn giúp họ tốt hơn chứ không có ý chê bai trách móc",
               "tokens": [
@@ -12914,7 +12914,7 @@ window.PQContextBank={
               "id": "W10-B07-Q03"
             },
             {
-              "prompt": "Ghép phạm vi sống tốt với mọi người.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không phải ta chỉ tốt với riêng họ” trong đoạn.",
               "focus": "scope",
               "evidence": "không phải ta chỉ tốt với riêng họ",
               "tokens": [
@@ -12935,7 +12935,7 @@ window.PQContextBank={
               "id": "W10-B07-Q04"
             },
             {
-              "prompt": "Ghép kết luận do đó dễ tiếp nhận lời nói.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Do đó” trong đoạn.",
               "focus": "cohesion",
               "evidence": "Do đó",
               "tokens": [
@@ -12977,7 +12977,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa đối tượng được nghe báo lỗi.",
+              "prompt": "Chọn bản sửa xác định đúng người cần được báo về lỗi lầm.",
               "focus": "scope",
               "evidence": "chỉ nói với Thầy",
               "options": [
@@ -12992,7 +12992,7 @@ window.PQContextBank={
               "id": "W10-B08-Q01"
             },
             {
-              "prompt": "Sửa việc chấp nhận giận mà không đồng nghĩa trả đũa.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chấp nhận sự giận hờn của huynh đệ” trong đoạn.",
               "focus": "wording",
               "evidence": "chấp nhận sự giận hờn của huynh đệ",
               "options": [
@@ -13007,7 +13007,7 @@ window.PQContextBank={
               "id": "W10-B08-Q02"
             },
             {
-              "prompt": "Giữ hy vọng về lúc họ hiểu, không gán hiểu ngay.",
+              "prompt": "Chọn bản sửa giữ đúng hy vọng họ sẽ hiểu về sau, không khẳng định họ hiểu ngay.",
               "focus": "time",
               "evidence": "rồi sẽ có lúc họ hiểu",
               "options": [
@@ -13022,7 +13022,7 @@ window.PQContextBank={
               "id": "W10-B08-Q03"
             },
             {
-              "prompt": "Sửa tác dụng của hèn nhát đối với sửa lỗi.",
+              "prompt": "Chọn bản sửa nêu đúng ảnh hưởng của sự hèn nhát đến hiệu quả sửa lỗi.",
               "focus": "causality",
               "evidence": "việc sửa lỗi sẽ không có hiệu quả",
               "options": [
@@ -13037,7 +13037,7 @@ window.PQContextBank={
               "id": "W10-B08-Q04"
             },
             {
-              "prompt": "Sửa điều kiện ác ý làm mất khả năng cảm hóa.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu có ác ý chúng ta sẽ không cảm hóa được họ” trong đoạn.",
               "focus": "condition",
               "evidence": "Nếu có ác ý chúng ta sẽ không cảm hóa được họ",
               "options": [
@@ -13073,7 +13073,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Câu nào giữ nền mâu thuẫn đã có trước?",
+              "prompt": "Câu nào giữ đúng việc hai người đã có mâu thuẫn từ trước?",
               "focus": "time",
               "evidence": "vốn không thích nhau",
               "options": [
@@ -13087,7 +13087,7 @@ window.PQContextBank={
               "id": "W10-B09-Q01"
             },
             {
-              "prompt": "Chọn cách nói giữ không thêm bớt.",
+              "prompt": "Câu nào giữ đúng việc thuật lại lời nói mà không thêm bớt?",
               "focus": "collocation",
               "evidence": "không thêm bớt một lời",
               "options": [
@@ -13129,7 +13129,7 @@ window.PQContextBank={
               "id": "W10-B09-Q04"
             },
             {
-              "prompt": "Kết luận nào giữ phân biệt độ thật và tác động?",
+              "prompt": "Kết luận nào phân biệt đúng tính chân thật của lời nói với tác động của nó?",
               "focus": "focus",
               "evidence": "Nói thật đem lại bất thiện pháp",
               "options": [
@@ -13164,7 +13164,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ ý định trốn ra ngoài còn chưa thành hành động.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “định trốn ra ngoài” trong ngữ cảnh.",
               "focus": "intention",
               "evidence": "định trốn ra ngoài",
               "parts": [
@@ -13184,7 +13184,7 @@ window.PQContextBank={
               "id": "W10-B10-Q01"
             },
             {
-              "prompt": "Giữ hành động do sợ lời cảnh báo.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “sợ quá đành nằm xuống ngủ tiếp” trong ngữ cảnh.",
               "focus": "cause",
               "evidence": "sợ quá đành nằm xuống ngủ tiếp",
               "parts": [
@@ -13204,7 +13204,7 @@ window.PQContextBank={
               "id": "W10-B10-Q02"
             },
             {
-              "prompt": "Điền cụm chỉ mục đích người kể nói dối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để người Huynh đệ của mình đừng phạm thanh quy” trong ngữ cảnh.",
               "focus": "purpose",
               "evidence": "để người Huynh đệ của mình đừng phạm thanh quy",
               "parts": [
@@ -13224,7 +13224,7 @@ window.PQContextBank={
               "id": "W10-B10-Q03"
             },
             {
-              "prompt": "Giữ giới hạn của hiệu quả ban đầu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhưng không bền” trong ngữ cảnh.",
               "focus": "qualification",
               "evidence": "nhưng không bền",
               "parts": [
@@ -13244,7 +13244,7 @@ window.PQContextBank={
               "id": "W10-B10-Q04"
             },
             {
-              "prompt": "Giữ phạm vi mất niềm tin cả khi về sau nói thật.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “có khi nói thật họ cũng không tin” trong ngữ cảnh.",
               "focus": "consequence",
               "evidence": "có khi nói thật họ cũng không tin",
               "parts": [
@@ -13285,7 +13285,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu hỏi về người đã chứng, không đổi thành yêu cầu biểu diễn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Vậy đã có ai đắc đạo chưa” trong đoạn.",
               "focus": "focus",
               "evidence": "Vậy đã có ai đắc đạo chưa",
               "tokens": [
@@ -13306,7 +13306,7 @@ window.PQContextBank={
               "id": "W10-B11-Q01"
             },
             {
-              "prompt": "Ghép động cơ của việc khen quá lời.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Vì muốn người ta tin Đạo, theo Đạo” trong đoạn.",
               "focus": "intention",
               "evidence": "Vì muốn người ta tin Đạo, theo Đạo",
               "tokens": [
@@ -13327,7 +13327,7 @@ window.PQContextBank={
               "id": "W10-B11-Q02"
             },
             {
-              "prompt": "Ghép diễn tiến quy y sau khi nghe nói hay.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “người kia liền quy y làm Phật tử” trong đoạn.",
               "focus": "sequence",
               "evidence": "người kia liền quy y làm Phật tử",
               "tokens": [
@@ -13348,7 +13348,7 @@ window.PQContextBank={
               "id": "W10-B11-Q03"
             },
             {
-              "prompt": "Ghép nguyên nhân bất mãn về sau.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không hoàn toàn đúng sự thật” trong đoạn.",
               "focus": "cause",
               "evidence": "không hoàn toàn đúng sự thật",
               "tokens": [
@@ -13369,7 +13369,7 @@ window.PQContextBank={
               "id": "W10-B11-Q04"
             },
             {
-              "prompt": "Ghép kết luận với mức thường và tạm thời.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thường không bền, chỉ mang tính nhất thời” trong đoạn.",
               "focus": "force",
               "evidence": "thường không bền, chỉ mang tính nhất thời",
               "tokens": [
@@ -13414,7 +13414,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa thành ngữ miệng có gang thép theo chức năng.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “miệng người sang có gang có thép” trong đoạn.",
               "focus": "idiom",
               "evidence": "miệng người sang có gang có thép",
               "options": [
@@ -13429,7 +13429,7 @@ window.PQContextBank={
               "id": "W10-B12-Q01"
             },
             {
-              "prompt": "Giữ vai trò giúp người chung quanh và tiến tu của mình.",
+              "prompt": "Chọn bản sửa giữ cả tác dụng giúp người xung quanh lẫn ảnh hưởng đến việc tiến tu của mình.",
               "focus": "relation",
               "evidence": "chính ta sẽ khó tiến tu về sau",
               "options": [
@@ -13444,7 +13444,7 @@ window.PQContextBank={
               "id": "W10-B12-Q02"
             },
             {
-              "prompt": "Sửa thứ tự làm phước và khuyên bảo.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “bước đầu vẫn phải là làm phước thật nhiều” trong đoạn.",
               "focus": "sequence",
               "evidence": "bước đầu vẫn phải là làm phước thật nhiều",
               "options": [
@@ -13459,7 +13459,7 @@ window.PQContextBank={
               "id": "W10-B12-Q03"
             },
             {
-              "prompt": "Sửa ý cẩn thận chia sẻ khi còn ít phước.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải cẩn thận dè dặt” trong đoạn.",
               "focus": "force",
               "evidence": "phải cẩn thận dè dặt",
               "options": [
@@ -13474,7 +13474,7 @@ window.PQContextBank={
               "id": "W10-B12-Q04"
             },
             {
-              "prompt": "Sửa phạm vi người có thể nghe lúc này.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ nói được cho những ai rất có duyên lành với ta” trong đoạn.",
               "focus": "scope",
               "evidence": "chỉ nói được cho những ai rất có duyên lành với ta",
               "options": [
@@ -13549,7 +13549,7 @@ window.PQContextBank={
               "id": "W11-B01-Q01"
             },
             {
-              "prompt": "Giữ khác biệt giữa chăm sóc một chút và cảm được nỗi đau.",
+              "prompt": "Câu nào giữ đúng sự khác nhau giữa chăm sóc một chút và thật sự hiểu nỗi đau?",
               "focus": "contrast",
               "evidence": "Nhưng ta chưa hiểu",
               "options": [
@@ -13563,7 +13563,7 @@ window.PQContextBank={
               "id": "W11-B01-Q02"
             },
             {
-              "prompt": "Cụm nào dịch hỏi thăm người bệnh tự nhiên?",
+              "prompt": "Cụm nào diễn đạt tự nhiên việc hỏi thăm và chăm sóc người bệnh?",
               "focus": "collocation",
               "evidence": "hỏi thăm và chăm sóc một chút",
               "options": [
@@ -13577,7 +13577,7 @@ window.PQContextBank={
               "id": "W11-B01-Q03"
             },
             {
-              "prompt": "Chọn cách giữ lập trường với lời than của người vợ.",
+              "prompt": "Câu nào giữ đúng cách tác giả nhìn nhận lời than của người vợ?",
               "focus": "qualification",
               "evidence": "Bà vợ thì chẳng gì sai",
               "options": [
@@ -13591,7 +13591,7 @@ window.PQContextBank={
               "id": "W11-B01-Q04"
             },
             {
-              "prompt": "Cụm nào giữ “chí lớn không thành” không biến thành công việc đã thành công?",
+              "prompt": "Cụm nào diễn đạt “chí lớn không thành”, không hiểu nhầm là đã thành công?",
               "focus": "idiom",
               "evidence": "\"chí lớn không thành\"",
               "options": [
@@ -13633,7 +13633,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ cả hai phía trong ví dụ đột nhập.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ta cũng đặt mình vào vị trí chủ nhà” trong ngữ cảnh.",
               "focus": "perspective",
               "evidence": "Ta cũng đặt mình vào vị trí chủ nhà",
               "parts": [
@@ -13653,7 +13653,7 @@ window.PQContextBank={
               "id": "W11-B02-Q01"
             },
             {
-              "prompt": "Chọn cụm giữ tác động của bạn xấu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “sự lây nhiễm từ kẻ xấu” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "sự lây nhiễm từ kẻ xấu",
               "parts": [
@@ -13673,7 +13673,7 @@ window.PQContextBank={
               "id": "W11-B02-Q02"
             },
             {
-              "prompt": "Giữ mức đôi khi của sự thông cảm hơn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đôi khi Thông cảm hơn” trong ngữ cảnh.",
               "focus": "force",
               "evidence": "đôi khi Thông cảm hơn",
               "parts": [
@@ -13693,7 +13693,7 @@ window.PQContextBank={
               "id": "W11-B02-Q03"
             },
             {
-              "prompt": "Điền đối chiếu giữa biểu hiện và bản chất.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hơn là sự biểu hiện có vẻ tội nghiệp” trong ngữ cảnh.",
               "focus": "contrast",
               "evidence": "hơn là sự biểu hiện có vẻ tội nghiệp",
               "parts": [
@@ -13713,7 +13713,7 @@ window.PQContextBank={
               "id": "W11-B02-Q04"
             },
             {
-              "prompt": "Giữ mục tiêu của đặt mình vào vị trí người khác.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để hiểu tâm lý của hắn” trong ngữ cảnh.",
               "focus": "purpose",
               "evidence": "để hiểu tâm lý của hắn",
               "parts": [
@@ -13757,7 +13757,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép lời yêu cầu rèn khả năng thông cảm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Ta phải tập khả năng Thông cảm” trong đoạn.",
               "focus": "force",
               "evidence": "Ta phải tập khả năng Thông cảm",
               "tokens": [
@@ -13778,7 +13778,7 @@ window.PQContextBank={
               "id": "W11-B03-Q01"
             },
             {
-              "prompt": "Ghép cặp bề ngoài và bên trong.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bên ngoài khác với bên trong” trong đoạn.",
               "focus": "contrast",
               "evidence": "bên ngoài khác với bên trong",
               "tokens": [
@@ -13799,7 +13799,7 @@ window.PQContextBank={
               "id": "W11-B03-Q02"
             },
             {
-              "prompt": "Ghép phạm vi đôi khi của hành động và bản chất.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “hành động đôi khi khác với bản chất” trong đoạn.",
               "focus": "scope",
               "evidence": "hành động đôi khi khác với bản chất",
               "tokens": [
@@ -13820,7 +13820,7 @@ window.PQContextBank={
               "id": "W11-B03-Q03"
             },
             {
-              "prompt": "Ghép mục đích hiểu sâu hơn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để có thái độ chính xác hơn” trong đoạn.",
               "focus": "purpose",
               "evidence": "để có thái độ chính xác hơn",
               "tokens": [
@@ -13841,7 +13841,7 @@ window.PQContextBank={
               "id": "W11-B03-Q04"
             },
             {
-              "prompt": "Ghép sự không vội của cả chê và khen.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không vội ngợi khen” trong đoạn.",
               "focus": "parallelism",
               "evidence": "không vội ngợi khen",
               "tokens": [
@@ -13889,7 +13889,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa “người để nương tựa” không thành vật sở hữu.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “một người để nương tựa” trong đoạn.",
               "focus": "collocation",
               "evidence": "một người để nương tựa",
               "options": [
@@ -13904,7 +13904,7 @@ window.PQContextBank={
               "id": "W11-B04-Q01"
             },
             {
-              "prompt": "Giữ bao gồm người có tội mà không tán thành lỗi.",
+              "prompt": "Chọn bản sửa giữ lòng thương cả với người có tội nhưng không tán thành hành vi sai.",
               "focus": "scope",
               "evidence": "Dù họ có tội",
               "options": [
@@ -13919,7 +13919,7 @@ window.PQContextBank={
               "id": "W11-B04-Q02"
             },
             {
-              "prompt": "Sửa người tìm đến và người hồi phục.",
+              "prompt": "Chọn bản sửa xác định đúng người tìm đến giúp và người cần được giúp.",
               "focus": "agency",
               "evidence": "có một huynh đệ tìm đến",
               "options": [
@@ -13934,7 +13934,7 @@ window.PQContextBank={
               "id": "W11-B04-Q03"
             },
             {
-              "prompt": "Sửa ba điều cần cho thông cảm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “trí tuệ, trực giác, và tình thương” trong đoạn.",
               "focus": "parallelism",
               "evidence": "trí tuệ, trực giác, và tình thương",
               "options": [
@@ -13949,7 +13949,7 @@ window.PQContextBank={
               "id": "W11-B04-Q04"
             },
             {
-              "prompt": "Giữ mức nhiều khi có nguyên nhân khác phía sau.",
+              "prompt": "Chọn bản sửa giữ mức “nhiều khi” có nguyên nhân khác sau lỗi lầm, không biến thành luôn luôn.",
               "focus": "qualification",
               "evidence": "Nhiều khi đằng sau cái sai lầm",
               "options": [
@@ -13988,7 +13988,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Câu nào giữ hạn đóng học phí và thiếu tiền?",
+              "prompt": "Câu nào giữ đúng hoàn cảnh đến hạn học phí mà không có tiền đóng?",
               "focus": "situation",
               "evidence": "đến kỳ phải đóng tiền học mà không có tiền đóng",
               "options": [
@@ -14002,7 +14002,7 @@ window.PQContextBank={
               "id": "W11-B05-Q01"
             },
             {
-              "prompt": "Cách nhắc ý nghĩ tự tử nào đúng vai trò dữ kiện của đoạn?",
+              "prompt": "Câu nào chỉ thuật lại ý nghĩ tự tử như một biểu hiện đau khổ trong câu chuyện?",
               "focus": "scope",
               "evidence": "thậm chí có cả ý nghĩ tự tử",
               "options": [
@@ -14030,7 +14030,7 @@ window.PQContextBank={
               "id": "W11-B05-Q03"
             },
             {
-              "prompt": "Câu nào giữ mức thường có cách xử lý tích cực hơn?",
+              "prompt": "Câu nào giữ đúng mức “thường có cách xử lý tích cực hơn”, không biến thành luôn luôn?",
               "focus": "force",
               "evidence": "thường có cách xử lý tích cực hơn",
               "options": [
@@ -14044,7 +14044,7 @@ window.PQContextBank={
               "id": "W11-B05-Q04"
             },
             {
-              "prompt": "Giữ trục hành động khi diễn đạt vì sao không bỏ mặc.",
+              "prompt": "Câu nào diễn đạt đúng mối liên hệ giữa hiểu nội tâm người khác và không đành bỏ mặc họ?",
               "focus": "agency",
               "evidence": "Hiểu được sâu xa trong nội tâm người",
               "options": [
@@ -14082,7 +14082,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ phạm vi ngay khi chưa có việc làm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi chưa có việc làm” trong ngữ cảnh.",
               "focus": "concession",
               "evidence": "khi chưa có việc làm",
               "parts": [
@@ -14102,7 +14102,7 @@ window.PQContextBank={
               "id": "W11-B06-Q01"
             },
             {
-              "prompt": "Giữ hành vi chăm người bệnh thay bạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chăm sóc người bệnh giùm cho bạn bè” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "chăm sóc người bệnh giùm cho bạn bè",
               "parts": [
@@ -14122,7 +14122,7 @@ window.PQContextBank={
               "id": "W11-B06-Q02"
             },
             {
-              "prompt": "Điền cụm giữ không nhận lương.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tất cả đều làm không có lương” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "tất cả đều làm không có lương",
               "parts": [
@@ -14142,7 +14142,7 @@ window.PQContextBank={
               "id": "W11-B06-Q03"
             },
             {
-              "prompt": "Giữ nỗ lực dù việc thiện nguyện khó.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không dễ làm, vậy mà” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "không dễ làm, vậy mà",
               "parts": [
@@ -14162,7 +14162,7 @@ window.PQContextBank={
               "id": "W11-B06-Q04"
             },
             {
-              "prompt": "Điền cách diễn đạt thành ngữ đứng núi này trông núi nọ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không đứng núi này trông núi nọ” trong ngữ cảnh.",
               "focus": "idiom",
               "evidence": "không đứng núi này trông núi nọ",
               "parts": [
@@ -14203,7 +14203,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép phạm vi của lòng thương.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “hết tất cả chúng sinh” trong đoạn.",
               "focus": "scope",
               "evidence": "hết tất cả chúng sinh",
               "tokens": [
@@ -14224,7 +14224,7 @@ window.PQContextBank={
               "id": "W11-B07-Q01"
             },
             {
-              "prompt": "Ghép động cơ hành động vì an vui của người.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “làm cái gì đó cho chúng sinh được an vui hạnh phúc” trong đoạn.",
               "focus": "purpose",
               "evidence": "làm cái gì đó cho chúng sinh được an vui hạnh phúc",
               "tokens": [
@@ -14245,7 +14245,7 @@ window.PQContextBank={
               "id": "W11-B07-Q02"
             },
             {
-              "prompt": "Ghép tương quan càng…càng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tâm Từ bi càng nhiều thì sự thôi thúc càng lớn” trong đoạn.",
               "focus": "degree",
               "evidence": "Tâm Từ bi càng nhiều thì sự thôi thúc càng lớn",
               "tokens": [
@@ -14266,7 +14266,7 @@ window.PQContextBank={
               "id": "W11-B07-Q03"
             },
             {
-              "prompt": "Ghép cách hiểu đời sống sâu hơn qua hiểu Đạo.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Càng hiểu Đạo” trong đoạn.",
               "focus": "reference",
               "evidence": "Càng hiểu Đạo",
               "tokens": [
@@ -14287,7 +14287,7 @@ window.PQContextBank={
               "id": "W11-B07-Q04"
             },
             {
-              "prompt": "Ghép lời kết không ai trọn vẹn sung sướng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Không ai thực sự trọn vẹn sung sướng” trong đoạn.",
               "focus": "negation",
               "evidence": "Không ai thực sự trọn vẹn sung sướng",
               "tokens": [
@@ -14329,7 +14329,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa sự đối lập giữa vất vả ngoài việc và niềm vui trong tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhưng niềm vui trong tâm thì tràn đầy” trong đoạn.",
               "focus": "contrast",
               "evidence": "nhưng niềm vui trong tâm thì tràn đầy",
               "options": [
@@ -14344,7 +14344,7 @@ window.PQContextBank={
               "id": "W11-B08-Q01"
             },
             {
-              "prompt": "Sửa chiều mang niềm vui cho ai trước.",
+              "prompt": "Chọn bản sửa xác định đúng người được mang niềm vui đến trước.",
               "focus": "agency",
               "evidence": "đem niềm vui đến cho người khác",
               "options": [
@@ -14359,7 +14359,7 @@ window.PQContextBank={
               "id": "W11-B08-Q02"
             },
             {
-              "prompt": "Giữ niềm vui không mong cầu mà được.",
+              "prompt": "Chọn bản sửa giữ đúng ý niềm vui đến mà không cần mong cầu.",
               "focus": "intention",
               "evidence": "không mong cầu mà được",
               "options": [
@@ -14374,7 +14374,7 @@ window.PQContextBank={
               "id": "W11-B08-Q03"
             },
             {
-              "prompt": "Sửa nghĩa “điều rất lạ” tránh biến thành sai sự thật.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Đây là điều rất lạ” trong đoạn.",
               "focus": "wording",
               "evidence": "Đây là điều rất lạ",
               "options": [
@@ -14389,7 +14389,7 @@ window.PQContextBank={
               "id": "W11-B08-Q04"
             },
             {
-              "prompt": "Giữ hai hệ quả niềm vui và sức mạnh.",
+              "prompt": "Chọn bản sửa giữ đủ hai hệ quả: niềm vui và sức mạnh.",
               "focus": "parallelism",
               "evidence": "niềm vui và sức mạnh",
               "options": [
@@ -14425,7 +14425,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ người nhận tình thương và sự tôn trọng trong lời khuyên.",
+              "prompt": "Câu nào giữ đúng lời khuyên yêu thương và tôn trọng mọi người?",
               "focus": "agency",
               "evidence": "yêu thương và tôn trọng mọi người tràn đầy",
               "options": [
@@ -14453,7 +14453,7 @@ window.PQContextBank={
               "id": "W11-B09-Q02"
             },
             {
-              "prompt": "Giữ không có tiền mà vẫn có điều trao.",
+              "prompt": "Câu nào giữ đúng đối chiếu: không có tiền nhưng vẫn có điều để trao?",
               "focus": "concession",
               "evidence": "nhưng chúng ta có thể có rất nhiều",
               "options": [
@@ -14467,7 +14467,7 @@ window.PQContextBank={
               "id": "W11-B09-Q03"
             },
             {
-              "prompt": "Cụm nào giữ chưa đủ Phật Pháp để san sẻ?",
+              "prompt": "Cụm nào giữ đúng giới hạn đôi khi chưa đủ hiểu biết Phật pháp để chia sẻ?",
               "focus": "scope",
               "evidence": "đôi khi chúng ta cũng chưa đủ Phật Pháp",
               "options": [
@@ -14516,7 +14516,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ cả ba nhóm được nhắc.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nghèo, bệnh hoạn, tật nguyền” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "nghèo, bệnh hoạn, tật nguyền",
               "parts": [
@@ -14536,7 +14536,7 @@ window.PQContextBank={
               "id": "W11-B10-Q01"
             },
             {
-              "prompt": "Cụm nào giữ dễ tủi thân mà không biến thành tự kiêu?",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “rất dễ tủi thân” trong ngữ cảnh.",
               "focus": "wording",
               "evidence": "rất dễ tủi thân",
               "parts": [
@@ -14556,7 +14556,7 @@ window.PQContextBank={
               "id": "W11-B10-Q02"
             },
             {
-              "prompt": "Điền vị trí và trạng thái yên lặng đúng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngồi lặng lẽ ở một góc nào đó trong sân chùa” trong ngữ cảnh.",
               "focus": "setting",
               "evidence": "ngồi lặng lẽ ở một góc nào đó trong sân chùa",
               "parts": [
@@ -14576,7 +14576,7 @@ window.PQContextBank={
               "id": "W11-B10-Q03"
             },
             {
-              "prompt": "Giữ điều che mắt người quan sát.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “bị che bởi những người giàu có sang trọng hơn” trong ngữ cảnh.",
               "focus": "agency",
               "evidence": "bị che bởi những người giàu có sang trọng hơn",
               "parts": [
@@ -14596,7 +14596,7 @@ window.PQContextBank={
               "id": "W11-B10-Q04"
             },
             {
-              "prompt": "Giữ quan hệ thiếu thương thì không thấy.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nếu không có lòng thương yêu chúng sinh” trong ngữ cảnh.",
               "focus": "condition",
               "evidence": "Nếu không có lòng thương yêu chúng sinh",
               "parts": [
@@ -14640,7 +14640,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép nghịch lý nguồn nêu về điều kiện làm phước.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “muốn làm phước cũng phải có phước trước đã” trong đoạn.",
               "focus": "relation",
               "evidence": "muốn làm phước cũng phải có phước trước đã",
               "tokens": [
@@ -14661,7 +14661,7 @@ window.PQContextBank={
               "id": "W11-B11-Q01"
             },
             {
-              "prompt": "Ghép trình tự cầu cơ hội rồi quan sát việc có thể làm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rồi quan sát chung quanh” trong đoạn.",
               "focus": "sequence",
               "evidence": "rồi quan sát chung quanh",
               "tokens": [
@@ -14682,7 +14682,7 @@ window.PQContextBank={
               "id": "W11-B11-Q02"
             },
             {
-              "prompt": "Ghép sức nặng của những lần đầu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phải cố gắng nhiều lắm” trong đoạn.",
               "focus": "force",
               "evidence": "phải cố gắng nhiều lắm",
               "tokens": [
@@ -14703,7 +14703,7 @@ window.PQContextBank={
               "id": "W11-B11-Q03"
             },
             {
-              "prompt": "Ghép ví dụ giúp dù chính mình nghèo.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nghèo mà vẫn chia sẻ, khổ mà vẫn giúp người” trong đoạn.",
               "focus": "concession",
               "evidence": "Nghèo mà vẫn chia sẻ, khổ mà vẫn giúp người",
               "tokens": [
@@ -14724,7 +14724,7 @@ window.PQContextBank={
               "id": "W11-B11-Q04"
             },
             {
-              "prompt": "Ghép lời răn không chờ giàu.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đừng bao giờ nói rằng đợi giàu rồi mới làm phước” trong đoạn.",
               "focus": "negation",
               "evidence": "Đừng bao giờ nói rằng đợi giàu rồi mới làm phước",
               "tokens": [
@@ -14772,7 +14772,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Giữ hai yêu cầu đồng thời chứ không thay thế.",
+              "prompt": "Chọn bản sửa giữ hai yêu cầu cần thực hiện đồng thời, không thay thế nhau.",
               "focus": "relation",
               "evidence": "vừa phải tìm cách khuyên bảo",
               "options": [
@@ -14787,7 +14787,7 @@ window.PQContextBank={
               "id": "W11-B12-Q01"
             },
             {
-              "prompt": "Sửa ví dụ gửi quà đúng người thực hiện.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhờ ai đưa quà” trong đoạn.",
               "focus": "agency",
               "evidence": "nhờ ai đưa quà",
               "options": [
@@ -14802,7 +14802,7 @@ window.PQContextBank={
               "id": "W11-B12-Q02"
             },
             {
-              "prompt": "Sửa mục đích kín đáo, không coi đó là che giấu điều ác.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “để không bị rơi vào lỗi khoe khoang kiêu mạn” trong đoạn.",
               "focus": "purpose",
               "evidence": "để không bị rơi vào lỗi khoe khoang kiêu mạn",
               "options": [
@@ -14817,7 +14817,7 @@ window.PQContextBank={
               "id": "W11-B12-Q03"
             },
             {
-              "prompt": "Giữ điều kiện và thời điểm làm giảng sư về sau.",
+              "prompt": "Chọn bản sửa giữ đúng điều kiện đủ phước và thời điểm làm giảng sư về sau.",
               "focus": "time",
               "evidence": "sau này đủ phước làm giảng sư",
               "options": [
@@ -14832,7 +14832,7 @@ window.PQContextBank={
               "id": "W11-B12-Q04"
             },
             {
-              "prompt": "Sửa dịch “đăng tòa” theo ngữ cảnh giảng pháp.",
+              "prompt": "Chọn cách diễn đạt “đăng tòa” đúng ngữ cảnh giảng pháp.",
               "focus": "terminology",
               "evidence": "giảng sư đăng tòa",
               "options": [
@@ -14887,7 +14887,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Trách nhiệm đòi hỏi bớt niềm vui riêng”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Trách nhiệm đòi hỏi bớt niềm vui riêng”?",
               "focus": "main idea",
               "evidence": "Muốn sống có trách nhiệm",
               "options": [
@@ -14901,7 +14901,7 @@ window.PQContextBank={
               "id": "W12-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Muốn sống có trách nhiệm",
               "options": [
@@ -14915,7 +14915,7 @@ window.PQContextBank={
               "id": "W12-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Muốn sống có trách nhiệm",
               "options": [
@@ -14943,7 +14943,7 @@ window.PQContextBank={
               "id": "W12-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Muốn sống có trách nhiệm",
               "options": [
@@ -14978,7 +14978,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Đóng thuế như một hình thức hợp tác”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đóng một đồng thuế” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Đóng một đồng thuế",
               "parts": [
@@ -14998,7 +14998,7 @@ window.PQContextBank={
               "id": "W12-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đóng một đồng thuế” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Đóng một đồng thuế",
               "parts": [
@@ -15018,7 +15018,7 @@ window.PQContextBank={
               "id": "W12-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đóng một đồng thuế” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Đóng một đồng thuế",
               "parts": [
@@ -15038,7 +15038,7 @@ window.PQContextBank={
               "id": "W12-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đóng một đồng thuế” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Đóng một đồng thuế",
               "parts": [
@@ -15058,7 +15058,7 @@ window.PQContextBank={
               "id": "W12-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Đóng một đồng thuế” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Đóng một đồng thuế",
               "parts": [
@@ -15099,7 +15099,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tuân thủ quy tắc chung”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Mỗi người, mỗi thành viên cứ thuộc và tuân thủ” trong đoạn.",
               "focus": "main idea",
               "evidence": "Mỗi người, mỗi thành viên cứ thuộc và tuân thủ",
               "tokens": [
@@ -15132,7 +15132,7 @@ window.PQContextBank={
               "id": "W12-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Mỗi người, mỗi thành viên cứ thuộc và tuân thủ” trong đoạn.",
               "focus": "scope",
               "evidence": "Mỗi người, mỗi thành viên cứ thuộc và tuân thủ",
               "tokens": [
@@ -15164,7 +15164,7 @@ window.PQContextBank={
               "id": "W12-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Mỗi người, mỗi thành viên cứ thuộc và tuân thủ” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Mỗi người, mỗi thành viên cứ thuộc và tuân thủ",
               "tokens": [
@@ -15196,7 +15196,7 @@ window.PQContextBank={
               "id": "W12-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Mỗi người, mỗi thành viên cứ thuộc và tuân thủ” trong đoạn.",
               "focus": "relation",
               "evidence": "Mỗi người, mỗi thành viên cứ thuộc và tuân thủ",
               "tokens": [
@@ -15228,7 +15228,7 @@ window.PQContextBank={
               "id": "W12-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Mỗi người, mỗi thành viên cứ thuộc và tuân thủ” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Mỗi người, mỗi thành viên cứ thuộc và tuân thủ",
               "tokens": [
@@ -15281,7 +15281,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Biết ơn người làm cho xã hội vận hành”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “còn rất nhiều người chúng ta cần phải biết ơn” trong đoạn.",
               "focus": "main idea",
               "evidence": "còn rất nhiều người chúng ta cần phải biết ơn",
               "options": [
@@ -15296,7 +15296,7 @@ window.PQContextBank={
               "id": "W12-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “còn rất nhiều người chúng ta cần phải biết ơn” trong đoạn.",
               "focus": "scope",
               "evidence": "còn rất nhiều người chúng ta cần phải biết ơn",
               "options": [
@@ -15311,7 +15311,7 @@ window.PQContextBank={
               "id": "W12-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “còn rất nhiều người chúng ta cần phải biết ơn” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "còn rất nhiều người chúng ta cần phải biết ơn",
               "options": [
@@ -15326,7 +15326,7 @@ window.PQContextBank={
               "id": "W12-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “còn rất nhiều người chúng ta cần phải biết ơn” trong đoạn.",
               "focus": "relation",
               "evidence": "còn rất nhiều người chúng ta cần phải biết ơn",
               "options": [
@@ -15341,7 +15341,7 @@ window.PQContextBank={
               "id": "W12-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “còn rất nhiều người chúng ta cần phải biết ơn” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "còn rất nhiều người chúng ta cần phải biết ơn",
               "options": [
@@ -15377,7 +15377,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hợp tác trực tiếp và gián tiếp”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Hợp tác trực tiếp và gián tiếp”?",
               "focus": "main idea",
               "evidence": "Càng thông minh, con người càng hướng tới sự hợp tác",
               "options": [
@@ -15391,7 +15391,7 @@ window.PQContextBank={
               "id": "W12-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Càng thông minh, con người càng hướng tới sự hợp tác",
               "options": [
@@ -15405,7 +15405,7 @@ window.PQContextBank={
               "id": "W12-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Càng thông minh, con người càng hướng tới sự hợp tác",
               "options": [
@@ -15433,7 +15433,7 @@ window.PQContextBank={
               "id": "W12-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Càng thông minh, con người càng hướng tới sự hợp tác",
               "options": [
@@ -15468,7 +15468,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tự trọng và phẩm giá”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
               "parts": [
@@ -15488,7 +15488,7 @@ window.PQContextBank={
               "id": "W12-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
               "parts": [
@@ -15508,7 +15508,7 @@ window.PQContextBank={
               "id": "W12-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
               "parts": [
@@ -15528,7 +15528,7 @@ window.PQContextBank={
               "id": "W12-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
               "parts": [
@@ -15548,7 +15548,7 @@ window.PQContextBank={
               "id": "W12-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
               "parts": [
@@ -15589,7 +15589,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tận tụy trong bổn phận công việc”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tận tụy là siêng năng trong bổn phận việc làm” trong đoạn.",
               "focus": "main idea",
               "evidence": "Tận tụy là siêng năng trong bổn phận việc làm",
               "tokens": [
@@ -15624,7 +15624,7 @@ window.PQContextBank={
               "id": "W12-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tận tụy là siêng năng trong bổn phận việc làm” trong đoạn.",
               "focus": "scope",
               "evidence": "Tận tụy là siêng năng trong bổn phận việc làm",
               "tokens": [
@@ -15658,7 +15658,7 @@ window.PQContextBank={
               "id": "W12-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tận tụy là siêng năng trong bổn phận việc làm” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Tận tụy là siêng năng trong bổn phận việc làm",
               "tokens": [
@@ -15692,7 +15692,7 @@ window.PQContextBank={
               "id": "W12-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tận tụy là siêng năng trong bổn phận việc làm” trong đoạn.",
               "focus": "relation",
               "evidence": "Tận tụy là siêng năng trong bổn phận việc làm",
               "tokens": [
@@ -15726,7 +15726,7 @@ window.PQContextBank={
               "id": "W12-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tận tụy là siêng năng trong bổn phận việc làm” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Tận tụy là siêng năng trong bổn phận việc làm",
               "tokens": [
@@ -15781,7 +15781,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Niềm vui của người có trách nhiệm”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đem niềm vui đến cho mọi người chung quanh mình” trong đoạn.",
               "focus": "main idea",
               "evidence": "người đem niềm vui đến cho mọi người chung quanh mình",
               "options": [
@@ -15796,7 +15796,7 @@ window.PQContextBank={
               "id": "W12-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đem niềm vui đến cho mọi người chung quanh mình” trong đoạn.",
               "focus": "scope",
               "evidence": "người đem niềm vui đến cho mọi người chung quanh mình",
               "options": [
@@ -15811,7 +15811,7 @@ window.PQContextBank={
               "id": "W12-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đem niềm vui đến cho mọi người chung quanh mình” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "người đem niềm vui đến cho mọi người chung quanh mình",
               "options": [
@@ -15826,7 +15826,7 @@ window.PQContextBank={
               "id": "W12-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đem niềm vui đến cho mọi người chung quanh mình” trong đoạn.",
               "focus": "relation",
               "evidence": "người đem niềm vui đến cho mọi người chung quanh mình",
               "options": [
@@ -15841,7 +15841,7 @@ window.PQContextBank={
               "id": "W12-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “người đem niềm vui đến cho mọi người chung quanh mình” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "người đem niềm vui đến cho mọi người chung quanh mình",
               "options": [
@@ -15879,7 +15879,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Làm việc cùng nhau vì lợi ích chung”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Làm việc cùng nhau vì lợi ích chung”?",
               "focus": "main idea",
               "evidence": "phân công nhau trong một sự hợp tác chung",
               "options": [
@@ -15893,7 +15893,7 @@ window.PQContextBank={
               "id": "W12-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "phân công nhau trong một sự hợp tác chung",
               "options": [
@@ -15907,7 +15907,7 @@ window.PQContextBank={
               "id": "W12-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "phân công nhau trong một sự hợp tác chung",
               "options": [
@@ -15935,7 +15935,7 @@ window.PQContextBank={
               "id": "W12-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "phân công nhau trong một sự hợp tác chung",
               "options": [
@@ -15972,7 +15972,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Giữ gìn quy tắc để làm việc chung”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai việc đơn giản là Thuộc các quy tắc” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Hai việc đơn giản là Thuộc các quy tắc",
               "parts": [
@@ -15992,7 +15992,7 @@ window.PQContextBank={
               "id": "W12-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai việc đơn giản là Thuộc các quy tắc” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Hai việc đơn giản là Thuộc các quy tắc",
               "parts": [
@@ -16012,7 +16012,7 @@ window.PQContextBank={
               "id": "W12-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai việc đơn giản là Thuộc các quy tắc” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Hai việc đơn giản là Thuộc các quy tắc",
               "parts": [
@@ -16032,7 +16032,7 @@ window.PQContextBank={
               "id": "W12-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai việc đơn giản là Thuộc các quy tắc” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Hai việc đơn giản là Thuộc các quy tắc",
               "parts": [
@@ -16052,7 +16052,7 @@ window.PQContextBank={
               "id": "W12-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai việc đơn giản là Thuộc các quy tắc” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Hai việc đơn giản là Thuộc các quy tắc",
               "parts": [
@@ -16093,7 +16093,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Đóng góp không chỉ là tiền lương”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một hạt cơm rơi còn nhặt lên không cho phí phạm” trong đoạn.",
               "focus": "main idea",
               "evidence": "một hạt cơm rơi còn nhặt lên không cho phí phạm",
               "tokens": [
@@ -16124,7 +16124,7 @@ window.PQContextBank={
               "id": "W12-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một hạt cơm rơi còn nhặt lên không cho phí phạm” trong đoạn.",
               "focus": "scope",
               "evidence": "một hạt cơm rơi còn nhặt lên không cho phí phạm",
               "tokens": [
@@ -16154,7 +16154,7 @@ window.PQContextBank={
               "id": "W12-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một hạt cơm rơi còn nhặt lên không cho phí phạm” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "một hạt cơm rơi còn nhặt lên không cho phí phạm",
               "tokens": [
@@ -16184,7 +16184,7 @@ window.PQContextBank={
               "id": "W12-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một hạt cơm rơi còn nhặt lên không cho phí phạm” trong đoạn.",
               "focus": "relation",
               "evidence": "một hạt cơm rơi còn nhặt lên không cho phí phạm",
               "tokens": [
@@ -16214,7 +16214,7 @@ window.PQContextBank={
               "id": "W12-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một hạt cơm rơi còn nhặt lên không cho phí phạm” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "một hạt cơm rơi còn nhặt lên không cho phí phạm",
               "tokens": [
@@ -16267,7 +16267,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Làm việc thiện khi chưa có việc”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Con người đối xử với nhau có mấy cấp độ tình cảm” trong đoạn.",
               "focus": "main idea",
               "evidence": "Con người đối xử với nhau có mấy cấp độ tình cảm",
               "options": [
@@ -16282,7 +16282,7 @@ window.PQContextBank={
               "id": "W12-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Con người đối xử với nhau có mấy cấp độ tình cảm” trong đoạn.",
               "focus": "scope",
               "evidence": "Con người đối xử với nhau có mấy cấp độ tình cảm",
               "options": [
@@ -16297,7 +16297,7 @@ window.PQContextBank={
               "id": "W12-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Con người đối xử với nhau có mấy cấp độ tình cảm” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Con người đối xử với nhau có mấy cấp độ tình cảm",
               "options": [
@@ -16312,7 +16312,7 @@ window.PQContextBank={
               "id": "W12-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Con người đối xử với nhau có mấy cấp độ tình cảm” trong đoạn.",
               "focus": "relation",
               "evidence": "Con người đối xử với nhau có mấy cấp độ tình cảm",
               "options": [
@@ -16327,7 +16327,7 @@ window.PQContextBank={
               "id": "W12-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Con người đối xử với nhau có mấy cấp độ tình cảm” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Con người đối xử với nhau có mấy cấp độ tình cảm",
               "options": [
@@ -16384,7 +16384,7 @@ window.PQContextBank={
             {
               "focus": "tác nhân",
               "evidence": "vọng tưởng vẩn vơ",
-              "prompt": "Chọn trục câu giữ đúng điều kéo sự chú ý đi.",
+              "prompt": "Câu nào xác định đúng điều khiến sự chú ý rời khỏi thân?",
               "options": [
                 "Our attention creates wandering thoughts outside the body.",
                 "Wandering thoughts draw our attention into illusory scenes.",
@@ -16398,7 +16398,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "quên mất an trú toàn thân",
-              "prompt": "Cách diễn đạt nào giữ đúng điều bị quên?",
+              "prompt": "Cách diễn đạt nào giữ đúng việc quên an trú toàn thân?",
               "options": [
                 "We forget what the whole body once felt like.",
                 "We forget that we have a physical body.",
@@ -16412,7 +16412,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm",
               "evidence": "Hoặc sau này",
-              "prompt": "Chọn cụm nối đúng giai đoạn thứ hai.",
+              "prompt": "Cụm nào nối đúng giai đoạn tiếp theo trong đoạn?",
               "options": [
                 "Immediately, every wandering thought becomes a bright state.",
                 "Only at the beginning can bright awareness distract us.",
@@ -16426,7 +16426,7 @@ window.PQContextBank={
             {
               "focus": "quy chiếu",
               "evidence": "cái cảnh giới mới lạ đó",
-              "prompt": "That unfamiliar state quy chiếu tới điều gì trong bản dịch?",
+              "prompt": "Trong bản dịch, cụm “that unfamiliar state” quy chiếu tới điều gì?",
               "options": [
                 "The newly appearing bright, open state of awareness.",
                 "The attention that existed before practice began.",
@@ -16440,7 +16440,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "thì ta cũng bị",
-              "prompt": "Chọn câu kết giữ được điểm song song của đoạn.",
+              "prompt": "Câu kết nào giữ đúng điểm giống nhau giữa hai trường hợp trong đoạn?",
               "options": [
                 "A bright state replaces distraction and keeps awareness in the body.",
                 "Both wandering thoughts and an unfamiliar bright state can draw awareness away from the body.",
@@ -16475,7 +16475,7 @@ window.PQContextBank={
             {
               "focus": "nhân quả",
               "evidence": "Vì vậy",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Vì vậy” trong ngữ cảnh.",
               "parts": [
                 "Awareness of the body can lead to attachment; ",
                 " we contemplate its impermanence."
@@ -16495,7 +16495,7 @@ window.PQContextBank={
             {
               "focus": "chọn động từ",
               "evidence": "suy nghiệm chứ không phải tưởng tượng hình ảnh phức tạp",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “suy nghiệm chứ không phải tưởng tượng hình ảnh phức tạp” trong ngữ cảnh.",
               "parts": [
                 "We ",
                 " the body’s inevitable changes rather than invent elaborate pictures."
@@ -16515,7 +16515,7 @@ window.PQContextBank={
             {
               "focus": "diễn tiến",
               "evidence": "từ trẻ đến già",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “từ trẻ đến già” trong ngữ cảnh.",
               "parts": [
                 "The passage traces the body’s changes ",
                 "."
@@ -16535,7 +16535,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "ngay cả xương",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngay cả xương” trong ngữ cảnh.",
               "parts": [
                 "Its disintegration includes ",
                 "."
@@ -16555,7 +16555,7 @@ window.PQContextBank={
             {
               "focus": "hình ảnh",
               "evidence": "thành bụi bay luôn",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thành bụi bay luôn” trong ngữ cảnh.",
               "parts": [
                 "Eventually, even the bones become ",
                 "."
@@ -16596,7 +16596,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "vừa biết toàn thân, vừa biết thân vô thường",
-              "prompt": "Ghép câu, mở bằng We are aware.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vừa biết toàn thân, vừa biết thân vô thường” trong đoạn. Bắt đầu bằng “We are aware”.",
               "tokens": [
                 "instead of the body",
                 "and of the in-breath and out-breath.",
@@ -16617,7 +16617,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân",
               "evidence": "vì hai cái biết trước",
-              "prompt": "Ghép câu, mở bằng Maintaining all three.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì hai cái biết trước” trong đoạn. Bắt đầu bằng “Maintaining all three”.",
               "tokens": [
                 "Maintaining all three",
                 "although none is familiar",
@@ -16638,7 +16638,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Ai mà không tập hai cái biết trước cho kỹ",
-              "prompt": "Ghép câu điều kiện, bắt đầu Anyone who.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Ai mà không tập hai cái biết trước cho kỹ” trong đoạn. Bắt đầu bằng “Anyone who”.",
               "tokens": [
                 "risks losing the essential foundation",
                 "when attending to the breath.",
@@ -16659,7 +16659,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "rồi hãy thêm biết hơi thở",
-              "prompt": "Ghép chỉ dẫn, mở bằng First.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rồi hãy thêm biết hơi thở” trong đoạn. Bắt đầu bằng “First”.",
               "tokens": [
                 "and contemplate the body’s impermanence thoroughly;",
                 "only then add awareness of breathing.",
@@ -16680,7 +16680,7 @@ window.PQContextBank={
             {
               "focus": "mệnh lệnh",
               "evidence": "Đừng vội vàng hấp tấp",
-              "prompt": "Ghép lời nhắc, mở bằng Do not rush.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đừng vội vàng hấp tấp” trong đoạn. Bắt đầu bằng “Do not rush”.",
               "tokens": [
                 "as quickly as possible",
                 "Do not rush.",
@@ -16725,7 +16725,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ",
               "evidence": "Chánh tinh tấn",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Chánh tinh tấn” trong đoạn.",
               "options": [
                 "At the stage of Right Effort, practitioners must be clearly aware of the whole body.",
                 "Right Effort means remaining aware only of outside sounds.",
@@ -16740,7 +16740,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "không cho chạy ra khỏi da thịt",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không cho chạy ra khỏi da thịt” trong đoạn.",
               "options": [
                 "We project our attention beyond the body to improve its stability.",
                 "We ignore the skin until attention becomes stable.",
@@ -16755,7 +16755,7 @@ window.PQContextBank={
             {
               "focus": "mức độ",
               "evidence": "Cái này cũng không đơn giản",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Cái này cũng không đơn giản” trong đoạn.",
               "options": [
                 "Whole-body awareness is not simple; even keeping the sensing in place takes skill.",
                 "Whole-body awareness cannot be practiced by anyone.",
@@ -16770,7 +16770,7 @@ window.PQContextBank={
             {
               "focus": "dấu hiệu",
               "evidence": "chập chờn tới lui không ổn định",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chập chờn tới lui không ổn định” trong đoạn.",
               "options": [
                 "Flickering lucid awareness always proves final awakening.",
                 "Whole-body practice becomes unnecessary once awareness flickers.",
@@ -16785,7 +16785,7 @@ window.PQContextBank={
             {
               "focus": "thời gian",
               "evidence": "sẽ giữ được tỉnh giác về sau",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ giữ được tỉnh giác về sau” trong đoạn.",
               "options": [
                 "The bodily foundation matters only after lucid awareness is lost.",
                 "Whole-body practice replaces lucid awareness permanently.",
@@ -16821,7 +16821,7 @@ window.PQContextBank={
             {
               "focus": "hình ảnh",
               "evidence": "đặt trên cái nền",
-              "prompt": "Chọn cách diễn đạt giữ hình ảnh nền tảng.",
+              "prompt": "Cách diễn đạt nào giữ đúng hình ảnh thân là nền tảng?",
               "options": [
                 "Breathing must remove the foundation of bodily awareness.",
                 "Breathing is a foundation that makes the body unnecessary.",
@@ -16835,7 +16835,7 @@ window.PQContextBank={
             {
               "focus": "hai giới hạn",
               "evidence": "biết mà không gồng cứng",
-              "prompt": "Câu nào giữ đồng thời bất động và mềm mại?",
+              "prompt": "Câu nào giữ đồng thời hai yêu cầu: thân bất động và không gồng cứng?",
               "options": [
                 "Relax by allowing the body to move freely.",
                 "Keep the body rigid so that it cannot move.",
@@ -16849,7 +16849,7 @@ window.PQContextBank={
             {
               "focus": "ưu tiên",
               "evidence": "việc đầu tiên",
-              "prompt": "Khi tâm vọng động, bước đầu là gì trong bản diễn đạt?",
+              "prompt": "Theo đoạn, cần làm gì đầu tiên khi tâm vọng động?",
               "options": [
                 "First examine every thought until the body disappears.",
                 "First seek a new meditation method.",
@@ -16863,7 +16863,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ",
               "evidence": "Sau đó mới",
-              "prompt": "Chọn câu nối giữ đúng trình tự.",
+              "prompt": "Câu nào giữ đúng trình tự được đánh dấu bằng ý “sau đó mới”?",
               "options": [
                 "Only afterward do we continue breathing in the proper way.",
                 "Otherwise, we never need to attend to breathing again.",
@@ -16877,7 +16877,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "chính là nền tảng vững chắc",
-              "prompt": "Chọn lời tổng kết không biến nền tảng thành thành tựu cuối.",
+              "prompt": "Câu nào giữ vai trò nền tảng của việc an trú toàn thân, không coi đó là thành tựu cuối cùng?",
               "options": [
                 "Whole-body awareness is the final attainment of all meditation.",
                 "A firm foundation requires no further cultivation.",
@@ -16912,7 +16912,7 @@ window.PQContextBank={
             {
               "focus": "hai tác dụng",
               "evidence": "nên cũng khiến ta chấp thân",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nên cũng khiến ta chấp thân” trong ngữ cảnh.",
               "parts": [
                 "Whole-body awareness can bring calm and ",
                 " attachment to the body."
@@ -16932,7 +16932,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân đáp ứng",
               "evidence": "Vì thế",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Vì thế” trong ngữ cảnh.",
               "parts": [
                 "",
                 ", the Buddha teaches us to know that the body is impermanent."
@@ -16952,7 +16952,7 @@ window.PQContextBank={
             {
               "focus": "tần suất",
               "evidence": "Lâu lâu nhắc lại",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Lâu lâu nhắc lại” trong ngữ cảnh.",
               "parts": [
                 "We recall this understanding ",
                 " to reinforce it."
@@ -16972,7 +16972,7 @@ window.PQContextBank={
             {
               "focus": "quy chiếu",
               "evidence": "Nhờ trí quán đó",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nhờ trí quán đó” trong ngữ cảnh.",
               "parts": [
                 "Thanks to ",
                 ", we can avoid clinging while maintaining whole-body awareness."
@@ -16992,7 +16992,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ đồng thời",
               "evidence": "khi ta phải thường xuyên Biết toàn thân",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi ta phải thường xuyên Biết toàn thân” trong ngữ cảnh.",
               "parts": [
                 "The passage seeks to prevent attachment ",
                 " whole-body awareness continues."
@@ -17036,7 +17036,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "dù mấy chữ đó vẫn là tiếng Việt Nam ai cũng hiểu",
-              "prompt": "Ghép câu mở bằng Some people.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dù mấy chữ đó vẫn là tiếng Việt Nam ai cũng hiểu” trong đoạn. Bắt đầu bằng “Some people”.",
               "tokens": [
                 "they understand the words.",
                 "once all sensations disappear",
@@ -17057,7 +17057,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "Có người chỉ biết được đến phần ngực",
-              "prompt": "Ghép câu mở bằng Some can sense.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Có người chỉ biết được đến phần ngực” trong đoạn. Bắt đầu bằng “Some can sense”.",
               "tokens": [
                 "not down",
                 "only as far as the chest,",
@@ -17078,7 +17078,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "biết đến bụng thì mất liên lạc với phần đầu",
-              "prompt": "Ghép câu mở bằng Others.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “biết đến bụng thì mất liên lạc với phần đầu” trong đoạn. Bắt đầu bằng “Others”.",
               "tokens": [
                 "but lose contact",
                 "abiding only in the abdomen.",
@@ -17099,7 +17099,7 @@ window.PQContextBank={
             {
               "focus": "giai đoạn",
               "evidence": "ban đầu, không ai đủ sức biết hết",
-              "prompt": "Ghép câu mở bằng At first.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ban đầu, không ai đủ sức biết hết” trong đoạn. Bắt đầu bằng “At first”.",
               "tokens": [
                 "At first,",
                 "to be aware",
@@ -17120,7 +17120,7 @@ window.PQContextBank={
             {
               "focus": "tiến trình",
               "evidence": "Lâu ngày ta mới có thêm",
-              "prompt": "Ghép câu mở bằng Over time.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Lâu ngày ta mới có thêm” trong đoạn. Bắt đầu bằng “Over time”.",
               "tokens": [
                 "additional strength develops,",
                 "to extend to other parts of the body.",
@@ -17165,7 +17165,7 @@ window.PQContextBank={
             {
               "focus": "số lượng và chức năng",
               "evidence": "chủ yếu bây giờ dụng công còn có 2 cái",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chủ yếu bây giờ dụng công còn có 2 cái” trong đoạn.",
               "options": [
                 "The main practice now means ignoring both body and breath.",
                 "The two aspects are already final enlightenment.",
@@ -17180,7 +17180,7 @@ window.PQContextBank={
             {
               "focus": "lực giới hạn",
               "evidence": "ta cũng không quan tâm nhiều",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta cũng không quan tâm nhiều” trong đoạn.",
               "options": [
                 "We must make lucid awareness the only practice.",
                 "We do not pay much attention to lucid awareness when it appears.",
@@ -17195,7 +17195,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm",
               "evidence": "giá trị ban đầu",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giá trị ban đầu” trong đoạn.",
               "options": [
                 "Its initial value is helping us see an arising wandering thought as an external object.",
                 "Its initial value is proving that all thoughts have ended forever.",
@@ -17210,7 +17210,7 @@ window.PQContextBank={
             {
               "focus": "ẩn dụ",
               "evidence": "như một kẻ trộm bên ngoài",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “như một kẻ trộm bên ngoài” trong đoạn.",
               "options": [
                 "The practitioner becomes a thief to observe the mind.",
                 "A thief produces every thought from outside the body.",
@@ -17225,7 +17225,7 @@ window.PQContextBank={
             {
               "focus": "cấu trúc ba vế",
               "evidence": "Biết vọng tưởng khởi diệt",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Biết vọng tưởng khởi diệt” trong đoạn.",
               "options": [
                 "The third kind is knowing the arising and passing of wandering thoughts.",
                 "The third kind is forgetting when thoughts pass away.",
@@ -17261,7 +17261,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ",
               "evidence": "Ngã chấp cũng lớn theo",
-              "prompt": "Chọn câu giữ đúng chiều biến đổi.",
+              "prompt": "Câu nào giữ đúng chiều gia tăng của ngã chấp trong đoạn?",
               "options": [
                 "Self-attachment necessarily eliminates all bodily feeling.",
                 "The passage equates physical strength with enlightenment.",
@@ -17275,7 +17275,7 @@ window.PQContextBank={
             {
               "focus": "đánh giá",
               "evidence": "thật là uổng phí",
-              "prompt": "Câu nào giữ đánh giá của tác giả?",
+              "prompt": "Câu nào giữ đúng lời đánh giá “thật là uổng phí” của tác giả?",
               "options": [
                 "Arduous practice that increases self-attachment is a waste.",
                 "All practice is useless regardless of its results.",
@@ -17289,7 +17289,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để diệt trừ cái chấp thân",
-              "prompt": "Contemplate the body as impermanent and impure nhằm mục đích gì?",
+              "prompt": "Trong đoạn, việc quán thân vô thường và bất tịnh nhằm mục đích gì?",
               "options": [
                 "To make the body permanently stable.",
                 "To deny that bodily sensations exist.",
@@ -17303,7 +17303,7 @@ window.PQContextBank={
             {
               "focus": "cấu trúc tăng tiến",
               "evidence": "Càng tu hành, càng nhận ra",
-              "prompt": "Chọn cách diễn đạt giữ càng…càng.",
+              "prompt": "Cách diễn đạt nào giữ đúng quan hệ “càng tu hành, càng nhận ra”?",
               "options": [
                 "Every subtle sensation proves that practice is complete.",
                 "Gratitude makes further practice unnecessary.",
@@ -17317,7 +17317,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "nghe giản dị, nhưng vô cùng cần thiết",
-              "prompt": "Chọn câu kết đúng mạch.",
+              "prompt": "Câu kết nào giữ cả ý giản dị lẫn mức độ cần thiết của lời dạy?",
               "options": [
                 "Their simplicity shows that many details are superfluous.",
                 "The teachings sound simple, yet they are indispensable and closely connected.",
@@ -17352,7 +17352,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "Trước khi đi vào tu tập hơi thở",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Trước khi đi vào tu tập hơi thở” trong ngữ cảnh.",
               "parts": [
                 "",
                 " beginning breath practice, we must be proficient in regulating the body."
@@ -17372,7 +17372,7 @@ window.PQContextBank={
             {
               "focus": "cụm tính chất",
               "evidence": "bất động, mềm mại, buông lỏng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “bất động, mềm mại, buông lỏng” trong ngữ cảnh.",
               "parts": [
                 "The body must remain ",
                 "."
@@ -17392,7 +17392,7 @@ window.PQContextBank={
             {
               "focus": "trạng thái nền tảng",
               "evidence": "điều thân chưa vững",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “điều thân chưa vững” trong ngữ cảnh.",
               "parts": [
                 "The warning concerns breath practice undertaken while the bodily foundation is ",
                 "."
@@ -17412,7 +17412,7 @@ window.PQContextBank={
             {
               "focus": "đánh giá",
               "evidence": "hại nhiều hơn lợi",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hại nhiều hơn lợi” trong ngữ cảnh.",
               "parts": [
                 "Rushing ahead in that situation does ",
                 "."
@@ -17432,7 +17432,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa ngữ cảnh",
               "evidence": "cảm giác toàn thân",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cảm giác toàn thân” trong ngữ cảnh.",
               "parts": [
                 "Here, sensing the whole body means ",
                 "."
@@ -17473,7 +17473,7 @@ window.PQContextBank={
             {
               "focus": "phủ định phạm vi",
               "evidence": "Không phải đợi đến khi",
-              "prompt": "Ghép câu mở bằng We need not wait.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Không phải đợi đến khi” trong đoạn. Bắt đầu bằng “We need not wait”.",
               "tokens": [
                 "We need not wait",
                 "until restlessness is overcome",
@@ -17494,7 +17494,7 @@ window.PQContextBank={
             {
               "focus": "tiến trình",
               "evidence": "ngồi quen một thời gian",
-              "prompt": "Ghép câu mở bằng Becoming accustomed.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ngồi quen một thời gian” trong đoạn. Bắt đầu bằng “Becoming accustomed”.",
               "tokens": [
                 "can instantly complete the path",
                 "without any practice",
@@ -17515,7 +17515,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "mềm mại, buông lỏng, nhưng bất động",
-              "prompt": "Ghép câu mở bằng Keep the body.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mềm mại, buông lỏng, nhưng bất động” trong đoạn. Bắt đầu bằng “Keep the body”.",
               "tokens": [
                 "yet still,",
                 "by tightening every muscle",
@@ -17536,7 +17536,7 @@ window.PQContextBank={
             {
               "focus": "cặp giới hạn",
               "evidence": "không cho phép thân nhúc nhích nhưng cũng không được gồng cứng",
-              "prompt": "Ghép câu mở bằng The initial middle way.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không cho phép thân nhúc nhích nhưng cũng không được gồng cứng” trong đoạn. Bắt đầu bằng “The initial middle way”.",
               "tokens": [
                 "allows neither bodily movement",
                 "only a rigid posture",
@@ -17557,7 +17557,7 @@ window.PQContextBank={
             {
               "focus": "thời gian",
               "evidence": "suốt cuộc đời tu hành",
-              "prompt": "Ghép câu mở bằng This principle.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “suốt cuộc đời tu hành” trong đoạn. Bắt đầu bằng “This principle”.",
               "tokens": [
                 "This principle",
                 "throughout",
@@ -17599,7 +17599,7 @@ window.PQContextBank={
             {
               "focus": "động từ và giới từ",
               "evidence": "dựa trên công phu Điều thân",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “dựa trên công phu Điều thân” trong đoạn.",
               "options": [
                 "We must rely bodily regulation to itself.",
                 "We must rely on bodily regulation.",
@@ -17614,7 +17614,7 @@ window.PQContextBank={
             {
               "focus": "lực nghĩa vụ",
               "evidence": "không bao giờ được rời khỏi",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không bao giờ được rời khỏi” trong đoạn.",
               "options": [
                 "We must never abandon correct posture, suppleness, and stillness.",
                 "We need remember posture only during the first lesson.",
@@ -17629,7 +17629,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Khi công phu Điều thân đã vững chắc",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Khi công phu Điều thân đã vững chắc” trong đoạn.",
               "options": [
                 "The inner mind appears only when bodily practice is discarded.",
                 "Bodily stability is caused by forgetting the inner mind.",
@@ -17644,7 +17644,7 @@ window.PQContextBank={
             {
               "focus": "tác nhân",
               "evidence": "để ta thấy rõ và kiểm soát",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “để ta thấy rõ và kiểm soát” trong đoạn.",
               "options": [
                 "We can see and regulate the inner mind.",
                 "Other schools must regulate our inner mind for us.",
@@ -17659,7 +17659,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi nhận định",
               "evidence": "Nhiều phái thiền",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nhiều phái thiền” trong đoạn.",
               "options": [
                 "No school ever considers bodily regulation.",
                 "Many meditation schools do not make bodily regulation their foundation.",
@@ -17723,7 +17723,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa",
               "evidence": "Biết mà không điều khiển",
-              "prompt": "Chọn định nghĩa theo đoạn.",
+              "prompt": "Cách diễn đạt nào giữ đúng nguyên tắc biết hơi thở mà không điều khiển?",
               "options": [
                 "Basic breathing means knowing the breath without controlling it.",
                 "Basic breathing means forgetting the breath until it becomes long.",
@@ -17737,7 +17737,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "Thở dài thì mệt, thở ngắn thì... cũng mệt",
-              "prompt": "Chọn câu giữ cả hai vế của lời kể.",
+              "prompt": "Câu nào giữ đủ hai vế: thở dài mệt, thở ngắn cũng mệt?",
               "options": [
                 "Only long breaths tire beginners; short breaths always relieve them.",
                 "Long and short breaths are equally easy for all beginners.",
@@ -17751,7 +17751,7 @@ window.PQContextBank={
             {
               "focus": "phân biệt quan sát và tạo ra",
               "evidence": "không chủ ý làm cho hơi thở dài hay ngắn",
-              "prompt": "Câu nào giữ đúng khác biệt giữa biết và làm cho?",
+              "prompt": "Câu nào phân biệt đúng việc nhận biết với chủ ý làm hơi thở dài hoặc ngắn?",
               "options": [
                 "We know a long breath only after deliberately shortening it.",
                 "We can know the breath only by controlling its length.",
@@ -17765,7 +17765,7 @@ window.PQContextBank={
             {
               "focus": "thời gian",
               "evidence": "Tập như vậy một thời gian",
-              "prompt": "Chọn cách diễn đạt giữ giai đoạn làm quen.",
+              "prompt": "Câu nào giữ đúng yêu cầu cần một thời gian tập làm quen?",
               "options": [
                 "We must finish meditation before getting used to breathing.",
                 "After practicing this way for a time, we become accustomed to breathing in meditation.",
@@ -17779,7 +17779,7 @@ window.PQContextBank={
             {
               "focus": "đánh giá",
               "evidence": "đòi hỏi sự tinh tế khéo léo lắm",
-              "prompt": "Chọn kết luận ngôn ngữ đúng.",
+              "prompt": "Câu nào giữ đúng nhận định việc thực hành cần sự tinh tế, khéo léo?",
               "options": [
                 "Knowing without controlling requires subtlety and skill.",
                 "Knowing without controlling requires no attention at all.",
@@ -17814,7 +17814,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "Khi tâm ta loạn",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi tâm ta loạn” trong ngữ cảnh.",
               "parts": [
                 "When the mind is agitated, breathing becomes ",
                 "."
@@ -17834,7 +17834,7 @@ window.PQContextBank={
             {
               "focus": "chủ thể",
               "evidence": "Khi tâm ta yên lắng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi tâm ta yên lắng” trong ngữ cảnh.",
               "parts": [
                 "When ",
                 " settles, breathing becomes gentle."
@@ -17854,7 +17854,7 @@ window.PQContextBank={
             {
               "focus": "phương thức",
               "evidence": "Chỉ nhìn hơi thở",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Chỉ nhìn hơi thở” trong ngữ cảnh.",
               "parts": [
                 "We understand our inner state ",
                 "."
@@ -17874,7 +17874,7 @@ window.PQContextBank={
             {
               "focus": "quy chiếu",
               "evidence": "Hiểu nội tâm của mình rồi",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hiểu nội tâm của mình rồi” trong ngữ cảnh.",
               "parts": [
                 "Having understood ",
                 ", we know how to adjust the mind."
@@ -17894,7 +17894,7 @@ window.PQContextBank={
             {
               "focus": "trình tự",
               "evidence": "rồi thì ta tự biết điều chỉnh",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “rồi thì ta tự biết điều chỉnh” trong ngữ cảnh.",
               "parts": [
                 "Understanding the inner state comes ",
                 " adjusting the mind in the passage’s sequence."
@@ -17938,7 +17938,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa",
               "evidence": "Hơi thở thông minh là cảm nhận từng mỗi hơi thở",
-              "prompt": "Ghép câu mở bằng Intelligent breathing.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Hơi thở thông minh là cảm nhận từng mỗi hơi thở” trong đoạn. Bắt đầu bằng “Intelligent breathing”.",
               "tokens": [
                 "Intelligent breathing",
                 "without sensing either",
@@ -17959,7 +17959,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "tập trung, tinh tế, thông minh",
-              "prompt": "Ghép câu mở bằng This breathing.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tập trung, tinh tế, thông minh” trong đoạn. Bắt đầu bằng “This breathing”.",
               "tokens": [
                 "instead of intelligence",
                 "and intelligence.",
@@ -17980,7 +17980,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi phủ định",
               "evidence": "Không hơi thở nào sẽ giống hệt hơi thở nào",
-              "prompt": "Ghép câu mở bằng No breath.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Không hơi thở nào sẽ giống hệt hơi thở nào” trong đoạn. Bắt đầu bằng “No breath”.",
               "tokens": [
                 "exactly like",
                 "another.",
@@ -18001,7 +18001,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện phụ thuộc",
               "evidence": "tùy thuộc vào sự cảm nhận của tâm",
-              "prompt": "Ghép câu mở bằng The length.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tùy thuộc vào sự cảm nhận của tâm” trong đoạn. Bắt đầu bằng “The length”.",
               "tokens": [
                 "a fixed number alone",
                 "must never be assessed",
@@ -18022,7 +18022,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm chuyển",
               "evidence": "Thở ra dài như thế là hợp lý rồi, thôi hít vào",
-              "prompt": "Ghép câu mở bằng Once.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Thở ra dài như thế là hợp lý rồi, thôi hít vào” trong đoạn. Bắt đầu bằng “Once”.",
               "tokens": [
                 "Once the out-breath",
                 "it is time",
@@ -18064,7 +18064,7 @@ window.PQContextBank={
             {
               "focus": "phủ định",
               "evidence": "không cho phép ta điều khiển hơi thở",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không cho phép ta điều khiển hơi thở” trong đoạn.",
               "options": [
                 "Meditative breathing requires making every breath forceful.",
                 "Meditative breathing does not permit deliberate control of the breath.",
@@ -18079,7 +18079,7 @@ window.PQContextBank={
             {
               "focus": "mức độ",
               "evidence": "không cố gắng thở thêm chút nữa",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không cố gắng thở thêm chút nữa” trong đoạn.",
               "options": [
                 "We recognize when the in-breath has reached its proper extent and do not force more.",
                 "We add more air precisely when the breath feels sufficient.",
@@ -18094,7 +18094,7 @@ window.PQContextBank={
             {
               "focus": "niềm tin bị phê",
               "evidence": "tưởng rằng thở nhiều là sẽ mau đắc đạo hơn",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tưởng rằng thở nhiều là sẽ mau đắc đạo hơn” trong đoạn.",
               "options": [
                 "The author defines enlightenment as a large breath.",
                 "The author says breathing more is the only valid method.",
@@ -18109,7 +18109,7 @@ window.PQContextBank={
             {
               "focus": "tỷ lệ",
               "evidence": "Đa phần người tu tập phép hơi thở bị sai",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Đa phần người tu tập phép hơi thở bị sai” trong đoạn.",
               "options": [
                 "Most practitioners who go wrong do so by trying to take in more air.",
                 "All successful practitioners must first make this mistake.",
@@ -18124,7 +18124,7 @@ window.PQContextBank={
             {
               "focus": "kết quả",
               "evidence": "đâu ngờ, thở nhiều sẽ bế tắc",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “đâu ngờ, thở nhiều sẽ bế tắc” trong đoạn.",
               "options": [
                 "They realize that forcing more air in guarantees awakening.",
                 "They do not realize that forcing more air in will leave them stuck.",
@@ -18160,7 +18160,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm",
               "evidence": "Ai tập quen",
-              "prompt": "Chọn mở câu đúng điều kiện đã quen.",
+              "prompt": "Câu mở nào giữ đúng điều kiện người tập đã quen với phương pháp?",
               "options": [
                 "Once people become accustomed to conscious breathing, they feel confident and enjoy it.",
                 "Before anyone practices, conscious breathing guarantees confidence.",
@@ -18174,7 +18174,7 @@ window.PQContextBank={
             {
               "focus": "tần suất có điều kiện",
               "evidence": "hễ áp dụng được",
-              "prompt": "Chọn câu giữ hễ áp dụng được.",
+              "prompt": "Câu nào giữ đúng quan hệ được diễn đạt bằng “hễ áp dụng được”?",
               "options": [
                 "They practice without interruption throughout every day.",
                 "They practice only once at the end of the day.",
@@ -18188,7 +18188,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân",
               "evidence": "vì làm cho thân và tâm dễ chịu",
-              "prompt": "Chọn lý do đúng phạm vi.",
+              "prompt": "Cách giải thích nào giữ đúng lý do thân và tâm cảm thấy dễ chịu?",
               "options": [
                 "They practice because it makes both body and mind comfortable.",
                 "They practice because work is always unpleasant.",
@@ -18202,7 +18202,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "khi làm việc bận rộn",
-              "prompt": "Chọn câu giữ hoàn cảnh bận rộn.",
+              "prompt": "Câu nào giữ đúng hoàn cảnh áp dụng khi làm việc bận rộn?",
               "options": [
                 "They must refuse all work to remember the body.",
                 "Even amid busy work, they try to remember the whole body.",
@@ -18216,7 +18216,7 @@ window.PQContextBank={
             {
               "focus": "trình tự",
               "evidence": "rồi hơi thở hiện ra",
-              "prompt": "Chọn trình tự theo nguồn.",
+              "prompt": "Câu nào giữ đúng thứ tự chú ý và sự hiện ra của hơi thở theo nguồn?",
               "options": [
                 "They remember the body; then the breath becomes apparent, and they stay with it.",
                 "They abandon the body so that the breath can disappear.",
@@ -18266,7 +18266,7 @@ window.PQContextBank={
             {
               "focus": "phương thức",
               "evidence": "âm thầm nhắc chính mình",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “âm thầm nhắc chính mình” trong ngữ cảnh.",
               "parts": [
                 "We must ",
                 " remind ourselves of not-self."
@@ -18286,7 +18286,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để đừng lìa hơi thở",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để đừng lìa hơi thở” trong ngữ cảnh.",
               "parts": [
                 "We link the reflection to breathing ",
                 "."
@@ -18306,7 +18306,7 @@ window.PQContextBank={
             {
               "focus": "nguy cơ",
               "evidence": "ít để ý đến hơi thở",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ít để ý đến hơi thở” trong ngữ cảnh.",
               "parts": [
                 "Without this link, we may become absorbed in reflection and ",
                 "."
@@ -18326,7 +18326,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "tất cả chúng sinh",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tất cả chúng sinh” trong ngữ cảnh.",
               "parts": [
                 "The vow of love extends to ",
                 "."
@@ -18346,7 +18346,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện và mức đủ",
               "evidence": "nếu ai trước khi vào thiền đã tác ý ba tâm hạnh",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu ai trước khi vào thiền đã tác ý ba tâm hạnh” trong ngữ cảnh.",
               "parts": [
                 "Those who have already cultivated the three qualities before sitting ",
                 "."
@@ -18387,7 +18387,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa",
               "evidence": "thở có ý thức",
-              "prompt": "Ghép câu mở bằng Meditative breathing.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “thở có ý thức” trong đoạn. Bắt đầu bằng “Meditative breathing”.",
               "tokens": [
                 "clearly knowing",
                 "only after controlling every breath",
@@ -18408,7 +18408,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi phủ định",
               "evidence": "tuyệt nhiên không phải là thở cho nhiều",
-              "prompt": "Ghép câu mở bằng It emphatically.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tuyệt nhiên không phải là thở cho nhiều” trong đoạn. Bắt đầu bằng “It emphatically”.",
               "tokens": [
                 "does not mean",
                 "or breathing deeply.",
@@ -18429,7 +18429,7 @@ window.PQContextBank={
             {
               "focus": "so sánh",
               "evidence": "hơi vào lấy rất ít thời gian",
-              "prompt": "Ghép câu mở bằng The in-breath.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “hơi vào lấy rất ít thời gian” trong đoạn. Bắt đầu bằng “The in-breath”.",
               "tokens": [
                 "The in-breath",
                 "very little",
@@ -18450,7 +18450,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "mà hơi ra mới dài",
-              "prompt": "Ghép câu mở bằng The in-breath is brief.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mà hơi ra mới dài” trong đoạn. Bắt đầu bằng “The in-breath is brief”.",
               "tokens": [
                 "while",
                 "is longer.",
@@ -18471,7 +18471,7 @@ window.PQContextBank={
             {
               "focus": "tính chất",
               "evidence": "Hơi thở tự nhiên có ý thức",
-              "prompt": "Ghép câu mở bằng The passage describes.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Hơi thở tự nhiên có ý thức” trong đoạn. Bắt đầu bằng “The passage describes”.",
               "tokens": [
                 "The passage describes",
                 "that remains",
@@ -18516,7 +18516,7 @@ window.PQContextBank={
             {
               "focus": "nhân quả",
               "evidence": "Tỉnh giác là quả, hơi thở có ý thức là nhân",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Tỉnh giác là quả, hơi thở có ý thức là nhân” trong đoạn.",
               "options": [
                 "The result must replace its cause to survive.",
                 "Conscious breathing is the cause; lucid awareness is the result.",
@@ -18531,7 +18531,7 @@ window.PQContextBank={
             {
               "focus": "thay đổi mức chú ý",
               "evidence": "bớt biết rõ hơi thở",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “bớt biết rõ hơi thở” trong đoạn.",
               "options": [
                 "Practitioners become less aware only because breathing stops.",
                 "Clinging to awareness makes the breath permanently unnecessary.",
@@ -18546,7 +18546,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện cảnh báo",
               "evidence": "Bỏ nhân để cầu quả",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Bỏ nhân để cầu quả” trong đoạn.",
               "options": [
                 "The result continues regardless of its cause.",
                 "Abandoning the result preserves the cause automatically.",
@@ -18561,7 +18561,7 @@ window.PQContextBank={
             {
               "focus": "diễn tiến",
               "evidence": "chẳng bao lâu",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chẳng bao lâu” trong đoạn.",
               "options": [
                 "The state soon disappears when attention to the breath is neglected.",
                 "The breath disappears because the state is complete.",
@@ -18576,7 +18576,7 @@ window.PQContextBank={
             {
               "focus": "lực và phạm vi",
               "evidence": "dù cho có những kết quả thú vị nào",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “dù cho có những kết quả thú vị nào” trong đoạn.",
               "options": [
                 "Interesting results authorize abandoning the breath.",
                 "Breath awareness is required only before any result appears.",
@@ -18615,7 +18615,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "không cần dạy cũng phải làm",
-              "prompt": "Chọn câu giữ đối chiếu tự thở với thở có ý thức.",
+              "prompt": "Câu nào phân biệt đúng việc cơ thể tự thở với việc chú ý đến hơi thở?",
               "options": [
                 "Breathing itself needs no instruction; breathing with clear awareness and skill is difficult.",
                 "All breathing is difficult and requires detailed instruction.",
@@ -18629,7 +18629,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân",
               "evidence": "vì bị điều khiển thô bạo",
-              "prompt": "Chọn quan hệ nguồn nêu.",
+              "prompt": "Câu nào giữ đúng quan hệ giữa điều khiển thô bạo và sự mất tự nhiên của hơi thở?",
               "options": [
                 "A smooth breath requires increasingly rough control.",
                 "A coarse breath proves that no control is involved.",
@@ -18643,7 +18643,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "miễn trơn êm là được",
-              "prompt": "Chọn câu giữ tiêu chí thay vì áp độ dài cố định.",
+              "prompt": "Câu nào giữ tiêu chí trơn êm, không tự áp một độ dài hơi thở cố định?",
               "options": [
                 "Length does not matter, provided the breath is smooth and gentle.",
                 "Every short breath must be forced to become longer.",
@@ -18657,7 +18657,7 @@ window.PQContextBank={
             {
               "focus": "mức độ chắc chắn",
               "evidence": "dường như ít bị điều khiển thô bạo",
-              "prompt": "Chọn mức khẳng định tương xứng.",
+              "prompt": "Câu nào giữ mức dè dặt của từ “dường như” trong nguồn?",
               "options": [
                 "The smooth breath proves that control is entirely absent.",
                 "The smooth breath seems relatively free from rough control.",
@@ -18671,7 +18671,7 @@ window.PQContextBank={
             {
               "focus": "giới hạn",
               "evidence": "vì nếu hít thêm chút nữa sẽ mất sự trơn êm",
-              "prompt": "Chọn lời kết đúng quan hệ giới hạn.",
+              "prompt": "Câu nào giữ đúng lý do không cố hít thêm khi hơi thở đã trơn êm?",
               "options": [
                 "Smoothness requires completing every possible in-breath.",
                 "More air always increases smoothness without limit.",
@@ -18706,7 +18706,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "biết là đang có thở",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “biết là đang có thở” trong ngữ cảnh.",
               "parts": [
                 "Knowing that breathing is happening is not the same as ",
                 "."
@@ -18726,7 +18726,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để rèn luyện sự chăm chú và tỉnh giác",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để rèn luyện sự chăm chú và tỉnh giác” trong ngữ cảnh.",
               "parts": [
                 "We distinguish the direction of breathing ",
                 " attentiveness and lucid awareness."
@@ -18746,7 +18746,7 @@ window.PQContextBank={
             {
               "focus": "trình tự",
               "evidence": "rồi dừng lại, rồi đi ra",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “rồi dừng lại, rồi đi ra” trong ngữ cảnh.",
               "parts": [
                 "The breath moves in, pauses, ",
                 ", pauses, and moves in again."
@@ -18766,7 +18766,7 @@ window.PQContextBank={
             {
               "focus": "mức sát sao",
               "evidence": "sát sao từng chút một",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “sát sao từng chút một” trong ngữ cảnh.",
               "parts": [
                 "We follow each small movement ",
                 "."
@@ -18786,7 +18786,7 @@ window.PQContextBank={
             {
               "focus": "dấu hiệu",
               "evidence": "tức là ta đang mất tỉnh giác",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tức là ta đang mất tỉnh giác” trong ngữ cảnh.",
               "parts": [
                 "Becoming vague about direction or pauses indicates ",
                 "."
@@ -18830,7 +18830,7 @@ window.PQContextBank={
             {
               "focus": "diễn giải",
               "evidence": "nghĩa là luôn can thiệp",
-              "prompt": "Ghép câu mở bằng Trying to breathe.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nghĩa là luôn can thiệp” trong đoạn. Bắt đầu bằng “Trying to breathe”.",
               "tokens": [
                 "only after the sitting ends",
                 "without any interference at all",
@@ -18851,7 +18851,7 @@ window.PQContextBank={
             {
               "focus": "trung đạo",
               "evidence": "biết rõ, nhưng không được can thiệp",
-              "prompt": "Ghép câu mở bằng Know the breath.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “biết rõ, nhưng không được can thiệp” trong đoạn. Bắt đầu bằng “Know the breath”.",
               "tokens": [
                 "but do not",
                 "by forcing it longer",
@@ -18872,7 +18872,7 @@ window.PQContextBank={
             {
               "focus": "cặp tính chất",
               "evidence": "tỉnh táo thụ động quan sát",
-              "prompt": "Ghép câu mở bằng Practitioners.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tỉnh táo thụ động quan sát” trong đoạn. Bắt đầu bằng “Practitioners”.",
               "tokens": [
                 "and observe",
                 "while enforcing a fixed rhythm",
@@ -18893,7 +18893,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi thời gian",
               "evidence": "không đều đặn suốt thời gian ngồi thiền",
-              "prompt": "Ghép câu mở bằng The breath.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không đều đặn suốt thời gian ngồi thiền” trong đoạn. Bắt đầu bằng “The breath”.",
               "tokens": [
                 "The breath",
                 "throughout",
@@ -18914,7 +18914,7 @@ window.PQContextBank={
             {
               "focus": "tác nhân",
               "evidence": "vọng động bí mật của nội tâm sâu kín",
-              "prompt": "Ghép câu mở bằng Hidden disturbances.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vọng động bí mật của nội tâm sâu kín” trong đoạn. Bắt đầu bằng “Hidden disturbances”.",
               "tokens": [
                 "deep within the mind",
                 "affect the breath,",
@@ -18956,7 +18956,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "êm dịu và dài hơn",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “êm dịu và dài hơn” trong đoạn.",
               "options": [
                 "Breathing becomes longer only when the mind is agitated.",
                 "A quiet mind always produces no breath at all.",
@@ -18971,7 +18971,7 @@ window.PQContextBank={
             {
               "focus": "mức vi tế",
               "evidence": "dù âm thầm",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “dù âm thầm” trong đoạn.",
               "options": [
                 "Only disturbances outside the body matter.",
                 "The source denies any relation between mind and breath.",
@@ -18986,7 +18986,7 @@ window.PQContextBank={
             {
               "focus": "giới hạn thao tác",
               "evidence": "chứ không can thiệp điều chỉnh",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chứ không can thiệp điều chỉnh” trong đoạn.",
               "options": [
                 "We observe the changes without making the breath conform to our preferred rhythm.",
                 "We must make it perfectly uniform throughout practice.",
@@ -19001,7 +19001,7 @@ window.PQContextBank={
             {
               "focus": "bề ngoài và chiều sâu",
               "evidence": "có vẻ như nhanh chóng",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có vẻ như nhanh chóng” trong đoạn.",
               "options": [
                 "Control always creates deep calm because thoughts seem absent.",
                 "A quick change in thoughts guarantees lasting liberation.",
@@ -19016,7 +19016,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi so sánh",
               "evidence": "so với các loại Thiền hay Khí công khác",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “so với các loại Thiền hay Khí công khác” trong đoạn.",
               "options": [
                 "The passage distinguishes this method from other meditation or qigong approaches.",
                 "Every qigong approach is said to be identical to it.",
@@ -19072,7 +19072,7 @@ window.PQContextBank={
             {
               "focus": "giả định",
               "evidence": "chủ quan cho mình không thể phạm sai lầm",
-              "prompt": "Chọn diễn đạt đúng thái độ bị phê.",
+              "prompt": "Câu nào nêu đúng thái độ chủ quan cho rằng mình không thể phạm lỗi?",
               "options": [
                 "They carefully acknowledge each mistake.",
                 "They fear a mistake they have already corrected.",
@@ -19086,7 +19086,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "tránh được rất nhiều lỗi lầm",
-              "prompt": "Chọn mức khẳng định đúng.",
+              "prompt": "Câu nào giữ mức “tránh được rất nhiều lỗi lầm”, không biến thành tránh mọi lỗi?",
               "options": [
                 "Concern about faults helps avoid many mistakes.",
                 "Only mistakes made publicly can be avoided.",
@@ -19100,7 +19100,7 @@ window.PQContextBank={
             {
               "focus": "liệt kê",
               "evidence": "ghét người, nóng giận, tự ái",
-              "prompt": "Câu nào giữ ba mục đầu mà không đổi đối tượng?",
+              "prompt": "Câu nào nêu đúng ba điều đầu tiên: ghét người, nóng giận và tự ái?",
               "options": [
                 "The list begins with physical pain, illness, and bodily weakness.",
                 "The list begins with hatred, anger, and wounded pride.",
@@ -19114,7 +19114,7 @@ window.PQContextBank={
             {
               "focus": "phủ định phạm vi",
               "evidence": "không phải luôn luôn được phát hiện",
-              "prompt": "Chọn bản dịch đúng phủ định.",
+              "prompt": "Câu nào giữ đúng ý phủ định “không phải luôn luôn được phát hiện”?",
               "options": [
                 "These faults are always recognized immediately.",
                 "These faults are never recognizable.",
@@ -19128,7 +19128,7 @@ window.PQContextBank={
             {
               "focus": "chẩn đoán dấu hiệu",
               "evidence": "dấu hiệu của trí tuệ và đạo đức",
-              "prompt": "Chọn câu kết đúng giọng nguồn.",
+              "prompt": "Câu kết nào nêu đúng điều được coi là dấu hiệu của trí tuệ và đạo đức?",
               "options": [
                 "Such concern replaces moral character.",
                 "Such concern is defined as the absence of wisdom.",
@@ -19163,7 +19163,7 @@ window.PQContextBank={
             {
               "focus": "bất định",
               "evidence": "không biết vọng tưởng sẽ xuất hiện lúc nào",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không biết vọng tưởng sẽ xuất hiện lúc nào” trong ngữ cảnh.",
               "parts": [
                 "We must keep watch because we do not know ",
                 " a wandering thought will appear."
@@ -19183,7 +19183,7 @@ window.PQContextBank={
             {
               "focus": "tác động",
               "evidence": "khiến tâm ta bị cuốn hút chạy theo",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khiến tâm ta bị cuốn hút chạy theo” trong ngữ cảnh.",
               "parts": [
                 "A thought may bring a concern that ",
                 "."
@@ -19203,7 +19203,7 @@ window.PQContextBank={
             {
               "focus": "phân loại",
               "evidence": "chuyện của quá khứ",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chuyện của quá khứ” trong ngữ cảnh.",
               "parts": [
                 "Some thoughts concern ",
                 "."
@@ -19223,7 +19223,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Nếu sự cảnh giác đạt đến mức độ",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Nếu sự cảnh giác đạt đến mức độ” trong ngữ cảnh.",
               "parts": [
                 "",
                 " watchfulness becomes deep and penetrating, unexpected awakening may occur."
@@ -19243,7 +19243,7 @@ window.PQContextBank={
             {
               "focus": "khả năng",
               "evidence": "ta có thể đạt đến",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ta có thể đạt đến” trong ngữ cảnh.",
               "parts": [
                 "Deep watchfulness ",
                 " lead to an unexpected transformation."
@@ -19284,7 +19284,7 @@ window.PQContextBank={
             {
               "focus": "khả năng",
               "evidence": "vẫn có thể trở thành",
-              "prompt": "Ghép câu mở bằng Such a person.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vẫn có thể trở thành” trong đoạn. Bắt đầu bằng “Such a person”.",
               "tokens": [
                 "only through status alone",
                 "eminent monastic.",
@@ -19305,7 +19305,7 @@ window.PQContextBank={
             {
               "focus": "nguồn gốc",
               "evidence": "xuất phát từ nguồn gốc đạo đức khiêm hạ",
-              "prompt": "Ghép câu mở bằng This merit.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “xuất phát từ nguồn gốc đạo đức khiêm hạ” trong đoạn. Bắt đầu bằng “This merit”.",
               "tokens": [
                 "humility",
                 "requires admiration from others",
@@ -19326,7 +19326,7 @@ window.PQContextBank={
             {
               "focus": "chuyển hóa",
               "evidence": "căn cơ tầm thường trở thành căn cơ xuất sắc",
-              "prompt": "Ghép câu mở bằng Humility and diligence.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “căn cơ tầm thường trở thành căn cơ xuất sắc” trong đoạn. Bắt đầu bằng “Humility and diligence”.",
               "tokens": [
                 "exceptional aptitude into status",
                 "Humility and diligence",
@@ -19347,7 +19347,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi",
               "evidence": "bao trùm một phạm vi rất rộng lớn",
-              "prompt": "Ghép câu mở bằng Humility itself.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “bao trùm một phạm vi rất rộng lớn” trong đoạn. Bắt đầu bằng “Humility itself”.",
               "tokens": [
                 "Humility itself",
                 "a very broad",
@@ -19368,7 +19368,7 @@ window.PQContextBank={
             {
               "focus": "ba biểu hiện",
               "evidence": "tôn trọng mọi người đến ngăn ngừa kiêu mạn",
-              "prompt": "Ghép câu mở bằng It includes.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tôn trọng mọi người đến ngăn ngừa kiêu mạn” trong đoạn. Bắt đầu bằng “It includes”.",
               "tokens": [
                 "winning respect for oneself",
                 "respecting everyone,",
@@ -19410,7 +19410,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "so với các Chánh đạo trước",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “so với các Chánh đạo trước” trong đoạn.",
               "options": [
                 "Practicing a meditation method differs from the preceding cultivation of conduct.",
                 "Meditation cancels all preceding stages.",
@@ -19425,7 +19425,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ",
               "evidence": "Chánh Niệm",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Chánh Niệm” trong đoạn.",
               "options": [
                 "At Right Livelihood, the seventh step is complete.",
                 "At Right Action, no definite practice can be chosen.",
@@ -19440,7 +19440,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện cần",
               "evidence": "Nếu chưa biết tọa thiền",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Nếu chưa biết tọa thiền” trong đoạn.",
               "options": [
                 "Without knowing how to sit in meditation, we have not cultivated the seventh step.",
                 "Sitting is the only requirement for final awakening.",
@@ -19455,7 +19455,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ nền tảng",
               "evidence": "những giai đoạn trước đều là nền tảng quan trọng",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “những giai đoạn trước đều là nền tảng quan trọng” trong đoạn.",
               "options": [
                 "The seventh step makes the earlier stages worthless.",
                 "The seventh step occurs before the first six.",
@@ -19470,7 +19470,7 @@ window.PQContextBank={
             {
               "focus": "giới hạn",
               "evidence": "chỉ tu sáu giai đoạn trước",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ tu sáu giai đoạn trước” trong đoạn.",
               "options": [
                 "Cultivating only the first six without proceeding further does not fulfill the practice completely.",
                 "The first six cannot be cultivated by anyone.",
@@ -19506,7 +19506,7 @@ window.PQContextBank={
             {
               "focus": "tác nhân lịch sử",
               "evidence": "sau này các đại sư cũng chế tác thêm",
-              "prompt": "Chọn câu giữ hai thời điểm và hai nhóm tác nhân.",
+              "prompt": "Câu nào giữ đúng hai thời điểm và hai nhóm người đóng góp vào các pháp môn?",
               "options": [
                 "Only later masters ever taught meditation.",
                 "Every later method was created before the Buddha.",
@@ -19520,7 +19520,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để biết chọn lựa",
-              "prompt": "Chọn cách nối việc khảo sát với lựa chọn.",
+              "prompt": "Câu nào giữ đúng mục đích khảo sát để biết chọn lựa?",
               "options": [
                 "We examine meditation-related issues so that we can choose appropriately.",
                 "We choose whatever is newest without examining it.",
@@ -19534,7 +19534,7 @@ window.PQContextBank={
             {
               "focus": "đối tượng hưởng lợi",
               "evidence": "cho bản thân mình và cho nhiều người khác",
-              "prompt": "Chọn phạm vi người được xét.",
+              "prompt": "Câu nào giữ đủ hai đối tượng: bản thân mình và nhiều người khác?",
               "options": [
                 "The method should suit ourselves alone.",
                 "The method should suit only the person who invented it.",
@@ -19548,7 +19548,7 @@ window.PQContextBank={
             {
               "focus": "vai trò hỗ trợ",
               "evidence": "cũng giúp chúng ta",
-              "prompt": "Chọn lực của kiến thức bổ trợ.",
+              "prompt": "Câu nào giữ vai trò hỗ trợ của kiến thức, không biến thành yếu tố duy nhất?",
               "options": [
                 "These kinds of knowledge can also assist analysis.",
                 "These kinds of knowledge replace all practice.",
@@ -19562,7 +19562,7 @@ window.PQContextBank={
             {
               "focus": "chọn chữ",
               "evidence": "hợp lý nhất",
-              "prompt": "Chọn từ phù hợp ngữ cảnh lựa chọn pháp môn.",
+              "prompt": "Từ nào phù hợp để nói về việc chọn pháp môn hợp lý nhất theo ngữ cảnh?",
               "options": [
                 "the most demanding method regardless of the person",
                 "the method with the longest description",
@@ -19597,7 +19597,7 @@ window.PQContextBank={
             {
               "focus": "tác động",
               "evidence": "trở nên chán nản rồi bỏ cuộc",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “trở nên chán nản rồi bỏ cuộc” trong ngữ cảnh.",
               "parts": [
                 "Many become discouraged and then ",
                 "."
@@ -19617,7 +19617,7 @@ window.PQContextBank={
             {
               "focus": "diễn tiến",
               "evidence": "khi được khi mất",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi được khi mất” trong ngữ cảnh.",
               "parts": [
                 "Some struggle with practice that ",
                 "."
@@ -19637,7 +19637,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "Tâm không xao lãng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tâm không xao lãng” trong ngữ cảnh.",
               "parts": [
                 "An undistracted mind ",
                 " confidence to continue."
@@ -19657,7 +19657,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện cần",
               "evidence": "nếu không quyết chí",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu không quyết chí” trong ngữ cảnh.",
               "parts": [
                 "",
                 " a firm resolve to meditate, liberation is hopeless in this account."
@@ -19677,7 +19677,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "dù khó khăn cách mấy",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù khó khăn cách mấy” trong ngữ cảnh.",
               "parts": [
                 "We resolve to continue ",
                 " the path becomes."
@@ -19718,7 +19718,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Khi ác nghiệp quá khứ đã được vơi nhẹ",
-              "prompt": "Ghép câu mở bằng When past.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Khi ác nghiệp quá khứ đã được vơi nhẹ” trong đoạn. Bắt đầu bằng “When past”.",
               "tokens": [
                 "and present wholesome karma cultivated,",
                 "the mind becomes calm and clear.",
@@ -19739,7 +19739,7 @@ window.PQContextBank={
             {
               "focus": "so sánh mức dễ",
               "evidence": "dễ chú tâm theo hơi thở",
-              "prompt": "Ghép câu mở bằng It becomes.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dễ chú tâm theo hơi thở” trong đoạn. Bắt đầu bằng “It becomes”.",
               "tokens": [
                 "to the breath",
                 "with fewer distractions.",
@@ -19760,7 +19760,7 @@ window.PQContextBank={
             {
               "focus": "cách thức",
               "evidence": "tinh tấn nhẹ nhàng",
-              "prompt": "Ghép câu mở bằng We follow.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tinh tấn nhẹ nhàng” trong đoạn. Bắt đầu bằng “We follow”.",
               "tokens": [
                 "the in-breath and out-breath",
                 "We follow",
@@ -19781,7 +19781,7 @@ window.PQContextBank={
             {
               "focus": "khả năng",
               "evidence": "có thể nhanh chóng xuất hiện",
-              "prompt": "Ghép câu mở bằng The mind.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “có thể nhanh chóng xuất hiện” trong đoạn. Bắt đầu bằng “The mind”.",
               "tokens": [
                 "The mind",
                 "Right Mindfulness",
@@ -19802,7 +19802,7 @@ window.PQContextBank={
             {
               "focus": "cảnh báo",
               "evidence": "có khi cả đời chưa đạt",
-              "prompt": "Ghép câu mở bằng Without creating merit.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “có khi cả đời chưa đạt” trong đoạn. Bắt đầu bằng “Without creating merit”.",
               "tokens": [
                 "someone who only tries",
                 "never needs any other foundation",
@@ -19844,7 +19844,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "vừa học giáo lý, vừa tu tập thiền định, vừa công quả",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “vừa học giáo lý, vừa tu tập thiền định, vừa công quả” trong đoạn.",
               "options": [
                 "Student monks and nuns must combine doctrinal study, meditation, and volunteer service.",
                 "Volunteer service replaces all doctrinal study.",
@@ -19859,7 +19859,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Đến khi nào công đức sung mãn",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Đến khi nào công đức sung mãn” trong đoạn.",
               "options": [
                 "Retreat is forbidden even when merit is abundant.",
                 "Anyone can retreat without any foundation in this account.",
@@ -19874,7 +19874,7 @@ window.PQContextBank={
             {
               "focus": "ngoại lệ",
               "evidence": "cũng đã có nhiều người chưa cần nhập thất",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng đã có nhiều người chưa cần nhập thất” trong đoạn.",
               "options": [
                 "Solitary retreat and mental opening are always identical.",
                 "No one can benefit from retreat at all.",
@@ -19889,7 +19889,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ",
               "evidence": "phước đã đủ",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phước đã đủ” trong đoạn.",
               "options": [
                 "Their argument had become popular.",
                 "Their blessings were sufficient.",
@@ -19904,7 +19904,7 @@ window.PQContextBank={
             {
               "focus": "tương quan",
               "evidence": "càng nhiều thì sau này",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “càng nhiều thì sau này” trong đoạn.",
               "options": [
                 "The more time devoted to creating merit, the less time later needed for meditation.",
                 "Creating merit guarantees meditation will require no time at all.",
@@ -19940,7 +19940,7 @@ window.PQContextBank={
             {
               "focus": "ngoại lệ",
               "evidence": "Trừ những bậc Bồ tát thị hiện",
-              "prompt": "Chọn phạm vi câu mở.",
+              "prompt": "Câu mở nào giữ đúng trường hợp ngoại lệ về các bậc Bồ-tát thị hiện?",
               "options": [
                 "The passage says that no Bodhisattva ever appears in the world.",
                 "The passage makes no exception at all.",
@@ -19954,7 +19954,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để vững tâm vượt qua",
-              "prompt": "Chọn quan hệ đúng.",
+              "prompt": "Câu nào giữ đúng mục đích giúp người tu vững tâm vượt chướng ngại?",
               "options": [
                 "We understand obstacles so that we can face and overcome them with resolve.",
                 "Understanding obstacles means inventing more of them.",
@@ -19968,7 +19968,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "vất vả cả đời",
-              "prompt": "Chọn mức độ khó khác nhau.",
+              "prompt": "Câu nào diễn đạt đúng sự khác nhau về mức độ khó khăn trong việc tu?",
               "options": [
                 "All obstacles take exactly one lifetime to overcome.",
                 "Only easy obstacles can ever be encountered.",
@@ -19982,7 +19982,7 @@ window.PQContextBank={
             {
               "focus": "giọng cảnh báo",
               "evidence": "Đừng vì thấy chướng ngại rồi chán nản bỏ cuộc",
-              "prompt": "Chọn lời nhắc đúng lực.",
+              "prompt": "Câu nào giữ lời nhắc đừng nản chí và bỏ cuộc khi gặp chướng ngại?",
               "options": [
                 "Do not become discouraged and give up merely because obstacles appear.",
                 "Only people without obstacles should continue.",
@@ -19996,7 +19996,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "nếu ta giữ vững chí nguyện",
-              "prompt": "Chọn câu kết giữ điều kiện.",
+              "prompt": "Câu kết nào giữ đúng điều kiện phải vững chí nguyện?",
               "options": [
                 "Every lifetime guarantees awakening regardless of aspiration.",
                 "One obstacle proves that aspiration has never existed.",
@@ -20031,7 +20031,7 @@ window.PQContextBank={
             {
               "focus": "xếp loại",
               "evidence": "và cũng là chướng ngại chính",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “và cũng là chướng ngại chính” trong ngữ cảnh.",
               "parts": [
                 "Wandering thought is described as the second obstacle and ",
                 "."
@@ -20051,7 +20051,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "Có người nhiếp tâm dễ dàng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Có người nhiếp tâm dễ dàng” trong ngữ cảnh.",
               "parts": [
                 "Some collect the mind easily; ",
                 "."
@@ -20071,7 +20071,7 @@ window.PQContextBank={
             {
               "focus": "cá thể",
               "evidence": "không ai giống ai",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không ai giống ai” trong ngữ cảnh.",
               "parts": [
                 "The passage stresses differences in ",
                 "."
@@ -20091,7 +20091,7 @@ window.PQContextBank={
             {
               "focus": "mục tiêu",
               "evidence": "nội tâm vắng lặng không còn vọng tưởng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nội tâm vắng lặng không còn vọng tưởng” trong ngữ cảnh.",
               "parts": [
                 "The stated aim is inner stillness ",
                 "."
@@ -20111,7 +20111,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ và bất biến",
               "evidence": "dù chúng ta sử dụng nhiều phương tiện",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù chúng ta sử dụng nhiều phương tiện” trong ngữ cảnh.",
               "parts": [
                 "",
                 ", the passage retains one essential point to accomplish."
@@ -20152,7 +20152,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "nếu ta hấp tấp",
-              "prompt": "Ghép câu mở bằng If we rush.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu ta hấp tấp” trong đoạn. Bắt đầu bằng “If we rush”.",
               "tokens": [
                 "we lack",
                 "after all preparation is complete",
@@ -20173,7 +20173,7 @@ window.PQContextBank={
             {
               "focus": "trọng tâm hẹp",
               "evidence": "chỉ biết có việc diệt trừ vọng tưởng",
-              "prompt": "Ghép câu mở bằng We become concerned.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chỉ biết có việc diệt trừ vọng tưởng” trong đoạn. Bắt đầu bằng “We become concerned”.",
               "tokens": [
                 "only with",
                 "We become concerned",
@@ -20194,7 +20194,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "một thân thể an ổn, một Đạo đức thuần thục",
-              "prompt": "Ghép danh sách, mở bằng Preparation includes.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “một thân thể an ổn, một Đạo đức thuần thục” trong đoạn. Bắt đầu bằng “Preparation includes”.",
               "tokens": [
                 "Preparation includes",
                 "mature moral character,",
@@ -20215,7 +20215,7 @@ window.PQContextBank={
             {
               "focus": "động từ trung tâm",
               "evidence": "biết chuẩn bị những nền móng đầy đủ",
-              "prompt": "Ghép câu mở bằng A wise person.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “biết chuẩn bị những nền móng đầy đủ” trong đoạn. Bắt đầu bằng “A wise person”.",
               "tokens": [
                 "prepares",
                 "the foundations",
@@ -20236,7 +20236,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "trước khi tiến tới mục tiêu chính",
-              "prompt": "Ghép câu mở bằng Prepare the foundations.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “trước khi tiến tới mục tiêu chính” trong đoạn. Bắt đầu bằng “Prepare the foundations”.",
               "tokens": [
                 "Prepare the foundations",
                 "before advancing",
@@ -20278,7 +20278,7 @@ window.PQContextBank={
             {
               "focus": "tiến trình",
               "evidence": "dần dần",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “dần dần” trong đoạn.",
               "options": [
                 "The mind must remain disturbed forever.",
                 "The mind becomes settled before any practice.",
@@ -20293,7 +20293,7 @@ window.PQContextBank={
             {
               "focus": "phụ thuộc",
               "evidence": "tùy thuộc vào căn cơ nhân duyên",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tùy thuộc vào căn cơ nhân duyên” trong đoạn.",
               "options": [
                 "Conditions are created only after the result appears.",
                 "Aptitude makes time irrelevant to every practitioner.",
@@ -20308,7 +20308,7 @@ window.PQContextBank={
             {
               "focus": "so sánh lượng",
               "evidence": "Có người vài năm, có người vài chục năm",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Có người vài năm, có người vài chục năm” trong đoạn.",
               "options": [
                 "All practitioners must take several centuries.",
                 "Some take a few years; others take several decades.",
@@ -20323,7 +20323,7 @@ window.PQContextBank={
             {
               "focus": "kết quả",
               "evidence": "vượt qua được chướng ngại thứ hai",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “vượt qua được chướng ngại thứ hai” trong đoạn.",
               "options": [
                 "When wandering thoughts subside, the second obstacle has been overcome.",
                 "The first obstacle begins only after all thoughts subside.",
@@ -20338,7 +20338,7 @@ window.PQContextBank={
             {
               "focus": "nền tảng",
               "evidence": "công đức, Đạo đức, Khí công, Điều thân",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “công đức, Đạo đức, Khí công, Điều thân” trong đoạn.",
               "options": [
                 "The approach requires no moral cultivation.",
                 "Bodily regulation is presented as a substitute for merit.",
@@ -20394,7 +20394,7 @@ window.PQContextBank={
             {
               "focus": "dấu hiệu",
               "evidence": "biểu hiện rõ nhất",
-              "prompt": "Chọn biểu hiện nổi bật nhất tác giả nêu.",
+              "prompt": "Theo tác giả, biểu hiện rõ nhất của trạng thái đang bàn là gì?",
               "options": [
                 "Never forgetting the practice is the clearest expression here.",
                 "Being admired by others proves the result.",
@@ -20408,7 +20408,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "Vọng tưởng có thể còn",
-              "prompt": "Chọn câu không biến trạng thái thành hết sạch ý nghĩ.",
+              "prompt": "Câu nào giữ đúng ý vọng tưởng có thể còn, không phải đã hết sạch?",
               "options": [
                 "All wandering thoughts must have vanished permanently.",
                 "Right Mindfulness requires following every thought.",
@@ -20422,7 +20422,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm",
               "evidence": "manh nha muốn khởi",
-              "prompt": "Chọn cách diễn đạt thời điểm phát hiện.",
+              "prompt": "Cách diễn đạt nào giữ đúng thời điểm phát hiện ý nghĩ vừa manh nha?",
               "options": [
                 "A thought is detected as it begins to arise.",
                 "A thought must first become overwhelming before it can be known.",
@@ -20436,7 +20436,7 @@ window.PQContextBank={
             {
               "focus": "tự diễn tiến",
               "evidence": "tự diệt trừ",
-              "prompt": "Chọn kết quả không tự thêm gắng ép.",
+              "prompt": "Câu nào giữ ý tự diệt trừ mà không thêm yêu cầu gắng ép?",
               "options": [
                 "The practitioner must force every thought to remain.",
                 "The thought destroys the practice before being detected.",
@@ -20450,7 +20450,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa theo ngữ cảnh",
               "evidence": "tâm không xao lãng",
-              "prompt": "Chọn tổng kết đúng.",
+              "prompt": "Câu nào tóm tắt đúng ý tâm không xao lãng?",
               "options": [
                 "Right Mindfulness means never knowing what practice one is doing.",
                 "Right Mindfulness is defined as public teaching skill alone.",
@@ -20485,7 +20485,7 @@ window.PQContextBank={
             {
               "focus": "so sánh tần suất",
               "evidence": "vọng tưởng bớt khởi",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vọng tưởng bớt khởi” trong ngữ cảnh.",
               "parts": [
                 "Wandering thoughts arise ",
                 "."
@@ -20505,7 +20505,7 @@ window.PQContextBank={
             {
               "focus": "đối tượng không rời",
               "evidence": "không còn bị xao lãng ra khỏi pháp môn",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không còn bị xao lãng ra khỏi pháp môn” trong ngữ cảnh.",
               "parts": [
                 "The practitioner is no longer distracted from ",
                 "."
@@ -20525,7 +20525,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm đánh giá",
               "evidence": "lúc đó",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lúc đó” trong ngữ cảnh.",
               "parts": [
                 "",
                 ", the passage says Right Mindfulness with lucid awareness is genuinely attained."
@@ -20545,7 +20545,7 @@ window.PQContextBank={
             {
               "focus": "tác động tinh thần",
               "evidence": "phấn khởi tin tưởng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “phấn khởi tin tưởng” trong ngữ cảnh.",
               "parts": [
                 "The initial result gives us ",
                 "."
@@ -20565,7 +20565,7 @@ window.PQContextBank={
             {
               "focus": "cảnh báo có điều kiện",
               "evidence": "nếu không được răn nhắc",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu không được răn nhắc” trong ngữ cảnh.",
               "parts": [
                 "Without reminders, mistaken ideas ",
                 " appear and cause later failure."
@@ -20606,7 +20606,7 @@ window.PQContextBank={
             {
               "focus": "đánh giá",
               "evidence": "không biết quý trọng kết quả",
-              "prompt": "Ghép câu mở bằng A mistaken attitude.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không biết quý trọng kết quả” trong đoạn. Bắt đầu bằng “A mistaken attitude”.",
               "tokens": [
                 "is valuing every fault",
                 "before any result exists",
@@ -20627,7 +20627,7 @@ window.PQContextBank={
             {
               "focus": "mức độ",
               "evidence": "giúp ta dễ biết rõ",
-              "prompt": "Ghép câu mở bằng Right Mindfulness.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp ta dễ biết rõ” trong đoạn. Bắt đầu bằng “Right Mindfulness”.",
               "tokens": [
                 "makes it easier",
                 "Right Mindfulness",
@@ -20648,7 +20648,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để kiểm soát lỗi lầm và vọng tưởng",
-              "prompt": "Ghép câu mở bằng We must use.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để kiểm soát lỗi lầm và vọng tưởng” trong đoạn. Bắt đầu bằng “We must use”.",
               "tokens": [
                 "We must use",
                 "to regulate",
@@ -20669,7 +20669,7 @@ window.PQContextBank={
             {
               "focus": "tần suất",
               "evidence": "Lúc nào ta cũng phải",
-              "prompt": "Ghép câu mở bằng At all times.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Lúc nào ta cũng phải” trong đoạn. Bắt đầu bằng “At all times”.",
               "tokens": [
                 "only when praised",
                 "that open",
@@ -20690,7 +20690,7 @@ window.PQContextBank={
             {
               "focus": "thời điểm",
               "evidence": "nhanh chóng phát hiện",
-              "prompt": "Ghép câu mở bằng This allows.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhanh chóng phát hiện” trong đoạn. Bắt đầu bằng “This allows”.",
               "tokens": [
                 "This allows",
                 "promptly.",
@@ -20732,7 +20732,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "mặc dù có thể ta không thấy được hết",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “mặc dù có thể ta không thấy được hết” trong đoạn.",
               "options": [
                 "Every invisible disturbance has already been eliminated.",
                 "Only visible thoughts belong to the mind.",
@@ -20747,7 +20747,7 @@ window.PQContextBank={
             {
               "focus": "cách thức",
               "evidence": "tác ý nhẹ nhàng",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tác ý nhẹ nhàng” trong đoạn.",
               "options": [
                 "We gently bring the reminder to mind.",
                 "We deliberately make the breath forceful.",
@@ -20762,7 +20762,7 @@ window.PQContextBank={
             {
               "focus": "ngộ nhận",
               "evidence": "tưởng lầm rằng tâm đã thanh tịnh",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tưởng lầm rằng tâm đã thanh tịnh” trong đoạn.",
               "options": [
                 "A purified mind must produce more wandering thoughts.",
                 "Many mistake fewer wandering thoughts for a purified mind.",
@@ -20777,7 +20777,7 @@ window.PQContextBank={
             {
               "focus": "tương phản",
               "evidence": "Một chút yên lắng bên ngoài",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Một chút yên lắng bên ngoài” trong đoạn.",
               "options": [
                 "The mind’s outward quiet makes hidden thoughts impossible.",
                 "Latent thoughts exist only in the surrounding room.",
@@ -20792,7 +20792,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện cảnh báo",
               "evidence": "Chỉ cần ta thiếu công đức, thiếu cảnh giác",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Chỉ cần ta thiếu công đức, thiếu cảnh giác” trong đoạn.",
               "options": [
                 "Every thought must overthrow every practitioner at once.",
                 "Merit and vigilance are named as obstacles to quiet.",
@@ -20828,7 +20828,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "để chuẩn bị chứng nhập Sơ thiền",
-              "prompt": "Chọn quan hệ giữa diệt triền cái và Sơ thiền.",
+              "prompt": "Câu nào giữ đúng quan hệ diệt triền cái là sự chuẩn bị để chứng nhập Sơ thiền?",
               "options": [
                 "Hindrances are cultivated in order to enter the First Jhāna.",
                 "Entering the First Jhāna means ignoring every standard.",
@@ -20842,7 +20842,7 @@ window.PQContextBank={
             {
               "focus": "vai trò",
               "evidence": "thước đo chính xác",
-              "prompt": "Chọn nghĩa của measure trong ngữ cảnh.",
+              "prompt": "Từ “measure” có nghĩa gì trong ngữ cảnh này?",
               "options": [
                 "A fixed count of breaths in every sitting.",
                 "A criterion for evaluating practice.",
@@ -20856,7 +20856,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện đối chiếu",
               "evidence": "vẫn chưa hết Năm Triền cái",
-              "prompt": "Chọn kết luận giữ đúng điều kiện.",
+              "prompt": "Câu nào giữ đúng kết luận khi Năm Triền Cái vẫn chưa hết?",
               "options": [
                 "Unusual states are not reliable signs of right progress while the five hindrances remain.",
                 "Every unusual state proves all hindrances are gone.",
@@ -20870,7 +20870,7 @@ window.PQContextBank={
             {
               "focus": "bất định",
               "evidence": "có khi chúng chỉ là",
-              "prompt": "Chọn mức độ khẳng định.",
+              "prompt": "Câu nào giữ mức “có khi chỉ là”, không nâng thành kết luận chắc chắn?",
               "options": [
                 "They are always permanent enlightenment.",
                 "They can never be illusions.",
@@ -20884,7 +20884,7 @@ window.PQContextBank={
             {
               "focus": "phân nhóm",
               "evidence": "vừa thuộc về lĩnh vực Đạo đức",
-              "prompt": "Chọn câu giữ ba lĩnh vực.",
+              "prompt": "Câu nào nêu đủ ba lĩnh vực được bàn trong nguồn?",
               "options": [
                 "The work involves morality, wisdom, and capacity.",
                 "Wisdom replaces every moral concern.",
@@ -20919,7 +20919,7 @@ window.PQContextBank={
             {
               "focus": "giới hạn thời gian",
               "evidence": "lúc đó",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lúc đó” trong ngữ cảnh.",
               "parts": [
                 "The need for sleep is described as disappearing ",
                 "."
@@ -20939,7 +20939,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "dù thức rất khuya",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù thức rất khuya” trong ngữ cảnh.",
               "parts": [
                 "They do not feel sleepy ",
                 " they stay up very late."
@@ -20959,7 +20959,7 @@ window.PQContextBank={
             {
               "focus": "lời cảnh báo",
               "evidence": "không được lạm dụng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không được lạm dụng” trong ngữ cảnh.",
               "parts": [
                 "Practitioners ",
                 " their ability to stay awake."
@@ -20979,7 +20979,7 @@ window.PQContextBank={
             {
               "focus": "nhu cầu còn giữ",
               "evidence": "vẫn phải dành thời gian",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vẫn phải dành thời gian” trong ngữ cảnh.",
               "parts": [
                 "They ",
                 " allow time for sleep."
@@ -20999,7 +20999,7 @@ window.PQContextBank={
             {
               "focus": "ví dụ tăng lực",
               "evidence": "ngay cả đức Phật",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngay cả đức Phật” trong ngữ cảnh.",
               "parts": [
                 "The reminder points out that ",
                 " slept a few hours at night."
@@ -21040,7 +21040,7 @@ window.PQContextBank={
             {
               "focus": "chuẩn bị",
               "evidence": "chuẩn bị nhập được Sơ thiền",
-              "prompt": "Ghép câu mở bằng After overcoming.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuẩn bị nhập được Sơ thiền” trong đoạn. Bắt đầu bằng “After overcoming”.",
               "tokens": [
                 "practitioners prepare to enter",
                 "the First Jhāna.",
@@ -21061,7 +21061,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân nhận định",
               "evidence": "do không hiểu hết vấn đề",
-              "prompt": "Ghép câu mở bằng Belittling the four Jhānas.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “do không hiểu hết vấn đề” trong đoạn. Bắt đầu bằng “Belittling the four Jhānas”.",
               "tokens": [
                 "arises from",
                 "only from physical weakness",
@@ -21082,7 +21082,7 @@ window.PQContextBank={
             {
               "focus": "ngăn suy diễn",
               "evidence": "ta đừng nghĩ rằng",
-              "prompt": "Ghép câu mở bằng We must not assume.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ta đừng nghĩ rằng” trong đoạn. Bắt đầu bằng “We must not assume”.",
               "tokens": [
                 "We must not assume",
                 "places us",
@@ -21103,7 +21103,7 @@ window.PQContextBank={
             {
               "focus": "khả năng còn sót",
               "evidence": "tà kiến chưa hết",
-              "prompt": "Ghép câu mở bằng Wrong views.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tà kiến chưa hết” trong đoạn. Bắt đầu bằng “Wrong views”.",
               "tokens": [
                 "may remain",
                 "and lead",
@@ -21124,7 +21124,7 @@ window.PQContextBank={
             {
               "focus": "thời gian",
               "evidence": "ở kiếp này hay kiếp sau",
-              "prompt": "Ghép câu mở bằng Regression may occur.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ở kiếp này hay kiếp sau” trong đoạn. Bắt đầu bằng “Regression may occur”.",
               "tokens": [
                 "Regression may occur",
                 "without any condition at all",
@@ -21166,7 +21166,7 @@ window.PQContextBank={
             {
               "focus": "giới hạn thành tựu",
               "evidence": "cũng không phải là hết việc",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng không phải là hết việc” trong đoạn.",
               "options": [
                 "The work ends before the mind can become still.",
                 "Stillness means there was never any work.",
@@ -21181,7 +21181,7 @@ window.PQContextBank={
             {
               "focus": "trọng tâm thời gian",
               "evidence": "chỉ là khởi đầu",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ là khởi đầu” trong đoạn.",
               "options": [
                 "This is only the beginning of the process ahead.",
                 "This prevents any future practice from taking place.",
@@ -21196,7 +21196,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi phương pháp",
               "evidence": "theo nhiều căn cơ khác nhau",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “theo nhiều căn cơ khác nhau” trong đoạn.",
               "options": [
                 "Different aptitudes made every method impossible.",
                 "The Buddha taught many methods suited to different aptitudes.",
@@ -21211,7 +21211,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ",
               "evidence": "nhất quán xuyên suốt",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhất quán xuyên suốt” trong đoạn.",
               "options": [
                 "Consistency required that no methods differ.",
                 "Each method existed without any common direction.",
@@ -21226,7 +21226,7 @@ window.PQContextBank={
             {
               "focus": "hai mặt hệ quả",
               "evidence": "nhưng cũng góp phần",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhưng cũng góp phần” trong đoạn.",
               "options": [
                 "Later masters never developed any additional method.",
                 "The mind’s stillness caused all religious divisions.",
@@ -21262,7 +21262,7 @@ window.PQContextBank={
             {
               "focus": "tác nhân",
               "evidence": "chính Hành ấm của ta",
-              "prompt": "Chọn tác nhân nguồn quy cho nguyên nhân bên trong.",
+              "prompt": "Nguồn quy nguyên nhân bên trong của hiện tượng đang bàn cho yếu tố nào?",
               "options": [
                 "Our own aggregate of mental formations constructs the images.",
                 "The room’s physical walls create moral teachings.",
@@ -21276,7 +21276,7 @@ window.PQContextBank={
             {
               "focus": "tương phản nhận thức",
               "evidence": "nhưng thật ra",
-              "prompt": "Chọn câu giữ biểu hiện và lời giải thích.",
+              "prompt": "Câu nào giữ đúng đối chiếu giữa biểu hiện bên ngoài và lời giải thích của nguồn?",
               "options": [
                 "The dialogue proves that every image comes from outside.",
                 "We seem to witness a dialogue, yet our own mental formations have constructed it.",
@@ -21290,7 +21290,7 @@ window.PQContextBank={
             {
               "focus": "mức vi tế",
               "evidence": "vi tế nhỏ nhiệm nên khó được nhận biết",
-              "prompt": "Chọn quan hệ đúng.",
+              "prompt": "Câu nào nêu đúng lý do sự vi tế khiến hoạt động này khó nhận biết?",
               "options": [
                 "Because the activity is subtle, it is difficult to recognize.",
                 "Because it is obvious, everyone recognizes it immediately.",
@@ -21304,7 +21304,7 @@ window.PQContextBank={
             {
               "focus": "ngộ nhận",
               "evidence": "cứ tưởng ảo ảnh đến từ bên ngoài",
-              "prompt": "Chọn cách diễn đạt sự nhận nhầm.",
+              "prompt": "Câu nào diễn đạt đúng việc nhận nhầm ảo ảnh là đến từ bên ngoài?",
               "options": [
                 "We identify every external object as our deliberate creation.",
                 "We know the source perfectly from the beginning.",
@@ -21318,7 +21318,7 @@ window.PQContextBank={
             {
               "focus": "diễn tiến",
               "evidence": "Cuối cùng thì tâm kiêu mạn",
-              "prompt": "Chọn mắt xích cuối tác giả cảnh báo.",
+              "prompt": "Câu nào nêu đúng mắt xích cuối cùng mà tác giả cảnh báo trong chuỗi này?",
               "options": [
                 "The resulting conceit destroys earlier work of practice.",
                 "Earlier practice is said to create every external being.",
@@ -21353,7 +21353,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ",
               "evidence": "tam minh lục thông",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tam minh lục thông” trong ngữ cảnh.",
               "parts": [
                 "The phrase is rendered ",
                 "."
@@ -21373,7 +21373,7 @@ window.PQContextBank={
             {
               "focus": "lý do",
               "evidence": "vì các ngài đã vượt qua chấp ngã",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vì các ngài đã vượt qua chấp ngã” trong ngữ cảnh.",
               "parts": [
                 "The powers of Arahants do no harm here because they have overcome ",
                 "."
@@ -21393,7 +21393,7 @@ window.PQContextBank={
             {
               "focus": "ngữ cảnh",
               "evidence": "mà chúng ta nói ở đây",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mà chúng ta nói ở đây” trong ngữ cảnh.",
               "parts": [
                 "The obstacle discussed ",
                 " concerns a different condition."
@@ -21413,7 +21413,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "nhưng chưa tan hết chấp ngã",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhưng chưa tan hết chấp ngã” trong ngữ cảnh.",
               "parts": [
                 "The mind may be deeply settled ",
                 " self-attachment has not entirely dissolved."
@@ -21433,7 +21433,7 @@ window.PQContextBank={
             {
               "focus": "mức hoàn tất",
               "evidence": "chưa tan hết",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chưa tan hết” trong ngữ cảnh.",
               "parts": [
                 "The phrase not entirely dissolved means self-attachment ",
                 "."
@@ -21474,7 +21474,7 @@ window.PQContextBank={
             {
               "focus": "song song",
               "evidence": "Bên cạnh",
-              "prompt": "Ghép câu mở bằng Alongside the four Jhānas.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Bên cạnh” trong đoạn. Bắt đầu bằng “Alongside the four Jhānas”.",
               "tokens": [
                 "of liberation.",
                 "Alongside the four Jhānas,",
@@ -21495,7 +21495,7 @@ window.PQContextBank={
             {
               "focus": "phân cấp",
               "evidence": "từ thấp lên cao",
-              "prompt": "Ghép câu mở bằng The four Noble Fruits.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “từ thấp lên cao” trong đoạn. Bắt đầu bằng “The four Noble Fruits”.",
               "tokens": [
                 "from lower",
                 "are presented",
@@ -21516,7 +21516,7 @@ window.PQContextBank={
             {
               "focus": "tiêu chí thứ nhất",
               "evidence": "mức độ tăng trưởng Đạo đức",
-              "prompt": "Ghép câu mở bằng Noble Fruits are assessed.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mức độ tăng trưởng Đạo đức” trong đoạn. Bắt đầu bằng “Noble Fruits are assessed”.",
               "tokens": [
                 "by the growth of moral character",
                 "only by the number of breaths",
@@ -21537,7 +21537,7 @@ window.PQContextBank={
             {
               "focus": "tiêu chí thứ hai",
               "evidence": "dựa vào mức độ nhập định sâu cạn",
-              "prompt": "Ghép câu mở bằng The four Jhānas.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “dựa vào mức độ nhập định sâu cạn” trong đoạn. Bắt đầu bằng “The four Jhānas”.",
               "tokens": [
                 "The four Jhānas,",
                 "are assessed by",
@@ -21558,7 +21558,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân nhầm",
               "evidence": "vì cả hai đều rất cao cả",
-              "prompt": "Ghép câu mở bằng People may confuse them.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì cả hai đều rất cao cả” trong đoạn. Bắt đầu bằng “People may confuse them”.",
               "tokens": [
                 "because both",
                 "although one has no relation to practice",
@@ -21600,7 +21600,7 @@ window.PQContextBank={
             {
               "focus": "phân loại",
               "evidence": "bốn mức độ nhập định",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “bốn mức độ nhập định” trong đoạn.",
               "options": [
                 "The four Jhānas are four levels of meditative absorption.",
                 "The four Jhānas mean four teachers in a lineage.",
@@ -21615,7 +21615,7 @@ window.PQContextBank={
             {
               "focus": "hai hướng",
               "evidence": "đều có nhập và xuất",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “đều có nhập và xuất” trong đoạn.",
               "options": [
                 "Only emerging matters in all four levels.",
                 "Every practitioner is always in all four at once.",
@@ -21630,7 +21630,7 @@ window.PQContextBank={
             {
               "focus": "thời gian",
               "evidence": "phải có thời gian dụng công",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải có thời gian dụng công” trong đoạn.",
               "options": [
                 "Entering a level requires time and effort.",
                 "Time spent practicing prevents any absorption.",
@@ -21645,7 +21645,7 @@ window.PQContextBank={
             {
               "focus": "phủ định trạng thái thường xuyên",
               "evidence": "không phải đó là những trạng thái thường xuyên",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không phải đó là những trạng thái thường xuyên” trong đoạn.",
               "options": [
                 "These are merely four names for one everyday state.",
                 "The source gives no distinction between ordinary quiet and absorption.",
@@ -21660,7 +21660,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "nhưng không phải là bốn mức thiền này",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nhưng không phải là bốn mức thiền này” trong đoạn.",
               "options": [
                 "Outside absorption, lucid stillness is not itself one of the four Jhānas.",
                 "Emerging from absorption eliminates all future lucidity.",
@@ -21714,7 +21714,7 @@ window.PQContextBank={
             {
               "focus": "mục tiêu",
               "evidence": "đem an vui cho người",
-              "prompt": "Chọn trục đúng người hưởng tác động.",
+              "prompt": "Câu nào xác định đúng người được hưởng sự an vui từ hành động?",
               "options": [
                 "The aim is to avoid ever considering other people.",
                 "The aim is to bring others happiness rather than suffering.",
@@ -21728,7 +21728,7 @@ window.PQContextBank={
             {
               "focus": "cân nhắc",
               "evidence": "cân nhắc nên làm hay không nên làm",
-              "prompt": "Chọn động từ trung tâm.",
+              "prompt": "Động từ nào diễn đạt đúng việc cân nhắc nên làm hay không nên làm?",
               "options": [
                 "We weigh whether an action should be done.",
                 "We weigh the physical size of every action.",
@@ -21742,7 +21742,7 @@ window.PQContextBank={
             {
               "focus": "quan hệ bộ phận",
               "evidence": "chỉ là một phần nhỏ",
-              "prompt": "Chọn câu định nghĩa phạm vi.",
+              "prompt": "Câu nào giữ đúng giới hạn “chỉ là một phần nhỏ” trong lời giải thích?",
               "options": [
                 "Right Action is only a small part of every precept.",
                 "The precepts constitute the whole of Right Action.",
@@ -21756,7 +21756,7 @@ window.PQContextBank={
             {
               "focus": "cảnh báo",
               "evidence": "cứ khư khư giữ giới",
-              "prompt": "Chọn câu giữ lời cảnh báo không tự phủ bỏ giới.",
+              "prompt": "Câu nào giữ lời cảnh báo về việc khư khư giữ giới, không hiểu thành phủ nhận giới luật?",
               "options": [
                 "Rigid clinging to the precepts can also lead to mistakes.",
                 "The source says all precepts should be abandoned.",
@@ -21770,7 +21770,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi thời gian",
               "evidence": "trong suốt cuộc đời tu hành",
-              "prompt": "Chọn phạm vi yêu cầu cân nhắc.",
+              "prompt": "Câu nào giữ đúng phạm vi phải cân nhắc trong suốt đời tu hành?",
               "options": [
                 "We consider it only before the first precept.",
                 "We must consider our effect on others throughout our practice.",
@@ -21805,7 +21805,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "nhưng chúng ta cũng phải tránh",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhưng chúng ta cũng phải tránh” trong ngữ cảnh.",
               "parts": [
                 "Many matters are not explicitly covered, ",
                 " we must still avoid wrongdoing."
@@ -21825,7 +21825,7 @@ window.PQContextBank={
             {
               "focus": "ví dụ",
               "evidence": "đi trên xe công cộng",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đi trên xe công cộng” trong ngữ cảnh.",
               "parts": [
                 "The example is set ",
                 "."
@@ -21845,7 +21845,7 @@ window.PQContextBank={
             {
               "focus": "diễn tiến kể",
               "evidence": "kể hết chuyện này đến chuyện kia",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “kể hết chuyện này đến chuyện kia” trong ngữ cảnh.",
               "parts": [
                 "We tell ",
                 " in a loud voice."
@@ -21865,7 +21865,7 @@ window.PQContextBank={
             {
               "focus": "tác động",
               "evidence": "làm phiền những người chung quanh",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “làm phiền những người chung quanh” trong ngữ cảnh.",
               "parts": [
                 "The conduct is criticized for ",
                 "."
@@ -21885,7 +21885,7 @@ window.PQContextBank={
             {
               "focus": "kết luận giới hạn",
               "evidence": "Tuy không có quy định",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tuy không có quy định” trong ngữ cảnh.",
               "parts": [
                 "Although no precept explicitly regulates it, disturbing others ",
                 "."
@@ -21926,7 +21926,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "Giới là tránh không làm",
-              "prompt": "Ghép câu mở bằng Keeping precepts.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Giới là tránh không làm” trong đoạn. Bắt đầu bằng “Keeping precepts”.",
               "tokens": [
                 "violating them.",
                 "Keeping precepts",
@@ -21947,7 +21947,7 @@ window.PQContextBank={
             {
               "focus": "khác biệt hành động",
               "evidence": "phước thì phải làm",
-              "prompt": "Ghép câu mở bằng Creating blessings.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phước thì phải làm” trong đoạn. Bắt đầu bằng “Creating blessings”.",
               "tokens": [
                 "only an intention never acted on",
                 "by contrast,",
@@ -21968,7 +21968,7 @@ window.PQContextBank={
             {
               "focus": "hai điều kiện",
               "evidence": "Một là giúp người, hai là trong thiện pháp",
-              "prompt": "Ghép câu mở bằng Two points.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Một là giúp người, hai là trong thiện pháp” trong đoạn. Bắt đầu bằng “Two points”.",
               "tokens": [
                 "must remain together:",
                 "and doing so wholesomely.",
@@ -21989,7 +21989,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi phủ định",
               "evidence": "không trong thiện pháp",
-              "prompt": "Ghép câu mở bằng Helping in an unwholesome way.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không trong thiện pháp” trong đoạn. Bắt đầu bằng “Helping in an unwholesome way”.",
               "tokens": [
                 "Helping in an unwholesome way",
                 "always counts as",
@@ -22010,7 +22010,7 @@ window.PQContextBank={
             {
               "focus": "kết luận",
               "evidence": "Cho nên",
-              "prompt": "Ghép câu mở bằng Thus.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Cho nên” trong đoạn. Bắt đầu bằng “Thus”.",
               "tokens": [
                 "only popular",
                 "wholesome.",
@@ -22052,7 +22052,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi định nghĩa",
               "evidence": "không ảnh hưởng đến ai",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không ảnh hưởng đến ai” trong đoạn.",
               "options": [
                 "The paragraph distinguishes acts that affect no one from those that affect others or our moral character.",
                 "Only acts visible to a crowd can affect moral character.",
@@ -22067,7 +22067,7 @@ window.PQContextBank={
             {
               "focus": "đối tượng",
               "evidence": "đạo đức của chính mình",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “đạo đức của chính mình” trong đoạn.",
               "options": [
                 "Our own moral character is explicitly irrelevant.",
                 "A moral effect must always involve money.",
@@ -22082,7 +22082,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "gây ảnh hưởng tốt",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “gây ảnh hưởng tốt” trong đoạn.",
               "options": [
                 "Right Action is described as having a beneficial effect on others.",
                 "A beneficial effect is defined as unwholesome karma.",
@@ -22097,7 +22097,7 @@ window.PQContextBank={
             {
               "focus": "hai phương diện",
               "evidence": "tăng trưởng đạo đức, tăng trưởng được đạo tâm",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tăng trưởng đạo đức, tăng trưởng được đạo tâm” trong đoạn.",
               "options": [
                 "It replaces moral character with comfort.",
                 "It increases only the actor’s public reputation.",
@@ -22112,7 +22112,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ phước",
               "evidence": "phước nghiệp",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phước nghiệp” trong đoạn.",
               "options": [
                 "It denotes an action unrelated to moral effects.",
                 "It denotes every involuntary bodily movement.",
@@ -22148,7 +22148,7 @@ window.PQContextBank={
             {
               "focus": "câu hỏi tu từ",
               "evidence": "tại sao dùng chữ công phu",
-              "prompt": "Chọn cách chuyển câu hỏi sang Anh không giải thích thành thành công.",
+              "prompt": "Câu hỏi tiếng Anh nào giữ đúng việc hỏi vì sao dùng từ “công phu”, không tự trả lời thay nguồn?",
               "options": [
                 "Why do all practitioners already deserve success?",
                 "Why do we describe spiritual practice as sustained effort?",
@@ -22162,7 +22162,7 @@ window.PQContextBank={
             {
               "focus": "tần suất",
               "evidence": "đều đặn siêng năng mỗi ngày",
-              "prompt": "Chọn câu giữ đều và siêng.",
+              "prompt": "Câu nào giữ đủ hai ý: thực hành đều đặn và siêng năng mỗi ngày?",
               "options": [
                 "Practitioners complete all duties in one day only.",
                 "Practitioners need act only when they feel inspired.",
@@ -22176,7 +22176,7 @@ window.PQContextBank={
             {
               "focus": "bao gồm",
               "evidence": "Chánh Nghiệp là tu hành",
-              "prompt": "Chọn quan hệ đúng.",
+              "prompt": "Câu nào giữ đúng cách nguồn giải thích Chánh Nghiệp gắn với tu hành?",
               "options": [
                 "Practice is defined only as avoiding Right Action.",
                 "Right Action concerns only explaining words.",
@@ -22190,7 +22190,7 @@ window.PQContextBank={
             {
               "focus": "cường độ",
               "evidence": "rất cực khổ",
-              "prompt": "Chọn mức lực tương xứng.",
+              "prompt": "Câu nào diễn đạt đúng mức “rất cực khổ” trong nguồn?",
               "options": [
                 "It demands great effort.",
                 "It concerns only physical exhaustion.",
@@ -22204,7 +22204,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện gọi tên",
               "evidence": "mới gọi là công phu tu hành",
-              "prompt": "Chọn câu giữ tiêu chuẩn tác giả đặt ra.",
+              "prompt": "Câu nào giữ đúng tiêu chuẩn mà tác giả đặt ra cho “công phu tu hành”?",
               "options": [
                 "Any isolated gesture automatically fulfills the description.",
                 "The word proves that every action is already wholesome.",
@@ -22239,7 +22239,7 @@ window.PQContextBank={
             {
               "focus": "hai đối tượng",
               "evidence": "ảnh hưởng đến người khác",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ảnh hưởng đến người khác” trong ngữ cảnh.",
               "parts": [
                 "The definition links effects on others with effects on ",
                 "."
@@ -22259,7 +22259,7 @@ window.PQContextBank={
             {
               "focus": "đối tượng tiếp xúc",
               "evidence": "những người mà chúng ta tiếp xúc",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “những người mà chúng ta tiếp xúc” trong ngữ cảnh.",
               "parts": [
                 "We seek to leave a beneficial impression on ",
                 "."
@@ -22279,7 +22279,7 @@ window.PQContextBank={
             {
               "focus": "nhượng bộ",
               "evidence": "Khi không làm được điều gì",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Khi không làm được điều gì” trong ngữ cảnh.",
               "parts": [
                 "",
                 " we cannot do anything else, we can leave love behind."
@@ -22299,7 +22299,7 @@ window.PQContextBank={
             {
               "focus": "phương thức không lời",
               "evidence": "dù chưa nói thành lời",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù chưa nói thành lời” trong ngữ cảnh.",
               "parts": [
                 "Love can be offered ",
                 "."
@@ -22319,7 +22319,7 @@ window.PQContextBank={
             {
               "focus": "ví dụ",
               "evidence": "một nụ cười hay ánh mắt",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một nụ cười hay ánh mắt” trong ngữ cảnh.",
               "parts": [
                 "The passage gives ",
                 " as small ways to express love."
@@ -22363,7 +22363,7 @@ window.PQContextBank={
             {
               "focus": "so sánh",
               "evidence": "sâu sắc hơn thiện nghiệp thông thường",
-              "prompt": "Ghép câu mở bằng Right Action.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “sâu sắc hơn thiện nghiệp thông thường” trong đoạn. Bắt đầu bằng “Right Action”.",
               "tokens": [
                 "is deeper than",
                 "Right Action",
@@ -22384,7 +22384,7 @@ window.PQContextBank={
             {
               "focus": "mục đích thông thường",
               "evidence": "cuộc sống dễ chịu hơn",
-              "prompt": "Ghép câu mở bằng Ordinary wholesome karma.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cuộc sống dễ chịu hơn” trong đoạn. Bắt đầu bằng “Ordinary wholesome karma”.",
               "tokens": [
                 "Ordinary wholesome karma",
                 "make their lives",
@@ -22405,7 +22405,7 @@ window.PQContextBank={
             {
               "focus": "định hướng",
               "evidence": "giác ngộ giải thoát",
-              "prompt": "Ghép câu mở bằng Right Action includes.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giác ngộ giải thoát” trong đoạn. Bắt đầu bằng “Right Action includes”.",
               "tokens": [
                 "a determined intention",
                 "to guide others toward",
@@ -22426,7 +22426,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "rồi sau đó giảng",
-              "prompt": "Ghép câu mở bằng We give food.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rồi sau đó giảng” trong đoạn. Bắt đầu bằng “We give food”.",
               "tokens": [
                 "We give food",
                 "the law of karma.",
@@ -22447,7 +22447,7 @@ window.PQContextBank={
             {
               "focus": "hai kết quả",
               "evidence": "kèm theo lòng quyết tâm mạnh mẽ",
-              "prompt": "Ghép câu mở bằng Blessings come.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “kèm theo lòng quyết tâm mạnh mẽ” trong đoạn. Bắt đầu bằng “Blessings come”.",
               "tokens": [
                 "to cultivate liberation.",
                 "Blessings come",
@@ -22489,7 +22489,7 @@ window.PQContextBank={
             {
               "focus": "thuật ngữ",
               "evidence": "Chánh Mạng",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Chánh Mạng” trong đoạn.",
               "options": [
                 "Right Speech means acquiring clothes.",
                 "Right Livelihood means avoiding all means of support.",
@@ -22504,7 +22504,7 @@ window.PQContextBank={
             {
               "focus": "phương thức",
               "evidence": "một cách chân chính",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “một cách chân chính” trong đoạn.",
               "options": [
                 "An upright livelihood requires having no food.",
                 "We must obtain food and clothing through an upright livelihood.",
@@ -22519,7 +22519,7 @@ window.PQContextBank={
             {
               "focus": "vai trò",
               "evidence": "một bước quan trọng",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “một bước quan trọng” trong đoạn.",
               "options": [
                 "Right Livelihood is an important step toward liberation.",
                 "A livelihood is merely a name unrelated to practice.",
@@ -22534,7 +22534,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu hai nhóm",
               "evidence": "cư sĩ khác với cách sống của tu sĩ",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cư sĩ khác với cách sống của tu sĩ” trong đoạn.",
               "options": [
                 "Only lay practitioners need any means of support.",
                 "Differences make upright livelihood impossible for both.",
@@ -22549,7 +22549,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện cần",
               "evidence": "nếu không thì tu sĩ chúng ta không tu được",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nếu không thì tu sĩ chúng ta không tu được” trong đoạn.",
               "options": [
                 "A livelihood becomes upright only after enlightenment.",
                 "The passage offers a guarantee of attainment through work alone.",
@@ -22585,7 +22585,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "Nếu sinh kế không chân chính",
-              "prompt": "Chọn cấu trúc điều kiện giữ đúng phủ định.",
+              "prompt": "Cấu trúc điều kiện nào giữ đúng ý sinh kế không chân chính?",
               "options": [
                 "If the path is complete, every occupation must become profitable.",
                 "A livelihood is upright whenever it brings fame.",
@@ -22599,7 +22599,7 @@ window.PQContextBank={
             {
               "focus": "hai tiêu chí",
               "evidence": "vừa đủ, vừa đúng",
-              "prompt": "Chọn cụm giữ đồng thời hai tiêu chí.",
+              "prompt": "Cụm nào giữ đủ hai tiêu chí “vừa đủ, vừa đúng”?",
               "options": [
                 "both adequate and right",
                 "adequate only when not right",
@@ -22613,7 +22613,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa adequate",
               "evidence": "đủ ăn đủ mặc thoải mái dư giả",
-              "prompt": "Chọn nghĩa theo nguồn.",
+              "prompt": "Theo đoạn, tiêu chí “đủ” trong sinh kế được giải thích thế nào?",
               "options": [
                 "Providing only the minimum for a single day.",
                 "Providing wealth regardless of harm caused.",
@@ -22627,7 +22627,7 @@ window.PQContextBank={
             {
               "focus": "định nghĩa right",
               "evidence": "nghề nghiệp không ác",
-              "prompt": "Chọn nghĩa theo nguồn.",
+              "prompt": "Theo đoạn, tiêu chí “đúng” trong sinh kế được giải thích thế nào?",
               "options": [
                 "An occupation admired by a large audience.",
                 "A livelihood requiring no consideration of its effects.",
@@ -22641,7 +22641,7 @@ window.PQContextBank={
             {
               "focus": "tổ chức thông tin",
               "evidence": "Đủ có nghĩa",
-              "prompt": "Chọn cách giải thích hợp mạch định nghĩa.",
+              "prompt": "Cách giải thích nào phù hợp với toàn bộ mạch định nghĩa trong đoạn?",
               "options": [
                 "Adequate and right are two interchangeable words for fame.",
                 "The passage leaves both words without explanation.",
@@ -22676,7 +22676,7 @@ window.PQContextBank={
             {
               "focus": "vị trí",
               "evidence": "giai đoạn thứ năm",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giai đoạn thứ năm” trong ngữ cảnh.",
               "parts": [
                 "Right Livelihood is identified as ",
                 " stage of the Noble Eightfold Path."
@@ -22696,7 +22696,7 @@ window.PQContextBank={
             {
               "focus": "số lượng",
               "evidence": "ba điều yêu cầu",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ba điều yêu cầu” trong ngữ cảnh.",
               "parts": [
                 "The explanation names ",
                 " requirements."
@@ -22716,7 +22716,7 @@ window.PQContextBank={
             {
               "focus": "mục đích",
               "evidence": "để đủ sống",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để đủ sống” trong ngữ cảnh.",
               "parts": [
                 "The first requirement is having work ",
                 "."
@@ -22736,7 +22736,7 @@ window.PQContextBank={
             {
               "focus": "tính chất",
               "evidence": "nghề đúng đắn để tạo ra phước mỗi ngày",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nghề đúng đắn để tạo ra phước mỗi ngày” trong ngữ cảnh.",
               "parts": [
                 "The second requirement is upright work that creates ",
                 "."
@@ -22756,7 +22756,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện",
               "evidence": "khi có cơ hội",
-              "prompt": "Điền cụm phù hợp với toàn đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi có cơ hội” trong ngữ cảnh.",
               "parts": [
                 "The third requirement concerns prospering ",
                 "."
@@ -22797,7 +22797,7 @@ window.PQContextBank={
             {
               "focus": "phân biệt động cơ",
               "evidence": "vì bản thân mình từ chối",
-              "prompt": "Ghép câu mở bằng We decline money.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì bản thân mình từ chối” trong đoạn. Bắt đầu bằng “We decline money”.",
               "tokens": [
                 "not because",
                 "because we freely choose to,",
@@ -22818,7 +22818,7 @@ window.PQContextBank={
             {
               "focus": "đối chiếu",
               "evidence": "Hai việc này khác hẳn nhau",
-              "prompt": "Ghép câu mở bằng Freely declining possessions.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Hai việc này khác hẳn nhau” trong đoạn. Bắt đầu bằng “Freely declining possessions”.",
               "tokens": [
                 "differs entirely",
                 "being poor.",
@@ -22839,7 +22839,7 @@ window.PQContextBank={
             {
               "focus": "thứ tự",
               "evidence": "phải làm phước trước",
-              "prompt": "Ghép câu mở bằng We must first.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phải làm phước trước” trong đoạn. Bắt đầu bằng “We must first”.",
               "tokens": [
                 "We must first",
                 "and create blessings",
@@ -22860,7 +22860,7 @@ window.PQContextBank={
             {
               "focus": "lượng thời gian",
               "evidence": "năm mười năm, hai mươi năm",
-              "prompt": "Ghép câu mở bằng This may mean.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “năm mười năm, hai mươi năm” trong đoạn. Bắt đầu bằng “This may mean”.",
               "tokens": [
                 "accepting five, ten,",
                 "exactly five days for everyone",
@@ -22881,7 +22881,7 @@ window.PQContextBank={
             {
               "focus": "điều kiện và bước sau",
               "evidence": "để sau đó",
-              "prompt": "Ghép câu mở bằng When blessings are abundant.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “để sau đó” trong đoạn. Bắt đầu bằng “When blessings are abundant”.",
               "tokens": [
                 "When blessings are abundant",
                 "and the signs are clear,",
@@ -22923,7 +22923,7 @@ window.PQContextBank={
             {
               "focus": "mục đích giới hạn",
               "evidence": "chỉ là để dành nhiều thời gian",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ là để dành nhiều thời gian” trong đoạn.",
               "options": [
                 "The source makes isolation a goal without any qualification.",
                 "Avoiding involvements is only a way to make more time for meditation.",
@@ -22938,7 +22938,7 @@ window.PQContextBank={
             {
               "focus": "phân loại",
               "evidence": "thước đo đạo lực",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “thước đo đạo lực” trong đoạn.",
               "options": [
                 "Solitude is described as a measure of spiritual strength, not the final goal.",
                 "Spiritual strength is measured only by public speaking.",
@@ -22953,7 +22953,7 @@ window.PQContextBank={
             {
               "focus": "nguyên nhân",
               "evidence": "không có cơ hội để làm phước, giúp người",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không có cơ hội để làm phước, giúp người” trong đoạn.",
               "options": [
                 "Helping others is said to prevent blessings from growing.",
                 "Being alone guarantees infinite opportunities to help people directly.",
@@ -22968,7 +22968,7 @@ window.PQContextBank={
             {
               "focus": "phạm vi đời sống",
               "evidence": "một giai đoạn nào đó",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “một giai đoạn nào đó” trong đoạn.",
               "options": [
                 "Solitude is one phase of the practitioner’s life, not its entirety.",
                 "A phase means a permanent condition without change.",
@@ -22983,7 +22983,7 @@ window.PQContextBank={
             {
               "focus": "đích và chủ thể",
               "evidence": "đầy lòng từ bi, có đầy đủ trí tuệ",
-              "prompt": "Chọn bản sửa giữ đúng ý đoạn nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “đầy lòng từ bi, có đầy đủ trí tuệ” trong đoạn.",
               "options": [
                 "The aim is to stop every disciple from meeting anyone.",
                 "The aim is to nurture compassionate, wise disciples who carry the Dharma into the world.",
@@ -23037,7 +23037,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Thay đổi thay vì khởi đầu tuyệt đối”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Thay đổi thay vì khởi đầu tuyệt đối”?",
               "focus": "main idea",
               "evidence": "mọi thứ chỉ là thay đổi từ trạng thái này sang trạng thái khác",
               "options": [
@@ -23051,7 +23051,7 @@ window.PQContextBank={
               "id": "W18-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "mọi thứ chỉ là thay đổi từ trạng thái này sang trạng thái khác",
               "options": [
@@ -23065,7 +23065,7 @@ window.PQContextBank={
               "id": "W18-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "mọi thứ chỉ là thay đổi từ trạng thái này sang trạng thái khác",
               "options": [
@@ -23093,7 +23093,7 @@ window.PQContextBank={
               "id": "W18-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "mọi thứ chỉ là thay đổi từ trạng thái này sang trạng thái khác",
               "options": [
@@ -23130,7 +23130,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Chu trình của nước và cây”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hơi nước tụ lại thành mây” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Hơi nước tụ lại thành mây",
               "parts": [
@@ -23150,7 +23150,7 @@ window.PQContextBank={
               "id": "W18-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hơi nước tụ lại thành mây” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Hơi nước tụ lại thành mây",
               "parts": [
@@ -23170,7 +23170,7 @@ window.PQContextBank={
               "id": "W18-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hơi nước tụ lại thành mây” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Hơi nước tụ lại thành mây",
               "parts": [
@@ -23190,7 +23190,7 @@ window.PQContextBank={
               "id": "W18-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hơi nước tụ lại thành mây” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Hơi nước tụ lại thành mây",
               "parts": [
@@ -23210,7 +23210,7 @@ window.PQContextBank={
               "id": "W18-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hơi nước tụ lại thành mây” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Hơi nước tụ lại thành mây",
               "parts": [
@@ -23253,7 +23253,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhân quả trong sự biến hóa”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không có bắt đầu, không có chấm dứt” trong đoạn.",
               "focus": "main idea",
               "evidence": "không có bắt đầu, không có chấm dứt",
               "tokens": [
@@ -23282,7 +23282,7 @@ window.PQContextBank={
               "id": "W18-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không có bắt đầu, không có chấm dứt” trong đoạn.",
               "focus": "scope",
               "evidence": "không có bắt đầu, không có chấm dứt",
               "tokens": [
@@ -23310,7 +23310,7 @@ window.PQContextBank={
               "id": "W18-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không có bắt đầu, không có chấm dứt” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "không có bắt đầu, không có chấm dứt",
               "tokens": [
@@ -23338,7 +23338,7 @@ window.PQContextBank={
               "id": "W18-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không có bắt đầu, không có chấm dứt” trong đoạn.",
               "focus": "relation",
               "evidence": "không có bắt đầu, không có chấm dứt",
               "tokens": [
@@ -23366,7 +23366,7 @@ window.PQContextBank={
               "id": "W18-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không có bắt đầu, không có chấm dứt” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "không có bắt đầu, không có chấm dứt",
               "tokens": [
@@ -23417,7 +23417,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Mục tiêu của sự tu hành”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ sống lương thiện” trong đoạn.",
               "focus": "main idea",
               "evidence": "sẽ sống lương thiện",
               "options": [
@@ -23432,7 +23432,7 @@ window.PQContextBank={
               "id": "W18-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ sống lương thiện” trong đoạn.",
               "focus": "scope",
               "evidence": "sẽ sống lương thiện",
               "options": [
@@ -23447,7 +23447,7 @@ window.PQContextBank={
               "id": "W18-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ sống lương thiện” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "sẽ sống lương thiện",
               "options": [
@@ -23462,7 +23462,7 @@ window.PQContextBank={
               "id": "W18-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ sống lương thiện” trong đoạn.",
               "focus": "relation",
               "evidence": "sẽ sống lương thiện",
               "options": [
@@ -23477,7 +23477,7 @@ window.PQContextBank={
               "id": "W18-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sẽ sống lương thiện” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "sẽ sống lương thiện",
               "options": [
@@ -23515,7 +23515,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Niết-bàn không phải một cõi trời”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Niết-bàn không phải một cõi trời”?",
               "focus": "main idea",
               "evidence": "Niết bàn không phải là không gian",
               "options": [
@@ -23529,7 +23529,7 @@ window.PQContextBank={
               "id": "W18-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Niết bàn không phải là không gian",
               "options": [
@@ -23543,7 +23543,7 @@ window.PQContextBank={
               "id": "W18-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Niết bàn không phải là không gian",
               "options": [
@@ -23571,7 +23571,7 @@ window.PQContextBank={
               "id": "W18-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Niết bàn không phải là không gian",
               "options": [
@@ -23608,7 +23608,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Ngoài không gian và thời gian”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không có nhanh hay chậm” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "không có nhanh hay chậm",
               "parts": [
@@ -23628,7 +23628,7 @@ window.PQContextBank={
               "id": "W18-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không có nhanh hay chậm” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "không có nhanh hay chậm",
               "parts": [
@@ -23648,7 +23648,7 @@ window.PQContextBank={
               "id": "W18-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không có nhanh hay chậm” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "không có nhanh hay chậm",
               "parts": [
@@ -23668,7 +23668,7 @@ window.PQContextBank={
               "id": "W18-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không có nhanh hay chậm” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "không có nhanh hay chậm",
               "parts": [
@@ -23688,7 +23688,7 @@ window.PQContextBank={
               "id": "W18-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không có nhanh hay chậm” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "không có nhanh hay chậm",
               "parts": [
@@ -23731,7 +23731,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Điều không thể diễn tả trọn vẹn”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt ngoài suy nghĩ, ngôn ngữ” trong đoạn.",
               "focus": "main idea",
               "evidence": "vượt ngoài suy nghĩ, ngôn ngữ",
               "tokens": [
@@ -23770,7 +23770,7 @@ window.PQContextBank={
               "id": "W18-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt ngoài suy nghĩ, ngôn ngữ” trong đoạn.",
               "focus": "scope",
               "evidence": "vượt ngoài suy nghĩ, ngôn ngữ",
               "tokens": [
@@ -23808,7 +23808,7 @@ window.PQContextBank={
               "id": "W18-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt ngoài suy nghĩ, ngôn ngữ” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "vượt ngoài suy nghĩ, ngôn ngữ",
               "tokens": [
@@ -23846,7 +23846,7 @@ window.PQContextBank={
               "id": "W18-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt ngoài suy nghĩ, ngôn ngữ” trong đoạn.",
               "focus": "relation",
               "evidence": "vượt ngoài suy nghĩ, ngôn ngữ",
               "tokens": [
@@ -23884,7 +23884,7 @@ window.PQContextBank={
               "id": "W18-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt ngoài suy nghĩ, ngôn ngữ” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "vượt ngoài suy nghĩ, ngôn ngữ",
               "tokens": [
@@ -23943,7 +23943,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tính trừu tượng và năng lực nhận hiểu”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Niết bàn là cực kỳ trừu tượng” trong đoạn.",
               "focus": "main idea",
               "evidence": "Niết bàn là cực kỳ trừu tượng",
               "options": [
@@ -23958,7 +23958,7 @@ window.PQContextBank={
               "id": "W18-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Niết bàn là cực kỳ trừu tượng” trong đoạn.",
               "focus": "scope",
               "evidence": "Niết bàn là cực kỳ trừu tượng",
               "options": [
@@ -23973,7 +23973,7 @@ window.PQContextBank={
               "id": "W18-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Niết bàn là cực kỳ trừu tượng” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Niết bàn là cực kỳ trừu tượng",
               "options": [
@@ -23988,7 +23988,7 @@ window.PQContextBank={
               "id": "W18-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Niết bàn là cực kỳ trừu tượng” trong đoạn.",
               "focus": "relation",
               "evidence": "Niết bàn là cực kỳ trừu tượng",
               "options": [
@@ -24003,7 +24003,7 @@ window.PQContextBank={
               "id": "W18-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Niết bàn là cực kỳ trừu tượng” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Niết bàn là cực kỳ trừu tượng",
               "options": [
@@ -24039,7 +24039,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhân của sự chứng ngộ”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Nhân của sự chứng ngộ”?",
               "focus": "main idea",
               "evidence": "kính thầy mới được làm thầy",
               "options": [
@@ -24053,7 +24053,7 @@ window.PQContextBank={
               "id": "W18-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "kính thầy mới được làm thầy",
               "options": [
@@ -24067,7 +24067,7 @@ window.PQContextBank={
               "id": "W18-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "kính thầy mới được làm thầy",
               "options": [
@@ -24095,7 +24095,7 @@ window.PQContextBank={
               "id": "W18-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "kính thầy mới được làm thầy",
               "options": [
@@ -24130,7 +24130,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Biến lòng tôn kính thành hành động”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng tôn kính cũng phải biến thành hành động cụ thể” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "lòng tôn kính cũng phải biến thành hành động cụ thể",
               "parts": [
@@ -24150,7 +24150,7 @@ window.PQContextBank={
               "id": "W18-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng tôn kính cũng phải biến thành hành động cụ thể” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "lòng tôn kính cũng phải biến thành hành động cụ thể",
               "parts": [
@@ -24170,7 +24170,7 @@ window.PQContextBank={
               "id": "W18-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng tôn kính cũng phải biến thành hành động cụ thể” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "lòng tôn kính cũng phải biến thành hành động cụ thể",
               "parts": [
@@ -24190,7 +24190,7 @@ window.PQContextBank={
               "id": "W18-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng tôn kính cũng phải biến thành hành động cụ thể” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "lòng tôn kính cũng phải biến thành hành động cụ thể",
               "parts": [
@@ -24210,7 +24210,7 @@ window.PQContextBank={
               "id": "W18-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng tôn kính cũng phải biến thành hành động cụ thể” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "lòng tôn kính cũng phải biến thành hành động cụ thể",
               "parts": [
@@ -24251,7 +24251,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Giúp người khác cùng tiến bộ”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cùng giúp nhiều người tu hành giác ngộ” trong đoạn.",
               "focus": "main idea",
               "evidence": "cùng giúp nhiều người tu hành giác ngộ",
               "tokens": [
@@ -24284,7 +24284,7 @@ window.PQContextBank={
               "id": "W18-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cùng giúp nhiều người tu hành giác ngộ” trong đoạn.",
               "focus": "scope",
               "evidence": "cùng giúp nhiều người tu hành giác ngộ",
               "tokens": [
@@ -24316,7 +24316,7 @@ window.PQContextBank={
               "id": "W18-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cùng giúp nhiều người tu hành giác ngộ” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "cùng giúp nhiều người tu hành giác ngộ",
               "tokens": [
@@ -24348,7 +24348,7 @@ window.PQContextBank={
               "id": "W18-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cùng giúp nhiều người tu hành giác ngộ” trong đoạn.",
               "focus": "relation",
               "evidence": "cùng giúp nhiều người tu hành giác ngộ",
               "tokens": [
@@ -24380,7 +24380,7 @@ window.PQContextBank={
               "id": "W18-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cùng giúp nhiều người tu hành giác ngộ” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "cùng giúp nhiều người tu hành giác ngộ",
               "tokens": [
@@ -24433,7 +24433,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Vượt qua chia rẽ”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tìm đủ thứ lý do để chia rẽ với nhau” trong đoạn.",
               "focus": "main idea",
               "evidence": "tìm đủ thứ lý do để chia rẽ với nhau",
               "options": [
@@ -24448,7 +24448,7 @@ window.PQContextBank={
               "id": "W18-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tìm đủ thứ lý do để chia rẽ với nhau” trong đoạn.",
               "focus": "scope",
               "evidence": "tìm đủ thứ lý do để chia rẽ với nhau",
               "options": [
@@ -24463,7 +24463,7 @@ window.PQContextBank={
               "id": "W18-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tìm đủ thứ lý do để chia rẽ với nhau” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "tìm đủ thứ lý do để chia rẽ với nhau",
               "options": [
@@ -24478,7 +24478,7 @@ window.PQContextBank={
               "id": "W18-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tìm đủ thứ lý do để chia rẽ với nhau” trong đoạn.",
               "focus": "relation",
               "evidence": "tìm đủ thứ lý do để chia rẽ với nhau",
               "options": [
@@ -24493,7 +24493,7 @@ window.PQContextBank={
               "id": "W18-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tìm đủ thứ lý do để chia rẽ với nhau” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "tìm đủ thứ lý do để chia rẽ với nhau",
               "options": [
@@ -24641,7 +24641,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền mức khẳng định đúng với “có thể còn có lý do chính đáng”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “có thể còn có lý do chính đáng” trong ngữ cảnh.",
               "options": [
                 "has proved he has",
                 "can have no",
@@ -24661,7 +24661,7 @@ window.PQContextBank={
               "id": "W19-B02-Q01"
             },
             {
-              "prompt": "Điền cụm giữ đúng điều nguy hiểm khi người không biết bơi nhảy xuống.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chết thêm một mạng vô ích” trong ngữ cảnh.",
               "options": [
                 "prove his courage to the onlookers",
                 "cost another life needlessly",
@@ -24681,7 +24681,7 @@ window.PQContextBank={
               "id": "W19-B02-Q02"
             },
             {
-              "prompt": "Điền cụm diễn đạt “trụ cột cho sự sống của nhiều người”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “trụ cột cho sự sống của nhiều người khác” trong ngữ cảnh.",
               "options": [
                 "depend on him for their livelihood",
                 "approve of him for his bravery",
@@ -24701,7 +24701,7 @@ window.PQContextBank={
               "id": "W19-B02-Q03"
             },
             {
-              "prompt": "Điền từ nối giữ nguyên việc không so đạo đức nhưng vẫn ghi nhận can đảm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tuy nhiên, người nhảy xuống sông” trong ngữ cảnh.",
               "options": [
                 "Consequently",
                 "For the same reason",
@@ -24721,7 +24721,7 @@ window.PQContextBank={
               "id": "W19-B02-Q04"
             },
             {
-              "prompt": "Điền hành động mà người không nhảy xuống vẫn có thể làm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tri hô cầu cứu” trong ngữ cảnh.",
               "options": [
                 "raise the alarm and call for help",
                 "be blamed for refusing every form of help",
@@ -24771,7 +24771,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu mở bằng Here, giữ điều kiện lỗi thuộc về ta.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì lỗi của mình” trong đoạn. Bắt đầu bằng “Here”.",
               "tokens": [
                 "Here, self-respect means",
                 "to look down on us",
@@ -24791,7 +24791,7 @@ window.PQContextBank={
               "id": "W19-B03-Q01"
             },
             {
-              "prompt": "Ghép câu mở bằng The man và giữ quan hệ thái độ với món quà.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cương quyết không nhận quà tặng kiểu xem thường” trong đoạn. Bắt đầu bằng “The man và giữ quan hệ thái độ với món quà”.",
               "tokens": [
                 "firmly refuses",
                 "The man",
@@ -24811,7 +24811,7 @@ window.PQContextBank={
               "id": "W19-B03-Q02"
             },
             {
-              "prompt": "Ghép câu điều kiện bắt đầu If.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “mình không có lỗi gì mà người ta vẫn xem thường” trong đoạn. Bắt đầu bằng “If”.",
               "tokens": [
                 "let them;",
                 "and they still look down on us,",
@@ -24831,7 +24831,7 @@ window.PQContextBank={
               "id": "W19-B03-Q03"
             },
             {
-              "prompt": "Ghép câu diễn đạt hành động nói nhỏ trong ví dụ bàn ăn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ghé tai anh ta nói” trong đoạn.",
               "tokens": [
                 "whispers in his ear,",
                 "in the way you eat.”",
@@ -24851,7 +24851,7 @@ window.PQContextBank={
               "id": "W19-B03-Q04"
             },
             {
-              "prompt": "Ghép cách giải thích bắt đầu In other words.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nghĩa là ăn làm sao” trong đoạn. Bắt đầu bằng “In other words”.",
               "tokens": [
                 "that gives others no reason",
                 "to despise you for a fault of your own.",
@@ -24901,7 +24901,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu nhưng không làm mất nửa tích cực của lời dạy.",
+              "prompt": "Chọn bản sửa giữ cả việc làm điều thiện lẫn lời khuyên không chấp công.",
               "options": [
                 "Avoiding wrongdoing is another name for doing good.",
                 "Doing good is useful only after all wrongdoing has ceased.",
@@ -24916,7 +24916,7 @@ window.PQContextBank={
               "id": "W19-B04-Q01"
             },
             {
-              "prompt": "Sửa cách hiểu “đừng chấp công”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải làm vô số việc công đức nhưng đừng chấp công” trong đoạn.",
               "options": [
                 "The sutras permit deeds only when no one remembers them.",
                 "The sutras teach that taking credit increases the value of good deeds.",
@@ -24931,7 +24931,7 @@ window.PQContextBank={
               "id": "W19-B04-Q02"
             },
             {
-              "prompt": "Sửa thuật ngữ của con đường mà nguồn nói tới.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Bát Chánh Đạo dạy Chánh Nghiệp” trong đoạn.",
               "options": [
                 "The Noble Eightfold Path teaches Right Action here.",
                 "The Eightfold Path teaches private action rather than public service.",
@@ -24946,7 +24946,7 @@ window.PQContextBank={
               "id": "W19-B04-Q03"
             },
             {
-              "prompt": "Sửa quan hệ giữa hai cách hiểu.",
+              "prompt": "Chọn bản sửa giữ đúng quan hệ giữa hai cách hiểu được trình bày.",
               "options": [
                 "People distinguish the instruction by refusing to read it.",
                 "People misinterpret inaction as the sole source of merit.",
@@ -24961,7 +24961,7 @@ window.PQContextBank={
               "id": "W19-B04-Q04"
             },
             {
-              "prompt": "Sửa nơi phát sinh hiểu lầm theo nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ngay trong Phật giáo” trong đoạn.",
               "options": [
                 "The idea arises from a misunderstanding within Buddhism itself.",
                 "The idea arises whenever a person reads the Dhammapada.",
@@ -25062,7 +25062,7 @@ window.PQContextBank={
               "id": "W19-B05-Q04"
             },
             {
-              "prompt": "Trong bản dịch đoạn này, cách nào giữ đúng tầng nội dung?",
+              "prompt": "Câu nào trình bày đúng lời giải thích của nguồn về kiếp sau, không nâng thành kết quả nghiên cứu?",
               "options": [
                 "The passage discusses only workplace rewards in this life.",
                 "The passage says every worker will receive the same moral qualities.",
@@ -25109,7 +25109,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền để phân biệt trạng thái với quan điểm đi kèm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tưởng đó là đạo lý cao siêu” trong ngữ cảnh.",
               "options": [
                 "an exalted principle",
                 "a refusal to enter meditation",
@@ -25129,7 +25129,7 @@ window.PQContextBank={
               "id": "W19-B06-Q01"
             },
             {
-              "prompt": "Điền trục của câu diễn tả người không thoát khỏi thụ động.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chết chìm luôn trong sự thụ động” trong ngữ cảnh.",
               "options": [
                 "make others pass through",
                 "remain submerged in",
@@ -25149,7 +25149,7 @@ window.PQContextBank={
               "id": "W19-B06-Q02"
             },
             {
-              "prompt": "Điền mục đích của đại nguyện theo nguồn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hoằng hóa độ sinh” trong ngữ cảnh.",
               "options": [
                 "guide sentient beings",
                 "withdraw from all relationships",
@@ -25169,7 +25169,7 @@ window.PQContextBank={
               "id": "W19-B06-Q03"
             },
             {
-              "prompt": "Điền cụm giữ đúng người bị tác động bởi sách truyền bá.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “biết bao nhiêu người bị hiểu lầm rồi cạn phước theo” trong ngữ cảnh.",
               "options": [
                 "the authors’ financial security",
                 "proof of Noble Attainment",
@@ -25189,7 +25189,7 @@ window.PQContextBank={
               "id": "W19-B06-Q04"
             },
             {
-              "prompt": "Điền phạm vi thời điểm đặt nguyện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “khi mới bắt đầu phát tâm tu tập” trong ngữ cảnh.",
               "options": [
                 "at the very beginning of",
                 "instead of beginning",
@@ -25239,7 +25239,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu mở bằng We often say và giữ quan điểm mà tác giả đang phản biện.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Ta hay nói rằng nội tâm đạo đức” trong đoạn. Bắt đầu bằng “We often say và giữ quan điểm mà tác giả đang phản biện”.",
               "tokens": [
                 "We often say",
                 "is unnecessary.",
@@ -25259,7 +25259,7 @@ window.PQContextBank={
               "id": "W19-B07-Q01"
             },
             {
-              "prompt": "Ghép câu dùng Little để giữ sức phát hiện của “Đâu biết rằng”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đâu biết rằng chân lý” trong đoạn.",
               "tokens": [
                 "that truth",
                 "all-encompassing.",
@@ -25279,7 +25279,7 @@ window.PQContextBank={
               "id": "W19-B07-Q02"
             },
             {
-              "prompt": "Ghép câu ví dụ bắt đầu Someone may.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đạt học vị rất cao, nhưng phản quốc” trong đoạn. Bắt đầu bằng “Someone may”.",
               "tokens": [
                 "Someone may hold",
                 "because every degree causes betrayal.",
@@ -25299,7 +25299,7 @@ window.PQContextBank={
               "id": "W19-B07-Q03"
             },
             {
-              "prompt": "Ghép cách nói giới hạn trí tuệ bắt đầu Not far enough.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không đủ để thấy mình đã sai” trong đoạn. Bắt đầu bằng “Not far enough”.",
               "tokens": [
                 "to recognize",
                 "that no one else can be wise.",
@@ -25319,7 +25319,7 @@ window.PQContextBank={
               "id": "W19-B07-Q04"
             },
             {
-              "prompt": "Ghép câu định nghĩa bắt đầu Morality.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đạo đức là biết phải trái đúng sai” trong đoạn. Bắt đầu bằng “Morality”.",
               "tokens": [
                 "Morality",
                 "rather than needing any wisdom.",
@@ -25360,7 +25360,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu để không coi mọi lời nói đều bộc lộ đúng nội tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có những trường hợp lời nói và nội tâm trái ngựơc nhau” trong đoạn.",
               "options": [
                 "Words can express the inner life, yet sometimes contradict it.",
                 "Outward words determine what the speaker must feel.",
@@ -25375,7 +25375,7 @@ window.PQContextBank={
               "id": "W19-B08-Q01"
             },
             {
-              "prompt": "Sửa thành ngữ về nói xấu sau lưng.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nói xấu sau lưng” trong đoạn.",
               "options": [
                 "They speak over the person’s back.",
                 "They keep their criticism entirely to themselves.",
@@ -25390,7 +25390,7 @@ window.PQContextBank={
               "id": "W19-B08-Q02"
             },
             {
-              "prompt": "Sửa quan hệ giữa thẳng thắn và dịu dàng.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chân thật, thẳng thắn nhưng khả ái, dịu dàng” trong đoạn.",
               "options": [
                 "Gentle speech means avoiding every difficult truth.",
                 "Being direct removes the need to consider the listener.",
@@ -25405,7 +25405,7 @@ window.PQContextBank={
               "id": "W19-B08-Q03"
             },
             {
-              "prompt": "Sửa cách dịch “làm ra vẻ đạo mạo”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “làm ra vẻ đạo mạo để mọi người tôn trọng” trong đoạn.",
               "options": [
                 "They put moral principles into practice for others.",
                 "They put on an air of virtue to win respect.",
@@ -25420,7 +25420,7 @@ window.PQContextBank={
               "id": "W19-B08-Q04"
             },
             {
-              "prompt": "Sửa câu để giữ đúng hướng lời khuyên.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “không giận ghét bất cứ ai” trong đoạn.",
               "options": [
                 "We need to let go and harbor no anger or hatred toward anyone.",
                 "We should express every angry thought as sharply as possible.",
@@ -25507,7 +25507,7 @@ window.PQContextBank={
               "id": "W19-B09-Q03"
             },
             {
-              "prompt": "Trong đoạn này, “khắc phục công nghệ” hợp với cách nào?",
+              "prompt": "Trong đoạn này, cụm “khắc phục công nghệ” nên được diễn đạt thế nào?",
               "options": [
                 "master technology without allowing it to erode practice",
                 "prove that technology has no spiritual value",
@@ -25564,7 +25564,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền thuật ngữ theo ngữ cảnh để phân biệt tự ái với tự trọng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Tự trọng cũng khác với tự ái” trong ngữ cảnh.",
               "options": [
                 "moral discipline",
                 "wounded pride",
@@ -25584,7 +25584,7 @@ window.PQContextBank={
               "id": "W19-B10-Q01"
             },
             {
-              "prompt": "Điền cụm giữ đúng đối tượng tự trách.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “đó là tự trách mình đã có lỗi” trong ngữ cảnh.",
               "options": [
                 "a demand for public admiration",
                 "anger at every person present",
@@ -25604,7 +25604,7 @@ window.PQContextBank={
               "id": "W19-B10-Q02"
             },
             {
-              "prompt": "Điền từ nối giữ nguyên trường hợp ngoại lệ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nếu mình không có lỗi” trong ngữ cảnh.",
               "options": [
                 "Although everyone agrees that",
                 "Only after",
@@ -25624,7 +25624,7 @@ window.PQContextBank={
               "id": "W19-B10-Q03"
             },
             {
-              "prompt": "Điền cặp phẩm chất được nêu ở phần sau.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “một là đạo đức, hai là phước” trong ngữ cảnh.",
               "options": [
                 "moral character and blessings",
                 "courtesy and physical strength",
@@ -25644,7 +25644,7 @@ window.PQContextBank={
               "id": "W19-B10-Q04"
             },
             {
-              "prompt": "Điền cấu trúc giữ lực “cẩn thận đến nỗi…”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cẩn thận đến nỗi” trong ngữ cảnh.",
               "options": [
                 "care only when others agree that",
                 "such care to avoid wrongdoing that",
@@ -25703,7 +25703,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu bắt đầu To uphold, giữ nghĩa điều kiện cần.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “ta cần những điều kiện sau đây” trong đoạn. Bắt đầu bằng “To uphold”.",
               "tokens": [
                 "the qualities of a genuine monastic,",
                 "To uphold",
@@ -25723,7 +25723,7 @@ window.PQContextBank={
               "id": "W19-B11-Q01"
             },
             {
-              "prompt": "Ghép cụm mô tả môi trường theo nguồn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “có minh sư, có huynh đệ” trong đoạn.",
               "tokens": [
                 "a wise teacher,",
                 "rigorous monastic rules,",
@@ -25743,7 +25743,7 @@ window.PQContextBank={
               "id": "W19-B11-Q02"
             },
             {
-              "prompt": "Ghép câu nói về giáo lý bắt đầu Study.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đúng với chánh pháp của Phật” trong đoạn. Bắt đầu bằng “Study”.",
               "tokens": [
                 "that accord with",
                 "true Dharma.",
@@ -25763,7 +25763,7 @@ window.PQContextBank={
               "id": "W19-B11-Q03"
             },
             {
-              "prompt": "Ghép cụm nói về công đức tăng trưởng.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “công đức lành tăng trưởng dần theo năm tháng” trong đoạn.",
               "tokens": [
                 "allow merit to grow",
                 "over the years.",
@@ -25783,7 +25783,7 @@ window.PQContextBank={
               "id": "W19-B11-Q04"
             },
             {
-              "prompt": "Ghép câu kết bắt đầu With.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những vị tăng ni như thế” trong đoạn. Bắt đầu bằng “With”.",
               "tokens": [
                 "in our study and practice.",
                 "With monks and nuns like these,",
@@ -25827,7 +25827,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa câu đã đồng nhất chứng thiền với chứng Thánh quả.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chỉ là chứng được Thiền chứ không được xem là chứng Thánh quả” trong đoạn.",
               "options": [
                 "Any peaceful feeling is already a Noble Fruit.",
                 "Meditative absorption is another term for eliminating every fetter.",
@@ -25842,7 +25842,7 @@ window.PQContextBank={
               "id": "W19-B12-Q01"
             },
             {
-              "prompt": "Sửa lực điều kiện ở câu “Chỉ khi nào…mới”.",
+              "prompt": "Chọn bản sửa giữ đúng điều kiện cần trong cấu trúc “chỉ khi nào…mới”.",
               "options": [
                 "Fetters disappear whenever a person learns their names.",
                 "The definition applies only to physical symptoms.",
@@ -25857,7 +25857,7 @@ window.PQContextBank={
               "id": "W19-B12-Q02"
             },
             {
-              "prompt": "Sửa đại từ và phạm vi của kiết sử theo nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chi phối mọi hành vi ý nghĩ của chúng sinh” trong đoạn.",
               "options": [
                 "Fetters describe bodily sensations without mental tendencies.",
                 "Fetters govern sentient beings’ actions and thoughts.",
@@ -25872,7 +25872,7 @@ window.PQContextBank={
               "id": "W19-B12-Q03"
             },
             {
-              "prompt": "Sửa cách dịch “Đổ thừa” trong danh sách khuynh hướng.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “khuynh hướng Đổ thừa” trong đoạn.",
               "options": [
                 "the tendency to shift blame onto others",
                 "the tendency to acknowledge one’s own faults",
@@ -25887,7 +25887,7 @@ window.PQContextBank={
               "id": "W19-B12-Q04"
             },
             {
-              "prompt": "Sửa trật tự mức độ ở câu kết.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “sâu thẳm nhất là Vô minh” trong đoạn.",
               "options": [
                 "Ignorance is the least important item listed.",
                 "Only fear is described as a fetter.",
@@ -25988,7 +25988,7 @@ window.PQContextBank={
               "id": "W20-B01-Q02"
             },
             {
-              "prompt": "Câu nào giữ mối liên hệ giữa hai lần nỗ lực?",
+              "prompt": "Câu nào giữ đúng mối liên hệ giữa nỗ lực trong hai thời điểm được nguồn nêu?",
               "options": [
                 "Earlier effort can be replaced by confidence in the present.",
                 "Past effort guarantees that no further striving is required.",
@@ -26057,7 +26057,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền giới hạn thời gian của khổ hạnh.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thử thách tạm thời” trong ngữ cảnh.",
               "options": [
                 "temporary tests",
                 "permanent requirements for everyone",
@@ -26077,7 +26077,7 @@ window.PQContextBank={
               "id": "W20-B02-Q01"
             },
             {
-              "prompt": "Điền cụm giữ phân biệt nể phục với muốn làm theo.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ta có thể nể phục một người đủ sức chịu đựng” trong ngữ cảnh.",
               "options": [
                 "by guaranteeing",
                 "only after choosing",
@@ -26097,7 +26097,7 @@ window.PQContextBank={
               "id": "W20-B02-Q02"
             },
             {
-              "prompt": "Điền mục đích thật sự nguồn nêu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giáo hóa chúng sinh” trong ngữ cảnh.",
               "options": [
                 "guiding sentient beings toward awakening",
                 "proving one’s superiority through hardship",
@@ -26117,7 +26117,7 @@ window.PQContextBank={
               "id": "W20-B02-Q03"
             },
             {
-              "prompt": "Điền quan hệ giúp đỡ giữa người thân.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nương tựa đỡ đần nhau” trong ngữ cảnh.",
               "options": [
                 "make one another self-sufficient overnight",
                 "support one another",
@@ -26137,7 +26137,7 @@ window.PQContextBank={
               "id": "W20-B02-Q04"
             },
             {
-              "prompt": "Điền mức nhu cầu vật chất được nêu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vật chất tương đối” trong ngữ cảnh.",
               "options": [
                 "equal possessions in every household",
                 "unlimited personal wealth",
@@ -26178,7 +26178,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu bắt đầu Spiritual progress, không biến dấu hiệu thành bảo đảm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đừng bao giờ nghĩ rằng” trong đoạn. Bắt đầu bằng “Spiritual progress”.",
               "tokens": [
                 "that conceit",
                 "does not necessarily mean",
@@ -26198,7 +26198,7 @@ window.PQContextBank={
               "id": "W20-B03-Q01"
             },
             {
-              "prompt": "Ghép câu đối chiếu mở bằng Some people.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhưng trong lời nói của họ” trong đoạn. Bắt đầu bằng “Some people”.",
               "tokens": [
                 "yet their speech",
                 "because every attainment causes arrogance.",
@@ -26218,7 +26218,7 @@ window.PQContextBank={
               "id": "W20-B03-Q02"
             },
             {
-              "prompt": "Ghép câu giữ sự so sánh trước/sau.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “kiêu mạn hơn trước” trong đoạn.",
               "tokens": [
                 "after entering meditative absorption",
                 "than every other practitioner.",
@@ -26238,7 +26238,7 @@ window.PQContextBank={
               "id": "W20-B03-Q03"
             },
             {
-              "prompt": "Ghép câu nói về bài học cho ta.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rút ra kinh nghiệm cho bản thân mình” trong đoạn.",
               "tokens": [
                 "without ever examining ourselves.",
                 "We can assess",
@@ -26258,7 +26258,7 @@ window.PQContextBank={
               "id": "W20-B03-Q04"
             },
             {
-              "prompt": "Ghép câu kết bắt đầu This.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “điều mà chúng ta phải cẩn thận” trong đoạn. Bắt đầu bằng “This”.",
               "tokens": [
                 "This, too,",
                 "calls",
@@ -26302,7 +26302,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa mức khẳng định về dấu hiệu bên ngoài.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biểu hiện bên ngoài các vị cũng bình thường” trong đoạn.",
               "options": [
                 "An ordinary appearance proves a lack of attainment.",
                 "Every attractive person has attained a Noble Fruit.",
@@ -26317,7 +26317,7 @@ window.PQContextBank={
               "id": "W20-B04-Q01"
             },
             {
-              "prompt": "Sửa điều kiện nhận ra người đồng hạng.",
+              "prompt": "Chọn bản sửa giữ đúng điều kiện để nhận ra người cùng mức tu chứng.",
               "options": [
                 "Everyone at the first stage can rank all higher stages.",
                 "Someone who has attained may recognize another at the same level.",
@@ -26332,7 +26332,7 @@ window.PQContextBank={
               "id": "W20-B04-Q02"
             },
             {
-              "prompt": "Sửa thuật ngữ Tu-đà-hoàn.",
+              "prompt": "Chọn bản sửa dùng đúng thuật ngữ cho quả Tu-đà-hoàn.",
               "options": [
                 "a Stream-enterer at the first stage",
                 "a Non-returner at the first stage",
@@ -26347,7 +26347,7 @@ window.PQContextBank={
               "id": "W20-B04-Q03"
             },
             {
-              "prompt": "Sửa giả định mọi bậc Thánh đều có nhiều phước.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có khi lại không phải là người nhiều phước” trong đoạn.",
               "options": [
                 "Anyone with few possessions is necessarily a Noble One.",
                 "A Noble One cannot be respected without wealth.",
@@ -26362,7 +26362,7 @@ window.PQContextBank={
               "id": "W20-B04-Q04"
             },
             {
-              "prompt": "Sửa kết luận thực hành của đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tôn trọng mọi người” trong đoạn.",
               "options": [
                 "Respect depends entirely on social rank.",
                 "Assume everyone has reached the same attainment.",
@@ -26504,7 +26504,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền hành động mà “quên công” nhắm đến, không xóa việc thiện.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “quên công đi” trong ngữ cảnh.",
               "options": [
                 "every memory of another person",
                 "the duty to do good",
@@ -26524,7 +26524,7 @@ window.PQContextBank={
               "id": "W20-B06-Q01"
             },
             {
-              "prompt": "Điền quan hệ giữa hai yêu cầu.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Hai điều này” trong ngữ cảnh.",
               "options": [
                 "neither demand",
                 "whichever demand brings praise",
@@ -26544,7 +26544,7 @@ window.PQContextBank={
               "id": "W20-B06-Q02"
             },
             {
-              "prompt": "Điền chiều của hai hình ảnh bước.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “nhớ công là bước xuống” trong ngữ cảnh.",
               "options": [
                 "a step downward",
                 "the removal of every obstacle",
@@ -26564,7 +26564,7 @@ window.PQContextBank={
               "id": "W20-B06-Q03"
             },
             {
-              "prompt": "Điền lực của lời khuyên giữa đường.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không được dừng lại giữa đường” trong ngữ cảnh.",
               "options": [
                 "may safely",
                 "need only",
@@ -26584,7 +26584,7 @@ window.PQContextBank={
               "id": "W20-B06-Q04"
             },
             {
-              "prompt": "Điền hình ảnh kết đoạn, không thay bằng khái quát.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hạt bụi bay trong buổi chiều lộng gió” trong ngữ cảnh.",
               "options": [
                 "a speck of dust drifting",
                 "a teacher standing above everyone",
@@ -26631,7 +26631,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu mở bằng The passage, quy rõ lời giải thích cho nguồn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vì hai nguyên nhân” trong đoạn. Bắt đầu bằng “The passage”.",
               "tokens": [
                 "The passage explains stress",
                 "desire and blessings",
@@ -26651,7 +26651,7 @@ window.PQContextBank={
               "id": "W20-B07-Q01"
             },
             {
-              "prompt": "Ghép cụm so sánh bắt đầu blessings.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “phước ta ít hơn những đòi hỏi” trong đoạn. Bắt đầu bằng “blessings”.",
               "tokens": [
                 "that eliminate every duty",
                 "demands",
@@ -26671,7 +26671,7 @@ window.PQContextBank={
               "id": "W20-B07-Q02"
             },
             {
-              "prompt": "Ghép câu nêu vai trò thiền định trong mô hình này.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Thiền định chịu trách nhiệm lĩnh vực này” trong đoạn.",
               "tokens": [
                 "In this account,",
                 "stress arising",
@@ -26691,7 +26691,7 @@ window.PQContextBank={
               "id": "W20-B07-Q03"
             },
             {
-              "prompt": "Ghép ba hành động song song sau We must.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp đỡ mọi người, cống hiến cho xã hội” trong đoạn.",
               "tokens": [
                 "instead of ever working for a living.",
                 "We must diligently",
@@ -26711,7 +26711,7 @@ window.PQContextBank={
               "id": "W20-B07-Q04"
             },
             {
-              "prompt": "Ghép hình ảnh nhu cầu cuộc sống mở bằng Life’s needs.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Ai cũng bị các nhu cầu của cuộc sống đè nặng” trong đoạn. Bắt đầu bằng “Life’s needs”.",
               "tokens": [
                 "upon",
                 "only upon people who meditate.",
@@ -26752,7 +26752,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa quan hệ học hỏi: from khác about.",
+              "prompt": "Chọn bản sửa phân biệt đúng “learn from” với “learn about”.",
               "options": [
                 "We teach relatives to approve of every friend.",
                 "We learn the same lesson at exactly the same speed.",
@@ -26767,7 +26767,7 @@ window.PQContextBank={
               "id": "W20-B08-Q01"
             },
             {
-              "prompt": "Sửa việc đồng nhất cùng tiến bộ với cùng tốc độ.",
+              "prompt": "Chọn bản sửa không đồng nhất cùng tiến bộ với tiến bộ cùng tốc độ.",
               "options": [
                 "Friends prevent one another from developing different interests.",
                 "Good friends can learn and grow together.",
@@ -26782,7 +26782,7 @@ window.PQContextBank={
               "id": "W20-B08-Q02"
             },
             {
-              "prompt": "Sửa câu đã thay gia đình bằng bạn bè.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Bên cạnh những người thân trong gia đình” trong đoạn.",
               "options": [
                 "Besides our relatives, good friends also share our joys and sorrows.",
                 "Relatives become unnecessary once friendship is established.",
@@ -26797,7 +26797,7 @@ window.PQContextBank={
               "id": "W20-B08-Q03"
             },
             {
-              "prompt": "Sửa vai của lòng biết ơn trong câu cuối.",
+              "prompt": "Chọn bản sửa giữ đúng vai trò của lòng biết ơn trong câu cuối.",
               "options": [
                 "Our friends must value us before we can thank them.",
                 "We should value only the gratitude friends express.",
@@ -26812,7 +26812,7 @@ window.PQContextBank={
               "id": "W20-B08-Q04"
             },
             {
-              "prompt": "Sửa collocation “vượt qua khó khăn”.",
+              "prompt": "Chọn cách kết hợp từ tự nhiên để nói “vượt qua khó khăn”.",
               "options": [
                 "Friends help us through difficult times.",
                 "Friends carry difficulties away from our relatives.",
@@ -26948,7 +26948,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền phạm vi mà tác giả cảnh báo, không phủ định mọi mong muốn giải thoát.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ đi tìm sự giải thoát cho chính mình” trong ngữ cảnh.",
               "options": [
                 "while acknowledging suffering",
                 "for all sentient beings",
@@ -26968,7 +26968,7 @@ window.PQContextBank={
               "id": "W20-B10-Q01"
             },
             {
-              "prompt": "Điền trục diễn đạt “vòng lẩn quẩn”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vòng lẩn quẩn” trong ngữ cảnh.",
               "options": [
                 "a vicious circle",
                 "a temporary lack of information",
@@ -26988,7 +26988,7 @@ window.PQContextBank={
               "id": "W20-B10-Q02"
             },
             {
-              "prompt": "Điền hướng đối nghịch giữa mong muốn và kết quả.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không ngờ lại gieo nhân đau khổ” trong ngữ cảnh.",
               "options": [
                 "complete the path",
                 "prove it has no causes",
@@ -27008,7 +27008,7 @@ window.PQContextBank={
               "id": "W20-B10-Q03"
             },
             {
-              "prompt": "Điền lực khẳng định của câu “vĩnh viễn không bao giờ”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vĩnh viễn không bao giờ” trong ngữ cảnh.",
               "options": [
                 "will never",
                 "have not yet necessarily",
@@ -27028,7 +27028,7 @@ window.PQContextBank={
               "id": "W20-B10-Q04"
             },
             {
-              "prompt": "Điền cách trình bày câu chốt mà không thêm loại chứng cứ nguồn không có.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Thực tế đã chứng minh điều đó” trong ngữ cảnh.",
               "options": [
                 "a clinical trial has established the claim",
                 "all religious traditions have certified the statement",
@@ -27069,7 +27069,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu kết bắt đầu If và giữ điều kiện đạo đức của người thi hành.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu người thi hành luật pháp không có Đạo đức” trong đoạn. Bắt đầu bằng “If và giữ điều kiện đạo đức của người thi hành”.",
               "tokens": [
                 "the law",
                 "is therefore always unnecessary.",
@@ -27089,7 +27089,7 @@ window.PQContextBank={
               "id": "W20-B11-Q01"
             },
             {
-              "prompt": "Ghép câu giữ trình tự điều tra rồi chuyển hồ sơ.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “xử lý điều tra rồi chuyển qua Viện Kiểm sát” trong đoạn.",
               "tokens": [
                 "and refer the case",
                 "before any offense is alleged.",
@@ -27109,7 +27109,7 @@ window.PQContextBank={
               "id": "W20-B11-Q02"
             },
             {
-              "prompt": "Ghép cấu trúc so sánh bản án bắt đầu a sentence.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rất nhẹ so với tội danh” trong đoạn. Bắt đầu bằng “a sentence”.",
               "tokens": [
                 "than every judge prefers",
                 "a sentence",
@@ -27129,7 +27129,7 @@ window.PQContextBank={
               "id": "W20-B11-Q03"
             },
             {
-              "prompt": "Ghép tương phản bắt đầu Even if.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nếu các quan tòa được mua chuộc” trong đoạn. Bắt đầu bằng “Even if”.",
               "tokens": [
                 "Even if the police and procuracy",
                 "follow the law,",
@@ -27149,7 +27149,7 @@ window.PQContextBank={
               "id": "W20-B11-Q04"
             },
             {
-              "prompt": "Ghép cụm nói về vụ án bị chìm, bắt đầu a bribe.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vụ án rồi cũng chìm xuồng” trong đoạn. Bắt đầu bằng “a bribe”.",
               "tokens": [
                 "causes the case",
                 "establishes the offender’s innocence.",
@@ -27204,7 +27204,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa kết luận từ tính linh động.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “rất linh động, nhưng có nguyên tắc” trong đoạn.",
               "options": [
                 "Every outcome is random and unrelated to action.",
                 "The law is flexible yet governed by principles.",
@@ -27219,7 +27219,7 @@ window.PQContextBank={
               "id": "W20-B12-Q01"
             },
             {
-              "prompt": "Sửa điều kiện phản thực ở đầu đoạn.",
+              "prompt": "Chọn bản sửa giữ đúng giả định trái thực tế ở đầu đoạn.",
               "options": [
                 "If karma were rigidly fixed, every action would be predetermined.",
                 "Karma becomes flexible only after every action is fixed.",
@@ -27234,7 +27234,7 @@ window.PQContextBank={
               "id": "W20-B12-Q02"
             },
             {
-              "prompt": "Sửa quan hệ giữa hình thức và cường độ sự cố.",
+              "prompt": "Chọn bản sửa giữ đúng quan hệ giữa hình thức và cường độ của sự cố.",
               "options": [
                 "The form is fixed while intensity is irrelevant.",
                 "Only the victim’s opinion changes the past.",
@@ -27249,7 +27249,7 @@ window.PQContextBank={
               "id": "W20-B12-Q03"
             },
             {
-              "prompt": "Sửa cách dẫn từ Fuzzy Logic.",
+              "prompt": "Chọn bản sửa dẫn thuật ngữ “Fuzzy Logic” đúng cách tác giả sử dụng.",
               "options": [
                 "The author describes the law of karma as a kind of fuzzy logic.",
                 "Every karmic result can be calculated from these examples.",
@@ -27264,7 +27264,7 @@ window.PQContextBank={
               "id": "W20-B12-Q04"
             },
             {
-              "prompt": "Sửa chủ thể có quyền chọn nghiệp mới.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chúng sinh có thể có tự do chọn lựa” trong đoạn.",
               "options": [
                 "A future event can rewrite every past intention.",
                 "Sentient beings retain freedom to choose new karma.",
@@ -27319,7 +27319,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Cầu nguyện như một lời nhắc tu tập”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Cầu nguyện như một lời nhắc tu tập”?",
               "focus": "main idea",
               "evidence": "Mục đích cầu nguyện hay tụng kinh",
               "options": [
@@ -27333,7 +27333,7 @@ window.PQContextBank={
               "id": "W21-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Mục đích cầu nguyện hay tụng kinh",
               "options": [
@@ -27347,7 +27347,7 @@ window.PQContextBank={
               "id": "W21-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Mục đích cầu nguyện hay tụng kinh",
               "options": [
@@ -27375,7 +27375,7 @@ window.PQContextBank={
               "id": "W21-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Mục đích cầu nguyện hay tụng kinh",
               "options": [
@@ -27410,7 +27410,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Điều kiện để sự giúp đỡ có hướng đi”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai có tu dưỡng đạo đức” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "Ai có tu dưỡng đạo đức",
               "parts": [
@@ -27430,7 +27430,7 @@ window.PQContextBank={
               "id": "W21-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai có tu dưỡng đạo đức” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "Ai có tu dưỡng đạo đức",
               "parts": [
@@ -27450,7 +27450,7 @@ window.PQContextBank={
               "id": "W21-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai có tu dưỡng đạo đức” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "Ai có tu dưỡng đạo đức",
               "parts": [
@@ -27470,7 +27470,7 @@ window.PQContextBank={
               "id": "W21-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai có tu dưỡng đạo đức” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "Ai có tu dưỡng đạo đức",
               "parts": [
@@ -27490,7 +27490,7 @@ window.PQContextBank={
               "id": "W21-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “Ai có tu dưỡng đạo đức” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "Ai có tu dưỡng đạo đức",
               "parts": [
@@ -27531,7 +27531,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Công bằng và trách nhiệm đạo đức”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu sự cứu giúp của thần thánh là vô điều kiện” trong đoạn.",
               "focus": "main idea",
               "evidence": "Nếu sự cứu giúp của thần thánh là vô điều kiện",
               "tokens": [
@@ -27562,7 +27562,7 @@ window.PQContextBank={
               "id": "W21-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu sự cứu giúp của thần thánh là vô điều kiện” trong đoạn.",
               "focus": "scope",
               "evidence": "Nếu sự cứu giúp của thần thánh là vô điều kiện",
               "tokens": [
@@ -27592,7 +27592,7 @@ window.PQContextBank={
               "id": "W21-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu sự cứu giúp của thần thánh là vô điều kiện” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Nếu sự cứu giúp của thần thánh là vô điều kiện",
               "tokens": [
@@ -27622,7 +27622,7 @@ window.PQContextBank={
               "id": "W21-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu sự cứu giúp của thần thánh là vô điều kiện” trong đoạn.",
               "focus": "relation",
               "evidence": "Nếu sự cứu giúp của thần thánh là vô điều kiện",
               "tokens": [
@@ -27652,7 +27652,7 @@ window.PQContextBank={
               "id": "W21-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Nếu sự cứu giúp của thần thánh là vô điều kiện” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Nếu sự cứu giúp của thần thánh là vô điều kiện",
               "tokens": [
@@ -27703,7 +27703,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Cho tiền và trách nhiệm về kết quả”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta mang tội” trong đoạn.",
               "focus": "main idea",
               "evidence": "ta mang tội",
               "options": [
@@ -27718,7 +27718,7 @@ window.PQContextBank={
               "id": "W21-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta mang tội” trong đoạn.",
               "focus": "scope",
               "evidence": "ta mang tội",
               "options": [
@@ -27733,7 +27733,7 @@ window.PQContextBank={
               "id": "W21-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta mang tội” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "ta mang tội",
               "options": [
@@ -27748,7 +27748,7 @@ window.PQContextBank={
               "id": "W21-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta mang tội” trong đoạn.",
               "focus": "relation",
               "evidence": "ta mang tội",
               "options": [
@@ -27763,7 +27763,7 @@ window.PQContextBank={
               "id": "W21-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “ta mang tội” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "ta mang tội",
               "options": [
@@ -27799,7 +27799,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Sửa đường và tạo điều kiện tốt”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Sửa đường và tạo điều kiện tốt”?",
               "focus": "main idea",
               "evidence": "ta bỏ công lao, thời gian, tiền bạc",
               "options": [
@@ -27813,7 +27813,7 @@ window.PQContextBank={
               "id": "W21-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "ta bỏ công lao, thời gian, tiền bạc",
               "options": [
@@ -27827,7 +27827,7 @@ window.PQContextBank={
               "id": "W21-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "ta bỏ công lao, thời gian, tiền bạc",
               "options": [
@@ -27855,7 +27855,7 @@ window.PQContextBank={
               "id": "W21-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "ta bỏ công lao, thời gian, tiền bạc",
               "options": [
@@ -27890,7 +27890,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Giúp học sinh nghèo tiếp tục học”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “học trò nhà nghèo thiếu thốn sách vở” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "học trò nhà nghèo thiếu thốn sách vở",
               "parts": [
@@ -27910,7 +27910,7 @@ window.PQContextBank={
               "id": "W21-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “học trò nhà nghèo thiếu thốn sách vở” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "học trò nhà nghèo thiếu thốn sách vở",
               "parts": [
@@ -27930,7 +27930,7 @@ window.PQContextBank={
               "id": "W21-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “học trò nhà nghèo thiếu thốn sách vở” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "học trò nhà nghèo thiếu thốn sách vở",
               "parts": [
@@ -27950,7 +27950,7 @@ window.PQContextBank={
               "id": "W21-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “học trò nhà nghèo thiếu thốn sách vở” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "học trò nhà nghèo thiếu thốn sách vở",
               "parts": [
@@ -27970,7 +27970,7 @@ window.PQContextBank={
               "id": "W21-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “học trò nhà nghèo thiếu thốn sách vở” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "học trò nhà nghèo thiếu thốn sách vở",
               "parts": [
@@ -28011,7 +28011,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Lời nói có thể nối kết hoặc cô lập”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những lời kêu gọi mọi người yêu thương giúp đỡ nhau” trong đoạn.",
               "focus": "main idea",
               "evidence": "những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
               "tokens": [
@@ -28042,7 +28042,7 @@ window.PQContextBank={
               "id": "W21-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những lời kêu gọi mọi người yêu thương giúp đỡ nhau” trong đoạn.",
               "focus": "scope",
               "evidence": "những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
               "tokens": [
@@ -28072,7 +28072,7 @@ window.PQContextBank={
               "id": "W21-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những lời kêu gọi mọi người yêu thương giúp đỡ nhau” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
               "tokens": [
@@ -28102,7 +28102,7 @@ window.PQContextBank={
               "id": "W21-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những lời kêu gọi mọi người yêu thương giúp đỡ nhau” trong đoạn.",
               "focus": "relation",
               "evidence": "những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
               "tokens": [
@@ -28132,7 +28132,7 @@ window.PQContextBank={
               "id": "W21-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những lời kêu gọi mọi người yêu thương giúp đỡ nhau” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
               "tokens": [
@@ -28183,7 +28183,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Thái độ trước người tốt”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hay thán phục kính trọng người tốt” trong đoạn.",
               "focus": "main idea",
               "evidence": "hay thán phục kính trọng người tốt",
               "options": [
@@ -28198,7 +28198,7 @@ window.PQContextBank={
               "id": "W21-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hay thán phục kính trọng người tốt” trong đoạn.",
               "focus": "scope",
               "evidence": "hay thán phục kính trọng người tốt",
               "options": [
@@ -28213,7 +28213,7 @@ window.PQContextBank={
               "id": "W21-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hay thán phục kính trọng người tốt” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "hay thán phục kính trọng người tốt",
               "options": [
@@ -28228,7 +28228,7 @@ window.PQContextBank={
               "id": "W21-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hay thán phục kính trọng người tốt” trong đoạn.",
               "focus": "relation",
               "evidence": "hay thán phục kính trọng người tốt",
               "options": [
@@ -28243,7 +28243,7 @@ window.PQContextBank={
               "id": "W21-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “hay thán phục kính trọng người tốt” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "hay thán phục kính trọng người tốt",
               "options": [
@@ -28279,7 +28279,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Khiêm hạ thay cho kiêu mạn”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Khiêm hạ thay cho kiêu mạn”?",
               "focus": "main idea",
               "evidence": "ý nghĩ rằng mình cao quý",
               "options": [
@@ -28293,7 +28293,7 @@ window.PQContextBank={
               "id": "W21-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "ý nghĩ rằng mình cao quý",
               "options": [
@@ -28307,7 +28307,7 @@ window.PQContextBank={
               "id": "W21-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "ý nghĩ rằng mình cao quý",
               "options": [
@@ -28335,7 +28335,7 @@ window.PQContextBank={
               "id": "W21-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "ý nghĩ rằng mình cao quý",
               "options": [
@@ -28372,7 +28372,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Mắc nợ, thọ ơn và chia sẻ hiểu biết”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mắc nợ mà không trả được” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "mắc nợ mà không trả được",
               "parts": [
@@ -28392,7 +28392,7 @@ window.PQContextBank={
               "id": "W21-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mắc nợ mà không trả được” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "mắc nợ mà không trả được",
               "parts": [
@@ -28412,7 +28412,7 @@ window.PQContextBank={
               "id": "W21-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mắc nợ mà không trả được” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "mắc nợ mà không trả được",
               "parts": [
@@ -28432,7 +28432,7 @@ window.PQContextBank={
               "id": "W21-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mắc nợ mà không trả được” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "mắc nợ mà không trả được",
               "parts": [
@@ -28452,7 +28452,7 @@ window.PQContextBank={
               "id": "W21-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “mắc nợ mà không trả được” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "mắc nợ mà không trả được",
               "parts": [
@@ -28493,7 +28493,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tôn trọng khác biệt trong đối thoại”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đường lối tu hành là cả một hệ thống đạo lý lớn lao” trong đoạn.",
               "focus": "main idea",
               "evidence": "Đường lối tu hành là cả một hệ thống đạo lý lớn lao",
               "tokens": [
@@ -28522,7 +28522,7 @@ window.PQContextBank={
               "id": "W21-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đường lối tu hành là cả một hệ thống đạo lý lớn lao” trong đoạn.",
               "focus": "scope",
               "evidence": "Đường lối tu hành là cả một hệ thống đạo lý lớn lao",
               "tokens": [
@@ -28550,7 +28550,7 @@ window.PQContextBank={
               "id": "W21-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đường lối tu hành là cả một hệ thống đạo lý lớn lao” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Đường lối tu hành là cả một hệ thống đạo lý lớn lao",
               "tokens": [
@@ -28578,7 +28578,7 @@ window.PQContextBank={
               "id": "W21-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đường lối tu hành là cả một hệ thống đạo lý lớn lao” trong đoạn.",
               "focus": "relation",
               "evidence": "Đường lối tu hành là cả một hệ thống đạo lý lớn lao",
               "tokens": [
@@ -28606,7 +28606,7 @@ window.PQContextBank={
               "id": "W21-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Đường lối tu hành là cả một hệ thống đạo lý lớn lao” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Đường lối tu hành là cả một hệ thống đạo lý lớn lao",
               "tokens": [
@@ -28657,7 +28657,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tu đúng và kết quả của sự tu”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Các vị Thánh sẽ rất vui” trong đoạn.",
               "focus": "main idea",
               "evidence": "Các vị Thánh sẽ rất vui",
               "options": [
@@ -28672,7 +28672,7 @@ window.PQContextBank={
               "id": "W21-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Các vị Thánh sẽ rất vui” trong đoạn.",
               "focus": "scope",
               "evidence": "Các vị Thánh sẽ rất vui",
               "options": [
@@ -28687,7 +28687,7 @@ window.PQContextBank={
               "id": "W21-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Các vị Thánh sẽ rất vui” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Các vị Thánh sẽ rất vui",
               "options": [
@@ -28702,7 +28702,7 @@ window.PQContextBank={
               "id": "W21-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Các vị Thánh sẽ rất vui” trong đoạn.",
               "focus": "relation",
               "evidence": "Các vị Thánh sẽ rất vui",
               "options": [
@@ -28717,7 +28717,7 @@ window.PQContextBank={
               "id": "W21-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “Các vị Thánh sẽ rất vui” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Các vị Thánh sẽ rất vui",
               "options": [
@@ -28781,7 +28781,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng học thêm, không chê bỏ.",
+              "prompt": "Câu nào giữ đúng ý học thêm một tôn giáo mà không chê bỏ tôn giáo trước?",
               "options": [
                 "Learning more requires forgetting every previous belief.",
                 "A previous faith must publicly approve every new lesson.",
@@ -28837,7 +28837,7 @@ window.PQContextBank={
               "id": "W22-B01-Q04"
             },
             {
-              "prompt": "Cách dẫn lời nào không biến quan điểm của sách thành xác nhận cho mọi tổ chức hiện tại?",
+              "prompt": "Câu nào trình bày đây là quan điểm của tác giả, không khẳng định quy định của mọi tổ chức tôn giáo hiện nay?",
               "options": [
                 "The lesson certifies the legal terms of joining all religions.",
                 "All traditions officially share exactly the same doctrine.",
@@ -28884,7 +28884,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền lực của lời khuyên khi người lãnh đạo mở lòng.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ta có thể về trình lại” trong ngữ cảnh.",
               "options": [
                 "may",
                 "can never",
@@ -28904,7 +28904,7 @@ window.PQContextBank={
               "id": "W22-B02-Q01"
             },
             {
-              "prompt": "Điền phản ứng khi người kia chưa hoan hỷ.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “hãy đợi thêm thời gian” trong ngữ cảnh.",
               "options": [
                 "let us conceal every later choice forever",
                 "let us wait a little longer",
@@ -28924,7 +28924,7 @@ window.PQContextBank={
               "id": "W22-B02-Q02"
             },
             {
-              "prompt": "Điền mục đích của việc trình lại trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “tạo thêm tình cảm gắn bó giữa hai đạo” trong ngữ cảnh.",
               "options": [
                 "obtain identical doctrines from both groups",
                 "win an argument about the superior tradition",
@@ -28944,7 +28944,7 @@ window.PQContextBank={
               "id": "W22-B02-Q03"
             },
             {
-              "prompt": "Điền thuật ngữ quy y theo glossary.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “quy y Tam Bảo” trong ngữ cảnh.",
               "options": [
                 "the Threefold Knowledge",
                 "the Four Noble Fruits",
@@ -28964,7 +28964,7 @@ window.PQContextBank={
               "id": "W22-B02-Q04"
             },
             {
-              "prompt": "Điền động từ giữ hình ảnh các tôn giáo cùng đối thoại.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “ngồi lại với nhau” trong ngữ cảnh.",
               "options": [
                 "sit together",
                 "suspend every difference permanently",
@@ -29014,7 +29014,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép lời khuyên hiện tại, bắt đầu We must.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “tìm cách chung sống hòa bình” trong đoạn. Bắt đầu bằng “We must”.",
               "tokens": [
                 "only after every difference has vanished.",
                 "peacefully.",
@@ -29034,7 +29034,7 @@ window.PQContextBank={
               "id": "W22-B03-Q01"
             },
             {
-              "prompt": "Ghép đối chiếu tìm điểm chung, bắt đầu Find.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chứ đừng khai thác chỗ khác nhau” trong đoạn. Bắt đầu bằng “Find”.",
               "tokens": [
                 "to oppose one another.",
                 "because identical names prove identical beliefs.",
@@ -29054,7 +29054,7 @@ window.PQContextBank={
               "id": "W22-B03-Q02"
             },
             {
-              "prompt": "Ghép câu mở bằng Accept, giữ cùng tồn tại của khác biệt và tình thương.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chấp nhận tồn tại những cái khác nhau” trong đoạn. Bắt đầu bằng “Accept”.",
               "tokens": [
                 "only after agreeing on every ritual.",
                 "that differences exist",
@@ -29074,7 +29074,7 @@ window.PQContextBank={
               "id": "W22-B03-Q03"
             },
             {
-              "prompt": "Ghép câu nói về giới hạn ngôn ngữ bắt đầu Look.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vượt qua cái hữu hạn của ngôn ngữ” trong đoạn. Bắt đầu bằng “Look”.",
               "tokens": [
                 "the limits of language",
                 "to understand",
@@ -29094,7 +29094,7 @@ window.PQContextBank={
               "id": "W22-B03-Q04"
             },
             {
-              "prompt": "Ghép lời nguyện kết, mở bằng Let us.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cầu nguyện cho thế giới hòa bình” trong đoạn. Bắt đầu bằng “Let us”.",
               "tokens": [
                 "for the defeat of every other faith.",
                 "for world peace.",
@@ -29135,7 +29135,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa cách hiểu hai con đường loại trừ nhau.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “vừa tu Phước vừa tu Huệ” trong đoạn.",
               "options": [
                 "We must cultivate blessings and wisdom together.",
                 "We replace meditation with the pursuit of blessings.",
@@ -29150,7 +29150,7 @@ window.PQContextBank={
               "id": "W22-B04-Q01"
             },
             {
-              "prompt": "Sửa thuật ngữ Phước mà không lẫn công đức.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “tu Phước” trong đoạn.",
               "options": [
                 "the cultivation of reputation and cleverness",
                 "the cultivation of ritual and rank",
@@ -29165,7 +29165,7 @@ window.PQContextBank={
               "id": "W22-B04-Q02"
             },
             {
-              "prompt": "Sửa mục đích của thiền định và trí tuệ theo nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “để phá chấp ngã, phá vô minh” trong đoạn.",
               "options": [
                 "Wisdom allows ignorance to remain the final aim.",
                 "Meditation replaces every concern with liberation.",
@@ -29180,7 +29180,7 @@ window.PQContextBank={
               "id": "W22-B04-Q03"
             },
             {
-              "prompt": "Sửa “hai tên nhưng một lối” không làm mất sự phân biệt chức năng.",
+              "prompt": "Chọn bản sửa giữ ý “hai tên nhưng một lối” mà không xóa khác biệt về chức năng.",
               "options": [
                 "There is one way because all forms of practice are identical.",
                 "Though differently named, the two belong to one way to liberation.",
@@ -29195,7 +29195,7 @@ window.PQContextBank={
               "id": "W22-B04-Q04"
             },
             {
-              "prompt": "Sửa lực của câu “phải đi trên cả hai”.",
+              "prompt": "Chọn bản sửa giữ đúng yêu cầu phải đi trên cả hai con đường.",
               "options": [
                 "We must follow both in seeking liberation.",
                 "We may ignore both once we admire the Buddha.",
@@ -29259,7 +29259,7 @@ window.PQContextBank={
               "id": "W22-B05-Q02"
             },
             {
-              "prompt": "Câu nào giữ người cần kiểm soát tâm?",
+              "prompt": "Câu nào xác định đúng người cần tự kiểm soát tâm?",
               "options": [
                 "We must monitor every other person’s private thoughts.",
                 "We need only correct people who praise us.",
@@ -29322,7 +29322,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền để giữ phân biệt nhìn thấy lỗi với khinh người.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vẫn không khinh bỉ” trong ngữ cảnh.",
               "options": [
                 "does not mean",
                 "is enough to justify",
@@ -29342,7 +29342,7 @@ window.PQContextBank={
               "id": "W22-B06-Q01"
             },
             {
-              "prompt": "Điền mong muốn hướng về người khác.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “chỉ mong cho họ tốt lên” trong ngữ cảnh.",
               "options": [
                 "that others will admit inferiority first",
                 "that others will become better",
@@ -29362,7 +29362,7 @@ window.PQContextBank={
               "id": "W22-B06-Q02"
             },
             {
-              "prompt": "Điền cặp vai trò giữ đủ hình ảnh nguồn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “người cha, người thầy, người bạn lành” trong ngữ cảnh.",
               "options": [
                 "a ruler, or a wealthy patron",
                 "a judge, or a successful rival",
@@ -29382,7 +29382,7 @@ window.PQContextBank={
               "id": "W22-B06-Q03"
             },
             {
-              "prompt": "Điền mức chủ ý của lòng bao dung được mô tả.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “dù không muốn, không suy nghĩ” trong ngữ cảnh.",
               "options": [
                 "only during formal ceremonies",
                 "when the other person has no faults",
@@ -29402,7 +29402,7 @@ window.PQContextBank={
               "id": "W22-B06-Q04"
             },
             {
-              "prompt": "Điền phạm vi của câu “không bao giờ khinh miệt”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “không bao giờ khinh miệt người lầm lỗi” trong ngữ cảnh.",
               "options": [
                 "never despises",
                 "must first rank",
@@ -29443,7 +29443,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép câu bắt đầu We must và giữ mục tiêu cải hóa.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “cải hóa tâm hồn họ” trong đoạn. Bắt đầu bằng “We must và giữ mục tiêu cải hóa”.",
               "tokens": [
                 "and help them become",
                 "to enjoy the severity of their punishment.",
@@ -29463,7 +29463,7 @@ window.PQContextBank={
               "id": "W22-B07-Q01"
             },
             {
-              "prompt": "Ghép đối chiếu cảm xúc bắt đầu We feel.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “không thấy thấy hả hê” trong đoạn. Bắt đầu bằng “We feel”.",
               "tokens": [
                 "sorrow",
                 "We feel",
@@ -29483,7 +29483,7 @@ window.PQContextBank={
               "id": "W22-B07-Q02"
             },
             {
-              "prompt": "Ghép ý giữ cùng một con người qua thay đổi tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “vẫn đôi mắt, đôi tay khỏe mạnh” trong đoạn.",
               "tokens": [
                 "could become good",
                 "with the same eyes and strong hands,",
@@ -29503,7 +29503,7 @@ window.PQContextBank={
               "id": "W22-B07-Q03"
             },
             {
-              "prompt": "Ghép lời răn bắt đầu We must.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Tuyệt đối chúng ta không ghét ai cả” trong đoạn. Bắt đầu bằng “We must”.",
               "tokens": [
                 "no",
                 "except anyone who has sinned.",
@@ -29523,7 +29523,7 @@ window.PQContextBank={
               "id": "W22-B07-Q04"
             },
             {
-              "prompt": "Ghép cụm nguồn nói về nội tâm, bắt đầu seeds.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chủng tử của tội lỗi” trong đoạn. Bắt đầu bằng “seeds”.",
               "tokens": [
                 "their",
                 "a medical diagnosis established by this lesson",
@@ -29564,7 +29564,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa điều đoạn nói hình phạt chưa chạm đến.",
+              "prompt": "Chọn bản sửa nêu đúng điều mà hình phạt chưa tác động đến theo nguồn.",
               "options": [
                 "As long as the mind is unchanged, such measures address only the surface.",
                 "The passage says every prison sentence has no social purpose.",
@@ -29579,7 +29579,7 @@ window.PQContextBank={
               "id": "W22-B08-Q01"
             },
             {
-              "prompt": "Sửa “nắm cái ngọn” không dịch cây theo nghĩa đen.",
+              "prompt": "Chọn bản sửa giữ nghĩa bóng của ý “nắm cái ngọn”, không dịch thành bộ phận của cây.",
               "options": [
                 "The measures have already reached every root cause.",
                 "The authorities are teaching forestry in prison.",
@@ -29594,7 +29594,7 @@ window.PQContextBank={
               "id": "W22-B08-Q02"
             },
             {
-              "prompt": "Sửa đối tượng được dạy theo nguồn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “vào nhà tù để giảng Đạo cho tù nhân” trong đoạn.",
               "options": [
                 "Teachers enter prisons to teach inmates.",
                 "The teachers are imprisoned for giving Dharma talks.",
@@ -29609,7 +29609,7 @@ window.PQContextBank={
               "id": "W22-B08-Q03"
             },
             {
-              "prompt": "Sửa cách dẫn hiện trạng “chưa” theo thời điểm văn bản.",
+              "prompt": "Chọn bản sửa giữ đúng mức “chưa” ở thời điểm văn bản được viết.",
               "options": [
                 "The author presents a newly enacted law in this lesson.",
                 "The source says this had not yet been possible in the author’s country.",
@@ -29624,7 +29624,7 @@ window.PQContextBank={
               "id": "W22-B08-Q04"
             },
             {
-              "prompt": "Sửa hướng của đề xuất.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “nghĩ đến việc cải hóa Đạo đức cho phạm nhân” trong đoạn.",
               "options": [
                 "We must consider how to foster prisoners’ moral development.",
                 "We must assume every prisoner has already changed.",
@@ -29719,7 +29719,7 @@ window.PQContextBank={
               "id": "W22-B09-Q04"
             },
             {
-              "prompt": "Khi trình bày quan niệm các tôn giáo khác, cách nào giữ phạm vi nguồn?",
+              "prompt": "Câu nào giới hạn nhận định về tôn giáo khác đúng nhóm đối tượng mà nguồn đang bàn?",
               "options": [
                 "Every member of every other religion rejects all forms of selflessness.",
                 "All charities worldwide are proved to share one fixed worldview.",
@@ -29757,7 +29757,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Điền phạm vi tình thương ở câu mở.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “thậm chí yêu được từng chiếc lá” trong ngữ cảnh.",
               "options": [
                 "only people who share our beliefs",
                 "every person except our opponents",
@@ -29777,7 +29777,7 @@ window.PQContextBank={
               "id": "W22-B10-Q01"
             },
             {
-              "prompt": "Điền collocation bảo vệ môi trường sống.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “môi trường sống cho vạn loài” trong ngữ cảnh.",
               "options": [
                 "the ownership of every natural resource",
                 "the popularity of their own group",
@@ -29797,7 +29797,7 @@ window.PQContextBank={
               "id": "W22-B10-Q02"
             },
             {
-              "prompt": "Điền hành động, giữ tính chủ động.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “luôn tích cực tham gia làm sạch” trong ngữ cảnh.",
               "options": [
                 "only discuss whether they might",
                 "avoid joining others who",
@@ -29817,7 +29817,7 @@ window.PQContextBank={
               "id": "W22-B10-Q03"
             },
             {
-              "prompt": "Điền quan hệ nêu mục đích ở câu cuối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “để hành tinh này là nơi tốt đẹp” trong ngữ cảnh.",
               "options": [
                 "so that",
                 "as if it were already guaranteed that",
@@ -29837,7 +29837,7 @@ window.PQContextBank={
               "id": "W22-B10-Q04"
             },
             {
-              "prompt": "Điền cách sống chung được nhắm đến.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cùng nhau vui sống” trong ngữ cảnh.",
               "options": [
                 "adopt identical customs immediately",
                 "live apart without any interaction",
@@ -29903,7 +29903,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Ghép hình ảnh phát triển bắt đầu The circle.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “đối tượng để thương yêu đã rộng lớn dần” trong đoạn. Bắt đầu bằng “The circle”.",
               "tokens": [
                 "wider.",
                 "only by excluding the family.",
@@ -29923,7 +29923,7 @@ window.PQContextBank={
               "id": "W22-B11-Q01"
             },
             {
-              "prompt": "Ghép mục đích rèn luyện bản thân mở bằng We train.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “rèn luyện bản thân để có khả năng cống hiến” trong đoạn. Bắt đầu bằng “We train”.",
               "tokens": [
                 "so that the world must admire us.",
                 "so that we can",
@@ -29943,7 +29943,7 @@ window.PQContextBank={
               "id": "W22-B11-Q02"
             },
             {
-              "prompt": "Ghép phân biệt mở bằng Self-development.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chứ không phải thương yêu bản thân mình” trong đoạn. Bắt đầu bằng “Self-development”.",
               "tokens": [
                 "for the sake of contribution",
                 "is not the same as",
@@ -29963,7 +29963,7 @@ window.PQContextBank={
               "id": "W22-B11-Q03"
             },
             {
-              "prompt": "Ghép hai nấc liền nhau theo danh sách, mở bằng from colleagues.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Thương yêu đồng nghiệp, đồng đội” trong đoạn. Bắt đầu bằng “from colleagues”.",
               "tokens": [
                 "back to ourselves alone as the final aim",
                 "and humanity",
@@ -29983,7 +29983,7 @@ window.PQContextBank={
               "id": "W22-B11-Q04"
             },
             {
-              "prompt": "Ghép câu về các nấc sau, mở bằng The later levels.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “những mức độ sau thì là dấu hiệu đạo đức tăng lên” trong đoạn. Bắt đầu bằng “The later levels”.",
               "tokens": [
                 "deserve praise",
                 "have become more inclusive.",
@@ -30036,7 +30036,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Sửa từ có thể thành một nguyên nhân chắc chắn duy nhất.",
+              "prompt": "Chọn bản sửa không biến một nguyên nhân có thể có thành nguyên nhân duy nhất và chắc chắn.",
               "options": [
                 "Poverty has one cause that every observer can identify.",
                 "The lesson proves a person’s past life from their income.",
@@ -30051,7 +30051,7 @@ window.PQContextBank={
               "id": "W22-B12-Q01"
             },
             {
-              "prompt": "Sửa điều kiện đợi khá giả mới giúp.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “chứ không thể nói rằng đợi đến khi khá giả” trong đoạn.",
               "options": [
                 "The passage urges helping others even while we are poor.",
                 "Helping others is postponed until every personal need is met.",
@@ -30066,7 +30066,7 @@ window.PQContextBank={
               "id": "W22-B12-Q02"
             },
             {
-              "prompt": "Sửa cảm xúc tác giả hướng về người bị đói thúc ép.",
+              "prompt": "Chọn bản sửa giữ đúng thái độ của tác giả đối với người bị cơn đói thúc ép.",
               "options": [
                 "Their hardship is a sign that relief should never be offered.",
                 "The passage describes their predicament as deeply pitiable.",
@@ -30081,7 +30081,7 @@ window.PQContextBank={
               "id": "W22-B12-Q03"
             },
             {
-              "prompt": "Sửa lời quy nguồn của lời giải thích nghèo khó.",
+              "prompt": "Chọn bản sửa quy lời giải thích nghèo khó cho nguồn, không coi là kết luận đã được bài học kiểm chứng.",
               "options": [
                 "The passage is an official assessment of household income.",
                 "The lesson has independently verified each person’s previous life.",
@@ -30096,7 +30096,7 @@ window.PQContextBank={
               "id": "W22-B12-Q04"
             },
             {
-              "prompt": "Sửa sự khác biệt cứu trợ tạm thời và vấn đề nguồn gọi là nghiệp.",
+              "prompt": "Chọn bản sửa phân biệt đúng cứu trợ trước mắt với vấn đề được nguồn gọi là nghiệp.",
               "options": [
                 "Relief is said to remove every future hardship immediately.",
                 "The karma of poverty means the donor’s lack of kindness.",
@@ -30152,7 +30152,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Pháp như những viên ngọc”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Pháp như những viên ngọc”?",
               "focus": "main idea",
               "evidence": "giống như vô số ngọc ngà",
               "options": [
@@ -30166,7 +30166,7 @@ window.PQContextBank={
               "id": "W23-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "giống như vô số ngọc ngà",
               "options": [
@@ -30180,7 +30180,7 @@ window.PQContextBank={
               "id": "W23-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "giống như vô số ngọc ngà",
               "options": [
@@ -30208,7 +30208,7 @@ window.PQContextBank={
               "id": "W23-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "giống như vô số ngọc ngà",
               "options": [
@@ -30243,7 +30243,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Thời gian như một điểm”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cũng như là đồng thời” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "cũng như là đồng thời",
               "parts": [
@@ -30263,7 +30263,7 @@ window.PQContextBank={
               "id": "W23-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cũng như là đồng thời” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "cũng như là đồng thời",
               "parts": [
@@ -30283,7 +30283,7 @@ window.PQContextBank={
               "id": "W23-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cũng như là đồng thời” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "cũng như là đồng thời",
               "parts": [
@@ -30303,7 +30303,7 @@ window.PQContextBank={
               "id": "W23-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cũng như là đồng thời” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "cũng như là đồng thời",
               "parts": [
@@ -30323,7 +30323,7 @@ window.PQContextBank={
               "id": "W23-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cũng như là đồng thời” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "cũng như là đồng thời",
               "parts": [
@@ -30364,7 +30364,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Lời chê có thể quay lại chính mình”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chê ai cái gì, chúng ta sẽ giống như thế” trong đoạn.",
               "focus": "main idea",
               "evidence": "Chê ai cái gì, chúng ta sẽ giống như thế",
               "tokens": [
@@ -30399,7 +30399,7 @@ window.PQContextBank={
               "id": "W23-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chê ai cái gì, chúng ta sẽ giống như thế” trong đoạn.",
               "focus": "scope",
               "evidence": "Chê ai cái gì, chúng ta sẽ giống như thế",
               "tokens": [
@@ -30433,7 +30433,7 @@ window.PQContextBank={
               "id": "W23-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chê ai cái gì, chúng ta sẽ giống như thế” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "Chê ai cái gì, chúng ta sẽ giống như thế",
               "tokens": [
@@ -30467,7 +30467,7 @@ window.PQContextBank={
               "id": "W23-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chê ai cái gì, chúng ta sẽ giống như thế” trong đoạn.",
               "focus": "relation",
               "evidence": "Chê ai cái gì, chúng ta sẽ giống như thế",
               "tokens": [
@@ -30501,7 +30501,7 @@ window.PQContextBank={
               "id": "W23-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “Chê ai cái gì, chúng ta sẽ giống như thế” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "Chê ai cái gì, chúng ta sẽ giống như thế",
               "tokens": [
@@ -30556,7 +30556,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Xin cơ hội gieo nhân”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cầu cho có cơ hội để giúp người” trong đoạn.",
               "focus": "main idea",
               "evidence": "cầu cho có cơ hội để giúp người",
               "options": [
@@ -30571,7 +30571,7 @@ window.PQContextBank={
               "id": "W23-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cầu cho có cơ hội để giúp người” trong đoạn.",
               "focus": "scope",
               "evidence": "cầu cho có cơ hội để giúp người",
               "options": [
@@ -30586,7 +30586,7 @@ window.PQContextBank={
               "id": "W23-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cầu cho có cơ hội để giúp người” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "cầu cho có cơ hội để giúp người",
               "options": [
@@ -30601,7 +30601,7 @@ window.PQContextBank={
               "id": "W23-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cầu cho có cơ hội để giúp người” trong đoạn.",
               "focus": "relation",
               "evidence": "cầu cho có cơ hội để giúp người",
               "options": [
@@ -30616,7 +30616,7 @@ window.PQContextBank={
               "id": "W23-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cầu cho có cơ hội để giúp người” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "cầu cho có cơ hội để giúp người",
               "options": [
@@ -30652,7 +30652,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hai cánh của đời sống tu sĩ”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Hai cánh của đời sống tu sĩ”?",
               "focus": "main idea",
               "evidence": "không được thiên lệch bên nào",
               "options": [
@@ -30666,7 +30666,7 @@ window.PQContextBank={
               "id": "W23-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "không được thiên lệch bên nào",
               "options": [
@@ -30680,7 +30680,7 @@ window.PQContextBank={
               "id": "W23-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "không được thiên lệch bên nào",
               "options": [
@@ -30708,7 +30708,7 @@ window.PQContextBank={
               "id": "W23-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "không được thiên lệch bên nào",
               "options": [
@@ -30743,7 +30743,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Lãng phí thời gian như lãng phí cơm áo”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác",
               "parts": [
@@ -30763,7 +30763,7 @@ window.PQContextBank={
               "id": "W23-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác",
               "parts": [
@@ -30783,7 +30783,7 @@ window.PQContextBank={
               "id": "W23-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác",
               "parts": [
@@ -30803,7 +30803,7 @@ window.PQContextBank={
               "id": "W23-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác",
               "parts": [
@@ -30823,7 +30823,7 @@ window.PQContextBank={
               "id": "W23-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "giống như chúng ta đã phí phạm đổ bát cơm vào thùng rác",
               "parts": [
@@ -30864,7 +30864,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Từ bi và thiền định cùng nâng đỡ nhau”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như thiền định” trong đoạn.",
               "focus": "main idea",
               "evidence": "giống như thiền định",
               "tokens": [
@@ -30895,7 +30895,7 @@ window.PQContextBank={
               "id": "W23-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như thiền định” trong đoạn.",
               "focus": "scope",
               "evidence": "giống như thiền định",
               "tokens": [
@@ -30925,7 +30925,7 @@ window.PQContextBank={
               "id": "W23-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như thiền định” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "giống như thiền định",
               "tokens": [
@@ -30955,7 +30955,7 @@ window.PQContextBank={
               "id": "W23-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như thiền định” trong đoạn.",
               "focus": "relation",
               "evidence": "giống như thiền định",
               "tokens": [
@@ -30985,7 +30985,7 @@ window.PQContextBank={
               "id": "W23-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như thiền định” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "giống như thiền định",
               "tokens": [
@@ -31036,7 +31036,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hư vô nhưng không phải phủ nhận tất cả”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng như mọi chúng sinh khác” trong đoạn.",
               "focus": "main idea",
               "evidence": "cũng như mọi chúng sinh khác",
               "options": [
@@ -31051,7 +31051,7 @@ window.PQContextBank={
               "id": "W23-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng như mọi chúng sinh khác” trong đoạn.",
               "focus": "scope",
               "evidence": "cũng như mọi chúng sinh khác",
               "options": [
@@ -31066,7 +31066,7 @@ window.PQContextBank={
               "id": "W23-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng như mọi chúng sinh khác” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "cũng như mọi chúng sinh khác",
               "options": [
@@ -31081,7 +31081,7 @@ window.PQContextBank={
               "id": "W23-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng như mọi chúng sinh khác” trong đoạn.",
               "focus": "relation",
               "evidence": "cũng như mọi chúng sinh khác",
               "options": [
@@ -31096,7 +31096,7 @@ window.PQContextBank={
               "id": "W23-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “cũng như mọi chúng sinh khác” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "cũng như mọi chúng sinh khác",
               "options": [
@@ -31132,7 +31132,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Một câu chuyện về tình yêu và tìm kiếm”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Một câu chuyện về tình yêu và tìm kiếm”?",
               "focus": "main idea",
               "evidence": "giống như dĩa bay UFO",
               "options": [
@@ -31146,7 +31146,7 @@ window.PQContextBank={
               "id": "W23-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "giống như dĩa bay UFO",
               "options": [
@@ -31160,7 +31160,7 @@ window.PQContextBank={
               "id": "W23-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "giống như dĩa bay UFO",
               "options": [
@@ -31188,7 +31188,7 @@ window.PQContextBank={
               "id": "W23-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "giống như dĩa bay UFO",
               "options": [
@@ -31223,7 +31223,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Câu chuyện tiền thân như một minh họa”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như các tội nhân khác” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "giống như các tội nhân khác",
               "parts": [
@@ -31243,7 +31243,7 @@ window.PQContextBank={
               "id": "W23-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như các tội nhân khác” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "giống như các tội nhân khác",
               "parts": [
@@ -31263,7 +31263,7 @@ window.PQContextBank={
               "id": "W23-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như các tội nhân khác” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "giống như các tội nhân khác",
               "parts": [
@@ -31283,7 +31283,7 @@ window.PQContextBank={
               "id": "W23-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như các tội nhân khác” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "giống như các tội nhân khác",
               "parts": [
@@ -31303,7 +31303,7 @@ window.PQContextBank={
               "id": "W23-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “giống như các tội nhân khác” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "giống như các tội nhân khác",
               "parts": [
@@ -31344,7 +31344,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Ba tâm hạnh như ba chân kiềng”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như 3 chân kiềng” trong đoạn.",
               "focus": "main idea",
               "evidence": "giống như 3 chân kiềng",
               "tokens": [
@@ -31377,7 +31377,7 @@ window.PQContextBank={
               "id": "W23-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như 3 chân kiềng” trong đoạn.",
               "focus": "scope",
               "evidence": "giống như 3 chân kiềng",
               "tokens": [
@@ -31409,7 +31409,7 @@ window.PQContextBank={
               "id": "W23-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như 3 chân kiềng” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "giống như 3 chân kiềng",
               "tokens": [
@@ -31441,7 +31441,7 @@ window.PQContextBank={
               "id": "W23-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như 3 chân kiềng” trong đoạn.",
               "focus": "relation",
               "evidence": "giống như 3 chân kiềng",
               "tokens": [
@@ -31473,7 +31473,7 @@ window.PQContextBank={
               "id": "W23-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giống như 3 chân kiềng” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "giống như 3 chân kiềng",
               "tokens": [
@@ -31526,7 +31526,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Khiêm hạ như một vùng trũng”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giống như cái trũng sâu” trong đoạn.",
               "focus": "main idea",
               "evidence": "giống như cái trũng sâu",
               "options": [
@@ -31541,7 +31541,7 @@ window.PQContextBank={
               "id": "W23-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giống như cái trũng sâu” trong đoạn.",
               "focus": "scope",
               "evidence": "giống như cái trũng sâu",
               "options": [
@@ -31556,7 +31556,7 @@ window.PQContextBank={
               "id": "W23-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giống như cái trũng sâu” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "giống như cái trũng sâu",
               "options": [
@@ -31571,7 +31571,7 @@ window.PQContextBank={
               "id": "W23-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giống như cái trũng sâu” trong đoạn.",
               "focus": "relation",
               "evidence": "giống như cái trũng sâu",
               "options": [
@@ -31586,7 +31586,7 @@ window.PQContextBank={
               "id": "W23-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “giống như cái trũng sâu” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "giống như cái trũng sâu",
               "options": [
@@ -31640,7 +31640,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Hiểu người xưa cần hiểu năng lực của họ”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Hiểu người xưa cần hiểu năng lực của họ”?",
               "focus": "main idea",
               "evidence": "phải cực kỳ thông minh",
               "options": [
@@ -31654,7 +31654,7 @@ window.PQContextBank={
               "id": "W24-B01-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "phải cực kỳ thông minh",
               "options": [
@@ -31668,7 +31668,7 @@ window.PQContextBank={
               "id": "W24-B01-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "phải cực kỳ thông minh",
               "options": [
@@ -31696,7 +31696,7 @@ window.PQContextBank={
               "id": "W24-B01-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "phải cực kỳ thông minh",
               "options": [
@@ -31731,7 +31731,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Vô ngã như trở thành toàn thể”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vô ngã tức là trở thành toàn thể vũ trụ” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "vô ngã tức là trở thành toàn thể vũ trụ",
               "parts": [
@@ -31751,7 +31751,7 @@ window.PQContextBank={
               "id": "W24-B02-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vô ngã tức là trở thành toàn thể vũ trụ” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "vô ngã tức là trở thành toàn thể vũ trụ",
               "parts": [
@@ -31771,7 +31771,7 @@ window.PQContextBank={
               "id": "W24-B02-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vô ngã tức là trở thành toàn thể vũ trụ” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "vô ngã tức là trở thành toàn thể vũ trụ",
               "parts": [
@@ -31791,7 +31791,7 @@ window.PQContextBank={
               "id": "W24-B02-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vô ngã tức là trở thành toàn thể vũ trụ” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "vô ngã tức là trở thành toàn thể vũ trụ",
               "parts": [
@@ -31811,7 +31811,7 @@ window.PQContextBank={
               "id": "W24-B02-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “vô ngã tức là trở thành toàn thể vũ trụ” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "vô ngã tức là trở thành toàn thể vũ trụ",
               "parts": [
@@ -31852,7 +31852,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Đánh giá pháp môn bằng phẩm chất”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp chúng ta khiêm hạ hay không” trong đoạn.",
               "focus": "main idea",
               "evidence": "giúp chúng ta khiêm hạ hay không",
               "tokens": [
@@ -31891,7 +31891,7 @@ window.PQContextBank={
               "id": "W24-B03-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp chúng ta khiêm hạ hay không” trong đoạn.",
               "focus": "scope",
               "evidence": "giúp chúng ta khiêm hạ hay không",
               "tokens": [
@@ -31929,7 +31929,7 @@ window.PQContextBank={
               "id": "W24-B03-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp chúng ta khiêm hạ hay không” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "giúp chúng ta khiêm hạ hay không",
               "tokens": [
@@ -31967,7 +31967,7 @@ window.PQContextBank={
               "id": "W24-B03-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp chúng ta khiêm hạ hay không” trong đoạn.",
               "focus": "relation",
               "evidence": "giúp chúng ta khiêm hạ hay không",
               "tokens": [
@@ -32005,7 +32005,7 @@ window.PQContextBank={
               "id": "W24-B03-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “giúp chúng ta khiêm hạ hay không” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "giúp chúng ta khiêm hạ hay không",
               "tokens": [
@@ -32064,7 +32064,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Sửa lỗi để bảo vệ Phật pháp”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sửa chữa và vượt qua” trong đoạn.",
               "focus": "main idea",
               "evidence": "biết sửa chữa và vượt qua",
               "options": [
@@ -32079,7 +32079,7 @@ window.PQContextBank={
               "id": "W24-B04-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sửa chữa và vượt qua” trong đoạn.",
               "focus": "scope",
               "evidence": "biết sửa chữa và vượt qua",
               "options": [
@@ -32094,7 +32094,7 @@ window.PQContextBank={
               "id": "W24-B04-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sửa chữa và vượt qua” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "biết sửa chữa và vượt qua",
               "options": [
@@ -32109,7 +32109,7 @@ window.PQContextBank={
               "id": "W24-B04-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sửa chữa và vượt qua” trong đoạn.",
               "focus": "relation",
               "evidence": "biết sửa chữa và vượt qua",
               "options": [
@@ -32124,7 +32124,7 @@ window.PQContextBank={
               "id": "W24-B04-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “biết sửa chữa và vượt qua” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "biết sửa chữa và vượt qua",
               "options": [
@@ -32160,7 +32160,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Một lớp học được chăm sóc như mái nhà”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Một lớp học được chăm sóc như mái nhà”?",
               "focus": "main idea",
               "evidence": "Lớp học cũng giống như cái nhà của mình",
               "options": [
@@ -32174,7 +32174,7 @@ window.PQContextBank={
               "id": "W24-B05-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Lớp học cũng giống như cái nhà của mình",
               "options": [
@@ -32188,7 +32188,7 @@ window.PQContextBank={
               "id": "W24-B05-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Lớp học cũng giống như cái nhà của mình",
               "options": [
@@ -32216,7 +32216,7 @@ window.PQContextBank={
               "id": "W24-B05-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Lớp học cũng giống như cái nhà của mình",
               "options": [
@@ -32251,7 +32251,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Ý kiến bị chạm như tài sản bị cướp”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cướp lời cũng như cướp của” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "cướp lời cũng như cướp của",
               "parts": [
@@ -32271,7 +32271,7 @@ window.PQContextBank={
               "id": "W24-B06-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cướp lời cũng như cướp của” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "cướp lời cũng như cướp của",
               "parts": [
@@ -32291,7 +32291,7 @@ window.PQContextBank={
               "id": "W24-B06-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cướp lời cũng như cướp của” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "cướp lời cũng như cướp của",
               "parts": [
@@ -32311,7 +32311,7 @@ window.PQContextBank={
               "id": "W24-B06-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cướp lời cũng như cướp của” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "cướp lời cũng như cướp của",
               "parts": [
@@ -32331,7 +32331,7 @@ window.PQContextBank={
               "id": "W24-B06-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “cướp lời cũng như cướp của” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "cướp lời cũng như cướp của",
               "parts": [
@@ -32372,7 +32372,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Khoa học và thái độ tìm sự thật”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuộng sự thật, đi tìm sự thật” trong đoạn.",
               "focus": "main idea",
               "evidence": "chuộng sự thật, đi tìm sự thật",
               "tokens": [
@@ -32405,7 +32405,7 @@ window.PQContextBank={
               "id": "W24-B07-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuộng sự thật, đi tìm sự thật” trong đoạn.",
               "focus": "scope",
               "evidence": "chuộng sự thật, đi tìm sự thật",
               "tokens": [
@@ -32437,7 +32437,7 @@ window.PQContextBank={
               "id": "W24-B07-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuộng sự thật, đi tìm sự thật” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "chuộng sự thật, đi tìm sự thật",
               "tokens": [
@@ -32469,7 +32469,7 @@ window.PQContextBank={
               "id": "W24-B07-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuộng sự thật, đi tìm sự thật” trong đoạn.",
               "focus": "relation",
               "evidence": "chuộng sự thật, đi tìm sự thật",
               "tokens": [
@@ -32501,7 +32501,7 @@ window.PQContextBank={
               "id": "W24-B07-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “chuộng sự thật, đi tìm sự thật” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "chuộng sự thật, đi tìm sự thật",
               "tokens": [
@@ -32556,7 +32556,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Công bằng thay cho thiên vị”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có nhiều lý do để đối xử thiên vị” trong đoạn.",
               "focus": "main idea",
               "evidence": "có nhiều lý do để đối xử thiên vị",
               "options": [
@@ -32571,7 +32571,7 @@ window.PQContextBank={
               "id": "W24-B08-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có nhiều lý do để đối xử thiên vị” trong đoạn.",
               "focus": "scope",
               "evidence": "có nhiều lý do để đối xử thiên vị",
               "options": [
@@ -32586,7 +32586,7 @@ window.PQContextBank={
               "id": "W24-B08-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có nhiều lý do để đối xử thiên vị” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "có nhiều lý do để đối xử thiên vị",
               "options": [
@@ -32601,7 +32601,7 @@ window.PQContextBank={
               "id": "W24-B08-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có nhiều lý do để đối xử thiên vị” trong đoạn.",
               "focus": "relation",
               "evidence": "có nhiều lý do để đối xử thiên vị",
               "options": [
@@ -32616,7 +32616,7 @@ window.PQContextBank={
               "id": "W24-B08-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “có nhiều lý do để đối xử thiên vị” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "có nhiều lý do để đối xử thiên vị",
               "options": [
@@ -32652,7 +32652,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Tuần huấn nhục và sức chịu đựng”.",
+              "prompt": "Câu nào diễn đạt đúng ý chính của đoạn “Tuần huấn nhục và sức chịu đựng”?",
               "focus": "main idea",
               "evidence": "Họ rèn luyện cho con người sức chịu đựng",
               "options": [
@@ -32666,7 +32666,7 @@ window.PQContextBank={
               "id": "W24-B09-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Câu nào giữ đúng mức khẳng định của nguồn, không tự thêm kết luận?",
               "focus": "scope",
               "evidence": "Họ rèn luyện cho con người sức chịu đựng",
               "options": [
@@ -32680,7 +32680,7 @@ window.PQContextBank={
               "id": "W24-B09-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Câu nào xác định đúng chủ thể và diễn đạt đúng hành động theo đoạn nguồn?",
               "focus": "subject and central verb",
               "evidence": "Họ rèn luyện cho con người sức chịu đựng",
               "options": [
@@ -32708,7 +32708,7 @@ window.PQContextBank={
               "id": "W24-B09-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Câu nào diễn đạt đúng ý đoạn nguồn bằng tiếng Anh phù hợp với ngữ cảnh?",
               "focus": "register and collocation",
               "evidence": "Họ rèn luyện cho con người sức chịu đựng",
               "options": [
@@ -32743,7 +32743,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Ít tham muốn và nhẹ ngã chấp”.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng nhẹ nhàng như mây, như gió” trong ngữ cảnh.",
               "focus": "main idea",
               "evidence": "lòng nhẹ nhàng như mây, như gió",
               "parts": [
@@ -32763,7 +32763,7 @@ window.PQContextBank={
               "id": "W24-B10-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng nhẹ nhàng như mây, như gió” trong ngữ cảnh.",
               "focus": "scope",
               "evidence": "lòng nhẹ nhàng như mây, như gió",
               "parts": [
@@ -32783,7 +32783,7 @@ window.PQContextBank={
               "id": "W24-B10-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng nhẹ nhàng như mây, như gió” trong ngữ cảnh.",
               "focus": "subject and central verb",
               "evidence": "lòng nhẹ nhàng như mây, như gió",
               "parts": [
@@ -32803,7 +32803,7 @@ window.PQContextBank={
               "id": "W24-B10-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng nhẹ nhàng như mây, như gió” trong ngữ cảnh.",
               "focus": "relation",
               "evidence": "lòng nhẹ nhàng như mây, như gió",
               "parts": [
@@ -32823,7 +32823,7 @@ window.PQContextBank={
               "id": "W24-B10-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn từ hoặc cụm từ điền vào chỗ trống để diễn đạt đúng ý “lòng nhẹ nhàng như mây, như gió” trong ngữ cảnh.",
               "focus": "register and collocation",
               "evidence": "lòng nhẹ nhàng như mây, như gió",
               "parts": [
@@ -32864,7 +32864,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhường nhịn như gieo duyên lành”.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhường nhịn làm cho người ta quý mến” trong đoạn.",
               "focus": "main idea",
               "evidence": "nhường nhịn làm cho người ta quý mến",
               "tokens": [
@@ -32891,7 +32891,7 @@ window.PQContextBank={
               "id": "W24-B11-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhường nhịn làm cho người ta quý mến” trong đoạn.",
               "focus": "scope",
               "evidence": "nhường nhịn làm cho người ta quý mến",
               "tokens": [
@@ -32917,7 +32917,7 @@ window.PQContextBank={
               "id": "W24-B11-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhường nhịn làm cho người ta quý mến” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "nhường nhịn làm cho người ta quý mến",
               "tokens": [
@@ -32943,7 +32943,7 @@ window.PQContextBank={
               "id": "W24-B11-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhường nhịn làm cho người ta quý mến” trong đoạn.",
               "focus": "relation",
               "evidence": "nhường nhịn làm cho người ta quý mến",
               "tokens": [
@@ -32969,7 +32969,7 @@ window.PQContextBank={
               "id": "W24-B11-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Sắp xếp các mảnh thành câu hoặc cụm tiếng Anh diễn đạt ý “nhường nhịn làm cho người ta quý mến” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "nhường nhịn làm cho người ta quý mến",
               "tokens": [
@@ -33016,7 +33016,7 @@ window.PQContextBank={
           ],
           "questions": [
             {
-              "prompt": "Chọn câu giữ đúng trọng tâm đoạn “Nhường nhịn cần trí phán đoán”.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải dùng trí tuệ phán đoán khi nào nên nhường nhịn” trong đoạn.",
               "focus": "main idea",
               "evidence": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn",
               "options": [
@@ -33031,7 +33031,7 @@ window.PQContextBank={
               "id": "W24-B12-Q01"
             },
             {
-              "prompt": "Chọn câu không biến một dấu hiệu hoặc khả năng thành kết luận tuyệt đối.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải dùng trí tuệ phán đoán khi nào nên nhường nhịn” trong đoạn.",
               "focus": "scope",
               "evidence": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn",
               "options": [
@@ -33046,7 +33046,7 @@ window.PQContextBank={
               "id": "W24-B12-Q02"
             },
             {
-              "prompt": "Chọn cách giữ đúng chủ thể và động từ trung tâm.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải dùng trí tuệ phán đoán khi nào nên nhường nhịn” trong đoạn.",
               "focus": "subject and central verb",
               "evidence": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn",
               "options": [
@@ -33061,7 +33061,7 @@ window.PQContextBank={
               "id": "W24-B12-Q03"
             },
             {
-              "prompt": "Chọn bản dịch giữ đúng quan hệ logic trong đoạn.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải dùng trí tuệ phán đoán khi nào nên nhường nhịn” trong đoạn.",
               "focus": "relation",
               "evidence": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn",
               "options": [
@@ -33076,7 +33076,7 @@ window.PQContextBank={
               "id": "W24-B12-Q04"
             },
             {
-              "prompt": "Chọn câu có register và collocation phù hợp với văn giải thích giáo lý.",
+              "prompt": "Chọn bản sửa câu bên dưới sao cho giữ đúng ý “phải dùng trí tuệ phán đoán khi nào nên nhường nhịn” trong đoạn.",
               "focus": "register and collocation",
               "evidence": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn",
               "options": [
