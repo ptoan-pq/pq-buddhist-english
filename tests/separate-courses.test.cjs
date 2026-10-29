@@ -8,12 +8,12 @@ test('Two independent programs expose unchanged topics, a new advanced verb cour
   assert.equal(new Set(all.map(c=>c.programId)).size,2);
   assert.equal(new Set(all.map(c=>P.key(c))).size,all.length);
   assert.equal(topics.flatMap(c=>c.sets.flatMap(s=>s.items)).length,1440);
-  assert.equal(verbs.sets.length,288);assert.equal(archive.archive,true);
-  assert.equal(verbs.sets.flatMap(s=>s.items).length,1452);
+  assert.equal(verbs.sets.length,300);assert.equal(archive.archive,true);
+  assert.equal(verbs.sets.flatMap(s=>s.items).length,1512);
   assert.equal(archive.sets.flatMap(s=>s.items).length,1440);
   assert(!topics.some(c=>c.sets.some(s=>s.items.some(q=>q.group?.startsWith('verb-')))));
 });
-test('All 1452 advanced questions have complete frames, recalled Vietnamese and source-supported alternatives',()=>{
+test('All 1512 advanced questions have complete frames, recalled Vietnamese and source-supported alternatives',()=>{
   const ids=new Set(),dimensions=new Set();
   for(const set of verbs.sets){assert(set.items.length===5||set.items.length===6);for(const q of set.items){
     assert(!ids.has(q.id));ids.add(q.id);dimensions.add(q.dimension);
@@ -22,7 +22,9 @@ test('All 1452 advanced questions have complete frames, recalled Vietnamese and 
     assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);
     assert(q.analysis.includes(q.sentence.replace('___',q.options[q.answer])));
     assert(q.analysis.split('\n')[1].length>70);assert(q.source.locator&&q.source.title);
-  }}assert.equal(ids.size,1452);assert(dimensions.size>=24);
+  }}assert.equal(ids.size,1512);assert(dimensions.size>=24);
+  assert.equal(verbs.sets.filter(s=>s.id.startsWith('N')).length,288);
+  assert.equal(verbs.sets.filter(s=>s.id.startsWith('N')).flatMap(s=>s.items).filter(q=>q.group==='verb-advanced-new').length,1440);
 });
 test('Advanced sets submit six together, retry only wrong answers, and allow free packet selection',()=>{
   const s=E.create(verbs),set=verbs.sets[0];
@@ -65,6 +67,6 @@ test('Old combined JSON imports into both programs and new backups round trip wi
 });
 test('Every advanced packet completes, restores and exports source-aware Markdown',()=>{
   const s=E.create(verbs);for(const set of verbs.sets){for(const q of set.items)E.saveResponse(verbs,s,set.id,q.id,q.answer);E.submit(verbs,s);E.advance(verbs,s);}
-  assert(P.complete(verbs,s));assert.equal(E.statistics(verbs,s).passed,1452);
+  assert(P.complete(verbs,s));assert.equal(E.statistics(verbs,s).passed,1512);
   assert.doesNotThrow(()=>E.validate(verbs,JSON.parse(JSON.stringify(s))));assert(E.markdown(verbs,s).includes(verbs.title));
 });
