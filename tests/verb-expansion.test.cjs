@@ -47,3 +47,31 @@ test('Free packet selection preserves unfinished answers in sparse, independent 
   assert.equal(restored.active,1);assert.deepEqual(restored.sets.B1.responses['B1.1'],[0,1]);
   assert.doesNotThrow(()=>E.validate(course,restored));
 });
+test('A source-grounded rewrite retains base answers but never reuses unrelated verb answers',()=>{
+  const prior={...expanded,freeSets:true},s=E.create(prior);
+  for(const q of prior.sets[0].items)E.saveResponse(prior,s,'B1',q.id,q.answer);
+  E.submit(prior,s);E.openSet(prior,s,1);
+  E.saveResponse(prior,s,'B2','B2.1',[0,1]);
+  E.saveResponse(prior,s,'B2','B2.3',0);
+  const snapshot=JSON.stringify(s);
+  const rewritten={...prior,version:'3',previousVersion:'1',replacedVersion:'2',sets:prior.sets.map(set=>({...set,items:set.items.map((q,i)=>i===2?{...q,options:['originate','develop','persist','spread'],answer:3}:q)}))};
+  const restored=E.validate(rewritten,s);
+  assert.equal(JSON.stringify(s),snapshot,'original saved state must not be mutated');
+  assert.equal(restored.active,1);
+  assert.deepEqual(restored.sets.B1.passedItems,['B1.1','B1.2']);
+  assert.deepEqual(restored.sets.B1.round,['B1.3']);
+  assert(!Object.hasOwn(restored.sets.B1.responses,'B1.3'));
+  assert.deepEqual(restored.sets.B2.responses,{'B2.1':[0,1]});
+  assert(restored.sets.B1.history.every(a=>!a.round.includes('B1.3')));
+  assert.doesNotThrow(()=>E.validate(rewritten,JSON.parse(JSON.stringify(restored))));
+});
+test('Rewritten verbs do not erase an original wrong answer or award a base PASS',()=>{
+  const prior={...expanded,freeSets:true},s=E.create(prior);
+  for(const q of prior.sets[0].items)E.saveResponse(prior,s,'B1',q.id,q.id==='B1.1'?[1,0]:q.answer);
+  E.submit(prior,s);
+  const rewritten={...prior,version:'3',previousVersion:'1',replacedVersion:'2'};
+  const restored=E.validate(rewritten,s);
+  assert.deepEqual(restored.sets.B1.passedItems,['B1.2']);
+  assert.deepEqual(restored.sets.B1.round,['B1.1','B1.3']);
+  assert.deepEqual(restored.sets.B1.history[0].wrong,['B1.1']);
+});

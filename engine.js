@@ -69,8 +69,23 @@
     return ids;
   }
   function validate(course,state) {
+    if(course.replacedVersion&&state?.courseVersion===course.replacedVersion){
+      // Rewritten verb questions cannot inherit answers from unrelated old items.
+      // The old browser storage key remains untouched; retain the unchanged base work.
+      const trimmed=copy(state);trimmed.courseVersion=course.previousVersion;
+      for(const set of course.sets){
+        const r=trimmed.sets?.[set.id];if(!r)continue;
+        const base=set.items.slice(0,set.baseItemCount),ids=base.map(q=>q.id),pick=responses=>Object.fromEntries(Object.entries(responses||{}).filter(([id])=>ids.includes(id)));
+        r.responses=pick(r.responses);
+        r.history=(r.history||[]).map(a=>({...a,round:(a.round||[]).filter(id=>ids.includes(id)),responses:pick(a.responses),wrong:(a.wrong||[]).filter(id=>ids.includes(id))})).filter(a=>a.round.length);
+        r.passedItems=ids.filter(id=>r.history.some(a=>a.round.includes(id)&&!a.wrong.includes(id)));
+        const pending=ids.filter(id=>!r.passedItems.includes(id));
+        r.round=pending.length?pending:ids;r.status=pending.length?'answer':'passed';
+      }
+      return validate(course,trimmed);
+    }
     if(course.previousVersion&&state?.courseVersion===course.previousVersion){
-      const legacy={...course,version:course.previousVersion,previousVersion:null,sets:course.sets.map(s=>({...s,items:s.items.slice(0,s.baseItemCount)}))};
+      const legacy={...course,version:course.previousVersion,previousVersion:null,replacedVersion:null,sets:course.sets.map(s=>({...s,items:s.items.slice(0,s.baseItemCount)}))};
       const migrated=validate(legacy,state);
       for(const set of course.sets){
         const r=migrated.sets[set.id];if(!r)continue;

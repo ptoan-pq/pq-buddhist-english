@@ -15,12 +15,12 @@
     return out;
   }
   const courses=(bank?.topics||[]).map(topic=>({
-    id:`context-${topic.id.toLowerCase()}`,week:topic.week,weekId:topic.id,version:`context-bank-v2-${topic.week}`,previousVersion:`context-bank-v1-${topic.week}`,
-    storageKey:`pq-english-context-${topic.id}-verbs-v1`,previousStorageKey:`pq-english-${topic.id}-v1`,freeSets:true,
+    id:`context-${topic.id.toLowerCase()}`,week:topic.week,weekId:topic.id,version:`context-bank-v3-${topic.week}`,previousVersion:`context-bank-v1-${topic.week}`,replacedVersion:`context-bank-v2-${topic.week}`,
+    storageKey:`pq-english-context-${topic.id}-verbs-v2`,previousStorageKeys:[`pq-english-context-${topic.id}-verbs-v1`,`pq-english-${topic.id}-v1`],freeSets:true,
     title:`Chủ điểm ${topic.week} — ${topic.title}`,subtitle:topic.function,phase:topic.phase||phaseFor(topic.week),targets:topic.targets,
     sets:topic.blocks.map((block,i)=>({
       id:block.id,title:block.title,phase:topic.phase||phaseFor(topic.week),type:block.type==='repair'?'choice':block.type,
-      originalType:block.type,baseItemCount:5,instruction:'Đọc ngữ cảnh rồi làm 5 câu cũ và 5 câu chọn động từ khi dịch. Nộp đủ 10 câu để xem phân tích cả gói; bạn được đổi gói bất kỳ lúc nào.',
+      originalType:block.type,baseItemCount:5,instruction:'Đọc ngữ cảnh rồi làm 5 câu cũ và 5 câu chọn động từ phù hợp nhất để diễn đạt đúng ý nguồn. Nộp đủ 10 câu để xem phân tích cả gói; bạn được đổi gói bất kỳ lúc nào.',
       context:{title:block.title,vietnamese:block.source.paragraphs.join('\n\n'),translation:block.translation.join('\n\n'),source:sourceFor(block)},
       items:[...block.questions,...(verbs?.blocks[block.id]||[])].map((q,j)=>item(block,q,j))
     }))

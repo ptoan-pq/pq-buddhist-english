@@ -2,7 +2,7 @@
   'use strict';
   const E=root.PQEngine||(typeof require!=='undefined'?require('./engine.js'):null);
   function key(course){return course.storageKey||(course.weekId?`pq-english-${course.weekId}-v1`:'pq-english-progress-v1');}
-  function previousKey(course){return course.previousStorageKey||null;}
+  function previousKey(course){return course.previousStorageKeys?.[0]||course.previousStorageKey||null;}
   function complete(course,state){return !!state&&course.sets.every(set=>state.sets[set.id]?.status==='passed');}
   function canOpen(courses,id){return courses.some(course=>course.id===id);}
   function exportProject(courses,states,selected){return {format:'pq-english-project',schema:2,selected,exportedAt:new Date().toISOString(),progress:Object.fromEntries(courses.filter(c=>states[c.id]).map(c=>[c.id,states[c.id]]))};}

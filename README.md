@@ -2,17 +2,17 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Chương trình hiện tại — v4.0
+## Chương trình hiện tại — v4.1
 
 - 24 chủ điểm, 288 đoạn; mỗi đoạn là một gói gồm **5 câu gốc + 5 câu chọn động từ khi dịch**, tổng **2.880 câu**.
-- Động từ được chọn theo ý và sắc thái của đoạn, không bị giới hạn bởi danh sách từ của chủ điểm. Các lựa chọn phân biệt cách thức, cường độ, thời điểm, chủ ý, kết quả và mức khẳng định.
+- Câu động từ phải hỏi cách diễn đạt một ý/cụm có thật trong đoạn Việt, không tự đặt mục tiêu nghĩa mới. Mỗi câu chỉ rõ cụm nguồn; không chọn từ theo một tính từ hoặc từ khóa tình cờ xuất hiện. Động từ không bị giới hạn bởi danh sách từ của chủ điểm.
 - Mở bất kỳ gói nào qua ô **Chọn gói theo đoạn** hoặc các nút gói. Không cần PASS gói trước để mở gói khác.
 - Trạng thái riêng: chưa học, đã học chưa hoàn thành, hoàn thành; đổi gói không xóa đáp án dở.
 - Nộp đủ gói mới mở phản hồi; trong gói chỉ làm lại câu sai. Các câu cũ đã PASS được giữ, chỉ bổ sung những câu mới chưa làm.
 - `context-bank.js` giữ nguyên 1.440 câu cũ; `context-verbs.js` bổ sung 1.440 câu mới; `context-lessons.js` ghép thành gói 10 câu. `engine.js` chấm theo dạng riêng của từng câu.
-- Tiến độ mở rộng dùng khóa `pq-english-context-Wxx-verbs-v1`; bản cũ `pq-english-Wxx-v1` không bị ghi đè. Chuyển cả lịch sử và các gói đã học, không gán PASS cho câu mới.
+- Tiến độ mới dùng khóa `pq-english-context-Wxx-verbs-v2`; đọc bản trước từ `pq-english-context-Wxx-verbs-v1` hoặc `pq-english-Wxx-v1` mà không ghi đè. Giữ đáp án/lịch sử của 5 câu gốc, bắt đầu lại 5 câu động từ đã viết lại để không diễn giải nhầm đáp án cũ.
 
-Phần chọn động từ là bài luyện có lựa chọn, không phải chứng nhận đã làm chủ động từ qua tự viết. Các phương án khác có thể đúng ở ngữ cảnh khác; lời giải nêu nét nghĩa cụ thể được yêu cầu trong câu hỏi.
+Phần chọn động từ là bài luyện có lựa chọn, không phải chứng nhận đã làm chủ động từ qua tự viết. Các phương án khác có thể đúng ở ngữ cảnh khác; lời giải phải quay về ý nguồn trong toàn đoạn để giải thích lựa chọn. Không dùng kiểm thử cấu trúc thay cho việc rà ngôn ngữ.
 
 ## Chương trình v2 — hồ sơ các file cũ được giữ lại
 

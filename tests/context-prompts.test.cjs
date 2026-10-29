@@ -48,17 +48,33 @@ test('All new verb questions have four explained alternatives and exact Vietname
   const targets=new Set();
   for(const topic of globalThis.PQContextBank.topics)for(const b of topic.blocks){
     const extras=globalThis.PQVerbBank.blocks[b.id];assert.equal(extras.length,5);
-    assert.equal(new Set(extras.map(q=>q.verbTarget)).size,5);
+    assert.equal(new Set(extras.map(q=>q.sourceCue)).size,5);
     for(const [i,q]of extras.entries()){
       assert.equal(q.id,`${b.id}-Q${String(i+6).padStart(2,'0')}`);
       assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);
       assert.equal(q.options[q.answer],q.verbTarget);
       assert(b.source.paragraphs.join('\n\n').includes(q.evidence),q.id);
+      assert(q.evidence.includes(q.sourceCue),q.id+': cue absent from its quoted sentence');
+      assert(q.prompt.includes(q.sourceCue),q.id+': source cue must be shown');
+      assert(q.prompt.includes('phù hợp nhất với ngữ cảnh ở trên'),q.id);
+      assert.equal(q.grounding,'direct-source-predicate');
+      assert(!/nếu cần|muốn diễn đạt|Ngữ cảnh gợi ý|Bài vận dụng|không phải khẳng định/.test(q.prompt+' '+q.analysis),q.id);
       for(const v of q.options)assert(q.analysis.includes(`“${v}”`),q.id+': missing contrast explanation');
       targets.add(q.verbTarget);
     }
   }
   assert(targets.size>=100);
+});
+test('Verb revision fixes the reported adjective-to-action error and contextual homonyms',()=>{
+  const bank=globalThis.PQVerbBank.blocks;
+  assert(!bank['W01-B01'].some(q=>q.verbLemma==='enrich'));
+  assert.equal(bank['W01-B01'][1].verbTarget,'originated');
+  assert(bank['W01-B01'].every(q=>q.sentence?.includes('___')));
+  assert(!bank['W02-B04'].some(q=>q.sourceCue==='học'));
+  assert(!bank['W13-B03'].some(q=>q.sourceCue==='thuộc'));
+  assert(!bank['W22-B09'].some(q=>q.sourceCue==='thuộc'));
+  assert(!bank['W11-B02'].some(q=>q.sourceCue==='đặt'));
+  assert(!bank['W11-B06'].some(q=>q.sourceCue==='đứng'));
 });
 test('Each actual topic migrates a completed 5-question history without losing a single old PASS',()=>{
   for(const course of courses){

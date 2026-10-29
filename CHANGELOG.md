@@ -1,5 +1,13 @@
 # Lịch sử phiên bản web
 
+## 4.1 — 2026-10-29
+
+- Soạn lại cả 1.440 câu động từ thành chọn từ phù hợp nhất với ý thực sự có trong ngữ cảnh Việt. Bỏ toàn bộ mục tiêu sắc thái giả định và câu luyện thao tác dịch không xuất phát từ nguồn.
+- Mỗi câu chỉ rõ cụm nguồn; lời giải dẫn lại câu chứa cụm ấy và phân biệt bốn lựa chọn. Có khung câu Anh khuyết động từ ở các bài biên soạn theo câu.
+- Sửa lỗi biến tính từ thành hành động: “phong phú” không tự cho phép dùng “enrich”. Rà các từ đa nghĩa và thành ngữ như “học”, “thuộc”, “đặt mình vào vị trí”, “đứng núi này trông núi nọ”.
+- Giữ nguyên 1.440 câu gốc và tự do chọn gói. Phiên bản dữ liệu mới giữ tiến độ của 5 câu gốc; 5 câu động từ đã viết lại bắt đầu lượt mới, không dùng lại đáp án cũ cho một câu khác nghĩa. Các khóa lưu cũ không bị ghi đè.
+- Thêm kiểm thử lỗi trong ảnh, từ đa nghĩa, căn cứ nguồn và chuyển tiến độ khi thay câu hỏi.
+
 ## 4.0 — 2026-10-29
 
 - Giữ nguyên ngân hàng 1.440 câu cũ và thêm 1.440 câu chọn động từ theo sắc thái khi dịch: 288 gói × 10 câu.
