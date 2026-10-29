@@ -1,5 +1,12 @@
 # Lịch sử phiên bản web
 
+## 4.1.1 — 2026-10-29
+
+- Hiện lại nguyên câu tiếng Việt chứa ý đang hỏi ngay trong từng câu hỏi động từ, thay vì chỉ đưa cụm rời như “vào được”, “tìm tòi”.
+- Bỏ giới hạn cắt trích dẫn giữa câu; giữ nguyên phủ định, điều kiện và phần bổ nghĩa của câu nguồn. Rút gọn hướng dẫn lặp lại.
+- Tái xuất cả 1.440 câu động từ và bản Markdown. Không đổi mã câu, phương án, thứ tự lựa chọn, đáp án, phiên bản tiến độ hoặc khóa lưu của v4.1.
+- Bổ sung kiểm thử câu trong ảnh, câu Việt dài và dấu kiểm toàn bộ mã câu–lựa chọn–đáp án để ngăn thay đổi tiến độ ngoài ý muốn.
+
 ## 4.1 — 2026-10-29
 
 - Soạn lại cả 1.440 câu động từ thành chọn từ phù hợp nhất với ý thực sự có trong ngữ cảnh Việt. Bỏ toàn bộ mục tiêu sắc thái giả định và câu luyện thao tác dịch không xuất phát từ nguồn.

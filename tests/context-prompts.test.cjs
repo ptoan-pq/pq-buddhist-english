@@ -76,6 +76,24 @@ test('Verb revision fixes the reported adjective-to-action error and contextual 
   assert(!bank['W11-B02'].some(q=>q.sourceCue==='đặt'));
   assert(!bank['W11-B06'].some(q=>q.sourceCue==='đứng'));
 });
+test('Every verb question repeats its full Vietnamese source sentence before the instruction',()=>{
+  for(const qs of Object.values(globalThis.PQVerbBank.blocks))for(const q of qs){
+    assert(q.prompt.startsWith(`Câu tiếng Việt: “${q.evidence}”`),q.id+': repeat the sentence, not just the cue');
+    assert(q.prompt.indexOf(q.evidence)<q.prompt.indexOf('Chọn động từ'),q.id);
+  }
+  const q=globalThis.PQVerbBank.blocks['W05-B02'].find(q=>q.sourceCue==='vào được');
+  assert(q.prompt.includes('Khi Tâm vào được định thì Hành uẩn lại là nơi khởi phát thần thông.'));
+  const first=globalThis.PQContextBank.topics[2].blocks[0].source.paragraphs[0];
+  const longSentence=first.slice(first.indexOf('Do nhìn rõ điều này'));
+  assert(longSentence.length>340);
+  assert(globalThis.PQVerbBank.blocks['W03-B01'][0].prompt.includes(longSentence),'Do not crop a long source sentence');
+});
+test('Restating Vietnamese context changes no answer key, option order or storage version',()=>{
+  const crypto=require('node:crypto');
+  const questions=Object.values(globalThis.PQVerbBank.blocks).flat().map(({id,options,answer})=>({id,options,answer}));
+  assert.equal(crypto.createHash('sha256').update(JSON.stringify(questions)).digest('hex'),'bcce9b2e3629c3998471e038cbf09915e1ec06f1f80bfa375cb6a27b04adfa2e');
+  for(const c of courses){assert.equal(c.version,`context-bank-v3-${c.week}`);assert.equal(c.storageKey,`pq-english-context-${c.weekId}-verbs-v2`);}
+});
 test('Each actual topic migrates a completed 5-question history without losing a single old PASS',()=>{
   for(const course of courses){
     const legacy={...course,version:course.previousVersion,previousVersion:null,freeSets:false,sets:course.sets.map(s=>({...s,items:s.items.slice(0,5)}))};

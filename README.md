@@ -2,10 +2,11 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Chương trình hiện tại — v4.1
+## Chương trình hiện tại — v4.1.1
 
 - 24 chủ điểm, 288 đoạn; mỗi đoạn là một gói gồm **5 câu gốc + 5 câu chọn động từ khi dịch**, tổng **2.880 câu**.
 - Câu động từ phải hỏi cách diễn đạt một ý/cụm có thật trong đoạn Việt, không tự đặt mục tiêu nghĩa mới. Mỗi câu chỉ rõ cụm nguồn; không chọn từ theo một tính từ hoặc từ khóa tình cờ xuất hiện. Động từ không bị giới hạn bởi danh sách từ của chủ điểm.
+- Ngay trong từng câu hỏi động từ, nhắc lại đầy đủ câu tiếng Việt chứa cụm đang hỏi để người học không phải cuộn lên tìm ngữ cảnh. Không cắt giữa câu dài.
 - Mở bất kỳ gói nào qua ô **Chọn gói theo đoạn** hoặc các nút gói. Không cần PASS gói trước để mở gói khác.
 - Trạng thái riêng: chưa học, đã học chưa hoàn thành, hoàn thành; đổi gói không xóa đáp án dở.
 - Nộp đủ gói mới mở phản hồi; trong gói chỉ làm lại câu sai. Các câu cũ đã PASS được giữ, chỉ bổ sung những câu mới chưa làm.
