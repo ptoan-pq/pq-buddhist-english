@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const rows=require('../authoring/reviewed-verb-sets.cjs');
 const drafts=require('../authoring/manual-drafts.cjs');
-const {assemble,markdown,loadBank}=require('../authoring/build-manual-preview.cjs');
+const {assemble,markdown,loadBank,quoteFromSource}=require('../authoring/build-manual-preview.cjs');
 const E=require('../engine.js');
 
 test('hand-authored batch has five distinct verb tasks and a rationale per option',()=>{
@@ -86,4 +86,39 @@ test('packaging rejects missing evidence, repeated frames, and detached explanat
   assert.throws(()=>assemble(repeated),/repeated frame/);
   const unbound=copy();unbound[0].items[0].rationales.reverse();
   assert.throws(()=>assemble(unbound),/unbound rationale/);
+});
+
+test('source-aligned sets quote the passage rather than adding translation advice',()=>{
+  const aligned=rows.filter(m=>m.sourceAlignment==='quote-and-english-checked');
+  assert(aligned.some(m=>m.id==='M129'),'reported set must be corrected');
+  const bank=loadBank();
+  const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
+  for(const set of aligned){
+    const source=blocks.get(set.sourceBlockId).source.paragraphs.join('\n\n');
+    for(const q of set.items)assert(source.includes(q.targetVietnamese),set.id+': quote must be verbatim');
+  }
+  const bad=JSON.parse(JSON.stringify(aligned.slice(0,1)));
+  bad[0].items[0].targetVietnamese+='; điều này chưa có nghĩa muốn nắm quyền điều khiển.';
+  assert.throws(()=>assemble(bad),/target quote absent/);
+});
+
+test('every learner-facing Vietnamese target is a verbatim source span',()=>{
+  for(const set of assemble())for(const q of set.items){
+    assert(set.context.vietnamese.includes(q.targetVietnamese),q.id);
+    assert(q.targetVietnamese.includes(q.sourceCue),q.id);
+    assert(q.prompt.includes(`“${q.targetVietnamese}”`),q.id);
+    assert.equal(q.evidence,q.targetVietnamese);
+  }
+  const reported=assemble().find(m=>m.id==='M129').items[0];
+  assert.equal(reported.targetVietnamese,'Ta chỉ thích đến nơi đâu mà ta được tôn trọng');
+  assert(!reported.prompt.includes('nắm quyền điều khiển'));
+});
+
+test('source quotation preserves wording and punctuation without making new content',()=>{
+  const text='Câu mở đầu. Ta chỉ thích đến nơi được tôn trọng, và tránh xa nơi bị coi thường. Câu kết.';
+  assert.equal(quoteFromSource(text,'thích đến nơi'),
+    'Ta chỉ thích đến nơi được tôn trọng, và tránh xa nơi bị coi thường.');
+  assert.equal(quoteFromSource(text,'tránh xa','và tránh xa nơi bị coi thường.'),
+    'và tránh xa nơi bị coi thường.');
+  assert.throws(()=>quoteFromSource(text,'Không có trong nguồn'),/source cue absent/);
 });

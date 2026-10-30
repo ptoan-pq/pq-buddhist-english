@@ -4523,11 +4523,12 @@ module.exports = [
   },
   {
     id: 'M129', sourceBlockId: 'W11-B09', title: 'Tình thương và sự tôn trọng cũng là điều có thể trao',
+    sourceAlignment: 'quote-and-english-checked',
     review: 'source-and-alternatives-reviewed-by-author',
     items: [
       {
-        sourceCue: 'chỉ thích đến nơi đâu mà ta được tôn trọng', targetVietnamese: 'Ta có xu hướng tìm đến nơi mình được coi trọng; điều này chưa có nghĩa muốn nắm quyền điều khiển nơi ấy.',
-        sentence: 'People tend to ___ places where they are respected.',
+        sourceCue: 'chỉ thích đến nơi đâu mà ta được tôn trọng', targetVietnamese: 'Ta chỉ thích đến nơi đâu mà ta được tôn trọng',
+        sentence: 'We ___ only those places where we are respected.',
         options: ['gravitate toward', 'seek to dominate', 'claim ownership of', 'formally supervise'], answer: 0,
         rationales: [
           'gravitate toward: tự nhiên bị thu hút và tìm đến; giữ xu hướng tâm lý.',
@@ -4537,8 +4538,8 @@ module.exports = [
         ], dimension: 'attraction toward respect versus domination, ownership, and supervision'
       },
       {
-        sourceCue: 'tránh xa nơi mình bị coi thường', targetVietnamese: 'Bị coi thường thì ta né nơi ấy, không nhất thiết công khai lên án hay trả đũa.',
-        sentence: 'People may ___ places where they are belittled.',
+        sourceCue: 'tránh xa nơi mình bị coi thường', targetVietnamese: 'và sẽ tránh xa nơi mình bị coi thường',
+        sentence: 'And we will ___ places where we are belittled.',
         options: ['shun', 'publicly denounce', 'retaliate against', 'take control of'], answer: 0,
         rationales: [
           'shun: tránh, không muốn tới gần; đúng hành động rút khỏi nơi bị coi nhẹ.',
@@ -4548,8 +4549,8 @@ module.exports = [
         ], dimension: 'avoidance versus denunciation, retaliation, and control'
       },
       {
-        sourceCue: 'tu tập Khiêm hạ để tôn trọng', targetVietnamese: 'Tu khiêm hạ giúp mình biết tôn trọng người, không nhằm buộc người phải kính mình.',
-        sentence: 'Cultivating humility helps us ___.',
+        sourceCue: 'tu tập Khiêm hạ để tôn trọng', targetVietnamese: 'chúng ta tu tập Khiêm hạ để tôn trọng',
+        sentence: 'We cultivate humility in order to ___.',
         options: ['extend respect to others', 'extract deference from others', 'conceal contempt behind impeccable manners', 'establish our superiority without saying so'], answer: 0,
         rationales: [
           'extend respect to others: trao sự tôn trọng; giữ hướng từ mình đến người.',
@@ -4559,24 +4560,24 @@ module.exports = [
         ], dimension: 'offering respect versus extracting deference, concealed contempt, and superiority'
       },
       {
-        sourceCue: 'chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng', targetVietnamese: 'Dù chưa có tiền hay đủ giáo lý để chia sẻ, mình vẫn có thể trao lòng thương và kính trọng.',
-        sentence: 'Even without money or sufficient knowledge to teach, we can ___.',
-        options: ['offer abundant care and respect', 'buy another person’s lasting approval', 'claim knowledge we have not acquired', 'replace every material need with a kind remark'], answer: 0,
+        sourceCue: 'chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng', targetVietnamese: 'chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng cho cuộc đời, cho con người',
+        sentence: 'We can ___.',
+        options: ['offer the world and other people abundant love and respect', 'buy another person’s lasting approval', 'claim knowledge we have not acquired', 'replace every material need with a kind remark'], answer: 0,
         rationales: [
-          'offer abundant care and respect: trao điều thật có thể tu và có nơi tâm; đúng khả năng đoạn khích lệ.',
+          'offer the world and other people abundant love and respect: giữ cả điều trao, mức nhiều và đối tượng cuộc đời, con người.',
           'buy another person’s lasting approval: mua sự tán thành; trái không có vật chất và khác mục tiêu.',
           'claim knowledge we have not acquired: giả biết để dạy; nguồn thừa nhận chưa đủ Phật Pháp.',
           'replace every material need with a kind remark: lấy một lời thay mọi nhu cầu; nâng ích lợi tinh thần thành thay thế tuyệt đối.'
         ], dimension: 'available nonmaterial giving versus purchased approval, false knowledge, and total substitution'
       },
       {
-        sourceCue: 'khiến cho nhau được an vui ấm áp', targetVietnamese: 'Tình thương và sự tôn trọng giúp đôi bên cảm thấy an vui, ấm áp, không đặt người nhận thành kẻ mắc nợ tình cảm.',
-        sentence: 'Through such care and respect, we can ___.',
-        options: ['afford one another warmth and ease', 'bind recipients to a debt of affection', 'demand public acknowledgment in return', 'settle every disagreement permanently'], answer: 0,
+        sourceCue: 'khiến cho nhau được an vui ấm áp', targetVietnamese: 'Lòng thương yêu và sự tôn trọng đó cũng khiến cho nhau được an vui ấm áp.',
+        sentence: 'Such love and respect also ___.',
+        options: ['bring people warmth and ease', 'bind recipients to a debt of affection', 'entitle us to public acknowledgment in return', 'settle every disagreement permanently'], answer: 0,
         rationales: [
-          'afford one another warmth and ease: đem lại sự ấm áp và an vui cho nhau; giữ tính tương hỗ.',
+          'bring people warmth and ease: giữ lòng thương và kính trọng làm nguyên nhân, an vui ấm áp làm kết quả.',
           'bind recipients to a debt of affection: buộc mắc nợ tình; thêm ràng buộc thay sự ấm áp.',
-          'demand public acknowledgment in return: đòi ghi nhận để trả; thêm điều kiện có qua có lại.',
+          'entitle us to public acknowledgment in return: cho quyền đòi ghi nhận; thêm điều kiện có qua có lại.',
           'settle every disagreement permanently: giải quyết mọi bất đồng mãi mãi; vượt mức tác dụng tinh thần.'
         ], dimension: 'mutual comfort versus emotional debt, return demand, and permanent settlement'
       }
@@ -4584,22 +4585,23 @@ module.exports = [
   },
   {
     id: 'M130', sourceBlockId: 'W11-B10', title: 'Thấy được người dễ bị khuất khỏi sự chú ý',
+    sourceAlignment: 'quote-and-english-checked',
     review: 'source-and-alternatives-reviewed-by-author',
     items: [
       {
-        sourceCue: 'khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền', targetVietnamese: 'Cần ân cần làm người khó khăn cảm thấy mình được quý trọng, không đối xử từ trên xuống như ban ơn.',
-        sentence: 'We should take particular care to ___.',
-        options: ['make vulnerable lay Buddhists feel genuinely valued', 'patronize them as objects of charity', 'indulge every request without discernment', 'display them as evidence of our own generosity'], answer: 0,
+        sourceCue: 'khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền', targetVietnamese: 'Chúng ta càng phải khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền',
+        sentence: 'We must take even greater care to ___.',
+        options: ['treat poor, sick, and disabled lay Buddhists with genuine regard', 'patronize them as objects of charity', 'indulge every request without discernment', 'display them as evidence of our own generosity'], answer: 0,
         rationales: [
-          'make vulnerable lay Buddhists feel genuinely valued: đối đãi sao họ thấy được quý hóa; giữ phẩm giá trong sự khéo léo.',
+          'treat poor, sick, and disabled lay Buddhists with genuine regard: giữ đủ ba nhóm người được nguồn nêu, cùng thái độ quý hóa.',
           'patronize them as objects of charity: thương kiểu kẻ cả; dễ làm tăng tủi thân, trái dụng ý.',
           'indulge every request without discernment: chiều mọi yêu cầu; không được suy từ sự ân cần.',
           'display them as evidence of our own generosity: đem người yếu thế ra khoe; đổi mục tiêu sang danh mình.'
         ], dimension: 'valuing dignity versus patronage, indiscriminate indulgence, and self-display'
       },
       {
-        sourceCue: 'vì họ rất dễ tủi thân', targetVietnamese: 'Cần khéo vì họ dễ cảm thấy mình bị xem nhẹ; không khẳng định họ cố dùng yếu thế để điều khiển người khác.',
-        sentence: 'The passage recognizes that they can readily ___.',
+        sourceCue: 'vì họ rất dễ tủi thân', targetVietnamese: 'vì họ rất dễ tủi thân.',
+        sentence: 'This is because they can easily ___.',
         options: ['feel hurt and diminished', 'manipulate others through a calculated display of weakness', 'demand preferential treatment as a legal right', 'renounce every wish for human contact'], answer: 0,
         rationales: [
           'feel hurt and diminished: tủi vì cảm thấy mình nhỏ bé, ít được quý; giữ nỗi dễ tổn thương.',
@@ -4609,19 +4611,19 @@ module.exports = [
         ], dimension: 'vulnerability versus calculated manipulation, legal demand, and total withdrawal'
       },
       {
-        sourceCue: 'nhìn thấy họ đang ngồi lặng lẽ ở một góc', targetVietnamese: 'Ở đây “thấy” là nhận ra sự hiện diện của người lặng lẽ bị bỏ quên, không phải soi xét họ để tìm lỗi.',
-        sentence: 'The moral attentiveness required is to ___ the quiet person in the corner.',
-        options: ['notice', 'scrutinize for faults', 'interrogate', 'inspect as a spectacle'], answer: 0,
+        sourceCue: 'nhìn thấy họ đang ngồi lặng lẽ ở một góc', targetVietnamese: 'Người tu phải đủ đạo lực để nhìn thấy họ đang ngồi lặng lẽ ở một góc nào đó trong sân chùa.',
+        sentence: 'Practitioners need sufficient spiritual strength to ___ these people sitting quietly in a corner of the temple courtyard.',
+        options: ['notice', 'scrutinize', 'interrogate', 'patronize'], answer: 0,
         rationales: [
           'notice: để tâm mà nhận ra sự có mặt; giữ cái thấy nhờ thương yêu.',
-          'scrutinize for faults: soi xét để tìm lỗi; thêm mục đích phán xét.',
+          'scrutinize: xem xét kỹ để đánh giá; thêm mục đích khảo xét không có trong việc nhận ra người bị bỏ quên.',
           'interrogate: chất vấn; không phải thấy người đang ngồi yên.',
-          'inspect as a spectacle: nhìn như vật lạ; làm mất phẩm giá thay vì quý hóa.'
+          'patronize: đối xử kẻ cả như ban ơn; khác sự nhận ra đầy quý trọng.'
         ], dimension: 'attentive noticing versus fault-finding, interrogation, and spectacle'
       },
       {
-        sourceCue: 'trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn', targetVietnamese: 'Người giàu sang chiếm sự chú ý khiến người nghèo bị khuất; không nhất thiết họ cố ý đứng chắn tầm nhìn.',
-        sentence: 'The more affluent people can ___.',
+        sourceCue: 'trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn', targetVietnamese: 'Bởi vì trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn.',
+        sentence: 'This is because the wealthier, more elegant people ___.',
         options: ['monopolize our attention and leave poorer people unnoticed', 'deliberately obstruct every line of sight', 'physically exclude all poor visitors', 'explicitly forbid us to greet anyone else'], answer: 0,
         rationales: [
           'monopolize our attention and leave poorer people unnoticed: chiếm trường chú ý; giữ nghĩa che khuất trong tâm lý.',
@@ -4631,36 +4633,37 @@ module.exports = [
         ], dimension: 'attentional exclusion versus intentional obstruction, physical exclusion, and prohibition'
       },
       {
-        sourceCue: 'Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy', targetVietnamese: 'Lòng thương là điều giúp mở sự chú ý tới người nghèo đang có mặt, không phải thị lực tốt một mình là đủ.',
-        sentence: 'Compassion helps us ___.',
-        options: ['attend to people our attention would otherwise pass over', 'diagnose every visitor’s physical condition at a glance', 'infer virtue directly from poverty', 'rank visitors by the amount they can donate'], answer: 0,
+        sourceCue: 'Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy', targetVietnamese: 'Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy được những người nghèo đang có mặt ở chùa.',
+        sentence: 'Without compassion for sentient beings, we will fail to ___ the poor people present at the temple.',
+        options: ['notice', 'diagnose', 'censure', 'classify'], answer: 0,
         rationales: [
-          'attend to people our attention would otherwise pass over: hướng chú ý tới người dễ bị bỏ sót; giữ quan hệ thương và thấy.',
-          'diagnose every visitor’s physical condition at a glance: nhìn là chẩn bệnh hết; thêm năng lực chuyên môn.',
-          'infer virtue directly from poverty: suy nghèo là đức; đoạn nói quý người, không lập phép đánh giá ấy.',
-          'rank visitors by the amount they can donate: xếp theo tiền cúng; tiếp tục chính sự thiên lệch cần sửa.'
+          'notice: nhận ra họ đang có mặt; giữ đúng hành động “thấy” trong điều kiện phủ định.',
+          'diagnose: chẩn đoán bệnh trạng; thêm chức năng chuyên môn không có trong câu trích.',
+          'censure: trách phạt bằng lời; không diễn đạt việc thấy người bị khuất khỏi chú ý.',
+          'classify: phân loại; thêm một thao tác đánh giá thay cho nhận ra sự hiện diện.'
         ], dimension: 'inclusive attention versus diagnosis, poverty-as-proof, and donation ranking'
       }
     ]
   },
   {
     id: 'M131', sourceBlockId: 'W11-B11', title: 'Phá vòng thiếu phước bằng việc vừa sức đang có',
+    sourceAlignment: 'quote-and-english-checked',
     review: 'source-and-alternatives-reviewed-by-author',
     items: [
       {
-        sourceCue: 'có tiền rồi mới bố thí cúng dường, có sức khỏe rồi mới lao động công ích', targetVietnamese: 'Các hình thức giúp đỡ cần phương tiện tương ứng: cho tiền cần có tiền, góp sức cần có sức khỏe.',
-        sentence: 'These forms of service ___ the relevant practical resources.',
-        options: ['presuppose', 'automatically produce', 'merely symbolize', 'render unnecessary'], answer: 0,
+        sourceCue: 'có tiền rồi mới bố thí cúng dường', targetVietnamese: 'ta phải có tiền rồi mới bố thí cúng dường',
+        sentence: 'We need to have money before we can ___ donations and offerings.',
+        options: ['give', 'collect', 'promise', 'solicit'], answer: 0,
         rationales: [
-          'presuppose: cần có trước làm điều kiện; giữ quan hệ phương tiện và khả năng giúp.',
-          'automatically produce: tự làm sinh phương tiện; đảo thứ tự điều kiện trong ví dụ.',
-          'merely symbolize: chỉ tượng trưng; nguồn nói khả năng thực, không phải biểu tượng.',
-          'render unnecessary: làm khỏi cần; phủ nhận điều kiện tiền hoặc sức khỏe được nêu.'
+          'give: chính mình đem của cho và cúng; giữ người hành động cùng điều kiện có tiền.',
+          'collect: thu gom từ người khác; đổi người bố thí thành bên nhận.',
+          'promise: hứa sẽ cho; chưa phải hành động cần có tiền để thực hiện ngay.',
+          'solicit: xin hoặc vận động quyên góp; khác việc tự mình bố thí, cúng dường.'
         ], dimension: 'practical prerequisite versus automatic production, symbolism, and exemption'
       },
       {
-        sourceCue: 'lễ Phật xin gia hộ cho có cơ hội làm phước', targetVietnamese: 'Lời cầu xin hướng đến cơ hội tự mình làm phước, không xin khỏi cần hành động mà vẫn nhận mọi thành tựu.',
-        sentence: 'The practitioner asks for support in order to ___.',
+        sourceCue: 'lễ Phật xin gia hộ cho có cơ hội làm phước', targetVietnamese: 'ta phải lễ Phật xin gia hộ cho có cơ hội làm phước',
+        sentence: 'We must bow in reverence to the Buddha and ask for his support to ___.',
         options: ['find opportunities to do good', 'be exempted from doing good', 'receive automatic credit for deeds never performed', 'transfer every duty to someone else'], answer: 0,
         rationales: [
           'find opportunities to do good: có duyên để chính mình làm; giữ đối tượng của lời xin gia hộ.',
@@ -4670,8 +4673,8 @@ module.exports = [
         ], dimension: 'seeking opportunity versus exemption, unearned credit, and duty transfer'
       },
       {
-        sourceCue: 'quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình', targetVietnamese: 'Ta chủ động tìm việc thiện phù hợp khả năng hiện có, không chờ đủ mọi điều kiện lý tưởng mới làm.',
-        sentence: 'The next step is to ___.',
+        sourceCue: 'quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình', targetVietnamese: 'rồi quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình.',
+        sentence: 'We then look around to ___.',
         options: ['seek out feasible ways to help', 'wait until every material limitation disappears', 'promise assistance beyond our means', 'measure our worth solely by the size of a donation'], answer: 0,
         rationales: [
           'seek out feasible ways to help: tìm cách giúp vừa sức; giữ cả quan sát lẫn giới hạn khả năng.',
@@ -4681,36 +4684,37 @@ module.exports = [
         ], dimension: 'feasible initiative versus ideal-condition waiting, overpromising, and donation-size ranking'
       },
       {
-        sourceCue: 'phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm', targetVietnamese: 'Những bước đầu đòi bền sức chịu khó, không phải hễ việc khó là dấu hiệu nên bỏ.',
-        sentence: 'At the beginning, we may need to ___ considerable difficulty.',
-        options: ['persevere through', 'withdraw from service because of', 'claim an exemption because of', 'deny the existence of'], answer: 0,
+        sourceCue: 'phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm', targetVietnamese: 'phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm.',
+        sentence: 'We must ___.',
+        options: ['make great efforts, toil hard, and endure a great deal', 'withdraw from service at the first difficulty', 'claim an exemption because the work is demanding', 'deny that the work involves any hardship'], answer: 0,
         rationales: [
-          'persevere through: bền bỉ đi qua khó nhọc; giữ yêu cầu cố gắng và chịu đựng.',
-          'withdraw from service because of: rút khỏi giúp người vì khó; đảo lời khuyến khích chịu khó.',
-          'claim an exemption because of: xin miễn vì khó; tiếp tục không tạo được khởi đầu.',
-          'deny the existence of: phủ nhận khó khăn; nguồn nhìn nhận việc rất khó rồi mới khuyên vượt qua.'
+          'make great efforts, toil hard, and endure a great deal: giữ cả ba việc và mức “nhiều lắm”, không làm nhẹ chữ phải.',
+          'withdraw from service at the first difficulty: bỏ ngay khi khó; đảo lời yêu cầu cố gắng.',
+          'claim an exemption because the work is demanding: xin miễn vì nặng; trái nhận phần vất vả.',
+          'deny that the work involves any hardship: phủ nhận khó; nguồn thừa nhận khó rồi yêu cầu chịu đựng.'
         ], dimension: 'perseverance versus abandonment inference, exemption claim, and concealment'
       },
       {
-        sourceCue: 'những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn', targetVietnamese: 'Sau những lần chịu khó đầu, cơ hội và việc làm thiện thuận hơn; không nói đã giàu ngay hoặc mọi chướng ngại hết sạch.',
-        sentence: 'Those early efforts can ___.',
-        options: ['open the way to further acts of generosity', 'guarantee immediate wealth after a single gift', 'eliminate every future obstacle', 'make further effort permanently unnecessary'], answer: 0,
+        sourceCue: 'những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn', targetVietnamese: 'Sau vài lần chịu khó làm phước thì những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn.',
+        sentence: 'After persisting through a few initial good deeds, we ___.',
+        options: ['find it easier to do good, with opportunities coming more readily', 'become wealthy after a single gift', 'eliminate every future obstacle', 'no longer need to make any effort'], answer: 0,
         rationales: [
-          'open the way to further acts of generosity: mở duyên cho lần giúp tiếp theo; giữ hướng dễ làm phước hơn.',
-          'guarantee immediate wealth after a single gift: chắc giàu ngay một lần; thêm cả thời hạn lẫn điều kiện đủ.',
+          'find it easier to do good, with opportunities coming more readily: giữ đủ hai thay đổi: dễ làm hơn và dễ có cơ hội hơn.',
+          'become wealthy after a single gift: giàu ngay một lần; thêm kết quả và thời hạn nguồn không hứa.',
           'eliminate every future obstacle: xóa mọi trở ngại; vượt ý thuận lợi hơn.',
-          'make further effort permanently unnecessary: khỏi nỗ lực mãi mãi; trái việc cơ hội mở ra để tiếp tục làm.'
+          'no longer need to make any effort: khỏi nỗ lực từ đây; trái việc thuận lợi hơn để tiếp tục làm.'
         ], dimension: 'opening further opportunity versus instant reward, total obstacle removal, and permanent exemption'
       }
     ]
   },
   {
     id: 'M132', sourceBlockId: 'W11-B12', title: 'Giúp kín đáo mà không rút khỏi đời sống vị tha',
+    sourceAlignment: 'quote-and-english-checked',
     review: 'source-and-alternatives-reviewed-by-author',
     items: [
       {
-        sourceCue: 'xử lý sự mâu thuẫn này cho khéo léo', targetVietnamese: 'Cư sĩ cần dung hòa tu kín đáo với giao tiếp vị tha, không chọn cách xóa hẳn một phía.',
-        sentence: 'The lay practitioner needs to ___.',
+        sourceCue: 'xử lý sự mâu thuẫn này cho khéo léo', targetVietnamese: 'Người cư sĩ phải khôn ngoan xử lý sự mâu thuẫn này cho khéo léo',
+        sentence: 'Lay practitioners must wisely ___.',
         options: ['reconcile discretion with altruistic engagement', 'equate discretion with complete withdrawal from service', 'subordinate every good deed to public visibility', 'resolve the tension by abandoning all interaction'], answer: 0,
         rationales: [
           'reconcile discretion with altruistic engagement: tìm cách giữ được cả hai yêu cầu; đúng ý xử lý khéo mâu thuẫn.',
@@ -4720,19 +4724,19 @@ module.exports = [
         ], dimension: 'reconciling two demands versus withdrawal, publicity priority, and abandoned interaction'
       },
       {
-        sourceCue: 'nhờ ai đưa quà cho người nghèo trong xóm', targetVietnamese: 'Một cách là nhờ người khác chuyển quà để người cho không cần ra mặt, không phải nhận công món quà do người khác bỏ ra.',
-        sentence: 'One suggested approach is to ___.',
-        options: ['have a gift delivered through an intermediary', 'take credit for another person’s donation', 'require the recipient to attend a public presentation', 'withhold the gift unless the donor is identified'], answer: 0,
+        sourceCue: 'nhờ ai đưa quà cho người nghèo trong xóm', targetVietnamese: 'ví dụ như nhờ ai đưa quà cho người nghèo trong xóm',
+        sentence: 'For example, we can ___.',
+        options: ['have someone deliver gifts to poor people in the neighborhood', 'take credit for another person’s donation', 'require the recipient to attend a public presentation', 'withhold the gift unless the donor is identified'], answer: 0,
         rationales: [
-          'have a gift delivered through an intermediary: nhờ một người chuyển giúp; giữ việc thiện và giảm sự lộ mặt.',
+          'have someone deliver gifts to poor people in the neighborhood: giữ việc nhờ người chuyển cùng người nhận và nơi nhận.',
           'take credit for another person’s donation: lấy công người khác; đổi quyền sở hữu món quà và động cơ.',
           'require the recipient to attend a public presentation: buộc nhận trước công chúng; trái tránh ra mặt.',
           'withhold the gift unless the donor is identified: chỉ cho khi công khai người cho; đảo mục đích kín đáo.'
         ], dimension: 'mediated giving versus appropriated credit, public presentation, and disclosure condition'
       },
       {
-        sourceCue: 'để không bị rơi vào lỗi khoe khoang kiêu mạn', targetVietnamese: 'Kín đáo nhằm tránh rơi vào khoe khoang và kiêu mạn, không nhằm che hành vi gây hại khỏi bị xét.',
-        sentence: 'Discretion is intended to ___.',
+        sourceCue: 'để không bị rơi vào lỗi khoe khoang kiêu mạn', targetVietnamese: 'Việc tu hành cần phải kín đáo để không bị rơi vào lỗi khoe khoang kiêu mạn',
+        sentence: 'Practice needs to remain discreet to ___.',
         options: ['guard against boasting and conceit', 'shield misconduct from accountability', 'imply a superior spiritual status through hints', 'secure exclusive ownership of every benefit'], answer: 0,
         rationales: [
           'guard against boasting and conceit: ngăn mình rơi vào hai lỗi nội tâm; giữ mục đích tu tập.',
@@ -4742,26 +4746,703 @@ module.exports = [
         ], dimension: 'preventing self-display versus evasion, insinuated superiority, and appropriation'
       },
       {
-        sourceCue: 'giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín', targetVietnamese: 'Ta có thể kết nối người quanh mình với nguồn đạo lý đáng tin, không cần lập tức tự nhận làm người giảng.',
-        sentence: 'A discreet form of guidance is to ___.',
-        options: ['direct neighbors to trustworthy sources of the teachings', 'claim personal authority in place of every outside source', 'demand that all advice pass exclusively through us', 'attribute our private opinions to an authoritative source'], answer: 0,
+        sourceCue: 'giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín', targetVietnamese: 'đến khi có phước rồi thì giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín',
+        sentence: 'Once we have blessings, we can ___.',
+        options: ['direct our neighbors to the teachings through trustworthy websites', 'claim personal authority in place of every outside source', 'demand that all advice pass exclusively through us', 'attribute our private opinions to an authoritative source'], answer: 0,
         rationales: [
-          'direct neighbors to trustworthy sources of the teachings: chỉ đường tới nguồn uy tín; giữ vai trò người kết nối.',
+          'direct our neighbors to the teachings through trustworthy websites: giữ người được giúp, nội dung đạo lý và phương tiện trang uy tín.',
           'claim personal authority in place of every outside source: tự thay mọi nguồn bằng mình; trái cách giới thiệu được gợi.',
           'demand that all advice pass exclusively through us: giữ độc quyền hướng dẫn; thêm quyền kiểm soát.',
           'attribute our private opinions to an authoritative source: gán ý mình cho nguồn; không phải giúp tiếp cận nguồn thật.'
         ], dimension: 'referral to reliable sources versus personal authority, gatekeeping, and false attribution'
       },
       {
-        sourceCue: 'sau này đủ phước làm giảng sư đăng tòa sẽ tính sau', targetVietnamese: 'Việc đứng giảng chính thức được để lại cho giai đoạn đủ phước, không bị cấm vĩnh viễn cũng không được thúc làm ngay.',
-        sentence: 'Formal public teaching is something to ___.',
-        options: ['defer until the requisite conditions are present', 'renounce permanently in every circumstance', 'undertake immediately as proof of sincerity', 'claim credit for before any preparation'], answer: 0,
+        sourceCue: 'sau này đủ phước làm giảng sư đăng tòa sẽ tính sau', targetVietnamese: 'sau này đủ phước làm giảng sư đăng tòa sẽ tính sau',
+        sentence: 'Taking the teaching seat as a Dharma lecturer is something to ___.',
+        options: ['defer until we have sufficient blessings', 'renounce permanently in every circumstance', 'undertake immediately as proof of sincerity', 'claim credit for before any preparation'], answer: 0,
         rationales: [
-          'defer until the requisite conditions are present: để giai đoạn sau khi đủ điều kiện; giữ giới hạn thời điểm.',
+          'defer until we have sufficient blessings: để sau khi đủ phước; không thay điều kiện cụ thể bằng một chữ chung chung.',
           'renounce permanently in every circumstance: bỏ mãi mãi; xóa khả năng “sau này… sẽ tính”.',
           'undertake immediately as proof of sincerity: làm ngay để chứng tâm; trái lời chưa nên ra mặt giảng.',
           'claim credit for before any preparation: nhận công trước chuẩn bị; thêm sự khoe vốn cần tránh.'
         ], dimension: 'conditional deferral versus permanent renunciation, immediate performance, and premature credit'
+      }
+    ]
+  },
+  {
+    id: 'M133', sourceBlockId: 'W12-B01', title: 'Trách nhiệm: làm tròn việc thay vì chỉ nhận việc',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'hoàn thành công việc quy định', targetVietnamese: 'muốn hoàn thành công việc quy định',
+        sentence: 'We want to ___ our assigned duties.',
+        options: ['fulfill', 'undertake', 'appraise', 'reassign'], answer: 0,
+        rationales: [
+          'fulfill: thực hiện đến mức đáp ứng bổn phận; giữ kết quả hoàn thành.',
+          'undertake: nhận đảm đương; có thể mới bắt đầu, chưa giữ ý làm tròn.',
+          'appraise: đánh giá công việc; không khẳng định đã thực hiện.',
+          'reassign: giao lại cho người khác; thay hành động hoàn thành bằng phân công lại.'
+        ], dimension: 'fulfillment versus undertaking, appraisal, and reassignment'
+      },
+      {
+        sourceCue: 'buộc phải bớt tìm các niềm vui riêng', targetVietnamese: 'thì ta buộc phải bớt tìm các niềm vui riêng.',
+        sentence: 'We must therefore ___ the pursuit of private pleasures.',
+        options: ['curtail', 'conceal', 'merely defer', 'publicly justify'], answer: 0,
+        rationales: [
+          'curtail: cắt giảm mức hoặc lượng; đúng chữ “bớt”.',
+          'conceal: che việc tìm vui khỏi người thấy; mức tìm vui có thể không đổi.',
+          'merely defer: chỉ dời thời điểm; chưa giảm phần niềm vui riêng.',
+          'publicly justify: công khai biện minh; không thực hiện sự tiết giảm cần thiết.'
+        ], dimension: 'curtailment versus concealment, deferral, and justification'
+      },
+      {
+        sourceCue: 'sa đà vào các trò vui độc hại', targetVietnamese: 'Người sa đà vào các trò vui độc hại thì không bao giờ có thể là người có trách nhiệm được.',
+        sentence: 'Someone who ___ can never be a responsible person.',
+        options: ['becomes engrossed in harmful pastimes', 'briefly samples an unfamiliar pastime', 'merely discusses the appeal of a pastime', 'keeps a pastime under detached observation'], answer: 0,
+        rationales: [
+          'becomes engrossed in harmful pastimes: chìm sâu, khó dứt sự chú tâm; giữ ý sa đà.',
+          'briefly samples an unfamiliar pastime: thử ngắn một lần; làm nhẹ mức mê đắm.',
+          'merely discusses the appeal of a pastime: chỉ bàn về sức hấp dẫn; đổi tham gia thành nói chuyện.',
+          'keeps a pastime under detached observation: quan sát không bị cuốn; trái trạng thái sa vào thú vui.'
+        ], dimension: 'absorption in harmful pleasure versus sampling, discussion, and detached observation'
+      },
+      {
+        sourceCue: 'không còn đầu óc tâm hồn nghĩ đến người thân nữa', targetVietnamese: 'Nghiện rượu, mê cờ bạc, ham sắc đẹp... thì không còn đầu óc tâm hồn nghĩ đến người thân nữa.',
+        sentence: 'Obsession with alcohol, gambling, and physical beauty ___ concern for loved ones.',
+        options: ['crowds out', 'merely discloses', 'reaffirms', 'gives expression to'], answer: 0,
+        rationales: [
+          'crowds out: lấn chỗ khiến điều khác không còn chỗ đứng; giữ hình ảnh tâm hết chỗ cho người thân.',
+          'merely discloses: chỉ làm lộ sự quan tâm; không diễn đạt việc bị loại khỏi tâm.',
+          'reaffirms: khẳng định lại sự quan tâm; đảo ảnh hưởng của mê đắm.',
+          'gives expression to: bộc lộ lòng quan tâm; khác việc không còn nghĩ đến người thân.'
+        ], dimension: 'displacement of concern versus disclosure, reaffirmation, and expression'
+      },
+      {
+        sourceCue: 'chăm sóc được cho người thân yêu', targetVietnamese: 'chăm sóc được cho người thân yêu',
+        sentence: 'We want to be able to ___ our loved ones.',
+        options: ['care for', 'worry about', 'speak on behalf of', 'take pride in'], answer: 0,
+        rationales: [
+          'care for: chăm sóc bằng sự quan tâm và việc làm; đúng bổn phận được nêu.',
+          'worry about: lo lắng; có cảm xúc mà chưa chắc chăm lo được.',
+          'speak on behalf of: nói đại diện; không bao quát công việc chăm sóc.',
+          'take pride in: tự hào về; nói cảm xúc của mình chứ chưa giúp được người thân.'
+        ], dimension: 'practical care versus worry, representation, and pride'
+      }
+    ]
+  },
+  {
+    id: 'M134', sourceBlockId: 'W12-B02', title: 'Hợp tác có thể hiện ra trong một việc rất nhỏ',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'dù trực tiếp hay gián tiếp', targetVietnamese: 'Ngày nay, dù trực tiếp hay gián tiếp, con người vẫn đang hợp tác',
+        sentence: 'Today, people continue to ___.',
+        options: ['cooperate both directly and indirectly', 'cooperate only when meeting face to face', 'replace cooperation with direct command', 'require personal acquaintance before cooperating'], answer: 0,
+        rationales: [
+          'cooperate both directly and indirectly: giữ con người là người hợp tác và cả hai hình thức được nêu.',
+          'cooperate only when meeting face to face: chỉ hợp tác khi gặp; loại mất gián tiếp.',
+          'replace cooperation with direct command: thay phối hợp bằng mệnh lệnh; đổi bản chất hoạt động.',
+          'require personal acquaintance before cooperating: đòi phải quen biết; thêm điều kiện nguồn không có.'
+        ], dimension: 'recognition of two modes versus restriction, command, and acquaintance requirement'
+      },
+      {
+        sourceCue: 'hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập', targetVietnamese: 'con người vẫn đang hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập này.',
+        sentence: 'People continue to ___ so that they can live in this vast, integrated global community.',
+        options: ['cooperate', 'merely coexist without interaction', 'compete exclusively', 'exercise a single centralized command'], answer: 0,
+        rationales: [
+          'cooperate: cùng góp phần và phối hợp; giữ tinh thần hợp tác để sống.',
+          'merely coexist without interaction: chỉ cùng tồn tại mà không tương tác; thiếu sự phối hợp.',
+          'compete exclusively: chỉ cạnh tranh; loại hợp tác vốn là trọng tâm.',
+          'exercise a single centralized command: cùng thi hành một lệnh trung tâm; thêm cơ cấu quyền lực nguồn không xác lập.'
+        ], dimension: 'cooperation versus bare coexistence, exclusive competition, and centralized command'
+      },
+      {
+        sourceCue: 'Đóng một đồng thuế', targetVietnamese: 'Đóng một đồng thuế là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.',
+        sentence: 'When we ___ even a single đồng in tax, we demonstrate cooperation with our country.',
+        options: ['pay', 'pledge to pay', 'assess', 'levy'], answer: 0,
+        rationales: [
+          'pay: thực nộp khoản thuế; giữ hành động đóng đã được dùng làm ví dụ.',
+          'pledge to pay: hứa nộp; chưa có sự đóng góp thực tế.',
+          'assess: xác định mức thuế; thuộc vai trò tính khoản phải nộp.',
+          'levy: đặt hoặc thu thuế theo thẩm quyền; đổi người đóng thành bên có quyền đánh thuế.'
+        ], dimension: 'payment versus pledge, assessment, and levy'
+      },
+      {
+        sourceCue: 'chứng tỏ sự hợp tác của mình với cả đất nước', targetVietnamese: 'là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.',
+        sentence: 'In doing so, we have already ___.',
+        options: ['demonstrated our cooperation with the country as a whole', 'fully discharged every obligation to the country', 'replaced all other forms of civic participation', 'legislated the terms of civic participation'], answer: 0,
+        rationales: [
+          'demonstrated our cooperation with the country as a whole: giữ việc chứng tỏ đã có và phạm vi cả đất nước.',
+          'fully discharged every obligation to the country: hoàn tất mọi nghĩa vụ; mở một ví dụ nhỏ thành tuyệt đối.',
+          'replaced all other forms of civic participation: thay mọi hình thức khác; nguồn không loại các cách hợp tác khác.',
+          'legislated the terms of civic participation: đặt luật về tham gia; đổi người góp phần thành người lập pháp.'
+        ], dimension: 'evidence of participation versus total discharge, substitution, and legislation'
+      },
+      {
+        sourceCue: 'ta chứng kiến sự tiến bộ của loài người', targetVietnamese: 'Và ta chứng kiến sự tiến bộ của loài người cho đến khi con người bắt đầu tạo ra robot có trí tuệ độc lập.',
+        sentence: 'And we ___ humanity’s progress to the point where humans begin creating robots with independent intelligence.',
+        options: ['witness', 'single-handedly accomplish', 'merely forecast without observing', 'claim exclusive credit for'], answer: 0,
+        rationales: [
+          'witness: thấy sự việc diễn ra; giữ vị trí người chứng kiến tiến bộ chung.',
+          'single-handedly accomplish: tự làm tất cả; đổi người quan sát thành tác nhân độc nhất.',
+          'merely forecast without observing: chỉ dự báo; trái việc chứng kiến được nguồn nói.',
+          'claim exclusive credit for: nhận công riêng; thêm thái độ chiếm thành quả chung.'
+        ], dimension: 'witnessing versus sole achievement, forecast, and exclusive credit'
+      }
+    ]
+  },
+  {
+    id: 'M135', sourceBlockId: 'W12-B03', title: 'Biết quy tắc, tuân theo và cùng vận hành',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'có những Nguyên tắc riêng của mình', targetVietnamese: 'Trong cộng đồng, cơ quan, tu viện, hội đoàn... cũng có những Nguyên tắc riêng của mình',
+        sentence: 'Communities, organizations, monasteries, and associations also ___.',
+        options: ['have their own governing rules', 'apply one identical rulebook without variation', 'delegate every rule to individual preference', 'dispense with any shared standard'], answer: 0,
+        rationales: [
+          'have their own governing rules: có nguyên tắc nội bộ; giữ sự khác nhau của từng cộng đồng.',
+          'apply one identical rulebook without variation: dùng một bộ y hệt; xóa chữ “riêng”.',
+          'delegate every rule to individual preference: để tùy mỗi người; không còn tính nguyên tắc chung.',
+          'dispense with any shared standard: bỏ tiêu chuẩn chung; trái việc các tổ chức đều có nguyên tắc.'
+        ], dimension: 'institution-specific rules versus uniform imposition, private preference, and no standards'
+      },
+      {
+        sourceCue: 'giúp cộng đồng được ổn định', targetVietnamese: 'giúp cộng đồng được ổn định.',
+        sentence: 'These rules help ___ the community.',
+        options: ['stabilize', 'merely describe', 'chronicle the origins of', 'rank each member of'], answer: 0,
+        rationales: [
+          'stabilize: giúp vững và bớt xáo trộn; giữ tác dụng thực của nguyên tắc.',
+          'merely describe: chỉ mô tả; bỏ chức năng giúp đời sống chung ổn định.',
+          'chronicle the origins of: ghi lịch sử hình thành; đổi tác dụng vận hành sang chép sử.',
+          'rank each member of: phân thứ bậc; nguồn không gắn nguyên tắc với xếp hạng con người.'
+        ], dimension: 'stabilization versus description, chronicle, and ranking'
+      },
+      {
+        sourceCue: 'Mỗi người, mỗi thành viên cứ thuộc', targetVietnamese: 'Mỗi người, mỗi thành viên cứ thuộc',
+        sentence: 'Each person, every member, is to ___ the rules.',
+        options: ['know', 'merely acknowledge the existence of', 'claim authorship of', 'entrust others alone with interpreting'], answer: 0,
+        rationales: [
+          'know: biết, nắm nội dung; đúng yêu cầu thuộc nguyên tắc.',
+          'merely acknowledge the existence of: chỉ nhận có một bộ; chưa biết điều cần tuân.',
+          'claim authorship of: nhận mình đặt ra; đổi người cần học thành người soạn.',
+          'entrust others alone with interpreting: chỉ giao người khác giải nghĩa; không giữ yêu cầu từng thành viên tự nắm nội dung.'
+        ], dimension: 'knowing content versus recognizing existence, authorship claim, and outsourced familiarity'
+      },
+      {
+        sourceCue: 'tuân thủ các nguyên tắc đó', targetVietnamese: 'và tuân thủ các nguyên tắc đó',
+        sentence: 'And members are to ___.',
+        options: ['abide by them', 'pay lip service to them', 'interpret them for other people without following them', 'petition to rewrite them instead of applying them'], answer: 0,
+        rationales: [
+          'abide by them: thực sự tuân theo; giữ yêu cầu về hành vi.',
+          'pay lip service to them: ngoài miệng tán thành; thiếu làm theo.',
+          'interpret them for other people without following them: giải thích cho người nhưng mình không tuân; bỏ hành động của từng thành viên.',
+          'petition to rewrite them instead of applying them: xin sửa thay vì thi hành; là công việc khác yêu cầu nguồn.'
+        ], dimension: 'compliance versus lip service, external interpretation, and revision petition'
+      },
+      {
+        sourceCue: 'thì mọi việc êm ấm vô cùng', targetVietnamese: 'thì mọi việc êm ấm vô cùng.',
+        sentence: 'Then everything ___.',
+        options: ['runs very smoothly', 'merely appears calm through concealed conflict', 'becomes exempt from every form of accountability', 'is left entirely without coordination'], answer: 0,
+        rationales: [
+          'runs very smoothly: giữ mức “êm ấm vô cùng” của mọi việc trong điều kiện vừa nêu.',
+          'merely appears calm through concealed conflict: chỉ giả yên do che xung đột; thêm giả tạo không có.',
+          'becomes exempt from every form of accountability: khỏi mọi trách nhiệm; không được suy từ ổn định.',
+          'is left entirely without coordination: không cần phối hợp; ngược vai trò của quy tắc chung.'
+        ], dimension: 'smooth functioning versus concealed conflict, immunity, and absent coordination'
+      }
+    ]
+  },
+  {
+    id: 'M136', sourceBlockId: 'W12-B04', title: 'Biết ơn đóng góp thật, không ca ngợi quyền lực vô điều kiện',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'tất cả những người đã góp phần xây dựng cuộc sống này', targetVietnamese: 'chúng ta còn biết ơn tất cả những người đã góp phần xây dựng cuộc sống này, xã hội này.',
+        sentence: 'Our gratitude also ___.',
+        options: ['extends to everyone who has helped build our life and society', 'is restricted to people who give us personal gifts', 'depends exclusively on personal acquaintance', 'is reserved for the most publicly celebrated contributors'], answer: 0,
+        rationales: [
+          'extends to everyone who has helped build our life and society: giữ cả chữ “tất cả”, việc đã đóng góp và hai đối tượng cuộc sống, xã hội.',
+          'is restricted to people who give us personal gifts: chỉ cảm ơn người cho riêng; thu hẹp ích lợi xã hội.',
+          'depends exclusively on personal acquaintance: chỉ khi quen biết; không có điều kiện đó trong đoạn.',
+          'is reserved for the most publicly celebrated contributors: chỉ dành người nổi tiếng; bỏ đóng góp ít được thấy.'
+        ], dimension: 'extended gratitude versus gift-only, acquaintance-only, and fame-only gratitude'
+      },
+      {
+        sourceCue: 'cảnh sát giữ gìn an ninh trật tự', targetVietnamese: 'Những người cảnh sát giữ gìn an ninh trật tự đem lại cho mọi người cuộc sống bình yên cũng làm chúng ta biết ơn.',
+        sentence: 'We are also grateful to police officers who ___ public order and enable everyone to live in peace.',
+        options: ['maintain', 'merely assess', 'suspend', 'undermine'], answer: 0,
+        rationales: [
+          'maintain: giữ gìn để tình trạng tiếp tục; đúng chức năng an ninh trật tự được cảm ơn.',
+          'merely assess: chỉ đánh giá; chưa thực hiện việc giữ yên.',
+          'suspend: đình chỉ; đảo chức năng bảo vệ trật tự.',
+          'undermine: phá yếu nền trật tự; trái việc giữ gìn an ninh được cảm ơn.'
+        ], dimension: 'maintenance versus assessment, suspension, and substitution for judgment'
+      },
+      {
+        sourceCue: 'xoa dịu phần nào nỗi đau khổ về bệnh tật', targetVietnamese: 'Những bác sĩ, những thầy thuốc đã cố gắng xoa dịu phần nào nỗi đau khổ về bệnh tật cho chúng ta.',
+        sentence: 'Doctors and other healers have tried to ___ the suffering illness causes us.',
+        options: ['alleviate some of', 'eradicate all', 'merely classify', 'conceal every outward sign of'], answer: 0,
+        rationales: [
+          'alleviate some of: làm nhẹ một phần; giữ cả mức độ lẫn tác dụng giúp.',
+          'eradicate all: diệt hết; vượt phạm vi “phần nào”.',
+          'merely classify: chỉ phân loại; bỏ việc làm bớt đau khổ.',
+          'conceal every outward sign of: giấu hết biểu hiện; khác giảm khổ thật và thêm tính toàn bộ.'
+        ], dimension: 'partial relief versus eradication, classification, and concealment'
+      },
+      {
+        sourceCue: 'đứng mũi chịu sào', targetVietnamese: 'Vì họ đã “đứng mũi chịu sào”, lo cho dân, cho nước, tìm cách làm cho xã hội ngày càng văn minh, tiến bộ.',
+        sentence: 'This is because they have ___ responsibility, cared for the people and the country, and sought to make society more civilized and progressive.',
+        options: ['shouldered', 'merely symbolized', 'disclaimed', 'privately profited from avoiding'], answer: 0,
+        rationales: [
+          'shouldered: đã đứng ra gánh; giữ thành ngữ và thời hoàn thành được nguồn nêu.',
+          'merely symbolized: chỉ làm biểu tượng; không đảm đương thực.',
+          'disclaimed: chối bỏ; trái chịu sào, lo dân nước.',
+          'privately profited from avoiding: được lợi riêng nhờ né trách nhiệm; thuộc hành vi tác giả loại khỏi lời cảm ơn.'
+        ], dimension: 'bearing responsibility versus symbolism, disavowal, and profitable evasion'
+      },
+      {
+        sourceCue: 'trừ những người lãnh đạo độc tài, tham nhũng', targetVietnamese: 'trừ những người lãnh đạo độc tài, tham nhũng, vơ vét, bóc lột nhân dân…',
+        sentence: 'This gratitude ___.',
+        options: ['excludes leaders who rule tyrannically, engage in corruption, plunder, or exploit the people', 'absolves oppressive officials because they hold office', 'extends indiscriminately to all officials', 'withdraws all scrutiny of official misconduct'], answer: 0,
+        rationales: [
+          'excludes leaders who rule tyrannically, engage in corruption, plunder, or exploit the people: giữ đủ các hành vi bị loại khỏi lời cảm ơn.',
+          'absolves oppressive officials because they hold office: miễn lỗi vì có chức; đảo việc loại khỏi người được cảm ơn.',
+          'extends indiscriminately to all officials: không phân biệt ai; xóa điều kiện về đóng góp tốt.',
+          'withdraws all scrutiny of official misconduct: bỏ xét sai phạm; trái sự nêu rõ độc tài và tham nhũng.'
+        ], dimension: 'exclusion from praise versus absolution, immunity, and withdrawn scrutiny'
+      }
+    ]
+  },
+  {
+    id: 'M137', sourceBlockId: 'W12-B05', title: 'Đã cùng nương nhau, còn cần giữ tinh thần hợp tác',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'ta quay lại với sự hợp tác trực tiếp', targetVietnamese: 'Nhưng thôi, ta quay lại với sự hợp tác trực tiếp trong những công việc gần gũi với mình.',
+        sentence: 'But let us now ___.',
+        options: ['return to direct cooperation in tasks close to home', 'retract the claim that we already cooperate indirectly', 'move from local cooperation to global cooperation for the first time', 'rule out cooperation beyond local groups'], answer: 0,
+        rationales: [
+          'return to direct cooperation in tasks close to home: quay lại hợp tác trực tiếp gần mình; giữ hướng chuyển mạch.',
+          'retract the claim that we already cooperate indirectly: rút khẳng định trước; tác giả vẫn công nhận điều ấy.',
+          'move from local cooperation to global cooperation for the first time: đi từ gần ra xa lần đầu; đảo hướng quay lại.',
+          'rule out cooperation beyond local groups: loại quan hệ ngoài nhóm; biến trọng tâm bàn luận thành ranh giới tuyệt đối.'
+        ], dimension: 'return of focus versus permanent restriction, opposition, and subordination'
+      },
+      {
+        sourceCue: 'đã luôn luôn hợp tác gián tiếp với cả thế giới rồi', targetVietnamese: 'Ta đã luôn luôn hợp tác gián tiếp với cả thế giới rồi',
+        sentence: 'We have always ___.',
+        options: ['cooperated indirectly with the entire world', 'merely proposed a future form of global cooperation', 'opted out of every existing relationship of cooperation', 'replaced all indirect cooperation with personal contracts'], answer: 0,
+        rationales: [
+          'cooperated indirectly with the entire world: giữ “luôn luôn”, phương thức gián tiếp và phạm vi cả thế giới.',
+          'merely proposed a future form of global cooperation: mới đề xuất cho sau; xóa tình trạng đã có.',
+          'opted out of every existing relationship of cooperation: rút khỏi hết; trái câu đã luôn hợp tác.',
+          'replaced all indirect cooperation with personal contracts: thay hết bằng hợp đồng riêng; thêm cơ chế không có.'
+        ], dimension: 'ongoing participation versus future proposal, opting out, and total replacement'
+      },
+      {
+        sourceCue: 'đó là biểu hiện của đạo đức và sự thông minh', targetVietnamese: 'vì đó là biểu hiện của đạo đức và sự thông minh.',
+        sentence: 'For this cooperative spirit ___ ethical character and intelligence.',
+        options: ['expresses', 'counterfeits', 'replaces the need for', 'exempts a person from developing'], answer: 0,
+        rationales: [
+          'expresses: thể hiện phẩm chất qua cách sống; giữ ý biểu hiện thật.',
+          'counterfeits: làm giả dáng vẻ; thêm sự không thành thật.',
+          'replaces the need for: làm không cần phẩm chất; đảo quan hệ từ phẩm chất ra biểu hiện.',
+          'exempts a person from developing: miễn rèn đạo đức và trí tuệ; không được suy từ việc hợp tác.'
+        ], dimension: 'expression versus counterfeit, substitution, and exemption from cultivation'
+      },
+      {
+        sourceCue: 'Càng thông minh, con người càng hướng tới sự hợp tác làm việc', targetVietnamese: 'Càng thông minh, con người càng hướng tới sự hợp tác làm việc.',
+        sentence: 'The more intelligent people become, the more they ___.',
+        options: ['incline toward working together', 'compel others to collaborate regardless of personal choice', 'guarantee success in every collaborative venture', 'merely pretend to find collaboration attractive'], answer: 0,
+        rationales: [
+          'incline toward working together: giữ xu hướng làm việc và cấu trúc tăng tiến càng… càng trong khung.',
+          'compel others to collaborate regardless of personal choice: ép người khác; đổi hướng của chính mình thành cưỡng chế bên ngoài.',
+          'guarantee success in every collaborative venture: bảo đảm mọi lần đều thành; nguồn nói xu hướng chứ không hứa kết quả.',
+          'merely pretend to find collaboration attractive: chỉ giả thích hợp tác; không có xu hướng hành động thật.'
+        ], dimension: 'inclination versus legal obligation, certification, and appointment'
+      },
+      {
+        sourceCue: 'bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau', targetVietnamese: 'Càng đạo đức, con người càng bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau.',
+        sentence: 'The more ethical people become, the more they ___.',
+        options: ['safeguard cooperation through mutual care and gratitude', 'retain cooperation only while personal profit is immediate', 'compel loyalty by keeping others indebted', 'treat cooperation as a means to monopolize all gains'], answer: 0,
+        rationales: [
+          'safeguard cooperation through mutual care and gratitude: giữ quan hệ chung bằng tình thương, ân nghĩa; đúng cách bảo vệ nguồn nêu.',
+          'retain cooperation only while personal profit is immediate: giữ chỉ khi lợi ngay; thêm điều kiện vị mình.',
+          'compel loyalty by keeping others indebted: buộc trung thành bằng mắc nợ; đổi ân nghĩa thành công cụ.',
+          'treat cooperation as a means to monopolize all gains: hợp tác để ôm hết lợi; trái yêu thương lẫn nhau.'
+        ], dimension: 'safeguarding mutual bonds versus conditional profit, debt leverage, and monopoly'
+      }
+    ]
+  },
+  {
+    id: 'M138', sourceBlockId: 'W12-B06', title: 'Tự trọng là cố giữ phẩm giá trong cách sống',
+    sourceAlignment: 'quote-and-english-checked',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'luôn giữ gìn nhân cách cẩn thận', targetVietnamese: 'Vì thế, người có lòng tự trọng luôn giữ gìn nhân cách cẩn thận',
+        sentence: 'Therefore, self-respecting people always carefully ___.',
+        options: ['safeguard their character', 'manage appearances regardless of actual conduct', 'claim moral superiority over everyone else', 'conceal misconduct to protect a reputation'], answer: 0,
+        rationales: [
+          'safeguard their character: gìn giữ phẩm chất thật; đúng đối tượng nhân cách.',
+          'manage appearances regardless of actual conduct: chỉ quản hình ảnh; có thể vẫn làm sai.',
+          'claim moral superiority over everyone else: tự nhận hơn hết; đổi giữ mình thành đề cao mình.',
+          'conceal misconduct to protect a reputation: giấu lỗi để giữ tiếng; không phải không để phát sinh lỗi.'
+        ], dimension: 'care of character versus image management, superiority claim, and concealment'
+      },
+      {
+        sourceCue: 'không để có lỗi cho người khác xem thường', targetVietnamese: 'không để có lỗi cho người khác xem thường.',
+        sentence: 'They take care to ___.',
+        options: ['avoid faults that would cause others to look down on them', 'silence every critical response', 'prevent others from noticing existing faults', 'make public approval the sole test of right and wrong'], answer: 0,
+        rationales: [
+          'avoid faults that would cause others to look down on them: giữ việc tránh chính lỗi dẫn đến bị coi thường, không tự thêm phán đoán.',
+          'silence every critical response: dập mọi phê bình; đổi việc giữ mình thành khống chế người.',
+          'prevent others from noticing existing faults: chỉ giấu lỗi; không tránh lỗi nơi hành vi.',
+          'make public approval the sole test of right and wrong: lấy được thích làm chuẩn duy nhất; rộng hơn yêu cầu giữ phẩm giá.'
+        ], dimension: 'avoiding discreditable conduct versus silencing, concealment, and approval as moral proof'
+      },
+      {
+        sourceCue: 'cố gắng Tự giữ gìn phẩm giá', targetVietnamese: 'Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá',
+        sentence: 'Self-respect means ___ preserve one’s dignity.',
+        options: ['striving to', 'being guaranteed to', 'merely claiming to', 'paying others to'], answer: 0,
+        rationales: [
+          'striving to: cố gắng hướng vào việc làm; giữ yếu tố nỗ lực.',
+          'being guaranteed to: được bảo đảm thành công; thêm sự không thể sai.',
+          'merely claiming to: chỉ tự nhận; không giữ nỗ lực hành động.',
+          'paying others to: thuê người làm thay; chuyển chủ thể của tự giữ mình.'
+        ], dimension: 'personal endeavor versus guaranteed success, claim alone, and outsourcing'
+      },
+      {
+        sourceCue: 'không bị mất sự tôn trọng', targetVietnamese: 'để không bị mất sự tôn trọng của mọi người đối với mình.',
+        sentence: 'The aim of this effort is to ___.',
+        options: ['retain the respect of others', 'compel unquestioning deference', 'mistake flattering words for genuine regard', 'trade personal integrity for social favor'], answer: 0,
+        rationales: [
+          'retain the respect of others: giữ không để mất sự kính trọng; đúng phạm vi của mục đích.',
+          'compel unquestioning deference: ép kính phục không xét; đổi giữ mình thành điều khiển người.',
+          'mistake flattering words for genuine regard: nhầm tâng bốc với tôn trọng; không phải mục tiêu giữ phẩm giá.',
+          'trade personal integrity for social favor: đổi nhân cách lấy được thích; trái việc gìn giữ phẩm giá thật.'
+        ], dimension: 'retention versus extraction, imitation, and trading away'
+      },
+      {
+        sourceCue: 'Tự trọng nghĩa là', targetVietnamese: 'Như vậy, nếu nói cho đủ thì phải nói là, Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá để không bị mất sự tôn trọng của mọi người đối với mình.',
+        sentence: 'Thus, in a full account, self-respect is ___ the effort to preserve dignity so as not to lose the respect of others.',
+        options: ['identified with', 'awarded for publicizing', 'replaced by mere approval of', 'treated as independent of'], answer: 0,
+        rationales: [
+          'identified with: được xác định là nỗ lực tự giữ; đúng nội dung định nghĩa.',
+          'awarded for publicizing: được thưởng vì quảng bá sự cố gắng; thêm người cấp và tiêu chuẩn được thấy.',
+          'replaced by mere approval of: chỉ tán thành nỗ lực là thay được phẩm chất; chưa có việc tự rèn.',
+          'treated as independent of: tách khỏi nỗ lực giữ mình; trái mối gắn mà định nghĩa đặt ra.'
+        ], dimension: 'conceptual location versus conferral, publicity, and legislation'
+      }
+    ]
+  },
+  {
+    id: 'M139', sourceBlockId: 'W12-B07', title: 'Tận tụy ở công sở chưa bao quát mọi mặt siêng năng',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'Siêng năng hơi khác với Tận tụy một chút', targetVietnamese: 'Tác giả phân biệt nhẹ hai phạm vi gần nhau, không đặt siêng năng và tận tụy thành hai phẩm chất đối nghịch.',
+        sentence: 'The passage ___ diligence and dedication.',
+        options: ['draws a distinction between', 'sets up an absolute opposition between', 'asserts the complete interchangeability of', 'establishes a causal sequence from'], answer: 0,
+        rationales: [
+          'draws a distinction between: chỉ ra một nét khác; giữ mức “hơi khác… một chút”.',
+          'sets up an absolute opposition between: đặt đối nghịch tuyệt đối; làm quá khác biệt phạm vi.',
+          'asserts the complete interchangeability of: cho thay nhau hoàn toàn; xóa phân biệt đang được giải thích.',
+          'establishes a causal sequence from: đặt phẩm chất này sinh phẩm chất kia; đoạn phân nghĩa chứ chưa kể chuỗi nhân quả.'
+        ], dimension: 'limited distinction versus absolute opposition, equivalence, and causal sequence'
+      },
+      {
+        sourceCue: 'siêng năng trong bổn phận việc làm', targetVietnamese: 'Tận tụy được dùng riêng cho việc dốc sức làm bổn phận công việc, không chỉ làm việc theo hứng.',
+        sentence: 'Dedication here means ___.',
+        options: ['applying oneself diligently to occupational duties', 'working only when a task is personally entertaining', 'taking on duties without carrying them out', 'advertising how demanding one’s duties are'], answer: 0,
+        rationales: [
+          'applying oneself diligently to occupational duties: chuyên tâm và chịu khó trong phần việc bổn phận; đúng phạm vi tận tụy.',
+          'working only when a task is personally entertaining: làm tùy hứng; thiếu sự gắn bó với bổn phận.',
+          'taking on duties without carrying them out: nhận mà không thực hiện; chưa có sự tận tâm.',
+          'advertising how demanding one’s duties are: kể việc nặng; không thay cho việc dốc sức làm.'
+        ], dimension: 'diligent application versus entertainment, unfulfilled undertaking, and workload publicity'
+      },
+      {
+        sourceCue: 'chịu khó tốn công sức để thực hiện mọi công việc trong cuộc sống', targetVietnamese: 'Siêng năng có phạm vi rộng hơn công sở: chịu bỏ công cho các việc trong đời sống.',
+        sentence: 'Diligence, in the broader sense, ___.',
+        options: ['extends effort across the activities of everyday life', 'restricts effort to paid employment', 'exempts domestic activity from any need for effort', 'counts willingness as equivalent to completed work'], answer: 0,
+        rationales: [
+          'extends effort across the activities of everyday life: trải sự chịu khó ra các việc sống; giữ phạm vi rộng.',
+          'restricts effort to paid employment: chỉ tính việc có lương; hẹp hơn lời định nghĩa.',
+          'exempts domestic activity from any need for effort: miễn việc nhà; trái phạm vi mọi công việc.',
+          'counts willingness as equivalent to completed work: xem muốn làm như đã xong; không có căn cứ trong định nghĩa.'
+        ], dimension: 'broad effort versus employment restriction, domestic exemption, and intention-outcome equivalence'
+      },
+      {
+        sourceCue: 'Tận tụy ở công sở, nhưng đôi khi về đến nhà không chịu làm gì khác', targetVietnamese: 'Làm tận tụy ở công sở không tự bảo đảm người ấy vẫn chịu khó khi về nhà.',
+        sentence: 'Dedication at the office does not necessarily ___ diligence at home.',
+        options: ['carry over into', 'exclude the possibility of', 'stand in contrast to every instance of', 'depend entirely on prior'], answer: 0,
+        rationales: [
+          'carry over into: tiếp nối, lan sang lĩnh vực khác; đúng điều ví dụ cho thấy không tự động xảy ra.',
+          'exclude the possibility of: trong khung phủ định là không nhất thiết loại khả năng siêng ở nhà; khác ý không tự lan từ công sở sang nhà.',
+          'stand in contrast to every instance of: luôn trái với mọi lần siêng ở nhà; nâng đôi khi thành đối lập tuyệt đối.',
+          'depend entirely on prior: hoàn toàn tùy việc siêng ở nhà có trước; đảo chiều so sánh trong ví dụ.'
+        ], dimension: 'nonautomatic transfer versus exclusion, universal contrast, and reverse dependence'
+      },
+      {
+        sourceCue: 'lấy cớ làm về mệt', targetVietnamese: 'Người ấy viện mệt sau giờ làm để khỏi làm việc khác; lời nguồn có sắc thái biện hộ, không chỉ báo tình trạng mệt.',
+        sentence: 'The person ___.',
+        options: ['invokes fatigue after work as an excuse', 'merely acknowledges being tired after work', 'seeks treatment for clinically assessed exhaustion', 'regrets causing other people to become tired'], answer: 0,
+        rationales: [
+          'invokes fatigue after work as an excuse: viện mệt làm lý do tránh việc; giữ sắc thái “lấy cớ”.',
+          'merely acknowledges being tired after work: chỉ nhận mình mệt; chưa có chức năng biện hộ.',
+          'seeks treatment for clinically assessed exhaustion: đi chữa sự kiệt sức đã được khám; thêm việc y khoa không có.',
+          'regrets causing other people to become tired: hối vì làm người khác mệt; đổi người chịu mệt và thái độ.'
+        ], dimension: 'pretext versus measurement, noticing, and remorse'
+      }
+    ]
+  },
+  {
+    id: 'M140', sourceBlockId: 'W12-B08', title: 'Chịu cực trước, niềm vui bền có thể đến sau',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'Sống có trách nhiệm là phải chịu cực', targetVietnamese: 'Sống có trách nhiệm đòi hỏi nhận phần vất vả, không chỉ tỏ ra mình bận rộn.',
+        sentence: 'Living responsibly entails ___.',
+        options: ['bearing hardship', 'projecting an image of busyness', 'delegating every demanding task', 'claiming exemption from discomfort'], answer: 0,
+        rationales: [
+          'bearing hardship: nhận và chịu phần cực; giữ cái giá thực tế của trách nhiệm.',
+          'projecting an image of busyness: làm vẻ bận; chưa có việc gánh khó thật.',
+          'delegating every demanding task: giao hết phần khó; không giữ yêu cầu chính mình chịu cực.',
+          'claiming exemption from discomfort: tự cho được miễn cực; đảo lời mở đầu.'
+        ], dimension: 'bearing hardship versus busy appearance, total delegation, and exemption'
+      },
+      {
+        sourceCue: 'sau nhiều năm sẽ trở thành hạnh phúc', targetVietnamese: 'Theo đoạn, trải qua nhiều năm, điều ban đầu vất vả trở thành nguồn hạnh phúc; không nói niềm vui có ngay.',
+        sentence: 'Over the years, the initial hardship ___.',
+        options: ['gives way to happiness', 'is instantly rewarded with pleasure', 'is merely forgotten without any positive change', 'proves that responsibility was unnecessary'], answer: 0,
+        rationales: [
+          'gives way to happiness: chuyển sang được sống trong hạnh phúc; giữ diễn tiến qua nhiều năm.',
+          'is instantly rewarded with pleasure: được vui ngay lập tức; xóa khoảng thời gian nguồn nhấn.',
+          'is merely forgotten without any positive change: chỉ quên đi; không có kết quả hạnh phúc.',
+          'proves that responsibility was unnecessary: chứng tỏ không cần trách nhiệm; đảo ý khuyến khích của đoạn.'
+        ], dimension: 'eventual transformation versus instant reward, mere forgetting, and repudiation'
+      },
+      {
+        sourceCue: 'đem niềm vui đến cho mọi người chung quanh mình', targetVietnamese: 'Người có trách nhiệm tạo niềm vui cho người quanh mình, không chỉ hưởng niềm vui do họ cung cấp.',
+        sentence: 'A responsible person ___.',
+        options: ['brings joy to those around them', 'draws all their enjoyment from others’ service', 'requires others to display happiness for their benefit', 'withholds help until gratitude is expressed'], answer: 0,
+        rationales: [
+          'brings joy to those around them: mang niềm vui tới người khác; đúng hướng tác động.',
+          'draws all their enjoyment from others’ service: chỉ hưởng người phục vụ; đảo người cho và người nhận.',
+          'requires others to display happiness for their benefit: ép người tỏ vui; thay hạnh phúc thật bằng trình diễn.',
+          'withholds help until gratitude is expressed: chờ được cảm ơn mới giúp; thêm điều kiện không có.'
+        ], dimension: 'giving joy versus consuming service, staged happiness, and gratitude condition'
+      },
+      {
+        sourceCue: 'kềm chế những trò vui của mình', targetVietnamese: 'Người ấy biết giữ thú vui riêng trong giới hạn để làm trách nhiệm, không chỉ đổi tên chúng thành việc công.',
+        sentence: 'The person learns to ___ personal amusements.',
+        options: ['rein in', 'relabel', 'publicize', 'delegate'], answer: 0,
+        rationales: [
+          'rein in: giữ lại, kiềm bớt; đúng hình ảnh tự chế nhu cầu riêng.',
+          'relabel: đổi tên; không thay mức ham vui.',
+          'publicize: làm được biết; không diễn đạt việc tự hạn chế.',
+          'delegate: giao người khác làm; không phải kiểm soát thú vui của chính mình.'
+        ], dimension: 'restraint versus relabeling, publicity, and delegation'
+      },
+      {
+        sourceCue: 'luật Nhân quả sẽ đem về lại quả lành trái ngọt', targetVietnamese: '“Quả lành trái ngọt” là hình ảnh kết quả tốt do nhân quả đưa lại, không phải lời hứa được thưởng bằng nông sản.',
+        sentence: 'The metaphor says that responsible conduct will ___.',
+        options: ['bear wholesome fruit', 'secure a literal harvest as payment', 'purchase immunity from every future mistake', 'prove that no prior effort was needed'], answer: 0,
+        rationales: [
+          'bear wholesome fruit: trổ kết quả tốt; giữ hình ảnh mà không dịch thành phần thưởng vật chất cụ thể.',
+          'secure a literal harvest as payment: được trả bằng vụ mùa; hiểu thành ngữ theo nghĩa đen.',
+          'purchase immunity from every future mistake: mua quyền miễn sai; thêm bảo đảm không có.',
+          'prove that no prior effort was needed: chứng tỏ khỏi cần cố gắng; xóa phần nhân trách nhiệm.'
+        ], dimension: 'figurative fruition versus literal payment, immunity, and absent effort'
+      }
+    ]
+  },
+  {
+    id: 'M141', sourceBlockId: 'W12-B09', title: 'Phối hợp làm tăng điều một người không tự làm nổi',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'Nếu làm việc một mình, người đó sẽ thiếu trước hụt sau', targetVietnamese: 'Làm một mình thì đáp ứng được việc này lại hụt việc khác; không phải tuyệt đối không làm được việc nào.',
+        sentence: 'Working alone, a person ___.',
+        options: ['struggles to meet competing practical needs', 'is incapable of accomplishing any task at all', 'chooses scarcity as an end in itself', 'deliberately rejects every available resource'], answer: 0,
+        rationales: [
+          'struggles to meet competing practical needs: khó lo đủ nhiều nhu cầu cùng lúc; giữ ý thiếu trước hụt sau.',
+          'is incapable of accomplishing any task at all: không làm được gì; mạnh hơn ví dụ vẫn có cái ăn hay cái nhà.',
+          'chooses scarcity as an end in itself: cố chọn thiếu thốn; thêm động cơ không có.',
+          'deliberately rejects every available resource: cố bỏ mọi nguồn lực; không phải nguyên nhân được kể.'
+        ], dimension: 'competing unmet needs versus total incapacity, chosen scarcity, and deliberate rejection'
+      },
+      {
+        sourceCue: 'họ phân công nhau trong một sự hợp tác chung', targetVietnamese: 'Các thành viên phân chia phần việc để cùng lo đời sống, không ai ôm hết hoặc đẩy hết cho một người.',
+        sentence: 'The family members ___.',
+        options: ['divide the work among themselves', 'duplicate every task independently', 'transfer all work to a single member', 'reserve planning for themselves while refusing to act'], answer: 0,
+        rationales: [
+          'divide the work among themselves: chia nhau công việc trong mục đích chung; giữ sự phân công.',
+          'duplicate every task independently: ai cũng làm lại tất cả; không có lợi thế phân việc.',
+          'transfer all work to a single member: dồn hết một người; trái sự hợp tác nhiều người.',
+          'reserve planning for themselves while refusing to act: chỉ giữ phần tính mà không làm; thêm trốn việc.'
+        ], dimension: 'division of labor versus duplication, concentration, and planning without execution'
+      },
+      {
+        sourceCue: 'Có hai ba người cùng làm nhà', targetVietnamese: 'Hai ba người hợp sức xây được nhà lớn hơn; sức làm chung được kết hợp, không chỉ xếp cạnh nhau những việc rời rạc.',
+        sentence: 'By ___, several people can build a larger house.',
+        options: ['pooling their efforts', 'merely comparing their individual plans', 'taking turns claiming sole credit', 'working independently toward incompatible designs'], answer: 0,
+        rationales: [
+          'pooling their efforts: góp chung sức; giữ cơ chế nhiều người làm được việc lớn hơn.',
+          'merely comparing their individual plans: chỉ so phương án; chưa có hợp sức thực hiện.',
+          'taking turns claiming sole credit: thay nhau nhận công riêng; khác phối hợp xây dựng.',
+          'working independently toward incompatible designs: mỗi người theo thiết kế xung khắc; không giữ mục tiêu chung.'
+        ], dimension: 'combined effort versus comparison, alternating credit, and incompatible independent work'
+      },
+      {
+        sourceCue: 'Xã hội tiến bộ hơn khi cộng đồng bộ tộc hợp tác', targetVietnamese: 'Hợp tác trong cộng đồng góp phần đưa xã hội tiến lên, không chỉ ghi dấu rằng tiến bộ đã xong từ trước.',
+        sentence: 'Cooperation within the community helps ___ social progress.',
+        options: ['advance', 'merely commemorate', 'certify the prior completion of', 'replace practical work with talk of'], answer: 0,
+        rationales: [
+          'advance: thúc đẩy tiến triển; giữ tác dụng của cùng làm các việc sống.',
+          'merely commemorate: chỉ kỷ niệm; nói về một thành tựu có trước.',
+          'certify the prior completion of: xác nhận đã xong; đổi tác nhân thúc đẩy thành người cấp chứng.',
+          'replace practical work with talk of: lấy nói thay làm; bỏ cơ chế hợp tác thực tế.'
+        ], dimension: 'advancement versus commemoration, certification, and talk replacing work'
+      },
+      {
+        sourceCue: 'Họ an toàn hơn trong một cộng đồng đông hơn và hợp tác hơn', targetVietnamese: 'Cộng đồng hợp tác đem lại mức an toàn cao hơn, chưa phải không thể gặp bất cứ nguy hiểm nào.',
+        sentence: 'A more cooperative community can ___.',
+        options: ['enhance its members’ security', 'eliminate every possible danger', 'guarantee immunity from all losses', 'dispense with every need for self-defense'], answer: 0,
+        rationales: [
+          'enhance its members’ security: làm an toàn hơn; giữ mức so sánh.',
+          'eliminate every possible danger: xóa mọi nguy hiểm; nâng “hơn” thành tuyệt đối.',
+          'guarantee immunity from all losses: chắc không chịu thiệt; mở an toàn sang bảo đảm toàn diện.',
+          'dispense with every need for self-defense: khỏi tự vệ; trái việc tự vệ được kể là một hoạt động hợp tác.'
+        ], dimension: 'improved security versus total danger removal, immunity, and no defense requirement'
+      }
+    ]
+  },
+  {
+    id: 'M142', sourceBlockId: 'W12-B10', title: 'Biết luật không đồng nghĩa thuộc hết luật',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'lại chẳng đơn giản chút nào', targetVietnamese: 'Tác giả sửa lại ấn tượng rằng học và tuân quy tắc rất đơn giản; không rút bỏ yêu cầu cần tuân.',
+        sentence: 'The turn in the argument ___ the apparent simplicity of the two tasks.',
+        options: ['challenges', 'confirms without qualification', 'merely celebrates', 'makes unnecessary'], answer: 0,
+        rationales: [
+          'challenges: xét lại và bác ấn tượng quá đơn giản; giữ chuyển ý “nhưng”.',
+          'confirms without qualification: xác nhận không giới hạn; trái “chẳng đơn giản”.',
+          'merely celebrates: chỉ tán dương; không có động tác điều chỉnh nhận định.',
+          'makes unnecessary: khiến không cần sự đơn giản; không diễn đạt tác giả đang cho thấy khó.'
+        ], dimension: 'qualification of simplicity versus confirmation, celebration, and obviation'
+      },
+      {
+        sourceCue: 'Không ai thuộc hết các bộ luật của quốc gia mình', targetVietnamese: 'Không ai nhớ trọn nội dung mọi bộ luật, khác với không biết rằng quốc gia có luật.',
+        sentence: 'The claim is that no one ___.',
+        options: ['knows the country’s entire body of law by heart', 'acknowledges that national laws exist', 'can locate any legal reference at all', 'has ever complied with a legal requirement'], answer: 0,
+        rationales: [
+          'knows the country’s entire body of law by heart: thuộc trọn mọi bộ luật; giữ phạm vi của chữ “hết”.',
+          'acknowledges that national laws exist: biết có luật; phủ nhận điều này rộng và khác hẳn không thuộc hết.',
+          'can locate any legal reference at all: tìm được bất kỳ tài liệu nào; nguồn kể luật sư vẫn tra tài liệu.',
+          'has ever complied with a legal requirement: từng tuân một điều; mở không thuộc hết thành chưa bao giờ làm đúng.'
+        ], dimension: 'complete memorization versus existence awareness, reference access, and any compliance'
+      },
+      {
+        sourceCue: 'Luật sư cũng không thuộc nổi', targetVietnamese: 'Luật sư cũng nằm trong giới hạn trí nhớ ấy; tác giả không nói họ không có chuyên môn.',
+        sentence: 'The example about recall ___.',
+        options: ['includes lawyers within the stated limitation', 'excepts lawyers from that limitation', 'dismisses all lawyers as professionally incompetent', 'absolves lawyers of a charge of deliberate evasion'], answer: 0,
+        rationales: [
+          'includes lawyers within the stated limitation: đặt cả luật sư trong giới hạn trí nhớ; giữ chữ “cũng”.',
+          'excepts lawyers from that limitation: cho luật sư là ngoại lệ; trái ví dụ tác giả chọn.',
+          'dismisses all lawyers as professionally incompetent: gạt hết là bất tài; không thuộc hết không phải thiếu chuyên môn.',
+          'absolves lawyers of a charge of deliberate evasion: tha cáo buộc cố né tránh; nguồn không đặt cáo buộc ấy.'
+        ], dimension: 'inclusion in a limitation versus absolution, exclusion, and incompetence claim'
+      },
+      {
+        sourceCue: 'lấy tài liệu ra nghiên cứu', targetVietnamese: 'Khi nhận vụ việc, luật sư dùng tài liệu để nghiên cứu chứ không phải chỉ đọc lại điều nhớ sẵn.',
+        sentence: 'The lawyer ___ legal materials for the case.',
+        options: ['consults', 'recites from memory without consulting', 'promulgates', 'confiscates'], answer: 0,
+        rationales: [
+          'consults: tra cứu để lấy thông tin và cân nhắc; giữ vai trò tài liệu hỗ trợ làm việc.',
+          'recites from memory without consulting: đọc thuộc mà không tra; trái hành động lấy tài liệu ra.',
+          'promulgates: ban hành; đổi luật sư nghiên cứu thành cơ quan làm cho luật có hiệu lực.',
+          'confiscates: tịch thu; thêm quyền cưỡng chế thay việc tìm hiểu.'
+        ], dimension: 'reference consultation versus memory recitation, promulgation, and confiscation'
+      },
+      {
+        sourceCue: 'nghiên cứu cả đêm khi nhận lời của khách hàng', targetVietnamese: 'Nhận việc của khách hàng kéo theo công sức nghiên cứu qua đêm, không bảo đảm luật sư biết sẵn mọi lời giải.',
+        sentence: 'Taking on a client’s case can require the lawyer to ___.',
+        options: ['work through the relevant material overnight', 'guarantee an answer before examining the facts', 'delegate every act of legal judgment to the client', 'treat lack of instant recall as proof the law does not exist'], answer: 0,
+        rationales: [
+          'work through the relevant material overnight: nghiên cứu kỹ tới qua đêm; giữ công sức khi nhận việc.',
+          'guarantee an answer before examining the facts: hứa kết luận trước khi xét; không có trong ví dụ tra cứu.',
+          'delegate every act of legal judgment to the client: giao khách tự phán hết; trái phần việc luật sư nhận.',
+          'treat lack of instant recall as proof the law does not exist: suy không nhớ là không có luật; đánh đồng trí nhớ với thực tại.'
+        ], dimension: 'case preparation versus premature guarantee, client delegation, and false absence inference'
+      }
+    ]
+  },
+  {
+    id: 'M143', sourceBlockId: 'W12-B11', title: 'Quý một hạt cơm, quý cả cơ hội làm việc',
+    review: 'source-and-alternatives-reviewed-by-author',
+    items: [
+      {
+        sourceCue: 'một hạt cơm rơi còn nhặt lên', targetVietnamese: 'Hình ảnh là nhặt lại hạt cơm đã rơi, không phải chỉ đếm hay ngắm nó.',
+        sentence: 'The elders would ___ even a fallen grain of rice.',
+        options: ['pick up', 'merely count', 'display', 'deliberately discard'], answer: 0,
+        rationales: [
+          'pick up: nhặt lên khỏi nơi rơi; giữ hành động cụ thể làm nền cho phép so sánh.',
+          'merely count: chỉ đếm; chưa ngăn hạt cơm bị phí.',
+          'display: bày cho thấy; không phải nhặt để không phí.',
+          'deliberately discard: cố vứt bỏ; đảo cử chỉ giữ gìn.'
+        ], dimension: 'retrieval versus counting, display, and discard'
+      },
+      {
+        sourceCue: 'không cho phí phạm', targetVietnamese: 'Việc nhặt cơm nhằm tránh để một thứ có giá trị bị lãng phí, không biến nó thành vật trưng bày.',
+        sentence: 'That small act is meant to ___.',
+        options: ['prevent waste', 'advertise the grain’s monetary value', 'certify the quality of the entire harvest', 'transfer responsibility for the meal to someone else'], answer: 0,
+        rationales: [
+          'prevent waste: ngăn sự phí phạm; đúng mục đích được nói ngay sau hành động.',
+          'advertise the grain’s monetary value: công bố giá tiền; thêm mục đích giao dịch.',
+          'certify the quality of the entire harvest: chứng nhận cả vụ mùa; mở một cử chỉ nhỏ thành kiểm định rộng.',
+          'transfer responsibility for the meal to someone else: chuyển trách nhiệm bữa ăn; không liên quan mục đích giữ lại hạt cơm.'
+        ], dimension: 'waste prevention versus valuation publicity, quality certification, and duty transfer'
+      },
+      {
+        sourceCue: 'công việc gì đến với ta, ta đều yêu quý tôn trọng', targetVietnamese: 'Nguồn khuyên biết quý công việc mình có, không chỉ đánh giá nó theo danh xưng hấp dẫn đến đâu.',
+        sentence: 'When work comes our way, the instruction is to ___.',
+        options: ['cherish it', 'rank it solely by prestige', 'tolerate it while withholding effort', 'use it only to assert superiority over other workers'], answer: 0,
+        rationales: [
+          'cherish it: quý và trân trọng việc đang có; giữ thái độ được yêu cầu.',
+          'rank it solely by prestige: chỉ xếp theo tiếng tăm; không giữ việc quý bất cứ công việc nào.',
+          'tolerate it while withholding effort: miễn cưỡng chịu và không góp sức; trái tận tụy.',
+          'use it only to assert superiority over other workers: lấy việc làm cớ mình hơn người; đổi quý việc thành đề cao mình.'
+        ], dimension: 'cherishing work versus prestige ranking, disengaged tolerance, and superiority claim'
+      },
+      {
+        sourceCue: 'rất tận tụy làm việc', targetVietnamese: 'Lòng quý việc thể hiện bằng dốc mình làm, không chỉ phát biểu rằng mình yêu nghề.',
+        sentence: 'Respect for work should lead us to ___.',
+        options: ['apply ourselves wholeheartedly', 'profess dedication without changing our effort', 'request recognition before beginning', 'leave every difficult part to others'], answer: 0,
+        rationales: [
+          'apply ourselves wholeheartedly: chuyên tâm làm hết lòng; đúng tận tụy ở hành vi.',
+          'profess dedication without changing our effort: chỉ tự nhận tận tâm; không thay cho làm.',
+          'request recognition before beginning: xin ghi công trước; thêm yêu cầu danh vọng.',
+          'leave every difficult part to others: đẩy mọi phần nặng; trái đóng góp thực.'
+        ], dimension: 'wholehearted application versus profession, advance recognition, and avoidance'
+      },
+      {
+        sourceCue: 'cho cao năng suất', targetVietnamese: 'Mục tiêu là nâng hiệu quả làm việc, không chỉ tăng số giờ có mặt.',
+        sentence: 'Dedicated effort is directed toward ___.',
+        options: ['raising productivity', 'merely lengthening attendance', 'inflating reports of output', 'reclassifying unfinished work as complete'], answer: 0,
+        rationales: [
+          'raising productivity: làm mức tạo kết quả cao hơn; giữ đích năng suất.',
+          'merely lengthening attendance: chỉ ở lâu hơn; không tự làm năng suất cao.',
+          'inflating reports of output: thổi số liệu; trái hiệu quả thật.',
+          'reclassifying unfinished work as complete: ghi việc dở thành xong; đổi nhãn không tạo kết quả.'
+        ], dimension: 'productivity versus attendance time, inflated reporting, and false completion'
       }
     ]
   }

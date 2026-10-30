@@ -1,6 +1,8 @@
 'use strict';
-// Packaging only: all Vietnamese targets, English frames, alternatives, and
-// explanations must already exist in reviewed-verb-sets.cjs.
+// Packaging only: English frames, alternatives, and explanations are authored.
+// Vietnamese shown to learners is copied verbatim from the source, never from
+// an editorial paraphrase. Extracting a quotation does not generate a question
+// or establish that its English frame has been semantically reviewed.
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
@@ -16,6 +18,39 @@ function loadBank(){
   return sandbox.window.PQContextBank;
 }
 
+function quoteFromSource(source,cue,authoredQuote){
+  const begin=source.indexOf(cue);
+  assert(begin>=0,'source cue absent');
+  if(authoredQuote&&source.includes(authoredQuote)){
+    assert(authoredQuote.includes(cue),'target quote must contain the source cue');
+    return authoredQuote;
+  }
+  const end=begin+cue.length;
+  const boundaries=[0];
+  for(const match of source.matchAll(/[.!?…][”’"')\]]*\s+(?=[\p{Lu}\p{N}“‘"])/gu)){
+    boundaries.push(match.index+match[0].length);
+  }
+  for(const match of source.matchAll(/\n\s*\n/gu))boundaries.push(match.index+match[0].length);
+  boundaries.push(source.length);
+  boundaries.sort((a,b)=>a-b);
+  const start=boundaries.filter(p=>p<=begin).at(-1);
+  const finish=boundaries.find(p=>p>=end);
+  let quote=source.slice(start,finish).trim();
+  // A long Vietnamese sentence can span an entire paragraph. In that case,
+  // quote its cue-bearing clause instead of repeating the whole paragraph.
+  if(quote.length>220||quote===source.trim()){
+    let left=start,right=finish;
+    for(const match of source.matchAll(/[,;:\n]/gu)){
+      if(match.index>=start&&match.index<begin)left=match.index+1;
+      if(match.index>=end&&match.index<right){right=match.index+1;break;}
+    }
+    quote=source.slice(left,right).trim();
+    if(quote===source.trim()&&cue!==source.trim())quote=cue;
+  }
+  assert(quote.includes(cue)&&source.includes(quote),'source quote must be an exact span');
+  return quote;
+}
+
 function assemble(sets=authored,bank=loadBank()){
   const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
   return sets.map(set=>{
@@ -28,11 +63,15 @@ function assemble(sets=authored,bank=loadBank()){
     const source={title:block.source.title,locator:`${block.source.id}|${block.source.locators.join(', ')}`};
     return {
       id:set.id,title:set.title,sourceBlockId:set.sourceBlockId,
-      review:set.review,
+      review:set.review,sourceAlignment:set.sourceAlignment||'pending-english-review',
       context:{title:block.title,vietnamese,translation:'',source},
       items:set.items.map((q,i)=>{
         const id=`${set.id}-Q${i+1}`;
         assert(vietnamese.includes(q.sourceCue),`${id}: source cue absent`);
+        if(set.sourceAlignment==='quote-and-english-checked'){
+          assert(vietnamese.includes(q.targetVietnamese),`${id}: target quote absent`);
+        }
+        const quote=quoteFromSource(vietnamese,q.sourceCue,q.targetVietnamese);
         assert.equal(q.sentence.split('___').length,2,`${id}: one blank`);
         assert.equal(q.options.length,4,`${id}: four alternatives`);
         assert.equal(new Set(q.options).size,4,`${id}: repeated alternative`);
@@ -45,9 +84,9 @@ function assemble(sets=authored,bank=loadBank()){
         return {
           id,type:'choice',group:'verb-hand-authored',difficulty:'advanced-contextual',
           topic:set.title,pattern:q.options[0],dimension:q.dimension,
-          sourceCue:q.sourceCue,evidence:q.sourceCue,source,
-          targetVietnamese:q.targetVietnamese,sentence:q.sentence,
-          prompt:`Câu cần diễn đạt: ${q.targetVietnamese}\n\n${q.sentence}`,
+          sourceCue:q.sourceCue,evidence:quote,source,
+          targetVietnamese:quote,sentence:q.sentence,
+          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\n${q.sentence}`,
           options:order.map(j=>q.options[j]),answer:order.indexOf(q.answer),
           analysis:`Câu hoàn chỉnh: ${model}\n\n${q.rationales.join('\n\n')}`,
           rationales:order.map(j=>q.rationales[j])
@@ -59,12 +98,15 @@ function assemble(sets=authored,bank=loadBank()){
 
 function markdown(modules){
   const out=['# Master động từ — bản thảo biên soạn thủ công','',
-    'Chưa phát hành. Ngữ cảnh Việt được in một lần cho mỗi gói; mỗi câu hỏi chỉ nhắc câu Việt ngắn cần diễn đạt.',
-    'Các gói dưới đây đã được chính người biên soạn rà nguồn và phương án; chưa có người rà độc lập. Không coi kiểm thử cấu trúc là chứng nhận chất lượng ngôn ngữ.',''];
+    'Chưa phát hành. Ngữ cảnh Việt được in một lần cho mỗi gói; phần Việt ở mỗi câu hỏi được trích nguyên văn từ chính nguồn đó, không chèn diễn giải.',
+    'Trích nguyên văn không đồng nghĩa khung Anh đã khớp đủ ý. Trạng thái rà cặp Việt–Anh được ghi riêng trên từng gói; không coi kiểm thử cấu trúc là chứng nhận chất lượng ngôn ngữ.',''];
   for(const set of modules){
     out.push(`## ${set.id} — ${set.title}`,'',`Nguồn: ${set.context.source.title} · ${set.context.source.locator}`,'',
       set.context.vietnamese.split('\n\n').map(p=>'> '+p).join('\n\n'),'',
-      'Làm cả 5 câu rồi mới mở phần đáp án.','');
+      set.sourceAlignment==='quote-and-english-checked'
+        ?'Đã tự đối chiếu trích dẫn với khung Anh và đáp án; chưa có rà độc lập.'
+        :'CHỜ RÀ KHỚP VIỆT–ANH: phần Việt đã trích nguyên văn; chưa xác nhận khung Anh diễn đạt đủ đúng từng câu trích.',
+      '', 'Làm cả 5 câu rồi mới mở phần đáp án.','');
     for(const q of set.items)out.push(`### ${q.id}`,'',q.prompt,'',...q.options.map((text,i)=>`- ${String.fromCharCode(65+i)}. ${text}`),'');
     out.push('<details>','<summary>Đáp án và phân tích của cả gói</summary>','');
     for(const q of set.items)out.push(`### ${q.id} — ${String.fromCharCode(65+q.answer)}`,'',q.analysis,'');
@@ -78,10 +120,15 @@ function writePreview(directory){
   fs.mkdirSync(directory,{recursive:true});
   fs.writeFileSync(path.join(directory,'manual-reviewed-preview.json'),JSON.stringify({status:'unpublished-author-reviewed-draft',modules},null,2)+'\n');
   fs.writeFileSync(path.join(directory,'MANUAL-REVIEWED-PREVIEW.md'),markdown(modules));
+  const aligned=modules.filter(m=>m.sourceAlignment==='quote-and-english-checked');
+  fs.writeFileSync(path.join(directory,'SOURCE-ALIGNED-PREVIEW.md'),markdown(aligned));
   const used=new Set([...drafts.map(d=>d[0]),...modules.map(m=>m.sourceBlockId)]);
   const manifest={
     targetSets:288,targetQuestions:1440,
     authorReviewedSets:modules.length,authorReviewedQuestions:count,
+    verbatimSourceQuestions:count,
+    sourceEnglishAlignedSets:aligned.length,sourceEnglishAlignedQuestions:aligned.length*5,
+    sourceEnglishAlignmentPendingQuestions:count-aligned.length*5,
     authorReviewRemainingQuestions:1440-count,
     draftedSetsIncludingLegacy:used.size,
     draftedQuestionsIncludingLegacy:used.size*5,
@@ -102,4 +149,4 @@ if(require.main===module){
   const m=writePreview(target);
   console.log(JSON.stringify({authorReviewedSets:m.authorReviewedSets,authorReviewedQuestions:m.authorReviewedQuestions,legacyDraftQuestions:m.legacyDraftQuestionsAwaitingSemanticRevision,publication:m.publication}));
 }
-module.exports={assemble,markdown,loadBank,writePreview};
+module.exports={assemble,markdown,loadBank,writePreview,quoteFromSource};
