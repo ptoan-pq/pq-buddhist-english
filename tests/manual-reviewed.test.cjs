@@ -94,7 +94,7 @@ test('source-aligned sets quote the passage rather than adding translation advic
   const bank=loadBank();
   const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
   for(const set of aligned){
-    const source=blocks.get(set.sourceBlockId).source.paragraphs.join('\n\n');
+    const source=(set.sourceOverride||blocks.get(set.sourceBlockId).source).paragraphs.join('\n\n');
     for(const q of set.items)assert(source.includes(q.targetVietnamese),set.id+': quote must be verbatim');
   }
   const bad=JSON.parse(JSON.stringify(aligned.slice(0,1)));
@@ -139,4 +139,21 @@ test('active course chooses one verb in a real frame, never a whole translation 
   bad[0].items[0].sentence=rows[0].items[0].sentence;
   bad[0].items[0].validAnswers=[0,1,2,3];
   assert.throws(()=>assemble(bad),/exactly one answer/);
+});
+
+test('a corrected passage keeps a traceable verbatim source snapshot without modifying the published bank',()=>{
+  const corrected=rows.find(m=>m.id==='M144');
+  assert(corrected.sourceOverride);
+  assert.equal(corrected.sourceOverride.id,'S06');
+  assert.deepEqual(corrected.sourceOverride.locators,[
+    'epub:c:0001:b:0466','epub:c:0001:b:0467','epub:c:0001:b:0468'
+  ]);
+  const original=loadBank().topics.flatMap(t=>t.blocks).find(b=>b.id==='W12-B12');
+  assert(!original.source.locators.includes('epub:c:0001:b:0466'));
+  const [built]=assemble([corrected]);
+  assert(built.context.vietnamese.startsWith('Lễ độ nghĩa là bày tỏ sự tôn trọng'));
+  for(const q of built.items)assert(built.context.vietnamese.includes(q.targetVietnamese));
+  const bad=JSON.parse(JSON.stringify(corrected));
+  bad.sourceOverride.paragraphs[0]+=' Câu không có trong nguồn.';
+  assert.throws(()=>assemble([bad]),/replacement source checksum mismatch/);
 });

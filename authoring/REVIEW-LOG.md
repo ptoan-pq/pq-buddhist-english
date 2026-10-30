@@ -1,5 +1,28 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Tiến độ hiện hành — 2026-10-30, tiếp tục làm toàn bộ theo dạng một động từ đúng nhất
+
+- Lượt này đã viết lại **110 câu** ở M121–M141 và M143, giữ M142 là năm câu mẫu đã được người học duyệt dạng bài. Không cộng việc viết lại vào tổng như câu mới.
+- Viết thêm **65 câu mới** ở M144–M156, bao phủ đoạn cuối W12 và toàn bộ W13. Tổng theo chuẩn hiện hành: **36 gói / 180 câu đã tự rà**, gồm 175 câu xử lý trong lượt này và năm câu M142 trước đó.
+- Mỗi câu giữ một khung Anh có chỗ trống ở động từ/cụm động từ, bốn phương án và một chỉ số đáp án. Lý do loại dựa vào tác nhân, chiều tác động, sự phát sinh/duy trì/trở lại, cường độ, thời điểm hoặc phạm vi; không dùng thứ bậc phong cách để loại một từ cùng đúng.
+- Các nhóm đối chiếu mới gồm: fulfills/assumes/stipulates/delegates; curtail/defer/renounce/conceal; notice/recognize/identify/scrutinize; endure/confront/resist/overcome; infer/measure/relieve/reproduce; recognize/postulate/stipulate/speculate; arises/resides/lingers/recurs; reinforce/reconstruct/reappraise/reactivate.
+- Rà lại khung với từng phương án để gỡ phần gượng: không để bổ ngữ của một lựa chọn buộc ba lựa chọn khác sai cú pháp; bỏ phương án gần nghĩa chồng lấn khi chưa có căn cứ loại rõ. Không khẳng định phép kiểm kỹ thuật tự chứng minh không còn mơ hồ ngôn ngữ.
+- Giữ phủ định của người chưa cảm nhận mức đau; lực không vội chê/khen; mục đích nâng năng suất; yêu cầu đủ đạo lực; sự khác nhau giữa giữ mềm và làm cho trở nên mềm; độ phát sinh, tồn tại và trở lại của trạng thái tâm. Thuật ngữ theo bảng Janna: Right Effort, whole-body awareness, lucid awareness, hindrance of restlessness; không dùng bản Anh cũ để sửa giáo lý nguồn.
+
+### Đính chính một ngữ cảnh bị thiếu phần dẫn
+
+- W12-B12 có tiêu đề về việc thiện, nhưng hai đoạn thực tế thuộc mục Lễ độ trong *Nền Tảng Đạo Đức*. Đã tra lại bản nguồn trích xuất S06 ở các locator `epub:c:0001:b:0466`–`0468`.
+- M144 dùng cả đoạn định nghĩa liền trước về biểu lộ tôn trọng và khác biệt dân tộc/vùng miền, rồi mới đến câu “Nhưng tất cả…”. Nhờ vậy chủ thể của “tất cả” không còn mất nền.
+- Lưu nguyên văn ba đoạn, tên sách, locator và SHA-256 trong `sourceOverride` của chính gói M144. Phần sửa chỉ có ở packet đang biên soạn; không ghi đè `context-bank.js` đang public. Công cụ từ chối snapshot nguồn bị đổi mà checksum không khớp.
+
+### Kiểm tra và phần còn lại
+
+- **55/55 kiểm thử đạt**, gồm kiểm câu Việt là chuỗi nguyên văn, một đáp án được chấm, phương án/lời giải vẫn gắn đúng sau tráo, khóa phản hồi đủ năm câu, và snapshot nguồn bổ sung. Chưa có rà độc lập hoặc thử độ khó với người học.
+- `VERB-CHOICE-REVIEWED-PREVIEW.md` hiện có **180 câu** tự rà theo chuẩn mới. Các bản xem trước khác vẫn giữ nháp chưa rà và đánh dấu riêng; không coi toàn bộ 510 câu trong tập ứng viên là hoàn thiện.
+- Còn **1.260/1.440 câu**: 330 câu M055–M120 cần viết lại theo chuẩn mới, 270 nháp M001–M054 cần sửa, và 660 câu M157–M288 chưa biên soạn. Phần nguồn chưa viết tiếp bắt đầu W14-B01.
+- Đổi nhãn đếm trong manifest thành `authoredCandidateQuestions`, `fullyRevisedQuestions`, `fullyRevisedRemainingQuestions` để không còn dùng tổng ứng viên như số đã rà. Bản JSON toàn tập ghi rõ chứa nhiều trạng thái rà.
+- Bảo toàn 72 câu chuyên sâu ban đầu ngoài chỉ tiêu mới. Chưa hoàn tất toàn bộ ngân hàng, chưa sửa dữ liệu chạy website, chưa push hay xuất bản.
+
 ## Quyết định hiện hành — 2026-10-30, đính chính sau phản hồi người học
 
 **Dạng đúng: chỉ chọn động từ/cụm động từ, chỉ một đáp án đúng nhất theo câu nguồn.** Quyết định này thay thế hướng chọn toàn câu và nhiều lựa chọn cùng đúng được ghi trong các mục lịch sử phía dưới.

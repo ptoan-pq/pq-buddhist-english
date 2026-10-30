@@ -59,8 +59,13 @@ function assemble(sets=authored,bank=loadBank()){
     assert.equal(set.items.length,5,`${set.id}: exactly five authored questions`);
     assert.equal(new Set(set.items.map(q=>q.sentence)).size,5,`${set.id}: repeated frame`);
     assert.equal(new Set(set.items.map(q=>q.sourceCue)).size,5,`${set.id}: repeated source focus`);
-    const vietnamese=block.source.paragraphs.join('\n\n');
-    const source={title:block.source.title,locator:`${block.source.id}|${block.source.locators.join(', ')}`};
+    const passage=set.sourceOverride||block.source;
+    const vietnamese=passage.paragraphs.join('\n\n');
+    if(set.sourceOverride){
+      assert(passage.id&&passage.title&&passage.locators.length,`${set.id}: complete replacement source required`);
+      assert.equal(crypto.createHash('sha256').update(vietnamese).digest('hex'),passage.sha256,`${set.id}: replacement source checksum mismatch`);
+    }
+    const source={title:passage.title,locator:`${passage.id}|${passage.locators.join(', ')}`};
     return {
       id:set.id,title:set.title,sourceBlockId:set.sourceBlockId,
       review:set.review,sourceAlignment:set.sourceAlignment||'pending-english-review',
@@ -121,7 +126,7 @@ function markdown(modules){
 function writePreview(directory){
   const modules=assemble(),count=modules.flatMap(m=>m.items).length;
   fs.mkdirSync(directory,{recursive:true});
-  fs.writeFileSync(path.join(directory,'manual-reviewed-preview.json'),JSON.stringify({status:'unpublished-author-reviewed-draft',modules},null,2)+'\n');
+  fs.writeFileSync(path.join(directory,'manual-reviewed-preview.json'),JSON.stringify({status:'unpublished-mixed-review-drafts',modules},null,2)+'\n');
   fs.writeFileSync(path.join(directory,'MANUAL-REVIEWED-PREVIEW.md'),markdown(modules));
   const aligned=modules.filter(m=>m.sourceAlignment==='quote-and-english-checked');
   fs.writeFileSync(path.join(directory,'SOURCE-ALIGNED-PREVIEW.md'),markdown(aligned));
@@ -131,14 +136,15 @@ function writePreview(directory){
   const used=new Set([...drafts.map(d=>d[0]),...modules.map(m=>m.sourceBlockId)]);
   const manifest={
     targetSets:288,targetQuestions:1440,
-    authorReviewedSets:modules.length,authorReviewedQuestions:count,
+    authoredCandidateSets:modules.length,authoredCandidateQuestions:count,
     verbatimSourceQuestions:count,
     sourceEnglishAlignedSets:aligned.length,sourceEnglishAlignedQuestions:aligned.length*5,
     sourceEnglishAlignmentPendingQuestions:count-aligned.length*5,
     assessmentMode:'single-best-verb',
     singleBestVerbFormatQuestions:count,
     singleBestVerbDistractorReviewedQuestions:revised.length*5,
-    authorReviewRemainingQuestions:1440-count,
+    fullyRevisedQuestions:revised.length*5,
+    fullyRevisedRemainingQuestions:1440-revised.length*5,
     draftedSetsIncludingLegacy:used.size,
     draftedQuestionsIncludingLegacy:used.size*5,
     undraftedQuestions:(288-used.size)*5,
@@ -156,6 +162,6 @@ function writePreview(directory){
 if(require.main===module){
   const target=process.argv[2]||path.join(__dirname,'../../outputs/context-bank-v1/manual-rewrite-preview');
   const m=writePreview(target);
-  console.log(JSON.stringify({authorReviewedSets:m.authorReviewedSets,authorReviewedQuestions:m.authorReviewedQuestions,legacyDraftQuestions:m.legacyDraftQuestionsAwaitingSemanticRevision,publication:m.publication}));
+  console.log(JSON.stringify({authoredCandidateQuestions:m.authoredCandidateQuestions,fullyRevisedQuestions:m.fullyRevisedQuestions,remainingQuestions:m.fullyRevisedRemainingQuestions,publication:m.publication}));
 }
 module.exports={assemble,markdown,loadBank,writePreview,quoteFromSource};
