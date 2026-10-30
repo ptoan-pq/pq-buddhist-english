@@ -13,7 +13,7 @@ test('hand-authored batch has five distinct verb tasks and a rationale per optio
     assert(!ids.has(m.id),m.id);ids.add(m.id);
     assert(!blocks.has(m.sourceBlockId),m.sourceBlockId);blocks.add(m.sourceBlockId);
     assert.equal(m.items.length,5);
-    assert.equal(new Set(m.items.map(q=>(q.taskKind==='expression-choice'?q.options[q.answer]:q.sentence).toLowerCase().replace(/[\p{P}\p{S}]/gu,'').trim())).size,5);
+    assert.equal(new Set(m.items.map(q=>q.sentence.toLowerCase().replace(/[\p{P}\p{S}]/gu,'').trim())).size,5);
     assert.equal(new Set(m.items.map(q=>q.sourceCue)).size,5);
     assert.equal(new Set(m.items.map(q=>q.targetVietnamese)).size,5);
     assert.equal(new Set(m.items.map(q=>q.dimension)).size,5);
@@ -66,9 +66,7 @@ test('packaging preserves authored text and five-item delayed feedback behavior'
     E.openSet(c,state,index);
     for(const q of set.items.slice(0,4))E.saveResponse(c,state,set.id,q.id,q.answer);
     assert.throws(()=>E.submit(c,state),/đủ cả bộ/);
-    const q=set.items[4];
-    const notPreferred=[0,1,2,3].find(j=>!(q.accepted||[q.answer]).includes(j));
-    E.saveResponse(c,state,set.id,q.id,notPreferred);
+    const q=set.items[4];E.saveResponse(c,state,set.id,q.id,(q.answer+1)%4);
     assert.equal(E.submit(c,state).wrong.length,1);
     E.retry(c,state);
     assert.deepEqual(state.sets[set.id].round,[q.id]);
@@ -125,62 +123,20 @@ test('source quotation preserves wording and punctuation without making new cont
   assert.throws(()=>quoteFromSource(text,'Không có trong nguồn'),/source cue absent/);
 });
 
-test('best-fit questions preserve valid alternatives, criteria, and tied preferences after shuffle',()=>{
-  const set=assemble().find(m=>m.id==='M129');
-  assert.equal(set.assessmentMode,'best-fit-among-valid-alternatives');
-  for(const q of set.items){
-    assert.deepEqual([...q.validAnswers].sort(),[0,1,2,3]);
-    assert(q.selectionCriterion.length>30);
-    assert(q.preferredAnswers.includes(q.answer));
-    for(const index of q.preferredAnswers)assert(E.isCorrect(q,index));
-    assert(q.analysis.includes('Cả bốn cách đều dùng được'));
+test('active course chooses one verb in a real frame, never a whole translation or tied answers',()=>{
+  const modules=assemble();
+  for(const set of modules)for(const q of set.items){
+    assert.equal(q.taskKind,'verb-gap',q.id);
+    assert.equal(q.assessmentMode,'single-best-verb',q.id);
+    assert.notEqual(q.sentence,'___',q.id);
+    assert(!q.validAnswers&&!q.preferredAnswers,q.id);
+    assert.equal([0,1,2,3].filter(i=>E.isCorrect(q,i)).length,1,q.id);
+    assert(q.prompt.includes('Chỉ một đáp án.'),q.id);
   }
-  const distance=set.items[1];
-  assert.deepEqual(distance.preferredAnswers.map(i=>distance.options[i]).sort(),[
-    'And we will stay away from places where we are belittled.',
-    'And we will steer clear of places where we are looked down on.'
-  ]);
-  const gift=set.items[3];
-  assert.equal(gift.accepted.length,2);
-  assert(markdown([set]).includes('Ưu tiên'));
-  const bad=JSON.parse(JSON.stringify(rows.filter(m=>m.id==='M129')));
-  bad[0].items[0].validAnswers=[0];
-  assert.throws(()=>assemble(bad),/all four alternatives must be valid/);
-});
-
-test('whole-expression tasks offer complete sentences without a fixed verb-gap frame',()=>{
-  const sets=assemble().filter(s=>s.items.some(q=>q.taskKind==='expression-choice'));
-  assert(sets.length>0);
-  for(const set of sets)for(const q of set.items.filter(q=>q.taskKind==='expression-choice')){
-    assert.equal(q.assessmentMode,'best-fit-among-valid-alternatives');
-    assert(!q.prompt.includes('___'));
-    assert(q.options.every(s=>/[.!?][”’"')\]]*$/.test(s)&&s.split(/\s+/).length>=4));
-    assert(q.selectionCriterion.length>30);
-    assert(set.context.vietnamese.includes(q.targetVietnamese));
-  }
-});
-
-test('a complete expression may end with terminal punctuation inside a quotation',()=>{
-  const source=rows.find(m=>m.id==='M121');
-  assert(source,'empathy set must retain its individually authored alternatives');
-  const quoted=source.items[4].options.find(s=>/[.!?]”$/.test(s));
-  assert(quoted,'a quoted phrase may finish a complete English sentence');
-  assert.doesNotThrow(()=>assemble([source]));
-  const unfinished=JSON.parse(JSON.stringify(source));
-  unfinished.items[4].options[0]='An unfinished expression without terminal punctuation';
-  unfinished.items[4].rationales[0]=unfinished.items[4].options[0]+': deliberately incomplete fixture';
-  assert.throws(()=>assemble([unfinished]),/complete expressions required/);
-});
-
-test('revised whole-expression sets keep five different source focuses and accept tied best choices',()=>{
-  for(const set of assemble().filter(s=>s.items.every(q=>q.taskKind==='expression-choice'))){
-    assert.equal(set.sourceAlignment,'quote-and-english-checked',set.id);
-    assert.equal(new Set(set.items.map(q=>q.sourceCue)).size,5,set.id);
-    for(const q of set.items){
-      assert.deepEqual([...q.validAnswers].sort(),[0,1,2,3]);
-      assert(q.preferredAnswers.length>0&&q.preferredAnswers.length<4,q.id);
-      for(const i of q.preferredAnswers)assert(E.isCorrect(q,i),q.id);
-      assert(!q.prompt.includes('Giữ nguyên toàn bộ khung câu'),q.id);
-    }
-  }
+  const bad=JSON.parse(JSON.stringify(rows.slice(0,1)));
+  bad[0].items[0].sentence='___';
+  assert.throws(()=>assemble(bad),/choose a verb/);
+  bad[0].items[0].sentence=rows[0].items[0].sentence;
+  bad[0].items[0].validAnswers=[0,1,2,3];
+  assert.throws(()=>assemble(bad),/exactly one answer/);
 });

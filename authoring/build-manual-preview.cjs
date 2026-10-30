@@ -57,14 +57,13 @@ function assemble(sets=authored,bank=loadBank()){
     const block=blocks.get(set.sourceBlockId);
     assert(block,`Missing source: ${set.sourceBlockId}`);
     assert.equal(set.items.length,5,`${set.id}: exactly five authored questions`);
-    assert.equal(new Set(set.items.map(q=>q.taskKind==='expression-choice'?q.options[q.answer]:q.sentence)).size,5,`${set.id}: repeated frame or model expression`);
+    assert.equal(new Set(set.items.map(q=>q.sentence)).size,5,`${set.id}: repeated frame`);
     assert.equal(new Set(set.items.map(q=>q.sourceCue)).size,5,`${set.id}: repeated source focus`);
     const vietnamese=block.source.paragraphs.join('\n\n');
     const source={title:block.source.title,locator:`${block.source.id}|${block.source.locators.join(', ')}`};
     return {
       id:set.id,title:set.title,sourceBlockId:set.sourceBlockId,
       review:set.review,sourceAlignment:set.sourceAlignment||'pending-english-review',
-      assessmentMode:set.assessmentMode||'contrastive-legacy-pending-revision',
       context:{title:block.title,vietnamese,translation:'',source},
       items:set.items.map((q,i)=>{
         const id=`${set.id}-Q${i+1}`;
@@ -73,44 +72,26 @@ function assemble(sets=authored,bank=loadBank()){
           assert(vietnamese.includes(q.targetVietnamese),`${id}: target quote absent`);
         }
         const quote=quoteFromSource(vietnamese,q.sourceCue,q.targetVietnamese);
+        assert(q.sentence!=='___'&&q.taskKind!=='expression-choice',`${id}: choose a verb, not a whole translation`);
+        assert(!q.validAnswers&&!q.preferredAnswers,`${id}: exactly one answer, no all-valid or tied-answer mode`);
         assert.equal(q.sentence.split('___').length,2,`${id}: one blank`);
-        const expressionChoice=q.taskKind==='expression-choice';
-        if(expressionChoice){
-          assert.equal(q.sentence,'___',`${id}: expression choice must not constrain sentence structure`);
-          assert(q.options.every(option=>option.split(/\s+/).length>=4&&/[.!?][”’"')\]]*$/.test(option)),`${id}: complete expressions required`);
-        }
         assert.equal(q.options.length,4,`${id}: four alternatives`);
         assert.equal(new Set(q.options).size,4,`${id}: repeated alternative`);
         assert.equal(q.rationales.length,4,`${id}: explanation for each alternative`);
         assert(q.targetVietnamese&&q.targetVietnamese.length<220,`${id}: short Vietnamese target required`);
         for(let j=0;j<4;j++)assert(q.rationales[j].startsWith(q.options[j]+':'),`${id}: unbound rationale`);
         assert.equal(q.answer,0,`${id}: authoring answer convention`);
-        const bestFit=set.assessmentMode==='best-fit-among-valid-alternatives';
-        if(bestFit){
-          assert.deepEqual(q.validAnswers,[0,1,2,3],`${id}: all four alternatives must be valid`);
-          assert(q.selectionCriterion&&q.selectionCriterion.length>30,`${id}: explicit selection criterion required`);
-          assert(q.preferredAnswers?.includes(q.answer),`${id}: preferred answers must include the model answer`);
-          assert(q.preferredAnswers.every(j=>Number.isInteger(j)&&j>=0&&j<4),`${id}: invalid preferred index`);
-        }
         const order=shuffled(4,crypto.createHash('sha256').update(id).digest('hex'));
-        const preferred=(q.preferredAnswers||[q.answer]).map(j=>order.indexOf(j));
         const model=q.sentence.replace('___',q.options[q.answer]);
         return {
           id,type:'choice',group:'verb-hand-authored',difficulty:'advanced-contextual',
           topic:set.title,pattern:q.options[0],dimension:q.dimension,
           sourceCue:q.sourceCue,evidence:quote,source,
-          targetVietnamese:quote,sentence:q.sentence,taskKind:q.taskKind||'verb-gap',
-          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\n${expressionChoice?'Chọn cách diễn đạt toàn bộ ý sát nguồn nhất. Cả bốn cách đều dùng được; xét cả cách dựng câu, trọng tâm và sắc thái.':q.sentence}`,
+          targetVietnamese:quote,sentence:q.sentence,
+          taskKind:'verb-gap',assessmentMode:'single-best-verb',
+          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\nChọn động từ/cụm động từ phù hợp nhất để dịch câu trích. Chỉ một đáp án.\n\n${q.sentence}`,
           options:order.map(j=>q.options[j]),answer:order.indexOf(q.answer),
-          ...(bestFit?{
-            assessmentMode:set.assessmentMode,
-            validAnswers:q.validAnswers.map(j=>order.indexOf(j)),
-            preferredAnswers:preferred,accepted:preferred,
-            selectionCriterion:q.selectionCriterion
-          }:{}),
-          analysis:bestFit
-            ?`Cả bốn cách đều dùng được trong ngữ cảnh. Lựa chọn ưu tiên không có nghĩa các cách còn lại sai tiếng Anh.\n\nTiêu chí: ${q.selectionCriterion}\n\nMột cách ưu tiên: ${model}\n\n${q.rationales.join('\n\n')}`
-            :`Câu hoàn chỉnh: ${model}\n\n${q.rationales.join('\n\n')}`,
+          analysis:`Câu hoàn chỉnh: ${model}\n\n${q.rationales.join('\n\n')}`,
           rationales:order.map(j=>q.rationales[j])
         };
       })
@@ -129,16 +110,9 @@ function markdown(modules){
         ?'Đã tự đối chiếu trích dẫn với khung Anh và đáp án; chưa có rà độc lập.'
         :'CHỜ RÀ KHỚP VIỆT–ANH: phần Việt đã trích nguyên văn; chưa xác nhận khung Anh diễn đạt đủ đúng từng câu trích.',
       '', 'Làm cả 5 câu rồi mới mở phần đáp án.','');
-    if(set.assessmentMode==='best-fit-among-valid-alternatives')out.push(
-      'Bốn phương án đều dùng được. Chọn cách sát câu nguồn nhất về nghĩa, trọng tâm và giọng; những cách ngang nhau được cùng chấp nhận.','');
     for(const q of set.items)out.push(`### ${q.id}`,'',q.prompt,'',...q.options.map((text,i)=>`- ${String.fromCharCode(65+i)}. ${text}`),'');
     out.push('<details>','<summary>Đáp án và phân tích của cả gói</summary>','');
-    for(const q of set.items){
-      const label=q.preferredAnswers
-        ?'Ưu tiên '+q.preferredAnswers.map(j=>String.fromCharCode(65+j)).join(' / ')
-        :String.fromCharCode(65+q.answer);
-      out.push(`### ${q.id} — ${label}`,'',q.analysis,'');
-    }
+    for(const q of set.items)out.push(`### ${q.id} — ${String.fromCharCode(65+q.answer)}`,'',q.analysis,'');
     out.push('</details>','');
   }
   return out.join('\n');
@@ -151,10 +125,9 @@ function writePreview(directory){
   fs.writeFileSync(path.join(directory,'MANUAL-REVIEWED-PREVIEW.md'),markdown(modules));
   const aligned=modules.filter(m=>m.sourceAlignment==='quote-and-english-checked');
   fs.writeFileSync(path.join(directory,'SOURCE-ALIGNED-PREVIEW.md'),markdown(aligned));
-  const bestFit=modules.filter(m=>m.assessmentMode==='best-fit-among-valid-alternatives');
-  fs.writeFileSync(path.join(directory,'BEST-FIT-PREVIEW.md'),markdown(bestFit));
-  const wholeExpression=modules.filter(m=>m.items.every(q=>q.taskKind==='expression-choice'));
-  fs.writeFileSync(path.join(directory,'WHOLE-EXPRESSION-PREVIEW.md'),markdown(wholeExpression));
+  const revisedIds=new Set(authored.filter(m=>m.difficultyReview==='single-best-verb-options-reviewed').map(m=>m.id));
+  const revised=modules.filter(m=>revisedIds.has(m.id));
+  fs.writeFileSync(path.join(directory,'VERB-CHOICE-REVIEWED-PREVIEW.md'),markdown(revised));
   const used=new Set([...drafts.map(d=>d[0]),...modules.map(m=>m.sourceBlockId)]);
   const manifest={
     targetSets:288,targetQuestions:1440,
@@ -162,9 +135,9 @@ function writePreview(directory){
     verbatimSourceQuestions:count,
     sourceEnglishAlignedSets:aligned.length,sourceEnglishAlignedQuestions:aligned.length*5,
     sourceEnglishAlignmentPendingQuestions:count-aligned.length*5,
-    bestFitRevisedQuestions:bestFit.length*5,
-    wholeExpressionRevisedQuestions:modules.flatMap(m=>m.items).filter(q=>q.taskKind==='expression-choice').length,
-    difficultyRevisionPendingQuestions:count-bestFit.length*5,
+    assessmentMode:'single-best-verb',
+    singleBestVerbFormatQuestions:count,
+    singleBestVerbDistractorReviewedQuestions:revised.length*5,
     authorReviewRemainingQuestions:1440-count,
     draftedSetsIncludingLegacy:used.size,
     draftedQuestionsIncludingLegacy:used.size*5,

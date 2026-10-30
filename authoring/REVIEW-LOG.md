@@ -1,5 +1,18 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Quyết định hiện hành — 2026-10-30, đính chính sau phản hồi người học
+
+**Dạng đúng: chỉ chọn động từ/cụm động từ, chỉ một đáp án đúng nhất theo câu nguồn.** Quyết định này thay thế hướng chọn toàn câu và nhiều lựa chọn cùng đúng được ghi trong các mục lịch sử phía dưới.
+
+- Người biên soạn đã hiểu sai yêu cầu khi chuyển 115 câu sang chọn toàn câu. Số 115 không còn được báo như tiến độ đạt yêu cầu hiện hành.
+- Khôi phục các khung chọn động từ trước khi rẽ hướng; giữ vòng sửa trích nguyên văn và 75 cặp đã đối chiếu của bản trước. Phần chưa rà vẫn mang trạng thái chờ rà, không tự nhận toàn bộ 445 câu đã đủ tốt hoặc đủ khó.
+- Nhánh Git `archive/whole-expression-13aa48f` giữ nguyên bản chọn toàn câu để không mất nội dung, nhưng bản này không còn là ngân hàng hiện hành. Hai Markdown chọn toàn câu/cả bốn dùng được được đánh dấu lưu trữ.
+- Sửa quy định trong README: ba phương án nhiễu phải cạnh tranh gần nghĩa nhưng có căn cứ loại rõ trong chính câu nguồn. Nếu hai lựa chọn sát ngang nhau thì viết lại, không dùng nhiều đáp án được chấp nhận và không ép chấm theo gu văn phong.
+- Công cụ đóng gói từ chối câu không có khung Anh thực, câu dạng chọn toàn bản dịch và trường đánh dấu cả bốn hợp lệ/nhiều phương án ưu tiên. Chỉ số đáp án duy nhất là thuộc tính kỹ thuật, không tự chứng minh về ngôn ngữ rằng không có cách dùng chồng lấn.
+- Tự soạn lại riêng M142: năm câu với các nhóm thao tác về thực tế/giả định, học thuộc/nắm vững/hệ thống hóa/xem xét, sắc thái lời chuyển, chạm tay/tra cứu/nghiên cứu/ghi chú, và đọc kỹ/đọc lướt/giở xem/xem lựa phần. Giữ nguyên cả chi tiết đêm nghiên cứu lẫn nghĩa vụ của luật sư.
+- `VERB-CHOICE-REVIEWED-PREVIEW.md` chỉ chứa năm câu vừa tự rà lại theo yêu cầu này. Tổng nháp hiện hành vẫn 445 câu, trong đó 370 câu chờ đối chiếu lại cặp Việt–Anh theo quy tắc nguyên văn; bộ phương án nhiễu còn phải được sửa tiếp. Không cộng năm câu sửa vào tổng như năm câu mới.
+- Toàn bộ **54/54 kiểm thử đạt**, gồm kiểm khóa phản hồi đủ năm câu và kiểm đúng một lựa chọn được chấm. Chưa có người rà độc lập hoặc hiệu chuẩn độ khó với người học. Website public chưa thay đổi.
+
 ## 2026-10-29 — tách câu đã tự rà khỏi nháp mới chỉ kiểm cấu trúc
 
 ### Phạm vi làm thật trong đợt này
