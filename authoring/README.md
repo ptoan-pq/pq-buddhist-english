@@ -12,12 +12,16 @@ Mục tiêu giữ nguyên: 288 gói × 5 câu = 1.440 câu nâng cao viết riê
 ## Quy tắc cho từng câu
 
 1. Đoạn Việt chung chỉ xuất hiện một lần trên mỗi gói.
-2. Mỗi thẻ câu nhắc một câu Việt ngắn, trọn nghĩa; không chép lại cả đoạn.
+2. Mỗi thẻ trích nguyên văn câu hoặc mệnh đề từ nguồn Việt phía trên. Không viết lại bằng lời mình, không chèn tiêu chí dịch hoặc chú giải vào câu trích; không chép lại cả đoạn.
 3. Năm câu có năm khung Anh và năm trọng tâm khác nhau. Không thêm câu dẫn để ngụy trang một khung bị lặp.
-4. Mỗi lựa chọn phải ghép được vào khung câu. Nếu không thể loại một phương án bằng nghĩa/lực của nguồn, phải sửa câu hoặc chấp nhận thêm đáp án; không loại chỉ vì khác đáp án mẫu.
+4. Chuẩn độ khó mới: cả bốn lựa chọn phải đúng ngữ pháp, tự nhiên và chấp nhận được trong chính ngữ cảnh. Không dùng hành động đối lập, đảo tác nhân hay khẳng định vô lý để tạo đáp án dễ loại. Người học chọn cách sát nhất về nghĩa, lực, trọng tâm và giọng; đây không phải câu phân loại ba cách sai và một cách đúng.
 5. Không dùng “trang trọng hơn”, “dài hơn”, “gần nghĩa nhưng không phải chữ nguồn” làm lý do duy nhất để chấm sai.
 6. Động từ mạnh phải được ý nguồn cho phép. Không đổi “nhận xét” thành “vạch trần”, “có thể” thành “bảo đảm”, hoặc “sửa lỗi” thành “trừng phạt”.
 7. Đặt cả năm câu dưới ngữ cảnh; nộp đủ mới mở phản hồi của gói. Vẫn chọn gói tự do và giữ tiến độ riêng.
+8. Mỗi câu dạng mới có `selectionCriterion`, `validAnswers: [0,1,2,3]` và `preferredAnswers`. Viết lý do so sánh cho từng phương án. Nếu các cách sát ngang nhau, cùng đưa vào `preferredAnswers`; không ép một đáp án vì thích một từ. Cách trung tính vẫn có thể ưu tiên hơn một động từ hình ảnh nếu sát nguồn hơn.
+9. Trong phản hồi, gọi các lựa chọn không ưu tiên là “dùng được, nhưng khác điểm nhấn”, không gọi là sai tiếng Anh. Khi tích hợp website phải phân biệt độ sát của lựa chọn với đúng/sai ngôn ngữ; không dùng nhãn báo sai cũ mà thiếu giải thích.
+
+Các gói chưa có `assessmentMode: 'best-fit-among-valid-alternatives'` **chưa được xem là đạt chuẩn độ khó mới**, dù đã qua kiểm tra trích nguyên văn hoặc tự rà Việt–Anh. Không tự động gắn nhãn này cho câu cũ.
 
 ## Lệnh kiểm tra và xem bản thảo
 
@@ -29,6 +33,8 @@ node authoring/build-manual-preview.cjs
 Kết quả mặc định ở `../outputs/context-bank-v1/manual-rewrite-preview/`:
 
 - `MANUAL-REVIEWED-PREVIEW.md` — nguồn một lần, năm câu rồi đáp án đóng/mở;
+- `SOURCE-ALIGNED-PREVIEW.md` — chỉ các gói đã tự rà cặp trích dẫn–khung Anh;
+- `BEST-FIT-PREVIEW.md` — chỉ các gói đã viết lại theo chuẩn cả bốn cách đều dùng được;
 - `manual-reviewed-preview.json` — packet nội dung;
 - `manual-rewrite-progress.json` — đếm riêng câu nháp, câu đã tự rà, câu chưa viết và câu còn cần rà.
 

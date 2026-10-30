@@ -66,7 +66,9 @@ test('packaging preserves authored text and five-item delayed feedback behavior'
     E.openSet(c,state,index);
     for(const q of set.items.slice(0,4))E.saveResponse(c,state,set.id,q.id,q.answer);
     assert.throws(()=>E.submit(c,state),/đủ cả bộ/);
-    const q=set.items[4];E.saveResponse(c,state,set.id,q.id,(q.answer+1)%4);
+    const q=set.items[4];
+    const notPreferred=[0,1,2,3].find(j=>!(q.accepted||[q.answer]).includes(j));
+    E.saveResponse(c,state,set.id,q.id,notPreferred);
     assert.equal(E.submit(c,state).wrong.length,1);
     E.retry(c,state);
     assert.deepEqual(state.sets[set.id].round,[q.id]);
@@ -121,4 +123,24 @@ test('source quotation preserves wording and punctuation without making new cont
   assert.equal(quoteFromSource(text,'tránh xa','và tránh xa nơi bị coi thường.'),
     'và tránh xa nơi bị coi thường.');
   assert.throws(()=>quoteFromSource(text,'Không có trong nguồn'),/source cue absent/);
+});
+
+test('best-fit questions preserve valid alternatives, criteria, and tied preferences after shuffle',()=>{
+  const set=assemble().find(m=>m.id==='M129');
+  assert.equal(set.assessmentMode,'best-fit-among-valid-alternatives');
+  for(const q of set.items){
+    assert.deepEqual([...q.validAnswers].sort(),[0,1,2,3]);
+    assert(q.selectionCriterion.length>30);
+    assert(q.preferredAnswers.includes(q.answer));
+    for(const index of q.preferredAnswers)assert(E.isCorrect(q,index));
+    assert(q.analysis.includes('Cả bốn cách đều dùng được'));
+  }
+  const distance=set.items[1];
+  assert.deepEqual(distance.preferredAnswers.map(i=>distance.options[i]).sort(),['stay away from','steer clear of']);
+  const gift=set.items[3];
+  assert.equal(gift.accepted.length,2);
+  assert(markdown([set]).includes('Ưu tiên'));
+  const bad=JSON.parse(JSON.stringify(rows.filter(m=>m.id==='M129')));
+  bad[0].items[0].validAnswers=[0];
+  assert.throws(()=>assemble(bad),/all four alternatives must be valid/);
 });

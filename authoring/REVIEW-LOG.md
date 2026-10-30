@@ -90,3 +90,13 @@ Mục tiêu vẫn là 1.440 câu mới, không phải 90 câu. Còn 1.350 câu c
 - **50/445** cặp Việt–Anh đã được tự đối chiếu lại theo quy tắc mới. **395 câu còn chờ rà nghĩa của khung Anh và các lựa chọn**; không gọi chúng là đã khớp đầy đủ chỉ vì trích đúng chữ.
 - `SOURCE-ALIGNED-PREVIEW.md` chỉ chứa 50 câu đã tự đối chiếu lại. `MANUAL-REVIEWED-PREVIEW.md` vẫn giữ đủ 445 câu, nhưng đánh dấu rõ các gói chờ rà khớp Việt–Anh.
 - Không có thay đổi trên website public. Mục tiêu biên soạn 1.440 câu mới vẫn chưa hoàn tất; chưa có rà ngôn ngữ độc lập.
+
+## 2026-10-29 — tiếp tục đối chiếu và thay chuẩn độ khó
+
+- Tự rà tiếp M139–M143, thêm 25 cặp. Tổng đã đối chiếu lại nguyên văn Việt với khung Anh: **75/445**. Giữ lại số người, chi tiết công việc, mức so sánh, điều kiện và chữ “phải”; sửa những câu trước chỉ nói về lập luận thay vì dịch chính câu trích.
+- Sau phản hồi “tất cả các đáp án phải đều đúng — chọn đúng nhất”, dừng việc coi phương án khác hẳn nghĩa là câu nâng cao. Phạm vi tự rà Việt–Anh không tự chứng minh bộ lựa chọn đã đạt độ khó.
+- Viết lại riêng cả năm bộ lựa chọn của M129: bốn cách đều chấp nhận được trong ngữ cảnh; tiêu chí ưu tiên dựa trên nét nghĩa, trọng tâm hoặc giọng nguồn. Lời giải nói rõ các cách không ưu tiên vẫn dùng được.
+- M129-Q2 chấp nhận ngang nhau `stay away from` và `steer clear of`. M129-Q4 chấp nhận cả cách dùng `offer` và `give`. Không gán thứ bậc chắc chắn ở nơi chỉ có lựa chọn văn phong tương đương.
+- Lưu riêng `validAnswers` và `preferredAnswers`; tráo phương án vẫn giữ đủ các chỉ số ưu tiên. Dùng trường `accepted` sẵn có để không đánh rớt một lựa chọn cùng mức ưu tiên trong kiểm thử.
+- **5/445 câu** đã được viết lại theo chuẩn lựa chọn gần nghĩa mới; **440 câu còn chờ sửa độ khó**. Con số 75 cặp khớp nguồn không được dùng thay cho con số 5 câu đạt vòng biên soạn mới.
+- Xuất thêm `BEST-FIT-PREVIEW.md` để kiểm đúng năm câu đã đổi. Chưa cập nhật website hoặc nhãn phản hồi trên giao diện public.
