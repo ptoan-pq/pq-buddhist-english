@@ -1,5 +1,15 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Tiến độ mới nhất — 2026-10-30, hoàn tất phần viết mới đến M288 và rà M055–M084
+
+- Viết thêm **51 gói / 255 câu mới** ở M238–M288; toàn bộ các gói nguồn mới đến cuối W24 đã có câu. Sau đó đọc lại nguồn và cả bốn lựa chọn của **30 gói / 150 câu M055–M084**, thay phần Việt diễn giải bằng trích nguyên văn, sửa khung và các lựa chọn không khớp.
+- Tổng hiện hành **198 gói / 990 câu** qua lượt nguồn–khung–phương án; còn **450 câu**: 180 ở M085–M120 và 270 nháp M001–M054. Tập ứng viên riêng có 1.170 câu; không gọi tổng ứng viên cộng nháp là 1.440 câu hoàn thiện.
+- Các sửa thật trong nháp cũ gồm: giữ “đã áp dụng” ở quá khứ; `khen thưởng` không chỉ thành được khen; “nhiều ngàn năm” không giảm thành vài thế kỷ; khôi phục điều kiện đã đạt Niết-bàn của Arahant; không gán lỗi nhỏ về mức nghiêm trọng khi nguồn chỉ nói phạm từng ít một; sửa hòa hợp chủ–vị khi đổi khung từ she/he sang we.
+- Tra nguồn bổ sung M266 S13 p0539/0541/0543; M267 phần cuối p0599 nối p0601; M275 p1107–1117 để xác định rõ ba tâm hạnh là tôn kính Phật, từ bi, khiêm hạ; M277 ba câu đầu p1152 nối p1154; M278 p1257 nối p1259. M273 lấy đúng năm câu đầu truyện Seti. Snapshot có locator, cờ trích đoạn và checksum.
+- Giữ luận giải, câu chuyện, giả thuyết và mức chắc chắn theo nguồn; không quảng bá câu chuyện thần thoại hay nhận xét lịch sử như điều đã được người biên soạn xác minh độc lập.
+- Kiểm thử tập biên soạn: **11/11 đạt**. Vẫn cần rà ngôn ngữ cuối trên toàn bộ dữ liệu và tăng các distractor còn dễ; chưa có hiệu chuẩn người học. Không coi chỉ số một đáp án hay kiểm chuỗi nguyên văn là bảo đảm chất lượng ngôn ngữ.
+- Điểm xử lý tiếp: **M085**. Website chưa thay đổi. 72 câu cũ vẫn giữ riêng ngoài chỉ tiêu mới.
+
 ## Tiến độ mới nhất — 2026-10-30, M196–M237
 
 - Viết thủ công thêm **42 gói / 210 câu**, từ W17-B04 đến W20-B09. Tổng hiện hành **117 gói / 585 câu** được đối chiếu nguồn–khung Anh–phương án; tập ứng viên có 915 câu. Không đổi nhãn nháp để tăng số.

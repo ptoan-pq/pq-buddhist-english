@@ -2,1841 +2,3186 @@
 // Rationales describe semantic differences, not a preference for a model wording.
 // answer: 0 is an authoring convention; option order is shuffled on export.
 module.exports = [
-  {
-    id: 'M055', sourceBlockId: 'W08-B07', title: 'Lời chê chạm đến hình ảnh về mình',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'cảm thấy tự hào vì mình là hoa khôi của trường',
-        targetVietnamese: 'Người ấy tự hào về việc mình là hoa khôi của trường.',
-        sentence: 'She ___ being the school beauty.',
-        options: ['takes pride in', 'takes comfort in', 'lays claim to', 'seeks approval for'], answer: 0,
-        rationales: [
-          'takes pride in: cảm thấy tự hào về; giữ đúng thái độ được nguồn nêu.',
-          'takes comfort in: tìm sự an ủi ở một điều; nguồn không nêu nỗi lo hay nhu cầu được an ủi.',
-          'lays claim to: tự nhận quyền hoặc danh hiệu; biến cảm xúc tự hào thành hành động tuyên bố mình có danh hiệu.',
-          'seeks approval for: tìm kiếm sự tán thành; thêm một nhu cầu được người khác công nhận.'
-        ], dimension: 'pride versus comfort, assertion, and approval'
-      },
-      {
-        sourceCue: 'cho rằng mặt ta trông hắc ám quá',
-        targetVietnamese: 'Người kia nhận xét khuôn mặt ấy trông hắc ám; đoạn chưa nói người ấy thực sự độc ác.',
-        sentence: 'The observer ___, without establishing anything about her actual character.',
-        options: ['comments on how sinister her face looks', 'accuses her of having an evil character', 'warns others about her malicious intentions', 'exposes a deliberate attempt to appear threatening'], answer: 0,
-        rationales: [
-          'comments on how sinister her face looks: đưa nhận xét về vẻ mặt, giữ giới hạn ở ngoại hình.',
-          'accuses her of having an evil character: cáo buộc bản chất độc ác; chuyển từ vẻ mặt sang phẩm chất đạo đức.',
-          'warns others about her malicious intentions: cảnh báo người khác về ác ý; thêm người nghe và ý định mà nguồn không nêu.',
-          'exposes a deliberate attempt to appear threatening: vạch trần hành vi cố ý hăm dọa; thêm chủ ý của người bị chê.'
-        ], dimension: 'comment versus accusation, warning, and exposure'
-      },
-      {
-        sourceCue: 'Do chấp cái thân mỗi ngày như vậy nên khi nghe lời nhận xét, ta cảm thấy giận',
-        targetVietnamese: 'Cơn giận bắt nguồn từ sự chấp trước vào thân, khi người ấy nghe lời nhận xét.',
-        sentence: 'Her anger at the remark ___ her attachment to her appearance.',
-        options: ['stems from', 'accounts for', 'takes the place of', 'is mistaken for'], answer: 0,
-        rationales: [
-          'stems from: bắt nguồn từ; giữ chấp thân là nguyên nhân và giận là kết quả.',
-          'accounts for: giải thích hoặc gây nên; đảo chiều, biến cơn giận thành lời giải thích cho sự chấp thân.',
-          'takes the place of: thay thế; nguồn không nói một trạng thái thế chỗ trạng thái kia.',
-          'is mistaken for: bị nhầm là; thêm một lỗi nhận diện thay cho quan hệ nhân quả.'
-        ], dimension: 'causal direction versus replacement and misidentification'
-      },
-      {
-        sourceCue: 'Cái bực bội, khó chịu, cái cảm giác mất bình tĩnh cứ trào lên',
-        targetVietnamese: 'Sau lời nhận xét, sự bực bội cứ trào lên trong lòng.',
-        sentence: 'After the remark, irritation ___ within her.',
-        options: ['wells up', 'smolders', 'lingers', 'resurfaces'], answer: 0,
-        rationales: [
-          'wells up: trào dâng, bắt đúng chuyển động của cảm xúc trong câu Việt.',
-          'smolders: âm ỉ; diễn tả cháy ngầm dai dẳng, không giữ hình ảnh đang trào lên.',
-          'lingers: còn vương lại; nhấn cảm xúc đã có tiếp tục ở lại, thay vì sự dâng lên được kể.',
-          'resurfaces: xuất hiện trở lại; đòi hỏi một lần cảm xúc bị chìm hoặc biến mất trước đó, điều nguồn chưa nói.'
-        ], dimension: 'onset, persistence, and recurrence'
-      },
-      {
-        sourceCue: 'bị lời nói xúc chạm đến thân mình',
-        targetVietnamese: 'Người ấy bị chạm tự ái và nổi giận vì lời nói đụng đến thân mình.',
-        sentence: 'She ___ the comment about her appearance.',
-        options: ['takes offense at', 'takes issue with', 'seeks clarification of', 'reserves judgment on'], answer: 0,
-        rationales: [
-          'takes offense at: cảm thấy bị xúc phạm; giữ phản ứng tự ái, giận dữ.',
-          'takes issue with: không đồng ý hoặc phản bác; một bất đồng quan điểm chưa tự là cảm giác bị xúc phạm.',
-          'seeks clarification of: hỏi cho rõ; thêm hành động tìm hiểu không có trong đoạn.',
-          'reserves judgment on: chưa vội phán xét; trái với phản ứng giận đã xuất hiện.'
-        ], dimension: 'offense versus disagreement and inquiry'
-      }
-    ]
-  },
-  {
-    id: 'M056', sourceBlockId: 'W08-B08', title: 'Chức vụ, kỳ vọng và bản ngã',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'chấp địa vị của mình', targetVietnamese: 'Người có chức quyền bám chấp vào địa vị của mình.',
-        sentence: 'Holding office can lead people to ___ their status.',
-        options: ['cling to', 'qualify for', 'answer for', 'work toward'], answer: 0,
-        rationales: [
-          'cling to: bám chấp vào điều mình đang có; giữ ý chấp địa vị.',
-          'qualify for: đáp ứng tiêu chuẩn để được; nguồn đang nói người đã có chức quyền, không phải xét điều kiện bổ nhiệm.',
-          'answer for: chịu trách nhiệm về; đổi sự bám chấp thành trách nhiệm giải trình.',
-          'work toward: cố đạt tới; chuyển địa vị đã có thành mục tiêu tương lai.'
-        ], dimension: 'attachment versus eligibility, accountability, and aspiration'
-      },
-      {
-        sourceCue: 'người dưới nhất thiết phải nghe theo', targetVietnamese: 'Họ cho rằng cấp dưới nhất thiết phải nghe lời, kể cả người lớn tuổi hơn mình.',
-        sentence: 'They ___ subordinates, even those older than themselves.',
-        options: ['expect obedience from', 'earn the trust of', 'negotiate terms with', 'seek advice from'], answer: 0,
-        rationales: [
-          'expect obedience from: cho rằng sự vâng lời là điều phải có; giữ niềm mặc định dựa trên chức quyền.',
-          'earn the trust of: gây dựng được niềm tin bằng hành xử xứng đáng; nguồn không nói họ đã làm điều ấy.',
-          'negotiate terms with: thương lượng điều kiện; thêm một quá trình thỏa thuận thay cho đòi hỏi mặc nhiên.',
-          'seek advice from: hỏi lời khuyên; đảo hướng từ người đòi nghe theo thành người đi tham vấn.'
-        ], dimension: 'expectation versus deserved, negotiated, and elicited obedience'
-      },
-      {
-        sourceCue: 'chúng ta cảm thấy mình bị xúc phạm', targetVietnamese: 'Cấp dưới không vâng lời khiến họ cảm thấy bản thân bị xúc phạm.',
-        sentence: 'When a subordinate refuses to obey, they ___ it as a personal insult.',
-        options: ['take', 'report', 'publicize', 'exploit'], answer: 0,
-        rationales: [
-          'take: trong take it as, hiểu và cảm nhận điều đó như; giữ phản ứng chủ quan của người có chức quyền.',
-          'report: trong report it as, trình báo rằng; thêm một hành vi nói với người khác.',
-          'publicize: trong publicize it as, công khai hóa; thêm việc đưa sự việc ra công chúng.',
-          'exploit: trong exploit it as, lợi dụng nó như; thêm mục đích sử dụng sự việc làm công cụ.'
-        ], dimension: 'private interpretation versus communicative and strategic action'
-      },
-      {
-        sourceCue: 'xem chức vụ ấy là bản ngã của mình', targetVietnamese: 'Họ đánh đồng chức vụ đang giữ với chính bản thân mình.',
-        sentence: 'They ___ the office they hold with who they are.',
-        options: ['equate', 'compare', 'reconcile', 'supplement'], answer: 0,
-        rationales: [
-          'equate: trong equate A with B, coi hai điều là một; giữ việc lấy chức vụ làm bản ngã.',
-          'compare: so sánh A với B nhưng vẫn phân biệt hai đối tượng; chưa có sự đồng nhất.',
-          'reconcile: dung hòa A với B; nguồn không nói có mâu thuẫn đang được giải quyết.',
-          'supplement: thêm B để bổ sung A; không diễn tả sự đồng nhất.'
-        ], dimension: 'identity versus comparison, reconciliation, and supplementation'
-      },
-      {
-        sourceCue: 'nảy sinh tâm lý khó chịu và có khi nổi sân', targetVietnamese: 'Sự không vâng lời làm phát sinh khó chịu, đôi khi cả cơn giận.',
-        sentence: 'Disobedience ___ resentment and sometimes anger.',
-        options: ['gives rise to', 'provides an outlet for', 'calls attention to', 'lends legitimacy to'], answer: 0,
-        rationales: [
-          'gives rise to: làm phát sinh; giữ quan hệ từ sự việc sang phản ứng tâm lý.',
-          'provides an outlet for: cho cảm xúc đã có một lối xả; đổi phát sinh thành giải tỏa.',
-          'calls attention to: khiến người ta chú ý tới; không nói cảm xúc được tạo ra.',
-          'lends legitimacy to: khiến điều đó có vẻ chính đáng; nguồn giải thích phản ứng, không biện minh cho nó.'
-        ], dimension: 'cause versus outlet, salience, and justification'
-      }
-    ]
-  },
-  {
-    id: 'M057', sourceBlockId: 'W08-B09', title: 'Sửa lỗi không phải trút giận',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'dù giận chúng ta cũng phải bình tĩnh', targetVietnamese: 'Dù đang giận, người thầy vẫn phải giữ bình tĩnh.',
-        sentence: 'Even when angry, the teacher must ___.',
-        options: ['retain composure', 'feign composure', 'demand composure from others', 'claim to have regained composure'], answer: 0,
-        rationales: [
-          'retain composure: giữ sự bình tĩnh thật sự; đúng yêu cầu của nguồn.',
-          'feign composure: giả vẻ bình tĩnh; chỉ nói biểu hiện bên ngoài, không đáp ứng yêu cầu tâm bình tĩnh.',
-          'demand composure from others: đòi người khác bình tĩnh; chuyển chủ thể của nghĩa vụ.',
-          'claim to have regained composure: tự tuyên bố đã bình tĩnh lại; thêm lời tuyên bố và một lần đã mất bình tĩnh.'
-        ], dimension: 'actual self-command versus appearance, demand, and assertion'
-      },
-      {
-        sourceCue: 'họ sẽ mất đi lòng kính trọng đối với Thầy mình', targetVietnamese: 'Nếu mắng đệ tử hết lời vì nóng giận, người thầy sẽ đánh mất sự kính trọng của họ.',
-        sentence: 'By berating disciples in a temper, teachers ___.',
-        options: ['forfeit their disciples’ respect', 'command their disciples’ respect', 'appeal to their disciples’ respect', 'demand their disciples’ respect'], answer: 0,
-        rationales: [
-          'forfeit their disciples’ respect: đánh mất sự kính trọng do chính cách hành xử của mình.',
-          'command their disciples’ respect: khiến người khác kính trọng; đảo ngược hậu quả được nguồn cảnh báo.',
-          'appeal to their disciples’ respect: viện lòng kính trọng để thuyết phục; là một cách vận động người nghe, không phải mất lòng kính.',
-          'demand their disciples’ respect: đòi hỏi sự kính trọng; mô tả yêu sách chứ không nói hậu quả.'
-        ], dimension: 'loss of regard versus possession, appeal, and demand'
-      },
-      {
-        sourceCue: 'phải nêu gương tốt cho đệ tử', targetVietnamese: 'Người thầy phải tự mình nêu gương tốt cho đệ tử.',
-        sentence: 'A teacher must ___ good conduct for the disciples.',
-        options: ['exemplify', 'prescribe', 'commend', 'document'], answer: 0,
-        rationales: [
-          'exemplify: làm gương bằng chính cách sống; giữ trọng tâm người thầy tự nêu gương.',
-          'prescribe: quy định người ta nên hành xử thế nào; đưa chỉ dẫn chưa tự là làm gương.',
-          'commend: ca ngợi hành vi tốt; chuyển từ thực hiện sang đánh giá.',
-          'document: ghi chép; thêm một việc lưu hồ sơ không có trong lời dạy.'
-        ], dimension: 'embodied example versus instruction, praise, and record'
-      },
-      {
-        sourceCue: 'bình tĩnh xét hỏi nguyên nhân gây nên lầm lỗi', targetVietnamese: 'Người thầy cần bình tĩnh tìm hiểu nguyên nhân phía sau lỗi lầm.',
-        sentence: 'Before responding, the teacher should calmly ___ what led to the mistake.',
-        options: ['inquire into', 'pronounce judgment on', 'take responsibility for', 'make excuses for'], answer: 0,
-        rationales: [
-          'inquire into: tìm hiểu bằng xét hỏi; giữ bước làm rõ nguyên nhân trước khi phản ứng.',
-          'pronounce judgment on: đưa phán quyết; bỏ qua bước tìm hiểu mà nguồn yêu cầu.',
-          'take responsibility for: tự nhận trách nhiệm; nguồn chưa quy lỗi của đệ tử cho người thầy.',
-          'make excuses for: bào chữa; tìm nguyên nhân không đồng nghĩa bao che lỗi.'
-        ], dimension: 'investigation versus judgment, liability, and excuse'
-      },
-      {
-        sourceCue: 'đừng bao giờ chỉ dựa vào hành động mà trách mắng họ', targetVietnamese: 'Không được chỉ nhìn hành động bên ngoài rồi trách mắng đệ tử.',
-        sentence: 'The teacher must not ___ a disciple solely on the basis of an outward action.',
-        options: ['rebuke', 'confront', 'suspend', 'expel'], answer: 0,
-        rationales: [
-          'rebuke: trách mắng; đúng hành vi mà mệnh lệnh cấm nhắm tới.',
-          'confront: trực tiếp đối diện và chất vấn; có thể nghiêm nhưng chưa phải trách mắng.',
-          'suspend: đình chỉ việc học hoặc vai trò; thêm một chế tài không được câu nguồn nhắc đến.',
-          'expel: trục xuất; nâng trách mắng thành loại khỏi cộng đồng.'
-        ], dimension: 'scope of the prohibited response'
-      }
-    ]
-  },
-  {
-    id: 'M058', sourceBlockId: 'W08-B10', title: 'Đối trị lỗi từ tâm, không từ tự ái chức quyền',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'thờ ơ không chú ý đến lời dặn của thầy', targetVietnamese: 'Có người thờ ơ, không để tâm đến lời dặn của thầy.',
-        sentence: 'Some disciples ___ the teacher’s instructions.',
-        options: ['disregard', 'misconstrue', 'contest', 'anticipate'], answer: 0,
-        rationales: [
-          'disregard: không lưu tâm hoặc không làm theo; giữ thái độ thờ ơ của trường hợp này.',
-          'misconstrue: hiểu sai; nguồn không nói khó hiểu hay nhầm nghĩa.',
-          'contest: phản bác; thêm một sự phản đối chủ động thay vì thờ ơ.',
-          'anticipate: dự liệu trước; nói quan hệ thời gian/chuẩn bị, không phải phớt lờ.'
-        ], dimension: 'inattention versus misunderstanding and opposition'
-      },
-      {
-        sourceCue: 'cái bệnh cần phải được sửa từ trong tâm', targetVietnamese: 'Sự bướng bỉnh ấy phải được sửa từ nội tâm, không chỉ bị dẹp bằng quyền lực.',
-        sentence: 'The teacher should seek to ___ the inner fault.',
-        options: ['remedy', 'penalize', 'diagnose', 'publicize'], answer: 0,
-        rationales: [
-          'remedy: khắc phục; hướng đến thay đổi lỗi bên trong như nguồn yêu cầu.',
-          'penalize: phạt; chế tài không tự sửa được gốc tâm lý.',
-          'diagnose: nhận diện hoặc chẩn đoán vấn đề; chỉ dừng ở xác định chưa phải sửa.',
-          'publicize: làm nhiều người biết; thêm sự phơi bày ra công chúng.'
-        ], dimension: 'correction versus sanction, identification, and exposure'
-      },
-      {
-        sourceCue: 'chúng ta giận dữ, nóng nảy lại càng sai', targetVietnamese: 'Cấp dưới đã sai; cơn giận của người có chức quyền còn chồng thêm một cái sai khác.',
-        sentence: 'Our angry reaction ___ the wrongdoing already present.',
-        options: ['compounds', 'exposes', 'excuses', 'offsets'], answer: 0,
-        rationales: [
-          'compounds: làm vấn đề nặng thêm bằng một lỗi nữa; giữ cấu trúc sai chồng lên sai.',
-          'exposes: làm lộ; chỉ tăng khả năng thấy lỗi, không nói chính phản ứng cũng là lỗi.',
-          'excuses: bào chữa; nguồn không dùng lỗi của người này để miễn lỗi cho người kia.',
-          'offsets: bù trừ; trái với việc mức sai tăng thêm.'
-        ], dimension: 'aggravation versus revelation, excuse, and compensation'
-      },
-      {
-        sourceCue: 'càng chứng tỏ là ta chấp chức quyền của mình nặng quá', targetVietnamese: 'Sự nóng giận để lộ mức độ bám chấp vào chức quyền.',
-        sentence: 'Our fury ___ our attachment to rank.',
-        options: ['betrays', 'legitimizes', 'channels', 'moderates'], answer: 0,
-        rationales: [
-          'betrays: vô tình để lộ điều đang ở bên trong; giữ chức năng dấu hiệu của cơn giận.',
-          'legitimizes: làm cho có vẻ chính đáng; biến dấu hiệu đáng sửa thành sự biện minh.',
-          'channels: hướng một cảm xúc vào một lối thể hiện; đổi quan hệ chứng tỏ thành dẫn truyền.',
-          'moderates: làm bớt mạnh; đảo hướng từ để lộ chấp nặng sang giảm chấp.'
-        ], dimension: 'diagnostic evidence versus justification and regulation'
-      },
-      {
-        sourceCue: 'phải tác ý làm sao để khi gặp chuyện, chúng ta sẽ không chấp cái chức đó mà nổi sân', targetVietnamese: 'Khi được giao chức vụ, ta cần chủ động quyết tâm không vì bám chức mà nổi sân khi gặp chuyện.',
-        sentence: 'On taking office, we should ___ not to let attachment to the role provoke anger.',
-        options: ['resolve', 'expect', 'profess', 'presume'], answer: 0,
-        rationales: [
-          'resolve: tự quyết tâm; giữ hành vi hướng tâm vào cách ứng xử tương lai.',
-          'expect: dự đoán hoặc kỳ vọng; chưa có sự cam kết tự rèn.',
-          'profess: tuyên xưng; có lời nói công khai nhưng chưa chắc có quyết tâm bên trong.',
-          'presume: mặc nhiên cho rằng mình sẽ làm được; thay dụng công bằng tự tin chưa có căn cứ.'
-        ], dimension: 'volitional commitment versus expectation and profession'
-      }
-    ]
-  },
-  {
-    id: 'M059', sourceBlockId: 'W08-B11', title: 'Cơn giận: lời nói, lựa chọn và tư cách',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Có khi quá giận, người ta còn nói tục, chửi thề', targetVietnamese: 'Quá giận, có người dùng lời tục tĩu và chửi thề.',
-        sentence: 'In extreme anger, some people ___.',
-        options: ['use profanity', 'make accusations', 'issue threats', 'voice protests'], answer: 0,
-        rationales: [
-          'use profanity: dùng lời tục, chửi thề; nghĩa này được cụm nguồn xác định.',
-          'make accusations: buộc người khác có lỗi; có thể rất giận nhưng chưa tự là chửi thề.',
-          'issue threats: đe dọa điều sẽ làm; thêm ý về tổn hại tương lai.',
-          'voice protests: lên tiếng phản đối; chưa có nội dung tục tĩu mà câu Việt nêu.'
-        ], dimension: 'kind of angry speech'
-      },
-      {
-        sourceCue: 'những quyết định sai lầm', targetVietnamese: 'Trong lúc nóng giận, người ta thường đưa ra những quyết định sai lầm.',
-        sentence: 'In anger, people often ___ poor decisions.',
-        options: ['make', 'defend', 'review', 'reverse'], answer: 0,
-        rationales: [
-          'make: đưa ra quyết định; đặt hành động ở giai đoạn lựa chọn.',
-          'defend: bảo vệ một quyết định đã có; thêm tranh luận và một bước sau lựa chọn.',
-          'review: xem xét lại; đổi lỗi khi ra quyết định thành quá trình rà soát.',
-          'reverse: đảo ngược quyết định; giả định một lựa chọn trước đó mà nguồn chưa kể.'
-        ], dimension: 'stage of decision-making'
-      },
-      {
-        sourceCue: 'những hành động liều lĩnh', targetVietnamese: 'Người đang nóng giận có những hành động liều lĩnh, không cân nhắc thỏa đáng.',
-        sentence: 'Their anger leads them to ___.',
-        options: ['act rashly', 'act defiantly', 'act vindictively', 'act preemptively'], answer: 0,
-        rationales: [
-          'act rashly: hành động thiếu cân nhắc, liều lĩnh; giữ nét nguồn xác lập.',
-          'act defiantly: chống đối quyền lực; thêm một đối tượng quyền uy bị thách thức.',
-          'act vindictively: nhằm trả thù; nguồn ở câu này chưa xác định động cơ trả đũa.',
-          'act preemptively: ra tay trước để ngăn điều sắp xảy ra; thêm mục tiêu phòng ngừa.'
-        ], dimension: 'rashness versus defiance, revenge, and prevention'
-      },
-      {
-        sourceCue: 'không suy xét đúng sai', targetVietnamese: 'Khi nóng giận, người ta không chịu cân nhắc đúng sai.',
-        sentence: 'In the heat of anger, they fail to ___ what is right and wrong.',
-        options: ['weigh', 'articulate', 'recall', 'rationalize'], answer: 0,
-        rationales: [
-          'weigh: cân nhắc kỹ trước khi hành động; đúng thao tác suy xét.',
-          'articulate: diễn đạt cho rõ; đổi việc tự cân nhắc thành khả năng nói rõ điều đúng sai.',
-          'recall: nhớ lại; thêm điều kiện đã biết và đang truy hồi tri thức.',
-          'rationalize: tìm lý lẽ hợp thức hóa; đổi sự cân nhắc thận trọng thành tự biện minh.'
-        ], dimension: 'deliberation versus announcement, enforcement, and narration'
-      },
-      {
-        sourceCue: 'Sự giận dữ có thể làm mất tư cách của con người', targetVietnamese: 'Giận dữ có thể khiến một người đánh mất tư cách của mình.',
-        sentence: 'Anger can ___ their dignity.',
-        options: ['cost people', 'make people question', 'prompt people to defend', 'lead people to assert'], answer: 0,
-        rationales: [
-          'cost people: làm họ mất đi; giữ hậu quả mất tư cách chứ không chỉ thay đổi cảm nhận.',
-          'make people question: làm họ nghi ngờ; nói hành vi tự vấn thay vì hậu quả mất tư cách.',
-          'prompt people to defend: thúc họ bảo vệ; thêm phản ứng bảo vệ điều chưa được nói là đã mất.',
-          'lead people to assert: dẫn họ đến việc khẳng định; thêm yêu sách về tư cách thay cho thiệt hại.'
-        ], dimension: 'loss versus self-questioning and self-assertion'
-      }
-    ]
-  },
-  {
-    id: 'M060', sourceBlockId: 'W08-B12', title: 'Hung dữ: hăm dọa không chỉ là nổi giận',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'tương tự như sân nhưng bản chất không phải là sân', targetVietnamese: 'Hung dữ có biểu hiện giống sân nhưng không được đánh đồng với sân về bản chất.',
-        sentence: 'Despite the resemblance, aggressiveness should not be ___ anger.',
-        options: ['conflated with', 'traced back to', 'defended against', 'expressed through'], answer: 0,
-        rationales: [
-          'conflated with: gộp hai khái niệm thành một; đúng sự đồng nhất mà nguồn bác bỏ.',
-          'traced back to: truy về nguyên nhân; đổi câu phân biệt bản chất thành câu phủ định nguồn gốc.',
-          'defended against: được bảo vệ khỏi; biến sự so sánh khái niệm thành hành vi bảo vệ.',
-          'expressed through: biểu hiện thông qua; đổi quan hệ đồng nhất sang phương tiện biểu lộ.'
-        ], dimension: 'identity versus causal origin and expression'
-      },
-      {
-        sourceCue: 'thường làm cho người khác phải sợ', targetVietnamese: 'Tính hung dữ của họ thường làm những người khác sợ hãi.',
-        sentence: 'Their forceful manner tends to ___ other people.',
-        options: ['intimidate', 'rebuke', 'embarrass', 'challenge'], answer: 0,
-        rationales: [
-          'intimidate: khiến người khác sợ hoặc chùn bước; giữ tác động chính trong đoạn.',
-          'rebuke: trách mắng; là một hành động bằng lời, chưa tự diễn tả tác động gây sợ.',
-          'embarrass: làm bối rối hoặc xấu hổ; đổi loại cảm xúc.',
-          'challenge: thách thức; có thể hợp tác hoặc cạnh tranh mà không gây sợ hãi.'
-        ], dimension: 'fear versus censure, shame, and challenge'
-      },
-      {
-        sourceCue: 'thần sắc của họ, cử chỉ, lời nói của họ tỏ ra hăm dọa', targetVietnamese: 'Thần sắc, cử chỉ và lời nói của họ truyền ra một sự hăm dọa.',
-        sentence: 'Their gestures and tone ___ a threat.',
-        options: ['convey', 'substantiate', 'carry out', 'downplay'], answer: 0,
-        rationales: [
-          'convey: truyền đạt qua biểu hiện; giữ lời nói và cử chỉ như tín hiệu hăm dọa.',
-          'substantiate: cung cấp bằng chứng xác thực; biến tín hiệu thành chứng minh.',
-          'carry out: thực hiện điều đã đe dọa; đi từ tín hiệu sang hành động thực tế.',
-          'downplay: làm nhẹ hoặc giảm tầm quan trọng; đảo hướng tác động hăm dọa.'
-        ], dimension: 'signal versus proof and execution'
-      },
-      {
-        sourceCue: 'đè bẹp tinh thần và ý chí người khác', targetVietnamese: 'Họ dùng sự hăm dọa để đè bẹp tinh thần và ý chí người khác.',
-        sentence: 'Such intimidation can ___ another person’s resolve.',
-        options: ['crush', 'test', 'gauge', 'redirect'], answer: 0,
-        rationales: [
-          'crush: đè bẹp, làm suy sụp; giữ cường độ tác động nguồn nhấn mạnh.',
-          'test: thử thách độ vững; chưa khẳng định sự sụp đổ.',
-          'gauge: đo hoặc ước lượng; là nhận định, không phải gây tác hại.',
-          'redirect: hướng sang mục tiêu khác; không giữ hậu quả bị đè bẹp.'
-        ], dimension: 'destructive force versus testing, measurement, and redirection'
-      },
-      {
-        sourceCue: 'họ có những nhục hình đối với người khác', targetVietnamese: 'Đôi khi họ thật sự dùng nhục hình đối với người khác, không chỉ dọa.',
-        sentence: 'At times their aggression leads them to ___.',
-        options: ['inflict corporal punishment', 'threaten corporal punishment', 'authorize corporal punishment', 'investigate corporal punishment'], answer: 0,
-        rationales: [
-          'inflict corporal punishment: trực tiếp gây ra hình phạt thể xác; giữ hành động thực tế của chủ thể.',
-          'threaten corporal punishment: chỉ đe dọa sẽ làm; làm nhẹ hành động đã xảy ra thành lời đe dọa.',
-          'authorize corporal punishment: cho phép người khác thực hiện; chuyển người trực tiếp hành động thành người cấp quyền.',
-          'investigate corporal punishment: điều tra nhục hình; biến người gây hại thành người tìm hiểu vụ việc.'
-        ], dimension: 'actual harm versus threat, authorization, and inquiry'
-      }
-    ]
-  },
-  {
-    id: 'M061', sourceBlockId: 'W09-B01', title: 'Chiếc ví: nhặt được không có nghĩa được sở hữu',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'ta chưa kịp kêu thì họ đi mất', targetVietnamese: 'Chưa kịp gọi thì người đánh rơi ví đã đi mất; không phải họ nghe rồi cố tình lờ đi.',
-        sentence: 'Before you can call out, the owner ___.',
-        options: ['walks away', 'ignores your warning', 'evades your call', 'leaves the wallet in your care'], answer: 0,
-        rationales: [
-          'walks away: đi mất; không tự gán cho người mất ví sự biết chuyện hay cố ý né tránh.',
-          'ignores your warning: lờ lời báo; giả định đã có lời gọi và người kia đã nghe.',
-          'evades your call: cố tránh lời gọi; thêm ý định né tránh không được nguồn hỗ trợ.',
-          'leaves the wallet in your care: giao ví cho bạn giữ; biến việc đánh rơi thành giao phó có chủ ý.'
-        ], dimension: 'unaware departure versus deliberate disregard and entrustment'
-      },
-      {
-        sourceCue: 'Ta nhặt cái ví lên', targetVietnamese: 'Bạn nhặt chiếc ví từ chỗ nó rơi; chưa nói bạn nhận nó làm của mình.',
-        sentence: 'After the owner leaves, you ___ the wallet.',
-        options: ['pick up', 'appropriate', 'reclaim', 'confiscate'], answer: 0,
-        rationales: [
-          'pick up: nhặt lên; chỉ mô tả hành động với vật bị rơi.',
-          'appropriate: chiếm làm của mình; thêm hành vi sở hữu mà câu Việt chưa xác lập.',
-          'reclaim: lấy lại thứ thuộc về mình; gán cho người nhặt quyền sở hữu chiếc ví.',
-          'confiscate: tịch thu; thêm thẩm quyền hoặc việc xử lý vi phạm không có trong đoạn.'
-        ], dimension: 'physical retrieval versus appropriation and legal possession'
-      },
-      {
-        sourceCue: 'thấy trong đó có số tiền lớn', targetVietnamese: 'Nhìn vào ví, bạn thấy có một số tiền lớn; đoạn không nói bạn kiểm kê hay định giá quyền sở hữu.',
-        sentence: 'On opening the wallet, you ___.',
-        options: ['find that it contains a large sum', 'calculate exactly how much it contains', 'establish who is entitled to the money', 'claim the money as a finder’s reward'], answer: 0,
-        rationales: [
-          'find that it contains a large sum: nhận thấy có nhiều tiền; giữ mức thông tin nguồn nêu.',
-          'calculate exactly how much it contains: tính ra số tiền chính xác; thêm định lượng không có.',
-          'establish who is entitled to the money: xác định người có quyền hưởng tiền; thêm một kết luận về quyền lợi.',
-          'claim the money as a finder’s reward: đòi tiền như phần thưởng; thêm một yêu sách của người nhặt.'
-        ], dimension: 'observation versus calculation, adjudication, and claim'
-      },
-      {
-        sourceCue: 'Nếu tình yêu điều Thiện lớn hơn tất cả', targetVietnamese: 'Ở lựa chọn đúng, lòng yêu điều thiện lớn hơn sức hấp dẫn của số tiền.',
-        sentence: 'Love of goodness ___ the attraction of the money.',
-        options: ['outweighs', 'disguises', 'rationalizes', 'redeems'], answer: 0,
-        rationales: [
-          'outweighs: có sức nặng hoặc giá trị lớn hơn; giữ phép so sánh điều thiện với tiền.',
-          'disguises: che đậy; biến lòng yêu thiện thành vỏ bọc cho ham tiền.',
-          'rationalizes: tìm lý lẽ hợp thức hóa; biến ưu tiên đạo đức thành sự biện minh.',
-          'redeems: bù đắp hoặc cứu vãn điều có khuyết điểm; nguồn không nói điều thiện dùng để chuộc ham tiền.'
-        ], dimension: 'relative value versus concealment, rationalization, and redemption'
-      },
-      {
-        sourceCue: 'quyết tìm cho bằng được người đánh rơi ví để trả lại', targetVietnamese: 'Không do dự, bạn quyết tâm tìm cho được chủ ví để trả lại.',
-        sentence: 'You ___ the owner so that you can return the wallet.',
-        options: ['resolve to track down', 'hope to hear from', 'wait to be approached by', 'claim to have traced'], answer: 0,
-        rationales: [
-          'resolve to track down: quyết tâm tìm cho ra; giữ cả chủ ý mạnh và hành động chủ động.',
-          'hope to hear from: mong nhận tin; đổi quyết tâm tìm thành sự chờ đợi có hy vọng.',
-          'wait to be approached by: chờ người kia tìm đến; đảo phía chủ động.',
-          'claim to have traced: tuyên bố đã tìm ra; biến quyết định sẽ làm thành lời tự nhận đã xong.'
-        ], dimension: 'determined search versus hope, waiting, and retrospective claim'
-      }
-    ]
-  },
-  {
-    id: 'M062', sourceBlockId: 'W09-B02', title: 'Lời mời gọi và giới hạn của sự chung thủy',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'sự mời gọi của họ', targetVietnamese: 'Người kia có tình ý và đưa ra lời mời gọi về tình cảm.',
-        sentence: 'The other person ___.',
-        options: ['makes romantic advances toward you', 'pledges lifelong fidelity to you', 'entrusts a family responsibility to you', 'withdraws an earlier proposal of marriage'], answer: 0,
-        rationales: [
-          'makes romantic advances toward you: chủ động ngỏ ý tình cảm với bạn; đúng sự mời gọi trong đoạn.',
-          'pledges lifelong fidelity to you: thề chung thủy suốt đời; thêm mức cam kết chưa được nêu.',
-          'entrusts a family responsibility to you: giao trách nhiệm gia đình; đổi loại quan hệ.',
-          'withdraws an earlier proposal of marriage: rút lời cầu hôn; thêm sự kiện trước đó và đảo hướng lời mời.'
-        ], dimension: 'romantic approach versus promise, entrustment, and withdrawal'
-      },
-      {
-        sourceCue: 'mọi điều đều không hợp lý, gia đình, trách nhiệm, niềm tin, hạnh phúc, đạo đức chung thủy', targetVietnamese: 'Mối quan hệ ấy đi ngược trách nhiệm gia đình và sự chung thủy.',
-        sentence: 'Becoming involved with this person would ___.',
-        options: ['conflict with your family obligations and fidelity', 'fulfill your existing family obligations', 'formalize a previously agreed commitment', 'reconcile the competing demands on you'], answer: 0,
-        rationales: [
-          'conflict with your family obligations and fidelity: xung đột với; giữ việc lời mời không phù hợp trách nhiệm hiện có.',
-          'fulfill your existing family obligations: hoàn thành nghĩa vụ; đảo chiều, biến trái bổn phận thành làm trọn bổn phận.',
-          'formalize a previously agreed commitment: chính thức hóa lời hứa trước đó; thêm sự kiện và thủ tục chưa có.',
-          'reconcile the competing demands on you: dung hòa các bổn phận; nói giải quyết xung đột trong khi đoạn mô tả chính sự xung đột.'
-        ], dimension: 'conflict versus fulfillment, formalization, and reconciliation'
-      },
-      {
-        sourceCue: 'Mặc dù người đó rất đẹp, rất giàu, rất có điều kiện', targetVietnamese: 'Vẻ đẹp và sự giàu có không phải lý do đủ để bỏ lòng chung thủy.',
-        sentence: 'The person’s beauty and wealth do not ___ a breach of fidelity.',
-        options: ['justify', 'foreshadow', 'delay', 'expose'], answer: 0,
-        rationales: [
-          'justify: tạo lý do chính đáng cho; giữ ý không lấy sức hấp dẫn làm lý do phản bội.',
-          'foreshadow: báo trước điều sẽ xảy ra; đổi quan hệ lý do sang dấu hiệu dự báo.',
-          'delay: trì hoãn; giả định việc bỏ chung thủy sẽ diễn ra, chỉ muộn hơn.',
-          'expose: làm lộ; biến một lựa chọn chưa được thực hiện thành điều đã có cần phơi bày.'
-        ], dimension: 'justification versus prediction, delay, and disclosure'
-      },
-      {
-        sourceCue: 'ta yêu điều Thiện hơn, nghĩ đến trách nhiệm hơn', targetVietnamese: 'Bạn coi trọng điều thiện hơn những lợi thế vật chất và tình cảm trước mắt.',
-        sentence: 'In making this choice, you ___.',
-        options: ['prize goodness above the relationship’s attractions', 'invoke goodness to justify pursuing the relationship', 'profess fidelity while accepting the invitation', 'advertise your fidelity to gain approval'], answer: 0,
-        rationales: [
-          'prize goodness above the relationship’s attractions: coi trọng điều thiện hơn sức hấp dẫn của quan hệ; giữ thứ tự ưu tiên.',
-          'invoke goodness to justify pursuing the relationship: viện điều thiện để biện minh cho quan hệ; đảo hướng của quyết định.',
-          'profess fidelity while accepting the invitation: chỉ tuyên bố chung thủy nhưng vẫn chấp nhận lời mời; trái hành động được nguồn kể.',
-          'advertise your fidelity to gain approval: quảng bá sự chung thủy để được tán thành; thêm mục đích lấy tiếng khen.'
-        ], dimension: 'valuing versus profession, publicity, and embodiment'
-      },
-      {
-        sourceCue: 'vượt qua sự mời gọi của họ', targetVietnamese: 'Vì coi trọng sự chung thủy, bạn vượt qua lời mời gọi ấy.',
-        sentence: 'You ___ the person’s romantic advances.',
-        options: ['resist', 'resent', 'reciprocate', 'instigate'], answer: 0,
-        rationales: [
-          'resist: không để mình bị cuốn theo; giữ sự vượt qua cám dỗ.',
-          'resent: thấy bực hoặc oán; thêm cảm xúc giận mà đoạn không nêu.',
-          'reciprocate: đáp lại cùng tình cảm; trái với kết quả từ chối theo nguyên tắc.',
-          'instigate: khơi mào; chuyển người được mời thành người chủ động tạo sự việc.'
-        ], dimension: 'resistance versus resentment, reciprocity, and initiation'
-      }
-    ]
-  },
-  {
-    id: 'M063', sourceBlockId: 'W09-B03', title: 'Việc thiện trong những lựa chọn nhỏ',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Không chịu nói dối dù lời nói dối cho ta một điều lợi', targetVietnamese: 'Dù có lợi cho mình, bạn nhất quyết không nói dối.',
-        sentence: 'Even when a lie would benefit you, you ___.',
-        options: ['refuse to tell it', 'hesitate before telling it', 'retract it afterward', 'expose someone else’s lie'], answer: 0,
-        rationales: [
-          'refuse to tell it: từ chối nói; giữ sự dứt khoát không làm điều có lợi nhưng sai.',
-          'hesitate before telling it: do dự rồi nói; làm nhẹ sự từ chối thành ngập ngừng.',
-          'retract it afterward: rút lời sau khi đã nói; thêm một hành động sai đã xảy ra.',
-          'expose someone else’s lie: vạch lời dối của người khác; đổi chủ thể của lựa chọn đạo đức.'
-        ], dimension: 'refusal versus hesitation, retraction, and exposure'
-      },
-      {
-        sourceCue: 'Chịu cực mất thêm thời gian đi nhặt rác dù không phải trách nhiệm của mình', targetVietnamese: 'Bạn tự bỏ thêm thời gian và công sức để nhặt rác, dù đó không phải phần việc của mình.',
-        sentence: 'Although it is not your job, you spend extra time ___.',
-        options: ['picking up litter', 'tracing the source of the litter', 'reporting the litter to an official', 'assigning someone else to remove the litter'], answer: 0,
-        rationales: [
-          'picking up litter: tự nhặt rác; giữ hành động trực tiếp chịu khó làm.',
-          'tracing the source of the litter: truy tìm nguồn xả; thêm một cuộc tìm hiểu thay cho dọn rác.',
-          'reporting the litter to an official: báo cho người có trách nhiệm; không giữ sự tự làm việc thêm.',
-          'assigning someone else to remove the litter: giao việc cho người khác; chuyển gánh công sức sang người khác.'
-        ], dimension: 'direct service versus investigation, reporting, and delegation'
-      },
-      {
-        sourceCue: 'phải đưa nạn nhân đi cấp cứu tính mạng cái đã', targetVietnamese: 'Dù có thể bị hiểu lầm, bạn phải ưu tiên cứu mạng nạn nhân trước.',
-        sentence: 'Despite the possibility of being misunderstood, you must ___ getting the victim to emergency care.',
-        options: ['prioritize', 'postpone', 'delegate', 'announce'], answer: 0,
-        rationales: [
-          'prioritize: đặt lên trước; giữ chữ “cái đã” trong thứ tự hành động.',
-          'postpone: hoãn; đảo ưu tiên cứu người ngay, làm mất chữ “cái đã” của nguồn.',
-          'delegate: giao người khác làm; nguồn nhấn mình cần đưa nạn nhân đi trước, chưa nêu giao việc.',
-          'announce: thông báo sẽ làm; lời thông báo không thay cho ưu tiên thực hiện.'
-        ], dimension: 'priority versus postponement, delegation, and announcement'
-      },
-      {
-        sourceCue: 'Có khi bị hiểu lầm', targetVietnamese: 'Khi giúp nạn nhân, bạn có thể bị người khác hiểu sai việc mình đang làm.',
-        sentence: 'Other people may ___ what you are doing.',
-        options: ['misconstrue', 'reconstruct', 'corroborate', 'anticipate'], answer: 0,
-        rationales: [
-          'misconstrue: hiểu sai ý nghĩa sự việc; giữ điều bất lợi người giúp có thể gặp.',
-          'reconstruct: dựng lại diễn biến; thêm thao tác hồi dựng, không nói sự hiểu nhầm.',
-          'corroborate: xác nhận bằng chứng hỗ trợ; nói tăng độ tin cậy thay vì hiểu sai.',
-          'anticipate: dự liệu; chuyển từ cách hiểu sang thời điểm biết trước.'
-        ], dimension: 'misinterpretation versus reconstruction and corroboration'
-      },
-      {
-        sourceCue: 'lòng thanh thản vì lương tâm trong sáng', targetVietnamese: 'Lương tâm trong sáng đem lại sự thanh thản cho người sống có đạo đức.',
-        sentence: 'A clear conscience ___ peace of mind.',
-        options: ['brings', 'demands', 'merely simulates', 'is mistaken for'], answer: 0,
-        rationales: [
-          'brings: đem lại; giữ lương tâm là nền của sự thanh thản.',
-          'demands: đòi hỏi; đảo sự thanh thản từ kết quả thành yêu cầu.',
-          'merely simulates: chỉ tạo vẻ như có; thêm tính giả tạo trái với lợi ích thật trong đoạn.',
-          'is mistaken for: bị nhầm là; đồng nhất sai hai khái niệm thay vì giữ quan hệ nguyên nhân.'
-        ], dimension: 'beneficial cause versus demand, simulation, and mistaken identity'
-      }
-    ]
-  },
-  {
-    id: 'M064', sourceBlockId: 'W09-B04', title: 'Ưu tiên cho mình hay hướng đến người',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Đạo đức cũng có một thước đo khác', targetVietnamese: 'Đoạn dùng khuynh hướng sống vì mình hay vì người như một thước đo đạo đức.',
-        sentence: 'The passage ___.',
-        options: ['uses self-orientation and other-orientation to gauge morality', 'uses moral standing to predict material success', 'attributes generosity to a need for public approval', 'exempts self-interest from moral examination'], answer: 0,
-        rationales: [
-          'uses self-orientation and other-orientation to gauge morality: lấy hướng sống làm thước đo đạo đức; giữ đúng hai phía đang so.',
-          'uses moral standing to predict material success: dùng đạo đức để dự báo giàu nghèo; đổi thước đo và điều được đo.',
-          'attributes generosity to a need for public approval: quy lòng vị tha về nhu cầu được khen; thêm động cơ không có.',
-          'exempts self-interest from moral examination: miễn xét bản năng vị kỷ; ngược với việc đoạn đem nó ra đánh giá.'
-        ], dimension: 'assessment criterion versus prediction, attribution, and exemption'
-      },
-      {
-        sourceCue: 'Ta lo cho mình ăn no, mặc ấm trước', targetVietnamese: 'Bản năng vị kỷ khiến ta đặt nhu cầu của mình trước nhu cầu của người khác.',
-        sentence: 'We tend to ___ our own needs before considering anyone else’s.',
-        options: ['give precedence to', 'make provision for', 'assume responsibility for', 'take credit for'], answer: 0,
-        rationales: [
-          'give precedence to: đặt lên trước trong thứ tự ưu tiên; giữ nét “mình trước, người sau”.',
-          'make provision for: chuẩn bị đáp ứng; tự chăm lo chưa tự diễn tả sự đặt mình lên trước.',
-          'assume responsibility for: nhận trách nhiệm; chuyển thứ tự ưu tiên thành bổn phận.',
-          'take credit for: nhận công; thêm sự tự đề cao không được câu này nói tới.'
-        ], dimension: 'priority versus provision, responsibility, and credit'
-      },
-      {
-        sourceCue: 'bản năng vị kỷ tự động điều khiển hành vi ý nghĩ', targetVietnamese: 'Không được giáo dục, bản năng vị kỷ có thể tự động lái hành vi và suy nghĩ.',
-        sentence: 'Without education, instinctive self-interest can ___ our thoughts and behavior.',
-        options: ['steer', 'reflect', 'disclose', 'excuse'], answer: 0,
-        rationales: [
-          'steer: lái hướng, điều khiển; giữ bản năng là lực dẫn hành vi.',
-          'reflect: phản ánh; đảo hướng từ tác động đến biểu hiện.',
-          'disclose: tiết lộ; chuyển lực gây hành vi thành nguồn thông tin.',
-          'excuse: bào chữa; nguồn chỉ nhận diện bản năng, không miễn trách nhiệm vì có bản năng.'
-        ], dimension: 'causal guidance versus reflection, disclosure, and excuse'
-      },
-      {
-        sourceCue: 'chống lại khuynh hướng Vị kỷ', targetVietnamese: 'Giáo dục và trí tuệ giúp ta chống lại khuynh hướng vị kỷ đã có.',
-        sentence: 'Education and awakened understanding help us ___ ingrained self-centeredness.',
-        options: ['resist', 'rationalize', 'rename', 'dramatize'], answer: 0,
-        rationales: [
-          'resist: chống lại sự dẫn dắt của nó; giữ hướng chuyển từ vị kỷ sang vị tha.',
-          'rationalize: hợp thức hóa bằng lý lẽ; biến trí tuệ thành công cụ bảo vệ vị kỷ.',
-          'rename: đổi tên; chỉ thay nhãn thay vì cách sống.',
-          'dramatize: làm nổi bật hoặc cường điệu; không giữ hành động đối trị.'
-        ], dimension: 'opposition versus rationalization, relabeling, and dramatization'
-      },
-      {
-        sourceCue: 'biết sống Vị tha', targetVietnamese: 'Học sống vị tha là học đem mình phục vụ lợi ích của người khác, không chỉ muốn được họ tán thành.',
-        sentence: 'Learning to live for others means learning to ___.',
-        options: ['serve their welfare', 'solicit their approval', 'speak as their authorized representative', 'negotiate their support for one’s plans'], answer: 0,
-        rationales: [
-          'serve their welfare: phục vụ lợi ích của họ; giữ người khác là đối tượng hưởng lợi.',
-          'solicit their approval: tìm sự tán thành cho mình; vẫn đặt lợi ích bản thân làm đích.',
-          'speak as their authorized representative: phát ngôn theo ủy quyền; thêm địa vị đại diện không có trong nguồn.',
-          'negotiate their support for one’s plans: thương lượng để họ giúp kế hoạch của mình; đảo hướng cho và nhận.'
-        ], dimension: 'beneficiary and motive'
-      }
-    ]
-  },
-  {
-    id: 'M065', sourceBlockId: 'W09-B05', title: 'Nhường phần mình qua năm hành động khác nhau',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Người cha giả vờ nhâm nhi cốc rượu', targetVietnamese: 'Người cha giả vờ nhâm nhi rượu để chờ các con ăn no rồi mình mới ăn phần còn lại.',
-        sentence: 'While waiting for his children to finish eating, the father ___.',
-        options: ['pretends to linger over his wine', 'openly asks them to save a portion for him', 'insists on finishing his drink before serving them', 'invites them to wait while he eats first'], answer: 0,
-        rationales: [
-          'pretends to linger over his wine: làm ra vẻ đang nhâm nhi; giữ hành vi che việc mình nhường phần ăn.',
-          'openly asks them to save a portion for him: công khai xin chừa phần; trái với cách âm thầm chờ phần dư.',
-          'insists on finishing his drink before serving them: đặt chuyện uống của mình trước việc cho con ăn; đổi mục đích của sự chờ.',
-          'invites them to wait while he eats first: cho mình ăn trước; đảo thứ tự người được ưu tiên.'
-        ], dimension: 'concealed self-denial versus explicit claim and reversed priority'
-      },
-      {
-        sourceCue: 'lấy ra giúp đỡ hàng xóm lâm cảnh tai ương hoạn nạn', targetVietnamese: 'Người ấy thực sự lấy số tiền đã dành mua xe ra để giúp hàng xóm đang gặp nạn.',
-        sentence: 'To help the stricken neighbor, the person ___ money previously saved for a motorcycle.',
-        options: ['disburses', 'pledges', 'earmarks', 'raises'], answer: 0,
-        rationales: [
-          'disburses: chi tiền ra; giữ việc khoản tiết kiệm thực sự được dùng để giúp.',
-          'pledges: hứa sẽ cấp; làm việc chi tiền đã diễn ra thành lời cam kết.',
-          'earmarks: dành riêng cho một mục đích; mới là phân bổ dự định, chưa phải chi ra.',
-          'raises: huy động hoặc kiếm được; đổi việc dùng tiền đã có thành tạo nguồn tiền.'
-        ], dimension: 'actual payment versus pledge, allocation, and fundraising'
-      },
-      {
-        sourceCue: 'nán lại rất lâu giải quyết hồ sơ cho ông để ông khỏi phải trở lại hôm sau', targetVietnamese: 'Dù đã hết giờ và sắp dự tiệc, nhân viên ở lại giải quyết hồ sơ để ông già không phải quay lại.',
-        sentence: 'Rather than leave for the party, the employee ___.',
-        options: ['stays behind to finish the older man’s paperwork', 'asks the older man to return after the party', 'refers the older man to another office', 'promises to give the file priority tomorrow'], answer: 0,
-        rationales: [
-          'stays behind to finish the older man’s paperwork: tự ở lại làm cho xong; giữ sự hy sinh thời gian ngay lúc ấy.',
-          'asks the older man to return after the party: bắt người kia chờ lịch mình; trái mục đích không làm ông phải trở lại.',
-          'refers the older man to another office: chuyển hồ sơ; không giữ người nhân viên tự nán lại giải quyết.',
-          'promises to give the file priority tomorrow: hẹn hôm sau; trái thời điểm xử lý nguồn nhấn mạnh.'
-        ], dimension: 'immediate service versus deferral and referral'
-      },
-      {
-        sourceCue: 'thôi thả hết cho nó ăn', targetVietnamese: 'Thấy chó gầy đói, người ấy cho nó toàn bộ phần bánh còn lại, không chỉ một ít.',
-        sentence: 'On seeing the hungry dog, the person ___.',
-        options: ['gives it all the remaining bread', 'sets aside a small share of the bread for it', 'offers the bread in exchange for a trick', 'saves the bread to give it later'], answer: 0,
-        rationales: [
-          'gives it all the remaining bread: cho hết phần còn lại; giữ lượng và việc trao ngay.',
-          'sets aside a small share of the bread for it: chỉ để một phần ít; làm mất lượng “hết”.',
-          'offers the bread in exchange for a trick: trao có điều kiện; thêm việc đòi con vật làm gì để đổi lấy.',
-          'saves the bread to give it later: hoãn việc cho; đổi thời điểm trước nhu cầu đói ngay lúc ấy.'
-        ], dimension: 'whole gift versus partial, conditional, and delayed giving'
-      },
-      {
-        sourceCue: 'lấy chiếc áo mới mua trong túi xách ra tặng luôn', targetVietnamese: 'Thấy bạn cứ mặc một chiếc áo cũ, người ấy lấy áo mới của mình ra tặng hẳn cho bạn.',
-        sentence: 'The person ___ the newly bought shirt to the friend.',
-        options: ['gives', 'lends', 'sells', 'shows'], answer: 0,
-        rationales: [
-          'gives: tặng, chuyển đồ cho bạn không đòi hoàn lại hay trả tiền; giữ việc cho hẳn.',
-          'lends: cho mượn, còn mong trả lại; không giữ sắc thái “tặng luôn”.',
-          'sells: bán; biến món quà thành giao dịch.',
-          'shows: cho xem; có thể lấy áo ra nhưng chưa hề chuyển nó cho bạn sở hữu.'
-        ], dimension: 'gift versus loan, sale, and display'
-      }
-    ]
-  },
-  {
-    id: 'M066', sourceBlockId: 'W09-B06', title: 'Vị tha thành thói quen, phụng sự hơn thụ hưởng',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'thay đổi từ lối sống Vì mình sang Vì người rất khó khăn', targetVietnamese: 'Ban đầu, từ bỏ nếp sống chỉ vì mình để hướng đến người khác là một việc khó.',
-        sentence: 'At first, people find it difficult to ___.',
-        options: ['shift from self-centered living to living for others', 'resume an established habit of living for others', 'teach others to place their interests first', 'reconcile others to a permanently selfish way of life'], answer: 0,
-        rationales: [
-          'shift from self-centered living to living for others: chuyển nếp sống từ mình sang người; giữ hướng và tính mới ban đầu.',
-          'resume an established habit of living for others: quay lại thói quen vị tha đã có; thêm lịch sử gián đoạn.',
-          'teach others to place their interests first: dạy người khác ưu tiên bản thân; đổi chủ thể học và hướng ưu tiên.',
-          'reconcile others to a permanently selfish way of life: làm người khác cam chịu vị kỷ; đảo mục tiêu giáo dục.'
-        ], dimension: 'direction and stage of a behavioral transition'
-      },
-      {
-        sourceCue: 'lối sống Vì người đã trở thành thói quen tự nhiên', targetVietnamese: 'Dần dần, sống vì người trở thành một thói quen tự nhiên.',
-        sentence: 'Living for others eventually ___.',
-        options: ['becomes second nature', 'becomes a calculated exchange', 'is maintained only under supervision', 'is formally imposed as a public duty'], answer: 0,
-        rationales: [
-          'becomes second nature: thành nếp tự nhiên, không còn lạ lẫm; đúng thành ngữ cho thói quen đã thấm.',
-          'becomes a calculated exchange: thành trao đổi có tính toán; thêm mục đích có đi có lại.',
-          'is maintained only under supervision: chỉ giữ được nhờ giám sát; trái tính tự nhiên.',
-          'is formally imposed as a public duty: do bên ngoài áp đặt bằng bổn phận; đổi nguồn gốc của nếp sống.'
-        ], dimension: 'internalized habit versus calculation and external enforcement'
-      },
-      {
-        sourceCue: 'Lối sống Vị kỷ cho ta cảm giác khoái chí tầm thường', targetVietnamese: 'Vị kỷ đem lại khoái chí tầm thường; đoạn phân biệt nó với hạnh phúc thanh cao của vị tha.',
-        sentence: 'Self-centered living ___, rather than the elevated happiness described here.',
-        options: ['offers ordinary gratification', 'cultivates lasting generosity', 'releases us from self-interest', 'fulfills our obligations to others'], answer: 0,
-        rationales: [
-          'offers ordinary gratification: đem lại khoái chí thông thường; giữ loại lợi ích được nguồn nêu cho vị kỷ.',
-          'cultivates lasting generosity: nuôi lòng rộng lượng; gán kết quả vị tha cho nếp vị kỷ.',
-          'releases us from self-interest: giải phóng khỏi vị kỷ; đảo hướng của chính nếp sống ấy.',
-          'fulfills our obligations to others: làm trọn trách nhiệm với người; thêm một kết quả không được câu nguồn cho vị kỷ.'
-        ], dimension: 'kind of benefit and ethical direction'
-      },
-      {
-        sourceCue: 'Các tôn giáo có phong thánh cho ai', targetVietnamese: 'Khi chính thức phong thánh cho ai, các tôn giáo phải lấy nếp sống vị tha làm tiêu chuẩn.',
-        sentence: 'When religious authorities ___ someone, an altruistic life must be the criterion.',
-        options: ['canonize', 'ordain', 'absolve', 'appoint'], answer: 0,
-        rationales: [
-          'canonize: chính thức công nhận một người là thánh; giữ hành động phong thánh.',
-          'ordain: truyền chức hoặc cho thọ giới; không phải công nhận thánh.',
-          'absolve: tha tội; giải quyết lỗi, không phải tuyên thánh.',
-          'appoint: bổ nhiệm chức vụ; thêm địa vị tổ chức thay vì danh hiệu thánh.'
-        ], dimension: 'institutional religious acts'
-      },
-      {
-        sourceCue: 'ta sẽ thích cống hiến nhiều hơn thụ hưởng', targetVietnamese: 'Người có đạo đức thích cống hiến nhiều hơn thụ hưởng; không phải bị buộc phải từ bỏ mọi quyền lợi.',
-        sentence: 'The ethical preference described in the passage is to ___.',
-        options: ['contribute more than one consumes', 'renounce every right to enjoyment', 'make service conditional on a reward', 'consume first and contribute only what remains'], answer: 0,
-        rationales: [
-          'contribute more than one consumes: ưu tiên cho đi nhiều hơn nhận; giữ phép so sánh chứ không xóa quyền thụ hưởng.',
-          'renounce every right to enjoyment: từ bỏ hết quyền vui hưởng; làm cực đoan hơn câu nguồn, vốn thừa nhận quyền ấy.',
-          'make service conditional on a reward: phục vụ với điều kiện được trả; thêm động cơ đổi chác.',
-          'consume first and contribute only what remains: nhận trước rồi cho phần dư; đảo thứ tự ưu tiên.'
-        ], dimension: 'comparative preference versus absolute renunciation and conditional service'
-      }
-    ]
-  },
-  {
-    id: 'M067', sourceBlockId: 'W09-B07', title: 'Lo cho mình như phương tiện phục vụ người',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'quyết liệt từ chối mọi sự thụ hưởng cũng là cực đoan', targetVietnamese: 'Đoạn bác bỏ việc từ chối tuyệt đối mọi thụ hưởng, chứ không khuyên chạy theo hưởng thụ.',
-        sentence: 'The passage ___ all enjoyment as an extreme position.',
-        options: ['rejects the blanket renunciation of', 'denounces any moderation in', 'prescribes unrestricted indulgence in', 'dismisses every criticism of'], answer: 0,
-        rationales: [
-          'rejects the blanket renunciation of: bác bỏ sự từ chối toàn bộ; giữ đúng phạm vi cực đoan bị phê phán.',
-          'denounces any moderation in: lên án mọi tiết chế; biến giới hạn của khổ hạnh thành phản đối sống chừng mực.',
-          'prescribes unrestricted indulgence in: khuyên hưởng không giới hạn; đảo lời cảnh báo thành cho phép cực đoan khác.',
-          'dismisses every criticism of: gạt mọi lời phê bình; nguồn chỉ bác một cực đoan, không miễn xét hưởng thụ.'
-        ], dimension: 'scope of a rejection'
-      },
-      {
-        sourceCue: 'Người cha phải ăn no để đi cày ruộng làm lúa nuôi gia đình', targetVietnamese: 'Người cha ăn đủ để có sức lao động nuôi gia đình, không phải chỉ lo sướng cho mình.',
-        sentence: 'The father eats adequately to ___ his family.',
-        options: ['provide for', 'gain authority over', 'seek approval from', 'claim priority within'], answer: 0,
-        rationales: [
-          'provide for: lo vật chất nuôi gia đình; đúng mục đích của việc giữ sức.',
-          'gain authority over: giành quyền lực; thêm một động cơ thống trị.',
-          'seek approval from: muốn gia đình tán thành; đổi lợi ích được cung cấp thành lời công nhận nhận về.',
-          'claim priority within: đòi vị trí ưu tiên; không giữ mục đích nuôi người thân.'
-        ], dimension: 'provision versus power, approval, and entitlement'
-      },
-      {
-        sourceCue: 'hà tiện từng đồng để doanh nghiệp tồn tại cho nhân viên có việc làm ổn định', targetVietnamese: 'Doanh nhân chắt chiu chi phí để công ty còn tồn tại và nhân viên giữ được việc.',
-        sentence: 'The business owner ___ to preserve the firm and its employees’ jobs.',
-        options: ['economizes', 'withholds wages', 'liquidates the business', 'inflates the accounts'], answer: 0,
-        rationales: [
-          'economizes: tiết giảm chi dùng; giữ việc chắt chiu nhằm duy trì doanh nghiệp.',
-          'withholds wages: giữ lại tiền lương phải trả; thêm việc gây hại quyền lợi nhân viên.',
-          'liquidates the business: thanh lý công ty; trái mục tiêu giữ công ty tồn tại.',
-          'inflates the accounts: làm số liệu tài chính cao giả; thêm gian lận không có trong câu.'
-        ], dimension: 'economy versus nonpayment, liquidation, and misstatement'
-      },
-      {
-        sourceCue: 'kiểm tra việc đóng thuế gắt gao', targetVietnamese: 'Nhà nước kiểm tra chặt việc đóng thuế để có ngân sách trả lương công chức.',
-        sentence: 'To fund public salaries, the state ___.',
-        options: ['scrutinizes tax compliance', 'raises every tax rate', 'waives unpaid taxes', 'diverts payroll funds into tax refunds'], answer: 0,
-        rationales: [
-          'scrutinizes tax compliance: xem xét kỹ việc thực hiện nghĩa vụ thuế; giữ hành động kiểm tra.',
-          'raises every tax rate: tăng mọi mức thuế; kiểm tra thu có đủ không khác với tăng mức phải đóng.',
-          'waives unpaid taxes: miễn tiền chưa nộp; đảo hướng thu ngân sách.',
-          'diverts payroll funds into tax refunds: chuyển tiền lương sang hoàn thuế; đảo hướng sử dụng ngân sách.'
-        ], dimension: 'compliance scrutiny versus taxation and expenditure decisions'
-      },
-      {
-        sourceCue: 'tập trung điều khiển máy bay tìm chỗ hạ cánh an toàn', targetVietnamese: 'Khi phi công phụ ngất, cơ trưởng ưu tiên điều khiển máy bay hạ cánh an toàn.',
-        sentence: 'With the copilot unconscious, the captain ___.',
-        options: ['concentrates on landing the aircraft safely', 'delegates the landing to the copilot', 'abandons the aircraft to seek help', 'turns the flight over to a passenger'], answer: 0,
-        rationales: [
-          'concentrates on landing the aircraft safely: tập trung vào hạ cánh; giữ nhiệm vụ bảo toàn cả chuyến bay.',
-          'delegates the landing to the copilot: giao việc cho người đang ngất; đổi chủ thể hành động và trái hoàn cảnh.',
-          'abandons the aircraft to seek help: rời bỏ máy bay; trái việc tiếp tục điều khiển.',
-          'turns the flight over to a passenger: giao chuyến bay cho hành khách; thêm việc bàn giao không có trong nguồn.'
-        ], dimension: 'priority of direct action versus delegation and abandonment'
-      }
-    ]
-  },
-  {
-    id: 'M068', sourceBlockId: 'W09-B08', title: 'Hình thành vị tha bằng nguyện và khuyên',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'thành hình được khuynh hướng Vị tha cao quý', targetVietnamese: 'Việc tu tập nhằm hình thành một khuynh hướng vị tha trong chính mình.',
-        sentence: 'The aim is to ___ an altruistic disposition within ourselves.',
-        options: ['cultivate', 'simulate', 'advertise', 'diagnose'], answer: 0,
-        rationales: [
-          'cultivate: chủ động nuôi dưỡng để hình thành; giữ chiều hướng rèn một phẩm chất.',
-          'simulate: giả lập vẻ như có; không phải nếp vị tha thật.',
-          'advertise: quảng bá rằng mình có; đổi rèn tâm thành gây ấn tượng.',
-          'diagnose: nhận diện một trạng thái đã có; chưa nói hình thành phẩm chất mới.'
-        ], dimension: 'development versus imitation, publicity, and identification'
-      },
-      {
-        sourceCue: 'yêu kính ngưỡng mộ các bậc thánh vị tha', targetVietnamese: 'Ta yêu kính những bậc thánh vị tha; việc ấy khác với chính thức phong thánh cho ai.',
-        sentence: 'We are urged to ___ altruistic saints.',
-        options: ['venerate', 'canonize', 'ordain', 'absolve'], answer: 0,
-        rationales: [
-          'venerate: kính ngưỡng sâu sắc; giữ quan hệ của người học đối với bậc thánh.',
-          'canonize: chính thức tuyên thánh; thêm thẩm quyền công nhận tôn giáo.',
-          'ordain: truyền chức hoặc giới; không phải bày tỏ kính ngưỡng.',
-          'absolve: tha tội; đổi vai trò người kính thành người có quyền giải tội.'
-        ], dimension: 'reverence versus institutional religious acts'
-      },
-      {
-        sourceCue: 'tự tâm nguyện sẽ sống vị tha', targetVietnamese: 'Ta tự nguyện từ trong lòng sẽ sống vị tha, không chỉ dự đoán rằng mình sẽ làm được.',
-        sentence: 'The personal vow calls for us to ___.',
-        options: ['resolve to live altruistically', 'expect to be altruistic without making a commitment', 'pretend to have adopted an altruistic life', 'claim that we already live altruistically'], answer: 0,
-        rationales: [
-          'resolve to live altruistically: tự quyết tâm sống vị tha; giữ sức cam kết bên trong của tâm nguyện.',
-          'expect to be altruistic without making a commitment: chỉ kỳ vọng mà không quyết tâm; mất hành vi tự nguyện.',
-          'pretend to have adopted an altruistic life: giả vờ đã sống vị tha; trái tính thật lòng nguồn nhấn.',
-          'claim that we already live altruistically: tự nhận hiện đã sống như thế; đổi lời nguyện thành tuyên bố đã có phẩm chất.'
-        ], dimension: 'commitment versus expectation, pretense, and completed claim'
-      },
-      {
-        sourceCue: 'khéo khuyên mọi người cùng sống vị tha', targetVietnamese: 'Ta khéo khuyên người khác cùng sống vị tha, không cưỡng ép hoặc lấy điều kiện để mặc cả.',
-        sentence: 'We should ___ others to live altruistically.',
-        options: ['encourage', 'coerce', 'bribe', 'authorize'], answer: 0,
-        rationales: [
-          'encourage: khuyến khích, động viên; giữ cách hướng dẫn không ép buộc.',
-          'coerce: cưỡng ép; nâng lời khuyên thành dùng áp lực.',
-          'bribe: dùng lợi ích mua chuộc; thêm động cơ đổi chác.',
-          'authorize: cấp phép; giả định người kia cần quyền mình mới được sống vị tha.'
-        ], dimension: 'encouragement versus compulsion, inducement, and permission'
-      },
-      {
-        sourceCue: 'Đừng chê trách kẻ sống vị kỷ', targetVietnamese: 'Đừng chê trách người sống vị kỷ; hãy tìm cách khuyên họ.',
-        sentence: 'Rather than ___ selfish people, we should try to counsel them.',
-        options: ['censure', 'condone', 'exonerate', 'compensate'], answer: 0,
-        rationales: [
-          'censure: chê trách hoặc bày tỏ sự lên án; đúng hành vi bị ngăn trong lời dạy.',
-          'condone: dung túng; không chê trách không có nghĩa là đã coi lối sống ấy đúng.',
-          'exonerate: minh oan; nguồn không nói họ vô tội hay bị quy sai.',
-          'compensate: bồi thường; thêm nghĩa vụ bù thiệt hại không có.'
-        ], dimension: 'censure versus approval, exoneration, and compensation'
-      }
-    ]
-  },
-  {
-    id: 'M069', sourceBlockId: 'W09-B09', title: 'Chọn chỗ nương tựa mà vẫn mở lòng nâng đỡ',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'chọn Tăng Ni có giới định tuệ để nương tựa học hỏi tu hành', targetVietnamese: 'Cư sĩ chọn người có giới, định, tuệ để nương tựa và học tu.',
-        sentence: 'Lay practitioners should ___ morally disciplined and wise monastics for guidance.',
-        options: ['turn to', 'speak for', 'take charge of', 'vouch for'], answer: 0,
-        rationales: [
-          'turn to: tìm đến để được chỉ dẫn; giữ người tu sĩ là nguồn giúp đỡ.',
-          'speak for: đại diện phát ngôn; đổi hướng quan hệ hỗ trợ.',
-          'take charge of: đứng ra quản lý; biến người học thành người quản lý người dạy.',
-          'vouch for: đứng ra bảo đảm phẩm chất; thêm thẩm quyền chứng nhận thay vì nương học.'
-        ], dimension: 'seeking guidance versus representation, management, and endorsement'
-      },
-      {
-        sourceCue: 'rộng lòng ‘đầu tư’ cho Tăng Ni còn non yếu', targetVietnamese: 'Đồng thời, cư sĩ vẫn nâng đỡ người tu còn non để họ có cơ hội tiến bộ và giúp đời.',
-        sentence: 'They should also ___ less experienced monastics so that those monastics can grow.',
-        options: ['support', 'accredit', 'promote to senior rank', 'absolve'], answer: 0,
-        rationales: [
-          'support: nâng đỡ, giúp có điều kiện tiến bộ; giữ nghĩa rộng của “đầu tư” trong đoạn.',
-          'accredit: chính thức công nhận đủ chuẩn; nhảy từ hỗ trợ rèn luyện sang chứng nhận năng lực.',
-          'promote to senior rank: nâng chức; thêm địa vị trong tổ chức.',
-          'absolve: tha lỗi; không phải cung cấp điều kiện cho người còn non tu tiến.'
-        ], dimension: 'developmental support versus certification and promotion'
-      },
-      {
-        sourceCue: 'ngoan cố không chịu tu sửa thì ta phải tránh đi', targetVietnamese: 'Chỉ khi người tu bộc lộ yếu kém đạo đức lại nhất quyết không sửa, cư sĩ mới cần tránh xa.',
-        sentence: 'When a monastic displays moral failings and refuses to reform, lay followers should ___.',
-        options: ['keep away from that monastic', 'condemn the entire monastic community', 'overlook the refusal to reform', 'entrust that monastic with more authority'], answer: 0,
-        rationales: [
-          'keep away from that monastic: tránh người cụ thể trong điều kiện đã nêu; giữ đúng phạm vi ngoại lệ.',
-          'condemn the entire monastic community: lên án cả cộng đồng; mở rộng từ trường hợp cá nhân ra tất cả.',
-          'overlook the refusal to reform: bỏ qua sự ngoan cố; trái với ngoại lệ mà nguồn yêu cầu phải tránh.',
-          'entrust that monastic with more authority: giao thêm quyền; không phải giữ khoảng cách.'
-        ], dimension: 'qualified avoidance versus generalization and misplaced trust'
-      },
-      {
-        sourceCue: 'dù thân cận, dù được tin cậy, cư sĩ cũng phải giữ khoảng cách chừng mực', targetVietnamese: 'Dù được tin cậy và thân cận, cư sĩ vẫn cần giữ một khoảng cách chừng mực.',
-        sentence: 'Even when trusted, lay followers must ___.',
-        options: ['maintain appropriate boundaries', 'sever all contact', 'claim unrestricted access', 'withdraw all material support'], answer: 0,
-        rationales: [
-          'maintain appropriate boundaries: giữ giới hạn phù hợp trong quan hệ; không phủ định sự thân cận đúng mực.',
-          'sever all contact: cắt toàn bộ liên hệ; làm mạnh “giữ khoảng cách” thành tuyệt giao.',
-          'claim unrestricted access: đòi được tiếp cận không giới hạn; đảo yêu cầu tự giữ chừng mực.',
-          'withdraw all material support: dừng mọi hỗ trợ; đổi giới hạn quan hệ thành cắt trợ giúp.'
-        ], dimension: 'boundaries versus severance, entitlement, and withdrawal of aid'
-      },
-      {
-        sourceCue: 'Hỗ trợ các việc có tính thế tục', targetVietnamese: 'Thân cận Tăng Ni có thể bao gồm phụ giúp những công việc thế tục.',
-        sentence: 'In secular affairs, lay followers may ___.',
-        options: ['assist monastics', 'speak for monastics', 'act in place of monastics', 'exercise authority over monastics'], answer: 0,
-        rationales: [
-          'assist monastics: phụ giúp; giữ người cư sĩ ở vai trò hỗ trợ công việc.',
-          'speak for monastics: đại diện phát ngôn; trợ giúp việc đời chưa tự trao quyền phát ngôn.',
-          'act in place of monastics: thay vị trí người tu; vượt vai trò phụ giúp được nêu.',
-          'exercise authority over monastics: quản lý, có quyền trên người tu; đảo vị thế hỗ trợ thành điều khiển.'
-        ], dimension: 'assistance versus substitution, credentialing, and absolution'
-      }
-    ]
-  },
-  {
-    id: 'M070', sourceBlockId: 'W09-B10', title: 'Làm phước giữa sinh kế: nhận cơ hội và lượng sức',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'vừa hái trái vừa gieo hạt trồng thêm cây mới', targetVietnamese: 'Hình ảnh đúng là vừa hưởng quả hiện tại, vừa gieo thêm hạt cho tương lai.',
-        sentence: 'The farming image urges people to ___ while enjoying the current harvest.',
-        options: ['sow for future harvests', 'live exclusively on stored fruit', 'uproot the remaining trees', 'claim ownership of every seed'], answer: 0,
-        rationales: [
-          'sow for future harvests: gieo hạt cho vụ sau; giữ cả hưởng quả và tạo điều kiện mới.',
-          'live exclusively on stored fruit: chỉ tiêu dùng thứ đang có; chính là thái độ đoạn phê bình.',
-          'uproot the remaining trees: nhổ cây; trái hướng trồng thêm.',
-          'claim ownership of every seed: nhận hết hạt là của mình; thêm vấn đề sở hữu không có trong ví dụ.'
-        ], dimension: 'renewal versus mere consumption and depletion'
-      },
-      {
-        sourceCue: 'ta phải nhìn thấy cơ hội đó', targetVietnamese: 'Cơ hội giúp người có thể đến bất chợt; mình phải nhận ra nó.',
-        sentence: 'We need to ___ an unexpected opportunity to do good.',
-        options: ['recognize', 'manufacture', 'guarantee', 'publicize'], answer: 0,
-        rationales: [
-          'recognize: nhận ra cơ hội đang đến; giữ vai trò biết thấy điều tình cờ.',
-          'manufacture: tạo dựng cơ hội; đổi một việc bất chợt thành thiết kế có chủ ý.',
-          'guarantee: bảo đảm cơ hội; thêm quyền kiểm soát điều kiện chưa có.',
-          'publicize: làm mọi người biết; thêm thông báo ra ngoài thay vì nhận biết của chính mình.'
-        ], dimension: 'recognition versus construction, assurance, and publicity'
-      },
-      {
-        sourceCue: 'tự đánh giá khả năng của mình', targetVietnamese: 'Trước khi giúp, mình cần tự lượng sức có làm được hay không.',
-        sentence: 'Before committing to help, we should ___ our own capacity.',
-        options: ['appraise', 'advertise', 'overstate', 'certify'], answer: 0,
-        rationales: [
-          'appraise: đánh giá khả năng thực có; giữ bước tự lượng sức.',
-          'advertise: quảng bá năng lực; chuyển nhận định cho mình thành gây ấn tượng với người khác.',
-          'overstate: nói quá khả năng; trái yêu cầu tự đánh giá đúng.',
-          'certify: tuyên chứng nhận đủ năng lực; tự lượng sức không phải cấp một sự bảo đảm chính thức.'
-        ], dimension: 'self-assessment versus publicity, exaggeration, and delegation'
-      },
-      {
-        sourceCue: 'không ảnh hưởng đến đời sống gia đình gây xung đột không hay', targetVietnamese: 'Việc làm phước cần không gây xáo trộn và xung đột không hay trong gia đình.',
-        sentence: 'Good deeds should not ___ family life.',
-        options: ['disrupt', 'redefine', 'formalize', 'publicize'], answer: 0,
-        rationales: [
-          'disrupt: làm xáo trộn, gây gián đoạn; giữ tác động có hại cần tránh.',
-          'redefine: định nghĩa lại; thêm thay đổi quan niệm thay vì xung đột trong sinh hoạt.',
-          'formalize: làm thành quy thức chính thức; không diễn tả tổn hại gia đình.',
-          'publicize: đưa ra công chúng; đổi loại tác động sang sự riêng tư và thông tin.'
-        ], dimension: 'disruption versus conceptual, formal, and public change'
-      },
-      {
-        sourceCue: 'dựa trên Niềm khát khao làm phước', targetVietnamese: 'Đoạn dùng niềm khát khao làm phước để đánh giá đạo tâm, không chỉ đếm việc đã làm.',
-        sentence: 'The assessment ___ a person’s longing to do good.',
-        options: ['rests on', 'dispenses with', 'calls into question', 'gives rise to'], answer: 0,
-        rationales: [
-          'rests on: lấy đó làm căn cứ; giữ hướng từ niềm khát khao sang đánh giá.',
-          'dispenses with: bỏ qua, không cần; trái tiêu chí nguồn nhấn.',
-          'calls into question: nghi ngờ; không giữ việc xem đó là dấu hiệu đạo tâm.',
-          'gives rise to: làm phát sinh; đảo tiêu chí đã có thành kết quả do đánh giá tạo ra.'
-        ], dimension: 'basis versus omission, doubt, and production'
-      }
-    ]
-  },
-  {
-    id: 'M071', sourceBlockId: 'W09-B11', title: 'Uy tín thật khác vẻ ngoài tạo lòng tin',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'được tin tưởng hỏi han nương tựa', targetVietnamese: 'Một cư sĩ có đạo hạnh, trí tuệ và thiền định có thể là người để bạn đồng tu tìm đến hỏi han.',
-        sentence: 'Fellow practitioners may ___ such a layperson for guidance.',
-        options: ['consult', 'commission', 'license', 'ordain'], answer: 0,
-        rationales: [
-          'consult: tìm hỏi ý kiến; giữ vai trò người có năng lực làm nguồn chỉ dẫn.',
-          'commission: giao một nhiệm vụ có thỏa thuận; thêm quan hệ ủy thác công việc.',
-          'license: cấp phép hoạt động; thêm thẩm quyền chứng nhận.',
-          'ordain: cho thọ giới hoặc truyền chức; biến sự nương hỏi thành thay đổi vai trò tôn giáo.'
-        ], dimension: 'consultation versus commissioning and conferral of status'
-      },
-      {
-        sourceCue: 'mong huynh đệ thực sự đạt được sự tiến bộ', targetVietnamese: 'Mình mong bạn đồng tu thực sự tiến bộ, không chỉ có tiếng là tu giỏi.',
-        sentence: 'We hope that fellow practitioners ___ in their practice.',
-        options: ['make genuine headway', 'acquire an impressive reputation', 'claim greater seniority', 'receive automatic recognition'], answer: 0,
-        rationales: [
-          'make genuine headway: thực sự đi tới, tiến bộ; giữ thực chất của sự tu.',
-          'acquire an impressive reputation: có danh tiếng; thay phẩm chất thật bằng cách người khác đánh giá.',
-          'claim greater seniority: tự nhận vai vế cao; thêm địa vị và yêu sách.',
-          'receive automatic recognition: được công nhận đương nhiên; không tự là tu tiến thực tế.'
-        ], dimension: 'actual progress versus reputation and status'
-      },
-      {
-        sourceCue: 'làm màu lấy lòng tin của huynh đệ rồi mưu cầu chuyện khác', targetVietnamese: 'Có người cố tạo vẻ tốt để lấy lòng tin rồi dùng lòng tin ấy cho mục đích khác.',
-        sentence: 'Some people ___ their peers’ trust for ulterior ends.',
-        options: ['cultivate and exploit', 'repay and honor', 'misinterpret and underestimate', 'test and verify'], answer: 0,
-        rationales: [
-          'cultivate and exploit: gây dựng rồi lợi dụng; giữ cả bước lấy lòng tin và mục đích ẩn sau đó.',
-          'repay and honor: đền đáp và trân trọng; đổi việc lợi dụng thành đáp lại xứng đáng.',
-          'misinterpret and underestimate: hiểu sai và đánh giá thấp; đổi mưu tính thành lỗi nhận thức.',
-          'test and verify: kiểm tra và xác minh; biến người làm màu thành người thẩm định độ tin cậy.'
-        ], dimension: 'manipulation versus reciprocation and assessment'
-      },
-      {
-        sourceCue: 'bày tỏ kiến giải lưu loát về giáo lý', targetVietnamese: 'Một người có thể trình bày rất lưu loát những kiến giải giáo lý; điều ấy chưa tự chứng tỏ đạo đức vững.',
-        sentence: 'A person may ___ doctrinal interpretations fluently without being morally sound.',
-        options: ['expound', 'substantiate', 'exemplify', 'corroborate'], answer: 0,
-        rationales: [
-          'expound: trình bày, giải thích cặn kẽ; giữ năng lực diễn đạt bằng lời.',
-          'substantiate: cung cấp căn cứ chứng minh; lưu loát không tự là đã chứng minh điều nói.',
-          'exemplify: hiện thân hoặc làm gương cho; chuyển kiến giải bằng lời sang đời sống chứng thực.',
-          'corroborate: xác nhận bằng chứng bổ trợ; thêm chức năng kiểm chứng, không chỉ giảng giải.'
-        ], dimension: 'exposition versus evidential and lived validation'
-      },
-      {
-        sourceCue: 'Phải vững chắc về đạo đức rồi mới có thể đánh giá tiếp về những tiêu chuẩn khác', targetVietnamese: 'Phải xem đạo đức đã vững rồi mới xét tiếp các tiêu chuẩn khác.',
-        sentence: 'The moral foundation must be sound before other qualities are ___.',
-        options: ['appraised', 'conferred', 'prescribed', 'publicly endorsed'], answer: 0,
-        rationales: [
-          'appraised: được đánh giá; giữ thứ tự của việc xét tiêu chuẩn.',
-          'conferred: được ban cho; đổi đánh giá phẩm chất thành trao phẩm chất.',
-          'prescribed: được quy định phải có; đổi việc xét thực tế thành đặt chuẩn mực.',
-          'publicly endorsed: được công khai bảo chứng; đánh giá trước chưa đồng nghĩa công khai xác nhận là đúng.'
-        ], dimension: 'assessment versus conferral, prescription, and proxy practice'
-      }
-    ]
-  },
-  {
-    id: 'M072', sourceBlockId: 'W09-B12', title: 'Có phước đi cùng gánh vác, không phải đặc quyền nhàn tu',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'phạm sai lầm từng ít một mà không biết', targetVietnamese: 'Người ấy đã phạm những lỗi nhỏ dần dần mà không tự nhận ra.',
-        sentence: 'The person ___ small errors over time.',
-        options: ['unwittingly committed', 'deliberately concealed', 'publicly confessed', 'systematically corrected'], answer: 0,
-        rationales: [
-          'unwittingly committed: phạm mà không biết; giữ cả hành động sai và thiếu tự nhận thức.',
-          'deliberately concealed: cố ý giấu; đòi hỏi biết lỗi mà nguồn phủ định.',
-          'publicly confessed: công khai nhận lỗi; thêm việc biết và nói ra.',
-          'systematically corrected: có hệ thống sửa sai; đảo hành động phạm lỗi thành khắc phục.'
-        ], dimension: 'unaware wrongdoing versus concealment, confession, and correction'
-      },
-      {
-        sourceCue: 'phải gánh trách nhiệm nhiều hơn với cuộc đời', targetVietnamese: 'Người có tài sản và quyền lực phải gánh trách nhiệm lớn hơn với đời.',
-        sentence: 'Such a person must ___ greater responsibility toward the world.',
-        options: ['shoulder', 'delegate', 'disclaim', 'publicize'], answer: 0,
-        rationales: [
-          'shoulder: đứng ra gánh vác; giữ nghĩa vụ chính người có phước phải làm.',
-          'delegate: giao người khác; chuyển người chịu gánh nặng.',
-          'disclaim: phủ nhận rằng trách nhiệm thuộc về mình; trái nghĩa vụ gánh vác trong nguồn.',
-          'publicize: làm cho người ta biết; nói về việc truyền tin chứ chưa thực hiện trách nhiệm.'
-        ], dimension: 'assumption of a burden versus delegation, denial, and publicity'
-      },
-      {
-        sourceCue: 'phải sử dụng phước báo của mình cho đúng', targetVietnamese: 'Phước báo cần được sử dụng đúng, chứ không được coi như giấy phép muốn làm gì cũng được.',
-        sentence: 'A person with blessings must ___.',
-        options: ['put those blessings to proper use', 'take those blessings as a license for self-indulgence', 'claim immunity on the strength of those blessings', 'merely advertise the possession of those blessings'], answer: 0,
-        rationales: [
-          'put those blessings to proper use: đem dùng cho đúng; giữ yêu cầu hành xử với điều đang có.',
-          'take those blessings as a license for self-indulgence: coi là giấy phép hưởng cho mình; trái hướng trách nhiệm với đời.',
-          'claim immunity on the strength of those blessings: đòi miễn hệ quả nhờ phước; thêm đặc quyền mà nguồn cảnh báo không có.',
-          'merely advertise the possession of those blessings: chỉ khoe mình có; thay sử dụng đúng bằng việc tạo tiếng.'
-        ], dimension: 'responsible use versus license, immunity, and display'
-      },
-      {
-        sourceCue: 'cũng phải dành thời gian để tu tập', targetVietnamese: 'Ngay khi bận gánh việc đời, người ấy vẫn cần dành ra thời gian tu tập.',
-        sentence: 'While carrying worldly responsibilities, the person must still ___ time for practice.',
-        options: ['carve out', 'wait indefinitely for', 'delegate the allocation of', 'claim credit for having found'], answer: 0,
-        rationales: [
-          'carve out: chủ động dành được một khoảng giữa nhiều việc; giữ cả sự bận rộn và nỗ lực sắp thời gian.',
-          'wait indefinitely for: đợi vô hạn; không giữ yêu cầu chủ động dành thời gian.',
-          'delegate the allocation of: giao việc xếp lịch cho người khác; thêm chủ thể giải quyết thay.',
-          'claim credit for having found: nhận công vì đã tìm được; thêm lời tự khen thay cho công việc cần làm.'
-        ], dimension: 'active allocation versus waiting, delegation, and retrospective credit'
-      },
-      {
-        sourceCue: 'rơi vào cảnh hết phước', targetVietnamese: 'Ỷ có phước mà không gánh trách nhiệm có thể dẫn đến cạn phước.',
-        sentence: 'Shirking responsibility while relying on past blessings can ___.',
-        options: ['exhaust those blessings', 'merely defer their use', 'secure them permanently', 'transfer them to one’s dependents'], answer: 0,
-        rationales: [
-          'exhaust those blessings: làm cạn; giữ cảnh báo hết phước.',
-          'merely defer their use: chỉ trì hoãn dùng; làm nhẹ sự cạn kiệt thành bảo lưu.',
-          'secure them permanently: bảo đảm có mãi; trái tính có thể mất trong nguồn.',
-          'transfer them to one’s dependents: chuyển cho người phụ thuộc; thêm một cơ chế chuyển nhượng không được nêu.'
-        ], dimension: 'exhaustion versus deferral, preservation, and transfer'
-      }
-    ]
-  },
-  {
-    id: 'M073', sourceBlockId: 'W01-B05', title: 'Thiền không tách khỏi cách sống',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Thiền không thể tách rời khỏi một tổng thể của con người', targetVietnamese: 'Không thể tách việc thiền khỏi toàn bộ đời sống của người thực hành.',
-        sentence: 'Meditation cannot be ___ the practitioner’s life as a whole.',
-        options: ['divorced from', 'equated with', 'deduced from', 'substituted for'], answer: 0,
-        rationales: [
-          'divorced from: tách rời khỏi; giữ sự gắn kết không thể bỏ giữa thiền và đời sống.',
-          'equated with: đồng nhất với; gắn bó không có nghĩa hai khái niệm là một.',
-          'deduced from: suy ra từ; đổi quan hệ thực hành sang suy luận.',
-          'substituted for: dùng thay cho; nguồn không nói thiền đứng chỗ của cả đời sống.'
-        ], dimension: 'inseparability versus identity, inference, and substitution'
-      },
-      {
-        sourceCue: 'làm được nhiều việc phước', targetVietnamese: 'Thiền giả cần thật sự làm nhiều việc phước, không chỉ hứa hay tán dương việc làm ấy.',
-        sentence: 'Practitioners need to ___ good deeds as part of their lives.',
-        options: ['perform', 'pledge', 'commend', 'delegate'], answer: 0,
-        rationales: [
-          'perform: thực hiện; giữ yêu cầu người tu có việc làm cụ thể.',
-          'pledge: cam kết sẽ làm; chưa phải việc đã thực hiện.',
-          'commend: khen việc tốt; chuyển từ làm sang đánh giá.',
-          'delegate: giao người khác làm; chuyển chủ thể chịu công sức.'
-        ], dimension: 'enactment versus pledge, praise, and delegation'
-      },
-      {
-        sourceCue: 'hiểu kỹ về Giáo lý', targetVietnamese: 'Người tu cần hiểu kỹ giáo lý, không chỉ thuộc lòng câu chữ.',
-        sentence: 'They must ___.',
-        options: ['understand the teachings thoroughly', 'memorize the wording without grasping it', 'endorse a doctrine without examining it', 'invoke a teacher’s authority instead of understanding'], answer: 0,
-        rationales: [
-          'understand the teachings thoroughly: nắm kỹ ý nghĩa; giữ năng lực hiểu mà nguồn đòi hỏi.',
-          'memorize the wording without grasping it: chỉ học thuộc; thiếu chính điều kiện hiểu.',
-          'endorse a doctrine without examining it: tán thành không tìm hiểu; nhầm sự đồng ý với hiểu biết.',
-          'invoke a teacher’s authority instead of understanding: viện uy tín thay cho hiểu; chuyển căn cứ nhận thức.'
-        ], dimension: 'comprehension versus memorization, endorsement, and appeal to authority'
-      },
-      {
-        sourceCue: 'nắm được phương pháp nhiếp tâm trong khi ngồi thiền', targetVietnamese: 'Trong lúc ngồi thiền, người tu cần biết phương pháp đưa tâm về sự thanh tịnh, yên lắng.',
-        sentence: 'During sitting meditation, practitioners need to know how to ___.',
-        options: ['bring the mind into purity and stillness', 'render themselves unaware of all experience', 'simulate tranquility for observers', 'certify that realization has already occurred'], answer: 0,
-        rationales: [
-          'bring the mind into purity and stillness: đưa tâm về thanh tịnh, yên lắng; giữ mục đích của nhiếp tâm.',
-          'render themselves unaware of all experience: làm mất mọi nhận biết; nguồn không đồng nhất yên lắng với vô tri.',
-          'simulate tranquility for observers: giả vẻ yên trước người khác; đổi thực hành bên trong thành trình diễn.',
-          'certify that realization has already occurred: xác nhận đã tu chứng; vượt bước biết phương pháp đang nói.'
-        ], dimension: 'settling the mind versus loss of awareness, display, and certification'
-      },
-      {
-        sourceCue: 'Thiếu một trong những điều trên đây, Thiền không thể thành tựu', targetVietnamese: 'Thiếu bất kỳ điều kiện nào trong các điều đã nêu thì thiền không thể thành tựu.',
-        sentence: 'The absence of any one of these conditions ___ success in meditation.',
-        options: ['precludes', 'merely complicates', 'merely postpones', 'automatically hastens'], answer: 0,
-        rationales: [
-          'precludes: khiến không thể xảy ra trong điều kiện ấy; giữ lực “không thể”.',
-          'merely complicates: chỉ làm khó; làm nhẹ điều kiện cần thành trở ngại có thể vượt qua khi vẫn thiếu.',
-          'merely postpones: chỉ làm chậm; thêm bảo đảm rốt cuộc sẽ thành tựu dù điều kiện vẫn thiếu.',
-          'automatically hastens: tự làm nhanh hơn; đảo hướng hậu quả của việc thiếu điều kiện.'
-        ], dimension: 'necessary condition versus difficulty, delay, and acceleration'
-      }
-    ]
-  },
-  {
-    id: 'M074', sourceBlockId: 'W01-B06', title: 'Tiết kiệm, giữ của và sự rộng rãi',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'Tiết kiệm cũng khác với hà tiện', targetVietnamese: 'Tiết kiệm cần được phân biệt với hà tiện, không được coi hai điều là một.',
-        sentence: 'Thrift should not be ___ stinginess.',
-        options: ['conflated with', 'traced back to', 'compensated for by', 'measured against'], answer: 0,
-        rationales: [
-          'conflated with: gộp lẫn thành một; giữ điều cần phân biệt.',
-          'traced back to: truy về nguồn gốc; khác biệt khái niệm chưa tự là phủ định quan hệ nguồn gốc.',
-          'compensated for by: được bù bằng; không phải quan hệ phân biệt được câu nêu.',
-          'measured against: đem so làm chuẩn; so sánh vẫn có thể giữ khác biệt, chưa phải nhầm lẫn.'
-        ], dimension: 'conceptual distinction versus origin, compensation, and comparison'
-      },
-      {
-        sourceCue: 'Đồ đạc giấu mãi sợ xài rồi mau cũ', targetVietnamese: 'Người hà tiện cứ giấu đồ còn dùng được vì sợ dùng sẽ cũ.',
-        sentence: 'The stingy person ___.',
-        options: ['hoards useful possessions for fear of wear', 'reserves supplies for a foreseeable emergency', 'stores damaged belongings until they can be repaired', 'collects delicate objects for public display'], answer: 0,
-        rationales: [
-          'hoards useful possessions for fear of wear: giữ của không chịu dùng vì sợ cũ; đúng động cơ nguồn kể.',
-          'reserves supplies for a foreseeable emergency: dự trữ có mục đích; thêm một nhu cầu hợp lý chưa được nêu.',
-          'stores damaged belongings until they can be repaired: chờ sửa đồ hỏng; đổi tình trạng và lý do không dùng.',
-          'collects delicate objects for public display: sưu tầm để trưng bày; thêm mục đích khác với giấu mãi.'
-        ], dimension: 'hoarding versus prudent reserve, repair, and collection'
-      },
-      {
-        sourceCue: 'Tiền không chịu đưa dù biết đến lúc phải mua', targetVietnamese: 'Dù biết việc mua đã cần thiết, người ấy vẫn không chịu đưa tiền ra.',
-        sentence: 'Even after recognizing that the purchase is necessary, the person ___.',
-        options: ['withholds the money', 'disburses the money', 'recovers money already spent', 'negotiates a refund'], answer: 0,
-        rationales: [
-          'withholds the money: giữ lại, không chịu chi; giữ nghịch lý biết cần mà vẫn không đưa.',
-          'disburses the money: chi ra; đảo hành động không chịu trả.',
-          'recovers money already spent: lấy lại tiền đã chi; thêm giao dịch trước đó.',
-          'negotiates a refund: thương lượng hoàn tiền; thêm việc mua đã xảy ra và yêu cầu hoàn lại.'
-        ], dimension: 'withholding versus payment, recovery, and refund negotiation'
-      },
-      {
-        sourceCue: 'Đi dự tiệc không đem quà vì sợ tốn dù biết có thể mất đi tình nghĩa', targetVietnamese: 'Người ấy bỏ quà dự tiệc chỉ vì sợ tốn, dù biết có thể tổn hại tình nghĩa.',
-        sentence: 'The person ___, despite the possible cost to the relationship.',
-        options: ['forgoes a gift to avoid spending', 'cannot afford a gift because of poverty', 'refuses a gift as a protest', 'defers a gift because of illness'], answer: 0,
-        rationales: [
-          'forgoes a gift to avoid spending: bỏ việc tặng để khỏi tốn; giữ động cơ tính toán chi phí.',
-          'cannot afford a gift because of poverty: không có khả năng; thay không chịu chi bằng bất lực do nghèo.',
-          'refuses a gift as a protest: từ chối để phản đối; thêm bất đồng với chủ tiệc.',
-          'defers a gift because of illness: hoãn do bệnh; thêm nguyên nhân không có trong nguồn.'
-        ], dimension: 'avoidance of expense versus inability, protest, and postponement'
-      },
-      {
-        sourceCue: 'Rất thích giúp đỡ người, nhưng cũng rất tiết kiệm', targetVietnamese: 'Người có trí tuệ vừa tiết kiệm vừa rộng rãi giúp người, không loại bỏ một phía.',
-        sentence: 'A wise person seeks to ___.',
-        options: ['reconcile thrift with generosity', 'replace thrift with unrestricted spending', 'pit thrift against generosity', 'disguise stinginess as generosity'], answer: 0,
-        rationales: [
-          'reconcile thrift with generosity: làm cho hai phẩm chất đi cùng; giữ cả tiết kiệm lẫn giúp người.',
-          'replace thrift with unrestricted spending: bỏ tiết kiệm để chi không giới hạn; trái sự tránh phung phí.',
-          'pit thrift against generosity: đặt hai điều đối đầu; trái cách vừa giữ điều này vừa thực hiện điều kia.',
-          'disguise stinginess as generosity: lấy rộng rãi làm vỏ; thêm sự giả tạo thay cho phẩm chất thật.'
-        ], dimension: 'integration versus replacement, opposition, and disguise'
-      }
-    ]
-  },
-  {
-    id: 'M075', sourceBlockId: 'W01-B07', title: 'Công lý và những mức độ công bằng',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'đạo Phật gọi là Luật Nhân Quả Nghiệp Báo', targetVietnamese: 'Đoạn gọi sự công bằng ấy trong đạo Phật là Luật Nhân Quả Nghiệp Báo.',
-        sentence: 'Within Buddhism, this fairness is ___ the law of karma.',
-        options: ['referred to as', 'enforced through', 'justified by', 'inferred from'], answer: 0,
-        rationales: [
-          'referred to as: được gọi là; giữ chức năng nêu tên.',
-          'enforced through: được cưỡng hành bằng; thêm cơ chế thực thi thay vì tên gọi.',
-          'justified by: được biện minh nhờ; đổi định danh thành lý lẽ bảo vệ.',
-          'inferred from: được suy ra từ; đổi công thức gọi tên thành suy luận.'
-        ], dimension: 'naming versus enforcement, justification, and inference'
-      },
-      {
-        sourceCue: 'có thể bị tác động bởi lợi ích riêng tư', targetVietnamese: 'Lợi ích riêng có thể làm lệch công lý do con người lập ra.',
-        sentence: 'Private interests can ___ human justice.',
-        options: ['compromise', 'codify', 'administer', 'constitute'], answer: 0,
-        rationales: [
-          'compromise: làm tổn hại tính ngay thẳng; giữ nguyên nhân công lý chưa tuyệt đối.',
-          'codify: hệ thống thành quy tắc; không giữ tác động làm lệch do tư lợi.',
-          'administer: thực thi; nói vận hành công lý, không phải làm nó sai lệch.',
-          'constitute: cấu thành; biến tư lợi thành bản chất hoặc thành phần của công lý.'
-        ], dimension: 'corrupting influence versus codification, administration, and constitution'
-      },
-      {
-        sourceCue: 'Thiên lý của cõi trời thì gần như tuyệt đối', targetVietnamese: 'Theo đoạn, thiên lý tiến gần mức công bằng tuyệt đối nhưng chưa được gọi là hoàn toàn tuyệt đối.',
-        sentence: 'In this account, heavenly justice ___ absolute impartiality.',
-        options: ['approaches', 'guarantees', 'merely simulates', 'presupposes'], answer: 0,
-        rationales: [
-          'approaches: tiến gần đến; giữ hạn định “gần như”.',
-          'guarantees: bảo đảm đạt; biến gần tuyệt đối thành chắc chắn tuyệt đối.',
-          'merely simulates: chỉ giả như có; thêm tính giả tạo trái với sự công tâm được công nhận.',
-          'presupposes: lấy làm điều kiện giả định; đổi mức độ đạt tới thành tiền đề phải có.'
-        ], dimension: 'approximation versus guarantee, imitation, and presupposition'
-      },
-      {
-        sourceCue: 'chư thiên vẫn còn tình cảm', targetVietnamese: 'Các vị trời vẫn còn tình cảm; không phải chỉ nhớ những cảm xúc đã đoạn hết.',
-        sentence: 'The deities ___.',
-        options: ['still experience feelings', 'merely recall feelings they have entirely transcended', 'conceal only other beings’ feelings', 'redefine justice in purely emotional terms'], answer: 0,
-        rationales: [
-          'still experience feelings: vẫn có cảm xúc; giữ trạng thái hiện còn.',
-          'merely recall feelings they have entirely transcended: chỉ nhớ cái đã vượt hết; biến cảm xúc đang có thành ký ức.',
-          'conceal only other beings’ feelings: giấu cảm xúc của người khác; đổi chủ thể có tình cảm.',
-          'redefine justice in purely emotional terms: định nghĩa lại công lý bằng cảm xúc; thêm hành vi và sự tuyệt đối hóa.'
-        ], dimension: 'present experience versus memory, concealment, and redefinition'
-      },
-      {
-        sourceCue: 'phải tìm hiểu luật Nhân Quả công bằng này càng thấu đáo càng tốt', targetVietnamese: 'Muốn tu dưỡng đạo đức, cần tìm hiểu luật nhân quả càng thấu đáo càng tốt.',
-        sentence: 'Those cultivating morality must ___.',
-        options: ['seek a thorough understanding of the law of karma', 'merely profess allegiance to the law of karma', 'formally enact the law of karma', 'claim privileged access to the law of karma'], answer: 0,
-        rationales: [
-          'seek a thorough understanding of the law of karma: chủ động tìm hiểu kỹ; giữ công việc nhận thức.',
-          'merely profess allegiance to the law of karma: chỉ tuyên bố tin theo; không đủ điều tìm hiểu.',
-          'formally enact the law of karma: ban hành luật; nhầm nguyên lý đang tìm hiểu với luật người làm ra.',
-          'claim privileged access to the law of karma: tự nhận có quyền biết riêng; thêm đặc quyền mà đoạn không trao.'
-        ], dimension: 'understanding versus profession, legislation, and privileged claim'
-      }
-    ]
-  },
-  {
-    id: 'M076', sourceBlockId: 'W01-B08', title: 'Quan tâm để nhận ra và trợ giúp',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'thậm chí còn hơn lo cho bản thân mình', targetVietnamese: 'Người vị tha quan tâm đến người khác, thậm chí đặt họ trước mình.',
-        sentence: 'An altruistic disposition can lead us to ___.',
-        options: ['put others’ needs before our own', 'solicit gratitude before offering help', 'reserve concern only for our own group', 'demand that others put us first'], answer: 0,
-        rationales: [
-          'put others’ needs before our own: đặt nhu cầu người khác lên trước; giữ hướng ưu tiên vị tha.',
-          'solicit gratitude before offering help: đòi biết ơn rồi mới giúp; thêm điều kiện có lợi cho mình.',
-          'reserve concern only for our own group: chỉ lo nhóm mình; thu hẹp “những người khác” thành một nhóm độc quyền.',
-          'demand that others put us first: đòi được ưu tiên; đảo người được hưởng lợi.'
-        ], dimension: 'priority and beneficiary'
-      },
-      {
-        sourceCue: 'nhanh chóng phát hiện ra nỗi khổ, niềm đau', targetVietnamese: 'Vì thường để tâm đến người khác, ta nhanh chóng nhận ra nỗi khổ họ đang có.',
-        sentence: 'Such attentiveness helps us ___ another person’s distress promptly.',
-        options: ['notice', 'anticipate', 'discount', 'reinterpret'], answer: 0,
-        rationales: [
-          'notice: nhận ra điều đang hiện diện; giữ nét phát hiện kịp thời.',
-          'anticipate: dự liệu điều chưa xảy ra; chuyển thời điểm của nỗi khổ.',
-          'discount: xem nhẹ hoặc bỏ qua giá trị; trái hướng quan tâm.',
-          'reinterpret: hiểu lại theo cách khác; giả định đã có một cách hiểu trước đó.'
-        ], dimension: 'present detection versus anticipation, discounting, and reinterpretation'
-      },
-      {
-        sourceCue: 'để tìm cách giúp đỡ', targetVietnamese: 'Nhận ra nỗi khổ rồi, ta chủ động tìm cách giúp, không chỉ chờ người ấy lên tiếng xin.',
-        sentence: 'On noticing hardship, we ___.',
-        options: ['look for ways to help', 'wait for a request before considering help', 'announce help without considering how to provide it', 'seek credit before deciding whether to help'], answer: 0,
-        rationales: [
-          'look for ways to help: tìm phương cách; giữ bước chuyển từ thấy khổ sang hành động trợ giúp.',
-          'wait for a request before considering help: chờ được xin; thêm điều kiện chưa được đoạn đặt ra.',
-          'announce help without considering how to provide it: chỉ nói sẽ giúp; bỏ bước tìm cách thực hiện.',
-          'seek credit before deciding whether to help: đòi công trước; thêm động cơ tự lợi.'
-        ], dimension: 'practical initiative versus waiting, announcement, and credit-seeking'
-      },
-      {
-        sourceCue: 'một lời nói, một ly nước, một viên thuốc, hoặc có khi cả một số tiền lớn', targetVietnamese: 'Sự giúp đỡ có thể nhỏ như một lời nói, cũng có thể lớn như một khoản tiền.',
-        sentence: 'The help described ___.',
-        options: ['ranges from a few words to substantial financial aid', 'consists solely of financial donations', 'always requires professional medical intervention', 'dispenses with practical assistance in favor of speeches'], answer: 0,
-        rationales: [
-          'ranges from a few words to substantial financial aid: trải từ nhỏ tới lớn; giữ sự đa dạng quy mô.',
-          'consists solely of financial donations: chỉ có cho tiền; bỏ các dạng hỗ trợ khác.',
-          'always requires professional medical intervention: luôn cần chuyên môn y tế; thêm điều kiện ngoài các ví dụ.',
-          'dispenses with practical assistance in favor of speeches: bỏ giúp thực tế để chỉ nói; trái các ví dụ hành động cụ thể.'
-        ], dimension: 'range versus exclusive or substituted forms of aid'
-      },
-      {
-        sourceCue: 'giúp người qua lúc khó khăn', targetVietnamese: 'Mục đích trước mắt là giúp người ấy qua được giai đoạn khó khăn.',
-        sentence: 'The immediate aim is to ___.',
-        options: ['tide the person over a difficult period', 'take over every decision in the person’s life', 'make the person account for the hardship', 'promise that no difficulty will ever return'], answer: 0,
-        rationales: [
-          'tide the person over a difficult period: giúp cầm cự vượt qua quãng khó; giữ giới hạn của sự trợ giúp.',
-          'take over every decision in the person’s life: quyết mọi việc thay họ; nâng giúp đỡ thành kiểm soát.',
-          'make the person account for the hardship: buộc giải trình lý do khổ; đổi mục đích sang truy trách nhiệm.',
-          'promise that no difficulty will ever return: bảo đảm vĩnh viễn hết khó; thêm lời hứa tuyệt đối.'
-        ], dimension: 'temporary support versus control, accountability, and permanent guarantee'
-      }
-    ]
-  },
-  {
-    id: 'M077', sourceBlockId: 'W01-B09', title: 'Cách tái sinh được trình bày trong nguồn',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'chui vào bụng mẹ làm lại từ đầu với hình thức một phôi thai', targetVietnamese: 'Theo đoạn, ở cõi người và cõi thú, chúng sinh bắt đầu lại trong bụng mẹ dưới dạng phôi thai.',
-        sentence: 'For human and animal rebirth, the account describes beings ___.',
-        options: ['starting again in the womb as embryos', 'appearing immediately as fully grown beings', 'remaining in their former bodies', 'merely recalling an embryonic existence'], answer: 0,
-        rationales: [
-          'starting again in the womb as embryos: bắt đầu từ phôi trong bụng mẹ; giữ quá trình và dạng sống.',
-          'appearing immediately as fully grown beings: hiện ra trưởng thành tức khắc; thay cách sinh đang nêu bằng cách khác.',
-          'remaining in their former bodies: giữ nguyên thân cũ; phủ nhận bước bắt đầu lại.',
-          'merely recalling an embryonic existence: chỉ nhớ một đời phôi; đổi sự tái sinh thành ký ức.'
-        ], dimension: 'rebirth process versus immediate appearance, continuity of body, and memory'
-      },
-      {
-        sourceCue: 'sau khi chết linh hồn tự biến dạng chuyển đến', targetVietnamese: 'Ở bốn cõi kia, nguồn mô tả linh hồn tự biến dạng và chuyển đến sau khi chết.',
-        sentence: 'In the other four realms, the spirit is described as ___.',
-        options: ['transforming and passing into a new existence after death', 'being surgically altered before death', 'retaining its previous bodily form indefinitely', 'symbolizing a change of attitude within one lifetime'], answer: 0,
-        rationales: [
-          'transforming and passing into a new existence after death: biến dạng rồi chuyển đời sau chết; giữ thời điểm và sự chuyển sinh.',
-          'being surgically altered before death: bị phẫu thuật trước chết; thêm tác nhân, thủ thuật và đảo thời điểm.',
-          'retaining its previous bodily form indefinitely: giữ thân cũ mãi; trái việc tự biến dạng.',
-          'symbolizing a change of attitude within one lifetime: chỉ tượng trưng chuyển tâm lý; đổi nghĩa tái sinh thực trong lời tác giả.'
-        ], dimension: 'transformation, agency, and temporal scope'
-      },
-      {
-        sourceCue: 'nên gọi là Hóa sinh (biến đổi thành đời sống mới)', targetVietnamese: 'Tên Hóa sinh trong đoạn chỉ sự biến đổi thành đời sống mới, không phải việc được người khác ban đời sống ấy.',
-        sentence: 'The term is used here to ___ a transformation into a new life.',
-        options: ['denote', 'authorize', 'prescribe', 'reward'], answer: 0,
-        rationales: [
-          'denote: biểu thị, chỉ; giữ việc giải thích tên gọi.',
-          'authorize: cấp phép; biến từ gọi tên thành hành vi cho quyền.',
-          'prescribe: quy định phải làm; biến mô tả thành mệnh lệnh.',
-          'reward: ban thưởng; thêm người trao và giá trị thưởng chưa được nêu.'
-        ], dimension: 'designation versus authorization, prescription, and reward'
-      },
-      {
-        sourceCue: 'đã sống rất tử tế với mọi người, cộng với một nội tâm đạo đức thánh thiện', targetVietnamese: 'Người được đoạn nói tới vừa sống tử tế với người khác vừa có nội tâm đạo đức.',
-        sentence: 'The beings described ___.',
-        options: ['combine kindness to others with inner moral purity', 'substitute public generosity for inner virtue', 'claim purity without treating others well', 'display kindness only to gain a reputation'], answer: 0,
-        rationales: [
-          'combine kindness to others with inner moral purity: có cả hai; giữ quan hệ “cộng với”.',
-          'substitute public generosity for inner virtue: lấy một mặt thay mặt kia; bỏ điều kiện kết hợp.',
-          'claim purity without treating others well: chỉ tự nhận thanh cao nhưng thiếu việc tốt; trái phần sống tử tế.',
-          'display kindness only to gain a reputation: làm để lấy tiếng; thêm động cơ không được nguồn xác lập.'
-        ], dimension: 'combined qualities versus substitution, profession, and display'
-      },
-      {
-        sourceCue: 'muốn gì được nấy', targetVietnamese: 'Theo mô tả cõi trời trong đoạn, các thiên tử được thỏa những điều mình muốn.',
-        sentence: 'The description presents celestial beings as ___.',
-        options: ['having their wishes fulfilled', 'merely anticipating the fulfillment of their wishes', 'renouncing all wishes before entering that realm', 'granting every wish of beings in other realms'], answer: 0,
-        rationales: [
-          'having their wishes fulfilled: điều muốn được đáp ứng; giữ người hưởng và tính hiện thực.',
-          'merely anticipating the fulfillment of their wishes: mới mong; hạ kết quả có thật trong lời kể thành kỳ vọng.',
-          'renouncing all wishes before entering that realm: bỏ hết mong muốn; thêm điều kiện không có trong đoạn.',
-          'granting every wish of beings in other realms: ban điều ước cho cõi khác; đảo người hưởng thành người ban.'
-        ], dimension: 'fulfilled desire versus anticipation, renunciation, and conferral'
-      }
-    ]
-  },
-  {
-    id: 'M078', sourceBlockId: 'W01-B10', title: 'Chánh Kiến: định hướng, kiềm chế và thẩm định',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'tự kềm chế kiểm soát chính mình trong từng ý nghĩ hay hành vi', targetVietnamese: 'Hiểu sâu nhân quả giúp ta tự kiềm chế ở từng ý nghĩ và hành vi, không phải chỉ che giấu chúng.',
-        sentence: 'A deep understanding of karma helps us ___.',
-        options: ['exercise restraint over our thoughts and actions', 'conceal our thoughts while leaving our conduct unchanged', 'rationalize every impulse as inevitable', 'claim that restraint is unnecessary'], answer: 0,
-        rationales: [
-          'exercise restraint over our thoughts and actions: thực sự tự kiềm chế cả hai; giữ phạm vi nguồn nêu.',
-          'conceal our thoughts while leaving our conduct unchanged: chỉ giấu ý nghĩ; đổi tự sửa thành che đậy.',
-          'rationalize every impulse as inevitable: biện minh mọi xung động; trái mục đích tự kiểm soát.',
-          'claim that restraint is unnecessary: tự nhận không cần kiềm chế; đảo hệ quả của sự hiểu biết.'
-        ], dimension: 'restraint versus concealment, rationalization, and exemption'
-      },
-      {
-        sourceCue: 'định hướng giải thoát rõ ràng', targetVietnamese: 'Chánh Kiến định hướng việc tu đến giải thoát, không tự bảo đảm mọi thành tựu.',
-        sentence: 'Right View ___ practice toward liberation.',
-        options: ['orients', 'automatically completes', 'permanently suspends', 'replaces'], answer: 0,
-        rationales: [
-          'orients: đặt phương hướng; giữ chức năng tấm bản đồ.',
-          'automatically completes: tự hoàn tất; biến định hướng thành bảo đảm thành công không cần công phu.',
-          'permanently suspends: ngừng hẳn; trái chức năng giúp đi đúng đường.',
-          'replaces: đứng thay việc thực hành; nguồn không cho phép bản đồ thay sự đi.'
-        ], dimension: 'orientation versus completion, suspension, and substitution'
-      },
-      {
-        sourceCue: 'không bị tăng trưởng bản ngã khi có những dấu hiệu tu tiến', targetVietnamese: 'Chánh Kiến giúp không vì thấy mình có tiến bộ mà nuôi lớn bản ngã.',
-        sentence: 'It helps practitioners ___.',
-        options: ['guard against self-inflation when signs of progress appear', 'advertise every sign of progress as proof of superiority', 'use progress to claim immunity from moral scrutiny', 'dismiss all progress as worthless'], answer: 0,
-        rationales: [
-          'guard against self-inflation when signs of progress appear: đề phòng ngã lớn khi tu tiến; giữ điều cần tránh.',
-          'advertise every sign of progress as proof of superiority: khoe tiến bộ để tự cao; đúng nguy cơ nguồn muốn ngăn.',
-          'use progress to claim immunity from moral scrutiny: lấy tiến bộ làm quyền miễn xét; thêm đặc quyền không có.',
-          'dismiss all progress as worthless: cho mọi tiến bộ vô ích; chống tự cao không có nghĩa phủ nhận tu tiến.'
-        ], dimension: 'preventing conceit versus boasting, immunity, and dismissal'
-      },
-      {
-        sourceCue: 'Nếu bản đồ sai (tà kiến) thì ta không thể đi đến đích giác ngộ dù có gắng công tu tập', targetVietnamese: 'Bản đồ sai hướng thì tăng công sức không tự đưa ta đến đích giác ngộ.',
-        sentence: 'A wrong map ___ even sustained effort.',
-        options: ['misdirects', 'vindicates', 'rewards', 'merely measures'], answer: 0,
-        rationales: [
-          'misdirects: dẫn sai hướng; giữ lý do cố công mà không tới đích.',
-          'vindicates: chứng minh công sức là đúng; trái hậu quả sai đường.',
-          'rewards: tưởng thưởng; thêm bảo đảm công sức được thành quả.',
-          'merely measures: chỉ đo; bỏ chức năng chỉ đường và làm lệch hướng của bản đồ sai.'
-        ], dimension: 'misguidance versus vindication, reward, and measurement'
-      },
-      {
-        sourceCue: 'trải qua nhiều ngàn năm, thật sự đã có sự pha tạp thêm thắt', targetVietnamese: 'Đoạn cảnh báo qua nhiều ngàn năm, giáo lý đã có những pha tạp và thêm thắt.',
-        sentence: 'Over the centuries, the body of teachings has ___.',
-        options: ['acquired later additions and admixtures', 'remained entirely unaltered', 'purged itself of every later addition', 'become inaccessible to all learners'], answer: 0,
-        rationales: [
-          'acquired later additions and admixtures: đã mang thêm phần bổ sung pha tạp; giữ cảnh báo lịch sử theo nguồn.',
-          'remained entirely unaltered: hoàn toàn nguyên trạng; trái việc đã có thêm thắt.',
-          'purged itself of every later addition: tự gạn hết phần thêm; đảo chiều diễn tiến.',
-          'become inaccessible to all learners: mọi người đều không thể học; tuyệt đối hóa khó khăn thành bất khả tiếp cận.'
-        ], dimension: 'accretion versus preservation, purification, and inaccessibility'
-      }
-    ]
-  },
-  {
-    id: 'M079', sourceBlockId: 'W01-B11', title: 'Khiêm hạ không phải phủ nhận giá trị của người',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'luôn thúc đẩy ta phải tôn trọng mọi người', targetVietnamese: 'Tâm khiêm hạ thúc đẩy sự tôn trọng người khác.',
-        sentence: 'Humility ___ regard for other people.',
-        options: ['fosters', 'merely advertises', 'bargains for', 'takes credit for'], answer: 0,
-        rationales: [
-          'fosters: nuôi lớn, thúc đẩy; giữ tâm khiêm hạ như lực đưa tới sự tôn trọng.',
-          'merely advertises: chỉ tạo vẻ cho người khác thấy; nguồn nói tác động thật, không phải quảng bá.',
-          'bargains for: mặc cả để nhận về; thêm quan hệ đổi chác vào thái độ tôn trọng.',
-          'takes credit for: nhận công; đổi quan hệ tạo phẩm chất thành tự kể công.'
-        ], dimension: 'cultivation versus display, bargaining, and credit'
-      },
-      {
-        sourceCue: 'cần được xem là có giá trị', targetVietnamese: 'Ai cũng cần được nhìn nhận là một người có giá trị, không chỉ bị đánh giá bằng hiệu suất.',
-        sentence: 'People need others to ___.',
-        options: ['acknowledge their worth', 'appraise their productivity alone', 'assign them a competitive rank', 'price their labor without regard to the person'], answer: 0,
-        rationales: [
-          'acknowledge their worth: công nhận giá trị con người; giữ nghĩa nhu cầu được tôn trọng.',
-          'appraise their productivity alone: chỉ đo năng suất; thu hẹp giá trị người thành hiệu quả lao động.',
-          'assign them a competitive rank: xếp hạng hơn thua; thêm so sánh cạnh tranh.',
-          'price their labor without regard to the person: chỉ định giá công; làm mất đối tượng là con người.'
-        ], dimension: 'recognition of worth versus instrumental valuation and ranking'
-      },
-      {
-        sourceCue: 'tôn trọng chân thành người khác cũng là đem an vui đến cho người', targetVietnamese: 'Tôn trọng chân thành đem lại an vui cho người nhận, không nhằm lấy sự phục tùng.',
-        sentence: 'Genuine respect can ___.',
-        options: ['bring others a sense of ease and happiness', 'secure others’ unquestioning obedience', 'flatter others into admiring us', 'win public endorsement for our ambitions'], answer: 0,
-        rationales: [
-          'bring others a sense of ease and happiness: đem an vui đến người khác; giữ người hưởng lợi.',
-          'secure others’ unquestioning obedience: lấy được phục tùng; đổi an vui thành quyền lực.',
-          'flatter others into admiring us: nịnh để được ngưỡng mộ; đổi chân thành thành thao túng.',
-          'win public endorsement for our ambitions: tìm sự ủng hộ tham vọng; thêm mục tiêu tự lợi.'
-        ], dimension: 'beneficial effect versus compliance and manipulation'
-      },
-      {
-        sourceCue: 'đừng thấy mình hơn người', targetVietnamese: 'Muốn tôn trọng người khác, đừng tự đặt mình cao hơn họ.',
-        sentence: 'To respect others, we must not ___.',
-        options: ['rank ourselves above them', 'recognize differences between people', 'learn from their experience', 'take their concerns seriously'], answer: 0,
-        rationales: [
-          'rank ourselves above them: tự xếp mình cao hơn; đúng thái độ cần bỏ.',
-          'recognize differences between people: nhận khác biệt; khiêm hạ không đồng nghĩa xóa mọi khác biệt.',
-          'learn from their experience: học kinh nghiệm; nguồn không cấm việc này.',
-          'take their concerns seriously: coi trọng điều họ quan tâm; đó không phải tự cao.'
-        ], dimension: 'superiority versus differentiation, learning, and serious regard'
-      },
-      {
-        sourceCue: 'thấy được mình nhỏ bé kém cỏi', targetVietnamese: 'Ta cần nhận ra giới hạn của mình; không phải giả vờ bất tài để thoái trách nhiệm.',
-        sentence: 'Humility here calls for us to ___.',
-        options: ['recognize our own limitations', 'profess incompetence to escape responsibility', 'deny the worth of every personal effort', 'claim responsibility for everyone else’s failings'], answer: 0,
-        rationales: [
-          'recognize our own limitations: biết phần nhỏ bé, kém của mình; giữ sự tự nhận thức.',
-          'profess incompetence to escape responsibility: tự nhận bất tài nhằm né việc; thêm động cơ trốn tránh.',
-          'deny the worth of every personal effort: phủ nhận mọi cố gắng; đẩy khiêm hạ thành phủ định cực đoan.',
-          'claim responsibility for everyone else’s failings: nhận hết lỗi người khác; mở phạm vi ngoài việc tự xét mình.'
-        ], dimension: 'self-knowledge versus evasion, self-negation, and misplaced liability'
-      }
-    ]
-  },
-  {
-    id: 'M080', sourceBlockId: 'W01-B12', title: 'Giác ngộ, giải thoát và việc tu tiếp',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'thấu rõ mọi điều trong vũ trụ', targetVietnamese: 'Sự sáng suốt của giác ngộ thấu rõ chân lý, không chỉ tạo ra một lời giải thích về nó.',
-        sentence: 'Awakened understanding ___ the truth of existence.',
-        options: ['penetrates', 'constructs', 'merely repeats an account of', 'mythologizes'], answer: 0,
-        rationales: [
-          'penetrates: thấu đạt; giữ chiều sâu biết rõ.',
-          'constructs: xây dựng nên; đổi chân lý được hiểu thành thứ do người hiểu tạo ra.',
-          'merely repeats an account of: chỉ kể lại lời giải thích; hạ sự thấu rõ thành vay mượn lời.',
-          'mythologizes: huyền thoại hóa; thêm một cách kể làm sai tính trực nhận trong nguồn.'
-        ], dimension: 'direct understanding versus construction, repetition, and myth-making'
-      },
-      {
-        sourceCue: 'Giác ngộ là hết Vô minh', targetVietnamese: 'Giác ngộ chấm dứt vô minh, chứ không chỉ che nó đi tạm thời.',
-        sentence: 'Awakening ___.',
-        options: ['dispels ignorance', 'merely restrains ignorance for a time', 'conceals ignorance behind fluent explanations', 'renames ignorance without ending it'], answer: 0,
-        rationales: [
-          'dispels ignorance: xua tan vô minh; giữ trạng thái hết vô minh.',
-          'merely restrains ignorance for a time: chỉ kìm tạm; làm yếu sự chấm dứt thành kiểm soát ngắn hạn.',
-          'conceals ignorance behind fluent explanations: che bằng lời lưu loát; trái sự hết vô minh thật.',
-          'renames ignorance without ending it: đổi tên nhưng giữ nguyên; không phải biến đổi nguồn xác lập.'
-        ], dimension: 'cessation versus restraint, concealment, and relabeling'
-      },
-      {
-        sourceCue: 'Giác ngộ là Vô ngã (không còn cái tôi nữa)', targetVietnamese: 'Đoạn trình bày giác ngộ là không còn bản ngã, không phải làm cái tôi thành cao siêu hơn.',
-        sentence: 'In this account, awakening ___.',
-        options: ['ends clinging to a self', 'perfects an exalted personal identity', 'secures superiority over other selves', 'confers permanent privileges on the ego'], answer: 0,
-        rationales: [
-          'ends clinging to a self: chấm dứt chấp ngã; giữ phân biệt vô ngã với đề cao cái tôi.',
-          'perfects an exalted personal identity: hoàn thiện một cái tôi cao siêu; giữ lại đối tượng nguồn nói không còn.',
-          'secures superiority over other selves: bảo đảm hơn người; thêm cạnh tranh ngã chấp.',
-          'confers permanent privileges on the ego: cho ngã đặc quyền vĩnh viễn; đảo hướng giải thoát khỏi ngã.'
-        ], dimension: 'release from self-attachment versus exaltation and privilege'
-      },
-      {
-        sourceCue: 'Giải thoát là không còn bị luân hồi tái sinh', targetVietnamese: 'Giải thoát trọn vẹn là chấm dứt việc bị luân hồi tái sinh, không chỉ có đời sau dễ chịu hơn.',
-        sentence: 'Complete liberation ___.',
-        options: ['ends the cycle of rebirth', 'merely improves the conditions of the next rebirth', 'lengthens the next life indefinitely', 'allows only memories of past lives to fade'], answer: 0,
-        rationales: [
-          'ends the cycle of rebirth: chấm dứt chu kỳ; giữ nghĩa giải thoát trọn vẹn.',
-          'merely improves the conditions of the next rebirth: chỉ cải thiện đời sau; vẫn còn vòng tái sinh.',
-          'lengthens the next life indefinitely: kéo dài đời sau; không phải kết thúc tái sinh.',
-          'allows only memories of past lives to fade: chỉ mất ký ức; đổi sự hiện hữu thành điều được nhớ.'
-        ], dimension: 'ending a process versus improving, extending, and forgetting it'
-      },
-      {
-        sourceCue: 'tiếp tục tu hành cho đến khi đạt được thánh quả A la hán', targetVietnamese: 'Đệ tử chưa giải thoát hoàn toàn vẫn phải tu tiếp cho tới Arahantship.',
-        sentence: 'Those not yet fully liberated ___ until attaining Arahantship.',
-        options: ['persevere in practice', 'merely await automatic promotion', 'claim to have completed every stage', 'abandon the aspiration to practice'], answer: 0,
-        rationales: [
-          'persevere in practice: tiếp tục bền bỉ tu; giữ công việc còn cần làm.',
-          'merely await automatic promotion: chỉ chờ tự lên bậc; thêm bảo đảm không cần dụng công.',
-          'claim to have completed every stage: tự nhận đã xong; trái tình trạng chưa giải thoát.',
-          'abandon the aspiration to practice: bỏ ý nguyện tu; trái việc tiếp tục đến đích.'
-        ], dimension: 'persistence versus passive expectation, premature claim, and abandonment'
-      }
-    ]
-  },
-  {
-    id: 'M081', sourceBlockId: 'W02-B07', title: 'Thiếu kiến thức: từ áp dụng đến hậu quả',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'đã áp dụng một Thanh qui sai lầm', targetVietnamese: 'Vị trụ trì đã đem một thanh quy sai vào thực hiện, chứ không chỉ mới soạn dự thảo.',
-        sentence: 'The abbot ___ a misguided monastic rule.',
-        options: ['implements', 'drafts', 'repeals', 'appeals against'], answer: 0,
-        rationales: [
-          'implements: đưa vào áp dụng; giữ giai đoạn quy định đã tác động lên đời sống.',
-          'drafts: soạn nháp; chưa đến bước thực hiện được nguồn kể.',
-          'repeals: bãi bỏ; đảo hành vi áp dụng thành loại đi.',
-          'appeals against: khiếu nghị chống; biến người áp dụng thành người phản đối quy tắc.'
-        ], dimension: 'implementation versus drafting, repeal, and appeal'
-      },
-      {
-        sourceCue: 'ảnh hưởng xấu đến sức khỏe và tâm linh của đại chúng', targetVietnamese: 'Quy tắc ấy làm hại sức khỏe và đời sống tâm linh của đại chúng.',
-        sentence: 'The rule ___ the community’s health and spiritual well-being.',
-        options: ['impairs', 'monitors', 'assesses', 'documents'], answer: 0,
-        rationales: [
-          'impairs: làm suy giảm, gây hại; giữ tác động bất lợi.',
-          'monitors: theo dõi; không nói quy tắc gây thiệt hại.',
-          'assesses: đánh giá; đổi tác động thực tế thành nhận định.',
-          'documents: ghi lại; đổi nguyên nhân gây hại thành hồ sơ mô tả.'
-        ], dimension: 'harm versus observation, assessment, and documentation'
-      },
-      {
-        sourceCue: 'giải thích giáo lý đi ngược với khoa học', targetVietnamese: 'Lời giải thích giáo lý của nhà thuyết pháp đi ngược khoa học.',
-        sentence: 'The preacher’s interpretation ___.',
-        options: ['runs counter to science', 'takes its cue from scientific evidence', 'underpins a scientific explanation', 'settles a scientific dispute'], answer: 0,
-        rationales: [
-          'runs counter to science: trái với; giữ hướng bất tương hợp.',
-          'takes its cue from scientific evidence: lấy chứng cứ làm gợi dẫn; đảo nguồn của lời giải thích.',
-          'underpins a scientific explanation: làm nền cho khoa học; đảo chiều quan hệ.',
-          'settles a scientific dispute: giải quyết tranh luận; thêm thành quả không được nguồn kể.'
-        ], dimension: 'conflict versus evidential guidance, foundation, and resolution'
-      },
-      {
-        sourceCue: 'gây mê tín', targetVietnamese: 'Sự giải thích sai ấy nuôi thêm mê tín, không phải vạch ra mê tín để sửa.',
-        sentence: 'The explanation ___ superstition.',
-        options: ['fosters', 'diagnoses', 'exposes', 'merely records'], answer: 0,
-        rationales: [
-          'fosters: làm phát triển; giữ lời cảnh báo gây mê tín.',
-          'diagnoses: nhận diện như một vấn đề; không phải làm nảy sinh.',
-          'exposes: vạch rõ cho người ta thấy; thường là bước đối trị, khác việc nuôi mê tín.',
-          'merely records: chỉ ghi lại; xóa vai trò gây ra hậu quả.'
-        ], dimension: 'production versus diagnosis, exposure, and record'
-      },
-      {
-        sourceCue: 'làm giảm giá trị của đạo', targetVietnamese: 'Lời giảng ấy làm suy giảm giá trị của đạo trong cách người ta tiếp nhận.',
-        sentence: 'Such preaching ___ the standing of the tradition.',
-        options: ['diminishes', 'artificially elevates', 'merely appraises', 'formally certifies'], answer: 0,
-        rationales: [
-          'diminishes: làm giảm; giữ hậu quả bất lợi đối với giá trị của đạo.',
-          'artificially elevates: tô cao giả tạo; đảo từ giảm sang nâng địa vị.',
-          'merely appraises: chỉ đánh giá; không giữ tác hại của lời giải thích sai.',
-          'formally certifies: chính thức xác nhận địa vị; thêm một hoạt động chứng nhận thay vì làm tổn giá trị.'
-        ], dimension: 'diminution versus appraisal, canonization, and procedural planning'
-      }
-    ]
-  },
-  {
-    id: 'M082', sourceBlockId: 'W02-B08', title: 'Công bằng xã hội và giới hạn của pháp luật',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'bị nhà chức trách bắt giam', targetVietnamese: 'Nhà chức trách bắt và giam người phạm tội; đoạn chưa kể việc tòa đã tuyên án.',
-        sentence: 'The offender is ___ by the authorities.',
-        options: ['apprehended and detained', 'convicted and sentenced', 'tried and acquitted', 'pardoned and released'], answer: 0,
-        rationales: [
-          'apprehended and detained: bắt giữ và giam; giữ đúng giai đoạn được kể.',
-          'convicted and sentenced: kết tội và tuyên án; thêm bước xét xử sau bắt giam.',
-          'tried and acquitted: xét rồi trắng án; thêm xét xử và đảo kết quả.',
-          'pardoned and released: được ân xá rồi thả; thêm quyết định tha không có.'
-        ], dimension: 'arrest versus conviction, acquittal, and pardon'
-      },
-      {
-        sourceCue: 'được khen thưởng và thăng chức', targetVietnamese: 'Vị bác sĩ tận tụy được khen và được nâng chức, không chỉ mới được cấp phép hành nghề.',
-        sentence: 'The dedicated doctor is ___.',
-        options: ['commended and promoted', 'licensed and registered', 'examined and certified', 'commissioned to conduct an inquiry'], answer: 0,
-        rationales: [
-          'commended and promoted: được khen và thăng chức; giữ cả sự ghi nhận lẫn thay đổi chức vị.',
-          'licensed and registered: cấp phép và đăng ký; đó là điều kiện hành nghề, không phải phần thưởng.',
-          'examined and certified: kiểm tra và cấp chứng nhận; đổi thành xác nhận năng lực.',
-          'commissioned to conduct an inquiry: giao điều tra; thêm nhiệm vụ không có trong đoạn.'
-        ], dimension: 'recognition and advancement versus professional authorization'
-      },
-      {
-        sourceCue: 'nó vẫn không phải là luật Nghiệp Báo', targetVietnamese: 'Nhân quả xã hội có thể phản ánh nghiệp báo nhưng không được đồng nhất hoàn toàn với nó.',
-        sentence: 'The examples ___ karmic causation without constituting the law of karma itself.',
-        options: ['mirror', 'supersede', 'administer', 'legislate'], answer: 0,
-        rationales: [
-          'mirror: phản chiếu sự tương tự; giữ giống về hình ảnh mà không đồng nhất bản chất.',
-          'supersede: thay thế; nguồn không nói luật xã hội đứng chỗ nghiệp báo.',
-          'administer: điều hành, thực thi; biến sự tương tự thành quản lý một nguyên lý.',
-          'legislate: ban hành thành luật; thêm quyền con người đặt ra nghiệp báo.'
-        ], dimension: 'analogy versus replacement, administration, and legislation'
-      },
-      {
-        sourceCue: 'che mắt luật pháp', targetVietnamese: 'Kẻ phạm tội ranh ma vẫn có thể qua mặt việc phát hiện và xử lý của pháp luật.',
-        sentence: 'A cunning offender may ___.',
-        options: ['elude detection', 'secure a pardon after conviction', 'complete an imposed sentence', 'obtain formal permission to offend'], answer: 0,
-        rationales: [
-          'elude detection: tránh bị phát hiện; giữ hình ảnh che mắt luật pháp.',
-          'secure a pardon after conviction: được ân xá sau kết tội; giả định đã bị phát hiện và xét xử.',
-          'complete an imposed sentence: chấp hành xong án; trái sự qua mặt việc xử lý.',
-          'obtain formal permission to offend: được cho phép phạm tội; thêm một quyền hợp thức không có.'
-        ], dimension: 'evasion versus pardon, compliance, and authorization'
-      },
-      {
-        sourceCue: 'bị trù dập vì không ăn cánh với kẻ xấu', targetVietnamese: 'Người tốt có thể bị trả đũa vì không chịu cấu kết với người xấu.',
-        sentence: 'Some conscientious people are ___.',
-        options: ['subjected to reprisals for refusing to collude', 'rewarded for joining a corrupt faction', 'entrusted with authority by the wrongdoers', 'publicly commended for complying with a dishonest scheme'], answer: 0,
-        rationales: [
-          'subjected to reprisals for refusing to collude: bị trù dập do không cấu kết; giữ cả hậu quả và lý do.',
-          'rewarded for joining a corrupt faction: thưởng vì đã nhập phe; đảo hành động và kết quả.',
-          'entrusted with authority by the wrongdoers: được phe xấu giao quyền; trái sự bị hại.',
-          'publicly commended for complying with a dishonest scheme: được khen vì tuân âm mưu; đổi người từ chối thành người theo.'
-        ], dimension: 'retaliation for integrity versus reward for complicity'
-      }
-    ]
-  },
-  {
-    id: 'M083', sourceBlockId: 'W02-B09', title: 'Nghiệp, kết quả và cách gọi thiện ác',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'một nghiệp thiện sẽ tạo thành một kết quả vui', targetVietnamese: 'Theo đoạn, nghiệp thiện tạo ra một kết quả vui, không chỉ dự báo kết quả ấy.',
-        sentence: 'A wholesome action ___ a joyful result.',
-        options: ['yields', 'predicts', 'merely describes', 'presupposes'], answer: 0,
-        rationales: [
-          'yields: sinh ra kết quả; giữ quan hệ từ nghiệp sang quả.',
-          'predicts: dự báo; đổi tác nhân tạo quả thành dấu hiệu biết trước.',
-          'merely describes: chỉ mô tả; làm mất tác động nhân quả.',
-          'presupposes: lấy làm tiền đề; đảo kết quả thành điều được giả định phải có.'
-        ], dimension: 'production versus prediction, description, and presupposition'
-      },
-      {
-        sourceCue: 'người hay san sẻ vật chất sẽ được giàu sang', targetVietnamese: 'Đoạn nối việc thường san sẻ với sự giàu sang về sau, không hứa mỗi món cho là giàu ngay.',
-        sentence: 'The passage ___.',
-        options: ['links material generosity with future prosperity', 'promises immediate wealth for every individual gift', 'defines all prosperity as proof of generosity', 'makes giving conditional on an immediate repayment'], answer: 0,
-        rationales: [
-          'links material generosity with future prosperity: nối sự san sẻ và phước về sau; giữ quan hệ ví dụ.',
-          'promises immediate wealth for every individual gift: hứa giàu ngay từng lần; thêm thời điểm và lượng tuyệt đối.',
-          'defines all prosperity as proof of generosity: suy ngược mọi giàu sang đều chứng minh từng bố thí; nguồn chỉ nêu một chiều.',
-          'makes giving conditional on an immediate repayment: biến cho thành đổi lấy; thêm điều kiện nhận lại ngay.'
-        ], dimension: 'causal example versus immediacy, converse inference, and exchange'
-      },
-      {
-        sourceCue: 'người hay tự cao sẽ rơi vào địa vị hèn hạ', targetVietnamese: 'Người hay tự cao được đoạn mô tả là sẽ rơi vào địa vị thấp kém.',
-        sentence: 'Persistent conceit is portrayed as leading a person to ___.',
-        options: ['fall into a lowly position', 'voluntarily renounce an honored position', 'be praised for declining authority', 'retain every privilege indefinitely'], answer: 0,
-        rationales: [
-          'fall into a lowly position: rơi vào vị thế thấp; giữ hệ quả bất lợi của tự cao.',
-          'voluntarily renounce an honored position: tự nguyện bỏ chức; thêm chủ ý khiêm nhường.',
-          'be praised for declining authority: được khen vì nhường quyền; đổi hệ quả xấu thành đức hạnh được khen.',
-          'retain every privilege indefinitely: giữ hết quyền lợi mãi; trái chiều rơi xuống.'
-        ], dimension: 'adverse consequence versus voluntary renunciation and retained privilege'
-      },
-      {
-        sourceCue: 'phải lệ thuộc vào hoàn cảnh thời đại', targetVietnamese: 'Cách hiểu và gọi thiện ác phải xét đến hoàn cảnh thời đại.',
-        sentence: 'The evaluation of good and evil ___ historical circumstances.',
-        options: ['depends on', 'dictates', 'dispenses with', 'merely records'], answer: 0,
-        rationales: [
-          'depends on: có sự phụ thuộc; giữ vai trò của hoàn cảnh trong cách đánh giá.',
-          'dictates: ấn định hoàn cảnh; đảo hướng ảnh hưởng.',
-          'dispenses with: bỏ qua, không cần; trái chữ “phải lệ thuộc”.',
-          'merely records: chỉ chép lại; đổi đánh giá thành công việc lưu thông tin.'
-        ], dimension: 'contextual dependence versus determination, omission, and recording'
-      },
-      {
-        sourceCue: 'được nhiều người khen ngợi', targetVietnamese: 'Một hành động thường được gọi là thiện khi đem vui cho người và được nhiều người khen.',
-        sentence: 'Many people ___ such an action.',
-        options: ['commend', 'command', 'commemorate', 'condone'], answer: 0,
-        rationales: [
-          'commend: khen ngợi; giữ sự đánh giá tán thưởng.',
-          'command: ra lệnh; gần chữ nhưng khác hành động từ đánh giá sang chỉ đạo.',
-          'commemorate: tưởng niệm hoặc kỷ niệm; thêm quan hệ với một sự kiện đã qua.',
-          'condone: bỏ qua lỗi hoặc dung thứ; hàm có sai phạm được cho qua, không phải khen thiện.'
-        ], dimension: 'praise versus command, commemoration, and condonation'
-      }
-    ]
-  },
-  {
-    id: 'M084', sourceBlockId: 'W02-B10', title: 'Đền ơn, vô ơn, oán và tha thứ',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'sau này họ đền ơn', targetVietnamese: 'Người đã được giúp có thể về sau đáp lại lòng tốt, không chỉ hoàn một khoản chi có hóa đơn.',
-        sentence: 'The grateful recipient later ___.',
-        options: ['repays the kindness', 'reimburses a contractual expense', 'compensates for an injury they caused', 'settles a previously agreed purchase price'], answer: 0,
-        rationales: [
-          'repays the kindness: đền đáp ơn; giữ quan hệ tình nghĩa.',
-          'reimburses a contractual expense: hoàn chi phí theo hợp đồng; thêm thỏa thuận giao dịch.',
-          'compensates for an injury they caused: bồi thường thiệt hại mình gây; đổi người nhận ơn thành người gây hại.',
-          'settles a previously agreed purchase price: trả tiền mua đã định; biến đền ơn thành nghĩa vụ thanh toán.'
-        ], dimension: 'gratitude versus reimbursement, compensation, and contractual payment'
-      },
-      {
-        sourceCue: 'kẻ vô ơn, không đếm xỉa gì đến chúng ta', targetVietnamese: 'Người vô ơn có thể không còn đếm xỉa đến người đã giúp mình.',
-        sentence: 'An ungrateful recipient may ___.',
-        options: ['pay no heed to the benefactor', 'merely postpone an agreed repayment', 'refuse the assistance before receiving it', 'question whether any assistance was offered'], answer: 0,
-        rationales: [
-          'pay no heed to the benefactor: không quan tâm, chẳng đếm xỉa; giữ thái độ sau khi nhận giúp.',
-          'merely postpone an agreed repayment: chỉ hoãn thanh toán; thêm giao hẹn và lý do thời gian.',
-          'refuse the assistance before receiving it: từ chối trước khi nhận; đổi giai đoạn của sự việc.',
-          'question whether any assistance was offered: nghi có từng được giúp không; thêm một nghi vấn nhận thức.'
-        ], dimension: 'disregard versus postponement, refusal, and doubt'
-      },
-      {
-        sourceCue: 'họ mang oán thù', targetVietnamese: 'Người từng bị mình gây hại có thể ôm oán hận.',
-        sentence: 'The person we harmed may ___ resentment.',
-        options: ['harbor', 'vent', 'conceal', 'feign'], answer: 0,
-        rationales: [
-          'harbor: giữ trong lòng; diễn tả trạng thái oán hận của chính người bị hại.',
-          'vent: bộc lộ, xả ra; thêm hành vi biểu hiện thay vì chỉ nói mang oán.',
-          'conceal: giấu đi; thêm nỗ lực không cho ai nhận thấy mà nguồn chưa nêu.',
-          'feign: giả vờ có; trái việc người bị hại thực sự mang oán trong trường hợp này.'
-        ], dimension: 'emotion held within versus reporting, adjudication, and commemoration'
-      },
-      {
-        sourceCue: 'tìm dịp mưu hại chúng ta', targetVietnamese: 'Người mang oán có thể chủ động tìm dịp mưu hại để trả đũa.',
-        sentence: 'They may ___.',
-        options: ['seek an opportunity to retaliate', 'merely recount the original injury', 'seek mediation without planning harm', 'wait for an apology as a condition of forgiveness'], answer: 0,
-        rationales: [
-          'seek an opportunity to retaliate: tìm cơ hội trả đũa; giữ mục đích gây hại đáp lại.',
-          'merely recount the original injury: chỉ kể chuyện cũ; làm mất ý định mưu hại.',
-          'seek mediation without planning harm: tìm hòa giải; đổi hướng hành động sang hàn gắn.',
-          'wait for an apology as a condition of forgiveness: đặt điều kiện để tha; thêm một thỏa thuận không có trong trường hợp oán.'
-        ], dimension: 'retaliatory intention versus narration, mediation, and conditional forgiveness'
-      },
-      {
-        sourceCue: 'họ không tìm cách trả thù', targetVietnamese: 'Người độ lượng có thể không trả thù dù thực sự từng bị hại.',
-        sentence: 'A forgiving person may ___.',
-        options: ['forgo retaliation', 'postpone retaliation until a better moment', 'delegate retaliation to someone else', 'deny that any harm ever occurred'], answer: 0,
-        rationales: [
-          'forgo retaliation: bỏ việc trả đũa; giữ cách tha thứ trong đoạn.',
-          'postpone retaliation until a better moment: đợi dịp thuận; vẫn giữ kế hoạch báo thù.',
-          'delegate retaliation to someone else: giao người khác trả thù; chỉ đổi người làm, không bỏ việc.',
-          'deny that any harm ever occurred: phủ nhận từng bị hại; tha thứ không đòi phải phủ nhận sự kiện.'
-        ], dimension: 'renunciation versus postponement, proxy action, and denial'
-      }
-    ]
-  },
+{
+  "id": "M055",
+  "sourceBlockId": "W08-B07",
+  "title": "Lời chê chạm đến hình ảnh về mình",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Ví dụ, mỗi ngày chúng ta đều soi gương hai ba lần và cảm thấy tự hào vì mình là hoa khôi của trường.",
+      "targetVietnamese": "Ví dụ, mỗi ngày chúng ta đều soi gương hai ba lần và cảm thấy tự hào vì mình là hoa khôi của trường.",
+      "sentence": "We look in the mirror two or three times a day and ___ being the school beauty.",
+      "options": [
+        "takes pride in",
+        "takes comfort in",
+        "lays claim to",
+        "seeks approval for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "takes pride in: cảm thấy tự hào về; giữ đúng thái độ được nguồn nêu.",
+        "takes comfort in: tìm sự an ủi ở một điều; nguồn không nêu nỗi lo hay nhu cầu được an ủi.",
+        "lays claim to: tự nhận quyền hoặc danh hiệu; biến cảm xúc tự hào thành hành động tuyên bố mình có danh hiệu.",
+        "seeks approval for: tìm kiếm sự tán thành; thêm một nhu cầu được người khác công nhận."
+      ],
+      "dimension": "pride versus comfort, assertion, and approval"
+    },
+    {
+      "sourceCue": "Một hôm, bỗng dưng có người nhìn ta và cho rằng mặt ta trông hắc ám quá.",
+      "targetVietnamese": "Một hôm, bỗng dưng có người nhìn ta và cho rằng mặt ta trông hắc ám quá.",
+      "sentence": "One day, someone looks at us and ___ that our face looks too sinister.",
+      "options": [
+        "remarks",
+        "proves",
+        "confirms",
+        "guarantees"
+      ],
+      "answer": 0,
+      "rationales": [
+        "remarks: nêu một lời nhận xét về vẻ ngoài, không xác lập bản tính con người.",
+        "proves: chứng minh một sự thật bằng căn cứ, mạnh hơn lời nhận xét.",
+        "confirms: xác nhận điều đã được biết, thêm bước kiểm chứng không có trong nguồn.",
+        "guarantees: bảo đảm chắc chắn vẻ mặt ấy, thêm sự cam kết ngoài lời nhận xét."
+      ],
+      "dimension": "comment versus accusation, warning, and exposure"
+    },
+    {
+      "sourceCue": "Do chấp cái thân mỗi ngày như vậy nên khi nghe lời nhận xét, ta cảm thấy giận.",
+      "targetVietnamese": "Do chấp cái thân mỗi ngày như vậy nên khi nghe lời nhận xét, ta cảm thấy giận.",
+      "sentence": "Our anger on hearing the remark ___ our daily attachment to the body.",
+      "options": [
+        "stems from",
+        "accounts for",
+        "takes the place of",
+        "is mistaken for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "stems from: bắt nguồn từ; giữ chấp thân là nguyên nhân và giận là kết quả.",
+        "accounts for: giải thích hoặc gây nên; đảo chiều, biến cơn giận thành lời giải thích cho sự chấp thân.",
+        "takes the place of: thay thế; nguồn không nói một trạng thái thế chỗ trạng thái kia.",
+        "is mistaken for: bị nhầm là; thêm một lỗi nhận diện thay cho quan hệ nhân quả."
+      ],
+      "dimension": "causal direction versus replacement and misidentification"
+    },
+    {
+      "sourceCue": "Cái bực bội, khó chịu, cái cảm giác mất bình tĩnh cứ trào lên.",
+      "targetVietnamese": "Cái bực bội, khó chịu, cái cảm giác mất bình tĩnh cứ trào lên.",
+      "sentence": "Irritation, discomfort and a sense of losing composure ___ within us.",
+      "options": [
+        "well up",
+        "smolder",
+        "linger",
+        "resurface"
+      ],
+      "answer": 0,
+      "rationales": [
+        "well up: trào dâng, bắt đúng chuyển động của cảm xúc trong câu Việt.",
+        "smolder: âm ỉ; diễn tả cháy ngầm dai dẳng, không giữ hình ảnh đang trào lên.",
+        "linger: còn vương lại; nhấn cảm xúc đã có tiếp tục ở lại, thay vì sự dâng lên được kể.",
+        "resurface: xuất hiện trở lại; đòi hỏi một lần cảm xúc bị chìm hoặc biến mất trước đó, điều nguồn chưa nói."
+      ],
+      "dimension": "onset, persistence, and recurrence"
+    },
+    {
+      "sourceCue": "Trạng thái ấy gọi là sân khi chúng ta bị lời nói xúc chạm đến thân mình.",
+      "targetVietnamese": "Trạng thái ấy gọi là sân khi chúng ta bị lời nói xúc chạm đến thân mình.",
+      "sentence": "This state is called anger when we ___ words about our body.",
+      "options": [
+        "take offense at",
+        "take issue with",
+        "seek clarification of",
+        "reserve judgment on"
+      ],
+      "answer": 0,
+      "rationales": [
+        "take offense at: cảm thấy bị xúc phạm; giữ phản ứng tự ái, giận dữ.",
+        "take issue with: không đồng ý hoặc phản bác; một bất đồng quan điểm chưa tự là cảm giác bị xúc phạm.",
+        "seek clarification of: hỏi cho rõ; thêm hành động tìm hiểu không có trong đoạn.",
+        "reserve judgment on: chưa vội phán xét; trái với phản ứng giận đã xuất hiện."
+      ],
+      "dimension": "offense versus disagreement and inquiry"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M056",
+  "sourceBlockId": "W08-B08",
+  "title": "Chức vụ, kỳ vọng và bản ngã",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Khi có chức quyền, chúng ta thường chấp địa vị của mình.",
+      "targetVietnamese": "Khi có chức quyền, chúng ta thường chấp địa vị của mình.",
+      "sentence": "When we hold power, we tend to ___ our status.",
+      "options": [
+        "cling to",
+        "qualify for",
+        "answer for",
+        "work toward"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cling to: bám chấp vào điều mình đang có; giữ ý chấp địa vị.",
+        "qualify for: đáp ứng tiêu chuẩn để được; nguồn đang nói người đã có chức quyền, không phải xét điều kiện bổ nhiệm.",
+        "answer for: chịu trách nhiệm về; đổi sự bám chấp thành trách nhiệm giải trình.",
+        "work toward: cố đạt tới; chuyển địa vị đã có thành mục tiêu tương lai."
+      ],
+      "dimension": "attachment versus eligibility, accountability, and aspiration"
+    },
+    {
+      "sourceCue": "Chấp địa vị có nghĩa là chúng ta luôn nghĩ rằng mình có quyền lực nên người dưới nhất thiết phải nghe theo, dù có khi người đó lớn tuổi hơn mình.",
+      "targetVietnamese": "Chấp địa vị có nghĩa là chúng ta luôn nghĩ rằng mình có quyền lực nên người dưới nhất thiết phải nghe theo, dù có khi người đó lớn tuổi hơn mình.",
+      "sentence": "Attaching to status means that, because we have power, we always ___ subordinates, even those older than us.",
+      "options": [
+        "expect obedience from",
+        "earn the trust of",
+        "negotiate terms with",
+        "seek advice from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "expect obedience from: cho rằng sự vâng lời là điều phải có; giữ niềm mặc định dựa trên chức quyền.",
+        "earn the trust of: gây dựng được niềm tin bằng hành xử xứng đáng; nguồn không nói họ đã làm điều ấy.",
+        "negotiate terms with: thương lượng điều kiện; thêm một quá trình thỏa thuận thay cho đòi hỏi mặc nhiên.",
+        "seek advice from: hỏi lời khuyên; đảo hướng từ người đòi nghe theo thành người đi tham vấn."
+      ],
+      "dimension": "expectation versus deserved, negotiated, and elicited obedience"
+    },
+    {
+      "sourceCue": "Nếu họ không vâng lời, chúng ta cảm thấy mình bị xúc phạm vì nghĩ họ không tôn trọng chức vụ mà mình đang có.",
+      "targetVietnamese": "Nếu họ không vâng lời, chúng ta cảm thấy mình bị xúc phạm vì nghĩ họ không tôn trọng chức vụ mà mình đang có.",
+      "sentence": "If they do not obey, we ___ it as a personal insult because we think they disrespect our position.",
+      "options": [
+        "take",
+        "report",
+        "publicize",
+        "exploit"
+      ],
+      "answer": 0,
+      "rationales": [
+        "take: trong take it as, hiểu và cảm nhận điều đó như; giữ phản ứng chủ quan của người có chức quyền.",
+        "report: trong report it as, trình báo rằng; thêm một hành vi nói với người khác.",
+        "publicize: trong publicize it as, công khai hóa; thêm việc đưa sự việc ra công chúng.",
+        "exploit: trong exploit it as, lợi dụng nó như; thêm mục đích sử dụng sự việc làm công cụ."
+      ],
+      "dimension": "private interpretation versus communicative and strategic action"
+    },
+    {
+      "sourceCue": "Trong khi đó, chúng ta đã xem chức vụ ấy là bản ngã của mình.",
+      "targetVietnamese": "Trong khi đó, chúng ta đã xem chức vụ ấy là bản ngã của mình.",
+      "sentence": "We have ___ the office we hold with our very self.",
+      "options": [
+        "equated",
+        "compared",
+        "reconciled",
+        "supplemented"
+      ],
+      "answer": 0,
+      "rationales": [
+        "equated: trong equate A with B, coi hai điều là một; giữ việc lấy chức vụ làm bản ngã.",
+        "compared: so sánh A với B nhưng vẫn phân biệt hai đối tượng; chưa có sự đồng nhất.",
+        "reconciled: dung hòa A với B; nguồn không nói có mâu thuẫn đang được giải quyết.",
+        "supplemented: thêm B để bổ sung A; không diễn tả sự đồng nhất."
+      ],
+      "dimension": "identity versus comparison, reconciliation, and supplementation"
+    },
+    {
+      "sourceCue": "Do vậy, khi người dưới không vâng lời, chúng ta thường nảy sinh tâm lý khó chịu và có khi nổi sân .",
+      "targetVietnamese": "Do vậy, khi người dưới không vâng lời, chúng ta thường nảy sinh tâm lý khó chịu và có khi nổi sân .",
+      "sentence": "A subordinate's disobedience therefore ___ discomfort and sometimes anger in us.",
+      "options": [
+        "gives rise to",
+        "provides an outlet for",
+        "calls attention to",
+        "lends legitimacy to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "gives rise to: làm phát sinh; giữ quan hệ từ sự việc sang phản ứng tâm lý.",
+        "provides an outlet for: cho cảm xúc đã có một lối xả; đổi phát sinh thành giải tỏa.",
+        "calls attention to: khiến người ta chú ý tới; không nói cảm xúc được tạo ra.",
+        "lends legitimacy to: khiến điều đó có vẻ chính đáng; nguồn giải thích phản ứng, không biện minh cho nó."
+      ],
+      "dimension": "cause versus outlet, salience, and justification"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M057",
+  "sourceBlockId": "W08-B09",
+  "title": "Sửa lỗi không phải trút giận",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Nhưng cần lưu ý một điều, dù giận chúng ta cũng phải bình tĩnh.",
+      "targetVietnamese": "Nhưng cần lưu ý một điều, dù giận chúng ta cũng phải bình tĩnh.",
+      "sentence": "Even when angry, we must ___ .",
+      "options": [
+        "retain composure",
+        "feign composure",
+        "demand composure from others",
+        "claim to have regained composure"
+      ],
+      "answer": 0,
+      "rationales": [
+        "retain composure: giữ sự bình tĩnh thật sự; đúng yêu cầu của nguồn.",
+        "feign composure: giả vẻ bình tĩnh; chỉ nói biểu hiện bên ngoài, không đáp ứng yêu cầu tâm bình tĩnh.",
+        "demand composure from others: đòi người khác bình tĩnh; chuyển chủ thể của nghĩa vụ.",
+        "claim to have regained composure: tự tuyên bố đã bình tĩnh lại; thêm lời tuyên bố và một lần đã mất bình tĩnh."
+      ],
+      "dimension": "actual self-command versus appearance, demand, and assertion"
+    },
+    {
+      "sourceCue": "Nếu nóng nảy, trách mắng đệ tử hết lời thì họ sẽ mất đi lòng kính trọng đối với Thầy mình.",
+      "targetVietnamese": "Nếu nóng nảy, trách mắng đệ tử hết lời thì họ sẽ mất đi lòng kính trọng đối với Thầy mình.",
+      "sentence": "Berating disciples in a temper causes us to ___ .",
+      "options": [
+        "forfeit our disciples’ respect",
+        "command our disciples’ respect",
+        "appeal to our disciples’ respect",
+        "demand our disciples’ respect"
+      ],
+      "answer": 0,
+      "rationales": [
+        "forfeit our disciples’ respect: đánh mất sự kính trọng do chính cách hành xử của mình.",
+        "command our disciples’ respect: khiến người khác kính trọng; đảo ngược hậu quả được nguồn cảnh báo.",
+        "appeal to our disciples’ respect: viện lòng kính trọng để thuyết phục; là một cách vận động người nghe, không phải mất lòng kính.",
+        "demand our disciples’ respect: đòi hỏi sự kính trọng; mô tả yêu sách chứ không nói hậu quả."
+      ],
+      "dimension": "loss of regard versus possession, appeal, and demand"
+    },
+    {
+      "sourceCue": "Chúng ta phải nêu gương tốt cho đệ tử.",
+      "targetVietnamese": "Chúng ta phải nêu gương tốt cho đệ tử.",
+      "sentence": "We must ___ good conduct for our disciples.",
+      "options": [
+        "exemplify",
+        "prescribe",
+        "commend",
+        "document"
+      ],
+      "answer": 0,
+      "rationales": [
+        "exemplify: làm gương bằng chính cách sống; giữ trọng tâm người thầy tự nêu gương.",
+        "prescribe: quy định người ta nên hành xử thế nào; đưa chỉ dẫn chưa tự là làm gương.",
+        "commend: ca ngợi hành vi tốt; chuyển từ thực hiện sang đánh giá.",
+        "document: ghi chép; thêm một việc lưu hồ sơ không có trong lời dạy."
+      ],
+      "dimension": "embodied example versus instruction, praise, and record"
+    },
+    {
+      "sourceCue": "phải bình tĩnh xét hỏi nguyên nhân gây nên lầm lỗi",
+      "targetVietnamese": "phải bình tĩnh xét hỏi nguyên nhân gây nên lầm lỗi",
+      "sentence": "We must calmly ___ what caused the mistake.",
+      "options": [
+        "inquire into",
+        "pronounce judgment on",
+        "take responsibility for",
+        "make excuses for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "inquire into: tìm hiểu bằng xét hỏi; giữ bước làm rõ nguyên nhân trước khi phản ứng.",
+        "pronounce judgment on: đưa phán quyết; bỏ qua bước tìm hiểu mà nguồn yêu cầu.",
+        "take responsibility for: tự nhận trách nhiệm; nguồn chưa quy lỗi của đệ tử cho người thầy.",
+        "make excuses for: bào chữa; tìm nguyên nhân không đồng nghĩa bao che lỗi."
+      ],
+      "dimension": "investigation versus judgment, liability, and excuse"
+    },
+    {
+      "sourceCue": "đừng bao giờ chỉ dựa vào hành động mà trách mắng họ.",
+      "targetVietnamese": "đừng bao giờ chỉ dựa vào hành động mà trách mắng họ.",
+      "sentence": "We must never ___ disciples solely on the basis of their actions.",
+      "options": [
+        "rebuke",
+        "confront",
+        "suspend",
+        "expel"
+      ],
+      "answer": 0,
+      "rationales": [
+        "rebuke: trách mắng; đúng hành vi mà mệnh lệnh cấm nhắm tới.",
+        "confront: trực tiếp đối diện và chất vấn; có thể nghiêm nhưng chưa phải trách mắng.",
+        "suspend: đình chỉ việc học hoặc vai trò; thêm một chế tài không được câu nguồn nhắc đến.",
+        "expel: trục xuất; nâng trách mắng thành loại khỏi cộng đồng."
+      ],
+      "dimension": "scope of the prohibited response"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M058",
+  "sourceBlockId": "W08-B10",
+  "title": "Đối trị lỗi từ tâm, không từ tự ái chức quyền",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Đối với những trường hợp bướng bỉnh, không vâng lời hoặc thờ ơ không chú ý đến lời dặn của thầy",
+      "targetVietnamese": "Đối với những trường hợp bướng bỉnh, không vâng lời hoặc thờ ơ không chú ý đến lời dặn của thầy",
+      "sentence": "Some disciples are stubborn or disobedient, or ___ their teacher's instructions.",
+      "options": [
+        "disregard",
+        "misconstrue",
+        "contest",
+        "anticipate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "disregard: không lưu tâm hoặc không làm theo; giữ thái độ thờ ơ của trường hợp này.",
+        "misconstrue: hiểu sai; nguồn không nói khó hiểu hay nhầm nghĩa.",
+        "contest: phản bác; thêm một sự phản đối chủ động thay vì thờ ơ.",
+        "anticipate: dự liệu trước; nói quan hệ thời gian/chuẩn bị, không phải phớt lờ."
+      ],
+      "dimension": "inattention versus misunderstanding and opposition"
+    },
+    {
+      "sourceCue": "chúng ta phải coi đó là cái bệnh cần phải được sửa từ trong tâm.",
+      "targetVietnamese": "chúng ta phải coi đó là cái bệnh cần phải được sửa từ trong tâm.",
+      "sentence": "We must regard this as an inner fault to ___ .",
+      "options": [
+        "remedy",
+        "penalize",
+        "diagnose",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "remedy: khắc phục; hướng đến thay đổi lỗi bên trong như nguồn yêu cầu.",
+        "penalize: phạt; chế tài không tự sửa được gốc tâm lý.",
+        "diagnose: nhận diện hoặc chẩn đoán vấn đề; chỉ dừng ở xác định chưa phải sửa.",
+        "publicize: làm nhiều người biết; thêm sự phơi bày ra công chúng."
+      ],
+      "dimension": "correction versus sanction, identification, and exposure"
+    },
+    {
+      "sourceCue": "Người không biết tôn trọng vâng lời đã là sai, chúng ta giận dữ, nóng nảy lại càng sai",
+      "targetVietnamese": "Người không biết tôn trọng vâng lời đã là sai, chúng ta giận dữ, nóng nảy lại càng sai",
+      "sentence": "Our angry reaction ___ the wrong already committed by a disrespectful, disobedient person.",
+      "options": [
+        "compounds",
+        "exposes",
+        "excuses",
+        "offsets"
+      ],
+      "answer": 0,
+      "rationales": [
+        "compounds: làm vấn đề nặng thêm bằng một lỗi nữa; giữ cấu trúc sai chồng lên sai.",
+        "exposes: làm lộ; chỉ tăng khả năng thấy lỗi, không nói chính phản ứng cũng là lỗi.",
+        "excuses: bào chữa; nguồn không dùng lỗi của người này để miễn lỗi cho người kia.",
+        "offsets: bù trừ; trái với việc mức sai tăng thêm."
+      ],
+      "dimension": "aggravation versus revelation, excuse, and compensation"
+    },
+    {
+      "sourceCue": "càng chứng tỏ là ta chấp chức quyền của mình nặng quá.",
+      "targetVietnamese": "càng chứng tỏ là ta chấp chức quyền của mình nặng quá.",
+      "sentence": "Our hot temper further ___ our excessive attachment to rank.",
+      "options": [
+        "betrays",
+        "legitimizes",
+        "channels",
+        "moderates"
+      ],
+      "answer": 0,
+      "rationales": [
+        "betrays: vô tình để lộ điều đang ở bên trong; giữ chức năng dấu hiệu của cơn giận.",
+        "legitimizes: làm cho có vẻ chính đáng; biến dấu hiệu đáng sửa thành sự biện minh.",
+        "channels: hướng một cảm xúc vào một lối thể hiện; đổi quan hệ chứng tỏ thành dẫn truyền.",
+        "moderates: làm bớt mạnh; đảo hướng từ để lộ chấp nặng sang giảm chấp."
+      ],
+      "dimension": "diagnostic evidence versus justification and regulation"
+    },
+    {
+      "sourceCue": "chúng ta phải tác ý làm sao để khi gặp chuyện, chúng ta sẽ không chấp cái chức đó mà nổi sân.",
+      "targetVietnamese": "chúng ta phải tác ý làm sao để khi gặp chuyện, chúng ta sẽ không chấp cái chức đó mà nổi sân.",
+      "sentence": "If given a position, we should deliberately ___ not to let attachment to it provoke anger when something happens.",
+      "options": [
+        "resolve",
+        "expect",
+        "profess",
+        "presume"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resolve: tự quyết tâm; giữ hành vi hướng tâm vào cách ứng xử tương lai.",
+        "expect: dự đoán hoặc kỳ vọng; chưa có sự cam kết tự rèn.",
+        "profess: tuyên xưng; có lời nói công khai nhưng chưa chắc có quyết tâm bên trong.",
+        "presume: mặc nhiên cho rằng mình sẽ làm được; thay dụng công bằng tự tin chưa có căn cứ."
+      ],
+      "dimension": "volitional commitment versus expectation and profession"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M059",
+  "sourceBlockId": "W08-B11",
+  "title": "Cơn giận: lời nói, lựa chọn và tư cách",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Có khi quá giận, người ta còn nói tục, chửi thề.",
+      "targetVietnamese": "Có khi quá giận, người ta còn nói tục, chửi thề.",
+      "sentence": "Sometimes, in extreme anger, people even ___ .",
+      "options": [
+        "use profanity",
+        "make accusations",
+        "issue threats",
+        "voice protests"
+      ],
+      "answer": 0,
+      "rationales": [
+        "use profanity: dùng lời tục, chửi thề; nghĩa này được cụm nguồn xác định.",
+        "make accusations: buộc người khác có lỗi; có thể rất giận nhưng chưa tự là chửi thề.",
+        "issue threats: đe dọa điều sẽ làm; thêm ý về tổn hại tương lai.",
+        "voice protests: lên tiếng phản đối; chưa có nội dung tục tĩu mà câu Việt nêu."
+      ],
+      "dimension": "kind of angry speech"
+    },
+    {
+      "sourceCue": "họ thường có những quyết định sai lầm",
+      "targetVietnamese": "họ thường có những quyết định sai lầm",
+      "sentence": "In anger, people often ___ poor decisions.",
+      "options": [
+        "make",
+        "defend",
+        "review",
+        "reverse"
+      ],
+      "answer": 0,
+      "rationales": [
+        "make: đưa ra quyết định; đặt hành động ở giai đoạn lựa chọn.",
+        "defend: bảo vệ một quyết định đã có; thêm tranh luận và một bước sau lựa chọn.",
+        "review: xem xét lại; đổi lỗi khi ra quyết định thành quá trình rà soát.",
+        "reverse: đảo ngược quyết định; giả định một lựa chọn trước đó mà nguồn chưa kể."
+      ],
+      "dimension": "stage of decision-making"
+    },
+    {
+      "sourceCue": "những hành động liều lĩnh",
+      "targetVietnamese": "những hành động liều lĩnh",
+      "sentence": "In anger, they may ___ .",
+      "options": [
+        "act rashly",
+        "act defiantly",
+        "act vindictively",
+        "act preemptively"
+      ],
+      "answer": 0,
+      "rationales": [
+        "act rashly: hành động thiếu cân nhắc, liều lĩnh; giữ nét nguồn xác lập.",
+        "act defiantly: chống đối quyền lực; thêm một đối tượng quyền uy bị thách thức.",
+        "act vindictively: nhằm trả thù; nguồn ở câu này chưa xác định động cơ trả đũa.",
+        "act preemptively: ra tay trước để ngăn điều sắp xảy ra; thêm mục tiêu phòng ngừa."
+      ],
+      "dimension": "rashness versus defiance, revenge, and prevention"
+    },
+    {
+      "sourceCue": "không suy xét đúng sai.",
+      "targetVietnamese": "không suy xét đúng sai.",
+      "sentence": "In anger, they fail to ___ what is right and wrong.",
+      "options": [
+        "weigh",
+        "articulate",
+        "recall",
+        "rationalize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "weigh: cân nhắc kỹ trước khi hành động; đúng thao tác suy xét.",
+        "articulate: diễn đạt cho rõ; đổi việc tự cân nhắc thành khả năng nói rõ điều đúng sai.",
+        "recall: nhớ lại; thêm điều kiện đã biết và đang truy hồi tri thức.",
+        "rationalize: tìm lý lẽ hợp thức hóa; đổi sự cân nhắc thận trọng thành tự biện minh."
+      ],
+      "dimension": "deliberation versus announcement, enforcement, and narration"
+    },
+    {
+      "sourceCue": "Sự giận dữ có thể làm mất tư cách của con người.",
+      "targetVietnamese": "Sự giận dữ có thể làm mất tư cách của con người.",
+      "sentence": "Anger can ___ their dignity.",
+      "options": [
+        "cost people",
+        "make people question",
+        "prompt people to defend",
+        "lead people to assert"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cost people: làm họ mất đi; giữ hậu quả mất tư cách chứ không chỉ thay đổi cảm nhận.",
+        "make people question: làm họ nghi ngờ; nói hành vi tự vấn thay vì hậu quả mất tư cách.",
+        "prompt people to defend: thúc họ bảo vệ; thêm phản ứng bảo vệ điều chưa được nói là đã mất.",
+        "lead people to assert: dẫn họ đến việc khẳng định; thêm yêu sách về tư cách thay cho thiệt hại."
+      ],
+      "dimension": "loss versus self-questioning and self-assertion"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M060",
+  "sourceBlockId": "W08-B12",
+  "title": "Hung dữ: hăm dọa không chỉ là nổi giận",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Đó là trạng thái tâm lý tương tự như sân nhưng bản chất không phải là sân.",
+      "targetVietnamese": "Đó là trạng thái tâm lý tương tự như sân nhưng bản chất không phải là sân.",
+      "sentence": "Despite the resemblance, aggressiveness should not be ___ anger.",
+      "options": [
+        "conflated with",
+        "traced back to",
+        "defended against",
+        "expressed through"
+      ],
+      "answer": 0,
+      "rationales": [
+        "conflated with: gộp hai khái niệm thành một; đúng sự đồng nhất mà nguồn bác bỏ.",
+        "traced back to: truy về nguyên nhân; đổi câu phân biệt bản chất thành câu phủ định nguồn gốc.",
+        "defended against: được bảo vệ khỏi; biến sự so sánh khái niệm thành hành vi bảo vệ.",
+        "expressed through: biểu hiện thông qua; đổi quan hệ đồng nhất sang phương tiện biểu lộ."
+      ],
+      "dimension": "identity versus causal origin and expression"
+    },
+    {
+      "sourceCue": "Người hung dữ là người có cá tính mạnh, có tinh thần mạnh mẽ nên thường làm cho người khác phải sợ.",
+      "targetVietnamese": "Người hung dữ là người có cá tính mạnh, có tinh thần mạnh mẽ nên thường làm cho người khác phải sợ.",
+      "sentence": "An aggressive person's forceful character and spirit tend to ___ others.",
+      "options": [
+        "intimidate",
+        "rebuke",
+        "embarrass",
+        "challenge"
+      ],
+      "answer": 0,
+      "rationales": [
+        "intimidate: khiến người khác sợ hoặc chùn bước; giữ tác động chính trong đoạn.",
+        "rebuke: trách mắng; là một hành động bằng lời, chưa tự diễn tả tác động gây sợ.",
+        "embarrass: làm bối rối hoặc xấu hổ; đổi loại cảm xúc.",
+        "challenge: thách thức; có thể hợp tác hoặc cạnh tranh mà không gây sợ hãi."
+      ],
+      "dimension": "fear versus censure, shame, and challenge"
+    },
+    {
+      "sourceCue": "thần sắc của họ, cử chỉ, lời nói của họ tỏ ra hăm dọa",
+      "targetVietnamese": "thần sắc của họ, cử chỉ, lời nói của họ tỏ ra hăm dọa",
+      "sentence": "Their expression, gestures and words ___ a threat.",
+      "options": [
+        "convey",
+        "substantiate",
+        "carry out",
+        "downplay"
+      ],
+      "answer": 0,
+      "rationales": [
+        "convey: truyền đạt qua biểu hiện; giữ lời nói và cử chỉ như tín hiệu hăm dọa.",
+        "substantiate: cung cấp bằng chứng xác thực; biến tín hiệu thành chứng minh.",
+        "carry out: thực hiện điều đã đe dọa; đi từ tín hiệu sang hành động thực tế.",
+        "downplay: làm nhẹ hoặc giảm tầm quan trọng; đảo hướng tác động hăm dọa."
+      ],
+      "dimension": "signal versus proof and execution"
+    },
+    {
+      "sourceCue": "đè bẹp tinh thần và ý chí người khác",
+      "targetVietnamese": "đè bẹp tinh thần và ý chí người khác",
+      "sentence": "Their intimidation can ___ another person's spirit and will.",
+      "options": [
+        "crush",
+        "test",
+        "gauge",
+        "redirect"
+      ],
+      "answer": 0,
+      "rationales": [
+        "crush: đè bẹp, làm suy sụp; giữ cường độ tác động nguồn nhấn mạnh.",
+        "test: thử thách độ vững; chưa khẳng định sự sụp đổ.",
+        "gauge: đo hoặc ước lượng; là nhận định, không phải gây tác hại.",
+        "redirect: hướng sang mục tiêu khác; không giữ hậu quả bị đè bẹp."
+      ],
+      "dimension": "destructive force versus testing, measurement, and redirection"
+    },
+    {
+      "sourceCue": "Có khi, vì hung dữ, họ có những nhục hình đối với người khác.",
+      "targetVietnamese": "Có khi, vì hung dữ, họ có những nhục hình đối với người khác.",
+      "sentence": "At times their aggression leads them to ___ .",
+      "options": [
+        "inflict corporal punishment",
+        "threaten corporal punishment",
+        "authorize corporal punishment",
+        "investigate corporal punishment"
+      ],
+      "answer": 0,
+      "rationales": [
+        "inflict corporal punishment: trực tiếp gây ra hình phạt thể xác; giữ hành động thực tế của chủ thể.",
+        "threaten corporal punishment: chỉ đe dọa sẽ làm; làm nhẹ hành động đã xảy ra thành lời đe dọa.",
+        "authorize corporal punishment: cho phép người khác thực hiện; chuyển người trực tiếp hành động thành người cấp quyền.",
+        "investigate corporal punishment: điều tra nhục hình; biến người gây hại thành người tìm hiểu vụ việc."
+      ],
+      "dimension": "actual harm versus threat, authorization, and inquiry"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M061",
+  "sourceBlockId": "W09-B01",
+  "title": "Chiếc ví: nhặt được không có nghĩa được sở hữu",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Ví dụ, ta nhìn thấy một người đánh rơi cái ví, ta chưa kịp kêu thì họ đi mất.",
+      "targetVietnamese": "Ví dụ, ta nhìn thấy một người đánh rơi cái ví, ta chưa kịp kêu thì họ đi mất.",
+      "sentence": "Before we can call out to the person who dropped the wallet, the owner ___ .",
+      "options": [
+        "walks away",
+        "ignores your warning",
+        "evades your call",
+        "leaves the wallet in your care"
+      ],
+      "answer": 0,
+      "rationales": [
+        "walks away: đi mất; không tự gán cho người mất ví sự biết chuyện hay cố ý né tránh.",
+        "ignores your warning: lờ lời báo; giả định đã có lời gọi và người kia đã nghe.",
+        "evades your call: cố tránh lời gọi; thêm ý định né tránh không được nguồn hỗ trợ.",
+        "leaves the wallet in your care: giao ví cho bạn giữ; biến việc đánh rơi thành giao phó có chủ ý."
+      ],
+      "dimension": "unaware departure versus deliberate disregard and entrustment"
+    },
+    {
+      "sourceCue": "Ta nhặt cái ví lên và thấy trong đó có số tiền lớn.",
+      "targetVietnamese": "Ta nhặt cái ví lên và thấy trong đó có số tiền lớn.",
+      "sentence": "We ___ the wallet and discover a large sum inside.",
+      "options": [
+        "pick up",
+        "appropriate",
+        "reclaim",
+        "confiscate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "pick up: nhặt lên; chỉ mô tả hành động với vật bị rơi.",
+        "appropriate: chiếm làm của mình; thêm hành vi sở hữu mà câu Việt chưa xác lập.",
+        "reclaim: lấy lại thứ thuộc về mình; gán cho người nhặt quyền sở hữu chiếc ví.",
+        "confiscate: tịch thu; thêm thẩm quyền hoặc việc xử lý vi phạm không có trong đoạn."
+      ],
+      "dimension": "physical retrieval versus appropriation and legal possession"
+    },
+    {
+      "sourceCue": "thấy trong đó có số tiền lớn.",
+      "targetVietnamese": "thấy trong đó có số tiền lớn.",
+      "sentence": "We ___ that the wallet contains a large sum.",
+      "options": [
+        "find",
+        "calculate precisely",
+        "decree",
+        "merely speculate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "find: nhận thấy có nhiều tiền, giữ mức thông tin nguồn nêu.",
+        "calculate precisely: tính chính xác số tiền thêm việc kiểm kê không được kể.",
+        "decree: ra quyết định ví có tiền không phải quan sát thực tế.",
+        "merely speculate: chỉ phỏng đoán trái việc đã thấy tiền bên trong."
+      ],
+      "dimension": "observation versus calculation, adjudication, and claim"
+    },
+    {
+      "sourceCue": "Nếu tình yêu điều Thiện lớn hơn tất cả",
+      "targetVietnamese": "Nếu tình yêu điều Thiện lớn hơn tất cả",
+      "sentence": "If love of goodness ___ every other consideration, we will not hesitate to return the wallet.",
+      "options": [
+        "outweighs",
+        "disguises",
+        "rationalizes",
+        "redeems"
+      ],
+      "answer": 0,
+      "rationales": [
+        "outweighs: có sức nặng hoặc giá trị lớn hơn; giữ phép so sánh điều thiện với tiền.",
+        "disguises: che đậy; biến lòng yêu thiện thành vỏ bọc cho ham tiền.",
+        "rationalizes: tìm lý lẽ hợp thức hóa; biến ưu tiên đạo đức thành sự biện minh.",
+        "redeems: bù đắp hoặc cứu vãn điều có khuyết điểm; nguồn không nói điều thiện dùng để chuộc ham tiền."
+      ],
+      "dimension": "relative value versus concealment, rationalization, and redemption"
+    },
+    {
+      "sourceCue": "ta sẽ không do dự, quyết tìm cho bằng được người đánh rơi ví để trả lại.",
+      "targetVietnamese": "ta sẽ không do dự, quyết tìm cho bằng được người đánh rơi ví để trả lại.",
+      "sentence": "Without hesitating, we ___ the owner in order to return the wallet.",
+      "options": [
+        "resolve to track down",
+        "hope to hear from",
+        "wait to be approached by",
+        "claim to have traced"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resolve to track down: quyết tâm tìm cho ra; giữ cả chủ ý mạnh và hành động chủ động.",
+        "hope to hear from: mong nhận tin; đổi quyết tâm tìm thành sự chờ đợi có hy vọng.",
+        "wait to be approached by: chờ người kia tìm đến; đảo phía chủ động.",
+        "claim to have traced: tuyên bố đã tìm ra; biến quyết định sẽ làm thành lời tự nhận đã xong."
+      ],
+      "dimension": "determined search versus hope, waiting, and retrospective claim"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M062",
+  "sourceBlockId": "W09-B02",
+  "title": "Lời mời gọi và giới hạn của sự chung thủy",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "một người có tình ý với ta khi mọi điều đều không hợp lý",
+      "targetVietnamese": "một người có tình ý với ta khi mọi điều đều không hợp lý",
+      "sentence": "Even though the circumstances make a relationship inappropriate, someone ___ .",
+      "options": [
+        "makes romantic advances toward you",
+        "pledges lifelong fidelity to you",
+        "entrusts a family responsibility to you",
+        "withdraws an earlier proposal of marriage"
+      ],
+      "answer": 0,
+      "rationales": [
+        "makes romantic advances toward you: chủ động ngỏ ý tình cảm với bạn; đúng sự mời gọi trong đoạn.",
+        "pledges lifelong fidelity to you: thề chung thủy suốt đời; thêm mức cam kết chưa được nêu.",
+        "entrusts a family responsibility to you: giao trách nhiệm gia đình; đổi loại quan hệ.",
+        "withdraws an earlier proposal of marriage: rút lời cầu hôn; thêm sự kiện trước đó và đảo hướng lời mời."
+      ],
+      "dimension": "romantic approach versus promise, entrustment, and withdrawal"
+    },
+    {
+      "sourceCue": "khi mọi điều đều không hợp lý, gia đình, trách nhiệm, niềm tin, hạnh phúc, đạo đức chung thủy",
+      "targetVietnamese": "khi mọi điều đều không hợp lý, gia đình, trách nhiệm, niềm tin, hạnh phúc, đạo đức chung thủy",
+      "sentence": "Becoming involved with this person would ___ .",
+      "options": [
+        "conflict with your family obligations and fidelity",
+        "fulfill your existing family obligations",
+        "formalize a previously agreed commitment",
+        "reconcile the competing demands on you"
+      ],
+      "answer": 0,
+      "rationales": [
+        "conflict with your family obligations and fidelity: xung đột với; giữ việc lời mời không phù hợp trách nhiệm hiện có.",
+        "fulfill your existing family obligations: hoàn thành nghĩa vụ; đảo chiều, biến trái bổn phận thành làm trọn bổn phận.",
+        "formalize a previously agreed commitment: chính thức hóa lời hứa trước đó; thêm sự kiện và thủ tục chưa có.",
+        "reconcile the competing demands on you: dung hòa các bổn phận; nói giải quyết xung đột trong khi đoạn mô tả chính sự xung đột."
+      ],
+      "dimension": "conflict versus fulfillment, formalization, and reconciliation"
+    },
+    {
+      "sourceCue": "Mặc dù người đó rất đẹp, rất giàu, rất có điều kiện.",
+      "targetVietnamese": "Mặc dù người đó rất đẹp, rất giàu, rất có điều kiện.",
+      "sentence": "Despite these conflicts, the person ___ beauty, wealth and favorable circumstances.",
+      "options": [
+        "possesses",
+        "merely promises",
+        "renounces",
+        "conceals"
+      ],
+      "answer": 0,
+      "rationales": [
+        "possesses: thực sự có những lợi thế ấy, giữ mô tả mặc dù vẫn hấp dẫn.",
+        "merely promises: chỉ hứa có lợi thế không giữ khẳng định rất đẹp rất giàu.",
+        "renounces: từ bỏ các lợi thế trái việc người đó có chúng.",
+        "conceals: giấu các lợi thế thêm chủ ý không có trong nguồn."
+      ],
+      "dimension": "justification versus prediction, delay, and disclosure"
+    },
+    {
+      "sourceCue": "Nhưng ta yêu điều Thiện hơn, nghĩ đến trách nhiệm hơn, tôn thờ đạo đức chung thủy hơn",
+      "targetVietnamese": "Nhưng ta yêu điều Thiện hơn, nghĩ đến trách nhiệm hơn, tôn thờ đạo đức chung thủy hơn",
+      "sentence": "We ___ goodness, responsibility and fidelity over the attraction of the relationship.",
+      "options": [
+        "prize",
+        "merely advertise",
+        "seek exemption from",
+        "bargain away"
+      ],
+      "answer": 0,
+      "rationales": [
+        "prize: coi trọng ba giá trị hơn sự hấp dẫn, giữ thứ tự ưu tiên nguồn.",
+        "merely advertise: chỉ khoe các giá trị không phải thực lòng coi trọng.",
+        "seek exemption from: xin miễn trách nhiệm và chung thủy trái hướng quyết định.",
+        "bargain away: đem đổi những giá trị ấy lấy lợi riêng ngược nội dung."
+      ],
+      "dimension": "valuing versus profession, publicity, and embodiment"
+    },
+    {
+      "sourceCue": "nên ta vượt qua sự mời gọi của họ.",
+      "targetVietnamese": "nên ta vượt qua sự mời gọi của họ.",
+      "sentence": "We therefore ___ their romantic advances.",
+      "options": [
+        "resist",
+        "resent",
+        "reciprocate",
+        "instigate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resist: không để mình bị cuốn theo; giữ sự vượt qua cám dỗ.",
+        "resent: thấy bực hoặc oán; thêm cảm xúc giận mà đoạn không nêu.",
+        "reciprocate: đáp lại cùng tình cảm; trái với kết quả từ chối theo nguyên tắc.",
+        "instigate: khơi mào; chuyển người được mời thành người chủ động tạo sự việc."
+      ],
+      "dimension": "resistance versus resentment, reciprocity, and initiation"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M063",
+  "sourceBlockId": "W09-B03",
+  "title": "Việc thiện trong những lựa chọn nhỏ",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Không chịu nói dối dù lời nói dối cho ta một điều lợi.",
+      "targetVietnamese": "Không chịu nói dối dù lời nói dối cho ta một điều lợi.",
+      "sentence": "Even when a lie would benefit us, we ___ .",
+      "options": [
+        "refuse to tell it",
+        "hesitate before telling it",
+        "retract it afterward",
+        "expose someone else’s lie"
+      ],
+      "answer": 0,
+      "rationales": [
+        "refuse to tell it: từ chối nói; giữ sự dứt khoát không làm điều có lợi nhưng sai.",
+        "hesitate before telling it: do dự rồi nói; làm nhẹ sự từ chối thành ngập ngừng.",
+        "retract it afterward: rút lời sau khi đã nói; thêm một hành động sai đã xảy ra.",
+        "expose someone else’s lie: vạch lời dối của người khác; đổi chủ thể của lựa chọn đạo đức."
+      ],
+      "dimension": "refusal versus hesitation, retraction, and exposure"
+    },
+    {
+      "sourceCue": "Chịu cực mất thêm thời gian đi nhặt rác dù không phải trách nhiệm của mình.",
+      "targetVietnamese": "Chịu cực mất thêm thời gian đi nhặt rác dù không phải trách nhiệm của mình.",
+      "sentence": "Although it is not our duty, we take the trouble and extra time to ___ litter.",
+      "options": [
+        "pick up",
+        "trace the source of",
+        "report",
+        "assign others to remove"
+      ],
+      "answer": 0,
+      "rationales": [
+        "pick up: tự nhặt rác, giữ công sức mình chịu làm thêm.",
+        "trace the source of: truy tìm nguồn rác chưa thực hiện dọn rác.",
+        "report: báo rác cho người khác không phải tự nhặt.",
+        "assign others to remove: giao người khác dọn đổi chủ thể chịu khó làm."
+      ],
+      "dimension": "direct service versus investigation, reporting, and delegation"
+    },
+    {
+      "sourceCue": "Có khi bị hiểu lầm, nhưng phải đưa nạn nhân đi cấp cứu tính mạng cái đã...",
+      "targetVietnamese": "Có khi bị hiểu lầm, nhưng phải đưa nạn nhân đi cấp cứu tính mạng cái đã...",
+      "sentence": "Despite possible misunderstanding, we must ___ getting the victim to life-saving emergency care.",
+      "options": [
+        "prioritize",
+        "postpone",
+        "delegate",
+        "announce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "prioritize: đặt lên trước; giữ chữ “cái đã” trong thứ tự hành động.",
+        "postpone: hoãn; đảo ưu tiên cứu người ngay, làm mất chữ “cái đã” của nguồn.",
+        "delegate: giao người khác làm; nguồn nhấn mình cần đưa nạn nhân đi trước, chưa nêu giao việc.",
+        "announce: thông báo sẽ làm; lời thông báo không thay cho ưu tiên thực hiện."
+      ],
+      "dimension": "priority versus postponement, delegation, and announcement"
+    },
+    {
+      "sourceCue": "Có khi bị hiểu lầm",
+      "targetVietnamese": "Có khi bị hiểu lầm",
+      "sentence": "Others may ___ our actions.",
+      "options": [
+        "misconstrue",
+        "reconstruct",
+        "corroborate",
+        "anticipate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "misconstrue: hiểu sai ý nghĩa sự việc; giữ điều bất lợi người giúp có thể gặp.",
+        "reconstruct: dựng lại diễn biến; thêm thao tác hồi dựng, không nói sự hiểu nhầm.",
+        "corroborate: xác nhận bằng chứng hỗ trợ; nói tăng độ tin cậy thay vì hiểu sai.",
+        "anticipate: dự liệu; chuyển từ cách hiểu sang thời điểm biết trước."
+      ],
+      "dimension": "misinterpretation versus reconstruction and corroboration"
+    },
+    {
+      "sourceCue": "lòng thanh thản vì lương tâm trong sáng.",
+      "targetVietnamese": "lòng thanh thản vì lương tâm trong sáng.",
+      "sentence": "A clear conscience ___ peace of mind.",
+      "options": [
+        "brings",
+        "demands",
+        "merely simulates",
+        "is mistaken for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "brings: đem lại; giữ lương tâm là nền của sự thanh thản.",
+        "demands: đòi hỏi; đảo sự thanh thản từ kết quả thành yêu cầu.",
+        "merely simulates: chỉ tạo vẻ như có; thêm tính giả tạo trái với lợi ích thật trong đoạn.",
+        "is mistaken for: bị nhầm là; đồng nhất sai hai khái niệm thay vì giữ quan hệ nguyên nhân."
+      ],
+      "dimension": "beneficial cause versus demand, simulation, and mistaken identity"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M064",
+  "sourceBlockId": "W09-B04",
+  "title": "Ưu tiên cho mình hay hướng đến người",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Đạo đức cũng có một thước đo khác, đó là Khuynh hướng Vì mình hay Vì người.",
+      "targetVietnamese": "Đạo đức cũng có một thước đo khác, đó là Khuynh hướng Vì mình hay Vì người.",
+      "sentence": "Orientation toward self or others ___ a measure of morality.",
+      "options": [
+        "provides",
+        "merely predicts",
+        "abolishes",
+        "is excused by"
+      ],
+      "answer": 0,
+      "rationales": [
+        "provides: được dùng làm thước đo đạo đức, đúng tiêu chí nguồn giới thiệu.",
+        "merely predicts: chỉ dự báo sẽ có thước đo không phải chính nó làm thước đo.",
+        "abolishes: xóa thước đo là chiều ngược với nêu thêm thước đo.",
+        "is excused by: được thước đo miễn lỗi đổi vai và chức năng đánh giá."
+      ],
+      "dimension": "assessment criterion versus prediction, attribution, and exemption"
+    },
+    {
+      "sourceCue": "Ta lo cho mình ăn no, mặc ấm trước, rồi mới nghĩ đến người khác sau.",
+      "targetVietnamese": "Ta lo cho mình ăn no, mặc ấm trước, rồi mới nghĩ đến người khác sau.",
+      "sentence": "We ___ our own food and clothing needs, considering others only afterward.",
+      "options": [
+        "give precedence to",
+        "maximize",
+        "suppress",
+        "delegate responsibility for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give precedence to: đặt nhu cầu mình trước người khác, giữ trọng tâm thứ tự ưu tiên.",
+        "maximize: tăng nhu cầu mình đến tối đa thêm mức tham cầu nguồn không nói.",
+        "suppress: đè nén nhu cầu mình trái việc lo cho mình trước.",
+        "delegate responsibility for: giao trách nhiệm cho người khác thêm sự ủy thác ngoài nguồn."
+      ],
+      "dimension": "priority versus provision, responsibility, and credit"
+    },
+    {
+      "sourceCue": "Nếu để tự nhiên không giáo dục, bản năng vị kỷ tự động điều khiển hành vi ý nghĩ của ta thành một lối sống kém đạo đức.",
+      "targetVietnamese": "Nếu để tự nhiên không giáo dục, bản năng vị kỷ tự động điều khiển hành vi ý nghĩ của ta thành một lối sống kém đạo đức.",
+      "sentence": "Without education, selfish instinct automatically ___ our thoughts and behavior toward an unethical way of life.",
+      "options": [
+        "steers",
+        "reflects",
+        "discloses",
+        "excuses"
+      ],
+      "answer": 0,
+      "rationales": [
+        "steers: lái hướng, điều khiển; giữ bản năng là lực dẫn hành vi.",
+        "reflects: phản ánh; đảo hướng từ tác động đến biểu hiện.",
+        "discloses: tiết lộ; chuyển lực gây hành vi thành nguồn thông tin.",
+        "excuses: bào chữa; nguồn chỉ nhận diện bản năng, không miễn trách nhiệm vì có bản năng."
+      ],
+      "dimension": "causal guidance versus reflection, disclosure, and excuse"
+    },
+    {
+      "sourceCue": "Chỉ khi có giáo dục, chỉ khi có sự thức tỉnh của trí tuệ, ta mới chống lại khuynh hướng Vị kỷ để biết sống Vị tha.",
+      "targetVietnamese": "Chỉ khi có giáo dục, chỉ khi có sự thức tỉnh của trí tuệ, ta mới chống lại khuynh hướng Vị kỷ để biết sống Vị tha.",
+      "sentence": "Only through education and awakened understanding can we ___ selfish tendencies and learn altruism.",
+      "options": [
+        "resist",
+        "rationalize",
+        "rename",
+        "dramatize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resist: chống lại sự dẫn dắt của nó; giữ hướng chuyển từ vị kỷ sang vị tha.",
+        "rationalize: hợp thức hóa bằng lý lẽ; biến trí tuệ thành công cụ bảo vệ vị kỷ.",
+        "rename: đổi tên; chỉ thay nhãn thay vì cách sống.",
+        "dramatize: làm nổi bật hoặc cường điệu; không giữ hành động đối trị."
+      ],
+      "dimension": "opposition versus rationalization, relabeling, and dramatization"
+    },
+    {
+      "sourceCue": "để biết sống Vị tha.",
+      "targetVietnamese": "để biết sống Vị tha.",
+      "sentence": "We learn to ___ others' welfare.",
+      "options": [
+        "serve",
+        "merely forecast",
+        "take credit for",
+        "legislate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "serve: sống hướng lợi ích người khác, đúng hướng vị tha được giải thích.",
+        "merely forecast: chỉ dự báo lợi ích không làm gì phục vụ.",
+        "take credit for: nhận công lợi ích không bảo đảm thực sự giúp người.",
+        "legislate: ban luật về lợi ích thêm vai trò nguồn không yêu cầu."
+      ],
+      "dimension": "beneficiary and motive"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M065",
+  "sourceBlockId": "W09-B05",
+  "title": "Nhường phần mình qua năm hành động khác nhau",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Người cha giả vờ nhâm nhi cốc rượu nói chuyện đủ thứ để chờ các con mình ăn no còn gì thừa lại gì ông mới ăn sau.",
+      "targetVietnamese": "Người cha giả vờ nhâm nhi cốc rượu nói chuyện đủ thứ để chờ các con mình ăn no còn gì thừa lại gì ông mới ăn sau.",
+      "sentence": "Waiting for his children to eat their fill before he eats what remains, the father ___ .",
+      "options": [
+        "pretends to linger over his wine",
+        "openly asks them to save a portion for him",
+        "insists on finishing his drink before serving them",
+        "invites them to wait while he eats first"
+      ],
+      "answer": 0,
+      "rationales": [
+        "pretends to linger over his wine: làm ra vẻ đang nhâm nhi; giữ hành vi che việc mình nhường phần ăn.",
+        "openly asks them to save a portion for him: công khai xin chừa phần; trái với cách âm thầm chờ phần dư.",
+        "insists on finishing his drink before serving them: đặt chuyện uống của mình trước việc cho con ăn; đổi mục đích của sự chờ.",
+        "invites them to wait while he eats first: cho mình ăn trước; đảo thứ tự người được ưu tiên."
+      ],
+      "dimension": "concealed self-denial versus explicit claim and reversed priority"
+    },
+    {
+      "sourceCue": "Số tiền dành dụm định mua chiếc xe máy mới nhưng thôi đành lấy ra giúp đỡ hàng xóm lâm cảnh tai ương hoạn nạn.",
+      "targetVietnamese": "Số tiền dành dụm định mua chiếc xe máy mới nhưng thôi đành lấy ra giúp đỡ hàng xóm lâm cảnh tai ương hoạn nạn.",
+      "sentence": "To help the stricken neighbor, we ___ the money saved for a new motorcycle.",
+      "options": [
+        "disburse",
+        "pledge",
+        "earmark",
+        "raise"
+      ],
+      "answer": 0,
+      "rationales": [
+        "disburse: chi tiền ra; giữ việc khoản tiết kiệm thực sự được dùng để giúp.",
+        "pledge: hứa sẽ cấp; làm việc chi tiền đã diễn ra thành lời cam kết.",
+        "earmark: dành riêng cho một mục đích; mới là phân bổ dự định, chưa phải chi ra.",
+        "raise: huy động hoặc kiếm được; đổi việc dùng tiền đã có thành tạo nguồn tiền."
+      ],
+      "dimension": "actual payment versus pledge, allocation, and fundraising"
+    },
+    {
+      "sourceCue": "nên ta đành nán lại rất lâu giải quyết hồ sơ cho ông để ông khỏi phải trở lại hôm sau.",
+      "targetVietnamese": "nên ta đành nán lại rất lâu giải quyết hồ sơ cho ông để ông khỏi phải trở lại hôm sau.",
+      "sentence": "Despite the end of work and an approaching party, we ___ so the older man need not return tomorrow.",
+      "options": [
+        "stay behind to process his paperwork",
+        "defer processing his paperwork",
+        "refer his paperwork elsewhere",
+        "promise to review his paperwork tomorrow"
+      ],
+      "answer": 0,
+      "rationales": [
+        "stay behind to process his paperwork: tự nán lại giải quyết ngay, giữ sự nhường thời gian của mình.",
+        "defer processing his paperwork: hoãn xử lý trái mục đích không bắt ông trở lại ngày sau.",
+        "refer his paperwork elsewhere: chuyển người khác làm bỏ hành động tự nán lại.",
+        "promise to review his paperwork tomorrow: chỉ hẹn mai xem trái thời điểm giải quyết hiện tại."
+      ],
+      "dimension": "immediate service versus deferral and referral"
+    },
+    {
+      "sourceCue": "Mới cắn được một miếng mà thấy con chó gầy nhìn chăm chăm khúc bánh mì, biết nó đói lắm, thôi thả hết cho nó ăn.",
+      "targetVietnamese": "Mới cắn được một miếng mà thấy con chó gầy nhìn chăm chăm khúc bánh mì, biết nó đói lắm, thôi thả hết cho nó ăn.",
+      "sentence": "On seeing the thin, hungry dog stare at the bread after only one bite, we ___ .",
+      "options": [
+        "give it all the remaining bread",
+        "set aside a small share of the bread for it",
+        "offer the bread in exchange for a trick",
+        "save the bread to give it later"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give it all the remaining bread: cho hết phần còn lại; giữ lượng và việc trao ngay.",
+        "set aside a small share of the bread for it: chỉ để một phần ít; làm mất lượng “hết”.",
+        "offer the bread in exchange for a trick: trao có điều kiện; thêm việc đòi con vật làm gì để đổi lấy.",
+        "save the bread to give it later: hoãn việc cho; đổi thời điểm trước nhu cầu đói ngay lúc ấy."
+      ],
+      "dimension": "whole gift versus partial, conditional, and delayed giving"
+    },
+    {
+      "sourceCue": "Ba lần gặp liên tiếp mà anh bạn chỉ mặc đúng một chiếc áo đó, thôi lấy chiếc áo mới mua trong túi xách ra tặng luôn.",
+      "targetVietnamese": "Ba lần gặp liên tiếp mà anh bạn chỉ mặc đúng một chiếc áo đó, thôi lấy chiếc áo mới mua trong túi xách ra tặng luôn.",
+      "sentence": "After seeing the friend wear the same shirt three times running, we ___ him our newly bought shirt.",
+      "options": [
+        "give",
+        "lend",
+        "sell",
+        "show"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give: tặng, chuyển đồ cho bạn không đòi hoàn lại hay trả tiền; giữ việc cho hẳn.",
+        "lend: cho mượn, còn mong trả lại; không giữ sắc thái “tặng luôn”.",
+        "sell: bán để lấy tiền, thêm một giao dịch đổi chác không có trong hành động tặng luôn.",
+        "show: cho xem; có thể lấy áo ra nhưng chưa hề chuyển nó cho bạn sở hữu."
+      ],
+      "dimension": "gift versus loan, sale, and display"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M066",
+  "sourceBlockId": "W09-B06",
+  "title": "Vị tha thành thói quen, phụng sự hơn thụ hưởng",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Ban đầu, thay đổi từ lối sống Vì mình sang Vì người rất khó khăn.",
+      "targetVietnamese": "Ban đầu, thay đổi từ lối sống Vì mình sang Vì người rất khó khăn.",
+      "sentence": "At first, it is difficult to ___ .",
+      "options": [
+        "shift from self-centered living to living for others",
+        "resume an established habit of living for others",
+        "teach others to place their interests first",
+        "reconcile others to a permanently selfish way of life"
+      ],
+      "answer": 0,
+      "rationales": [
+        "shift from self-centered living to living for others: chuyển nếp sống từ mình sang người; giữ hướng và tính mới ban đầu.",
+        "resume an established habit of living for others: quay lại thói quen vị tha đã có; thêm lịch sử gián đoạn.",
+        "teach others to place their interests first: dạy người khác ưu tiên bản thân; đổi chủ thể học và hướng ưu tiên.",
+        "reconcile others to a permanently selfish way of life: làm người khác cam chịu vị kỷ; đảo mục tiêu giáo dục."
+      ],
+      "dimension": "direction and stage of a behavioral transition"
+    },
+    {
+      "sourceCue": "Đến khi lối sống Vì người đã trở thành thói quen tự nhiên thì phát hiện rằng hạnh phúc chính là đây.",
+      "targetVietnamese": "Đến khi lối sống Vì người đã trở thành thói quen tự nhiên thì phát hiện rằng hạnh phúc chính là đây.",
+      "sentence": "We discover true happiness when living for others ___ .",
+      "options": [
+        "becomes second nature",
+        "becomes a calculated exchange",
+        "is maintained only under supervision",
+        "is formally imposed as a public duty"
+      ],
+      "answer": 0,
+      "rationales": [
+        "becomes second nature: thành nếp tự nhiên, không còn lạ lẫm; đúng thành ngữ cho thói quen đã thấm.",
+        "becomes a calculated exchange: thành trao đổi có tính toán; thêm mục đích có đi có lại.",
+        "is maintained only under supervision: chỉ giữ được nhờ giám sát; trái tính tự nhiên.",
+        "is formally imposed as a public duty: do bên ngoài áp đặt bằng bổn phận; đổi nguồn gốc của nếp sống."
+      ],
+      "dimension": "internalized habit versus calculation and external enforcement"
+    },
+    {
+      "sourceCue": "Lối sống Vị kỷ cho ta cảm giác khoái chí tầm thường.",
+      "targetVietnamese": "Lối sống Vị kỷ cho ta cảm giác khoái chí tầm thường.",
+      "sentence": "Self-centered living ___ ordinary gratification.",
+      "options": [
+        "offers",
+        "merely simulates",
+        "demands in return",
+        "is mistaken for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "offers: đem lại khoái chí tầm thường, đúng loại lợi ích nguồn nêu.",
+        "merely simulates: chỉ giả vẻ khoái chí phủ nhận cảm giác thật được nêu.",
+        "demands in return: đòi được trả bằng khoái chí thêm trao đổi không có.",
+        "is mistaken for: bị nhầm là khoái chí đổi quan hệ gây cảm giác thành đồng nhất sai."
+      ],
+      "dimension": "kind of benefit and ethical direction"
+    },
+    {
+      "sourceCue": "Các tôn giáo có phong thánh cho ai cũng phải lấy cuộc sống vị tha của vị đó làm tiêu chuẩn.",
+      "targetVietnamese": "Các tôn giáo có phong thánh cho ai cũng phải lấy cuộc sống vị tha của vị đó làm tiêu chuẩn.",
+      "sentence": "When religions ___ someone, that person's altruistic life must be the criterion.",
+      "options": [
+        "canonize",
+        "ordain",
+        "absolve",
+        "appoint"
+      ],
+      "answer": 0,
+      "rationales": [
+        "canonize: chính thức công nhận một người là thánh; giữ hành động phong thánh.",
+        "ordain: truyền chức hoặc cho thọ giới; không phải công nhận thánh.",
+        "absolve: tha tội; giải quyết lỗi, không phải tuyên thánh.",
+        "appoint: bổ nhiệm chức vụ; thêm địa vị tổ chức thay vì danh hiệu thánh."
+      ],
+      "dimension": "institutional religious acts"
+    },
+    {
+      "sourceCue": "ta sẽ thích cống hiến nhiều hơn thụ hưởng",
+      "targetVietnamese": "ta sẽ thích cống hiến nhiều hơn thụ hưởng",
+      "sentence": "We prefer to ___ .",
+      "options": [
+        "contribute more than one consumes",
+        "renounce every right to enjoyment",
+        "make service conditional on a reward",
+        "consume first and contribute only what remains"
+      ],
+      "answer": 0,
+      "rationales": [
+        "contribute more than one consumes: ưu tiên cho đi nhiều hơn nhận; giữ phép so sánh chứ không xóa quyền thụ hưởng.",
+        "renounce every right to enjoyment: từ bỏ hết quyền vui hưởng; làm cực đoan hơn câu nguồn, vốn thừa nhận quyền ấy.",
+        "make service conditional on a reward: phục vụ với điều kiện được trả; thêm động cơ đổi chác.",
+        "consume first and contribute only what remains: nhận trước rồi cho phần dư; đảo thứ tự ưu tiên."
+      ],
+      "dimension": "comparative preference versus absolute renunciation and conditional service"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M067",
+  "sourceBlockId": "W09-B07",
+  "title": "Lo cho mình như phương tiện phục vụ người",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Tuy nhiên, việc quyết liệt từ chối mọi sự thụ hưởng cũng là cực đoan.",
+      "targetVietnamese": "Tuy nhiên, việc quyết liệt từ chối mọi sự thụ hưởng cũng là cực đoan.",
+      "sentence": "Resolutely renouncing every form of enjoyment ___ an extreme position.",
+      "options": [
+        "constitutes",
+        "merely resembles",
+        "predicts",
+        "guards against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "constitutes: tự nó là một cực đoan, giữ lời đánh giá trực tiếp của nguồn.",
+        "merely resembles: chỉ giống một cực đoan vẫn chưa khẳng định đó là cực đoan.",
+        "predicts: báo trước một cực đoan về sau khác hiện tại đã là cực đoan.",
+        "guards against: ngăn cực đoan trái lời phê bình từ chối toàn bộ là quá mức."
+      ],
+      "dimension": "scope of a rejection"
+    },
+    {
+      "sourceCue": "Người cha phải ăn no để đi cày ruộng làm lúa nuôi gia đình.",
+      "targetVietnamese": "Người cha phải ăn no để đi cày ruộng làm lúa nuôi gia đình.",
+      "sentence": "The father must eat enough to plow and grow rice to ___ his family.",
+      "options": [
+        "provide for",
+        "gain authority over",
+        "seek approval from",
+        "claim priority within"
+      ],
+      "answer": 0,
+      "rationales": [
+        "provide for: lo vật chất nuôi gia đình; đúng mục đích của việc giữ sức.",
+        "gain authority over: giành quyền lực; thêm một động cơ thống trị.",
+        "seek approval from: muốn gia đình tán thành; đổi lợi ích được cung cấp thành lời công nhận nhận về.",
+        "claim priority within: đòi vị trí ưu tiên; không giữ mục đích nuôi người thân."
+      ],
+      "dimension": "provision versus power, approval, and entitlement"
+    },
+    {
+      "sourceCue": "Doanh nhân gắng hà tiện từng đồng để doanh nghiệp tồn tại cho nhân viên có việc làm ổn định.",
+      "targetVietnamese": "Doanh nhân gắng hà tiện từng đồng để doanh nghiệp tồn tại cho nhân viên có việc làm ổn định.",
+      "sentence": "The business owner ___ to keep the firm going and preserve stable jobs for the employees.",
+      "options": [
+        "economizes",
+        "withholds wages",
+        "liquidates the business",
+        "inflates the accounts"
+      ],
+      "answer": 0,
+      "rationales": [
+        "economizes: tiết giảm chi dùng; giữ việc chắt chiu nhằm duy trì doanh nghiệp.",
+        "withholds wages: giữ lại tiền lương phải trả; thêm việc gây hại quyền lợi nhân viên.",
+        "liquidates the business: thanh lý công ty; trái mục tiêu giữ công ty tồn tại.",
+        "inflates the accounts: làm số liệu tài chính cao giả; thêm gian lận không có trong câu."
+      ],
+      "dimension": "economy versus nonpayment, liquidation, and misstatement"
+    },
+    {
+      "sourceCue": "Nhà nước phải kiểm tra việc đóng thuế gắt gao để có ngân sách trả lương cho công chức.",
+      "targetVietnamese": "Nhà nước phải kiểm tra việc đóng thuế gắt gao để có ngân sách trả lương cho công chức.",
+      "sentence": "To fund public employees' salaries, the state must ___ .",
+      "options": [
+        "scrutinize tax compliance",
+        "raise every tax rate",
+        "waive unpaid taxes",
+        "divert payroll funds into tax refunds"
+      ],
+      "answer": 0,
+      "rationales": [
+        "scrutinize tax compliance: xem xét kỹ việc thực hiện nghĩa vụ thuế; giữ hành động kiểm tra.",
+        "raise every tax rate: tăng mọi mức thuế; kiểm tra thu có đủ không khác với tăng mức phải đóng.",
+        "waive unpaid taxes: miễn tiền chưa nộp; đảo hướng thu ngân sách.",
+        "divert payroll funds into tax refunds: chuyển tiền lương sang hoàn thuế; đảo hướng sử dụng ngân sách."
+      ],
+      "dimension": "compliance scrutiny versus taxation and expenditure decisions"
+    },
+    {
+      "sourceCue": "Cơ trưởng đành bỏ mặc phi công phụ ngất xỉu để tập trung điều khiển máy bay tìm chỗ hạ cánh an toàn.",
+      "targetVietnamese": "Cơ trưởng đành bỏ mặc phi công phụ ngất xỉu để tập trung điều khiển máy bay tìm chỗ hạ cánh an toàn.",
+      "sentence": "Leaving the unconscious copilot unattended, the captain ___ .",
+      "options": [
+        "concentrates on flying and finding a safe place to land",
+        "delegates the landing to the copilot",
+        "abandons the aircraft to seek help",
+        "turns the flight over to a passenger"
+      ],
+      "answer": 0,
+      "rationales": [
+        "concentrates on flying and finding a safe place to land: tập trung vào hạ cánh; giữ nhiệm vụ bảo toàn cả chuyến bay.",
+        "delegates the landing to the copilot: giao việc cho người đang ngất; đổi chủ thể hành động và trái hoàn cảnh.",
+        "abandons the aircraft to seek help: rời bỏ máy bay; trái việc tiếp tục điều khiển.",
+        "turns the flight over to a passenger: giao chuyến bay cho hành khách; thêm việc bàn giao không có trong nguồn."
+      ],
+      "dimension": "priority of direct action versus delegation and abandonment"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M068",
+  "sourceBlockId": "W09-B08",
+  "title": "Hình thành vị tha bằng nguyện và khuyên",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Muốn thành hình được khuynh hướng Vị tha cao quý",
+      "targetVietnamese": "Muốn thành hình được khuynh hướng Vị tha cao quý",
+      "sentence": "The aim is to ___ a noble altruistic disposition within ourselves.",
+      "options": [
+        "cultivate",
+        "simulate",
+        "advertise",
+        "diagnose"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cultivate: chủ động nuôi dưỡng để hình thành; giữ chiều hướng rèn một phẩm chất.",
+        "simulate: giả lập vẻ như có; không phải nếp vị tha thật.",
+        "advertise: quảng bá rằng mình có; đổi rèn tâm thành gây ấn tượng.",
+        "diagnose: nhận diện một trạng thái đã có; chưa nói hình thành phẩm chất mới."
+      ],
+      "dimension": "development versus imitation, publicity, and identification"
+    },
+    {
+      "sourceCue": "chúng ta phải yêu kính ngưỡng mộ các bậc thánh vị tha.",
+      "targetVietnamese": "chúng ta phải yêu kính ngưỡng mộ các bậc thánh vị tha.",
+      "sentence": "We must ___ altruistic noble ones.",
+      "options": [
+        "venerate",
+        "canonize",
+        "ordain",
+        "absolve"
+      ],
+      "answer": 0,
+      "rationales": [
+        "venerate: kính ngưỡng sâu sắc; giữ quan hệ của người học đối với bậc thánh.",
+        "canonize: chính thức tuyên thánh; thêm thẩm quyền công nhận tôn giáo.",
+        "ordain: truyền chức hoặc giới; không phải bày tỏ kính ngưỡng.",
+        "absolve: tha tội; đổi vai trò người kính thành người có quyền giải tội."
+      ],
+      "dimension": "reverence versus institutional religious acts"
+    },
+    {
+      "sourceCue": "Chúng ta cũng phải tự tâm nguyện sẽ sống vị tha.",
+      "targetVietnamese": "Chúng ta cũng phải tự tâm nguyện sẽ sống vị tha.",
+      "sentence": "We must also ___ .",
+      "options": [
+        "resolve to live altruistically",
+        "expect to be altruistic without making a commitment",
+        "pretend to have adopted an altruistic life",
+        "claim that we already live altruistically"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resolve to live altruistically: tự quyết tâm sống vị tha; giữ sức cam kết bên trong của tâm nguyện.",
+        "expect to be altruistic without making a commitment: chỉ kỳ vọng mà không quyết tâm; mất hành vi tự nguyện.",
+        "pretend to have adopted an altruistic life: giả vờ đã sống vị tha; trái tính thật lòng nguồn nhấn.",
+        "claim that we already live altruistically: tự nhận hiện đã sống như thế; đổi lời nguyện thành tuyên bố đã có phẩm chất."
+      ],
+      "dimension": "commitment versus expectation, pretense, and completed claim"
+    },
+    {
+      "sourceCue": "Chúng ta khéo khuyên mọi người cùng sống vị tha.",
+      "targetVietnamese": "Chúng ta khéo khuyên mọi người cùng sống vị tha.",
+      "sentence": "We should tactfully ___ everyone to live altruistically together.",
+      "options": [
+        "encourage",
+        "coerce",
+        "bribe",
+        "authorize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "encourage: khuyến khích, động viên; giữ cách hướng dẫn không ép buộc.",
+        "coerce: cưỡng ép; nâng lời khuyên thành dùng áp lực.",
+        "bribe: dùng lợi ích mua chuộc; thêm động cơ đổi chác.",
+        "authorize: cấp phép; giả định người kia cần quyền mình mới được sống vị tha."
+      ],
+      "dimension": "encouragement versus compulsion, inducement, and permission"
+    },
+    {
+      "sourceCue": "Đừng chê trách kẻ sống vị kỷ, chỉ gắng tìm cách khuyên bảo thôi.",
+      "targetVietnamese": "Đừng chê trách kẻ sống vị kỷ, chỉ gắng tìm cách khuyên bảo thôi.",
+      "sentence": "Rather than ___ selfish people, we should simply try to find ways to counsel them.",
+      "options": [
+        "censure",
+        "condone",
+        "exonerate",
+        "compensate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "censure: chê trách hoặc bày tỏ sự lên án; đúng hành vi bị ngăn trong lời dạy.",
+        "condone: dung túng; không chê trách không có nghĩa là đã coi lối sống ấy đúng.",
+        "exonerate: minh oan; nguồn không nói họ vô tội hay bị quy sai.",
+        "compensate: bồi thường; thêm nghĩa vụ bù thiệt hại không có."
+      ],
+      "dimension": "censure versus approval, exoneration, and compensation"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M069",
+  "sourceBlockId": "W09-B09",
+  "title": "Chọn chỗ nương tựa mà vẫn mở lòng nâng đỡ",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "chọn Tăng Ni có giới định tuệ để nương tựa học hỏi tu hành",
+      "targetVietnamese": "chọn Tăng Ni có giới định tuệ để nương tựa học hỏi tu hành",
+      "sentence": "Lay practitioners should ___ monastics accomplished in moral discipline, meditation and wisdom for guidance in practice.",
+      "options": [
+        "turn to",
+        "speak for",
+        "take charge of",
+        "vouch for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "turn to: tìm đến để được chỉ dẫn; giữ người tu sĩ là nguồn giúp đỡ.",
+        "speak for: đại diện phát ngôn; đổi hướng quan hệ hỗ trợ.",
+        "take charge of: đứng ra quản lý; biến người học thành người quản lý người dạy.",
+        "vouch for: đứng ra bảo đảm phẩm chất; thêm thẩm quyền chứng nhận thay vì nương học."
+      ],
+      "dimension": "seeking guidance versus representation, management, and endorsement"
+    },
+    {
+      "sourceCue": "và cũng rộng lòng ‘đầu tư’ cho Tăng Ni còn non yếu để ngày sau các vị này tiến lên làm lợi ích cho chúng sinh.",
+      "targetVietnamese": "và cũng rộng lòng ‘đầu tư’ cho Tăng Ni còn non yếu để ngày sau các vị này tiến lên làm lợi ích cho chúng sinh.",
+      "sentence": "They should also generously ___ less developed monastics so they may later progress and benefit sentient beings.",
+      "options": [
+        "support",
+        "accredit",
+        "promote to senior rank",
+        "absolve"
+      ],
+      "answer": 0,
+      "rationales": [
+        "support: nâng đỡ, giúp có điều kiện tiến bộ; giữ nghĩa rộng của “đầu tư” trong đoạn.",
+        "accredit: chính thức công nhận đủ chuẩn; nhảy từ hỗ trợ rèn luyện sang chứng nhận năng lực.",
+        "promote to senior rank: nâng chức; thêm địa vị trong tổ chức.",
+        "absolve: tha lỗi; không phải cung cấp điều kiện cho người còn non tu tiến."
+      ],
+      "dimension": "developmental support versus certification and promotion"
+    },
+    {
+      "sourceCue": "Chỉ trừ trường hợp mà Tăng Ni bộc lộ sự yếu kém đạo đức, lại ngoan cố không chịu tu sửa thì ta phải tránh đi.",
+      "targetVietnamese": "Chỉ trừ trường hợp mà Tăng Ni bộc lộ sự yếu kém đạo đức, lại ngoan cố không chịu tu sửa thì ta phải tránh đi.",
+      "sentence": "Only if a monastic displays moral failings and stubbornly refuses to reform should we ___ .",
+      "options": [
+        "keep away from that monastic",
+        "condemn the entire monastic community",
+        "overlook the refusal to reform",
+        "entrust that monastic with more authority"
+      ],
+      "answer": 0,
+      "rationales": [
+        "keep away from that monastic: tránh người cụ thể trong điều kiện đã nêu; giữ đúng phạm vi ngoại lệ.",
+        "condemn the entire monastic community: lên án cả cộng đồng; mở rộng từ trường hợp cá nhân ra tất cả.",
+        "overlook the refusal to reform: bỏ qua sự ngoan cố; trái với ngoại lệ mà nguồn yêu cầu phải tránh.",
+        "entrust that monastic with more authority: giao thêm quyền; không phải giữ khoảng cách."
+      ],
+      "dimension": "qualified avoidance versus generalization and misplaced trust"
+    },
+    {
+      "sourceCue": "dù thân cận, dù được tin cậy, cư sĩ cũng phải giữ khoảng cách chừng mực",
+      "targetVietnamese": "dù thân cận, dù được tin cậy, cư sĩ cũng phải giữ khoảng cách chừng mực",
+      "sentence": "Even when close and trusted, lay followers must ___ .",
+      "options": [
+        "maintain appropriate boundaries",
+        "sever all contact",
+        "claim unrestricted access",
+        "withdraw all material support"
+      ],
+      "answer": 0,
+      "rationales": [
+        "maintain appropriate boundaries: giữ giới hạn phù hợp trong quan hệ; không phủ định sự thân cận đúng mực.",
+        "sever all contact: cắt toàn bộ liên hệ; làm mạnh “giữ khoảng cách” thành tuyệt giao.",
+        "claim unrestricted access: đòi được tiếp cận không giới hạn; đảo yêu cầu tự giữ chừng mực.",
+        "withdraw all material support: dừng mọi hỗ trợ; đổi giới hạn quan hệ thành cắt trợ giúp."
+      ],
+      "dimension": "boundaries versus severance, entitlement, and withdrawal of aid"
+    },
+    {
+      "sourceCue": "Hỗ trợ các việc có tính thế tục",
+      "targetVietnamese": "Hỗ trợ các việc có tính thế tục",
+      "sentence": "In secular tasks, lay followers may ___ .",
+      "options": [
+        "assist monastics",
+        "speak for monastics",
+        "act in place of monastics",
+        "exercise authority over monastics"
+      ],
+      "answer": 0,
+      "rationales": [
+        "assist monastics: phụ giúp; giữ người cư sĩ ở vai trò hỗ trợ công việc.",
+        "speak for monastics: đại diện phát ngôn; trợ giúp việc đời chưa tự trao quyền phát ngôn.",
+        "act in place of monastics: thay vị trí người tu; vượt vai trò phụ giúp được nêu.",
+        "exercise authority over monastics: quản lý, có quyền trên người tu; đảo vị thế hỗ trợ thành điều khiển."
+      ],
+      "dimension": "assistance versus substitution, credentialing, and absolution"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M070",
+  "sourceBlockId": "W09-B10",
+  "title": "Làm phước giữa sinh kế: nhận cơ hội và lượng sức",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Tuy nhiên, mọi người chỉ tất bật lo hái trái để ăn chứ ít ai biết vừa hái trái vừa gieo hạt trồng thêm cây mới.",
+      "targetVietnamese": "Tuy nhiên, mọi người chỉ tất bật lo hái trái để ăn chứ ít ai biết vừa hái trái vừa gieo hạt trồng thêm cây mới.",
+      "sentence": "Few people know how to ___ while picking fruit to eat.",
+      "options": [
+        "sow for future harvests",
+        "live exclusively on stored fruit",
+        "uproot the remaining trees",
+        "claim ownership of every seed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sow for future harvests: gieo hạt cho vụ sau; giữ cả hưởng quả và tạo điều kiện mới.",
+        "live exclusively on stored fruit: chỉ tiêu dùng thứ đang có; chính là thái độ đoạn phê bình.",
+        "uproot the remaining trees: nhổ cây; trái hướng trồng thêm.",
+        "claim ownership of every seed: nhận hết hạt là của mình; thêm vấn đề sở hữu không có trong ví dụ."
+      ],
+      "dimension": "renewal versus mere consumption and depletion"
+    },
+    {
+      "sourceCue": "Việc làm phước thì tùy duyên, ngẫu nhiên, bất chợt, và ta phải nhìn thấy cơ hội đó",
+      "targetVietnamese": "Việc làm phước thì tùy duyên, ngẫu nhiên, bất chợt, và ta phải nhìn thấy cơ hội đó",
+      "sentence": "We must ___ opportunities to create blessings when they arise by chance.",
+      "options": [
+        "recognize",
+        "manufacture",
+        "guarantee",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "recognize: nhận ra cơ hội đang đến; giữ vai trò biết thấy điều tình cờ.",
+        "manufacture: tạo dựng cơ hội; đổi một việc bất chợt thành thiết kế có chủ ý.",
+        "guarantee: bảo đảm cơ hội; thêm quyền kiểm soát điều kiện chưa có.",
+        "publicize: làm mọi người biết; thêm thông báo ra ngoài thay vì nhận biết của chính mình."
+      ],
+      "dimension": "recognition versus construction, assurance, and publicity"
+    },
+    {
+      "sourceCue": "rồi tự đánh giá khả năng của mình",
+      "targetVietnamese": "rồi tự đánh giá khả năng của mình",
+      "sentence": "We must then ___ our own capacity.",
+      "options": [
+        "appraise",
+        "advertise",
+        "overstate",
+        "certify"
+      ],
+      "answer": 0,
+      "rationales": [
+        "appraise: đánh giá khả năng thực có; giữ bước tự lượng sức.",
+        "advertise: quảng bá năng lực; chuyển nhận định cho mình thành gây ấn tượng với người khác.",
+        "overstate: nói quá khả năng; trái yêu cầu tự đánh giá đúng.",
+        "certify: tuyên chứng nhận đủ năng lực; tự lượng sức không phải cấp một sự bảo đảm chính thức."
+      ],
+      "dimension": "self-assessment versus publicity, exaggeration, and delegation"
+    },
+    {
+      "sourceCue": "làm sao làm phước mà không ảnh hưởng đến đời sống gia đình gây xung đột không hay.",
+      "targetVietnamese": "làm sao làm phước mà không ảnh hưởng đến đời sống gia đình gây xung đột không hay.",
+      "sentence": "Creating blessings should not ___ family life or cause harmful conflicts.",
+      "options": [
+        "disrupt",
+        "redefine",
+        "formalize",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "disrupt: làm xáo trộn, gây gián đoạn; giữ tác động có hại cần tránh.",
+        "redefine: định nghĩa lại; thêm thay đổi quan niệm thay vì xung đột trong sinh hoạt.",
+        "formalize: làm thành quy thức chính thức; không diễn tả tổn hại gia đình.",
+        "publicize: đưa ra công chúng; đổi loại tác động sang sự riêng tư và thông tin."
+      ],
+      "dimension": "disruption versus conceptual, formal, and public change"
+    },
+    {
+      "sourceCue": "Ta đánh giá đạo tâm của một người dựa trên Niềm khát khao làm phước của người đó.",
+      "targetVietnamese": "Ta đánh giá đạo tâm của một người dựa trên Niềm khát khao làm phước của người đó.",
+      "sentence": "Our assessment of a person's dedication to practice ___ their longing to create blessings.",
+      "options": [
+        "rests on",
+        "dispenses with",
+        "calls into question",
+        "gives rise to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "rests on: lấy đó làm căn cứ; giữ hướng từ niềm khát khao sang đánh giá.",
+        "dispenses with: bỏ qua, không cần; trái tiêu chí nguồn nhấn.",
+        "calls into question: nghi ngờ; không giữ việc xem đó là dấu hiệu đạo tâm.",
+        "gives rise to: làm phát sinh; đảo tiêu chí đã có thành kết quả do đánh giá tạo ra."
+      ],
+      "dimension": "basis versus omission, doubt, and production"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M071",
+  "sourceBlockId": "W09-B11",
+  "title": "Uy tín thật khác vẻ ngoài tạo lòng tin",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "có thể được tin tưởng hỏi han nương tựa",
+      "targetVietnamese": "có thể được tin tưởng hỏi han nương tựa",
+      "sentence": "Fellow practitioners may trust and ___ such a layperson for guidance.",
+      "options": [
+        "consult",
+        "commission",
+        "license",
+        "ordain"
+      ],
+      "answer": 0,
+      "rationales": [
+        "consult: tìm hỏi ý kiến; giữ vai trò người có năng lực làm nguồn chỉ dẫn.",
+        "commission: giao một nhiệm vụ có thỏa thuận; thêm quan hệ ủy thác công việc.",
+        "license: cấp phép hoạt động; thêm thẩm quyền chứng nhận.",
+        "ordain: cho thọ giới hoặc truyền chức; biến sự nương hỏi thành thay đổi vai trò tôn giáo."
+      ],
+      "dimension": "consultation versus commissioning and conferral of status"
+    },
+    {
+      "sourceCue": "Ta chỉ mong huynh đệ thực sự đạt được sự tiến bộ",
+      "targetVietnamese": "Ta chỉ mong huynh đệ thực sự đạt được sự tiến bộ",
+      "sentence": "We only hope our fellow practitioners ___ in their practice.",
+      "options": [
+        "make genuine headway",
+        "acquire an impressive reputation",
+        "claim greater seniority",
+        "receive automatic recognition"
+      ],
+      "answer": 0,
+      "rationales": [
+        "make genuine headway: thực sự đi tới, tiến bộ; giữ thực chất của sự tu.",
+        "acquire an impressive reputation: có danh tiếng; thay phẩm chất thật bằng cách người khác đánh giá.",
+        "claim greater seniority: tự nhận vai vế cao; thêm địa vị và yêu sách.",
+        "receive automatic recognition: được công nhận đương nhiên; không tự là tu tiến thực tế."
+      ],
+      "dimension": "actual progress versus reputation and status"
+    },
+    {
+      "sourceCue": "đôi khi có những kẻ làm màu lấy lòng tin của huynh đệ rồi mưu cầu chuyện khác.",
+      "targetVietnamese": "đôi khi có những kẻ làm màu lấy lòng tin của huynh đệ rồi mưu cầu chuyện khác.",
+      "sentence": "Some people put on a show to ___ their peers' trust for ulterior ends.",
+      "options": [
+        "cultivate and exploit",
+        "repay and honor",
+        "misinterpret and underestimate",
+        "test and verify"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cultivate and exploit: gây dựng rồi lợi dụng; giữ cả bước lấy lòng tin và mục đích ẩn sau đó.",
+        "repay and honor: đền đáp và trân trọng; đổi việc lợi dụng thành đáp lại xứng đáng.",
+        "misinterpret and underestimate: hiểu sai và đánh giá thấp; đổi mưu tính thành lỗi nhận thức.",
+        "test and verify: kiểm tra và xác minh; biến người làm màu thành người thẩm định độ tin cậy."
+      ],
+      "dimension": "manipulation versus reciprocation and assessment"
+    },
+    {
+      "sourceCue": "Một người có thể bày tỏ kiến giải lưu loát về giáo lý, thiền định, thậm chí về thần thông",
+      "targetVietnamese": "Một người có thể bày tỏ kiến giải lưu loát về giáo lý, thiền định, thậm chí về thần thông",
+      "sentence": "A person may fluently ___ interpretations of doctrine, meditation and even psychic powers.",
+      "options": [
+        "expound",
+        "substantiate",
+        "exemplify",
+        "corroborate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "expound: trình bày, giải thích cặn kẽ; giữ năng lực diễn đạt bằng lời.",
+        "substantiate: cung cấp căn cứ chứng minh; lưu loát không tự là đã chứng minh điều nói.",
+        "exemplify: hiện thân hoặc làm gương cho; chuyển kiến giải bằng lời sang đời sống chứng thực.",
+        "corroborate: xác nhận bằng chứng bổ trợ; thêm chức năng kiểm chứng, không chỉ giảng giải."
+      ],
+      "dimension": "exposition versus evidential and lived validation"
+    },
+    {
+      "sourceCue": "Phải vững chắc về đạo đức rồi mới có thể đánh giá tiếp về những tiêu chuẩn khác",
+      "targetVietnamese": "Phải vững chắc về đạo đức rồi mới có thể đánh giá tiếp về những tiêu chuẩn khác",
+      "sentence": "The moral foundation must be sound before other qualities are ___ .",
+      "options": [
+        "appraised",
+        "conferred",
+        "prescribed",
+        "publicly endorsed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "appraised: được đánh giá; giữ thứ tự của việc xét tiêu chuẩn.",
+        "conferred: được ban cho; đổi đánh giá phẩm chất thành trao phẩm chất.",
+        "prescribed: được quy định phải có; đổi việc xét thực tế thành đặt chuẩn mực.",
+        "publicly endorsed: được công khai bảo chứng; đánh giá trước chưa đồng nghĩa công khai xác nhận là đúng."
+      ],
+      "dimension": "assessment versus conferral, prescription, and proxy practice"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M072",
+  "sourceBlockId": "W09-B12",
+  "title": "Có phước đi cùng gánh vác, không phải đặc quyền nhàn tu",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "phạm sai lầm từng ít một mà không biết",
+      "targetVietnamese": "phạm sai lầm từng ít một mà không biết",
+      "sentence": "In past lives, the person ___ errors little by little.",
+      "options": [
+        "unwittingly committed",
+        "deliberately concealed",
+        "publicly confessed",
+        "systematically corrected"
+      ],
+      "answer": 0,
+      "rationales": [
+        "unwittingly committed: phạm mà không biết; giữ cả hành động sai và thiếu tự nhận thức.",
+        "deliberately concealed: cố ý giấu; đòi hỏi biết lỗi mà nguồn phủ định.",
+        "publicly confessed: công khai nhận lỗi; thêm việc biết và nói ra.",
+        "systematically corrected: có hệ thống sửa sai; đảo hành động phạm lỗi thành khắc phục."
+      ],
+      "dimension": "unaware wrongdoing versus concealment, confession, and correction"
+    },
+    {
+      "sourceCue": "Người đã có phước, có tài sản địa vị quyền lực tức là phải gánh trách nhiệm nhiều hơn với cuộc đời",
+      "targetVietnamese": "Người đã có phước, có tài sản địa vị quyền lực tức là phải gánh trách nhiệm nhiều hơn với cuộc đời",
+      "sentence": "A person with blessings, wealth, status and power must ___ greater responsibility toward the world.",
+      "options": [
+        "shoulder",
+        "delegate",
+        "disclaim",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "shoulder: đứng ra gánh vác; giữ nghĩa vụ chính người có phước phải làm.",
+        "delegate: giao người khác; chuyển người chịu gánh nặng.",
+        "disclaim: phủ nhận rằng trách nhiệm thuộc về mình; trái nghĩa vụ gánh vác trong nguồn.",
+        "publicize: làm cho người ta biết; nói về việc truyền tin chứ chưa thực hiện trách nhiệm."
+      ],
+      "dimension": "assumption of a burden versus delegation, denial, and publicity"
+    },
+    {
+      "sourceCue": "phải sử dụng phước báo của mình cho đúng kẻo phạm sai lầm lại bị đọa.",
+      "targetVietnamese": "phải sử dụng phước báo của mình cho đúng kẻo phạm sai lầm lại bị đọa.",
+      "sentence": "To avoid wrongdoing and another fall, we must ___ .",
+      "options": [
+        "put those blessings to proper use",
+        "take those blessings as a license for self-indulgence",
+        "claim immunity on the strength of those blessings",
+        "merely advertise the possession of those blessings"
+      ],
+      "answer": 0,
+      "rationales": [
+        "put those blessings to proper use: đem dùng cho đúng; giữ yêu cầu hành xử với điều đang có.",
+        "take those blessings as a license for self-indulgence: coi là giấy phép hưởng cho mình; trái hướng trách nhiệm với đời.",
+        "claim immunity on the strength of those blessings: đòi miễn hệ quả nhờ phước; thêm đặc quyền mà nguồn cảnh báo không có.",
+        "merely advertise the possession of those blessings: chỉ khoe mình có; thay sử dụng đúng bằng việc tạo tiếng."
+      ],
+      "dimension": "responsible use versus license, immunity, and display"
+    },
+    {
+      "sourceCue": "người này cũng phải dành thời gian để tu tập như lý tưởng của mình",
+      "targetVietnamese": "người này cũng phải dành thời gian để tu tập như lý tưởng của mình",
+      "sentence": "Despite heavy responsibilities, the person must ___ time for the practice they aspire to.",
+      "options": [
+        "carve out",
+        "wait indefinitely for",
+        "delegate the allocation of",
+        "claim credit for having found"
+      ],
+      "answer": 0,
+      "rationales": [
+        "carve out: chủ động dành được một khoảng giữa nhiều việc; giữ cả sự bận rộn và nỗ lực sắp thời gian.",
+        "wait indefinitely for: đợi vô hạn; không giữ yêu cầu chủ động dành thời gian.",
+        "delegate the allocation of: giao việc xếp lịch cho người khác; thêm chủ thể giải quyết thay.",
+        "claim credit for having found: nhận công vì đã tìm được; thêm lời tự khen thay cho công việc cần làm."
+      ],
+      "dimension": "active allocation versus waiting, delegation, and retrospective credit"
+    },
+    {
+      "sourceCue": "Ai ỷ mình có phước mà không chịu gánh vác trách nhiệm với cuộc đời thì lại sẽ rơi vào cảnh hết phước rất nguy hiểm.",
+      "targetVietnamese": "Ai ỷ mình có phước mà không chịu gánh vác trách nhiệm với cuộc đời thì lại sẽ rơi vào cảnh hết phước rất nguy hiểm.",
+      "sentence": "Relying on blessings while refusing responsibility will ___, a dangerous outcome.",
+      "options": [
+        "exhaust those blessings",
+        "merely defer their use",
+        "secure them permanently",
+        "transfer them to one’s dependents"
+      ],
+      "answer": 0,
+      "rationales": [
+        "exhaust those blessings: làm cạn; giữ cảnh báo hết phước.",
+        "merely defer their use: chỉ trì hoãn dùng; làm nhẹ sự cạn kiệt thành bảo lưu.",
+        "secure them permanently: bảo đảm có mãi; trái tính có thể mất trong nguồn.",
+        "transfer them to one’s dependents: chuyển cho người phụ thuộc; thêm một cơ chế chuyển nhượng không được nêu."
+      ],
+      "dimension": "exhaustion versus deferral, preservation, and transfer"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M073",
+  "sourceBlockId": "W01-B05",
+  "title": "Thiền không tách khỏi cách sống",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "nhưng Thiền không thể tách rời khỏi một tổng thể của con người.",
+      "targetVietnamese": "nhưng Thiền không thể tách rời khỏi một tổng thể của con người.",
+      "sentence": "Meditation cannot be ___ the practitioner's life as a whole.",
+      "options": [
+        "divorced from",
+        "equated with",
+        "deduced from",
+        "substituted for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "divorced from: tách rời khỏi; giữ sự gắn kết không thể bỏ giữa thiền và đời sống.",
+        "equated with: đồng nhất với; gắn bó không có nghĩa hai khái niệm là một.",
+        "deduced from: suy ra từ; đổi quan hệ thực hành sang suy luận.",
+        "substituted for: dùng thay cho; nguồn không nói thiền đứng chỗ của cả đời sống."
+      ],
+      "dimension": "inseparability versus identity, inference, and substitution"
+    },
+    {
+      "sourceCue": "làm được nhiều việc phước",
+      "targetVietnamese": "làm được nhiều việc phước",
+      "sentence": "Practitioners need to ___ many good deeds.",
+      "options": [
+        "perform",
+        "pledge",
+        "commend",
+        "delegate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "perform: thực hiện; giữ yêu cầu người tu có việc làm cụ thể.",
+        "pledge: cam kết sẽ làm; chưa phải việc đã thực hiện.",
+        "commend: khen việc tốt; chuyển từ làm sang đánh giá.",
+        "delegate: giao người khác làm; chuyển chủ thể chịu công sức."
+      ],
+      "dimension": "enactment versus pledge, praise, and delegation"
+    },
+    {
+      "sourceCue": "hiểu kỹ về Giáo lý",
+      "targetVietnamese": "hiểu kỹ về Giáo lý",
+      "sentence": "Practitioners must ___ .",
+      "options": [
+        "understand the teachings thoroughly",
+        "memorize the wording without grasping it",
+        "endorse a doctrine without examining it",
+        "invoke a teacher’s authority instead of understanding"
+      ],
+      "answer": 0,
+      "rationales": [
+        "understand the teachings thoroughly: nắm kỹ ý nghĩa; giữ năng lực hiểu mà nguồn đòi hỏi.",
+        "memorize the wording without grasping it: chỉ học thuộc; thiếu chính điều kiện hiểu.",
+        "endorse a doctrine without examining it: tán thành không tìm hiểu; nhầm sự đồng ý với hiểu biết.",
+        "invoke a teacher’s authority instead of understanding: viện uy tín thay cho hiểu; chuyển căn cứ nhận thức."
+      ],
+      "dimension": "comprehension versus memorization, endorsement, and appeal to authority"
+    },
+    {
+      "sourceCue": "nắm được phương pháp nhiếp tâm trong khi ngồi thiền",
+      "targetVietnamese": "nắm được phương pháp nhiếp tâm trong khi ngồi thiền",
+      "sentence": "During sitting meditation, practitioners must know how to ___ .",
+      "options": [
+        "bring the mind into purity and stillness",
+        "render themselves unaware of all experience",
+        "simulate tranquility for observers",
+        "certify that realization has already occurred"
+      ],
+      "answer": 0,
+      "rationales": [
+        "bring the mind into purity and stillness: đưa tâm về thanh tịnh, yên lắng; giữ mục đích của nhiếp tâm.",
+        "render themselves unaware of all experience: làm mất mọi nhận biết; nguồn không đồng nhất yên lắng với vô tri.",
+        "simulate tranquility for observers: giả vẻ yên trước người khác; đổi thực hành bên trong thành trình diễn.",
+        "certify that realization has already occurred: xác nhận đã tu chứng; vượt bước biết phương pháp đang nói."
+      ],
+      "dimension": "settling the mind versus loss of awareness, display, and certification"
+    },
+    {
+      "sourceCue": "Thiếu một trong những điều trên đây, Thiền không thể thành tựu.",
+      "targetVietnamese": "Thiếu một trong những điều trên đây, Thiền không thể thành tựu.",
+      "sentence": "The absence of any one of these conditions ___ success in meditation.",
+      "options": [
+        "precludes",
+        "merely complicates",
+        "merely postpones",
+        "automatically hastens"
+      ],
+      "answer": 0,
+      "rationales": [
+        "precludes: khiến không thể xảy ra trong điều kiện ấy; giữ lực “không thể”.",
+        "merely complicates: chỉ làm khó; làm nhẹ điều kiện cần thành trở ngại có thể vượt qua khi vẫn thiếu.",
+        "merely postpones: chỉ làm chậm; thêm bảo đảm rốt cuộc sẽ thành tựu dù điều kiện vẫn thiếu.",
+        "automatically hastens: tự làm nhanh hơn; đảo hướng hậu quả của việc thiếu điều kiện."
+      ],
+      "dimension": "necessary condition versus difficulty, delay, and acceleration"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M074",
+  "sourceBlockId": "W01-B06",
+  "title": "Tiết kiệm, giữ của và sự rộng rãi",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Tiết kiệm cũng khác với hà tiện.",
+      "targetVietnamese": "Tiết kiệm cũng khác với hà tiện.",
+      "sentence": "Thrift should not be ___ stinginess.",
+      "options": [
+        "conflated with",
+        "traced back to",
+        "compensated for by",
+        "measured against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "conflated with: gộp lẫn thành một; giữ điều cần phân biệt.",
+        "traced back to: truy về nguồn gốc; khác biệt khái niệm chưa tự là phủ định quan hệ nguồn gốc.",
+        "compensated for by: được bù bằng; không phải quan hệ phân biệt được câu nêu.",
+        "measured against: đem so làm chuẩn; so sánh vẫn có thể giữ khác biệt, chưa phải nhầm lẫn."
+      ],
+      "dimension": "conceptual distinction versus origin, compensation, and comparison"
+    },
+    {
+      "sourceCue": "Đồ đạc giấu mãi sợ xài rồi mau cũ.",
+      "targetVietnamese": "Đồ đạc giấu mãi sợ xài rồi mau cũ.",
+      "sentence": "A stingy person ___ .",
+      "options": [
+        "hoards useful possessions for fear of wear",
+        "reserves supplies for a foreseeable emergency",
+        "stores damaged belongings until they can be repaired",
+        "collects delicate objects for public display"
+      ],
+      "answer": 0,
+      "rationales": [
+        "hoards useful possessions for fear of wear: giữ của không chịu dùng vì sợ cũ; đúng động cơ nguồn kể.",
+        "reserves supplies for a foreseeable emergency: dự trữ có mục đích; thêm một nhu cầu hợp lý chưa được nêu.",
+        "stores damaged belongings until they can be repaired: chờ sửa đồ hỏng; đổi tình trạng và lý do không dùng.",
+        "collects delicate objects for public display: sưu tầm để trưng bày; thêm mục đích khác với giấu mãi."
+      ],
+      "dimension": "hoarding versus prudent reserve, repair, and collection"
+    },
+    {
+      "sourceCue": "Tiền không chịu đưa dù biết đến lúc phải mua.",
+      "targetVietnamese": "Tiền không chịu đưa dù biết đến lúc phải mua.",
+      "sentence": "Even knowing it is time to make the purchase, the person ___ .",
+      "options": [
+        "withholds the money",
+        "disburses the money",
+        "recovers money already spent",
+        "negotiates a refund"
+      ],
+      "answer": 0,
+      "rationales": [
+        "withholds the money: giữ lại, không chịu chi; giữ nghịch lý biết cần mà vẫn không đưa.",
+        "disburses the money: chi ra; đảo hành động không chịu trả.",
+        "recovers money already spent: lấy lại tiền đã chi; thêm giao dịch trước đó.",
+        "negotiates a refund: thương lượng hoàn tiền; thêm việc mua đã xảy ra và yêu cầu hoàn lại."
+      ],
+      "dimension": "withholding versus payment, recovery, and refund negotiation"
+    },
+    {
+      "sourceCue": "Đi dự tiệc không đem quà vì sợ tốn dù biết có thể mất đi tình nghĩa.",
+      "targetVietnamese": "Đi dự tiệc không đem quà vì sợ tốn dù biết có thể mất đi tình nghĩa.",
+      "sentence": "When attending a party, the person ___, despite the possible damage to the relationship.",
+      "options": [
+        "forgoes a gift to avoid spending",
+        "cannot afford a gift because of poverty",
+        "refuses a gift as a protest",
+        "defers a gift because of illness"
+      ],
+      "answer": 0,
+      "rationales": [
+        "forgoes a gift to avoid spending: bỏ việc tặng để khỏi tốn; giữ động cơ tính toán chi phí.",
+        "cannot afford a gift because of poverty: không có khả năng; thay không chịu chi bằng bất lực do nghèo.",
+        "refuses a gift as a protest: từ chối để phản đối; thêm bất đồng với chủ tiệc.",
+        "defers a gift because of illness: hoãn do bệnh; thêm nguyên nhân không có trong nguồn."
+      ],
+      "dimension": "avoidance of expense versus inability, protest, and postponement"
+    },
+    {
+      "sourceCue": "Người có đạo đức và trí tuệ sẽ bước đi chính xác giữa tiết kiệm và rộng rãi giúp đỡ.",
+      "targetVietnamese": "Người có đạo đức và trí tuệ sẽ bước đi chính xác giữa tiết kiệm và rộng rãi giúp đỡ.",
+      "sentence": "A person with virtue and wisdom seeks to ___ .",
+      "options": [
+        "reconcile thrift with generosity",
+        "replace thrift with unrestricted spending",
+        "pit thrift against generosity",
+        "disguise stinginess as generosity"
+      ],
+      "answer": 0,
+      "rationales": [
+        "reconcile thrift with generosity: làm cho hai phẩm chất đi cùng; giữ cả tiết kiệm lẫn giúp người.",
+        "replace thrift with unrestricted spending: bỏ tiết kiệm để chi không giới hạn; trái sự tránh phung phí.",
+        "pit thrift against generosity: đặt hai điều đối đầu; trái cách vừa giữ điều này vừa thực hiện điều kia.",
+        "disguise stinginess as generosity: lấy rộng rãi làm vỏ; thêm sự giả tạo thay cho phẩm chất thật."
+      ],
+      "dimension": "integration versus replacement, opposition, and disguise"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M075",
+  "sourceBlockId": "W01-B07",
+  "title": "Công lý và những mức độ công bằng",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "còn đạo Phật gọi là Luật Nhân Quả Nghiệp Báo, the Law of Karma.",
+      "targetVietnamese": "còn đạo Phật gọi là Luật Nhân Quả Nghiệp Báo, the Law of Karma.",
+      "sentence": "Within Buddhism, this fairness is ___ the law of karma.",
+      "options": [
+        "referred to as",
+        "enforced through",
+        "justified by",
+        "inferred from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "referred to as: được gọi là; giữ chức năng nêu tên.",
+        "enforced through: được cưỡng hành bằng; thêm cơ chế thực thi thay vì tên gọi.",
+        "justified by: được biện minh nhờ; đổi định danh thành lý lẽ bảo vệ.",
+        "inferred from: được suy ra từ; đổi công thức gọi tên thành suy luận."
+      ],
+      "dimension": "naming versus enforcement, justification, and inference"
+    },
+    {
+      "sourceCue": "Công lý do loài người lập ra thì không tuyệt đối vì có thể bị tác động bởi lợi ích riêng tư.",
+      "targetVietnamese": "Công lý do loài người lập ra thì không tuyệt đối vì có thể bị tác động bởi lợi ích riêng tư.",
+      "sentence": "Private interests can ___ human justice, so it is not absolute.",
+      "options": [
+        "compromise",
+        "codify",
+        "administer",
+        "constitute"
+      ],
+      "answer": 0,
+      "rationales": [
+        "compromise: làm tổn hại tính ngay thẳng; giữ nguyên nhân công lý chưa tuyệt đối.",
+        "codify: hệ thống thành quy tắc; không giữ tác động làm lệch do tư lợi.",
+        "administer: thực thi; nói vận hành công lý, không phải làm nó sai lệch.",
+        "constitute: cấu thành; biến tư lợi thành bản chất hoặc thành phần của công lý."
+      ],
+      "dimension": "corrupting influence versus codification, administration, and constitution"
+    },
+    {
+      "sourceCue": "Thiên lý của cõi trời thì gần như tuyệt đối",
+      "targetVietnamese": "Thiên lý của cõi trời thì gần như tuyệt đối",
+      "sentence": "In the source's account, heavenly justice ___ absolute impartiality.",
+      "options": [
+        "approaches",
+        "guarantees",
+        "merely simulates",
+        "presupposes"
+      ],
+      "answer": 0,
+      "rationales": [
+        "approaches: tiến gần đến; giữ hạn định “gần như”.",
+        "guarantees: bảo đảm đạt; biến gần tuyệt đối thành chắc chắn tuyệt đối.",
+        "merely simulates: chỉ giả như có; thêm tính giả tạo trái với sự công tâm được công nhận.",
+        "presupposes: lấy làm điều kiện giả định; đổi mức độ đạt tới thành tiền đề phải có."
+      ],
+      "dimension": "approximation versus guarantee, imitation, and presupposition"
+    },
+    {
+      "sourceCue": "nhưng chư thiên vẫn còn tình cảm.",
+      "targetVietnamese": "nhưng chư thiên vẫn còn tình cảm.",
+      "sentence": "The celestial beings ___ .",
+      "options": [
+        "still experience feelings",
+        "merely recall feelings they have entirely transcended",
+        "conceal only other beings’ feelings",
+        "redefine justice in purely emotional terms"
+      ],
+      "answer": 0,
+      "rationales": [
+        "still experience feelings: vẫn có cảm xúc; giữ trạng thái hiện còn.",
+        "merely recall feelings they have entirely transcended: chỉ nhớ cái đã vượt hết; biến cảm xúc đang có thành ký ức.",
+        "conceal only other beings’ feelings: giấu cảm xúc của người khác; đổi chủ thể có tình cảm.",
+        "redefine justice in purely emotional terms: định nghĩa lại công lý bằng cảm xúc; thêm hành vi và sự tuyệt đối hóa."
+      ],
+      "dimension": "present experience versus memory, concealment, and redefinition"
+    },
+    {
+      "sourceCue": "Ai muốn tu dưỡng đạo đức thì phải tìm hiểu luật Nhân Quả công bằng này càng thấu đáo càng tốt.",
+      "targetVietnamese": "Ai muốn tu dưỡng đạo đức thì phải tìm hiểu luật Nhân Quả công bằng này càng thấu đáo càng tốt.",
+      "sentence": "Those wishing to cultivate moral virtue must ___ as deeply as possible.",
+      "options": [
+        "seek a thorough understanding of the law of karma",
+        "merely profess allegiance to the law of karma",
+        "formally enact the law of karma",
+        "claim privileged access to the law of karma"
+      ],
+      "answer": 0,
+      "rationales": [
+        "seek a thorough understanding of the law of karma: chủ động tìm hiểu kỹ; giữ công việc nhận thức.",
+        "merely profess allegiance to the law of karma: chỉ tuyên bố tin theo; không đủ điều tìm hiểu.",
+        "formally enact the law of karma: ban hành luật; nhầm nguyên lý đang tìm hiểu với luật người làm ra.",
+        "claim privileged access to the law of karma: tự nhận có quyền biết riêng; thêm đặc quyền mà đoạn không trao."
+      ],
+      "dimension": "understanding versus profession, legislation, and privileged claim"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M076",
+  "sourceBlockId": "W01-B08",
+  "title": "Quan tâm để nhận ra và trợ giúp",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "khuynh hướng đó luôn khiến chúng ta quan tâm đến những người khác, thậm chí còn hơn lo cho bản thân mình.",
+      "targetVietnamese": "khuynh hướng đó luôn khiến chúng ta quan tâm đến những người khác, thậm chí còn hơn lo cho bản thân mình.",
+      "sentence": "An altruistic disposition makes us care about others and can even lead us to ___ .",
+      "options": [
+        "put others’ needs before our own",
+        "solicit gratitude before offering help",
+        "reserve concern only for our own group",
+        "demand that others put us first"
+      ],
+      "answer": 0,
+      "rationales": [
+        "put others’ needs before our own: đặt nhu cầu người khác lên trước; giữ hướng ưu tiên vị tha.",
+        "solicit gratitude before offering help: đòi biết ơn rồi mới giúp; thêm điều kiện có lợi cho mình.",
+        "reserve concern only for our own group: chỉ lo nhóm mình; thu hẹp “những người khác” thành một nhóm độc quyền.",
+        "demand that others put us first: đòi được ưu tiên; đảo người được hưởng lợi."
+      ],
+      "dimension": "priority and beneficiary"
+    },
+    {
+      "sourceCue": "chúng ta nhanh chóng phát hiện ra nỗi khổ, niềm đau, sự khó nhọc, cơn bệnh hoạn của người",
+      "targetVietnamese": "chúng ta nhanh chóng phát hiện ra nỗi khổ, niềm đau, sự khó nhọc, cơn bệnh hoạn của người",
+      "sentence": "Such attentiveness helps us promptly ___ others' suffering, pain, hardships and illness.",
+      "options": [
+        "notice",
+        "anticipate",
+        "discount",
+        "reinterpret"
+      ],
+      "answer": 0,
+      "rationales": [
+        "notice: nhận ra điều đang hiện diện; giữ nét phát hiện kịp thời.",
+        "anticipate: dự liệu điều chưa xảy ra; chuyển thời điểm của nỗi khổ.",
+        "discount: xem nhẹ hoặc bỏ qua giá trị; trái hướng quan tâm.",
+        "reinterpret: hiểu lại theo cách khác; giả định đã có một cách hiểu trước đó."
+      ],
+      "dimension": "present detection versus anticipation, discounting, and reinterpretation"
+    },
+    {
+      "sourceCue": "để tìm cách giúp đỡ.",
+      "targetVietnamese": "để tìm cách giúp đỡ.",
+      "sentence": "On noticing their hardship, we ___ .",
+      "options": [
+        "look for ways to help",
+        "wait for a request before considering help",
+        "announce help without considering how to provide it",
+        "seek credit before deciding whether to help"
+      ],
+      "answer": 0,
+      "rationales": [
+        "look for ways to help: tìm phương cách; giữ bước chuyển từ thấy khổ sang hành động trợ giúp.",
+        "wait for a request before considering help: chờ được xin; thêm điều kiện chưa được đoạn đặt ra.",
+        "announce help without considering how to provide it: chỉ nói sẽ giúp; bỏ bước tìm cách thực hiện.",
+        "seek credit before deciding whether to help: đòi công trước; thêm động cơ tự lợi."
+      ],
+      "dimension": "practical initiative versus waiting, announcement, and credit-seeking"
+    },
+    {
+      "sourceCue": "Có khi chúng ta chỉ giúp một lời nói, một ly nước, một viên thuốc, hoặc có khi cả một số tiền lớn…",
+      "targetVietnamese": "Có khi chúng ta chỉ giúp một lời nói, một ly nước, một viên thuốc, hoặc có khi cả một số tiền lớn…",
+      "sentence": "Our assistance ___ .",
+      "options": [
+        "ranges from a few words to substantial financial aid",
+        "consists solely of financial donations",
+        "always requires professional medical intervention",
+        "dispenses with practical assistance in favor of speeches"
+      ],
+      "answer": 0,
+      "rationales": [
+        "ranges from a few words to substantial financial aid: trải từ nhỏ tới lớn; giữ sự đa dạng quy mô.",
+        "consists solely of financial donations: chỉ có cho tiền; bỏ các dạng hỗ trợ khác.",
+        "always requires professional medical intervention: luôn cần chuyên môn y tế; thêm điều kiện ngoài các ví dụ.",
+        "dispenses with practical assistance in favor of speeches: bỏ giúp thực tế để chỉ nói; trái các ví dụ hành động cụ thể."
+      ],
+      "dimension": "range versus exclusive or substituted forms of aid"
+    },
+    {
+      "sourceCue": "để giúp người qua lúc khó khăn.",
+      "targetVietnamese": "để giúp người qua lúc khó khăn.",
+      "sentence": "Our aim is to ___ .",
+      "options": [
+        "tide the person over a difficult period",
+        "take over every decision in the person’s life",
+        "make the person account for the hardship",
+        "promise that no difficulty will ever return"
+      ],
+      "answer": 0,
+      "rationales": [
+        "tide the person over a difficult period: giúp cầm cự vượt qua quãng khó; giữ giới hạn của sự trợ giúp.",
+        "take over every decision in the person’s life: quyết mọi việc thay họ; nâng giúp đỡ thành kiểm soát.",
+        "make the person account for the hardship: buộc giải trình lý do khổ; đổi mục đích sang truy trách nhiệm.",
+        "promise that no difficulty will ever return: bảo đảm vĩnh viễn hết khó; thêm lời hứa tuyệt đối."
+      ],
+      "dimension": "temporary support versus control, accountability, and permanent guarantee"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M077",
+  "sourceBlockId": "W01-B09",
+  "title": "Cách tái sinh được trình bày trong nguồn",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Ở cõi Người và cõi Thú thì chúng sinh phải tái sinh bằng cách chui vào bụng mẹ làm lại từ đầu với hình thức một phôi thai.",
+      "targetVietnamese": "Ở cõi Người và cõi Thú thì chúng sinh phải tái sinh bằng cách chui vào bụng mẹ làm lại từ đầu với hình thức một phôi thai.",
+      "sentence": "For human and animal rebirth, the source describes beings ___ .",
+      "options": [
+        "starting again in the womb as embryos",
+        "appearing immediately as fully grown beings",
+        "remaining in their former bodies",
+        "merely recalling an embryonic existence"
+      ],
+      "answer": 0,
+      "rationales": [
+        "starting again in the womb as embryos: bắt đầu từ phôi trong bụng mẹ; giữ quá trình và dạng sống.",
+        "appearing immediately as fully grown beings: hiện ra trưởng thành tức khắc; thay cách sinh đang nêu bằng cách khác.",
+        "remaining in their former bodies: giữ nguyên thân cũ; phủ nhận bước bắt đầu lại.",
+        "merely recalling an embryonic existence: chỉ nhớ một đời phôi; đổi sự tái sinh thành ký ức."
+      ],
+      "dimension": "rebirth process versus immediate appearance, continuity of body, and memory"
+    },
+    {
+      "sourceCue": "Còn bốn cõi kia (Trời, Thần, Ma đói, Địa ngục) thì sau khi chết linh hồn tự biến dạng chuyển đến",
+      "targetVietnamese": "Còn bốn cõi kia (Trời, Thần, Ma đói, Địa ngục) thì sau khi chết linh hồn tự biến dạng chuyển đến",
+      "sentence": "In the four other realms, the spirit is described as ___ .",
+      "options": [
+        "transforming and passing into a new existence after death",
+        "being surgically altered before death",
+        "retaining its previous bodily form indefinitely",
+        "symbolizing a change of attitude within one lifetime"
+      ],
+      "answer": 0,
+      "rationales": [
+        "transforming and passing into a new existence after death: biến dạng rồi chuyển đời sau chết; giữ thời điểm và sự chuyển sinh.",
+        "being surgically altered before death: bị phẫu thuật trước chết; thêm tác nhân, thủ thuật và đảo thời điểm.",
+        "retaining its previous bodily form indefinitely: giữ thân cũ mãi; trái việc tự biến dạng.",
+        "symbolizing a change of attitude within one lifetime: chỉ tượng trưng chuyển tâm lý; đổi nghĩa tái sinh thực trong lời tác giả."
+      ],
+      "dimension": "transformation, agency, and temporal scope"
+    },
+    {
+      "sourceCue": "nên gọi là Hóa sinh (biến đổi thành đời sống mới).",
+      "targetVietnamese": "nên gọi là Hóa sinh (biến đổi thành đời sống mới).",
+      "sentence": "Here, the term spontaneous rebirth is used to ___ a transformation into a new life.",
+      "options": [
+        "denote",
+        "authorize",
+        "prescribe",
+        "reward"
+      ],
+      "answer": 0,
+      "rationales": [
+        "denote: biểu thị, chỉ; giữ việc giải thích tên gọi.",
+        "authorize: cấp phép; biến từ gọi tên thành hành vi cho quyền.",
+        "prescribe: quy định phải làm; biến mô tả thành mệnh lệnh.",
+        "reward: ban thưởng; thêm người trao và giá trị thưởng chưa được nêu."
+      ],
+      "dimension": "designation versus authorization, prescription, and reward"
+    },
+    {
+      "sourceCue": "Cõi Trời dành cho những chúng sinh đã sống rất tử tế với mọi người, cộng với một nội tâm đạo đức thánh thiện.",
+      "targetVietnamese": "Cõi Trời dành cho những chúng sinh đã sống rất tử tế với mọi người, cộng với một nội tâm đạo đức thánh thiện.",
+      "sentence": "The beings for whom the heavenly realm is intended ___ .",
+      "options": [
+        "combine kindness to others with inner moral purity",
+        "substitute public generosity for inner virtue",
+        "claim purity without treating others well",
+        "display kindness only to gain a reputation"
+      ],
+      "answer": 0,
+      "rationales": [
+        "combine kindness to others with inner moral purity: có cả hai; giữ quan hệ “cộng với”.",
+        "substitute public generosity for inner virtue: lấy một mặt thay mặt kia; bỏ điều kiện kết hợp.",
+        "claim purity without treating others well: chỉ tự nhận thanh cao nhưng thiếu việc tốt; trái phần sống tử tế.",
+        "display kindness only to gain a reputation: làm để lấy tiếng; thêm động cơ không được nguồn xác lập."
+      ],
+      "dimension": "combined qualities versus substitution, profession, and display"
+    },
+    {
+      "sourceCue": "Nơi cõi Trời này các thiên tử được sống trong hạnh phúc, muốn gì được nấy",
+      "targetVietnamese": "Nơi cõi Trời này các thiên tử được sống trong hạnh phúc, muốn gì được nấy",
+      "sentence": "The source describes male celestial beings as living happily and ___ .",
+      "options": [
+        "having their wishes fulfilled",
+        "merely anticipating the fulfillment of their wishes",
+        "renouncing all wishes before entering that realm",
+        "granting every wish of beings in other realms"
+      ],
+      "answer": 0,
+      "rationales": [
+        "having their wishes fulfilled: điều muốn được đáp ứng; giữ người hưởng và tính hiện thực.",
+        "merely anticipating the fulfillment of their wishes: mới mong; hạ kết quả có thật trong lời kể thành kỳ vọng.",
+        "renouncing all wishes before entering that realm: bỏ hết mong muốn; thêm điều kiện không có trong đoạn.",
+        "granting every wish of beings in other realms: ban điều ước cho cõi khác; đảo người hưởng thành người ban."
+      ],
+      "dimension": "fulfilled desire versus anticipation, renunciation, and conferral"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M078",
+  "sourceBlockId": "W01-B10",
+  "title": "Chánh Kiến: định hướng, kiềm chế và thẩm định",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Khi có sự hiểu biết về luật Nhân Quả sâu sắc, chúng ta biết tự kềm chế kiểm soát chính mình trong từng ý nghĩ hay hành vi",
+      "targetVietnamese": "Khi có sự hiểu biết về luật Nhân Quả sâu sắc, chúng ta biết tự kềm chế kiểm soát chính mình trong từng ý nghĩ hay hành vi",
+      "sentence": "A deep understanding of karma helps us ___ .",
+      "options": [
+        "exercise restraint over our thoughts and actions",
+        "conceal our thoughts while leaving our conduct unchanged",
+        "rationalize every impulse as inevitable",
+        "claim that restraint is unnecessary"
+      ],
+      "answer": 0,
+      "rationales": [
+        "exercise restraint over our thoughts and actions: thực sự tự kiềm chế cả hai; giữ phạm vi nguồn nêu.",
+        "conceal our thoughts while leaving our conduct unchanged: chỉ giấu ý nghĩ; đổi tự sửa thành che đậy.",
+        "rationalize every impulse as inevitable: biện minh mọi xung động; trái mục đích tự kiểm soát.",
+        "claim that restraint is unnecessary: tự nhận không cần kiềm chế; đảo hệ quả của sự hiểu biết."
+      ],
+      "dimension": "restraint versus concealment, rationalization, and exemption"
+    },
+    {
+      "sourceCue": "Chánh kiến cũng là sự định hướng giải thoát rõ ràng để khi tu Thiền, ta không lạc qua những mục đích nhỏ bé khác.",
+      "targetVietnamese": "Chánh kiến cũng là sự định hướng giải thoát rõ ràng để khi tu Thiền, ta không lạc qua những mục đích nhỏ bé khác.",
+      "sentence": "Right View clearly ___ practice toward liberation, keeping meditation from straying toward lesser aims.",
+      "options": [
+        "orients",
+        "automatically completes",
+        "permanently suspends",
+        "replaces"
+      ],
+      "answer": 0,
+      "rationales": [
+        "orients: đặt phương hướng; giữ chức năng tấm bản đồ.",
+        "automatically completes: tự hoàn tất; biến định hướng thành bảo đảm thành công không cần công phu.",
+        "permanently suspends: ngừng hẳn; trái chức năng giúp đi đúng đường.",
+        "replaces: đứng thay việc thực hành; nguồn không cho phép bản đồ thay sự đi."
+      ],
+      "dimension": "orientation versus completion, suspension, and substitution"
+    },
+    {
+      "sourceCue": "khiến cho ta không bị tăng trưởng bản ngã khi có những dấu hiệu tu tiến.",
+      "targetVietnamese": "khiến cho ta không bị tăng trưởng bản ngã khi có những dấu hiệu tu tiến.",
+      "sentence": "It helps us ___ .",
+      "options": [
+        "guard against self-inflation when signs of progress appear",
+        "advertise every sign of progress as proof of superiority",
+        "use progress to claim immunity from moral scrutiny",
+        "dismiss all progress as worthless"
+      ],
+      "answer": 0,
+      "rationales": [
+        "guard against self-inflation when signs of progress appear: đề phòng ngã lớn khi tu tiến; giữ điều cần tránh.",
+        "advertise every sign of progress as proof of superiority: khoe tiến bộ để tự cao; đúng nguy cơ nguồn muốn ngăn.",
+        "use progress to claim immunity from moral scrutiny: lấy tiến bộ làm quyền miễn xét; thêm đặc quyền không có.",
+        "dismiss all progress as worthless: cho mọi tiến bộ vô ích; chống tự cao không có nghĩa phủ nhận tu tiến."
+      ],
+      "dimension": "preventing conceit versus boasting, immunity, and dismissal"
+    },
+    {
+      "sourceCue": "Nếu bản đồ sai (tà kiến) thì ta không thể đi đến đích giác ngộ dù có gắng công tu tập.",
+      "targetVietnamese": "Nếu bản đồ sai (tà kiến) thì ta không thể đi đến đích giác ngộ dù có gắng công tu tập.",
+      "sentence": "A wrong map ___ even sustained effort, preventing us from reaching enlightenment.",
+      "options": [
+        "misdirects",
+        "vindicates",
+        "rewards",
+        "merely measures"
+      ],
+      "answer": 0,
+      "rationales": [
+        "misdirects: dẫn sai hướng; giữ lý do cố công mà không tới đích.",
+        "vindicates: chứng minh công sức là đúng; trái hậu quả sai đường.",
+        "rewards: tưởng thưởng; thêm bảo đảm công sức được thành quả.",
+        "merely measures: chỉ đo; bỏ chức năng chỉ đường và làm lệch hướng của bản đồ sai."
+      ],
+      "dimension": "misguidance versus vindication, reward, and measurement"
+    },
+    {
+      "sourceCue": "Tuy nhiên, rừng Giáo lý mênh mông, trải qua nhiều ngàn năm, thật sự đã có sự pha tạp thêm thắt.",
+      "targetVietnamese": "Tuy nhiên, rừng Giáo lý mênh mông, trải qua nhiều ngàn năm, thật sự đã có sự pha tạp thêm thắt.",
+      "sentence": "Over thousands of years, the vast body of teachings has ___ .",
+      "options": [
+        "acquired later additions and admixtures",
+        "remained entirely unaltered",
+        "purged itself of every later addition",
+        "become inaccessible to all learners"
+      ],
+      "answer": 0,
+      "rationales": [
+        "acquired later additions and admixtures: đã mang thêm phần bổ sung pha tạp; giữ cảnh báo lịch sử theo nguồn.",
+        "remained entirely unaltered: hoàn toàn nguyên trạng; trái việc đã có thêm thắt.",
+        "purged itself of every later addition: tự gạn hết phần thêm; đảo chiều diễn tiến.",
+        "become inaccessible to all learners: mọi người đều không thể học; tuyệt đối hóa khó khăn thành bất khả tiếp cận."
+      ],
+      "dimension": "accretion versus preservation, purification, and inaccessibility"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M079",
+  "sourceBlockId": "W01-B11",
+  "title": "Khiêm hạ không phải phủ nhận giá trị của người",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Tâm khiêm hạ được xem là Đạo đức vì tâm lý đó luôn thúc đẩy ta phải tôn trọng mọi người.",
+      "targetVietnamese": "Tâm khiêm hạ được xem là Đạo đức vì tâm lý đó luôn thúc đẩy ta phải tôn trọng mọi người.",
+      "sentence": "Humility ___ respect for everyone and is therefore regarded as a moral virtue.",
+      "options": [
+        "fosters",
+        "merely advertises",
+        "bargains for",
+        "takes credit for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fosters: nuôi lớn, thúc đẩy; giữ tâm khiêm hạ như lực đưa tới sự tôn trọng.",
+        "merely advertises: chỉ tạo vẻ cho người khác thấy; nguồn nói tác động thật, không phải quảng bá.",
+        "bargains for: mặc cả để nhận về; thêm quan hệ đổi chác vào thái độ tôn trọng.",
+        "takes credit for: nhận công; đổi quan hệ tạo phẩm chất thành tự kể công."
+      ],
+      "dimension": "cultivation versus display, bargaining, and credit"
+    },
+    {
+      "sourceCue": "Sống trên đời ai cũng cần được tôn trọng, cần được xem là có giá trị",
+      "targetVietnamese": "Sống trên đời ai cũng cần được tôn trọng, cần được xem là có giá trị",
+      "sentence": "Everyone needs to be respected and to have others ___ .",
+      "options": [
+        "acknowledge their worth",
+        "appraise their productivity alone",
+        "assign them a competitive rank",
+        "price their labor without regard to the person"
+      ],
+      "answer": 0,
+      "rationales": [
+        "acknowledge their worth: công nhận giá trị con người; giữ nghĩa nhu cầu được tôn trọng.",
+        "appraise their productivity alone: chỉ đo năng suất; thu hẹp giá trị người thành hiệu quả lao động.",
+        "assign them a competitive rank: xếp hạng hơn thua; thêm so sánh cạnh tranh.",
+        "price their labor without regard to the person: chỉ định giá công; làm mất đối tượng là con người."
+      ],
+      "dimension": "recognition of worth versus instrumental valuation and ranking"
+    },
+    {
+      "sourceCue": "khi ta biết tôn trọng chân thành người khác cũng là đem an vui đến cho người.",
+      "targetVietnamese": "khi ta biết tôn trọng chân thành người khác cũng là đem an vui đến cho người.",
+      "sentence": "Genuine respect can ___ .",
+      "options": [
+        "bring others a sense of ease and happiness",
+        "secure others’ unquestioning obedience",
+        "flatter others into admiring us",
+        "win public endorsement for our ambitions"
+      ],
+      "answer": 0,
+      "rationales": [
+        "bring others a sense of ease and happiness: đem an vui đến người khác; giữ người hưởng lợi.",
+        "secure others’ unquestioning obedience: lấy được phục tùng; đổi an vui thành quyền lực.",
+        "flatter others into admiring us: nịnh để được ngưỡng mộ; đổi chân thành thành thao túng.",
+        "win public endorsement for our ambitions: tìm sự ủng hộ tham vọng; thêm mục tiêu tự lợi."
+      ],
+      "dimension": "beneficial effect versus compliance and manipulation"
+    },
+    {
+      "sourceCue": "Nhưng muốn tôn trọng người thì ta đừng thấy mình hơn người",
+      "targetVietnamese": "Nhưng muốn tôn trọng người thì ta đừng thấy mình hơn người",
+      "sentence": "To respect others, we must not ___ .",
+      "options": [
+        "rank ourselves above them",
+        "recognize differences between people",
+        "learn from their experience",
+        "take their concerns seriously"
+      ],
+      "answer": 0,
+      "rationales": [
+        "rank ourselves above them: tự xếp mình cao hơn; đúng thái độ cần bỏ.",
+        "recognize differences between people: nhận khác biệt; khiêm hạ không đồng nghĩa xóa mọi khác biệt.",
+        "learn from their experience: học kinh nghiệm; nguồn không cấm việc này.",
+        "take their concerns seriously: coi trọng điều họ quan tâm; đó không phải tự cao."
+      ],
+      "dimension": "superiority versus differentiation, learning, and serious regard"
+    },
+    {
+      "sourceCue": "nghĩa là ta phải thấy được mình nhỏ bé kém cỏi.",
+      "targetVietnamese": "nghĩa là ta phải thấy được mình nhỏ bé kém cỏi.",
+      "sentence": "We need to ___ .",
+      "options": [
+        "recognize our own limitations",
+        "profess incompetence to escape responsibility",
+        "deny the worth of every personal effort",
+        "claim responsibility for everyone else’s failings"
+      ],
+      "answer": 0,
+      "rationales": [
+        "recognize our own limitations: biết phần nhỏ bé, kém của mình; giữ sự tự nhận thức.",
+        "profess incompetence to escape responsibility: tự nhận bất tài nhằm né việc; thêm động cơ trốn tránh.",
+        "deny the worth of every personal effort: phủ nhận mọi cố gắng; đẩy khiêm hạ thành phủ định cực đoan.",
+        "claim responsibility for everyone else’s failings: nhận hết lỗi người khác; mở phạm vi ngoài việc tự xét mình."
+      ],
+      "dimension": "self-knowledge versus evasion, self-negation, and misplaced liability"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M080",
+  "sourceBlockId": "W01-B12",
+  "title": "Giác ngộ, giải thoát và việc tu tiếp",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "thấu rõ mọi điều trong vũ trụ, hiểu rõ chân lý của vũ trụ",
+      "targetVietnamese": "thấu rõ mọi điều trong vũ trụ, hiểu rõ chân lý của vũ trụ",
+      "sentence": "Awakened understanding ___ everything in the universe and its truth.",
+      "options": [
+        "penetrates",
+        "constructs",
+        "merely repeats an account of",
+        "mythologizes"
+      ],
+      "answer": 0,
+      "rationales": [
+        "penetrates: thấu đạt; giữ chiều sâu biết rõ.",
+        "constructs: xây dựng nên; đổi chân lý được hiểu thành thứ do người hiểu tạo ra.",
+        "merely repeats an account of: chỉ kể lại lời giải thích; hạ sự thấu rõ thành vay mượn lời.",
+        "mythologizes: huyền thoại hóa; thêm một cách kể làm sai tính trực nhận trong nguồn."
+      ],
+      "dimension": "direct understanding versus construction, repetition, and myth-making"
+    },
+    {
+      "sourceCue": "Chúng sinh là Vô minh, Giác ngộ là hết Vô minh.",
+      "targetVietnamese": "Chúng sinh là Vô minh, Giác ngộ là hết Vô minh.",
+      "sentence": "Awakening ___ .",
+      "options": [
+        "dispels ignorance",
+        "merely restrains ignorance for a time",
+        "conceals ignorance behind fluent explanations",
+        "renames ignorance without ending it"
+      ],
+      "answer": 0,
+      "rationales": [
+        "dispels ignorance: xua tan vô minh; giữ trạng thái hết vô minh.",
+        "merely restrains ignorance for a time: chỉ kìm tạm; làm yếu sự chấm dứt thành kiểm soát ngắn hạn.",
+        "conceals ignorance behind fluent explanations: che bằng lời lưu loát; trái sự hết vô minh thật.",
+        "renames ignorance without ending it: đổi tên nhưng giữ nguyên; không phải biến đổi nguồn xác lập."
+      ],
+      "dimension": "cessation versus restraint, concealment, and relabeling"
+    },
+    {
+      "sourceCue": "Chúng sinh là Chấp ngã (xem cái tôi là quan trọng), Giác ngộ là Vô ngã (không còn cái tôi nữa).",
+      "targetVietnamese": "Chúng sinh là Chấp ngã (xem cái tôi là quan trọng), Giác ngộ là Vô ngã (không còn cái tôi nữa).",
+      "sentence": "In this account, awakening ___ .",
+      "options": [
+        "attains selflessness",
+        "perfects an exalted personal identity",
+        "secures superiority over other selves",
+        "confers permanent privileges on the ego"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attains selflessness: đạt vô ngã, giữ nghĩa không còn cái tôi theo chính lời tác giả.",
+        "perfects an exalted personal identity: hoàn thiện cái tôi cao siêu vẫn giữ ngã, trái điều không còn cái tôi.",
+        "secures superiority over other selves: giành thế hơn những cái tôi khác là tiếp tục so ngã.",
+        "confers permanent privileges on the ego: ban ngã đặc quyền vĩnh viễn đảo hướng vô ngã."
+      ],
+      "dimension": "release from self-attachment versus exaltation and privilege"
+    },
+    {
+      "sourceCue": "Giải thoát là không còn bị luân hồi tái sinh nếu đã đạt được Niết bàn trọn vẹn của thánh quả A la hán.",
+      "targetVietnamese": "Giải thoát là không còn bị luân hồi tái sinh nếu đã đạt được Niết bàn trọn vẹn của thánh quả A la hán.",
+      "sentence": "Upon full attainment of Nirvana as an Arahant, liberation ___ for oneself.",
+      "options": [
+        "ends the cycle of rebirth",
+        "merely improves the conditions of the next rebirth",
+        "lengthens the next life indefinitely",
+        "allows only memories of past lives to fade"
+      ],
+      "answer": 0,
+      "rationales": [
+        "ends the cycle of rebirth: chấm dứt chu kỳ; giữ nghĩa giải thoát trọn vẹn.",
+        "merely improves the conditions of the next rebirth: chỉ cải thiện đời sau; vẫn còn vòng tái sinh.",
+        "lengthens the next life indefinitely: kéo dài đời sau; không phải kết thúc tái sinh.",
+        "allows only memories of past lives to fade: chỉ mất ký ức; đổi sự hiện hữu thành điều được nhớ."
+      ],
+      "dimension": "ending a process versus improving, extending, and forgetting it"
+    },
+    {
+      "sourceCue": "Họ sẽ tiếp tục tu hành cho đến khi đạt được thánh quả A la hán với Niết bàn viên mãn.",
+      "targetVietnamese": "Họ sẽ tiếp tục tu hành cho đến khi đạt được thánh quả A la hán với Niết bàn viên mãn.",
+      "sentence": "Those not yet fully liberated will ___ until attaining Arahantship and complete Nirvana.",
+      "options": [
+        "persevere in practice",
+        "merely await automatic promotion",
+        "claim to have completed every stage",
+        "abandon the aspiration to practice"
+      ],
+      "answer": 0,
+      "rationales": [
+        "persevere in practice: tiếp tục bền bỉ tu; giữ công việc còn cần làm.",
+        "merely await automatic promotion: chỉ chờ tự lên bậc; thêm bảo đảm không cần dụng công.",
+        "claim to have completed every stage: tự nhận đã xong; trái tình trạng chưa giải thoát.",
+        "abandon the aspiration to practice: bỏ ý nguyện tu; trái việc tiếp tục đến đích."
+      ],
+      "dimension": "persistence versus passive expectation, premature claim, and abandonment"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M081",
+  "sourceBlockId": "W02-B07",
+  "title": "Thiếu kiến thức: từ áp dụng đến hậu quả",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Một vị chủ trì ngôi tự viện, do thiếu kiến thức, đã áp dụng một Thanh qui sai lầm",
+      "targetVietnamese": "Một vị chủ trì ngôi tự viện, do thiếu kiến thức, đã áp dụng một Thanh qui sai lầm",
+      "sentence": "Lacking knowledge, the abbot has ___ a misguided monastic rule.",
+      "options": [
+        "implemented",
+        "drafted",
+        "repealed",
+        "appealed against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "implemented: đưa vào áp dụng; giữ giai đoạn quy định đã tác động lên đời sống.",
+        "drafted: soạn nháp; chưa đến bước thực hiện được nguồn kể.",
+        "repealed: bãi bỏ; đảo hành vi áp dụng thành loại đi.",
+        "appealed against: khiếu nghị chống; biến người áp dụng thành người phản đối quy tắc."
+      ],
+      "dimension": "implementation versus drafting, repeal, and appeal"
+    },
+    {
+      "sourceCue": "ảnh hưởng xấu đến sức khỏe và tâm linh của đại chúng.",
+      "targetVietnamese": "ảnh hưởng xấu đến sức khỏe và tâm linh của đại chúng.",
+      "sentence": "The rule ___ the community's health and spiritual well-being.",
+      "options": [
+        "impairs",
+        "monitors",
+        "assesses",
+        "documents"
+      ],
+      "answer": 0,
+      "rationales": [
+        "impairs: làm suy giảm, gây hại; giữ tác động bất lợi.",
+        "monitors: theo dõi; không nói quy tắc gây thiệt hại.",
+        "assesses: đánh giá; đổi tác động thực tế thành nhận định.",
+        "documents: ghi lại; đổi nguyên nhân gây hại thành hồ sơ mô tả."
+      ],
+      "dimension": "harm versus observation, assessment, and documentation"
+    },
+    {
+      "sourceCue": "Một nhà thuyết pháp do thiếu kiến thức đã giải thích giáo lý đi ngược với khoa học",
+      "targetVietnamese": "Một nhà thuyết pháp do thiếu kiến thức đã giải thích giáo lý đi ngược với khoa học",
+      "sentence": "The uninformed preacher's interpretation ___ .",
+      "options": [
+        "runs counter to science",
+        "takes its cue from scientific evidence",
+        "underpins a scientific explanation",
+        "settles a scientific dispute"
+      ],
+      "answer": 0,
+      "rationales": [
+        "runs counter to science: trái với; giữ hướng bất tương hợp.",
+        "takes its cue from scientific evidence: lấy chứng cứ làm gợi dẫn; đảo nguồn của lời giải thích.",
+        "underpins a scientific explanation: làm nền cho khoa học; đảo chiều quan hệ.",
+        "settles a scientific dispute: giải quyết tranh luận; thêm thành quả không được nguồn kể."
+      ],
+      "dimension": "conflict versus evidential guidance, foundation, and resolution"
+    },
+    {
+      "sourceCue": "gây mê tín",
+      "targetVietnamese": "gây mê tín",
+      "sentence": "The explanation ___ superstition.",
+      "options": [
+        "fosters",
+        "diagnoses",
+        "exposes",
+        "merely records"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fosters: làm phát triển; giữ lời cảnh báo gây mê tín.",
+        "diagnoses: nhận diện như một vấn đề; không phải làm nảy sinh.",
+        "exposes: vạch rõ cho người ta thấy; thường là bước đối trị, khác việc nuôi mê tín.",
+        "merely records: chỉ ghi lại; xóa vai trò gây ra hậu quả."
+      ],
+      "dimension": "production versus diagnosis, exposure, and record"
+    },
+    {
+      "sourceCue": "làm giảm giá trị của đạo.",
+      "targetVietnamese": "làm giảm giá trị của đạo.",
+      "sentence": "Such preaching ___ the value of the religion.",
+      "options": [
+        "diminishes",
+        "artificially elevates",
+        "merely appraises",
+        "formally certifies"
+      ],
+      "answer": 0,
+      "rationales": [
+        "diminishes: làm giảm; giữ hậu quả bất lợi đối với giá trị của đạo.",
+        "artificially elevates: tô cao giả tạo; đảo từ giảm sang nâng địa vị.",
+        "merely appraises: chỉ đánh giá; không giữ tác hại của lời giải thích sai.",
+        "formally certifies: chính thức xác nhận địa vị; thêm một hoạt động chứng nhận thay vì làm tổn giá trị."
+      ],
+      "dimension": "diminution versus appraisal, canonization, and procedural planning"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M082",
+  "sourceBlockId": "W02-B08",
+  "title": "Công bằng xã hội và giới hạn của pháp luật",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Hoặc một kẻ phạm tội trộm cắp, giết người bị nhà chức trách bắt giam.",
+      "targetVietnamese": "Hoặc một kẻ phạm tội trộm cắp, giết người bị nhà chức trách bắt giam.",
+      "sentence": "A person guilty of theft or murder is ___ by the authorities.",
+      "options": [
+        "apprehended and detained",
+        "convicted and sentenced",
+        "tried and acquitted",
+        "pardoned and released"
+      ],
+      "answer": 0,
+      "rationales": [
+        "apprehended and detained: bắt giữ và giam; giữ đúng giai đoạn được kể.",
+        "convicted and sentenced: kết tội và tuyên án; thêm bước xét xử sau bắt giam.",
+        "tried and acquitted: xét rồi trắng án; thêm xét xử và đảo kết quả.",
+        "pardoned and released: được ân xá rồi thả; thêm quyết định tha không có."
+      ],
+      "dimension": "arrest versus conviction, acquittal, and pardon"
+    },
+    {
+      "sourceCue": "Hoặc một bác sĩ tận tụy chữa bệnh nhân, ông được khen thưởng và thăng chức.",
+      "targetVietnamese": "Hoặc một bác sĩ tận tụy chữa bệnh nhân, ông được khen thưởng và thăng chức.",
+      "sentence": "A doctor who treats patients devotedly is ___ .",
+      "options": [
+        "rewarded and promoted",
+        "licensed and registered",
+        "examined and certified",
+        "commissioned to conduct an inquiry"
+      ],
+      "answer": 0,
+      "rationales": [
+        "rewarded and promoted: được khen thưởng và lên chức, giữ cả hai kết quả được nêu.",
+        "licensed and registered: được cấp phép và đăng ký là điều kiện hành nghề, không phải khen thưởng.",
+        "examined and certified: được kiểm tra và chứng nhận chưa phải nâng chức vì tận tụy.",
+        "commissioned to conduct an inquiry: được giao điều tra thêm nhiệm vụ hoàn toàn khác phần thưởng."
+      ],
+      "dimension": "recognition and advancement versus professional authorization"
+    },
+    {
+      "sourceCue": "Cái Nhân Quả xã hội này giống hệt với luật Nghiệp Báo là một minh chứng của Nghiệp Báo.",
+      "targetVietnamese": "Cái Nhân Quả xã hội này giống hệt với luật Nghiệp Báo là một minh chứng của Nghiệp Báo.",
+      "sentence": "This social cause-and-effect ___ karmic causation, without itself being the law of karma.",
+      "options": [
+        "mirror",
+        "supersede",
+        "administer",
+        "legislate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "mirror: phản chiếu sự tương tự; giữ giống về hình ảnh mà không đồng nhất bản chất.",
+        "supersede: thay thế; nguồn không nói luật xã hội đứng chỗ nghiệp báo.",
+        "administer: điều hành, thực thi; biến sự tương tự thành quản lý một nguyên lý.",
+        "legislate: ban hành thành luật; thêm quyền con người đặt ra nghiệp báo."
+      ],
+      "dimension": "analogy versus replacement, administration, and legislation"
+    },
+    {
+      "sourceCue": "Kẻ tội phạm ranh ma vẫn có thể che mắt luật pháp.",
+      "targetVietnamese": "Kẻ tội phạm ranh ma vẫn có thể che mắt luật pháp.",
+      "sentence": "A cunning offender may ___ .",
+      "options": [
+        "elude detection",
+        "secure a pardon after conviction",
+        "complete an imposed sentence",
+        "obtain formal permission to offend"
+      ],
+      "answer": 0,
+      "rationales": [
+        "elude detection: tránh bị phát hiện; giữ hình ảnh che mắt luật pháp.",
+        "secure a pardon after conviction: được ân xá sau kết tội; giả định đã bị phát hiện và xét xử.",
+        "complete an imposed sentence: chấp hành xong án; trái sự qua mặt việc xử lý.",
+        "obtain formal permission to offend: được cho phép phạm tội; thêm một quyền hợp thức không có."
+      ],
+      "dimension": "evasion versus pardon, compliance, and authorization"
+    },
+    {
+      "sourceCue": "Và không thiếu những người tận tụy tốt bụng bị trù dập vì không ăn cánh với kẻ xấu.",
+      "targetVietnamese": "Và không thiếu những người tận tụy tốt bụng bị trù dập vì không ăn cánh với kẻ xấu.",
+      "sentence": "Many devoted, good-hearted people are ___ .",
+      "options": [
+        "subjected to reprisals for refusing to collude",
+        "rewarded for joining a corrupt faction",
+        "entrusted with authority by the wrongdoers",
+        "publicly commended for complying with a dishonest scheme"
+      ],
+      "answer": 0,
+      "rationales": [
+        "subjected to reprisals for refusing to collude: bị trù dập do không cấu kết; giữ cả hậu quả và lý do.",
+        "rewarded for joining a corrupt faction: thưởng vì đã nhập phe; đảo hành động và kết quả.",
+        "entrusted with authority by the wrongdoers: được phe xấu giao quyền; trái sự bị hại.",
+        "publicly commended for complying with a dishonest scheme: được khen vì tuân âm mưu; đổi người từ chối thành người theo."
+      ],
+      "dimension": "retaliation for integrity versus reward for complicity"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M083",
+  "sourceBlockId": "W02-B09",
+  "title": "Nghiệp, kết quả và cách gọi thiện ác",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "một nghiệp thiện sẽ tạo thành một kết quả vui",
+      "targetVietnamese": "một nghiệp thiện sẽ tạo thành một kết quả vui",
+      "sentence": "A wholesome action will ___ a joyful result.",
+      "options": [
+        "yield",
+        "predict",
+        "merely describe",
+        "presuppose"
+      ],
+      "answer": 0,
+      "rationales": [
+        "yield: sinh ra kết quả; giữ quan hệ từ nghiệp sang quả.",
+        "predict: dự báo; đổi tác nhân tạo quả thành dấu hiệu biết trước.",
+        "merely describe: chỉ mô tả; làm mất tác động nhân quả.",
+        "presuppose: lấy làm tiền đề; đảo kết quả thành điều được giả định phải có."
+      ],
+      "dimension": "production versus prediction, description, and presupposition"
+    },
+    {
+      "sourceCue": "người hay san sẻ vật chất sẽ được giàu sang",
+      "targetVietnamese": "người hay san sẻ vật chất sẽ được giàu sang",
+      "sentence": "Someone who regularly shares material resources will ___ prosperity.",
+      "options": [
+        "attain",
+        "merely forecast",
+        "renounce",
+        "redistribute"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attain: sẽ có đời sống giàu sang, giữ kết quả tác giả gắn với san sẻ.",
+        "merely forecast: chỉ dự đoán sự giàu chưa thực sự nhận kết quả.",
+        "renounce: từ bỏ giàu sang trái nghĩa sẽ được giàu sang.",
+        "redistribute: chia lại sự giàu có là hành động cho, không phải kết quả nhận."
+      ],
+      "dimension": "causal example versus immediacy, converse inference, and exchange"
+    },
+    {
+      "sourceCue": "người hay tự cao sẽ rơi vào địa vị hèn hạ.",
+      "targetVietnamese": "người hay tự cao sẽ rơi vào địa vị hèn hạ.",
+      "sentence": "A habitually arrogant person will ___ .",
+      "options": [
+        "fall into a lowly position",
+        "voluntarily renounce an honored position",
+        "be praised for declining authority",
+        "retain every privilege indefinitely"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fall into a lowly position: rơi vào vị thế thấp; giữ hệ quả bất lợi của tự cao.",
+        "voluntarily renounce an honored position: tự nguyện bỏ chức; thêm chủ ý khiêm nhường.",
+        "be praised for declining authority: được khen vì nhường quyền; đổi hệ quả xấu thành đức hạnh được khen.",
+        "retain every privilege indefinitely: giữ hết quyền lợi mãi; trái chiều rơi xuống."
+      ],
+      "dimension": "adverse consequence versus voluntary renunciation and retained privilege"
+    },
+    {
+      "sourceCue": "Tuy nhiên để hiểu thế nào là thiện ác chúng ta phải lệ thuộc vào hoàn cảnh thời đại.",
+      "targetVietnamese": "Tuy nhiên để hiểu thế nào là thiện ác chúng ta phải lệ thuộc vào hoàn cảnh thời đại.",
+      "sentence": "Our understanding of good and evil ___ historical circumstances.",
+      "options": [
+        "depends on",
+        "dictates",
+        "dispenses with",
+        "merely records"
+      ],
+      "answer": 0,
+      "rationales": [
+        "depends on: có sự phụ thuộc; giữ vai trò của hoàn cảnh trong cách đánh giá.",
+        "dictates: ấn định hoàn cảnh; đảo hướng ảnh hưởng.",
+        "dispenses with: bỏ qua, không cần; trái chữ “phải lệ thuộc”.",
+        "merely records: chỉ chép lại; đổi đánh giá thành công việc lưu thông tin."
+      ],
+      "dimension": "contextual dependence versus determination, omission, and recording"
+    },
+    {
+      "sourceCue": "khi nó đem niềm vui đến cho kẻ khác, được nhiều người khen ngợi.",
+      "targetVietnamese": "khi nó đem niềm vui đến cho kẻ khác, được nhiều người khen ngợi.",
+      "sentence": "Such an action brings others joy, and many people ___ it.",
+      "options": [
+        "commend",
+        "command",
+        "commemorate",
+        "condone"
+      ],
+      "answer": 0,
+      "rationales": [
+        "commend: khen ngợi; giữ sự đánh giá tán thưởng.",
+        "command: ra lệnh; gần chữ nhưng khác hành động từ đánh giá sang chỉ đạo.",
+        "commemorate: tưởng niệm hoặc kỷ niệm; thêm quan hệ với một sự kiện đã qua.",
+        "condone: bỏ qua lỗi hoặc dung thứ; hàm có sai phạm được cho qua, không phải khen thiện."
+      ],
+      "dimension": "praise versus command, commemoration, and condonation"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
+{
+  "id": "M084",
+  "sourceBlockId": "W02-B10",
+  "title": "Đền ơn, vô ơn, oán và tha thứ",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Trường hợp chúng ta giúp đỡ ai, họ mang ơn, sau này họ đền ơn.",
+      "targetVietnamese": "Trường hợp chúng ta giúp đỡ ai, họ mang ơn, sau này họ đền ơn.",
+      "sentence": "Someone grateful for our help later ___ .",
+      "options": [
+        "repays the kindness",
+        "reimburses a contractual expense",
+        "compensates for an injury they caused",
+        "settles a previously agreed purchase price"
+      ],
+      "answer": 0,
+      "rationales": [
+        "repays the kindness: đền đáp ơn; giữ quan hệ tình nghĩa.",
+        "reimburses a contractual expense: hoàn chi phí theo hợp đồng; thêm thỏa thuận giao dịch.",
+        "compensates for an injury they caused: bồi thường thiệt hại mình gây; đổi người nhận ơn thành người gây hại.",
+        "settles a previously agreed purchase price: trả tiền mua đã định; biến đền ơn thành nghĩa vụ thanh toán."
+      ],
+      "dimension": "gratitude versus reimbursement, compensation, and contractual payment"
+    },
+    {
+      "sourceCue": "Nhưng đôi khi gặp kẻ vô ơn, không đếm xỉa gì đến chúng ta.",
+      "targetVietnamese": "Nhưng đôi khi gặp kẻ vô ơn, không đếm xỉa gì đến chúng ta.",
+      "sentence": "An ungrateful recipient may ___ .",
+      "options": [
+        "pay no heed to the benefactor",
+        "merely postpone an agreed repayment",
+        "refuse the assistance before receiving it",
+        "question whether any assistance was offered"
+      ],
+      "answer": 0,
+      "rationales": [
+        "pay no heed to the benefactor: không quan tâm, chẳng đếm xỉa; giữ thái độ sau khi nhận giúp.",
+        "merely postpone an agreed repayment: chỉ hoãn thanh toán; thêm giao hẹn và lý do thời gian.",
+        "refuse the assistance before receiving it: từ chối trước khi nhận; đổi giai đoạn của sự việc.",
+        "question whether any assistance was offered: nghi có từng được giúp không; thêm một nghi vấn nhận thức."
+      ],
+      "dimension": "disregard versus postponement, refusal, and doubt"
+    },
+    {
+      "sourceCue": "Hoặc trước kia chúng ta lầm lỡ hại người, họ mang oán thù",
+      "targetVietnamese": "Hoặc trước kia chúng ta lầm lỡ hại người, họ mang oán thù",
+      "sentence": "Someone we previously harmed may ___ resentment.",
+      "options": [
+        "harbor",
+        "vent",
+        "conceal",
+        "feign"
+      ],
+      "answer": 0,
+      "rationales": [
+        "harbor: giữ trong lòng; diễn tả trạng thái oán hận của chính người bị hại.",
+        "vent: bộc lộ, xả ra; thêm hành vi biểu hiện thay vì chỉ nói mang oán.",
+        "conceal: giấu đi; thêm nỗ lực không cho ai nhận thấy mà nguồn chưa nêu.",
+        "feign: giả vờ có; trái việc người bị hại thực sự mang oán trong trường hợp này."
+      ],
+      "dimension": "emotion held within versus reporting, adjudication, and commemoration"
+    },
+    {
+      "sourceCue": "tìm dịp mưu hại chúng ta.",
+      "targetVietnamese": "tìm dịp mưu hại chúng ta.",
+      "sentence": "They may ___ .",
+      "options": [
+        "seek an opportunity to retaliate",
+        "merely recount the original injury",
+        "seek mediation without planning harm",
+        "wait for an apology as a condition of forgiveness"
+      ],
+      "answer": 0,
+      "rationales": [
+        "seek an opportunity to retaliate: tìm cơ hội trả đũa; giữ mục đích gây hại đáp lại.",
+        "merely recount the original injury: chỉ kể chuyện cũ; làm mất ý định mưu hại.",
+        "seek mediation without planning harm: tìm hòa giải; đổi hướng hành động sang hàn gắn.",
+        "wait for an apology as a condition of forgiveness: đặt điều kiện để tha; thêm một thỏa thuận không có trong trường hợp oán."
+      ],
+      "dimension": "retaliatory intention versus narration, mediation, and conditional forgiveness"
+    },
+    {
+      "sourceCue": "Nhưng đôi khi gặp những người độ lượng tha thư,ù họ không tìm cách trả thù.",
+      "targetVietnamese": "Nhưng đôi khi gặp những người độ lượng tha thư,ù họ không tìm cách trả thù.",
+      "sentence": "In contrast, a magnanimous, forgiving person will ___ .",
+      "options": [
+        "forgo retaliation",
+        "postpone retaliation until a better moment",
+        "delegate retaliation to someone else",
+        "deny that any harm ever occurred"
+      ],
+      "answer": 0,
+      "rationales": [
+        "forgo retaliation: bỏ việc trả đũa; giữ cách tha thứ trong đoạn.",
+        "postpone retaliation until a better moment: đợi dịp thuận; vẫn giữ kế hoạch báo thù.",
+        "delegate retaliation to someone else: giao người khác trả thù; chỉ đổi người làm, không bỏ việc.",
+        "deny that any harm ever occurred: phủ nhận từng bị hại; tha thứ không đòi phải phủ nhận sự kiện."
+      ],
+      "dimension": "renunciation versus postponement, proxy action, and denial"
+    }
+  ],
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed"
+},
   {
     id: 'M085', sourceBlockId: 'W02-B11', title: 'Nhân quả không chờ lòng biết ơn hay oán hận',
     review: 'source-and-alternatives-reviewed-by-author',
@@ -16634,6 +17979,5510 @@ module.exports = [
         "bribing: mua chuộc trẻ thêm động cơ phần thưởng ngoài nguồn."
       ],
       "dimension": "hướng dẫn giáo dục"
+    }
+  ]
+}
+,
+{
+  "id": "M238",
+  "sourceBlockId": "W20-B10",
+  "title": "Tìm giải thoát mà không trở lại vị kỷ",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "chúng ta xác định phải đi đến sự giải thoát.",
+      "targetVietnamese": "chúng ta xác định phải đi đến sự giải thoát.",
+      "sentence": "We ___ to pursue liberation.",
+      "options": [
+        "resolve",
+        "profess to have ceased",
+        "claim to have attained",
+        "are presumed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resolve: xác lập quyết tâm phải đi tới, giữ giai đoạn phát hướng tu.",
+        "profess to have ceased: tuyên bố đã thôi theo đuổi, đảo nội dung xác định mục tiêu.",
+        "claim to have attained: tuyên bố đã chứng đạt nhảy từ quyết tâm sang hoàn tất.",
+        "are presumed: bị người khác giả định, đổi quyết định của chính mình thành nhận xét ngoài."
+      ],
+      "dimension": "xác lập hướng tu"
+    },
+    {
+      "sourceCue": "chúng ta sẽ rơi trở lại tâm vị kỷ.",
+      "targetVietnamese": "chúng ta sẽ rơi trở lại tâm vị kỷ.",
+      "sentence": "Seeking liberation only for ourselves will make us ___ selfishness.",
+      "options": [
+        "relapse into",
+        "take credit for",
+        "infer the presence of",
+        "seek redress for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "relapse into: rơi lại vào trạng thái vị kỷ, giữ nét trở lại của nguồn.",
+        "take credit for: nhận công về tính ích kỷ là một hành vi khác thường không được nêu.",
+        "infer the presence of: suy ra có ích kỷ là nhận biết, không phải chính mình trở lại nó.",
+        "seek redress for: đòi bồi thường vì ích kỷ, thêm quan hệ tranh chấp ngoài nguồn."
+      ],
+      "dimension": "tái rơi vào"
+    },
+    {
+      "sourceCue": "Mà vị kỷ chính là nguyên nhân của mọi đau khổ trên đời.",
+      "targetVietnamese": "Mà vị kỷ chính là nguyên nhân của mọi đau khổ trên đời.",
+      "sentence": "Selfishness ___ all suffering in life.",
+      "options": [
+        "gives rise to",
+        "merely accompanies",
+        "stands as proof against",
+        "compensates for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "gives rise to: làm phát sinh đau khổ, đúng quan hệ nguyên nhân được khẳng định.",
+        "merely accompanies: chỉ đi kèm xóa mất sức gây ra đau khổ của nguồn.",
+        "stands as proof against: là bằng chứng chống đau khổ không phải căn nguyên gây đau khổ.",
+        "compensates for: bù đắp đau khổ là chiều tác động ngược nguồn."
+      ],
+      "dimension": "căn nguyên đau khổ"
+    },
+    {
+      "sourceCue": "không ngờ lại gieo nhân đau khổ.",
+      "targetVietnamese": "không ngờ lại gieo nhân đau khổ.",
+      "sentence": "Without realizing it, some people seeking escape from suffering ___ its causes.",
+      "options": [
+        "sow",
+        "diagnose",
+        "inherit",
+        "foresee"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sow: tự gieo nguyên nhân mới mà không ngờ, giữ hình ảnh và tác nhân.",
+        "diagnose: chẩn đoán nguyên nhân là hiểu ra, không phải gieo mà không biết.",
+        "inherit: thừa hưởng nhân có trước bỏ vai trò hiện tại tự tạo nhân.",
+        "foresee: thấy trước nguyên nhân trái chi tiết không ngờ của câu Việt."
+      ],
+      "dimension": "tự gieo nhân"
+    },
+    {
+      "sourceCue": "cái vòng lẩn quẩn mà không phải ai cũng dễ dàng thoát ra được.",
+      "targetVietnamese": "cái vòng lẩn quẩn mà không phải ai cũng dễ dàng thoát ra được.",
+      "sentence": "Not everyone can readily ___ this vicious circle.",
+      "options": [
+        "break out of",
+        "account for",
+        "give a name to",
+        "take comfort in"
+      ],
+      "answer": 0,
+      "rationales": [
+        "break out of: thoát khỏi vòng lẩn quẩn, giữ mục tiêu ra khỏi trạng thái lặp.",
+        "account for: giải thích vòng lẩn quẩn chưa đồng nghĩa vượt thoát.",
+        "give a name to: đặt tên vòng lẩn quẩn chỉ nhận diện chứ chưa thoát khỏi.",
+        "take comfort in: tìm an ủi trong vòng luẩn quẩn trái hướng muốn thoát."
+      ],
+      "dimension": "thoát vòng lặp"
+    }
+  ]
+},
+{
+  "id": "M239",
+  "sourceBlockId": "W20-B11",
+  "title": "Khi luật pháp gặp người thực thi thiếu đạo đức",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "được quy định rõ ràng phải chịu mức án bao nhiêu năm.",
+      "targetVietnamese": "được quy định rõ ràng phải chịu mức án bao nhiêu năm.",
+      "sentence": "The law clearly ___ how many years a given offence carries.",
+      "options": [
+        "stipulates",
+        "forecasts",
+        "commemorates",
+        "recounts"
+      ],
+      "answer": 0,
+      "rationales": [
+        "stipulates: quy định thời hạn hình phạt, giữ lực của luật pháp.",
+        "forecasts: dự báo số năm không có tính quy định bắt buộc.",
+        "commemorates: tưởng niệm hình phạt không nói nội dung luật ấn định.",
+        "recounts: kể lại số năm chỉ thuật chuyện, không xác lập mức án."
+      ],
+      "dimension": "quy định mức án"
+    },
+    {
+      "sourceCue": "gia đình họ mua chuộc cán bộ Công an",
+      "targetVietnamese": "gia đình họ mua chuộc cán bộ Công an",
+      "sentence": "The offender's family ___ police officers.",
+      "options": [
+        "bribes",
+        "petitions",
+        "cross-examines",
+        "appeals to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "bribes: đưa lợi ích để làm sai việc công, đúng mua chuộc.",
+        "petitions: nộp kiến nghị có thể hợp pháp, không giữ yếu tố tham nhũng.",
+        "cross-examines: chất vấn chéo thuộc tố tụng, không phải mua chuộc.",
+        "appeals to: cầu xin hỗ trợ không tự có trao lợi ích bất chính."
+      ],
+      "dimension": "mua chuộc"
+    },
+    {
+      "sourceCue": "xử lý điều tra rồi chuyển qua Viện Kiểm sát",
+      "targetVietnamese": "xử lý điều tra rồi chuyển qua Viện Kiểm sát",
+      "sentence": "Police investigate the case and then ___ it to the procuracy.",
+      "options": [
+        "refer",
+        "leak",
+        "return",
+        "concede"
+      ],
+      "answer": 0,
+      "rationales": [
+        "refer: chuyển hồ sơ sang cơ quan tố tụng tiếp theo, đúng luồng xử lý.",
+        "leak: lén tiết lộ vụ án thêm hành vi sai trái nguồn chưa nói tại bước này.",
+        "return: trả lại hàm ý hồ sơ từng từ cơ quan ấy đến, không được nguồn nêu.",
+        "concede: nhượng bộ trong vụ án khác hành động chuyển cơ quan xử lý."
+      ],
+      "dimension": "chuyển hồ sơ"
+    },
+    {
+      "sourceCue": "nếu các quan tòa được mua chuộc sẽ tuyên bố trắng án",
+      "targetVietnamese": "nếu các quan tòa được mua chuộc sẽ tuyên bố trắng án",
+      "sentence": "If the judges are bribed, they will ___ the defendant.",
+      "options": [
+        "acquit",
+        "pardon",
+        "parole",
+        "indict"
+      ],
+      "answer": 0,
+      "rationales": [
+        "acquit: tuyên không có tội, đúng trắng án dù vụ việc có tham nhũng.",
+        "pardon: ân xá người có tội, khác tuyên không phạm tội.",
+        "parole: tha tù có điều kiện sau kết án, không phải trắng án.",
+        "indict: truy tố bị cáo, đảo hướng tha trắng ở khâu tòa án."
+      ],
+      "dimension": "trắng án và ân xá"
+    },
+    {
+      "sourceCue": "nếu người thi hành luật pháp không có Đạo đức, luật pháp sẽ không đem lại hiệu quả.",
+      "targetVietnamese": "nếu người thi hành luật pháp không có Đạo đức, luật pháp sẽ không đem lại hiệu quả.",
+      "sentence": "Without ethical officials, the law will fail to ___ the intended effect.",
+      "options": [
+        "produce",
+        "predict",
+        "publicize",
+        "legitimize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "produce: không tạo ra hiệu quả thực tế, đúng kết luận không đem lại hiệu quả.",
+        "predict: không dự đoán hiệu quả khác với việc không tạo ra nó.",
+        "publicize: không công bố hiệu quả chỉ nói thông tin, không nói thi hành.",
+        "legitimize: không hợp thức hóa hiệu quả không phải thất bại tác dụng của luật."
+      ],
+      "dimension": "hiệu lực thực thi"
+    }
+  ]
+},
+{
+  "id": "M240",
+  "sourceBlockId": "W20-B12",
+  "title": "Nghiệp quả, nguyên tắc và quyền lựa chọn",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "mọi hoàn cảnh đã bị quy định",
+      "targetVietnamese": "mọi hoàn cảnh đã bị quy định",
+      "sentence": "Under a rigid account of karma, every circumstance would be ___ .",
+      "options": [
+        "predetermined",
+        "merely anticipated",
+        "retrospectively explained",
+        "publicly announced"
+      ],
+      "answer": 0,
+      "rationales": [
+        "predetermined: bị ấn định sẵn, đúng giả thuyết cứng nhắc mà đoạn đang bác.",
+        "merely anticipated: chỉ được đoán trước chưa có tính bắt buộc phải xảy ra.",
+        "retrospectively explained: được giải thích sau sự việc khác ấn định từ trước.",
+        "publicly announced: được thông báo công khai không tự có nghĩa bị định sẵn."
+      ],
+      "dimension": "ấn định sẵn"
+    },
+    {
+      "sourceCue": "không còn chỗ cho mọi người có quyền chọn lựa hành động tạo nghiệp của mình nữa.",
+      "targetVietnamese": "không còn chỗ cho mọi người có quyền chọn lựa hành động tạo nghiệp của mình nữa.",
+      "sentence": "Such rigidity would ___ people's freedom to choose their karmic actions.",
+      "options": [
+        "eliminate",
+        "condition",
+        "illustrate",
+        "reaffirm"
+      ],
+      "answer": 0,
+      "rationales": [
+        "eliminate: xóa hẳn chỗ cho quyền lựa chọn, đúng không còn chỗ.",
+        "condition: chỉ đặt điều kiện cho lựa chọn vẫn có thể để lại tự do, yếu hơn nguồn.",
+        "illustrate: minh họa quyền lựa chọn không nói quyền ấy bị mất.",
+        "reaffirm: tái khẳng định quyền chọn là ngược hệ quả cứng nhắc."
+      ],
+      "dimension": "xóa quyền lựa chọn"
+    },
+    {
+      "sourceCue": "rất linh động, nhưng có nguyên tắc.",
+      "targetVietnamese": "rất linh động, nhưng có nguyên tắc.",
+      "sentence": "The law of karma remains flexible while ___ principles.",
+      "options": [
+        "adhering to",
+        "dispensing with",
+        "merely mentioning",
+        "suspending"
+      ],
+      "answer": 0,
+      "rationales": [
+        "adhering to: vẫn tuân nguyên tắc trong linh động, giữ đủ hai mặt của nguồn.",
+        "dispensing with: gạt bỏ nguyên tắc trái với nhưng có nguyên tắc.",
+        "merely mentioning: chỉ nhắc nguyên tắc chưa bảo đảm giữ chúng khi vận hành.",
+        "suspending: tạm dừng nguyên tắc không giữ tính nguyên tắc của luật."
+      ],
+      "dimension": "linh động có nguyên tắc"
+    },
+    {
+      "sourceCue": "cường độ của sự cố đó có thể thay đổi tùy theo Nghiệp mới của ông B",
+      "targetVietnamese": "cường độ của sự cố đó có thể thay đổi tùy theo Nghiệp mới của ông B",
+      "sentence": "The severity of the event may ___ according to B's new karma.",
+      "options": [
+        "vary",
+        "be denied",
+        "be declared",
+        "be concealed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "vary: có thể biến đổi về mức độ tùy nghiệp mới, đúng khả năng nguồn nêu.",
+        "be denied: bị phủ nhận mức độ chỉ là nhận định, không đổi sự cố thật.",
+        "be declared: được tuyên bố mức độ khác không nói nó thực sự thay đổi.",
+        "be concealed: được giấu bớt chỉ đổi việc người khác biết, không đổi cường độ."
+      ],
+      "dimension": "biến đổi cường độ"
+    },
+    {
+      "sourceCue": "chúng sinh có thể có tự do chọn lựa Nghiệp mới của mình",
+      "targetVietnamese": "chúng sinh có thể có tự do chọn lựa Nghiệp mới của mình",
+      "sentence": "This flexibility ___ sentient beings to choose new karma freely.",
+      "options": [
+        "allows",
+        "compels",
+        "certifies",
+        "exempts"
+      ],
+      "answer": 0,
+      "rationales": [
+        "allows: mở khả năng chọn tự do, giữ có thể có quyền lựa chọn.",
+        "compels: bắt buộc chọn một cách tự do tạo lực ép trái tự do.",
+        "certifies: cấp chứng nhận đã chọn, không phải tạo khoảng cho lựa chọn.",
+        "exempts: miễn khỏi lựa chọn đổi việc được tự do thành không phải chọn."
+      ],
+      "dimension": "cho phép và bắt buộc"
+    }
+  ]
+},
+{
+  "id": "M241",
+  "sourceBlockId": "W21-B01",
+  "title": "Cầu nguyện để nhắc lại và tự hứa",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Đạo Phật cũng có cầu nguyện, cũng có tụng kinh giống như các tôn giáo khác.",
+      "targetVietnamese": "Đạo Phật cũng có cầu nguyện, cũng có tụng kinh giống như các tôn giáo khác.",
+      "sentence": "Like other religions, Buddhism also ___ prayer and scripture chanting.",
+      "options": [
+        "includes",
+        "originates solely in",
+        "dispenses with",
+        "is confined to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "includes: có những hình thức này trong thực hành, không biến chúng thành toàn bộ đạo.",
+        "originates solely in: cho rằng toàn bộ đạo chỉ khởi nguồn từ hai việc ấy, thêm độc nhất.",
+        "dispenses with: loại bỏ hai thực hành, trái lời cũng có của nguồn.",
+        "is confined to: chỉ giới hạn trong cầu nguyện tụng kinh, thu hẹp quá nội dung."
+      ],
+      "dimension": "có chứ không chỉ có"
+    },
+    {
+      "sourceCue": "để nhắc lại lời dạy của Phật",
+      "targetVietnamese": "để nhắc lại lời dạy của Phật",
+      "sentence": "One purpose of prayer and chanting is to ___ the Buddha's teachings.",
+      "options": [
+        "reiterate",
+        "revise",
+        "authenticate",
+        "supersede"
+      ],
+      "answer": 0,
+      "rationales": [
+        "reiterate: nhắc lại lời đã dạy, đúng chức năng ôn lời Phật.",
+        "revise: sửa lời dạy khác hành động nhắc lại nguyên ý.",
+        "authenticate: xác thực nguồn gốc lời dạy, không phải ôn nhắc.",
+        "supersede: thay thế lời dạy bằng cái mới, trái hướng nhắc lại."
+      ],
+      "dimension": "nhắc lại lời dạy"
+    },
+    {
+      "sourceCue": "để hứa với Phật những điều tốt đẹp mà ta muốn thực hiện",
+      "targetVietnamese": "để hứa với Phật những điều tốt đẹp mà ta muốn thực hiện",
+      "sentence": "Another purpose is to ___ the Buddha that we will carry out the good things we wish to do.",
+      "options": [
+        "promise",
+        "report to",
+        "remind",
+        "prove to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "promise: tự hứa về việc tốt sẽ làm, đúng hướng cam kết tương lai.",
+        "report to: báo việc đã hay đang làm không giữ nét hứa thực hiện.",
+        "remind: nhắc Phật việc ngài đã biết khác tự mình đưa lời hứa.",
+        "prove to: chứng minh sẽ thực hiện đòi bằng chứng, không phải lời cam kết."
+      ],
+      "dimension": "hứa thực hiện"
+    },
+    {
+      "sourceCue": "xin Phật gia hộ cho ta tu dưỡng đạo đức nội tâm tốt hẳn lên.",
+      "targetVietnamese": "xin Phật gia hộ cho ta tu dưỡng đạo đức nội tâm tốt hẳn lên.",
+      "sentence": "We ask for the Buddha's blessings to help us ___ our inner moral character.",
+      "options": [
+        "improve",
+        "publicize",
+        "excuse",
+        "take for granted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "improve: tu dưỡng cho đạo đức nội tâm tốt hơn thật, đúng mục đích cầu gia hộ.",
+        "publicize: quảng bá đạo đức ra ngoài không phải làm nó tốt lên.",
+        "excuse: biện hộ cho phẩm chất hiện tại tránh việc tu sửa.",
+        "take for granted: mặc nhiên coi đã tốt, trái nhu cầu tu dưỡng tốt hẳn."
+      ],
+      "dimension": "tu dưỡng nội tâm"
+    },
+    {
+      "sourceCue": "rồi từ từ ta có thể nhìn ai cũng thấy thương",
+      "targetVietnamese": "rồi từ từ ta có thể nhìn ai cũng thấy thương",
+      "sentence": "Gradually, we may come to ___ everyone we see.",
+      "options": [
+        "feel love for",
+        "recognize by sight",
+        "seek approval from",
+        "feel indebted to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "feel love for: nhìn ai cũng thấy thương, giữ tình cảm yêu thương lan rộng.",
+        "recognize by sight: nhận diện mặt mọi người là khả năng nhớ, không phải thương.",
+        "seek approval from: mong mọi người chấp thuận đặt tâm ở việc được công nhận.",
+        "feel indebted to: thấy mắc nợ mọi người là cảm giác nghĩa vụ khác với thương yêu."
+      ],
+      "dimension": "thương được mọi người"
+    }
+  ]
+},
+{
+  "id": "M242",
+  "sourceBlockId": "W21-B02",
+  "title": "Sự cứu giúp và đời sống hướng thiện",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "đều có trách nhiệm dõi theo giúp đỡ con người.",
+      "targetVietnamese": "đều có trách nhiệm dõi theo giúp đỡ con người.",
+      "sentence": "These sacred beings are responsible for ___ human beings.",
+      "options": [
+        "watching over and helping",
+        "ruling over and replacing",
+        "evaluating and publicizing",
+        "rewarding and imitating"
+      ],
+      "answer": 0,
+      "rationales": [
+        "watching over and helping: giữ cả dõi theo lẫn giúp đỡ, không thêm sự thống trị.",
+        "ruling over and replacing: cai trị và thay thế con người, không phải dõi theo hỗ trợ.",
+        "evaluating and publicizing: đánh giá rồi công bố con người khác chức năng giúp đỡ.",
+        "rewarding and imitating: thưởng và noi theo con người không dịch đủ hành động dõi theo."
+      ],
+      "dimension": "dõi theo giúp đỡ"
+    },
+    {
+      "sourceCue": "ai biết kính trọng người đáng kính",
+      "targetVietnamese": "ai biết kính trọng người đáng kính",
+      "sentence": "Help is described for those who ___ people worthy of respect.",
+      "options": [
+        "honor",
+        "flatter",
+        "appease",
+        "depend financially on"
+      ],
+      "answer": 0,
+      "rationales": [
+        "honor: kính trọng người đáng kính, đúng thái độ đối với phẩm hạnh.",
+        "flatter: nịnh nọt để lấy lòng, thêm động cơ thiếu chân thành.",
+        "appease: xoa dịu để họ đỡ giận, thêm hoàn cảnh nguồn không nêu.",
+        "depend financially on: lệ thuộc tiền bạc không đồng nghĩa kính trọng người có đức."
+      ],
+      "dimension": "kính người đáng kính"
+    },
+    {
+      "sourceCue": "khi gặp khó khăn tai họa, cầu nguyện đều được cứu giúp bình an.",
+      "targetVietnamese": "khi gặp khó khăn tai họa, cầu nguyện đều được cứu giúp bình an.",
+      "sentence": "When such people face hardship or disaster and pray, they are ___ to safety.",
+      "options": [
+        "helped",
+        "promoted",
+        "commissioned",
+        "recommended"
+      ],
+      "answer": 0,
+      "rationales": [
+        "helped: được cứu giúp thoát hiểm an toàn, giữ điều kiện người sống tốt ở đoạn.",
+        "promoted: được thăng chức không phải đưa ra khỏi tai họa.",
+        "commissioned: được giao nhiệm vụ không nói được cứu giúp bình an.",
+        "recommended: được giới thiệu tới an toàn là sai hành động cứu giúp trực tiếp."
+      ],
+      "dimension": "cứu giúp bình an"
+    },
+    {
+      "sourceCue": "sau khi ta vượt qua hoạn nạn",
+      "targetVietnamese": "sau khi ta vượt qua hoạn nạn",
+      "sentence": "They know that after we ___ adversity, we will continue our good way of life.",
+      "options": [
+        "come through",
+        "merely anticipate",
+        "lay claim to",
+        "make excuses for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "come through: vượt được hoạn nạn để tiếp tục sống tốt, đúng mốc thời gian.",
+        "merely anticipate: mới thấy trước khó khăn chưa phải đi qua và vượt được.",
+        "lay claim to: nhận hoạn nạn là của mình không diễn đạt vượt thoát.",
+        "make excuses for: biện hộ cho hoạn nạn không phải sống qua nguy khó."
+      ],
+      "dimension": "vượt hoạn nạn"
+    },
+    {
+      "sourceCue": "ta sẽ tiếp tục đời sống tốt đẹp yêu thương giúp đỡ mọi người.",
+      "targetVietnamese": "ta sẽ tiếp tục đời sống tốt đẹp yêu thương giúp đỡ mọi người.",
+      "sentence": "We will ___ our good way of life, loving and helping others.",
+      "options": [
+        "carry on with",
+        "merely profess",
+        "take credit for initiating",
+        "seek exemption from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "carry on with: tiếp tục thực sự sống tốt và giúp người, giữ sự tiếp nối.",
+        "merely profess: chỉ tuyên bố sống tốt không giữ thực chất hành động.",
+        "take credit for initiating: nhận công vì đã khởi đầu không bảo đảm tiếp tục.",
+        "seek exemption from: xin miễn khỏi sống tốt đảo ngược điều các ngài biết."
+      ],
+      "dimension": "tiếp tục sống tốt"
+    }
+  ]
+},
+{
+  "id": "M243",
+  "sourceBlockId": "W21-B03",
+  "title": "Công bằng gắn với cách sống",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "chẳng ai chịu tu dưỡng cả",
+      "targetVietnamese": "chẳng ai chịu tu dưỡng cả",
+      "sentence": "If divine help were unconditional, no one would ___ cultivate themselves.",
+      "options": [
+        "be willing to",
+        "be permitted to",
+        "be qualified to",
+        "be observed to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "be willing to: không chịu tự tu dưỡng, giữ vấn đề ý muốn chịu làm.",
+        "be permitted to: không được phép tu dưỡng là giới hạn bên ngoài, không phải không chịu.",
+        "be qualified to: không đủ tư cách tu là điều kiện năng lực khác.",
+        "be observed to: không bị quan sát đang tu chỉ nói người khác nhìn thấy hay không."
+      ],
+      "dimension": "ý muốn tu dưỡng"
+    },
+    {
+      "sourceCue": "vũ trụ này ẩn chứa một sự công bằng tuyệt đối",
+      "targetVietnamese": "vũ trụ này ẩn chứa một sự công bằng tuyệt đối",
+      "sentence": "This universe ___ absolute justice.",
+      "options": [
+        "harbors",
+        "publicizes",
+        "negotiates",
+        "approximates"
+      ],
+      "answer": 0,
+      "rationales": [
+        "harbors: ẩn chứa công bằng như đặc tính sâu bên trong, đúng ẩn chứa.",
+        "publicizes: công bố công bằng ra ngoài không giữ nét ẩn bên trong.",
+        "negotiates: thương lượng công bằng làm nó tùy thỏa thuận, trái tuyệt đối.",
+        "approximates: chỉ xấp xỉ công bằng làm yếu chữ tuyệt đối của nguồn."
+      ],
+      "dimension": "chứa đựng sâu bên trong"
+    },
+    {
+      "sourceCue": "sẽ xứng đáng được cứu giúp được ban thưởng.",
+      "targetVietnamese": "sẽ xứng đáng được cứu giúp được ban thưởng.",
+      "sentence": "Generous, kind and helpful people will ___ help and reward.",
+      "options": [
+        "deserve",
+        "demand",
+        "dispense",
+        "foretell"
+      ],
+      "answer": 0,
+      "rationales": [
+        "deserve: xứng đáng nhận, đúng quan hệ đạo đức và sự cứu giúp.",
+        "demand: đòi phải được giúp đổi sự xứng đáng thành hành vi yêu sách.",
+        "dispense: phân phát giúp đỡ và phần thưởng, đổi vai người nhận thành người cho.",
+        "foretell: dự báo giúp đỡ là biết trước, không phải xứng đáng được nhận."
+      ],
+      "dimension": "xứng đáng"
+    },
+    {
+      "sourceCue": "sẽ phải bị trừng phạt đau khổ.",
+      "targetVietnamese": "sẽ phải bị trừng phạt đau khổ.",
+      "sentence": "Cruel, narrow-minded and selfish people will ___ painful punishment.",
+      "options": [
+        "suffer",
+        "administer",
+        "prescribe",
+        "commute"
+      ],
+      "answer": 0,
+      "rationales": [
+        "suffer: phải chịu trừng phạt đau khổ, giữ vai người chịu quả.",
+        "administer: thi hành hình phạt lên người khác, đảo vai trò tác nhân.",
+        "prescribe: quy định mức phạt, không phải bản thân bị phạt.",
+        "commute: giảm hình phạt cho người khác, trái vai và hướng câu."
+      ],
+      "dimension": "chịu hình phạt"
+    },
+    {
+      "sourceCue": "đều phải tuân thủ để giữ cho thế giới ổn định.",
+      "targetVietnamese": "đều phải tuân thủ để giữ cho thế giới ổn định.",
+      "sentence": "Heaven, divine beings and the law must all ___ this justice to keep the world stable.",
+      "options": [
+        "abide by",
+        "negotiate away",
+        "take credit for",
+        "merely allude to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "abide by: đều phải tuân thủ, giữ tính quy tắc bắt buộc của công bằng.",
+        "negotiate away: thương lượng gạt bỏ công bằng ngược yêu cầu tuân thủ.",
+        "take credit for: nhận công về công bằng chưa nói thực sự giữ công bằng.",
+        "merely allude to: chỉ nhắc thoáng công bằng yếu hơn phải theo đúng nguyên tắc."
+      ],
+      "dimension": "tuân thủ công bằng"
+    }
+  ]
+}
+,
+{
+  "id": "M244",
+  "sourceBlockId": "W21-B04",
+  "title": "Cho tiền: phải nhìn việc tiền ấy giúp tạo ra",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "để người này có thêm cơ hội làm ác",
+      "targetVietnamese": "để người này có thêm cơ hội làm ác",
+      "sentence": "Giving money to an evil person may ___ them to do more harm.",
+      "options": [
+        "enable",
+        "order",
+        "persuade",
+        "train"
+      ],
+      "answer": 0,
+      "rationales": [
+        "enable: tạo thêm điều kiện để họ làm ác, không nói mình ra lệnh hay dạy họ.",
+        "order: ra lệnh thực hiện thêm điều ác, mạnh và trực tiếp hơn tạo cơ hội.",
+        "persuade: thuyết phục họ chịu làm ác, thêm sự vận động tâm lý ngoài nguồn.",
+        "train: huấn luyện cách làm ác, thêm việc truyền kỹ năng nguồn không nói."
+      ],
+      "dimension": "tạo điều kiện"
+    },
+    {
+      "sourceCue": "thì ta mang tội",
+      "targetVietnamese": "thì ta mang tội",
+      "sentence": "By funding further wrongdoing in this way, we ___ moral blame.",
+      "options": [
+        "incur",
+        "assign",
+        "conceal",
+        "anticipate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "incur: bản thân chịu lỗi do việc mình làm, đúng mang tội.",
+        "assign: gán lỗi cho người khác, đảo chủ thể chịu trách nhiệm.",
+        "conceal: che giấu lỗi đã có không diễn đạt việc mình mắc lỗi.",
+        "anticipate: dự liệu bị trách chưa khẳng định mình thực sự mang tội."
+      ],
+      "dimension": "mắc trách nhiệm"
+    },
+    {
+      "sourceCue": "chỉ là người trong cơn bứt ngặt thiếu thốn",
+      "targetVietnamese": "chỉ là người trong cơn bứt ngặt thiếu thốn",
+      "sentence": "The recipient is simply someone ___ acute material hardship.",
+      "options": [
+        "undergoing",
+        "imposing",
+        "feigning",
+        "foreseeing"
+      ],
+      "answer": 0,
+      "rationales": [
+        "undergoing: đang trải qua thiếu thốn bứt ngặt thật, đúng hoàn cảnh hiện tại.",
+        "imposing: áp khó khăn lên người khác, đảo người chịu thành người gây.",
+        "feigning: giả vờ nghèo là cáo buộc gian dối trái câu nguồn.",
+        "foreseeing: chỉ đoán trước khó khăn chưa phải đang trong cơn bứt ngặt."
+      ],
+      "dimension": "đang chịu thiếu thốn"
+    },
+    {
+      "sourceCue": "ta được phước",
+      "targetVietnamese": "ta được phước",
+      "sentence": "Helping this needy person ___ us blessings.",
+      "options": [
+        "brings",
+        "merely promises",
+        "borrows",
+        "waives"
+      ],
+      "answer": 0,
+      "rationales": [
+        "brings: làm ta có phước do hành động giúp, đúng kết quả nguồn khẳng định.",
+        "merely promises: mới chỉ hứa có phước, đổi hệ quả thành lời hứa của người nào đó.",
+        "borrows: vay phước hàm ý phải trả, không phải được phước do làm lành.",
+        "waives: miễn phước đổi việc nhận thành từ bỏ quyền lợi."
+      ],
+      "dimension": "phước do hành động"
+    },
+    {
+      "sourceCue": "ta không bao giờ bị rơi vào tình cảnh khó khăn bứt ngặt.",
+      "targetVietnamese": "ta không bao giờ bị rơi vào tình cảnh khó khăn bứt ngặt.",
+      "sentence": "As a result, we will never ___ desperate hardship ourselves.",
+      "options": [
+        "fall into",
+        "complain of",
+        "admit to",
+        "speak about"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fall into: không bị rơi vào cảnh khó khăn thực, đúng quả báo được tác giả nêu.",
+        "complain of: không than khổ vẫn có thể đang khổ, không giữ ý thoát cảnh ấy.",
+        "admit to: không thừa nhận khó khăn chỉ nói thái độ, không nói cảnh thật.",
+        "speak about: không nói về thiếu thốn không đồng nghĩa không gặp thiếu thốn."
+      ],
+      "dimension": "cảnh thật và lời nói"
+    }
+  ]
+},
+{
+  "id": "M245",
+  "sourceBlockId": "W21-B05",
+  "title": "Sửa đường và lợi ích lan tới mọi người",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "ta bỏ công lao, thời gian, tiền bạc ra",
+      "targetVietnamese": "ta bỏ công lao, thời gian, tiền bạc ra",
+      "sentence": "We ___ effort, time and money to repair the damaged road.",
+      "options": [
+        "devote",
+        "pledge to consider giving",
+        "seek repayment of",
+        "keep an account of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "devote: thực sự bỏ nguồn lực vào việc sửa, giữ hành động đã làm.",
+        "pledge to consider giving: mới hứa sẽ cân nhắc, chưa phải bỏ công tiền thực tế.",
+        "seek repayment of: đòi hoàn lại nguồn lực thêm động cơ thu hồi không có.",
+        "keep an account of: chỉ ghi chép nguồn lực, chưa nói bỏ chúng ra sửa đường."
+      ],
+      "dimension": "dốc nguồn lực"
+    },
+    {
+      "sourceCue": "để sửa chữa đoạn đường đó lại",
+      "targetVietnamese": "để sửa chữa đoạn đường đó lại",
+      "sentence": "The purpose is to ___ that damaged stretch of road.",
+      "options": [
+        "repair",
+        "extend",
+        "inspect",
+        "resurface completely"
+      ],
+      "answer": 0,
+      "rationales": [
+        "repair: khôi phục phần đường hỏng nói chung, không thêm kỹ thuật nguồn không nêu.",
+        "extend: kéo dài đường tạo thêm chiều dài, khác sửa chỗ hư lỡ.",
+        "inspect: mới kiểm tra hiện trạng, chưa thực hiện sửa chữa.",
+        "resurface completely: thay toàn bộ lớp mặt thêm mức can thiệp cụ thể nguồn không khẳng định."
+      ],
+      "dimension": "sửa hỏng không thêm quy mô"
+    },
+    {
+      "sourceCue": "mọi người đi lại được thuận lợi an toàn",
+      "targetVietnamese": "mọi người đi lại được thuận lợi an toàn",
+      "sentence": "The repair ___ everyone to travel conveniently and safely.",
+      "options": [
+        "allows",
+        "compels",
+        "instructs",
+        "obliges"
+      ],
+      "answer": 0,
+      "rationales": [
+        "allows: tạo điều kiện đi lại an toàn thuận tiện, đúng lợi ích của việc sửa.",
+        "compels: ép mọi người phải đi lại, thêm lực cưỡng bức ngoài nguồn.",
+        "instructs: chỉ dẫn mọi người cách đi là giáo huấn, không phải cải thiện đường.",
+        "obliges: buộc phải đi lại tạo nghĩa vụ thay cho điều kiện thuận lợi."
+      ],
+      "dimension": "tạo điều kiện đi lại"
+    },
+    {
+      "sourceCue": "đời sống của họ được cải thiện",
+      "targetVietnamese": "đời sống của họ được cải thiện",
+      "sentence": "Their lives ___ as a result.",
+      "options": [
+        "improve",
+        "become public",
+        "are reassessed",
+        "are merely described"
+      ],
+      "answer": 0,
+      "rationales": [
+        "improve: đời sống thực sự tốt lên, đúng hệ quả cải thiện được nêu.",
+        "become public: đời sống được công khai khác chất lượng sống tăng lên.",
+        "are reassessed: được đánh giá lại không bảo đảm có cải thiện thật.",
+        "are merely described: chỉ được mô tả là thay thông tin, không thay đời sống."
+      ],
+      "dimension": "cải thiện thật"
+    },
+    {
+      "sourceCue": "ta thoát được nhiều tai nạn giao thông",
+      "targetVietnamese": "ta thoát được nhiều tai nạn giao thông",
+      "sentence": "Later, these blessings help us ___ many traffic accidents.",
+      "options": [
+        "escape",
+        "merely foresee",
+        "report",
+        "investigate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "escape: thoát được tai nạn, giữ kết quả an toàn theo lời tác giả.",
+        "merely foresee: chỉ thấy trước tai nạn không bảo đảm thoát được.",
+        "report: báo tai nạn là thông tin sau hoặc trong sự cố, khác thoát nạn.",
+        "investigate: điều tra tai nạn không diễn đạt bản thân không bị nạn."
+      ],
+      "dimension": "thoát nạn"
+    }
+  ]
+},
+{
+  "id": "M246",
+  "sourceBlockId": "W21-B06",
+  "title": "Giúp học sinh có sách và được no",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "nhiều học trò nhà nghèo thiếu thốn sách vở",
+      "targetVietnamese": "nhiều học trò nhà nghèo thiếu thốn sách vở",
+      "sentence": "Many students from poor families ___ books and school supplies.",
+      "options": [
+        "lack",
+        "misplace",
+        "withhold",
+        "discard"
+      ],
+      "answer": 0,
+      "rationales": [
+        "lack: không có đủ sách vở do nghèo, đúng thiếu thốn nguồn lực.",
+        "misplace: làm lạc sách thêm nguyên nhân sơ ý không được nêu.",
+        "withhold: giữ sách không cho người khác không phải bản thân thiếu sách.",
+        "discard: vứt bỏ sách thêm hành vi lãng phí trái hoàn cảnh nguồn."
+      ],
+      "dimension": "thiếu nguồn lực"
+    },
+    {
+      "sourceCue": "đôi khi bụng đói đến trường",
+      "targetVietnamese": "đôi khi bụng đói đến trường",
+      "sentence": "They sometimes ___ school hungry.",
+      "options": [
+        "attend",
+        "quit",
+        "skip",
+        "enrol in"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attend: đến học trong lúc đói, đúng hành động vẫn đi học.",
+        "quit: bỏ hẳn trường vì đói, thêm kết quả nguồn không nói.",
+        "skip: trốn học trái chi tiết đến trường của câu Việt.",
+        "enrol in: đăng ký nhập học là mốc thủ tục, khác ngày đi học lúc đói."
+      ],
+      "dimension": "đi học dù đói"
+    },
+    {
+      "sourceCue": "ta giúp đỡ cho em đó tiền mua sách vở",
+      "targetVietnamese": "ta giúp đỡ cho em đó tiền mua sách vở",
+      "sentence": "We ___ the student money to buy books and school supplies.",
+      "options": [
+        "give",
+        "lend",
+        "advance",
+        "owe"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give: cho tiền giúp mua sách, không đặt nghĩa vụ hoàn trả.",
+        "lend: cho vay hàm ý phải trả lại, thêm điều kiện ngoài câu nguồn.",
+        "advance: ứng trước hàm ý thanh toán đối trừ về sau, không phải cho giúp.",
+        "owe: mắc nợ tiền học sinh đảo vị thế và lý do của khoản tiền."
+      ],
+      "dimension": "cho và cho vay"
+    },
+    {
+      "sourceCue": "lại cho thức ăn để đi học khỏi đói",
+      "targetVietnamese": "lại cho thức ăn để đi học khỏi đói",
+      "sentence": "We also ___ food so that the student does not go to school hungry.",
+      "options": [
+        "provide",
+        "promise",
+        "reclaim",
+        "ration strictly"
+      ],
+      "answer": 0,
+      "rationales": [
+        "provide: thực sự cho thức ăn để hết đói khi đi học, đúng việc giúp.",
+        "promise: chỉ hứa thức ăn chưa đáp ứng bữa ăn hiện tại.",
+        "reclaim: thu hồi thức ăn đảo chiều trao tặng của nguồn.",
+        "ration strictly: cấp khẩu phần nghiêm ngặt thêm mức hạn chế nguồn không nêu."
+      ],
+      "dimension": "đáp ứng thực tế"
+    },
+    {
+      "sourceCue": "em đó được học hành thành tài",
+      "targetVietnamese": "em đó được học hành thành tài",
+      "sentence": "The student can then ___ through education.",
+      "options": [
+        "develop their abilities",
+        "merely enrol",
+        "claim a qualification",
+        "be excused from study"
+      ],
+      "answer": 0,
+      "rationales": [
+        "develop their abilities: học để thành người có tài, giữ kết quả phát triển năng lực.",
+        "merely enrol: chỉ nhập học chưa đạt mức học hành thành tài.",
+        "claim a qualification: đòi một văn bằng không bảo đảm có tài qua học thật.",
+        "be excused from study: được miễn học trái con đường học hành mà nguồn nhấn mạnh."
+      ],
+      "dimension": "thành tài qua học"
+    }
+  ]
+},
+{
+  "id": "M247",
+  "sourceBlockId": "W21-B07",
+  "title": "Ngôn từ tạo gắn kết hay nghi kỵ",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "nói những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
+      "targetVietnamese": "nói những lời kêu gọi mọi người yêu thương giúp đỡ nhau",
+      "sentence": "Our words may ___ people to love and help one another.",
+      "options": [
+        "call on",
+        "order",
+        "license",
+        "train"
+      ],
+      "answer": 0,
+      "rationales": [
+        "call on: kêu gọi mọi người hướng tới yêu thương giúp đỡ, giữ lực vận động.",
+        "order: ra lệnh làm mạnh hơn lời kêu gọi được nêu.",
+        "license: cấp phép yêu thương hàm ý có quyền cho phép, ngoài nguồn.",
+        "train: huấn luyện kỹ năng yêu thương không phải chỉ nói lời kêu gọi."
+      ],
+      "dimension": "lực của lời kêu gọi"
+    },
+    {
+      "sourceCue": "lúc nào chung quanh cũng đầy ắp tiếng cười",
+      "targetVietnamese": "lúc nào chung quanh cũng đầy ắp tiếng cười",
+      "sentence": "Laughter will always ___ us.",
+      "options": [
+        "surround",
+        "interrupt",
+        "elude",
+        "precede"
+      ],
+      "answer": 0,
+      "rationales": [
+        "surround: tiếng cười đầy quanh mình, giữ quan hệ hiện diện chung quanh.",
+        "interrupt: làm gián đoạn mình thêm tác động phiền nhiễu không có trong nguồn.",
+        "elude: tránh khỏi mình nghĩa không có niềm vui, đảo ý đầy ắp.",
+        "precede: đến trước mình chỉ nói thứ tự, không nói quanh mình có tiếng cười."
+      ],
+      "dimension": "không khí chung quanh"
+    },
+    {
+      "sourceCue": "nói xấu người này người kia",
+      "targetVietnamese": "nói xấu người này người kia",
+      "sentence": "We may habitually ___ one person or another.",
+      "options": [
+        "speak ill of",
+        "disagree with",
+        "warn",
+        "correct"
+      ],
+      "answer": 0,
+      "rationales": [
+        "speak ill of: nói điều xấu về người khác, đúng hành vi nguồn cảnh báo.",
+        "disagree with: bất đồng không nhất thiết bôi xấu hay gây nghi kỵ.",
+        "warn: cảnh báo ai về nguy hiểm có thể tốt, không phải nói xấu họ.",
+        "correct: sửa lỗi người khác khác với bôi xấu khiến mọi người xa nhau."
+      ],
+      "dimension": "nói xấu và góp ý"
+    },
+    {
+      "sourceCue": "khiến cho mọi người nghi kỵ xa lánh nhau",
+      "targetVietnamese": "khiến cho mọi người nghi kỵ xa lánh nhau",
+      "sentence": "Such speech makes people mistrust and ___ one another.",
+      "options": [
+        "shun",
+        "confront",
+        "scrutinize",
+        "compete with"
+      ],
+      "answer": 0,
+      "rationales": [
+        "shun: chủ động tránh xa nhau, giữ cả hệ quả xa lánh sau nghi kỵ.",
+        "confront: đối mặt nhau có thể xảy ra xung đột nhưng không phải xa lánh.",
+        "scrutinize: xem xét kỹ nhau là nghi vấn, chưa giữ hành động tránh xa.",
+        "compete with: cạnh tranh nhau thêm quan hệ tranh hơn thua ngoài nguồn."
+      ],
+      "dimension": "xa lánh"
+    },
+    {
+      "sourceCue": "chẳng ai thích ở gần mình",
+      "targetVietnamese": "chẳng ai thích ở gần mình",
+      "sentence": "No one will ___ being near us.",
+      "options": [
+        "enjoy",
+        "permit",
+        "anticipate",
+        "remember"
+      ],
+      "answer": 0,
+      "rationales": [
+        "enjoy: không ai thấy thích ở gần, đúng sự thiếu thiện cảm.",
+        "permit: không ai cho phép ở gần chuyển cảm tình thành quyền hạn.",
+        "anticipate: không ai dự tính ở gần chưa nói họ có thích hay không.",
+        "remember: không ai nhớ từng ở gần là ký ức, khác ý muốn tiếp xúc."
+      ],
+      "dimension": "thích gần gũi"
+    }
+  ]
+},
+{
+  "id": "M248",
+  "sourceBlockId": "W21-B08",
+  "title": "Thái độ với người tốt và phẩm chất của mình",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "ta hay thán phục kính trọng người tốt",
+      "targetVietnamese": "ta hay thán phục kính trọng người tốt",
+      "sentence": "We habitually ___ good people.",
+      "options": [
+        "admire and respect",
+        "flatter and placate",
+        "evaluate and instruct",
+        "imitate and outshine"
+      ],
+      "answer": 0,
+      "rationales": [
+        "admire and respect: giữ đủ thán phục và kính trọng, đúng thái độ được đề cao.",
+        "flatter and placate: nịnh và xoa dịu thêm động cơ lấy lòng, khác kính phục.",
+        "evaluate and instruct: đánh giá và dạy họ đổi vị thế đối với người tốt.",
+        "imitate and outshine: bắt chước để vượt họ thêm cạnh tranh không có trong nguồn."
+      ],
+      "dimension": "kính phục"
+    },
+    {
+      "sourceCue": "hay ca ngợi đức tính của người tốt",
+      "targetVietnamese": "hay ca ngợi đức tính của người tốt",
+      "sentence": "We often ___ the virtues of good people.",
+      "options": [
+        "praise",
+        "invent",
+        "certify officially",
+        "capitalize on"
+      ],
+      "answer": 0,
+      "rationales": [
+        "praise: ca ngợi đức tính có thật, giữ hành động tán dương.",
+        "invent: bịa ra đức tính thêm giả dối ngoài nguồn.",
+        "certify officially: cấp chứng nhận chính thức thêm thẩm quyền không có.",
+        "capitalize on: khai thác đức tính để có lợi, đổi sự kính phục thành tư lợi."
+      ],
+      "dimension": "tán dương phẩm chất"
+    },
+    {
+      "sourceCue": "tự nhiên tâm ta cũng xuất hiện các đức tính tốt như thế",
+      "targetVietnamese": "tự nhiên tâm ta cũng xuất hiện các đức tính tốt như thế",
+      "sentence": "Those same good qualities will naturally ___ in our own minds.",
+      "options": [
+        "emerge",
+        "be advertised",
+        "be attributed falsely",
+        "be demanded"
+      ],
+      "answer": 0,
+      "rationales": [
+        "emerge: tự xuất hiện trong tâm, giữ quá trình hình thành phẩm chất.",
+        "be advertised: được quảng cáo là biểu hiện ra ngoài, không phải phẩm chất hình thành.",
+        "be attributed falsely: bị gán sai ngầm phủ định ta có phẩm chất thật.",
+        "be demanded: bị người khác yêu cầu không bảo đảm chúng xuất hiện trong mình."
+      ],
+      "dimension": "phẩm chất nảy sinh"
+    },
+    {
+      "sourceCue": "cản trở người tốt",
+      "targetVietnamese": "cản trở người tốt",
+      "sentence": "We may instead ___ good people.",
+      "options": [
+        "hinder",
+        "admonish",
+        "challenge to improve",
+        "withhold praise from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "hinder: ngăn trở hành động của họ, đúng mức tác động tiêu cực.",
+        "admonish: khuyên răn lỗi sai không phải cản việc tốt.",
+        "challenge to improve: thách họ tiến bộ có thể là khuyến khích, thêm động cơ ngoài nguồn.",
+        "withhold praise from: chỉ không khen nhẹ hơn hành động cản trở được nêu."
+      ],
+      "dimension": "cản trở và không tán thành"
+    },
+    {
+      "sourceCue": "bị xã hội ruồng bỏ.",
+      "targetVietnamese": "bị xã hội ruồng bỏ.",
+      "sentence": "After acting wrongly, we may be ___ by society.",
+      "options": [
+        "cast out",
+        "passed over",
+        "held up as an example",
+        "merely questioned"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cast out: bị ruồng bỏ khỏi quan hệ chung, giữ lực loại trừ mạnh.",
+        "passed over: bị bỏ qua một lần tuyển chọn nhẹ hơn ruồng bỏ khỏi cộng đồng.",
+        "held up as an example: được nêu gương là tác động trái hoặc chưa xác định của nguồn.",
+        "merely questioned: chỉ bị chất vấn chưa tới mức bị ruồng bỏ."
+      ],
+      "dimension": "ruồng bỏ"
+    }
+  ]
+},
+{
+  "id": "M249",
+  "sourceBlockId": "W21-B09",
+  "title": "Kiêu mạn, khiêm hạ và hướng tiến bộ",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "xem thường người khác",
+      "targetVietnamese": "xem thường người khác",
+      "sentence": "Pride may lead us to ___ others.",
+      "options": [
+        "look down on",
+        "look up to",
+        "look out for",
+        "look to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "look down on: coi người khác thấp hơn mình, đúng xem thường.",
+        "look up to: ngưỡng mộ người khác là hướng đánh giá trái ngược.",
+        "look out for: chăm lo bảo vệ người khác, khác thái độ khinh thường.",
+        "look to: trông cậy vào người khác không nói đánh giá họ thấp."
+      ],
+      "dimension": "cụm động từ đổi thái độ"
+    },
+    {
+      "sourceCue": "tự nhiên từ từ mình rơi vào thân phận thấp kém",
+      "targetVietnamese": "tự nhiên từ từ mình rơi vào thân phận thấp kém",
+      "sentence": "We will naturally and gradually ___ a lowly condition.",
+      "options": [
+        "sink into",
+        "resign ourselves to",
+        "pretend to endure",
+        "be warned against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sink into: thực sự sa xuống thân phận thấp, giữ quá trình từ từ của nguồn.",
+        "resign ourselves to: cam chịu một cảnh đã có là thái độ, không phải bản thân rơi xuống.",
+        "pretend to endure: giả vờ chịu cảnh thấp thêm diễn xuất ngoài nguồn.",
+        "be warned against: được cảnh báo cảnh thấp chưa nói mình thực sự sa vào."
+      ],
+      "dimension": "sa sút thật"
+    },
+    {
+      "sourceCue": "rồi khởi tâm tôn trọng mọi người",
+      "targetVietnamese": "rồi khởi tâm tôn trọng mọi người",
+      "sentence": "We then ___ respect for everyone.",
+      "options": [
+        "arouse",
+        "demand",
+        "command",
+        "feign"
+      ],
+      "answer": 0,
+      "rationales": [
+        "arouse: khởi lòng tôn trọng trong tâm mình, giữ hướng trao sự kính trọng.",
+        "demand: đòi người khác tôn trọng, đảo chiều cho thành nhận.",
+        "command: khiến người khác phải kính mình, khác tự khởi tâm kính người.",
+        "feign: giả vờ kính trọng thêm sự không chân thật không có trong nguồn."
+      ],
+      "dimension": "khởi lòng kính"
+    },
+    {
+      "sourceCue": "ta lại tiến bộ, thông minh hơn, may mắn hơn",
+      "targetVietnamese": "ta lại tiến bộ, thông minh hơn, may mắn hơn",
+      "sentence": "We will gradually ___, becoming more intelligent and fortunate.",
+      "options": [
+        "progress",
+        "be acclaimed",
+        "be promoted formally",
+        "declare victory"
+      ],
+      "answer": 0,
+      "rationales": [
+        "progress: thực sự tiến bộ ở mình, không đổi thành danh hiệu bên ngoài.",
+        "be acclaimed: được hoan hô chưa bảo đảm trí tuệ hay may mắn tăng.",
+        "be promoted formally: được thăng chức chính thức thêm loại tiến bộ nguồn không chỉ định.",
+        "declare victory: tuyên bố thắng lợi là lời tự nhận, không phải chuyển biến thực."
+      ],
+      "dimension": "tiến bộ nội tại"
+    },
+    {
+      "sourceCue": "Ai nhường nhịn bước lui sẽ được đẩy lên trên.",
+      "targetVietnamese": "Ai nhường nhịn bước lui sẽ được đẩy lên trên.",
+      "sentence": "Those who yield and step back will ___ .",
+      "options": [
+        "be lifted up",
+        "seize the lead",
+        "claim priority",
+        "insist on advancing"
+      ],
+      "answer": 0,
+      "rationales": [
+        "be lifted up: được nâng lên khi biết nhường, giữ vai trò thụ động được đẩy lên.",
+        "seize the lead: tự giành vị trí dẫn đầu đảo chủ thể gây hành động.",
+        "claim priority: đòi quyền ưu tiên trái sự nhường nhịn bước lui.",
+        "insist on advancing: cố tiến lên phủ định hành động bước lui của câu nguồn."
+      ],
+      "dimension": "nhường và được nâng"
+    }
+  ]
+}
+,
+{
+  "id": "M250",
+  "sourceBlockId": "W21-B10",
+  "title": "Món nợ, ân nghĩa và sự sẻ chia tri thức",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "ta mắc nợ mà không trả được",
+      "targetVietnamese": "ta mắc nợ mà không trả được",
+      "sentence": "We may ___ a debt we cannot repay.",
+      "options": [
+        "owe",
+        "be owed",
+        "write off",
+        "collect"
+      ],
+      "answer": 0,
+      "rationales": [
+        "owe: mắc nợ ở vai người phải trả, đúng chủ thể câu Việt.",
+        "be owed: được người khác nợ, đảo vai chủ nợ và con nợ.",
+        "write off: xóa nợ là quyền chủ nợ, không nói bản thân mắc nợ.",
+        "collect: thu nợ đặt ta ở phía nhận tiền, trái vai nguồn."
+      ],
+      "dimension": "hai phía món nợ"
+    },
+    {
+      "sourceCue": "thọ ơn mà không đền đáp được",
+      "targetVietnamese": "thọ ơn mà không đền đáp được",
+      "sentence": "We may receive kindness we are unable to ___ .",
+      "options": [
+        "repay",
+        "acknowledge",
+        "accept",
+        "recognize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "repay: đền đáp việc được giúp, không chỉ biết và nói mình mang ơn.",
+        "acknowledge: ghi nhận ơn chưa phải trả được ân nghĩa.",
+        "accept: nhận ơn là bước đầu, nguồn nói sau khi đã thọ ơn.",
+        "recognize: nhận ra ơn khác với làm điều đáp lại ân nhân."
+      ],
+      "dimension": "đền đáp và ghi nhận"
+    },
+    {
+      "sourceCue": "để chịu sự sai bảo",
+      "targetVietnamese": "để chịu sự sai bảo",
+      "sentence": "We may later become the benefactor's subordinates and ___ their commands.",
+      "options": [
+        "be subject to",
+        "merely anticipate",
+        "take credit for",
+        "be exempt from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "be subject to: chịu sự sai bảo, giữ quan hệ phụ thuộc được nêu.",
+        "merely anticipate: chỉ đoán trước lệnh chưa phải chịu quyền sai bảo.",
+        "take credit for: nhận công về mệnh lệnh khác quan hệ thuộc hạ.",
+        "be exempt from: được miễn chấp hành đảo chiều phụ thuộc trong nguồn."
+      ],
+      "dimension": "chịu sai bảo"
+    },
+    {
+      "sourceCue": "không giữ lại cho riêng mình",
+      "targetVietnamese": "không giữ lại cho riêng mình",
+      "sentence": "When we learn something valuable, we do not ___ it to ourselves.",
+      "options": [
+        "keep",
+        "explain",
+        "attribute",
+        "compare"
+      ],
+      "answer": 0,
+      "rationales": [
+        "keep: không giữ riêng tri thức, đúng hướng sẵn lòng chia sẻ.",
+        "explain: không tự giải thích tri thức chưa nói có chia sẻ hay không.",
+        "attribute: không quy tri thức về mình là nguồn gốc, khác giữ riêng.",
+        "compare: không tự so sánh không liên quan sự độc giữ tri thức."
+      ],
+      "dimension": "không giữ riêng"
+    },
+    {
+      "sourceCue": "đem chia sẻ cho nhiều người cùng biết",
+      "targetVietnamese": "đem chia sẻ cho nhiều người cùng biết",
+      "sentence": "We ___ the knowledge with many others so that they too can learn it.",
+      "options": [
+        "share",
+        "barter",
+        "equate",
+        "reconcile"
+      ],
+      "answer": 0,
+      "rationales": [
+        "share: chia cho nhiều người cùng biết, giữ hành động truyền kiến thức.",
+        "barter: đổi chác kiến thức thêm điều kiện trao đổi ngoài nguồn.",
+        "equate: đánh đồng tri thức với người khác không phải truyền cho họ.",
+        "reconcile: dung hòa tri thức với nhiều người không diễn đạt cùng được biết."
+      ],
+      "dimension": "truyền tri thức"
+    }
+  ]
+},
+{
+  "id": "M251",
+  "sourceBlockId": "W21-B11",
+  "title": "Chuẩn bị cho một con đường tu lâu dài",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "bắt đầu bằng việc Nhận thức đúng đắn mọi thứ",
+      "targetVietnamese": "bắt đầu bằng việc Nhận thức đúng đắn mọi thứ",
+      "sentence": "The path of practice ___ perceiving things correctly.",
+      "options": [
+        "begins with",
+        "culminates in",
+        "dispenses with",
+        "is confined to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "begins with: khởi đầu bằng nhận thức đúng, giữ vị trí bước đầu.",
+        "culminates in: kết thúc ở nhận thức đúng, đảo thứ tự đường tu.",
+        "dispenses with: bỏ qua nhận thức đúng trái nền tảng bắt đầu.",
+        "is confined to: chỉ giới hạn ở nhận thức, xóa phần thực hành tiếp theo."
+      ],
+      "dimension": "điểm khởi đầu"
+    },
+    {
+      "sourceCue": "rồi trải qua quá trình cực khổ thực hành",
+      "targetVietnamese": "rồi trải qua quá trình cực khổ thực hành",
+      "sentence": "Practitioners then ___ an arduous process of practice.",
+      "options": [
+        "undergo",
+        "prescribe",
+        "postpone",
+        "recount"
+      ],
+      "answer": 0,
+      "rationales": [
+        "undergo: tự trải qua quá trình gian khổ, đúng vai người hành trì.",
+        "prescribe: quy định quá trình cho người khác, đổi vai người trải nghiệm.",
+        "postpone: trì hoãn quá trình không phải bước vào trải qua.",
+        "recount: kể lại quá trình chỉ là ngôn ngữ, chưa nói thực hành."
+      ],
+      "dimension": "trải nghiệm gian khổ"
+    },
+    {
+      "sourceCue": "từ cạn đến sâu, từ ít đến nhiều",
+      "targetVietnamese": "từ cạn đến sâu, từ ít đến nhiều",
+      "sentence": "Practice ___ from shallow to deep and from less to more.",
+      "options": [
+        "progresses",
+        "oscillates",
+        "retreats",
+        "is diverted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "progresses: tiến theo chiều tăng dần, giữ hướng từ cạn ít sang sâu nhiều.",
+        "oscillates: dao động hai chiều không giữ tiến trình tích lũy theo hướng nguồn.",
+        "retreats: lùi từ cạn đến sâu là hướng không phù hợp với sự phát triển được nêu.",
+        "is diverted: bị chuyển lệch hướng thêm một tác nhân can thiệp ngoài nguồn."
+      ],
+      "dimension": "tiến trình tăng dần"
+    },
+    {
+      "sourceCue": "hành giả phải chuẩn bị tâm thế đủ mạnh",
+      "targetVietnamese": "hành giả phải chuẩn bị tâm thế đủ mạnh",
+      "sentence": "Practitioners must ___ a sufficiently strong mental readiness.",
+      "options": [
+        "develop",
+        "merely profess",
+        "take for granted",
+        "pretend to possess"
+      ],
+      "answer": 0,
+      "rationales": [
+        "develop: chuẩn bị cho tâm mình đủ sức, giữ yêu cầu thực chất.",
+        "merely profess: chỉ nói mình sẵn sàng chưa có sự chuẩn bị cần thiết.",
+        "take for granted: coi sẵn có tâm thế bỏ hẳn bước chuẩn bị.",
+        "pretend to possess: giả vờ có tâm thế thêm gian dối không có trong nguồn."
+      ],
+      "dimension": "chuẩn bị thực chất"
+    },
+    {
+      "sourceCue": "đi trên con đường tu hành này qua nhiều kiếp về sau.",
+      "targetVietnamese": "đi trên con đường tu hành này qua nhiều kiếp về sau.",
+      "sentence": "They must be ready to ___ this path of practice through many lives to come.",
+      "options": [
+        "follow",
+        "survey from a distance",
+        "claim ownership of",
+        "summarize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "follow: thực sự đi theo con đường lâu dài, đúng yêu cầu hành trì nhiều kiếp.",
+        "survey from a distance: chỉ quan sát từ xa không phải đi trên đường tu.",
+        "claim ownership of: nhận độc quyền con đường không nói bản thân thực hành.",
+        "summarize: tóm tắt đường tu chỉ là trình bày, không phải trải qua."
+      ],
+      "dimension": "đi đường không chỉ mô tả"
+    }
+  ]
+},
+{
+  "id": "M252",
+  "sourceBlockId": "W21-B12",
+  "title": "Danh xưng và thực hành đúng",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "một người phật tử lại biết tôn kính chúa Jesus",
+      "targetVietnamese": "một người phật tử lại biết tôn kính chúa Jesus",
+      "sentence": "A Buddhist may ___ Jesus.",
+      "options": [
+        "revere",
+        "canonize",
+        "appease",
+        "merely identify"
+      ],
+      "answer": 0,
+      "rationales": [
+        "revere: tôn kính chân thành, đúng hành vi được các vị Thánh vui mừng.",
+        "canonize: phong thánh thêm quyền tôn giáo khác việc tôn kính.",
+        "appease: xoa dịu sự giận dữ thêm hoàn cảnh nguồn không nói.",
+        "merely identify: chỉ nhận diện Jesus chưa có thái độ tôn kính."
+      ],
+      "dimension": "kính trọng khác đạo"
+    },
+    {
+      "sourceCue": "cũng rất vui khi một Kitô hữu biết tôn kính đức Phật.",
+      "targetVietnamese": "cũng rất vui khi một Kitô hữu biết tôn kính đức Phật.",
+      "sentence": "Noble ones also ___ when a Christian reveres the Buddha.",
+      "options": [
+        "rejoice",
+        "grant permission",
+        "suspend judgment",
+        "demand conformity"
+      ],
+      "answer": 0,
+      "rationales": [
+        "rejoice: rất vui trước lòng tôn kính, đúng phản ứng cảm xúc nguồn.",
+        "grant permission: cấp phép cho việc kính Phật đổi cảm xúc thành thủ tục.",
+        "suspend judgment: hoãn đánh giá chưa diễn đạt sự vui mừng đã được nêu.",
+        "demand conformity: đòi cùng khuôn thêm yêu cầu không có trong câu."
+      ],
+      "dimension": "vui mừng"
+    },
+    {
+      "sourceCue": "không bị các danh xưng cản trở.",
+      "targetVietnamese": "không bị các danh xưng cản trở.",
+      "sentence": "Truth is not ___ labels.",
+      "options": [
+        "held back by",
+        "defined exclusively by",
+        "derived from",
+        "announced through"
+      ],
+      "answer": 0,
+      "rationales": [
+        "held back by: không bị tên gọi cản bước, giữ ý vượt mọi ranh giới.",
+        "defined exclusively by: không được tên gọi độc quyền định nghĩa là một phủ định khác.",
+        "derived from: không bắt nguồn từ tên gọi nói căn nguyên, không phải cản trở.",
+        "announced through: không được công bố bằng tên gọi không nói sức cản của danh xưng."
+      ],
+      "dimension": "không bị cản"
+    },
+    {
+      "sourceCue": "Nếu một người đạo Phật mà tu sai thì cũng không có kết quả gì",
+      "targetVietnamese": "Nếu một người đạo Phật mà tu sai thì cũng không có kết quả gì",
+      "sentence": "A Buddhist who practices wrongly will not ___ results.",
+      "options": [
+        "achieve",
+        "describe",
+        "expect",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "achieve: không đạt kết quả tu, đúng hệ quả của thực hành sai.",
+        "describe: không mô tả kết quả chỉ nói khả năng kể lại.",
+        "expect: không mong kết quả nói tâm mong đợi, không nói kết quả thật.",
+        "publicize: không công khai kết quả chưa phủ định đạt kết quả."
+      ],
+      "dimension": "kết quả thực hành"
+    },
+    {
+      "sourceCue": "nếu một người ngoài đạo Phật mà tu đúng thì vẫn đạt được giác ngộ.",
+      "targetVietnamese": "nếu một người ngoài đạo Phật mà tu đúng thì vẫn đạt được giác ngộ.",
+      "sentence": "Someone outside Buddhism who practices correctly can still ___ enlightenment.",
+      "options": [
+        "attain",
+        "profess",
+        "postulate",
+        "commend"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attain: đạt giác ngộ thật dù ngoài đạo, giữ điều kiện tu đúng.",
+        "profess: tuyên xưng giác ngộ không đồng nghĩa thực sự đạt.",
+        "postulate: giả định có giác ngộ chỉ là nhận thức khái niệm.",
+        "commend: tán dương giác ngộ là thái độ đối với thành tựu, không phải chứng đạt."
+      ],
+      "dimension": "chứng ngộ không theo nhãn"
+    }
+  ]
+},
+{
+  "id": "M253",
+  "sourceBlockId": "W22-B01",
+  "title": "Học thêm mà không chê bỏ",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "cũng không thấy có gì trở ngại",
+      "targetVietnamese": "cũng không thấy có gì trở ngại",
+      "sentence": "Buddhism likewise does not ___ an obstacle to someone from another religion taking refuge.",
+      "options": [
+        "see",
+        "impose",
+        "conceal",
+        "predict"
+      ],
+      "answer": 0,
+      "rationales": [
+        "see: không xem việc ấy là trở ngại, đúng thái độ nhận định nguồn.",
+        "impose: không đặt thêm rào cản là hành vi khác với không thấy có trở ngại.",
+        "conceal: không che giấu chướng ngại hàm ý có một trở ngại thật.",
+        "predict: không dự báo trở ngại về sau không phản ánh nhận định hiện tại."
+      ],
+      "dimension": "nhận định và tạo rào cản"
+    },
+    {
+      "sourceCue": "dường như làm cho thế giới đoàn kết hơn",
+      "targetVietnamese": "dường như làm cho thế giới đoàn kết hơn",
+      "sentence": "Having multiple religious affiliations appears to ___ the world.",
+      "options": [
+        "bring closer together",
+        "merely represent",
+        "govern",
+        "speak on behalf of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "bring closer together: làm thế giới gắn kết hơn, giữ chữ dường như trong khung.",
+        "merely represent: chỉ đại diện thế giới không nói tình đoàn kết tăng.",
+        "govern: cai quản thế giới thêm quyền lực ngoài nguồn.",
+        "speak on behalf of: phát ngôn thay thế giới không phải nối kết mọi người."
+      ],
+      "dimension": "làm đoàn kết hơn"
+    },
+    {
+      "sourceCue": "họ có cơ hội được học thêm các đạo lý",
+      "targetVietnamese": "họ có cơ hội được học thêm các đạo lý",
+      "sentence": "They have the opportunity to ___ additional teachings.",
+      "options": [
+        "learn",
+        "legislate",
+        "authenticate",
+        "supersede"
+      ],
+      "answer": 0,
+      "rationales": [
+        "learn: học thêm những đạo lý mới, giữ vai người tiếp nhận.",
+        "legislate: ban luật đạo lý đổi học thêm thành quyền đặt quy tắc.",
+        "authenticate: xác thực đạo lý là đánh giá nguồn gốc, không phải học thêm.",
+        "supersede: thay đạo lý cũ bằng đạo lý mới trái ý chỉ thêm nguồn học."
+      ],
+      "dimension": "học bổ sung"
+    },
+    {
+      "sourceCue": "chứ không phải là họ chê bai đạo lý Ki tô trước đây của họ.",
+      "targetVietnamese": "chứ không phải là họ chê bai đạo lý Ki tô trước đây của họ.",
+      "sentence": "This does not mean they ___ their earlier Christian teachings.",
+      "options": [
+        "disparage",
+        "revisit",
+        "compare",
+        "continue studying"
+      ],
+      "answer": 0,
+      "rationales": [
+        "disparage: không có nghĩa chê bai lời dạy cũ, đúng điều tác giả bác.",
+        "revisit: không xem lại lời dạy cũ là một hạn chế nguồn không đặt ra.",
+        "compare: không so sánh đạo lý xóa khả năng chắt lọc nhiều nguồn.",
+        "continue studying: không học tiếp đạo cũ ngược giải thích có thể học thêm mà không bỏ."
+      ],
+      "dimension": "không chê bỏ"
+    },
+    {
+      "sourceCue": "họ sẽ biết chắt lọc hợp lý để tu dưỡng sâu sắc hơn.",
+      "targetVietnamese": "họ sẽ biết chắt lọc hợp lý để tu dưỡng sâu sắc hơn.",
+      "sentence": "They can ___ what is appropriate from these teachings to deepen their cultivation.",
+      "options": [
+        "select",
+        "merely accumulate",
+        "arbitrarily invent",
+        "uncritically repeat"
+      ],
+      "answer": 0,
+      "rationales": [
+        "select: chắt lọc phần phù hợp bằng suy xét, giữ nét hợp lý.",
+        "merely accumulate: chỉ tích nhiều không có chọn lọc thì thiếu ý chắt lọc.",
+        "arbitrarily invent: tùy tiện bịa mới trái việc học và tuyển đạo lý có sẵn.",
+        "uncritically repeat: lặp không xét bỏ mất tiêu chí chọn lọc hợp lý."
+      ],
+      "dimension": "chắt lọc hợp lý"
+    }
+  ]
+},
+{
+  "id": "M254",
+  "sourceBlockId": "W22-B02",
+  "title": "Trình lại với đạo cũ và chọn thời điểm",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "ta có thể về trình lại",
+      "targetVietnamese": "ta có thể về trình lại",
+      "sentence": "If the former religious leaders are open and joyful, we may ___ them of our decision.",
+      "options": [
+        "inform",
+        "ask permission from",
+        "conceal our identity from",
+        "seek absolution from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "inform: trình cho họ biết, giữ điều kiện có thể và sự mở lòng.",
+        "ask permission from: xin phép biến việc trình lại thành cần được chấp thuận.",
+        "conceal our identity from: giấu mình với họ đảo ngược việc về trình báo.",
+        "seek absolution from: xin tha tội ngầm coi quy y là lỗi, điều nguồn không nói."
+      ],
+      "dimension": "trình báo không xin phép"
+    },
+    {
+      "sourceCue": "để tạo thêm tình cảm gắn bó giữa hai đạo",
+      "targetVietnamese": "để tạo thêm tình cảm gắn bó giữa hai đạo",
+      "sentence": "The purpose is to ___ the bond between the two religions.",
+      "options": [
+        "strengthen",
+        "formalize",
+        "monopolize",
+        "merely describe"
+      ],
+      "answer": 0,
+      "rationales": [
+        "strengthen: làm tình cảm gắn bó thêm, đúng mục tiêu kết nối.",
+        "formalize: chính thức hóa bằng thủ tục thêm quy trình nguồn không nêu.",
+        "monopolize: độc chiếm mối quan hệ không phải tạo thêm tình cảm.",
+        "merely describe: chỉ mô tả gắn bó không làm tình cảm lớn hơn."
+      ],
+      "dimension": "tăng gắn bó"
+    },
+    {
+      "sourceCue": "thì hãy đợi thêm thời gian.",
+      "targetVietnamese": "thì hãy đợi thêm thời gian.",
+      "sentence": "If the person is not very receptive, ___ a little longer.",
+      "options": [
+        "wait",
+        "insist",
+        "withdraw permanently",
+        "announce it publicly"
+      ],
+      "answer": 0,
+      "rationales": [
+        "wait: đợi thời điểm thích hợp hơn, không biến thành bỏ hẳn.",
+        "insist: cố thúc ép ngay ngược việc chờ thêm thời gian.",
+        "withdraw permanently: rút lui vĩnh viễn quá mức lời nhắc tạm chờ.",
+        "announce it publicly: công bố rộng ngay thêm hành động không được khuyên."
+      ],
+      "dimension": "trì hoãn có cân nhắc"
+    },
+    {
+      "sourceCue": "có thể đưa ta đi rất xa vào chân lý.",
+      "targetVietnamese": "có thể đưa ta đi rất xa vào chân lý.",
+      "sentence": "This bright horizon may ___ far into truth.",
+      "options": [
+        "lead us",
+        "certify that we have gone",
+        "excuse us from going",
+        "compel others to carry us"
+      ],
+      "answer": 0,
+      "rationales": [
+        "lead us: có thể dẫn mình đi sâu xa hơn, đúng khả năng mở ra.",
+        "certify that we have gone: chứng nhận đã đi xa đổi khả năng tương lai thành thành tích đã có.",
+        "excuse us from going: miễn việc đi tới trái động lực học và thực hành.",
+        "compel others to carry us: buộc người khác cõng mình thêm tác nhân không có trong nguồn."
+      ],
+      "dimension": "dẫn tới chân lý"
+    },
+    {
+      "sourceCue": "tìm ra những đạo lý tương đồng và dẫn dắt nhân loại đi trên con đường yêu thương hạnh phúc.",
+      "targetVietnamese": "tìm ra những đạo lý tương đồng và dẫn dắt nhân loại đi trên con đường yêu thương hạnh phúc.",
+      "sentence": "We hope religions can identify shared principles and ___ humanity along a path of love and happiness.",
+      "options": [
+        "guide",
+        "coerce",
+        "follow",
+        "judge"
+      ],
+      "answer": 0,
+      "rationales": [
+        "guide: dẫn dắt nhân loại theo hướng thương yêu, đúng vai trò hướng dẫn.",
+        "coerce: cưỡng ép nhân loại thêm lực bắt buộc không có trong nguồn.",
+        "follow: đi theo nhân loại đảo hướng người dẫn và người được dẫn.",
+        "judge: phán xét nhân loại không diễn đạt giúp đi trên đường hạnh phúc."
+      ],
+      "dimension": "dẫn dắt cùng hướng"
+    }
+  ]
+},
+{
+  "id": "M255",
+  "sourceBlockId": "W22-B03",
+  "title": "Chung sống mà không phủ nhận khác biệt",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "ta phải tìm cách chung sống hòa bình với nhau.",
+      "targetVietnamese": "ta phải tìm cách chung sống hòa bình với nhau.",
+      "sentence": "For now, we must find ways to ___ peacefully.",
+      "options": [
+        "coexist",
+        "conform",
+        "merge institutionally",
+        "withdraw from one another"
+      ],
+      "answer": 0,
+      "rationales": [
+        "coexist: cùng tồn tại trong hòa bình, giữ việc các bên vẫn khác nhau.",
+        "conform: buộc cùng khuôn bỏ mất khả năng còn khác biệt mà chung sống.",
+        "merge institutionally: hợp nhất tổ chức thêm bước nguồn chưa yêu cầu hiện tại.",
+        "withdraw from one another: rút khỏi nhau không phải cùng sống trong hòa bình."
+      ],
+      "dimension": "chung sống"
+    },
+    {
+      "sourceCue": "chứ đừng khai thác chỗ khác nhau để chống nhau.",
+      "targetVietnamese": "chứ đừng khai thác chỗ khác nhau để chống nhau.",
+      "sentence": "Religions should not ___ their differences to oppose one another.",
+      "options": [
+        "exploit",
+        "acknowledge",
+        "clarify",
+        "study"
+      ],
+      "answer": 0,
+      "rationales": [
+        "exploit: lợi dụng khác biệt làm công cụ đối đầu, đúng khai thác để chống.",
+        "acknowledge: nhận có khác biệt không nhất thiết dùng khác biệt gây chống đối.",
+        "clarify: làm rõ khác biệt có thể giúp hiểu, không tự là khai thác.",
+        "study: nghiên cứu khác biệt không mang sẵn động cơ đối đầu."
+      ],
+      "dimension": "lợi dụng khác biệt"
+    },
+    {
+      "sourceCue": "phải vượt qua cái hữu hạn của ngôn ngữ để thông cảm cho nhau",
+      "targetVietnamese": "phải vượt qua cái hữu hạn của ngôn ngữ để thông cảm cho nhau",
+      "sentence": "Religions must ___ the limits of language to understand one another.",
+      "options": [
+        "transcend",
+        "merely catalogue",
+        "be defined by",
+        "take refuge in"
+      ],
+      "answer": 0,
+      "rationales": [
+        "transcend: vượt những giới hạn để cảm thông, giữ hướng thoát hạn chế.",
+        "merely catalogue: chỉ kê giới hạn chưa vượt được rào cản.",
+        "be defined by: bị giới hạn định nghĩa là mắc trong hạn chế, ngược hướng vượt.",
+        "take refuge in: nấp vào giới hạn không phải vượt qua để hiểu nhau."
+      ],
+      "dimension": "vượt giới hạn ngôn ngữ"
+    },
+    {
+      "sourceCue": "phải chấp nhận tồn tại những cái khác nhau để yêu thương nhau.",
+      "targetVietnamese": "phải chấp nhận tồn tại những cái khác nhau để yêu thương nhau.",
+      "sentence": "To love one another, we must ___ the existence of differences.",
+      "options": [
+        "accept",
+        "erase",
+        "merely predict",
+        "pretend to disprove"
+      ],
+      "answer": 0,
+      "rationales": [
+        "accept: chấp nhận khác biệt vẫn tồn tại, đúng điều kiện của yêu thương.",
+        "erase: xóa khác biệt mới yêu nhau trái việc chấp nhận chúng còn tồn tại.",
+        "merely predict: chỉ đoán có khác biệt chưa phải thái độ chấp nhận.",
+        "pretend to disprove: giả vờ bác khác biệt thêm sự gian dối và phủ nhận ngoài nguồn."
+      ],
+      "dimension": "chấp nhận còn khác biệt"
+    },
+    {
+      "sourceCue": "cầu nguyện cho thế giới hòa bình",
+      "targetVietnamese": "cầu nguyện cho thế giới hòa bình",
+      "sentence": "Together, we ___ for world peace.",
+      "options": [
+        "pray",
+        "legislate",
+        "bargain",
+        "take credit"
+      ],
+      "answer": 0,
+      "rationales": [
+        "pray: cùng cầu nguyện hướng tới hòa bình, đúng hành động nguồn.",
+        "legislate: ban luật hòa bình thêm quyền chính trị không có trong lời cầu.",
+        "bargain: mặc cả để được hòa bình đổi tâm nguyện thành trao đổi.",
+        "take credit: nhận công hòa bình giả định đã có kết quả do mình."
+      ],
+      "dimension": "cầu nguyện chung"
+    }
+  ]
+}
+,
+{
+  "id": "M256",
+  "sourceBlockId": "W22-B04",
+  "title": "Phước và Huệ cùng hướng giải thoát",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "hai con đường này chỉ có chung một lối.",
+      "targetVietnamese": "hai con đường này chỉ có chung một lối.",
+      "sentence": "These two paths ___ one and the same way.",
+      "options": [
+        "share",
+        "obstruct",
+        "merely resemble",
+        "alternate along"
+      ],
+      "answer": 0,
+      "rationales": [
+        "share: cùng một lối, giữ sự đồng nhất thực chất trong lời tác giả.",
+        "obstruct: chặn một lối không diễn đạt chung một đường đi.",
+        "merely resemble: chỉ giống nhau làm yếu khẳng định chỉ có chung một lối.",
+        "alternate along: luân phiên đi thêm trình tự thay phiên không có trong nguồn."
+      ],
+      "dimension": "một lối chung"
+    },
+    {
+      "sourceCue": "để phá chấp ngã, phá vô minh",
+      "targetVietnamese": "để phá chấp ngã, phá vô minh",
+      "sentence": "Meditation and wisdom are cultivated to ___ self-attachment and ignorance.",
+      "options": [
+        "break through",
+        "merely conceal",
+        "make allowances for",
+        "deliberately postpone examining"
+      ],
+      "answer": 0,
+      "rationales": [
+        "break through: phá sự chấp và vô minh, giữ hướng vượt thoát gốc ràng buộc.",
+        "merely conceal: chỉ giấu biểu hiện không phải phá được chấp ngã.",
+        "make allowances for: dung thứ hai điều là chiều tác động ngược mục đích tu.",
+        "deliberately postpone examining: hoãn xét chúng tránh công việc nguồn yêu cầu phải làm."
+      ],
+      "dimension": "phá chấp và vô minh"
+    },
+    {
+      "sourceCue": "gọi là con đường tu Huệ.",
+      "targetVietnamese": "gọi là con đường tu Huệ.",
+      "sentence": "This is ___ the path of cultivating wisdom.",
+      "options": [
+        "called",
+        "mistaken for",
+        "replaced by",
+        "derived from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "called: đặt tên lối tu này là tu Huệ, đúng thao tác gọi là.",
+        "mistaken for: bị nhầm là tu Huệ ngụ ý cách gọi sai, không có trong nguồn.",
+        "replaced by: bị thay bằng tu Huệ là đổi đường, không phải gọi tên.",
+        "derived from: bắt nguồn từ tu Huệ đổi tên gọi thành quan hệ căn nguyên."
+      ],
+      "dimension": "gọi tên lối tu"
+    },
+    {
+      "sourceCue": "Phước Huệ song tu là điều Đức Phật đã nói từ ngàn xưa.",
+      "targetVietnamese": "Phước Huệ song tu là điều Đức Phật đã nói từ ngàn xưa.",
+      "sentence": "Long ago, the Buddha ___ the joint cultivation of blessings and wisdom.",
+      "options": [
+        "taught",
+        "merely forecast",
+        "formally suspended",
+        "warned against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "taught: đã dạy việc song tu, giữ giá trị giáo huấn của nói từ ngàn xưa.",
+        "merely forecast: chỉ dự đoán việc song tu sẽ có, không phải chỉ dạy thực hành.",
+        "formally suspended: đình chỉ song tu là hành động ngược nội dung được dẫn.",
+        "warned against: cảnh báo tránh song tu đảo hẳn lời khuyến tu cả hai."
+      ],
+      "dimension": "lời dạy song tu"
+    },
+    {
+      "sourceCue": "phải đi trên cả hai con đường này, vừa tu Phước vừa tu Huệ.",
+      "targetVietnamese": "phải đi trên cả hai con đường này, vừa tu Phước vừa tu Huệ.",
+      "sentence": "Those seeking liberation must ___ blessings and wisdom together.",
+      "options": [
+        "cultivate",
+        "merely compare",
+        "lay claim to",
+        "be certified in"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cultivate: thực hành phát triển cả hai, giữ yêu cầu vừa tu Phước vừa tu Huệ.",
+        "merely compare: chỉ đối chiếu hai khái niệm vẫn chưa bước vào tu.",
+        "lay claim to: nhận mình có cả hai khác thực hành để chúng tăng trưởng.",
+        "be certified in: được cấp chứng nhận thêm thủ tục không được nguồn nêu."
+      ],
+      "dimension": "tu cả hai"
+    }
+  ]
+},
+{
+  "id": "M257",
+  "sourceBlockId": "W22-B05",
+  "title": "Khiêm hạ cần được giữ gìn liên tục",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "chúng ta giữ khiêm hạ bằng Đạo lý.",
+      "targetVietnamese": "chúng ta giữ khiêm hạ bằng Đạo lý.",
+      "sentence": "Before attaining selflessness, we ___ humility through moral teachings.",
+      "options": [
+        "maintain",
+        "merely profess",
+        "presuppose",
+        "simulate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "maintain: giữ tâm khiêm bằng đạo lý đang học, đúng hành động gìn giữ.",
+        "merely profess: chỉ tuyên bố khiêm hạ chưa có việc tự giữ mình.",
+        "presuppose: coi khiêm hạ là sẵn có bỏ qua nỗ lực dựa vào đạo lý.",
+        "simulate: diễn ra vẻ khiêm hạ thêm giả dối nguồn không nói."
+      ],
+      "dimension": "giữ bằng đạo lý"
+    },
+    {
+      "sourceCue": "Tự nhủ thường xuyên như vậy, tự nhắc nhở thường xuyên như vậy",
+      "targetVietnamese": "Tự nhủ thường xuyên như vậy, tự nhắc nhở thường xuyên như vậy",
+      "sentence": "We continually ___ ourselves of this.",
+      "options": [
+        "remind",
+        "convince",
+        "absolve",
+        "dispose"
+      ],
+      "answer": 0,
+      "rationales": [
+        "remind: tự nhắc điều phải giữ, đúng sự lặp lại trong nội tâm.",
+        "convince: thuyết phục mình tin hoàn toàn mạnh hơn tự nhắc liên tục.",
+        "absolve: tự xá lỗi không phải nhắc mình giữ khiêm hạ.",
+        "dispose: sắp đặt mình không tạo được nghĩa tự nhắc của nguồn."
+      ],
+      "dimension": "tự nhắc thường xuyên"
+    },
+    {
+      "sourceCue": "chúng ta vẫn chưa hẳn đạt được khiêm hạ thật sự.",
+      "targetVietnamese": "chúng ta vẫn chưa hẳn đạt được khiêm hạ thật sự.",
+      "sentence": "Even by the end of life, we may still not ___ genuine humility.",
+      "options": [
+        "have attained",
+        "have described",
+        "have publicly defended",
+        "have recommended"
+      ],
+      "answer": 0,
+      "rationales": [
+        "have attained: chưa hẳn thực sự đạt được, giữ bất định ở kết quả tu.",
+        "have described: chưa mô tả khiêm hạ chỉ nói năng lực ngôn ngữ.",
+        "have publicly defended: chưa công khai bảo vệ khiêm hạ khác tự mình thành tựu nó.",
+        "have recommended: chưa khuyên người khác khiêm hạ không phải thiếu phẩm chất ấy."
+      ],
+      "dimension": "đạt thật sự"
+    },
+    {
+      "sourceCue": "chấp ngã luôn tạo nên khuynh hướng kiêu mạn.",
+      "targetVietnamese": "chấp ngã luôn tạo nên khuynh hướng kiêu mạn.",
+      "sentence": "Self-attachment continually ___ a tendency toward arrogance.",
+      "options": [
+        "breeds",
+        "merely reveals",
+        "exonerates",
+        "foretells"
+      ],
+      "answer": 0,
+      "rationales": [
+        "breeds: sinh ra khuynh hướng, giữ vai trò gây nên của chấp ngã.",
+        "merely reveals: chỉ bộc lộ xu hướng có sẵn, làm mất quan hệ tạo ra.",
+        "exonerates: miễn lỗi cho kiêu mạn là đánh giá trách nhiệm khác.",
+        "foretells: chỉ báo trước kiêu mạn là dự đoán, không phải gây hình thành."
+      ],
+      "dimension": "nuôi mầm kiêu mạn"
+    },
+    {
+      "sourceCue": "nếu chúng ta không kiểm soát kỹ tâm mình.",
+      "targetVietnamese": "nếu chúng ta không kiểm soát kỹ tâm mình.",
+      "sentence": "This can always happen if we fail to ___ our minds carefully.",
+      "options": [
+        "keep watch over",
+        "make excuses for",
+        "speak proudly of",
+        "take reassurance from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "keep watch over: theo dõi kiểm soát kỹ tâm, đúng điều kiện ngăn ý niệm kiêu mạn.",
+        "make excuses for: biện hộ cho tâm không phải giữ tâm khỏi khởi kiêu mạn.",
+        "speak proudly of: khoe về tâm càng dễ tăng kiêu, không phải tự kiểm.",
+        "take reassurance from: tìm an tâm từ tâm mình không bao hàm sự theo dõi cẩn trọng."
+      ],
+      "dimension": "tự canh giữ"
+    }
+  ]
+},
+{
+  "id": "M258",
+  "sourceBlockId": "W22-B06",
+  "title": "Bao dung không phải không thấy khuyết điểm",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "người đã được giải thoát không bao giờ khinh miệt người kém hơn mình",
+      "targetVietnamese": "người đã được giải thoát không bao giờ khinh miệt người kém hơn mình",
+      "sentence": "A liberated person never ___ those less advanced.",
+      "options": [
+        "despises",
+        "corrects",
+        "recognizes",
+        "teaches"
+      ],
+      "answer": 0,
+      "rationales": [
+        "despises: không coi rẻ người kém hơn, đúng điều được phủ định.",
+        "corrects: không sửa lỗi người khác là hạn chế nguồn không đặt.",
+        "recognizes: không nhận ra người kém trái việc biết rõ ai cũng có lỗi.",
+        "teaches: không dạy người kém ngược vai người thầy bao dung."
+      ],
+      "dimension": "không khinh miệt"
+    },
+    {
+      "sourceCue": "Họ luôn mong cho tất cả mọi người trở thành người tốt",
+      "targetVietnamese": "Họ luôn mong cho tất cả mọi người trở thành người tốt",
+      "sentence": "They always ___ everyone to become good.",
+      "options": [
+        "wish",
+        "compel",
+        "certify",
+        "permit"
+      ],
+      "answer": 0,
+      "rationales": [
+        "wish: luôn mong mọi người tốt lên, giữ tâm nguyện hướng người.",
+        "compel: ép buộc họ thành tốt thêm cưỡng bức ngoài nguồn.",
+        "certify: chứng nhận ai cũng đã tốt sai giai đoạn mong cho trở thành.",
+        "permit: cho phép làm người tốt thêm quyền hạn không có."
+      ],
+      "dimension": "mong người tốt lên"
+    },
+    {
+      "sourceCue": "dù biết rất rõ ai cũng có khuyết điểm.",
+      "targetVietnamese": "dù biết rất rõ ai cũng có khuyết điểm.",
+      "sentence": "They clearly ___ that everyone has shortcomings.",
+      "options": [
+        "know",
+        "merely suspect",
+        "pretend",
+        "deny"
+      ],
+      "answer": 0,
+      "rationales": [
+        "know: biết rất rõ lỗi còn có, không vì bao dung mà thiếu nhận thức.",
+        "merely suspect: chỉ nghi ngờ làm yếu mức biết rõ của nguồn.",
+        "pretend: giả vờ biết thêm sự không chân thật nguồn không nói.",
+        "deny: phủ nhận mọi người có khuyết điểm đảo hẳn điều biết rõ."
+      ],
+      "dimension": "biết rõ và bao dung"
+    },
+    {
+      "sourceCue": "tâm của họ lúc nào cũng bao dung",
+      "targetVietnamese": "tâm của họ lúc nào cũng bao dung",
+      "sentence": "Their minds always ___ a forgiving generosity.",
+      "options": [
+        "embody",
+        "merely advertise",
+        "occasionally simulate",
+        "formally prescribe"
+      ],
+      "answer": 0,
+      "rationales": [
+        "embody: luôn có phẩm chất bao dung thật nơi tâm, đúng tính cách tự nhiên.",
+        "merely advertise: chỉ quảng bá bao dung không chứng tỏ nội tâm có thật.",
+        "occasionally simulate: thỉnh thoảng giả vờ trái cả lúc nào cũng lẫn phẩm chất thật.",
+        "formally prescribe: quy định người khác bao dung khác tự mình luôn bao dung."
+      ],
+      "dimension": "phẩm chất tự nhiên"
+    },
+    {
+      "sourceCue": "giải thoát rồi khuyết điểm không còn nữa.",
+      "targetVietnamese": "giải thoát rồi khuyết điểm không còn nữa.",
+      "sentence": "Upon liberation, shortcomings ___ .",
+      "options": [
+        "cease to exist",
+        "are kept out of sight",
+        "are merely renamed",
+        "are excused"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cease to exist: không còn khuyết điểm thật, giữ lực đoạn khẳng định đã hết.",
+        "are kept out of sight: chỉ được giấu kín vẫn còn nguyên bên trong.",
+        "are merely renamed: chỉ đổi tên chưa loại bỏ khuyết điểm.",
+        "are excused: được tha lỗi vẫn có thể tiếp tục có lỗi, không phải hết lỗi."
+      ],
+      "dimension": "hết và được tha"
+    }
+  ]
+},
+{
+  "id": "M259",
+  "sourceBlockId": "W22-B07",
+  "title": "Mong cải hóa thay vì hả hê",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "tự nghĩ ra cách nào đó để cải hóa tâm hồn họ",
+      "targetVietnamese": "tự nghĩ ra cách nào đó để cải hóa tâm hồn họ",
+      "sentence": "On seeing criminals, we should ___ a way to reform their inner lives.",
+      "options": [
+        "devise",
+        "merely endorse",
+        "recount",
+        "rule out"
+      ],
+      "answer": 0,
+      "rationales": [
+        "devise: tự suy nghĩ tìm cách hữu hiệu, đúng chủ động nghĩ ra.",
+        "merely endorse: chỉ tán thành một cách có sẵn bỏ mất ý tự tìm phương pháp.",
+        "recount: kể lại phương pháp đã nghe khác tự nghĩ cách giúp họ.",
+        "rule out: loại bỏ mọi cách cải hóa trái mong người trở nên tốt."
+      ],
+      "dimension": "nghĩ ra phương cách"
+    },
+    {
+      "sourceCue": "làm cho họ trở nên lương thiện.",
+      "targetVietnamese": "làm cho họ trở nên lương thiện.",
+      "sentence": "The aim is to ___ them into honest, decent people.",
+      "options": [
+        "transform",
+        "merely label",
+        "disguise",
+        "classify"
+      ],
+      "answer": 0,
+      "rationales": [
+        "transform: làm họ thực sự đổi thành người lương thiện, đúng cải hóa.",
+        "merely label: chỉ gọi họ lương thiện không đổi tâm hồn thật.",
+        "disguise: ngụy trang họ thành người tốt chỉ đổi vẻ ngoài.",
+        "classify: phân vào nhóm người tốt không tự làm phẩm chất thay đổi."
+      ],
+      "dimension": "chuyển hóa thật"
+    },
+    {
+      "sourceCue": "Tuyệt đối chúng ta không ghét ai cả.",
+      "targetVietnamese": "Tuyệt đối chúng ta không ghét ai cả.",
+      "sentence": "We must never ___ anyone.",
+      "options": [
+        "hate",
+        "disagree with",
+        "restrain",
+        "hold accountable"
+      ],
+      "answer": 0,
+      "rationales": [
+        "hate: phủ định tuyệt đối tâm ghét, đúng phạm vi lời nguồn.",
+        "disagree with: cấm bất đồng với ai quá rộng, không đồng nghĩa hết ghét.",
+        "restrain: cấm ngăn người làm ác là thêm điều nguồn không yêu cầu.",
+        "hold accountable: cấm truy trách nhiệm bỏ nhầm đạo đức trách nhiệm thành ghét bỏ."
+      ],
+      "dimension": "không ghét không đồng lõa"
+    },
+    {
+      "sourceCue": "chúng ta không thấy thấy hả hê mà cảm thấy lòng mình xót xa.",
+      "targetVietnamese": "chúng ta không thấy thấy hả hê mà cảm thấy lòng mình xót xa.",
+      "sentence": "At the execution, we do not gloat; instead, our hearts ___ .",
+      "options": [
+        "ache",
+        "harden",
+        "exult",
+        "remain unmoved"
+      ],
+      "answer": 0,
+      "rationales": [
+        "ache: xót xa trước thân phận con người, đúng cảm xúc đối lập hả hê.",
+        "harden: chai cứng là mất cảm thông, trái lòng xót xa.",
+        "exult: hân hoan là hả hê, chính phản ứng nguồn phủ định.",
+        "remain unmoved: không xúc động phủ nhận nỗi xót xa đã nêu."
+      ],
+      "dimension": "xót xa"
+    },
+    {
+      "sourceCue": "tâm của họ được thay bằng những tư tưởng Đạo đức",
+      "targetVietnamese": "tâm của họ được thay bằng những tư tưởng Đạo đức",
+      "sentence": "Their minds could be ___ with moral thoughts instead.",
+      "options": [
+        "imbued",
+        "merely associated",
+        "formally classified",
+        "publicly compared"
+      ],
+      "answer": 0,
+      "rationales": [
+        "imbued: được thấm các tư tưởng đạo đức thay tâm xấu, giữ hướng cải hóa nội tâm.",
+        "merely associated: chỉ được liên hệ với tư tưởng tốt không làm nội dung tâm đổi.",
+        "formally classified: được xếp loại chính thức chỉ thay nhãn, không thay tâm.",
+        "publicly compared: được đem so công khai không phải nhận tư tưởng đạo đức."
+      ],
+      "dimension": "đổi nội dung tâm"
+    }
+  ]
+},
+{
+  "id": "M260",
+  "sourceBlockId": "W22-B08",
+  "title": "Cải hóa tâm chứ không chỉ giam thân",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "cho phép người ta vào dạy Thiền trong nhà tù.",
+      "targetVietnamese": "cho phép người ta vào dạy Thiền trong nhà tù.",
+      "sentence": "In some Indian cases, people were ___ to teach meditation in prisons.",
+      "options": [
+        "allowed",
+        "compelled",
+        "trained",
+        "promised"
+      ],
+      "answer": 0,
+      "rationales": [
+        "allowed: được phép vào dạy, giữ nghĩa cho phép của nguồn.",
+        "compelled: bị bắt buộc đi dạy thêm cưỡng bức ngoài nguồn.",
+        "trained: được đào tạo để dạy là năng lực, không phải quyền vào nhà tù.",
+        "promised: được hứa sẽ dạy chưa xác định việc cho phép vào dạy."
+      ],
+      "dimension": "được phép"
+    },
+    {
+      "sourceCue": "có nhiều vị Thầy đã vào nhà tù để giảng Đạo cho tù nhân.",
+      "targetVietnamese": "có nhiều vị Thầy đã vào nhà tù để giảng Đạo cho tù nhân.",
+      "sentence": "Many teachers entered prisons to ___ the Dharma to inmates.",
+      "options": [
+        "teach",
+        "merely recommend studying",
+        "withhold",
+        "subject formally"
+      ],
+      "answer": 0,
+      "rationales": [
+        "teach: giảng cho tù nhân nghe, đúng sự truyền dạy trực tiếp.",
+        "merely recommend studying: chỉ khuyên nên học chưa phải tự vào giảng dạy.",
+        "withhold: giữ không cho tù nhân biết đảo chiều truyền giảng.",
+        "subject formally: đặt Pháp dưới tù nhân là quan hệ khác, không diễn đạt giảng đạo."
+      ],
+      "dimension": "giảng cho tù nhân"
+    },
+    {
+      "sourceCue": "chúng ta phải nghĩ đến điều đó, nghĩ đến việc cải hóa Đạo đức cho phạm nhân.",
+      "targetVietnamese": "chúng ta phải nghĩ đến điều đó, nghĩ đến việc cải hóa Đạo đức cho phạm nhân.",
+      "sentence": "We must ___ the moral rehabilitation of prisoners.",
+      "options": [
+        "give thought to",
+        "take for granted",
+        "suspend all efforts toward",
+        "lay exclusive claim to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give thought to: phải bắt đầu suy xét việc cải hóa, giữ mức yêu cầu nghĩ đến.",
+        "take for granted: mặc nhiên coi đã có cải hóa bỏ mất yêu cầu tìm cách.",
+        "suspend all efforts toward: dừng mọi nỗ lực cải hóa là hướng trái với phải nghĩ đến.",
+        "lay exclusive claim to: đòi độc quyền cải hóa thêm tranh chấp không có trong nguồn."
+      ],
+      "dimension": "suy nghĩ trách nhiệm"
+    },
+    {
+      "sourceCue": "giam giữ đày đọa cái thân của họ",
+      "targetVietnamese": "giam giữ đày đọa cái thân của họ",
+      "sentence": "We must not assume that ___ their bodies will change them.",
+      "options": [
+        "confining and tormenting",
+        "merely examining",
+        "protecting and nourishing",
+        "praising and rewarding"
+      ],
+      "answer": 0,
+      "rationales": [
+        "confining and tormenting: giữ đủ giam giữ và hành hạ thân, đúng biện pháp nguồn phê bình.",
+        "merely examining: chỉ khám xét thân không giữ lực đày đọa của câu.",
+        "protecting and nourishing: bảo vệ nuôi thân là mặt chăm sóc, không phải hình phạt.",
+        "praising and rewarding: khen thưởng thân là hướng trái hai động tác giam hành."
+      ],
+      "dimension": "giam và đày đọa"
+    },
+    {
+      "sourceCue": "Một khi tâm chưa thay đổi",
+      "targetVietnamese": "Một khi tâm chưa thay đổi",
+      "sentence": "As long as the mind has not ___, such measures address only the surface.",
+      "options": [
+        "changed",
+        "been described",
+        "been assessed",
+        "been monitored"
+      ],
+      "answer": 0,
+      "rationales": [
+        "changed: tâm chưa đổi thật, đúng điều kiện để nói mới nắm ngọn.",
+        "been described: tâm chưa được mô tả là thiếu thông tin, không phải chưa đổi.",
+        "been assessed: tâm chưa được đánh giá có thể vẫn đã đổi, khác điều kiện nguồn.",
+        "been monitored: chưa được theo dõi nói thủ tục quan sát chứ không chuyển hóa."
+      ],
+      "dimension": "gốc của sự thay đổi"
+    }
+  ]
+},
+{
+  "id": "M261",
+  "sourceBlockId": "W22-B09",
+  "title": "Khác cách nhìn vẫn cùng xây dựng cuộc đời",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "đều có điểm giống nhau là có lòng tốt, lòng thương người",
+      "targetVietnamese": "đều có điểm giống nhau là có lòng tốt, lòng thương người",
+      "sentence": "Both groups ___ kindness and love for others.",
+      "options": [
+        "share",
+        "compete for",
+        "merely prescribe",
+        "are exempt from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "share: cùng có điểm chung là lòng tốt thương người, giữ nhận xét so sánh.",
+        "compete for: tranh giành lòng tốt thêm cạnh tranh ngoài nguồn.",
+        "merely prescribe: chỉ quy định người khác có lòng tốt chưa nói chính họ có.",
+        "are exempt from: được miễn lòng tốt đảo ngược điểm chung được nêu."
+      ],
+      "dimension": "điểm chung"
+    },
+    {
+      "sourceCue": "đạo Phật hướng về mục tiêu Vô Ngã tuyệt đối",
+      "targetVietnamese": "đạo Phật hướng về mục tiêu Vô Ngã tuyệt đối",
+      "sentence": "Buddhism ___ absolute selflessness as its goal.",
+      "options": [
+        "aims at",
+        "presumes it has already attained",
+        "merely refers to",
+        "warns against"
+      ],
+      "answer": 0,
+      "rationales": [
+        "aims at: hướng về mục tiêu chưa đồng nghĩa đã đạt, giữ vai trò định hướng.",
+        "presumes it has already attained: mặc nhận đã chứng mục tiêu, sai giai đoạn tu hướng tới.",
+        "merely refers to: chỉ nhắc khái niệm bỏ mất việc lấy nó làm đích.",
+        "warns against: cảnh báo tránh vô ngã đảo ngược mục tiêu nguồn."
+      ],
+      "dimension": "hướng tới mục tiêu"
+    },
+    {
+      "sourceCue": "Đạo Phật thấy thế giới này là tạm bợ.",
+      "targetVietnamese": "Đạo Phật thấy thế giới này là tạm bợ.",
+      "sentence": "In this passage, Buddhism ___ the world as temporary.",
+      "options": [
+        "regards",
+        "produces",
+        "preserves",
+        "disguises"
+      ],
+      "answer": 0,
+      "rationales": [
+        "regards: thấy và quan niệm thế giới tạm bợ, đúng thế giới quan được trình bày.",
+        "produces: tạo thế giới thành tạm bợ là quan hệ gây ra không có.",
+        "preserves: giữ thế giới ở trạng thái tạm bợ là can thiệp, khác cách thấy.",
+        "disguises: giả trang thế giới thành tạm bợ thêm sự đánh lừa ngoài nguồn."
+      ],
+      "dimension": "quan niệm không tạo tác"
+    },
+    {
+      "sourceCue": "họ xây dựng thế giới này cho tốt đẹp.",
+      "targetVietnamese": "họ xây dựng thế giới này cho tốt đẹp.",
+      "sentence": "Those philanthropists work to ___ this world.",
+      "options": [
+        "improve",
+        "merely describe",
+        "replicate",
+        "possess"
+      ],
+      "answer": 0,
+      "rationales": [
+        "improve: làm thế giới tốt đẹp hơn, đúng xây dựng hướng lợi ích.",
+        "merely describe: chỉ miêu tả thế giới chưa thực sự xây dựng cho tốt.",
+        "replicate: sao chép thế giới không phải cải thiện thế giới hiện có.",
+        "possess: chiếm hữu thế giới đổi việc xây dựng thành sở hữu."
+      ],
+      "dimension": "xây dựng tốt hơn"
+    },
+    {
+      "sourceCue": "vẫn thương yêu con người",
+      "targetVietnamese": "vẫn thương yêu con người",
+      "sentence": "Despite regarding the world as temporary, Buddhists continue to ___ people.",
+      "options": [
+        "love",
+        "merely categorize",
+        "preside over",
+        "seek approval from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "love: vẫn yêu thương con người, giữ sự tiếp tục bất chấp cách nhìn thế giới.",
+        "merely categorize: chỉ phân loại người không diễn đạt tấm lòng thương.",
+        "preside over: đứng đầu quản người là quan hệ quyền lực khác.",
+        "seek approval from: tìm sự chấp thuận từ người khác lấy nhận về thay cho thương cho đi."
+      ],
+      "dimension": "vẫn thương yêu"
+    }
+  ]
+}
+,
+{
+  "id": "M262",
+  "sourceBlockId": "W22-B10",
+  "title": "Tình thương trở thành trách nhiệm môi trường",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "khi có tâm Từ Bi bao la",
+      "targetVietnamese": "khi có tâm Từ Bi bao la",
+      "sentence": "When we ___ boundless compassion, we can love all forms of life.",
+      "options": [
+        "have",
+        "merely praise",
+        "lay claim to",
+        "pretend to have"
+      ],
+      "answer": 0,
+      "rationales": [
+        "have: thật có lòng từ bi, giữ điều kiện tâm của mình.",
+        "merely praise: chỉ khen lòng từ bi không bảo đảm tự mình có.",
+        "lay claim to: nhận mình có là lời tự nhận, chưa phải phẩm chất thật.",
+        "pretend to have: giả có từ bi trái điều kiện chân thật của nguồn."
+      ],
+      "dimension": "có tâm từ bi"
+    },
+    {
+      "sourceCue": "ta có thể yêu thương được mọi loài",
+      "targetVietnamese": "ta có thể yêu thương được mọi loài",
+      "sentence": "Our love can ___ every species.",
+      "options": [
+        "embrace",
+        "classify",
+        "domesticate",
+        "possess"
+      ],
+      "answer": 0,
+      "rationales": [
+        "embrace: ôm trọn mọi loài trong tình thương, đúng phạm vi mở rộng.",
+        "classify: phân loại các loài không nói lòng yêu thương.",
+        "domesticate: thuần hóa loài vật thêm hành vi kiểm soát ngoài nguồn.",
+        "possess: sở hữu muôn loài đổi yêu thương thành chiếm hữu."
+      ],
+      "dimension": "phạm vi tình thương"
+    },
+    {
+      "sourceCue": "luôn mong muốn bảo vệ môi trường sống cho vạn loài",
+      "targetVietnamese": "luôn mong muốn bảo vệ môi trường sống cho vạn loài",
+      "sentence": "Buddhist disciples always wish to ___ the habitats of all species.",
+      "options": [
+        "safeguard",
+        "merely inspect",
+        "appropriate",
+        "relocate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "safeguard: bảo vệ nơi sống khỏi tổn hại, đúng mong muốn của người đệ tử.",
+        "merely inspect: chỉ kiểm tra hiện trạng chưa thực hiện bảo vệ.",
+        "appropriate: chiếm nơi sống làm của mình, không phải giữ cho muôn loài.",
+        "relocate: di chuyển toàn bộ nơi sống thêm biện pháp nguồn không chỉ định."
+      ],
+      "dimension": "bảo vệ môi trường sống"
+    },
+    {
+      "sourceCue": "luôn tích cực tham gia làm sạch môi trường sống",
+      "targetVietnamese": "luôn tích cực tham gia làm sạch môi trường sống",
+      "sentence": "They actively ___ cleaning up the environment.",
+      "options": [
+        "participate in",
+        "merely approve of",
+        "take credit for",
+        "postpone"
+      ],
+      "answer": 0,
+      "rationales": [
+        "participate in: trực tiếp tham gia tích cực, giữ vai trò thực hiện.",
+        "merely approve of: chỉ tán thành không phải có phần tham gia.",
+        "take credit for: nhận công có thể không làm, khác tích cực góp sức.",
+        "postpone: hoãn việc làm sạch ngược với chủ động tham gia."
+      ],
+      "dimension": "góp sức trực tiếp"
+    },
+    {
+      "sourceCue": "để hành tinh này là nơi tốt đẹp để cùng nhau vui sống.",
+      "targetVietnamese": "để hành tinh này là nơi tốt đẹp để cùng nhau vui sống.",
+      "sentence": "Their efforts aim to ___ this planet a good place for everyone to live happily together.",
+      "options": [
+        "make",
+        "declare",
+        "rename",
+        "mistake for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "make: làm hành tinh trở nên tốt đẹp, đúng mục tiêu hành động.",
+        "declare: tuyên bố tốt đẹp không cải thiện hoàn cảnh thật.",
+        "rename: đổi tên hành tinh không tạo chất lượng sống mới.",
+        "mistake for: nhầm nó là nơi tốt đẹp phủ nhận ý hướng cải thiện thật."
+      ],
+      "dimension": "làm nên điều kiện sống"
+    }
+  ]
+},
+{
+  "id": "M263",
+  "sourceBlockId": "W22-B11",
+  "title": "Vòng thương yêu rộng dần",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "các đối tượng để thương yêu từ nhỏ đến lớn dần",
+      "targetVietnamese": "các đối tượng để thương yêu từ nhỏ đến lớn dần",
+      "sentence": "The range of those we love can gradually ___ .",
+      "options": [
+        "expand",
+        "be merely enumerated",
+        "be concealed",
+        "be standardized"
+      ],
+      "answer": 0,
+      "rationales": [
+        "expand: mở rộng từ phạm vi nhỏ tới lớn, giữ hướng tăng của nguồn.",
+        "be merely enumerated: chỉ được liệt kê không phải phạm vi tình thương tăng lên.",
+        "be concealed: được che kín không nói lớn nhỏ của đối tượng thương.",
+        "be standardized: được chuẩn hóa không giữ sự phát triển rộng dần."
+      ],
+      "dimension": "mở rộng phạm vi"
+    },
+    {
+      "sourceCue": "chỉ thương yêu bản thân mình",
+      "targetVietnamese": "chỉ thương yêu bản thân mình",
+      "sentence": "The most selfish person ___ love to the self alone.",
+      "options": [
+        "confines",
+        "attributes",
+        "compares",
+        "reconciles"
+      ],
+      "answer": 0,
+      "rationales": [
+        "confines: giới hạn tình thương vào mình, giữ chữ chỉ của nguồn.",
+        "attributes: quy tình thương về mình nói căn nguyên, không giới hạn người được thương.",
+        "compares: so sánh tình thương với mình không diễn đạt chỉ thương mình.",
+        "reconciles: dung hòa tình thương với mình không nói loại người khác ra."
+      ],
+      "dimension": "giới hạn vị kỷ"
+    },
+    {
+      "sourceCue": "rèn luyện bản thân để có khả năng cống hiến cho cuộc đời",
+      "targetVietnamese": "rèn luyện bản thân để có khả năng cống hiến cho cuộc đời",
+      "sentence": "Self-training is right when it ___ us to contribute to life.",
+      "options": [
+        "equips",
+        "merely entitles",
+        "excuses",
+        "publicizes"
+      ],
+      "answer": 0,
+      "rationales": [
+        "equips: làm mình có đủ khả năng đóng góp, đúng mục đích rèn luyện.",
+        "merely entitles: chỉ cho quyền được đóng góp không đồng nghĩa tạo năng lực.",
+        "excuses: miễn việc đóng góp đảo ngược mục tiêu hướng ra đời.",
+        "publicizes: quảng bá mình là thông tin, không tạo khả năng cống hiến."
+      ],
+      "dimension": "rèn khả năng cống hiến"
+    },
+    {
+      "sourceCue": "vì đó là bổn phận bắt buộc theo đạo lý chung và theo pháp luật.",
+      "targetVietnamese": "vì đó là bổn phận bắt buộc theo đạo lý chung và theo pháp luật.",
+      "sentence": "Loving one's family ___ a duty under shared morality and the law.",
+      "options": [
+        "fulfills",
+        "merely forecasts",
+        "waives",
+        "reassigns"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fulfills: thực hiện bổn phận gia đình, giữ tính bắt buộc đã nêu.",
+        "merely forecasts: chỉ dự báo sẽ có bổn phận không phải làm tròn.",
+        "waives: miễn bổn phận đảo ngược trách nhiệm với gia đình.",
+        "reassigns: giao bổn phận cho người khác không phải tự thương gia đình."
+      ],
+      "dimension": "bổn phận gia đình"
+    },
+    {
+      "sourceCue": "là dấu hiệu đạo đức tăng lên dần",
+      "targetVietnamese": "là dấu hiệu đạo đức tăng lên dần",
+      "sentence": "The broader levels of love ___ a gradual increase in moral virtue.",
+      "options": [
+        "indicate",
+        "cause automatically",
+        "replace",
+        "disprove"
+      ],
+      "answer": 0,
+      "rationales": [
+        "indicate: là dấu hiệu cho thấy đạo đức tăng, đúng quan hệ biểu hiện.",
+        "cause automatically: tự động gây tăng đạo đức mạnh hơn lời dấu hiệu.",
+        "replace: thay thế đạo đức không phải biểu hiện đạo đức tăng.",
+        "disprove: bác bỏ sự tăng trưởng đạo đức đảo ý đánh giá của nguồn."
+      ],
+      "dimension": "dấu hiệu không nguyên nhân"
+    }
+  ]
+},
+{
+  "id": "M264",
+  "sourceBlockId": "W22-B12",
+  "title": "Không quy nguyên nhân nghèo khó quá vội",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "đói nghèo có thể do nhiều nguyên nhân khác nhau.",
+      "targetVietnamese": "đói nghèo có thể do nhiều nguyên nhân khác nhau.",
+      "sentence": "Poverty may ___ many different causes.",
+      "options": [
+        "stem from",
+        "give rise to",
+        "take the place of",
+        "attest exclusively to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "stem from: có thể phát sinh từ nhiều nhân khác, giữ hướng nguyên nhân về kết quả.",
+        "give rise to: gây ra nhiều nguyên nhân đảo chiều lời giải thích.",
+        "take the place of: thay thế nhiều nguyên nhân không phải do chúng sinh ra.",
+        "attest exclusively to: chỉ làm chứng độc nhất cho nhiều nguyên nhân thêm tính độc quyền ngoài nguồn."
+      ],
+      "dimension": "đa nguyên nhân"
+    },
+    {
+      "sourceCue": "phí phạm tiền của, thực phẩm, y phục",
+      "targetVietnamese": "phí phạm tiền của, thực phẩm, y phục",
+      "sentence": "We may once have ___ money, food and clothing.",
+      "options": [
+        "squandered",
+        "rationed",
+        "borrowed",
+        "stored"
+      ],
+      "answer": 0,
+      "rationales": [
+        "squandered: phung phí tài vật, đúng một khả năng nguồn liệt kê.",
+        "rationed: phân phối có hạn mức không tự có nghĩa lãng phí.",
+        "borrowed: vay tài vật không đồng nghĩa dùng phí phạm.",
+        "stored: cất giữ tài vật có thể tiết kiệm, khác tiêu phí."
+      ],
+      "dimension": "lãng phí"
+    },
+    {
+      "sourceCue": "Rất khó xác định chính xác ta bị đói nghèo do nguyên nhân nào",
+      "targetVietnamese": "Rất khó xác định chính xác ta bị đói nghèo do nguyên nhân nào",
+      "sentence": "It is very difficult to ___ exactly which cause lies behind our poverty.",
+      "options": [
+        "ascertain",
+        "merely presume",
+        "decree",
+        "allege"
+      ],
+      "answer": 0,
+      "rationales": [
+        "ascertain: xác minh biết chính xác căn nguyên, giữ mức chắc của xác định.",
+        "merely presume: chỉ mặc đoán không đạt ngưỡng chính xác của nguồn.",
+        "decree: ra lệnh ấn định căn nguyên không phải tìm hiểu thực tế.",
+        "allege: đưa lời quy tội chưa có chứng cứ khác biết chính xác."
+      ],
+      "dimension": "xác định không suy đoán"
+    },
+    {
+      "sourceCue": "cái đói khổ bức bách nên rất dễ làm bậy",
+      "targetVietnamese": "cái đói khổ bức bách nên rất dễ làm bậy",
+      "sentence": "The pressure of hunger makes people prone to ___ wrongdoing.",
+      "options": [
+        "commit",
+        "merely predict",
+        "prosecute",
+        "pardon"
+      ],
+      "answer": 0,
+      "rationales": [
+        "commit: tự làm điều sai, đúng nguy cơ hành vi khi bị bức bách.",
+        "merely predict: chỉ dự báo việc sai không phải bản thân làm sai.",
+        "prosecute: truy tố sai phạm đặt họ ở vai người thi hành luật.",
+        "pardon: tha thứ sai phạm khác với phạm lỗi vì đói."
+      ],
+      "dimension": "bị bức bách phạm sai"
+    },
+    {
+      "sourceCue": "đỡ khổ được vài hôm rồi đói khổ trở lại.",
+      "targetVietnamese": "đỡ khổ được vài hôm rồi đói khổ trở lại.",
+      "sentence": "Gifts may relieve hardship for a few days, but it then ___ .",
+      "options": [
+        "returns",
+        "merely becomes visible",
+        "is reassessed",
+        "is publicly reported"
+      ],
+      "answer": 0,
+      "rationales": [
+        "returns: khổ trở lại sau lúc đỡ, giữ diễn tiến tái phát được nêu.",
+        "merely becomes visible: chỉ lộ ra lần đầu không nói đã đỡ rồi trở lại.",
+        "is reassessed: được đánh giá lại là nhận định, không phải khó khăn quay lại thật.",
+        "is publicly reported: được đưa tin chỉ đổi thông tin, không diễn đạt tái diễn."
+      ],
+      "dimension": "đỡ tạm và tái diễn"
+    }
+  ]
+},
+{
+  "id": "M265",
+  "sourceBlockId": "W23-B01",
+  "title": "Lời Pháp và công việc của người giải thích",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Phật nói lên những bài Pháp vô giá",
+      "targetVietnamese": "Phật nói lên những bài Pháp vô giá",
+      "sentence": "From immeasurable wisdom, the Buddha ___ priceless teachings.",
+      "options": [
+        "expounded",
+        "merely collected",
+        "paraphrased",
+        "tentatively proposed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "expounded: trình bày giáo Pháp bằng trí tuệ mình, đúng lời thuyết Pháp.",
+        "merely collected: chỉ sưu tầm lời có sẵn không giữ vai trò nói Pháp của nguồn.",
+        "paraphrased: diễn lại một bản khác thêm nguồn nguyên tác khác không được nói.",
+        "tentatively proposed: đề nghị thử một giả thuyết làm yếu giá trị lời dạy được khẳng định."
+      ],
+      "dimension": "thuyết Pháp"
+    },
+    {
+      "sourceCue": "chỉ là lập lại, mở rộng thêm, giải thích rõ hơn",
+      "targetVietnamese": "chỉ là lập lại, mở rộng thêm, giải thích rõ hơn",
+      "sentence": "Our later work can only repeat, expand and ___ those teachings.",
+      "options": [
+        "clarify",
+        "supersede",
+        "retract",
+        "make deliberately obscure"
+      ],
+      "answer": 0,
+      "rationales": [
+        "clarify: làm sáng rõ hơn lời có trước, đúng phần việc giải thích.",
+        "supersede: thay vượt lời Phật trái giới hạn chỉ giải thích mở rộng.",
+        "retract: rút lại giáo lý là phủ nhận, không phải làm rõ.",
+        "make deliberately obscure: cố làm khó hiểu là hướng trái với giải thích rõ hơn."
+      ],
+      "dimension": "làm rõ không thay thế"
+    },
+    {
+      "sourceCue": "không đủ sức mở ra cả một hệ thống lý thuyết tu tập vĩ đại như thế.",
+      "targetVietnamese": "không đủ sức mở ra cả một hệ thống lý thuyết tu tập vĩ đại như thế.",
+      "sentence": "We lack the capacity to ___ such a vast system of practice ourselves.",
+      "options": [
+        "originate",
+        "summarize",
+        "study",
+        "apply"
+      ],
+      "answer": 0,
+      "rationales": [
+        "originate: khởi lập cả hệ thống mới, đúng mở ra cả hệ thống.",
+        "summarize: tóm tắt hệ thống có sẵn vẫn thuộc việc người sau làm được.",
+        "study: học hệ thống không phải sáng lập cả hệ thống.",
+        "apply: vận dụng giáo lý không vượt giới hạn tác giả đang nói."
+      ],
+      "dimension": "khởi lập và tiếp thu"
+    },
+    {
+      "sourceCue": "đạo Phật thì ngược lại, càng sáng tỏ khi khoa học tiến bộ.",
+      "targetVietnamese": "đạo Phật thì ngược lại, càng sáng tỏ khi khoa học tiến bộ.",
+      "sentence": "In the author's account, Buddhism ___ as science advances.",
+      "options": [
+        "becomes clearer",
+        "is rewritten",
+        "is displaced",
+        "claims scientific authorship"
+      ],
+      "answer": 0,
+      "rationales": [
+        "becomes clearer: càng được thấy rõ hơn, giữ so sánh tiến bộ khoa học của tác giả.",
+        "is rewritten: bị viết lại giáo lý thêm việc sửa nội dung ngoài nguồn.",
+        "is displaced: bị thay thế ngược nhận định ngày càng sáng tỏ.",
+        "claims scientific authorship: nhận mình tạo ra khoa học là tuyên bố khác không được nêu."
+      ],
+      "dimension": "sáng tỏ thêm"
+    },
+    {
+      "sourceCue": "Người ta càng khâm phục đức Phật",
+      "targetVietnamese": "Người ta càng khâm phục đức Phật",
+      "sentence": "People increasingly ___ the Buddha for these teachings.",
+      "options": [
+        "admire",
+        "appease",
+        "emulate precisely",
+        "formally appoint"
+      ],
+      "answer": 0,
+      "rationales": [
+        "admire: càng kính phục trí tuệ, đúng thái độ người đọc được nêu.",
+        "appease: xoa dịu sự giận dữ không phải khâm phục.",
+        "emulate precisely: bắt chước chính xác là hành động khác chưa được khẳng định.",
+        "formally appoint: bổ nhiệm chức vị thêm thủ tục ngoài việc tỏ lòng kính phục."
+      ],
+      "dimension": "kính phục trí tuệ"
+    }
+  ]
+},
+{
+  "id": "M266",
+  "sourceBlockId": "W23-B02",
+  "title": "Thời gian và không gian trong lời ví dụ",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:0539",
+      "docx:p:0541",
+      "docx:p:0543"
+    ],
+    "paragraphs": [
+      "Nơi cảnh giới chứng ngộ niết bàn tuyệt đối này, không gian vô biên dường như chỉ là một điểm, nhưng ở đâu vẫn là ở đấy không lẫn lộn với nhau. Ví dụ Trái đất và sao Hỏa cách nhau 60 ngày bay; nhưng với cái nhìn của Phật thì hai chỗ đó chỉ là một, nhưng vẫn không lẫn lộn với nhau.",
+      "Thời gian vô tận cũng như chỉ là một điểm nơi Niết bàn này, dù vẫn không lẫn lộn với nhau. Ví dụ thời điểm cách đây 5 ngàn năm văn minh Ai cập với bây giờ cũng như là đồng thời, dù vẫn không lẫn lộn với nhau.",
+      "Thiền sư Mật Ấn nói một thiền ngữ rất thú vị về ý niệm này rằng: ”Ai cũng biết một giọt nước gieo vào hồ to, mấy ai biết cả đại dương gieo vào giọt nước.”"
+    ],
+    "sha256": "5603d8763bd659d038aa2ea99ae9cb922f2434f219f1d476c4d74460f5256659"
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "không gian vô biên dường như chỉ là một điểm",
+      "targetVietnamese": "không gian vô biên dường như chỉ là một điểm",
+      "sentence": "In this description of Nirvana, boundless space ___ to be a single point.",
+      "options": [
+        "appears",
+        "is forced",
+        "is legislated",
+        "is promised"
+      ],
+      "answer": 0,
+      "rationales": [
+        "appears: dường như là một điểm trong cảnh giới mô tả, giữ nét dường như.",
+        "is forced: bị ép thành một điểm thêm tác động cưỡng ép vật lý.",
+        "is legislated: được ban luật thành một điểm không có trong ví dụ.",
+        "is promised: được hứa sẽ thành một điểm đẩy mô tả hiện tại thành lời hứa."
+      ],
+      "dimension": "dường như"
+    },
+    {
+      "sourceCue": "nhưng ở đâu vẫn là ở đấy không lẫn lộn với nhau.",
+      "targetVietnamese": "nhưng ở đâu vẫn là ở đấy không lẫn lộn với nhau.",
+      "sentence": "Yet distinct places are not ___ one another.",
+      "options": [
+        "confused with",
+        "connected to",
+        "compared with",
+        "remembered alongside"
+      ],
+      "answer": 0,
+      "rationales": [
+        "confused with: không bị lẫn lộn dù được thấy như một, giữ giới hạn quan trọng.",
+        "connected to: không được nối với nhau là quan hệ không gian khác.",
+        "compared with: không được so với nhau thêm cấm đoán nhận thức ngoài nguồn.",
+        "remembered alongside: không được nhớ cạnh nhau không nói các nơi vẫn phân biệt."
+      ],
+      "dimension": "không lẫn lộn"
+    },
+    {
+      "sourceCue": "Thời gian vô tận cũng như chỉ là một điểm nơi Niết bàn này",
+      "targetVietnamese": "Thời gian vô tận cũng như chỉ là một điểm nơi Niết bàn này",
+      "sentence": "In this Nirvana, infinite time likewise ___ a single point.",
+      "options": [
+        "resembles",
+        "is measured by",
+        "is predicted from",
+        "is postponed until"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resembles: được ví như một điểm, giữ quan hệ so sánh cũng như.",
+        "is measured by: được đo bằng một điểm biến ví dụ thành phép đo.",
+        "is predicted from: được dự đoán từ điểm ấy thêm quan hệ suy luận ngoài nguồn.",
+        "is postponed until: bị hoãn tới điểm ấy là thay đổi thời gian, không phải cách thấy."
+      ],
+      "dimension": "ví dụ không phép đo"
+    },
+    {
+      "sourceCue": "thời điểm cách đây 5 ngàn năm văn minh Ai cập với bây giờ cũng như là đồng thời",
+      "targetVietnamese": "thời điểm cách đây 5 ngàn năm văn minh Ai cập với bây giờ cũng như là đồng thời",
+      "sentence": "The era of Egyptian civilization five thousand years ago and the present seem to ___ in time.",
+      "options": [
+        "coincide",
+        "succeed one another",
+        "replace one another",
+        "recur"
+      ],
+      "answer": 0,
+      "rationales": [
+        "coincide: như cùng thời, giữ nét dường như đồng thời của phép ví.",
+        "succeed one another: nối tiếp nhau là thứ tự thông thường, không diễn đạt lời ví này.",
+        "replace one another: thay thế nhau không có nghĩa đồng thời cùng được thấy.",
+        "recur: tái diễn là lặp lại một thời kỳ, không phải hai thời điểm như một."
+      ],
+      "dimension": "đồng thời không tái diễn"
+    },
+    {
+      "sourceCue": "mấy ai biết cả đại dương gieo vào giọt nước.",
+      "targetVietnamese": "mấy ai biết cả đại dương gieo vào giọt nước.",
+      "sentence": "Few people ___ the image of an entire ocean poured into a drop.",
+      "options": [
+        "grasp",
+        "merely repeat",
+        "claim to have witnessed physically",
+        "reject as irrelevant"
+      ],
+      "answer": 0,
+      "rationales": [
+        "grasp: hiểu được ý hình ảnh nghịch lý, đúng mấy ai biết trong thiền ngữ.",
+        "merely repeat: chỉ nhắc lại câu chữ chưa thấu ý mà thiền ngữ gợi.",
+        "claim to have witnessed physically: nói đã tận mắt thấy vật lý thêm cách hiểu không có trong câu.",
+        "reject as irrelevant: gạt bỏ là vô ích đảo hướng tìm hiểu ý niệm của đoạn."
+      ],
+      "dimension": "hiểu hình ảnh thiền ngữ"
+    }
+  ]
+},
+{
+  "id": "M267",
+  "sourceBlockId": "W23-B03",
+  "title": "Lời nguyện tinh tấn và tâm khinh chê",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:0599",
+      "docx:p:0601"
+    ],
+    "paragraphs": [
+      "Chúng ta phát nguyện chừng 3 năm như vậy thì lời nguyện đó đã trở thành xương thành tủy, thành chủng tử cho nhiều kiếp về sau. Sau đó ta không phát lời nguyện đó nữa để phát qua lời nguyện khác, nhưng lời nguyện tinh tấn vẫn tồn tại mãi không hết.",
+      "Trừ một trường hợp xảy ra làm chúng ta mất thiện nhân tinh tấn là sau này chúng ta có chê bai ai không tinh tấn, chê với lòng khinh ghét thiếu từ bi thì cái nhân tinh tấn của ta mới từ từ mất dần. Chê ai cái gì, chúng ta sẽ giống như thế."
+    ],
+    "sha256": "46b530081c34ee0fcd019e587ec4915a8a5449786a2ca2282febb6ad470d2263",
+    "excerpted": true
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "lời nguyện tinh tấn vẫn tồn tại mãi không hết.",
+      "targetVietnamese": "lời nguyện tinh tấn vẫn tồn tại mãi không hết.",
+      "sentence": "The vow of diligent practice ___ even after one turns to another vow.",
+      "options": [
+        "endures",
+        "is repeatedly spoken aloud",
+        "is reassigned",
+        "is publicly certified"
+      ],
+      "answer": 0,
+      "rationales": [
+        "endures: vẫn tồn tại không mất, đúng sức bền của lời nguyện đã thành chủng tử.",
+        "is repeatedly spoken aloud: còn phải nói lặp bằng miệng trái đoạn nói không phát lời đó nữa.",
+        "is reassigned: được giao cho người khác không giữ chủng tử nơi mình.",
+        "is publicly certified: được chứng nhận công khai không nói tồn tại nội tâm lâu dài."
+      ],
+      "dimension": "lời nguyện còn bền"
+    },
+    {
+      "sourceCue": "chúng ta có chê bai ai không tinh tấn",
+      "targetVietnamese": "chúng ta có chê bai ai không tinh tấn",
+      "sentence": "We may later ___ someone for lacking diligence.",
+      "options": [
+        "disparage",
+        "gently advise",
+        "imitate",
+        "exonerate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "disparage: chê bai người khác, hợp phần tiếp nói khinh ghét thiếu từ bi.",
+        "gently advise: khuyên dịu dàng bỏ mất tâm khinh chê tạo hệ quả.",
+        "imitate: noi theo người thiếu siêng không phải chê họ.",
+        "exonerate: minh oan cho người ấy là hành động trái với chê bai."
+      ],
+      "dimension": "chê bai khác góp ý"
+    },
+    {
+      "sourceCue": "chê với lòng khinh ghét thiếu từ bi",
+      "targetVietnamese": "chê với lòng khinh ghét thiếu từ bi",
+      "sentence": "Such criticism ___ contempt and lacks compassion.",
+      "options": [
+        "expresses",
+        "merely analyzes",
+        "helps relieve",
+        "formally prohibits"
+      ],
+      "answer": 0,
+      "rationales": [
+        "expresses: bộc lộ lòng khinh ghét trong cách chê, đúng động cơ của nguồn.",
+        "merely analyzes: chỉ phân tích tâm khinh chưa phải chính mình khinh ghét.",
+        "helps relieve: làm giảm khinh ghét là tác dụng ngược lời phê bình được nêu.",
+        "formally prohibits: cấm khinh ghét lại là hướng xây dựng, không giữ sắc thái nguồn."
+      ],
+      "dimension": "chê với khinh ghét"
+    },
+    {
+      "sourceCue": "cái nhân tinh tấn của ta mới từ từ mất dần.",
+      "targetVietnamese": "cái nhân tinh tấn của ta mới từ từ mất dần.",
+      "sentence": "Only then does the wholesome cause of our diligence gradually ___ .",
+      "options": [
+        "erode",
+        "merely become hidden",
+        "change its name",
+        "shift to another person"
+      ],
+      "answer": 0,
+      "rationales": [
+        "erode: bị hao mòn dần, giữ tính từ từ của mất thiện nhân.",
+        "merely become hidden: chỉ ẩn đi vẫn còn nguyên gốc, không phải mất dần.",
+        "change its name: đổi tên không làm nhân tinh tấn suy giảm.",
+        "shift to another person: chuyển cho người khác thêm cơ chế trao nhân ngoài nguồn."
+      ],
+      "dimension": "mất nhân từ từ"
+    },
+    {
+      "sourceCue": "Chê ai cái gì, chúng ta sẽ giống như thế.",
+      "targetVietnamese": "Chê ai cái gì, chúng ta sẽ giống như thế.",
+      "sentence": "We will ___ the very trait we scorn in someone else.",
+      "options": [
+        "come to resemble",
+        "merely point out",
+        "be excused for",
+        "publicly disprove"
+      ],
+      "answer": 0,
+      "rationales": [
+        "come to resemble: trở nên giống điều đã chê, giữ hệ quả quay về mình.",
+        "merely point out: chỉ chỉ ra lỗi là hành động chê, không phải hậu quả về sau.",
+        "be excused for: được tha vì nét ấy không nói trở nên giống nó.",
+        "publicly disprove: công khai bác nét ấy không diễn đạt mình mang tính ấy."
+      ],
+      "dimension": "trở nên giống điều chê"
+    }
+  ]
+}
+,
+{
+  "id": "M268",
+  "sourceBlockId": "W23-B04",
+  "title": "Cầu cơ hội gieo nhân tốt",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "cầu xin Thần Thánh để được hưởng quả",
+      "targetVietnamese": "cầu xin Thần Thánh để được hưởng quả",
+      "sentence": "The first kind of prayer ___ divine beings for favorable results to enjoy.",
+      "options": [
+        "petitions",
+        "thanks",
+        "admonishes",
+        "vindicates"
+      ],
+      "answer": 0,
+      "rationales": [
+        "petitions: cầu xin được hưởng kết quả, giữ vai người xin điều tốt.",
+        "thanks: cảm tạ vì đã được giúp là giai đoạn sau, không phải cầu xin.",
+        "admonishes: khuyên răn thần thánh đảo vị thế người cầu nguyện.",
+        "vindicates: minh oan thần thánh không phải xin được hưởng quả."
+      ],
+      "dimension": "cầu xin và cảm tạ"
+    },
+    {
+      "sourceCue": "cầu nguyện Phật gia hộ cho mình gieo nhân",
+      "targetVietnamese": "cầu nguyện Phật gia hộ cho mình gieo nhân",
+      "sentence": "Buddhist disciples pray for the Buddha's support to ___ good causes.",
+      "options": [
+        "sow",
+        "merely await the fruits of",
+        "claim credit for",
+        "be exempt from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sow: xin trợ lực để chính mình gieo nhân, giữ trọng tâm hành động.",
+        "merely await the fruits of: chỉ chờ hưởng quả là loại cầu xin mà nguồn đang phân biệt.",
+        "claim credit for: nhận công về nhân tốt khác xin khả năng tạo nhân mới.",
+        "be exempt from: xin miễn gieo nhân đảo ngược chủ đích cầu nguyện."
+      ],
+      "dimension": "xin khả năng gieo nhân"
+    },
+    {
+      "sourceCue": "cầu cho có cơ hội để giúp người",
+      "targetVietnamese": "cầu cho có cơ hội để giúp người",
+      "sentence": "They pray for opportunities to ___ others.",
+      "options": [
+        "help",
+        "merely impress",
+        "depend on",
+        "compete with"
+      ],
+      "answer": 0,
+      "rationales": [
+        "help: có dịp làm lợi ích cho người, đúng hướng xin cơ hội.",
+        "merely impress: chỉ gây ấn tượng với người khác chưa giúp họ thật.",
+        "depend on: dựa vào người khác đảo hướng cho đi thành nhận.",
+        "compete with: tranh hơn với người khác không phải nâng đỡ họ."
+      ],
+      "dimension": "giúp người"
+    },
+    {
+      "sourceCue": "để đắp đường",
+      "targetVietnamese": "để đắp đường",
+      "sentence": "An example is an opportunity to ___ roads.",
+      "options": [
+        "build",
+        "inspect",
+        "map",
+        "rename"
+      ],
+      "answer": 0,
+      "rationales": [
+        "build: thực hiện công việc đắp đường, đúng hành động tạo lợi ích.",
+        "inspect: kiểm tra đường có sẵn chưa phải đắp nên đường.",
+        "map: vẽ bản đồ đường là ghi nhận, không xây dựng đường.",
+        "rename: đổi tên đường không tạo hạ tầng cho người đi."
+      ],
+      "dimension": "làm công ích"
+    },
+    {
+      "sourceCue": "để khuyên bảo người khó bảo",
+      "targetVietnamese": "để khuyên bảo người khó bảo",
+      "sentence": "Another is an opportunity to ___ people who resist advice.",
+      "options": [
+        "counsel",
+        "compel",
+        "appease",
+        "denounce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "counsel: khuyên bảo để họ hiểu và đổi tốt, giữ phương thức lời khuyên.",
+        "compel: cưỡng ép người khó bảo khác thuyết phục qua khuyên nhủ.",
+        "appease: chỉ làm họ nguôi giận không nhất thiết giúp họ hiểu điều đúng.",
+        "denounce: tố cáo công khai là lên án, khác tận tình khuyên."
+      ],
+      "dimension": "khuyên người khó bảo"
+    }
+  ]
+},
+{
+  "id": "M269",
+  "sourceBlockId": "W23-B05",
+  "title": "Hai công hạnh phải nhiệt thành như nhau",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "vừa tinh tấn hành thiền tu tập cho chính mình",
+      "targetVietnamese": "vừa tinh tấn hành thiền tu tập cho chính mình",
+      "sentence": "Monastics must diligently ___ meditation and self-cultivation.",
+      "options": [
+        "engage in",
+        "merely recommend",
+        "publicize",
+        "claim exemption from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "engage in: tự thực hành siêng năng, giữ hành thiền cho chính mình.",
+        "merely recommend: chỉ khuyên người khác làm không phải bản thân tu tập.",
+        "publicize: quảng bá việc tu không thay được sự hành trì.",
+        "claim exemption from: xin miễn việc tu trái yêu cầu tinh tấn tự tu."
+      ],
+      "dimension": "tự hành trì"
+    },
+    {
+      "sourceCue": "vừa nỗ lực giáo hóa chúng sinh.",
+      "targetVietnamese": "vừa nỗ lực giáo hóa chúng sinh.",
+      "sentence": "They must also strive to ___ sentient beings.",
+      "options": [
+        "teach and guide",
+        "merely classify",
+        "rule and tax",
+        "imitate and flatter"
+      ],
+      "answer": 0,
+      "rationales": [
+        "teach and guide: giáo hóa bằng chỉ dạy dẫn đường, đúng công hạnh hướng ra.",
+        "merely classify: chỉ phân loại chúng sinh không giúp họ tu học.",
+        "rule and tax: cai trị thu thuế thêm quyền lực thế tục ngoài nguồn.",
+        "imitate and flatter: bắt chước nịnh chúng sinh đổi hướng giáo hóa thành lấy lòng."
+      ],
+      "dimension": "giáo hóa chúng sinh"
+    },
+    {
+      "sourceCue": "Cả hai công hạnh đều phải được thực hiện nhiệt thành như nhau",
+      "targetVietnamese": "Cả hai công hạnh đều phải được thực hiện nhiệt thành như nhau",
+      "sentence": "Both forms of practice must be ___ with equal fervor.",
+      "options": [
+        "carried out",
+        "merely announced",
+        "postponed",
+        "delegated entirely"
+      ],
+      "answer": 0,
+      "rationales": [
+        "carried out: đều thực hiện thật nhiệt thành, giữ cả tính hành động và mức ngang nhau.",
+        "merely announced: chỉ công bố ý định chưa thực hiện hai công hạnh.",
+        "postponed: đều hoãn lại không giữ yêu cầu phải làm.",
+        "delegated entirely: giao hoàn toàn cho người khác bỏ phần chính mình hành trì."
+      ],
+      "dimension": "thực hiện nhiệt thành"
+    },
+    {
+      "sourceCue": "không được thiên lệch bên nào",
+      "targetVietnamese": "không được thiên lệch bên nào",
+      "sentence": "One must not ___ either side at the expense of the other.",
+      "options": [
+        "favor",
+        "consider",
+        "learn about",
+        "acknowledge"
+      ],
+      "answer": 0,
+      "rationales": [
+        "favor: không nghiêng bên này bỏ bên kia, đúng tránh thiên lệch.",
+        "consider: không được cân nhắc hai bên thêm cấm đoán ngoài nguồn.",
+        "learn about: không học về một bên không đồng nghĩa tránh thiên lệch.",
+        "acknowledge: không thừa nhận một bên trái việc phải thực hiện cả hai."
+      ],
+      "dimension": "không thiên lệch"
+    },
+    {
+      "sourceCue": "không được lười nhác cả hai.",
+      "targetVietnamese": "không được lười nhác cả hai.",
+      "sentence": "Nor may one ___ both responsibilities.",
+      "options": [
+        "neglect",
+        "combine",
+        "discuss",
+        "distinguish"
+      ],
+      "answer": 0,
+      "rationales": [
+        "neglect: không được lười bỏ cả hai việc, đúng lời cấm chểnh mảng.",
+        "combine: không được phối hợp hai việc ngược yêu cầu vừa tu vừa giáo hóa.",
+        "discuss: không được bàn hai việc là hạn chế lời nói không có.",
+        "distinguish: không phân biệt hai việc khác việc lười không thực hiện."
+      ],
+      "dimension": "không bỏ cả hai"
+    }
+  ]
+},
+{
+  "id": "M270",
+  "sourceBlockId": "W23-B06",
+  "title": "Dùng thời gian cho xứng một đời sống",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Nghiệp duyên cho chúng ta cuộc đời với những tháng ngày rộng dài như thế",
+      "targetVietnamese": "Nghiệp duyên cho chúng ta cuộc đời với những tháng ngày rộng dài như thế",
+      "sentence": "Karmic conditions ___ us a life with this long span of days.",
+      "options": [
+        "grant",
+        "merely predict for",
+        "borrow from",
+        "demand back from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "grant: cho ta đời sống với quỹ thời gian, đúng vai trò được hưởng.",
+        "merely predict for: chỉ báo trước đời sống chưa phải trao những tháng ngày.",
+        "borrow from: mượn thời gian từ ta đảo chiều cho và nhận.",
+        "demand back from: đòi lại thời gian trái ý được cho cơ hội sống."
+      ],
+      "dimension": "được quỹ thời gian"
+    },
+    {
+      "sourceCue": "để ta sử dụng thật đúng.",
+      "targetVietnamese": "để ta sử dụng thật đúng.",
+      "sentence": "We are meant to ___ that time properly.",
+      "options": [
+        "use",
+        "merely measure",
+        "advertise",
+        "take for granted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "use: sử dụng thời gian đúng việc, giữ mục đích của quỹ đời.",
+        "merely measure: chỉ đo số giờ không bảo đảm sống cho đúng.",
+        "advertise: quảng bá mình có thời gian khác việc sử dụng nó.",
+        "take for granted: coi thời gian sẵn có bỏ mất trách nhiệm sống đúng."
+      ],
+      "dimension": "sử dụng chứ không đếm"
+    },
+    {
+      "sourceCue": "Nếu bỏ trống thời gian",
+      "targetVietnamese": "Nếu bỏ trống thời gian",
+      "sentence": "If we ___ our time idle, we incur blame.",
+      "options": [
+        "leave",
+        "merely describe",
+        "remember",
+        "find"
+      ],
+      "answer": 0,
+      "rationales": [
+        "leave: để quỹ thời gian không được dùng, giữ trách nhiệm bỏ trống.",
+        "merely describe: chỉ mô tả thời gian rỗi chưa phải để nó phí trống.",
+        "remember: nhớ thời gian rỗi không tự gây lỗi sử dụng.",
+        "find: tìm được thời gian rỗi không có nghĩa bỏ mặc không dùng."
+      ],
+      "dimension": "để phí thời gian"
+    },
+    {
+      "sourceCue": "phí phạm xé bỏ quần áo lành lặn cho vui.",
+      "targetVietnamese": "phí phạm xé bỏ quần áo lành lặn cho vui.",
+      "sentence": "One comparison is wastefully ___ perfectly good clothes for amusement.",
+      "options": [
+        "tearing up",
+        "wearing out",
+        "mending",
+        "setting aside"
+      ],
+      "answer": 0,
+      "rationales": [
+        "tearing up: cố xé bỏ đồ còn lành để vui, giữ động tác hủy phí.",
+        "wearing out: mặc đến sờn cũ là sử dụng, không phải xé đồ lành cho vui.",
+        "mending: vá sửa quần áo là tiết kiệm, trái sự phá phí.",
+        "setting aside: để riêng quần áo chưa phải hủy chúng như nguồn."
+      ],
+      "dimension": "phá phí đồ lành"
+    },
+    {
+      "sourceCue": "phí phạm thời gian thì sau này chúng ta mắc quả báo là không có thời gian nữa",
+      "targetVietnamese": "phí phạm thời gian thì sau này chúng ta mắc quả báo là không có thời gian nữa",
+      "sentence": "Wasting time will later cause us to ___ the karmic result of having no time left.",
+      "options": [
+        "incur",
+        "merely foresee",
+        "administer",
+        "pardon"
+      ],
+      "answer": 0,
+      "rationales": [
+        "incur: chính mình chịu quả về sau, giữ quan hệ nghiệp quả tác giả nêu.",
+        "merely foresee: chỉ thấy trước quả không nói bản thân phải nhận nó.",
+        "administer: thi hành quả lên người khác đảo chủ thể chịu quả.",
+        "pardon: tha quả cho người khác khác việc mình mắc quả báo."
+      ],
+      "dimension": "tự nhận hệ quả"
+    }
+  ]
+},
+{
+  "id": "M271",
+  "sourceBlockId": "W23-B07",
+  "title": "Từ bi nâng đỡ thiền định",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Chúng ta tu tập từ bi tức là cũng đi trên con đường đến vô ngã",
+      "targetVietnamese": "Chúng ta tu tập từ bi tức là cũng đi trên con đường đến vô ngã",
+      "sentence": "Cultivating compassion also ___ us on the path toward selflessness.",
+      "options": [
+        "sets",
+        "merely describes",
+        "keeps waiting to place",
+        "claims credit for seeing"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sets: đưa mình đi trên hướng vô ngã qua thực hành, đúng cũng đi trên đường.",
+        "merely describes: chỉ mô tả vị trí không thể hiện việc chính mình tu trên đường ấy.",
+        "keeps waiting to place: chỉ để đợi chưa thực sự bắt đầu đi trên đường.",
+        "claims credit for seeing: nhận công vì thấy đường không phải bước theo đường tu."
+      ],
+      "dimension": "đi đường vô ngã"
+    },
+    {
+      "sourceCue": "người tu tập thiền định mà không tu kèm theo từ bi",
+      "targetVietnamese": "người tu tập thiền định mà không tu kèm theo từ bi",
+      "sentence": "A meditator may fail to ___ compassion alongside meditation.",
+      "options": [
+        "cultivate",
+        "define",
+        "publicly commend",
+        "recount stories of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cultivate: không cùng thực hành tâm từ bi, đúng điều kiện thiếu mà nguồn nêu.",
+        "define: không định nghĩa từ bi là thiếu lời giải, không phải thiếu tu.",
+        "publicly commend: không khen từ bi trước công chúng khác không thực hành nó.",
+        "recount stories of: không kể chuyện từ bi không nói nội tâm có tu hay không."
+      ],
+      "dimension": "tu kèm không nói kèm"
+    },
+    {
+      "sourceCue": "thì không có kết quả lớn trong thiền định được.",
+      "targetVietnamese": "thì không có kết quả lớn trong thiền định được.",
+      "sentence": "Without that companion practice, one cannot ___ great results in meditation.",
+      "options": [
+        "achieve",
+        "merely anticipate",
+        "explain",
+        "publicize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "achieve: không đạt kết quả lớn thật, giữ giới hạn mức độ của nguồn.",
+        "merely anticipate: không dự đoán kết quả không phải không đạt nó.",
+        "explain: không giải thích được kết quả khác việc không có thành tựu lớn.",
+        "publicize: không công bố kết quả không phủ định thành tựu thực."
+      ],
+      "dimension": "đạt kết quả lớn"
+    },
+    {
+      "sourceCue": "Tâm từ bi trợ giúp cho thiền tiến nhanh hơn.",
+      "targetVietnamese": "Tâm từ bi trợ giúp cho thiền tiến nhanh hơn.",
+      "sentence": "Compassion ___ progress in meditation.",
+      "options": [
+        "accelerates",
+        "merely accompanies",
+        "substitutes for",
+        "retrospectively certifies"
+      ],
+      "answer": 0,
+      "rationales": [
+        "accelerates: giúp tiến nhanh hơn, giữ hiệu ứng lên tốc độ tiến bộ.",
+        "merely accompanies: chỉ đi cùng làm mất quan hệ trợ giúp tăng tốc.",
+        "substitutes for: thay thế việc thiền không phải làm thiền tiến nhanh.",
+        "retrospectively certifies: xác nhận sau đó chỉ là ghi nhận, không giúp tiến trình."
+      ],
+      "dimension": "tăng tốc tiến bộ"
+    },
+    {
+      "sourceCue": "ai đi tận cùng con đường của từ bi cũng thành tựu giải thoát",
+      "targetVietnamese": "ai đi tận cùng con đường của từ bi cũng thành tựu giải thoát",
+      "sentence": "Anyone who follows compassion to its furthest end will also ___ liberation.",
+      "options": [
+        "attain",
+        "merely commend",
+        "promise to consider",
+        "declare on another's behalf"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attain: thành tựu giải thoát khi đi trọn đường, giữ điều kiện đến tận cùng.",
+        "merely commend: chỉ ca ngợi giải thoát chưa thành tựu nó.",
+        "promise to consider: mới hứa cân nhắc giải thoát không tới mức chứng đạt.",
+        "declare on another's behalf: tuyên thay người khác là lời công bố, không tự thành tựu."
+      ],
+      "dimension": "đi tới tận cùng"
+    }
+  ]
+},
+{
+  "id": "M272",
+  "sourceBlockId": "W23-B08",
+  "title": "Cảm nhận trong lễ Phật và giới hạn của hư vô",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "tất cả vẫn vận hành theo luật Nghiệp báo công bằng.",
+      "targetVietnamese": "tất cả vẫn vận hành theo luật Nghiệp báo công bằng.",
+      "sentence": "Everything still ___ in accordance with the just law of karma.",
+      "options": [
+        "operates",
+        "is merely described",
+        "is postponed",
+        "is exempted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "operates: vẫn thực sự vận hành theo luật, giữ thế đối lập với không có gì.",
+        "is merely described: chỉ được mô tả theo luật không nói luật đang chi phối thật.",
+        "is postponed: bị hoãn theo luật thêm gián đoạn không có trong nguồn.",
+        "is exempted: được miễn theo luật là quan hệ khác, không phải còn vận hành."
+      ],
+      "dimension": "vẫn vận hành"
+    },
+    {
+      "sourceCue": "Phật đã chứng đạt được vô ngã tịch lặng.",
+      "targetVietnamese": "Phật đã chứng đạt được vô ngã tịch lặng.",
+      "sentence": "The Buddha has ___ serene selflessness.",
+      "options": [
+        "realized",
+        "merely conceptualized",
+        "temporarily imitated",
+        "publicly recommended"
+      ],
+      "answer": 0,
+      "rationales": [
+        "realized: đã chứng đạt thật, giữ kết quả giác ngộ của nguồn.",
+        "merely conceptualized: chỉ có khái niệm làm yếu hẳn mức chứng đạt.",
+        "temporarily imitated: bắt chước tạm không phải thành tựu vô ngã.",
+        "publicly recommended: khuyên người khác thực hành không nói chính mình đã chứng."
+      ],
+      "dimension": "chứng đạt"
+    },
+    {
+      "sourceCue": "Nếu chúng ta cũng thâm nhập nghĩa lý vô ngã đó",
+      "targetVietnamese": "Nếu chúng ta cũng thâm nhập nghĩa lý vô ngã đó",
+      "sentence": "If we too ___ the meaning of that selflessness, a wondrous response will manifest.",
+      "options": [
+        "penetrate",
+        "merely recite",
+        "dismiss",
+        "formalize"
+      ],
+      "answer": 0,
+      "rationales": [
+        "penetrate: thâm nhập hiểu sâu nghĩa vô ngã, giữ điều kiện nội tâm.",
+        "merely recite: chỉ đọc thuộc chưa đạt chiều sâu thâm nhập.",
+        "dismiss: gạt bỏ nghĩa vô ngã đảo hướng điều kiện cảm ứng.",
+        "formalize: chính thức hóa bằng thủ tục khác tự hiểu sâu."
+      ],
+      "dimension": "thâm nhập nghĩa lý"
+    },
+    {
+      "sourceCue": "tình thương của Phật đang trùm phủ ôm ấp chúng ta cũng như mọi chúng sinh khác.",
+      "targetVietnamese": "tình thương của Phật đang trùm phủ ôm ấp chúng ta cũng như mọi chúng sinh khác.",
+      "sentence": "The Buddha's love ___ us and all other sentient beings.",
+      "options": [
+        "enfolds",
+        "merely identifies",
+        "judges in isolation",
+        "divides"
+      ],
+      "answer": 0,
+      "rationales": [
+        "enfolds: bao bọc ôm ấp, giữ lực tình thương trùm phủ.",
+        "merely identifies: chỉ nhận diện chúng sinh không nói tình thương nâng đỡ.",
+        "judges in isolation: phán riêng từng người khác tình thương ôm trùm.",
+        "divides: chia chúng sinh ra trái phạm vi thương phủ khắp."
+      ],
+      "dimension": "tình thương ôm phủ"
+    },
+    {
+      "sourceCue": "tự khép cửa tâm hồn lại",
+      "targetVietnamese": "tự khép cửa tâm hồn lại",
+      "sentence": "If we ___ our hearts, we will not feel that love.",
+      "options": [
+        "close",
+        "merely question",
+        "publicly describe",
+        "reassure"
+      ],
+      "answer": 0,
+      "rationales": [
+        "close: tự đóng cửa lòng, giữ nguyên nhân ngăn cảm nhận.",
+        "merely question: chỉ tự hỏi về lòng mình không đồng nghĩa khép kín.",
+        "publicly describe: công bố nội tâm là mở ra, khác hành động đóng cửa lòng.",
+        "reassure: trấn an lòng mình không phải từ chối đón nhận."
+      ],
+      "dimension": "tự khép lòng"
+    }
+  ]
+},
+{
+  "id": "M273",
+  "sourceBlockId": "W23-B09",
+  "title": "Vua Seti: câu chuyện về một cuộc tìm kiếm",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:0916"
+    ],
+    "paragraphs": [
+      "Trong cuốn “Mối tình bất diệt của vua Seti” kể lại câu chuyện của một ông vua Ai cập dan díu với một nữ tu sĩ. Để bảo vệ cho vua, khi bị các trưởng lão tra vấn, người nữ tu này đã tự tử. Sau này nhà vua biết chuyện nên vô cùng cảm thương. Đến khi chết, linh hồn ông mải miết đi tìm người con gái đó. Ông lang thang đi từ cõi này sang cõi khác suốt gần ba ngàn năm như vậy."
+    ],
+    "sha256": "bb7f91479fcc272f5805ea93b3370cb6acc53b5609b5b6c77f0df065f465c3f4",
+    "excerpted": true
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "một ông vua Ai cập dan díu với một nữ tu sĩ.",
+      "targetVietnamese": "một ông vua Ai cập dan díu với một nữ tu sĩ.",
+      "sentence": "The story concerns an Egyptian king who ___ a priestess.",
+      "options": [
+        "had an affair with",
+        "married",
+        "ministered to",
+        "was formally betrothed to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "had an affair with: có quan hệ tình ái ngoài khuôn phép, giữ sắc thái dan díu.",
+        "married: kết hôn chính thức xóa sự khác biệt của quan hệ được kể.",
+        "ministered to: chăm lo tinh thần cho nữ tu khác quan hệ tình ái.",
+        "was formally betrothed to: được đính hôn chính thức thêm sự công nhận không có trong nguồn."
+      ],
+      "dimension": "quan hệ tình ái"
+    },
+    {
+      "sourceCue": "Để bảo vệ cho vua",
+      "targetVietnamese": "Để bảo vệ cho vua",
+      "sentence": "The woman acted to ___ the king.",
+      "options": [
+        "protect",
+        "represent",
+        "outshine",
+        "formally acquit"
+      ],
+      "answer": 0,
+      "rationales": [
+        "protect: bảo vệ vua khỏi hệ lụy, đúng mục đích hành động.",
+        "represent: đại diện vua thêm vai phát ngôn không có trong câu.",
+        "outshine: lấn át vẻ nổi bật của vua trái mục đích bảo vệ.",
+        "formally acquit: chính thức tuyên vua vô tội thêm quyền tư pháp ngoài nguồn."
+      ],
+      "dimension": "bảo vệ người khác"
+    },
+    {
+      "sourceCue": "khi bị các trưởng lão tra vấn",
+      "targetVietnamese": "khi bị các trưởng lão tra vấn",
+      "sentence": "She was ___ by the elders.",
+      "options": [
+        "interrogated",
+        "indicted",
+        "sentenced",
+        "acquitted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "interrogated: bị hỏi dồn tra xét, giữ giai đoạn lấy lời khai.",
+        "indicted: bị truy tố là bước buộc tội chính thức khác tra vấn.",
+        "sentenced: bị kết án đi xa hơn giai đoạn hỏi xét nguồn nêu.",
+        "acquitted: được trắng án là kết quả ngược việc bị tra hỏi."
+      ],
+      "dimension": "tra vấn và kết án"
+    },
+    {
+      "sourceCue": "Sau này nhà vua biết chuyện nên vô cùng cảm thương.",
+      "targetVietnamese": "Sau này nhà vua biết chuyện nên vô cùng cảm thương.",
+      "sentence": "When the king later learned what had happened, he ___ for her.",
+      "options": [
+        "felt deep compassion",
+        "felt personal remorse",
+        "expressed formal gratitude",
+        "felt bitter resentment"
+      ],
+      "answer": 0,
+      "rationales": [
+        "felt deep compassion: cảm thương sâu sắc thân phận cô, đúng phản ứng kể lại.",
+        "felt personal remorse: ân hận về lỗi của mình thêm nhận lỗi không được nguồn khẳng định.",
+        "expressed formal gratitude: cảm ơn theo nghi thức không giữ nỗi cảm thương.",
+        "felt bitter resentment: oán giận cô đổi hướng tình cảm thành trách móc."
+      ],
+      "dimension": "cảm thương không suy diễn"
+    },
+    {
+      "sourceCue": "Ông lang thang đi từ cõi này sang cõi khác suốt gần ba ngàn năm như vậy.",
+      "targetVietnamese": "Ông lang thang đi từ cõi này sang cõi khác suốt gần ba ngàn năm như vậy.",
+      "sentence": "In the story, he ___ from realm to realm for almost three thousand years.",
+      "options": [
+        "wandered",
+        "commuted",
+        "patrolled",
+        "was reassigned"
+      ],
+      "answer": 0,
+      "rationales": [
+        "wandered: lang thang qua nhiều cõi đi tìm, giữ hành trình dài không nơi dừng.",
+        "commuted: đi lại tuyến cố định vì công việc, khác lang thang tìm người.",
+        "patrolled: tuần tra theo nhiệm vụ, thêm mục đích ngoài câu chuyện.",
+        "was reassigned: được điều chuyển công tác thêm người sắp đặt không có."
+      ],
+      "dimension": "lang thang đi tìm"
+    }
+  ]
+}
+,
+{
+  "id": "M274",
+  "sourceBlockId": "W23-B10",
+  "title": "Câu chuyện minh họa về lòng nhận khổ thay",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Có câu chuyện tiền thân đức Phật làm minh họa cho đạo lý này",
+      "targetVietnamese": "Có câu chuyện tiền thân đức Phật làm minh họa cho đạo lý này",
+      "sentence": "A story of the Buddha's past life ___ this principle.",
+      "options": [
+        "illustrates",
+        "scientifically verifies",
+        "legally establishes",
+        "retracts"
+      ],
+      "answer": 0,
+      "rationales": [
+        "illustrates: dùng chuyện để minh họa đạo lý, giữ đúng chức năng dẫn chứng.",
+        "scientifically verifies: xác minh khoa học thêm chuẩn chứng cứ nguồn không đưa ra.",
+        "legally establishes: xác lập theo pháp luật thêm thẩm quyền ngoài câu chuyện.",
+        "retracts: rút lại đạo lý đảo hướng minh họa nó."
+      ],
+      "dimension": "minh họa không xác minh"
+    },
+    {
+      "sourceCue": "chúng ta cứ để ý khía cạnh đạo lý.",
+      "targetVietnamese": "chúng ta cứ để ý khía cạnh đạo lý.",
+      "sentence": "Regardless of belief in the story, we should ___ its moral dimension.",
+      "options": [
+        "attend to",
+        "formally certify",
+        "silence",
+        "take ownership of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "attend to: chú ý phần đạo lý của chuyện, đúng hướng đọc được tác giả nhắc.",
+        "formally certify: chứng nhận chính thức đạo lý thêm thủ tục ngoài nguồn.",
+        "silence: bịt đi phần đạo lý trái việc tập trung chú ý.",
+        "take ownership of: nhận đạo lý làm sở hữu riêng khác cách đọc chú tâm."
+      ],
+      "dimension": "đọc vào đạo lý"
+    },
+    {
+      "sourceCue": "Ngài phải chịu nhiều cực hình đau đớn giống như các tội nhân khác.",
+      "targetVietnamese": "Ngài phải chịu nhiều cực hình đau đớn giống như các tội nhân khác.",
+      "sentence": "In the story, he had to ___ painful tortures like the other prisoners.",
+      "options": [
+        "endure",
+        "administer",
+        "prescribe",
+        "commute"
+      ],
+      "answer": 0,
+      "rationales": [
+        "endure: chính mình chịu các cực hình, đúng vai người ở địa ngục.",
+        "administer: thi hành tra tấn lên người khác, đảo người chịu và người gây.",
+        "prescribe: quy định các cực hình thêm quyền ban lệnh ngoài nguồn.",
+        "commute: giảm cực hình cho người khác không phải chịu đau."
+      ],
+      "dimension": "chịu cực hình"
+    },
+    {
+      "sourceCue": "Ngài chợt động tâm thương xót",
+      "targetVietnamese": "Ngài chợt động tâm thương xót",
+      "sentence": "On seeing their suffering, he suddenly ___ compassion.",
+      "options": [
+        "was moved to",
+        "merely defined",
+        "withheld",
+        "claimed credit for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "was moved to: lòng chợt lay động thương xót, giữ tính đột khởi cảm xúc.",
+        "merely defined: chỉ định nghĩa từ bi không có sự xúc động nơi tâm.",
+        "withheld: giữ lại không thương ngược việc động tâm.",
+        "claimed credit for: nhận công thương xót thêm ý tự kể công nguồn không có."
+      ],
+      "dimension": "động lòng thương"
+    },
+    {
+      "sourceCue": "xin được gánh hết sự trừng phạt của mọi người trong địa ngục này.",
+      "targetVietnamese": "xin được gánh hết sự trừng phạt của mọi người trong địa ngục này.",
+      "sentence": "He vowed to ___ all the punishments of everyone in that hell.",
+      "options": [
+        "take upon himself",
+        "merely witness",
+        "pass judgment on",
+        "seek a record of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "take upon himself: xin chính mình gánh toàn bộ thay mọi người, giữ lực hết và mọi người.",
+        "merely witness: chỉ chứng kiến không nhận chịu thay, làm yếu đại nguyện.",
+        "pass judgment on: phán xét hình phạt đổi vai thương chịu thành người xét xử.",
+        "seek a record of: xin hồ sơ hình phạt không diễn đạt nhận đau giùm."
+      ],
+      "dimension": "nhận khổ thay"
+    }
+  ]
+},
+{
+  "id": "M275",
+  "sourceBlockId": "W23-B11",
+  "title": "Ba tâm hạnh làm nền tu tập",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:1107",
+      "docx:p:1109",
+      "docx:p:1111",
+      "docx:p:1113",
+      "docx:p:1115",
+      "docx:p:1117"
+    ],
+    "paragraphs": [
+      "Trên con đường tu tập Phật Pháp, để đạt thành vô lượng công hạnh, vô lượng công đức, chúng ta phải huân tập 3 tâm hạnh căn bản quan trọng nhất. Từ 3 tâm hạnh này, vô số pháp lành khác mới có thể xuất hiện tiếp theo được. 3 tâm hạnh đó là:",
+      "- Thứ nhất là lòng tôn kính Phật",
+      "- Thứ hai là lòng từ bi",
+      "- Thứ ba là tâm khiêm hạ.",
+      "Ba tâm hạnh này giống như 3 chân kiềng của một cái vạc, cái đỉnh mà trên đó ta sẽ có thể đặt tiếp theo vô số những báu vật khác của tiến trình tu tập.",
+      "Vô số công hạnh khác như Nhẫn nhục, Vi tha, Trầm tĩnh, Bình đẳng, Hoan hỷ vân vân… đều chỉ có thể thành tựu tốt đẹp trên nền tảng của 3 tâm hạnh đó mà thôi."
+    ],
+    "sha256": "0f5ca4429b5ce0e5cec49a80b1aeb8aa2255d00f8dd87226ff7a986003206ac8"
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "chúng ta phải huân tập 3 tâm hạnh căn bản quan trọng nhất.",
+      "targetVietnamese": "chúng ta phải huân tập 3 tâm hạnh căn bản quan trọng nhất.",
+      "sentence": "We must ___ the three most important foundational qualities of mind.",
+      "options": [
+        "cultivate",
+        "merely enumerate",
+        "certify in others",
+        "presume we possess"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cultivate: huân tập cho ba tâm hạnh thành nơi mình, đúng yêu cầu thực hành.",
+        "merely enumerate: chỉ kể tên ba tâm hạnh chưa làm chúng tăng trưởng.",
+        "certify in others: chứng nhận nơi người khác không phải tự huân tập.",
+        "presume we possess: tự cho sẵn có ba tâm hạnh bỏ bước thực hành."
+      ],
+      "dimension": "huân tập nền tảng"
+    },
+    {
+      "sourceCue": "vô số pháp lành khác mới có thể xuất hiện tiếp theo được.",
+      "targetVietnamese": "vô số pháp lành khác mới có thể xuất hiện tiếp theo được.",
+      "sentence": "Only from these three can countless other wholesome qualities subsequently ___ .",
+      "options": [
+        "emerge",
+        "be formally assigned",
+        "be merely named",
+        "be concealed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "emerge: có thể xuất hiện về sau trên nền ba tâm hạnh, đúng điều kiện.",
+        "be formally assigned: được phân cho bằng quyền hạn không phải nội tâm sinh trưởng.",
+        "be merely named: chỉ được đặt tên không tạo phẩm chất thật.",
+        "be concealed: được che giấu là ngược hướng xuất hiện."
+      ],
+      "dimension": "pháp lành nảy sinh"
+    },
+    {
+      "sourceCue": "Ba tâm hạnh này giống như 3 chân kiềng của một cái vạc",
+      "targetVietnamese": "Ba tâm hạnh này giống như 3 chân kiềng của một cái vạc",
+      "sentence": "These three qualities ___ the three legs supporting a cauldron.",
+      "options": [
+        "resemble",
+        "replace",
+        "conceal",
+        "outweigh"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resemble: được ví như ba chân nâng đỡ, giữ tính so sánh của hình ảnh.",
+        "replace: thay vật lý ba chân biến phép ví thành việc thay thế.",
+        "conceal: che ba chân không diễn đạt vai trò tương đồng.",
+        "outweigh: nặng hơn ba chân là so lượng, không phải vai trò nền tảng."
+      ],
+      "dimension": "ẩn dụ nền đỡ"
+    },
+    {
+      "sourceCue": "ta sẽ có thể đặt tiếp theo vô số những báu vật khác của tiến trình tu tập.",
+      "targetVietnamese": "ta sẽ có thể đặt tiếp theo vô số những báu vật khác của tiến trình tu tập.",
+      "sentence": "On this foundation we can ___ countless further treasures of practice.",
+      "options": [
+        "place",
+        "merely forecast",
+        "take for granted",
+        "give away before acquiring"
+      ],
+      "answer": 0,
+      "rationales": [
+        "place: tiếp tục đặt thêm báu vật trên nền vững, giữ hình ảnh tích lũy.",
+        "merely forecast: chỉ dự đoán báu vật không phải xây thêm trên nền.",
+        "take for granted: mặc nhiên cho đã có bỏ tiến trình vun bồi tiếp theo.",
+        "give away before acquiring: cho đi trước khi có thêm trình tự nguồn không nói."
+      ],
+      "dimension": "xây thêm trên nền"
+    },
+    {
+      "sourceCue": "đều chỉ có thể thành tựu tốt đẹp trên nền tảng của 3 tâm hạnh đó mà thôi.",
+      "targetVietnamese": "đều chỉ có thể thành tựu tốt đẹp trên nền tảng của 3 tâm hạnh đó mà thôi.",
+      "sentence": "Other virtues can ___ well only on the foundation of these three qualities.",
+      "options": [
+        "come to fruition",
+        "be advertised",
+        "be reclassified",
+        "be publicly debated"
+      ],
+      "answer": 0,
+      "rationales": [
+        "come to fruition: thành tựu thật trên nền ấy, giữ điều kiện chỉ có thể.",
+        "be advertised: được quảng bá tốt không phải đức hạnh thành tựu.",
+        "be reclassified: được xếp loại lại không tạo kết quả tu dưỡng.",
+        "be publicly debated: được tranh luận công khai khác đạt phẩm chất tốt."
+      ],
+      "dimension": "điều kiện thành tựu"
+    }
+  ]
+},
+{
+  "id": "M276",
+  "sourceBlockId": "W23-B12",
+  "title": "Vùng trũng khiêm hạ và núi đá kiêu mạn",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Tâm khiêm hạ giống như cái trũng sâu",
+      "targetVietnamese": "Tâm khiêm hạ giống như cái trũng sâu",
+      "sentence": "Humility ___ a deep hollow.",
+      "options": [
+        "resembles",
+        "excavates",
+        "obscures",
+        "surveys"
+      ],
+      "answer": 0,
+      "rationales": [
+        "resembles: ví tâm khiêm với vùng trũng, giữ phép so sánh của nguồn.",
+        "excavates: đào một vùng trũng biến phẩm chất thành tác động vật lý.",
+        "obscures: che khuất vùng trũng không diễn đạt sự tương đồng.",
+        "surveys: khảo sát vùng trũng là quan sát, không phải được ví như nó."
+      ],
+      "dimension": "so sánh"
+    },
+    {
+      "sourceCue": "khiến cho bao nhiêu nước đổ dồn về.",
+      "targetVietnamese": "khiến cho bao nhiêu nước đổ dồn về.",
+      "sentence": "The hollow ___ water toward it.",
+      "options": [
+        "draws",
+        "merely reflects",
+        "stores for sale",
+        "divides"
+      ],
+      "answer": 0,
+      "rationales": [
+        "draws: kéo dòng nước đổ về chỗ thấp, giữ hướng tụ của ẩn dụ.",
+        "merely reflects: chỉ phản chiếu nước là ảnh, không phải nước thật đổ về.",
+        "stores for sale: giữ nước bán thêm động cơ giao dịch ngoài ví dụ.",
+        "divides: chia nước ra làm mất hướng đổ dồn chung về."
+      ],
+      "dimension": "thu hút về"
+    },
+    {
+      "sourceCue": "Người khiêm hạ sẽ từ từ lấy được vô số đức tính tốt trong thiên hạ.",
+      "targetVietnamese": "Người khiêm hạ sẽ từ từ lấy được vô số đức tính tốt trong thiên hạ.",
+      "sentence": "Humble people gradually ___ countless good qualities from others.",
+      "options": [
+        "acquire",
+        "merely praise",
+        "claim to have invented",
+        "publicly certify"
+      ],
+      "answer": 0,
+      "rationales": [
+        "acquire: tiếp thu dần phẩm chất tốt về mình, giữ quá trình tích lũy.",
+        "merely praise: chỉ khen đức tính chưa làm chúng thành nơi mình.",
+        "claim to have invented: nhận mình phát minh phẩm chất trái ý học từ thiên hạ.",
+        "publicly certify: cấp chứng nhận đức tính không phải bản thân có thêm."
+      ],
+      "dimension": "tiếp thu phẩm chất"
+    },
+    {
+      "sourceCue": "những ưu điểm của mọi người tìm về đọng lại.",
+      "targetVietnamese": "những ưu điểm của mọi người tìm về đọng lại.",
+      "sentence": "Others' strengths ___ and remain with us when we lower ourselves.",
+      "options": [
+        "flow toward us",
+        "are erased",
+        "are appropriated by force",
+        "are merely advertised"
+      ],
+      "answer": 0,
+      "rationales": [
+        "flow toward us: tìm về rồi lắng lại, giữ hình ảnh nước tụ vào vùng thấp.",
+        "are erased: bị xóa mất là hướng ngược sự tiếp nhận ưu điểm.",
+        "are appropriated by force: bị cưỡng chiếm thêm tranh giành trái nét khiêm hạ.",
+        "are merely advertised: chỉ được quảng bá chưa trở thành ưu điểm nơi ta."
+      ],
+      "dimension": "ưu điểm tụ lại"
+    },
+    {
+      "sourceCue": "các ưu điểm từ từ chảy đi mất cả.",
+      "targetVietnamese": "các ưu điểm từ từ chảy đi mất cả.",
+      "sentence": "If we stand proudly like a rocky peak, good qualities gradually ___ .",
+      "options": [
+        "drain away",
+        "merely become less visible",
+        "are reassigned",
+        "are deliberately donated"
+      ],
+      "answer": 0,
+      "rationales": [
+        "drain away: chảy mất dần khỏi mình, giữ cả quá trình và sự mất thật.",
+        "merely become less visible: chỉ khó thấy hơn vẫn có thể giữ nguyên phẩm chất.",
+        "are reassigned: được điều chuyển bằng quyết định thêm tác nhân ngoài ẩn dụ.",
+        "are deliberately donated: được chủ động tặng đi khác mất vì kiêu mạn."
+      ],
+      "dimension": "hao mất vì kiêu mạn"
+    }
+  ]
+},
+{
+  "id": "M277",
+  "sourceBlockId": "W24-B01",
+  "title": "Tái hiện người xưa cần hiểu họ biết gì",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:1152",
+      "docx:p:1154"
+    ],
+    "paragraphs": [
+      "Ví dụ như vua Lý Thái Tổ khai sinh triều đại nhà Lý là người văn võ song toàn, tài đức kiêm tu. Vua thông thạo binh thư đồ trận, võ học, toán số, tướng số, y lý, văn chương. Vua có thể phi thân qua mái nhà bình thường.",
+      "Muốn hiểu được những nhân vật phi thường trong lịch sử, các nhà sử học phải cực kỳ thông minh, hoặc phải có nhiều khả năng gần giống như vậy. Tiếc thay, các nhà sử học khi tái hiện hình ảnh của các vĩ nhân thường không hiểu đầy đủ như thế, chỉ bởi vì họ không hề biết các môn học mà người xưa đã am tường giỏi giắn, họ chỉ sở trường về văn chương viết lách mà thôi."
+    ],
+    "sha256": "a90aa6b897a9426a1c5cf41a168a4eb18d7bc4c24c55c3ddb68021328ee13b5d",
+    "excerpted": true
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Muốn hiểu được những nhân vật phi thường trong lịch sử",
+      "targetVietnamese": "Muốn hiểu được những nhân vật phi thường trong lịch sử",
+      "sentence": "Historians seeking to ___ extraordinary figures of the past need exceptional intelligence.",
+      "options": [
+        "understand",
+        "formally appoint",
+        "merely commemorate",
+        "imitate physically"
+      ],
+      "answer": 0,
+      "rationales": [
+        "understand: hiểu con người và năng lực họ, đúng mục đích nghiên cứu.",
+        "formally appoint: bổ nhiệm người xưa là sai vai trò nhà sử học.",
+        "merely commemorate: chỉ tưởng niệm không đạt mục tiêu hiểu thấu nhân vật.",
+        "imitate physically: bắt chước dáng vẻ không phải hiểu năng lực bên trong."
+      ],
+      "dimension": "hiểu nhân vật"
+    },
+    {
+      "sourceCue": "các nhà sử học khi tái hiện hình ảnh của các vĩ nhân",
+      "targetVietnamese": "các nhà sử học khi tái hiện hình ảnh của các vĩ nhân",
+      "sentence": "When historians ___ great historical figures, their understanding is often incomplete.",
+      "options": [
+        "portray",
+        "resurrect literally",
+        "appoint",
+        "exonerate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "portray: tái hiện hình ảnh qua viết sử, đúng công việc trình bày nhân vật.",
+        "resurrect literally: làm sống lại theo nghĩa đen biến văn viết thành quyền năng.",
+        "appoint: bổ nhiệm chức vị không phải dựng lại hình ảnh lịch sử.",
+        "exonerate: minh oan cho nhân vật thêm loại mục tiêu không được nêu."
+      ],
+      "dimension": "tái hiện bằng sử"
+    },
+    {
+      "sourceCue": "họ không hề biết các môn học",
+      "targetVietnamese": "họ không hề biết các môn học",
+      "sentence": "They ___ the disciplines mastered by those historical figures.",
+      "options": [
+        "have no knowledge of",
+        "merely disagree with",
+        "specialize exclusively in",
+        "have formally certified"
+      ],
+      "answer": 0,
+      "rationales": [
+        "have no knowledge of: không biết các ngành ấy, giữ mức thiếu nền tri thức.",
+        "merely disagree with: chỉ không đồng ý vẫn có thể hiểu rất sâu, không phải không biết.",
+        "specialize exclusively in: chuyên sâu các ngành ấy đảo ngược hạn chế tác giả nêu.",
+        "have formally certified: đã chứng nhận các ngành thêm thẩm quyền không có trong nguồn."
+      ],
+      "dimension": "thiếu tri thức nền"
+    },
+    {
+      "sourceCue": "người xưa đã am tường giỏi giắn",
+      "targetVietnamese": "người xưa đã am tường giỏi giắn",
+      "sentence": "The people of the past had ___ those disciplines.",
+      "options": [
+        "mastered",
+        "merely heard of",
+        "legislated",
+        "delegated"
+      ],
+      "answer": 0,
+      "rationales": [
+        "mastered: am tường và thành thạo, giữ chiều sâu kiến thức cùng năng lực.",
+        "merely heard of: mới nghe qua thấp hơn rất nhiều so với giỏi giắn am tường.",
+        "legislated: ban luật cho các môn học không phải học hiểu và giỏi chúng.",
+        "delegated: giao các môn cho người khác không chứng tỏ bản thân thành thạo."
+      ],
+      "dimension": "am tường"
+    },
+    {
+      "sourceCue": "họ chỉ sở trường về văn chương viết lách mà thôi.",
+      "targetVietnamese": "họ chỉ sở trường về văn chương viết lách mà thôi.",
+      "sentence": "Those historians ___ literary composition alone.",
+      "options": [
+        "excel at",
+        "merely recommend",
+        "are barred from",
+        "take no interest in"
+      ],
+      "answer": 0,
+      "rationales": [
+        "excel at: có sở trường ở văn chương, giữ cả giới hạn chỉ ở đó.",
+        "merely recommend: chỉ khuyên viết văn chưa nói năng lực sở trường.",
+        "are barred from: bị cấm viết là ngược năng lực mà nguồn công nhận.",
+        "take no interest in: không quan tâm viết trái sở trường văn chương được nêu."
+      ],
+      "dimension": "sở trường và giới hạn"
+    }
+  ]
+},
+{
+  "id": "M278",
+  "sourceBlockId": "W24-B02",
+  "title": "Đừng lầm trạng thái định với vô ngã",
+  "sourceOverride": {
+    "id": "S13",
+    "title": "Bài Giảng Tâm Lý Đạo Đức",
+    "locators": [
+      "docx:p:1257",
+      "docx:p:1259"
+    ],
+    "paragraphs": [
+      "Tuy nhiên vô ngã không đơn giản chút nào. Có người tu tập thiền định đắc được sơ thiền, thấy tâm mình rỗng rang như là không còn gì trong đó nữa, thấy tâm mình như hố thẳm không đáy, có cảm giác như mình buông tay không còn nắm giữ điều gì, nên nghĩ mình đã chứng vô ngã. Thật sự lúc đó bản ngã vẫn còn rất lớn. Rồi đến như nhị thiền tắt sạch vọng niệm, tâm như trời đất bao la khiến hành giả không còn nghi ngờ rằng mình đã chứng rất cao. Đâu ngờ rằng bản ngã vẫn mỉm cười ngạo nghễ.",
+      "Chúng ta phải hiểu rằng vô ngã tức là trở thành toàn thể vũ trụ.Ý nghĩa này rất lớn. Vì vậy đừng bao giờ xem thường sự tồn tại nguy hiểm của bản ngã, cũng như đừng bao giờ xem thường giá trị siêu việt của vô ngã."
+    ],
+    "sha256": "036899e0e430ea132cadac16e1995cc4035ad9090e8662e182ddb051e3522035"
+  },
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "nên nghĩ mình đã chứng vô ngã.",
+      "targetVietnamese": "nên nghĩ mình đã chứng vô ngã.",
+      "sentence": "Experiencing this openness, a meditator may ___ they have attained selflessness.",
+      "options": [
+        "think",
+        "prove conclusively",
+        "be formally certified as having",
+        "be guaranteed that"
+      ],
+      "answer": 0,
+      "rationales": [
+        "think: nghĩ mình đã chứng, giữ tính nhận định chủ quan bị đoạn cảnh báo.",
+        "prove conclusively: chứng minh chắc đã đạt trái việc bản ngã còn lớn.",
+        "be formally certified as having: được chứng nhận chính thức thêm thủ tục không có trong nguồn.",
+        "be guaranteed that: được bảo đảm đã chứng biến suy nghĩ lầm thành xác nhận thật."
+      ],
+      "dimension": "nghĩ đã chứng"
+    },
+    {
+      "sourceCue": "Thật sự lúc đó bản ngã vẫn còn rất lớn.",
+      "targetVietnamese": "Thật sự lúc đó bản ngã vẫn còn rất lớn.",
+      "sentence": "In reality, the ego still ___ very large at that point.",
+      "options": [
+        "remains",
+        "appears only",
+        "is declared",
+        "is mistaken for something"
+      ],
+      "answer": 0,
+      "rationales": [
+        "remains: vẫn thực sự còn lớn, giữ sự đối lập với cảm giác vô ngã.",
+        "appears only: chỉ trông có vẻ lớn làm yếu điều nguồn nói thật sự.",
+        "is declared: được ai tuyên là lớn đổi trạng thái thành lời công bố.",
+        "is mistaken for something: bị nhầm là một thứ lớn gán sai nhận định cho tác giả."
+      ],
+      "dimension": "thực tại và cảm giác"
+    },
+    {
+      "sourceCue": "nhị thiền tắt sạch vọng niệm",
+      "targetVietnamese": "nhị thiền tắt sạch vọng niệm",
+      "sentence": "In Second Jhāna, wandering thoughts ___ completely.",
+      "options": [
+        "cease",
+        "are merely ignored",
+        "are publicly discussed",
+        "are reinterpreted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cease: vọng niệm tắt hẳn trong trạng thái ấy, giữ lực tắt sạch.",
+        "are merely ignored: chỉ bị bỏ qua vẫn có thể đang hoạt động trong tâm.",
+        "are publicly discussed: được đem bàn không nói chúng chấm dứt.",
+        "are reinterpreted: được diễn nghĩa lại không làm chúng biến mất."
+      ],
+      "dimension": "chấm dứt vọng niệm"
+    },
+    {
+      "sourceCue": "vô ngã tức là trở thành toàn thể vũ trụ.",
+      "targetVietnamese": "vô ngã tức là trở thành toàn thể vũ trụ.",
+      "sentence": "In this account, selflessness means ___ the whole universe.",
+      "options": [
+        "becoming",
+        "merely observing",
+        "claiming ownership of",
+        "physically travelling through"
+      ],
+      "answer": 0,
+      "rationales": [
+        "becoming: giữ trực tiếp trở thành như tác giả giải nghĩa, không sửa luận giải.",
+        "merely observing: chỉ quan sát vũ trụ không giữ lực trở thành toàn thể.",
+        "claiming ownership of: chiếm hữu vũ trụ đảo vô ngã thành quyền sở hữu.",
+        "physically travelling through: du hành vật lý qua vũ trụ thêm cách hiểu không có trong câu."
+      ],
+      "dimension": "giữ định nghĩa tác giả"
+    },
+    {
+      "sourceCue": "đừng bao giờ xem thường sự tồn tại nguy hiểm của bản ngã",
+      "targetVietnamese": "đừng bao giờ xem thường sự tồn tại nguy hiểm của bản ngã",
+      "sentence": "Never ___ the danger posed by the ego's continued existence.",
+      "options": [
+        "underestimate",
+        "merely describe",
+        "publicize",
+        "exaggerate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "underestimate: đừng đánh giá nhẹ mối nguy còn hiện hữu, đúng xem thường.",
+        "merely describe: đừng chỉ mô tả là một hạn chế lời nói khác.",
+        "publicize: đừng công khai nguy hiểm không phải đánh giá nhẹ nó.",
+        "exaggerate: đừng phóng đại nguy hiểm có hướng khuyên ngược câu nguồn."
+      ],
+      "dimension": "không coi nhẹ nguy cơ"
+    }
+  ]
+},
+{
+  "id": "M279",
+  "sourceBlockId": "W24-B03",
+  "title": "Chọn thầy và pháp môn qua phẩm chất",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "tự thoát ra khỏi tư tưởng độc tôn",
+      "targetVietnamese": "tự thoát ra khỏi tư tưởng độc tôn",
+      "sentence": "We must ___ the mindset of exclusive supremacy.",
+      "options": [
+        "free ourselves from",
+        "merely give a name to",
+        "seek recognition for",
+        "claim authority over"
+      ],
+      "answer": 0,
+      "rationales": [
+        "free ourselves from: chính mình ra khỏi tư tưởng độc tôn, đúng yêu cầu tự thoát.",
+        "merely give a name to: chỉ đặt tên tư tưởng chưa vượt khỏi nó.",
+        "seek recognition for: tìm công nhận cho độc tôn là củng cố điều cần thoát.",
+        "claim authority over: đòi quyền kiểm soát tư tưởng không phải buông sự độc tôn."
+      ],
+      "dimension": "thoát độc tôn"
+    },
+    {
+      "sourceCue": "đã tàn phá tâm hồn chúng ta",
+      "targetVietnamese": "đã tàn phá tâm hồn chúng ta",
+      "sentence": "That mindset has ___ our inner lives.",
+      "options": [
+        "ravaged",
+        "merely unsettled",
+        "publicly exposed",
+        "systematically described"
+      ],
+      "answer": 0,
+      "rationales": [
+        "ravaged: gây tàn phá sâu, giữ lực mạnh của tàn phá.",
+        "merely unsettled: chỉ gây hơi bất an làm nhẹ mức thiệt hại.",
+        "publicly exposed: phơi nội tâm ra công khai khác làm nó hư hại.",
+        "systematically described: mô tả nội tâm không phải phá hủy nó."
+      ],
+      "dimension": "mức độ tàn phá"
+    },
+    {
+      "sourceCue": "chúng ta nên tìm hiểu đường lối đó có giúp chúng ta khiêm hạ hay không",
+      "targetVietnamese": "chúng ta nên tìm hiểu đường lối đó có giúp chúng ta khiêm hạ hay không",
+      "sentence": "We should ___ whether that approach helps us become humble.",
+      "options": [
+        "investigate",
+        "merely assume",
+        "decree",
+        "announce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "investigate: tìm hiểu xem có giúp khiêm hạ thật không, giữ thái độ kiểm tra mở.",
+        "merely assume: mặc cho là có không làm việc tìm hiểu.",
+        "decree: ra lệnh rằng nó giúp là áp đặt kết luận.",
+        "announce: công bố kết luận chưa có quá trình xem xét."
+      ],
+      "dimension": "tìm hiểu trước theo"
+    },
+    {
+      "sourceCue": "bất động trước nghịch cảnh, nhưng lại biết bi mẫn trước nỗi khổ của chúng sinh",
+      "targetVietnamese": "bất động trước nghịch cảnh, nhưng lại biết bi mẫn trước nỗi khổ của chúng sinh",
+      "sentence": "A sound teacher helps us ___ adversity while remaining compassionate toward suffering beings.",
+      "options": [
+        "remain unshaken by",
+        "become indifferent to all",
+        "seek exemption from",
+        "deny the existence of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "remain unshaken by: vững trước nghịch cảnh nhưng không chai trước nỗi khổ, giữ đối lập.",
+        "become indifferent to all: thờ ơ tất cả làm mất mặt bi mẫn rất quan trọng.",
+        "seek exemption from: xin miễn gặp khó không phải đứng vững trước khó.",
+        "deny the existence of: phủ nhận nghịch cảnh không giữ sự đối diện vững vàng."
+      ],
+      "dimension": "bất động không vô cảm"
+    },
+    {
+      "sourceCue": "dè dặt không dám chê bai ai",
+      "targetVietnamese": "dè dặt không dám chê bai ai",
+      "sentence": "A genuine teacher ___ disparaging others.",
+      "options": [
+        "is cautious about",
+        "merely postpones publicly",
+        "takes pride in",
+        "is officially prohibited from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "is cautious about: dè dặt trước việc chê người, giữ thái độ tự thân thận trọng.",
+        "merely postpones publicly: chỉ hoãn chê công khai vẫn có thể chê riêng, không đúng phạm vi.",
+        "takes pride in: tự hào việc chê là hướng trái dè dặt.",
+        "is officially prohibited from: bị lệnh cấm chê thêm áp lực bên ngoài, không phải phẩm chất tự thân."
+      ],
+      "dimension": "dè dặt phê bình"
+    }
+  ]
+}
+,
+{
+  "id": "M280",
+  "sourceBlockId": "W24-B04",
+  "title": "Khắc phục lỗi và sự hưng thịnh của Phật pháp",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "phải thừa nhận một điều là trên bước đường tu hành, chúng ta vẫn còn phạm lỗi lầm",
+      "targetVietnamese": "phải thừa nhận một điều là trên bước đường tu hành, chúng ta vẫn còn phạm lỗi lầm",
+      "sentence": "We must ___ that we still make mistakes along the path of practice.",
+      "options": [
+        "acknowledge",
+        "merely suspect",
+        "formally decree",
+        "deny"
+      ],
+      "answer": 0,
+      "rationales": [
+        "acknowledge: thành thật thừa nhận lỗi còn có, đúng thái độ nguồn đòi hỏi.",
+        "merely suspect: chỉ nghi có lỗi nhẹ hơn lời phải thừa nhận thực tế.",
+        "formally decree: ban quyết định rằng có lỗi không phải tự nhận thấy và chấp nhận.",
+        "deny: phủ nhận lỗi đối lập thẳng với yêu cầu thừa nhận."
+      ],
+      "dimension": "thừa nhận lỗi còn có"
+    },
+    {
+      "sourceCue": "điều quan trọng là chúng ta biết sửa chữa và vượt qua.",
+      "targetVietnamese": "điều quan trọng là chúng ta biết sửa chữa và vượt qua.",
+      "sentence": "What matters is that we ___ our mistakes and move beyond them.",
+      "options": [
+        "correct",
+        "merely explain",
+        "excuse",
+        "document"
+      ],
+      "answer": 0,
+      "rationales": [
+        "correct: thật sự sửa sai rồi vượt qua, giữ phần hành động trọng yếu.",
+        "merely explain: chỉ giải thích nguyên nhân chưa sửa được lỗi.",
+        "excuse: tha thứ cho lỗi không tự bảo đảm thay đổi hành vi.",
+        "document: ghi lại lỗi vẫn chưa làm việc khắc phục."
+      ],
+      "dimension": "sửa và vượt qua"
+    },
+    {
+      "sourceCue": "Nếu những lỗi lầm được khắc phục sớm thì Phật pháp nhanh chóng hưng thịnh trở lại.",
+      "targetVietnamese": "Nếu những lỗi lầm được khắc phục sớm thì Phật pháp nhanh chóng hưng thịnh trở lại.",
+      "sentence": "If mistakes are corrected promptly, the Dharma will soon ___ again.",
+      "options": [
+        "flourish",
+        "be merely renamed",
+        "be officially proclaimed",
+        "be temporarily concealed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "flourish: hưng thịnh trở lại thật, giữ kết quả hồi phục theo điều kiện.",
+        "be merely renamed: chỉ đổi tên không làm đạo pháp hưng thịnh.",
+        "be officially proclaimed: chỉ được công bố là nghi thức, không phải phát triển thực chất.",
+        "be temporarily concealed: bị giấu đi là hướng ngược sự hưng thịnh của nguồn."
+      ],
+      "dimension": "hồi phục hưng thịnh"
+    },
+    {
+      "sourceCue": "hay lỗi lầm được khắc phục với tốc độ quá chậm",
+      "targetVietnamese": "hay lỗi lầm được khắc phục với tốc độ quá chậm",
+      "sentence": "Mistakes may instead ___ too slowly.",
+      "options": [
+        "be rectified",
+        "be detected",
+        "be admitted",
+        "be explained"
+      ],
+      "answer": 0,
+      "rationales": [
+        "be rectified: được sửa với tốc độ chậm, đúng khâu khắc phục lỗi.",
+        "be detected: mới bị phát hiện chậm khác sửa lỗi quá chậm.",
+        "be admitted: mới được thừa nhận chậm vẫn chưa nói đã khắc phục.",
+        "be explained: được giải thích chậm không đồng nghĩa chậm sửa."
+      ],
+      "dimension": "tốc độ sửa lỗi"
+    },
+    {
+      "sourceCue": "lầm lỗi của mình và của người đều ảnh hưởng đến Phật pháp",
+      "targetVietnamese": "lầm lỗi của mình và của người đều ảnh hưởng đến Phật pháp",
+      "sentence": "Both our own errors and others' errors ___ the Dharma.",
+      "options": [
+        "affect",
+        "merely resemble",
+        "define completely",
+        "are excused by"
+      ],
+      "answer": 0,
+      "rationales": [
+        "affect: đều tác động đến Phật pháp, giữ phạm vi cả mình lẫn người.",
+        "merely resemble: chỉ giống Phật pháp là so sánh không có trong nguồn.",
+        "define completely: định nghĩa toàn bộ Phật pháp mạnh và khác ý ảnh hưởng.",
+        "are excused by: được Phật pháp tha lỗi đổi vai và hướng quan hệ."
+      ],
+      "dimension": "tác động rộng"
+    }
+  ]
+},
+{
+  "id": "M281",
+  "sourceBlockId": "W24-B05",
+  "title": "Cảm hóa từ một lớp học được chăm sóc",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "cô phải tự quét dọn, lau chùi.",
+      "targetVietnamese": "cô phải tự quét dọn, lau chùi.",
+      "sentence": "The teacher had to ___ the classroom herself.",
+      "options": [
+        "sweep and wipe down",
+        "merely inspect",
+        "decorate lavishly",
+        "have someone else clean"
+      ],
+      "answer": 0,
+      "rationales": [
+        "sweep and wipe down: tự làm hai việc dọn và lau, giữ cả hành động lẫn chủ thể.",
+        "merely inspect: chỉ kiểm tra phòng chưa tự làm cho sạch.",
+        "decorate lavishly: trang hoàng lộng lẫy thêm quy mô không có trong nguồn.",
+        "have someone else clean: nhờ người khác dọn trái chữ tự của câu Việt."
+      ],
+      "dimension": "tự tay làm"
+    },
+    {
+      "sourceCue": "Lớp học cũng giống như cái nhà của mình",
+      "targetVietnamese": "Lớp học cũng giống như cái nhà của mình",
+      "sentence": "The classroom ___ our own home.",
+      "options": [
+        "is like",
+        "replaces",
+        "is legally owned as",
+        "conceals"
+      ],
+      "answer": 0,
+      "rationales": [
+        "is like: được ví như nhà mình, giữ phép so sánh gần gũi.",
+        "replaces: thay hẳn nhà ở là quan hệ khác với giống như.",
+        "is legally owned as: được sở hữu hợp pháp thêm quyền tài sản ngoài ví dụ.",
+        "conceals: che giấu nhà mình không phải được coi như mái nhà."
+      ],
+      "dimension": "ví lớp như nhà"
+    },
+    {
+      "sourceCue": "mình phải chăm sóc cho nó",
+      "targetVietnamese": "mình phải chăm sóc cho nó",
+      "sentence": "We must ___ the classroom.",
+      "options": [
+        "care for",
+        "merely admire",
+        "take possession of",
+        "take for granted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "care for: chăm nom giữ lớp sạch đẹp, đúng trách nhiệm được nói.",
+        "merely admire: chỉ ngắm thích lớp chưa làm việc chăm sóc.",
+        "take possession of: chiếm làm sở hữu riêng không phải chăm lo nơi học chung.",
+        "take for granted: coi lớp tự nhiên đã tốt bỏ trách nhiệm chăm nom."
+      ],
+      "dimension": "chăm sóc"
+    },
+    {
+      "sourceCue": "mỗi đứa phụ một tay",
+      "targetVietnamese": "mỗi đứa phụ một tay",
+      "sentence": "Each child ___ a hand.",
+      "options": [
+        "lent",
+        "asked for",
+        "withdrew",
+        "claimed credit for lending"
+      ],
+      "answer": 0,
+      "rationales": [
+        "lent: góp tay giúp cô, đúng hành động tự tham gia.",
+        "asked for: xin người khác giúp đảo vai góp sức thành nhận trợ giúp.",
+        "withdrew: rút tay khỏi việc chung trái phản ứng cùng dọn lớp.",
+        "claimed credit for lending: chỉ nhận công giúp chưa khẳng định đã thật sự phụ tay."
+      ],
+      "dimension": "góp tay làm chung"
+    },
+    {
+      "sourceCue": "cô thương yêu và tôn trọng học sinh nên đã cảm hóa được chúng.",
+      "targetVietnamese": "cô thương yêu và tôn trọng học sinh nên đã cảm hóa được chúng.",
+      "sentence": "Her love and respect ___ the pupils.",
+      "options": [
+        "won over",
+        "intimidated",
+        "merely evaluated",
+        "formally enrolled"
+      ],
+      "answer": 0,
+      "rationales": [
+        "won over: làm trẻ đổi thái độ và tin nhận, đúng cảm hóa bằng thương kính.",
+        "intimidated: làm trẻ sợ hãi là tác động ép phục trái cách cảm hóa.",
+        "merely evaluated: chỉ đánh giá trẻ không làm tâm chúng thay đổi.",
+        "formally enrolled: ghi danh học sinh là thủ tục khác tác động tình cảm."
+      ],
+      "dimension": "cảm hóa bằng cách đối xử"
+    }
+  ]
+},
+{
+  "id": "M282",
+  "sourceBlockId": "W24-B06",
+  "title": "Khi ý kiến bị đồng nhất với cái tôi",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Ý nghĩ, tư tưởng là cái ta của mỗi người. Đa số chúng ta đều chấp như vậy.",
+      "targetVietnamese": "Ý nghĩ, tư tưởng là cái ta của mỗi người. Đa số chúng ta đều chấp như vậy.",
+      "sentence": "Most of us ___ our thoughts and ideas with our self.",
+      "options": [
+        "identify",
+        "merely compare",
+        "exchange",
+        "reconcile"
+      ],
+      "answer": 0,
+      "rationales": [
+        "identify: đồng nhất tư tưởng với cái tôi, đúng sự chấp mà đoạn phân tích.",
+        "merely compare: chỉ so sánh vẫn còn phân biệt hai thứ, nhẹ hơn coi là cái ta.",
+        "exchange: trao đổi tư tưởng với mình không phải nhận chúng là bản ngã.",
+        "reconcile: dung hòa tư tưởng với mình không giữ sự đồng nhất."
+      ],
+      "dimension": "đồng nhất với cái tôi"
+    },
+    {
+      "sourceCue": "ai cướp ngang lời",
+      "targetVietnamese": "ai cướp ngang lời",
+      "sentence": "Someone may ___ us.",
+      "options": [
+        "cut off",
+        "quote",
+        "paraphrase",
+        "consult"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cut off: ngắt lời ngang khi đang nói, giữ sắc thái cướp lời.",
+        "quote: trích lời mình có thể tôn trọng, không phải chặn lời.",
+        "paraphrase: diễn lại ý mình không tự có nghĩa làm gián đoạn.",
+        "consult: hỏi ý mình là mời nói, ngược hành vi cướp lời."
+      ],
+      "dimension": "cướp lời"
+    },
+    {
+      "sourceCue": "phủ nhận ý kiến là chạm đến bản ngã của ta.",
+      "targetVietnamese": "phủ nhận ý kiến là chạm đến bản ngã của ta.",
+      "sentence": "Rejecting our opinion ___ our ego.",
+      "options": [
+        "touches",
+        "eliminates",
+        "merely describes",
+        "formally certifies"
+      ],
+      "answer": 0,
+      "rationales": [
+        "touches: đụng chạm cái tôi, đúng quan hệ gây phản ứng tự ái.",
+        "eliminates: xóa bản ngã là kết quả giải thoát khác hẳn bị chạm.",
+        "merely describes: chỉ mô tả bản ngã không có ý tác động làm tự ái.",
+        "formally certifies: cấp chứng nhận bản ngã không phải chạm đến nó."
+      ],
+      "dimension": "đụng chạm bản ngã"
+    },
+    {
+      "sourceCue": "danh dự của ta cũng bị xúc phạm.",
+      "targetVietnamese": "danh dự của ta cũng bị xúc phạm.",
+      "sentence": "We feel that our honor has also been ___ .",
+      "options": [
+        "insulted",
+        "merely mentioned",
+        "publicly defined",
+        "formally acknowledged"
+      ],
+      "answer": 0,
+      "rationales": [
+        "insulted: bị xúc phạm, giữ cách ta coi sự bác ý là tổn danh dự.",
+        "merely mentioned: chỉ được nhắc tới không mang lực xúc phạm.",
+        "publicly defined: được định nghĩa công khai không tự là bị tổn hại.",
+        "formally acknowledged: được công nhận chính thức là hướng tích cực trái nguồn."
+      ],
+      "dimension": "xúc phạm danh dự"
+    },
+    {
+      "sourceCue": "khiến ta nổi sân.",
+      "targetVietnamese": "khiến ta nổi sân.",
+      "sentence": "That sense of insult ___ anger in us.",
+      "options": [
+        "arouses",
+        "merely uncovers the history of",
+        "excuses",
+        "conceals"
+      ],
+      "answer": 0,
+      "rationales": [
+        "arouses: làm cơn sân khởi lên, đúng quan hệ khiến nổi sân.",
+        "merely uncovers the history of: chỉ mở lịch sử cơn giận là truy cứu, không làm sân hiện khởi.",
+        "excuses: biện hộ cơn giận không phải gây nó sinh ra.",
+        "conceals: giấu cơn giận làm mất biểu hiện, khác làm nó nổi lên."
+      ],
+      "dimension": "khởi cơn sân"
+    }
+  ]
+},
+{
+  "id": "M283",
+  "sourceBlockId": "W24-B07",
+  "title": "Tìm sự thật và bác kết luận vô căn cứ",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "vì chuộng sự thật, đi tìm sự thật",
+      "targetVietnamese": "vì chuộng sự thật, đi tìm sự thật",
+      "sentence": "Scientists ___ truth because they value it.",
+      "options": [
+        "seek",
+        "merely assert",
+        "negotiate",
+        "redefine at will"
+      ],
+      "answer": 0,
+      "rationales": [
+        "seek: chủ động tìm sự thật, giữ động lực chuộng và tìm.",
+        "merely assert: chỉ tuyên bố sự thật chưa làm nghiên cứu tìm ra.",
+        "negotiate: thương lượng sự thật làm nó tùy thỏa thuận, sai hướng nguồn.",
+        "redefine at will: tự ý đổi định nghĩa sự thật trái thái độ tôn trọng nó."
+      ],
+      "dimension": "đi tìm sự thật"
+    },
+    {
+      "sourceCue": "đã khám phá không biết bao nhiêu quy luật",
+      "targetVietnamese": "đã khám phá không biết bao nhiêu quy luật",
+      "sentence": "They have ___ countless laws of the world.",
+      "options": [
+        "discovered",
+        "decreed",
+        "merely presumed",
+        "repealed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "discovered: tìm ra quy luật có thật qua nghiên cứu, đúng khám phá.",
+        "decreed: ban ra quy luật đổi nhận thức thành quyền lập luật tự nhiên.",
+        "merely presumed: mới giả định quy luật thấp hơn đã khám phá.",
+        "repealed: bãi bỏ quy luật là hành động ngược với tìm ra."
+      ],
+      "dimension": "khám phá không ấn định"
+    },
+    {
+      "sourceCue": "Họ không chấp nhận những lời giải thích, những kết luận vô căn cứ",
+      "targetVietnamese": "Họ không chấp nhận những lời giải thích, những kết luận vô căn cứ",
+      "sentence": "They ___ baseless explanations and conclusions.",
+      "options": [
+        "reject",
+        "merely postpone discussing",
+        "claim ownership of",
+        "make exceptions for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "reject: không chấp nhận kết luận thiếu căn cứ, đúng tiêu chuẩn sự thật.",
+        "merely postpone discussing: chỉ hoãn bàn vẫn chưa bác tính vô căn cứ.",
+        "claim ownership of: nhận sở hữu kết luận không phải không chấp nhận nó.",
+        "make exceptions for: cho ngoại lệ được dùng trái việc không bao giờ chấp nhận."
+      ],
+      "dimension": "bác thiếu căn cứ"
+    },
+    {
+      "sourceCue": "ngày nay chúng ta được hưởng những thành tựu khoa học kỹ thuật của họ",
+      "targetVietnamese": "ngày nay chúng ta được hưởng những thành tựu khoa học kỹ thuật của họ",
+      "sentence": "Today we ___ their scientific and technological achievements.",
+      "options": [
+        "benefit from",
+        "take sole credit for",
+        "merely predict",
+        "lay exclusive claim to"
+      ],
+      "answer": 0,
+      "rationales": [
+        "benefit from: được hưởng lợi từ thành tựu của họ, đúng vai người thụ hưởng.",
+        "take sole credit for: nhận toàn công về mình trái nguồn ghi công các nhà khoa học.",
+        "merely predict: chỉ dự đoán thành tựu bỏ thực tế đang hưởng ngày nay.",
+        "lay exclusive claim to: đòi độc quyền hưởng thêm chiếm hữu ngoài câu."
+      ],
+      "dimension": "hưởng lợi"
+    },
+    {
+      "sourceCue": "được sống trong một xã hội đầy đủ tiện nghi.",
+      "targetVietnamese": "được sống trong một xã hội đầy đủ tiện nghi.",
+      "sentence": "We are able to ___ a society rich in modern conveniences.",
+      "options": [
+        "live in",
+        "legislate for",
+        "merely imagine",
+        "be excluded from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "live in: thực sự sống trong xã hội có tiện nghi, giữ hệ quả hiện tại.",
+        "legislate for: ban luật cho xã hội thêm vai trò người cầm quyền.",
+        "merely imagine: chỉ tưởng tượng chưa có đời sống tiện nghi thật.",
+        "be excluded from: bị loại khỏi xã hội ngược với đang được hưởng sống trong đó."
+      ],
+      "dimension": "hệ quả đời sống"
+    }
+  ]
+},
+{
+  "id": "M284",
+  "sourceBlockId": "W24-B08",
+  "title": "Nhận ra sự thiên vị không chủ ý",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "thường có nhiều lý do để đối xử thiên vị.",
+      "targetVietnamese": "thường có nhiều lý do để đối xử thiên vị.",
+      "sentence": "People often find many reasons to ___ others.",
+      "options": [
+        "show favoritism toward",
+        "maintain equal distance from",
+        "seek impartial advice from",
+        "judge independently of"
+      ],
+      "answer": 0,
+      "rationales": [
+        "show favoritism toward: đối xử ưu lệch với một số người, đúng thiên vị.",
+        "maintain equal distance from: giữ khoảng cách bằng nhau trái nghĩa ưu ái riêng.",
+        "seek impartial advice from: xin lời khuyên công tâm là hành vi khác hẳn thiên vị.",
+        "judge independently of: đánh giá độc lập với người khác không diễn đạt ưu ái."
+      ],
+      "dimension": "đối xử thiên vị"
+    },
+    {
+      "sourceCue": "người có duyên với mình từ những kiếp trước",
+      "targetVietnamese": "người có duyên với mình từ những kiếp trước",
+      "sentence": "We may favor people with whom we ___ from previous lives.",
+      "options": [
+        "have karmic ties",
+        "have formally negotiated",
+        "have severed all contact",
+        "have publicly competed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "have karmic ties: có mối duyên từ kiếp trước, đúng nền quan hệ tác giả nêu.",
+        "have formally negotiated: đã thương lượng chính thức thêm thỏa thuận ngoài nguồn.",
+        "have severed all contact: đã cắt hết liên hệ trái duyên còn làm nảy thiên vị.",
+        "have publicly competed: đã tranh đua công khai thêm loại quan hệ nguồn không nói."
+      ],
+      "dimension": "duyên từ trước"
+    },
+    {
+      "sourceCue": "duyên ở đây có nghĩa là duyên lành",
+      "targetVietnamese": "duyên ở đây có nghĩa là duyên lành",
+      "sentence": "Here, karmic ties ___ favorable connections.",
+      "options": [
+        "mean",
+        "guarantee",
+        "merely conceal",
+        "compensate for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "mean: giải nghĩa duyên trong đoạn là duyên lành, đúng nội hàm thuật ngữ.",
+        "guarantee: bảo đảm sẽ có duyên tốt là quan hệ nhân quả khác định nghĩa.",
+        "merely conceal: che giấu mối duyên tốt trái việc tác giả nói rõ nghĩa.",
+        "compensate for: bù đắp quan hệ tốt không phải xác định cách dùng từ."
+      ],
+      "dimension": "định nghĩa theo ngữ cảnh"
+    },
+    {
+      "sourceCue": "có thể họ đã ưu ái, đã giúp đỡ mình.",
+      "targetVietnamese": "có thể họ đã ưu ái, đã giúp đỡ mình.",
+      "sentence": "They may previously have ___ us.",
+      "options": [
+        "favored and helped",
+        "obeyed and replaced",
+        "merely studied",
+        "formally appointed"
+      ],
+      "answer": 0,
+      "rationales": [
+        "favored and helped: giữ cả ưu ái và giúp đỡ, cùng khả năng có thể.",
+        "obeyed and replaced: vâng lệnh rồi thay thế thêm hai quan hệ không được nói.",
+        "merely studied: chỉ nghiên cứu chúng ta không phải ưu ái trợ giúp.",
+        "formally appointed: bổ nhiệm chúng ta thêm một dạng giúp quá cụ thể ngoài nguồn."
+      ],
+      "dimension": "ân duyên có thể"
+    },
+    {
+      "sourceCue": "dù không cố ý nhưng tự nhiên chúng ta vẫn thiên vị họ",
+      "targetVietnamese": "dù không cố ý nhưng tự nhiên chúng ta vẫn thiên vị họ",
+      "sentence": "Even without intending to, we may naturally ___ them.",
+      "options": [
+        "favor",
+        "merely recognize",
+        "deliberately manipulate",
+        "formally nominate"
+      ],
+      "answer": 0,
+      "rationales": [
+        "favor: vẫn ưu lệch tự nhiên dù không chủ ý, đúng cơ chế đoạn phân tích.",
+        "merely recognize: chỉ nhận ra họ chưa có đối xử khác biệt.",
+        "deliberately manipulate: cố tình thao túng mâu thuẫn điều kiện không cố ý.",
+        "formally nominate: đề cử chính thức thêm hành vi cụ thể chưa được nguồn nêu."
+      ],
+      "dimension": "thiên vị không cố ý"
+    }
+  ]
+},
+{
+  "id": "M285",
+  "sourceBlockId": "W24-B09",
+  "title": "Sức chịu đựng trong chuyện huấn luyện",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "có kỷ luật rất nghiêm khắc.",
+      "targetVietnamese": "có kỷ luật rất nghiêm khắc.",
+      "sentence": "The military schools in this account ___ very strict discipline.",
+      "options": [
+        "enforce",
+        "merely announce",
+        "seek exemption from",
+        "relax"
+      ],
+      "answer": 0,
+      "rationales": [
+        "enforce: duy trì và thi hành kỷ luật nghiêm, đúng đặc tính trường được kể.",
+        "merely announce: chỉ thông báo chưa chắc thực hiện nghiêm.",
+        "seek exemption from: xin miễn kỷ luật ngược vai trường đào tạo.",
+        "relax: nới lỏng kỷ luật trái mức rất nghiêm khắc."
+      ],
+      "dimension": "thi hành kỷ luật"
+    },
+    {
+      "sourceCue": "học viên phải trải qua một tuần lễ gọi là tuần huấn nhục.",
+      "targetVietnamese": "học viên phải trải qua một tuần lễ gọi là tuần huấn nhục.",
+      "sentence": "Cadets must ___ a week known as humiliation training.",
+      "options": [
+        "undergo",
+        "merely observe",
+        "be excused from",
+        "conduct research on"
+      ],
+      "answer": 0,
+      "rationales": [
+        "undergo: chính mình trải qua tuần huấn luyện, đúng chủ thể học viên.",
+        "merely observe: chỉ đứng xem không chịu trải nghiệm được kể.",
+        "be excused from: được miễn trái nghĩa phải đi qua.",
+        "conduct research on: nghiên cứu tuần huấn luyện không đồng nghĩa tham dự chịu rèn."
+      ],
+      "dimension": "tự trải qua"
+    },
+    {
+      "sourceCue": "gia đình, người thân không dám đến thăm",
+      "targetVietnamese": "gia đình, người thân không dám đến thăm",
+      "sentence": "Family members and relatives do not ___ during that week.",
+      "options": [
+        "dare to visit",
+        "have legal permission to visit",
+        "remember visiting",
+        "wish to be visited"
+      ],
+      "answer": 0,
+      "rationales": [
+        "dare to visit: không dám tới thăm, giữ tâm lý chứ không thêm lệnh cấm.",
+        "have legal permission to visit: không được phép theo luật thêm quy định không có trong nguồn.",
+        "remember visiting: không nhớ đã thăm đổi tình huống hiện tại thành ký ức.",
+        "wish to be visited: không muốn được thăm đảo vai người tới và người được thăm."
+      ],
+      "dimension": "không dám không bị cấm"
+    },
+    {
+      "sourceCue": "không được từ nan bất cứ điều gì",
+      "targetVietnamese": "không được từ nan bất cứ điều gì",
+      "sentence": "Cadets are not allowed to ___ anything imposed on them.",
+      "options": [
+        "shrink from",
+        "merely describe",
+        "remember",
+        "hear about"
+      ],
+      "answer": 0,
+      "rationales": [
+        "shrink from: không được thoái thác hay lùi trước việc khó, đúng không từ nan.",
+        "merely describe: không được mô tả là cấm lời nói nguồn không nêu.",
+        "remember: không được nhớ là cấm ký ức khác việc phải chịu rèn.",
+        "hear about: không được nghe là ngược bối cảnh nhận nhiệm vụ huấn luyện."
+      ],
+      "dimension": "không từ nan"
+    },
+    {
+      "sourceCue": "Họ rèn luyện cho con người sức chịu đựng, sức nhẫn nhục đến như vậy.",
+      "targetVietnamese": "Họ rèn luyện cho con người sức chịu đựng, sức nhẫn nhục đến như vậy.",
+      "sentence": "The training ___ endurance and the ability to bear humiliation to that degree.",
+      "options": [
+        "builds",
+        "merely rates",
+        "publicly certifies",
+        "takes for granted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "builds: rèn cho sức chịu đựng phát triển, đúng chức năng huấn luyện.",
+        "merely rates: chỉ chấm mức chịu đựng chưa làm nó tăng lên.",
+        "publicly certifies: cấp chứng nhận chưa tạo sức chịu nhục thật.",
+        "takes for granted: coi sẵn có sức chịu đựng bỏ mất quá trình rèn luyện."
+      ],
+      "dimension": "rèn sức chịu đựng"
+    }
+  ]
+}
+,
+{
+  "id": "M286",
+  "sourceBlockId": "W24-B10",
+  "title": "Ít tham muốn và nhẹ ngã chấp",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "Người nhiều tham muốn luôn luôn mong mỏi có được nhiều thứ.",
+      "targetVietnamese": "Người nhiều tham muốn luôn luôn mong mỏi có được nhiều thứ.",
+      "sentence": "People full of desire continually ___ more things.",
+      "options": [
+        "crave",
+        "merely list",
+        "borrow",
+        "renounce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "crave: khao khát có thêm, giữ lực mong mỏi dai dẳng.",
+        "merely list: chỉ liệt kê đồ vật không nói tâm muốn sở hữu.",
+        "borrow: vay nhiều đồ là hành vi cụ thể nguồn không nêu.",
+        "renounce: từ bỏ đồ vật ngược hướng muốn có nhiều."
+      ],
+      "dimension": "khát muốn"
+    },
+    {
+      "sourceCue": "tìm đủ mưu kế để có thể thu được mọi quyền lợi về mình.",
+      "targetVietnamese": "tìm đủ mưu kế để có thể thu được mọi quyền lợi về mình.",
+      "sentence": "They devise every scheme to ___ all benefits for themselves.",
+      "options": [
+        "secure",
+        "merely calculate",
+        "distribute",
+        "waive"
+      ],
+      "answer": 0,
+      "rationales": [
+        "secure: tìm cách giành quyền lợi về mình, giữ hướng tư lợi.",
+        "merely calculate: chỉ tính quyền lợi chưa có chủ ý thu lấy về mình.",
+        "distribute: chia lợi ích cho người khác ngược hướng tất cả về mình.",
+        "waive: từ bỏ quyền lợi trái tâm mưu cầu được mô tả."
+      ],
+      "dimension": "thu lợi về mình"
+    },
+    {
+      "sourceCue": "không màng đến danh lợi.",
+      "targetVietnamese": "không màng đến danh lợi.",
+      "sentence": "Genuine practitioners ___ fame and gain.",
+      "options": [
+        "are unconcerned with",
+        "are merely uninformed about",
+        "secretly bargain for",
+        "are officially excluded from"
+      ],
+      "answer": 0,
+      "rationales": [
+        "are unconcerned with: không bận lòng mưu danh lợi, đúng thái độ buông nhẹ.",
+        "are merely uninformed about: không biết thông tin về danh lợi khác không màng.",
+        "secretly bargain for: bí mật mặc cả để được lợi trái việc không cầu.",
+        "are officially excluded from: bị cấm hưởng danh lợi là ràng buộc ngoài, không phải tự buông."
+      ],
+      "dimension": "không màng"
+    },
+    {
+      "sourceCue": "Người ít tham muốn, ít tham vọng chắc chắn sẽ có ngã chấp rất nhẹ.",
+      "targetVietnamese": "Người ít tham muốn, ít tham vọng chắc chắn sẽ có ngã chấp rất nhẹ.",
+      "sentence": "Little desire and ambition will, in this account, ___ very light self-attachment.",
+      "options": [
+        "be accompanied by",
+        "merely disguise",
+        "be mistaken for",
+        "publicly announce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "be accompanied by: đi cùng mức chấp ngã nhẹ, giữ nhận định quan hệ của tác giả.",
+        "merely disguise: chỉ che chấp ngã ngầm cho chấp ngã vẫn nặng, sai nguồn.",
+        "be mistaken for: bị nhầm là chấp nhẹ đổi thực trạng thành ngộ nhận.",
+        "publicly announce: công bố chấp nhẹ chỉ là lời nói, không phải thực chất có."
+      ],
+      "dimension": "mức chấp ngã"
+    },
+    {
+      "sourceCue": "Khi gặp chuyện gì cũng nhường cho người khác",
+      "targetVietnamese": "Khi gặp chuyện gì cũng nhường cho người khác",
+      "sentence": "Whatever arises, they ___ to others.",
+      "options": [
+        "yield",
+        "dictate terms",
+        "lay blame",
+        "demand priority"
+      ],
+      "answer": 0,
+      "rationales": [
+        "yield: biết nhường người khác, đúng thái độ ứng xử nguồn.",
+        "dictate terms: đặt điều kiện bắt người theo mình trái nhường nhịn.",
+        "lay blame: đổ lỗi cho người khác không phải nhường lợi hay vị trí.",
+        "demand priority: đòi ưu tiên là hành vi ngược chiều nhường."
+      ],
+      "dimension": "nhường người khác"
+    }
+  ]
+},
+{
+  "id": "M287",
+  "sourceBlockId": "W24-B11",
+  "title": "Nhường món đồ và vun duyên lành",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "đưa đến sự hòa hợp, đoàn kết thân ái",
+      "targetVietnamese": "đưa đến sự hòa hợp, đoàn kết thân ái",
+      "sentence": "Yielding ___ harmony, unity and affection.",
+      "options": [
+        "fosters",
+        "merely names",
+        "presupposes perfection in",
+        "temporarily conceals"
+      ],
+      "answer": 0,
+      "rationales": [
+        "fosters: góp tạo hòa hợp và thân ái, đúng vai trò đưa đến.",
+        "merely names: chỉ gọi tên phẩm chất chưa làm quan hệ tốt lên.",
+        "presupposes perfection in: đòi sẵn hoàn hảo trong hòa hợp đảo kết quả thành điều kiện.",
+        "temporarily conceals: che quan hệ hòa hợp không diễn đạt sự phát triển."
+      ],
+      "dimension": "nuôi quan hệ tốt"
+    },
+    {
+      "sourceCue": "có thể giúp chúng ta kết duyên lành với người khác.",
+      "targetVietnamese": "có thể giúp chúng ta kết duyên lành với người khác.",
+      "sentence": "Yielding can help us ___ wholesome connections with others.",
+      "options": [
+        "forge",
+        "merely recall",
+        "lay exclusive claim to",
+        "dissolve"
+      ],
+      "answer": 0,
+      "rationales": [
+        "forge: tạo mối duyên tốt mới qua ứng xử, đúng kết duyên.",
+        "merely recall: chỉ nhớ quan hệ đã có chưa tạo duyên lành.",
+        "lay exclusive claim to: độc chiếm quan hệ tốt thêm tính sở hữu không có.",
+        "dissolve: xóa quan hệ là hướng ngược việc kết nối."
+      ],
+      "dimension": "kết duyên"
+    },
+    {
+      "sourceCue": "nhường nhịn làm cho người ta quý mến, thọ ơn mình.",
+      "targetVietnamese": "nhường nhịn làm cho người ta quý mến, thọ ơn mình.",
+      "sentence": "Yielding can ___ affection and gratitude toward us.",
+      "options": [
+        "evoke",
+        "merely demand",
+        "formally certify",
+        "take for granted"
+      ],
+      "answer": 0,
+      "rationales": [
+        "evoke: khơi lòng quý mến biết ơn ở người nhận, đúng tác động của hành động.",
+        "merely demand: chỉ đòi người ta quý chưa khiến họ thật sự thương.",
+        "formally certify: chứng nhận tình cảm không tạo được tình cảm.",
+        "take for granted: coi mặc nhiên người ta biết ơn thêm thái độ ngoài nguồn."
+      ],
+      "dimension": "gợi tình cảm"
+    },
+    {
+      "sourceCue": "thấy người bạn thích quá nên nhường cho họ.",
+      "targetVietnamese": "thấy người bạn thích quá nên nhường cho họ.",
+      "sentence": "Seeing how much a friend likes our beautiful object, we ___ it to them.",
+      "options": [
+        "give",
+        "lend",
+        "rent",
+        "pledge conditionally"
+      ],
+      "answer": 0,
+      "rationales": [
+        "give: nhường món đồ thành quà cho bạn, đúng phần sau gọi món quà.",
+        "lend: cho mượn vẫn giữ quyền đòi lại, khác tặng trong ngữ cảnh.",
+        "rent: cho thuê thêm trao đổi tiền, không phải nhường món quà.",
+        "pledge conditionally: mới hứa có điều kiện chưa thực sự nhường cho bạn."
+      ],
+      "dimension": "nhường là tặng"
+    },
+    {
+      "sourceCue": "người bạn sẽ thương quý mình hơn.",
+      "targetVietnamese": "người bạn sẽ thương quý mình hơn.",
+      "sentence": "On receiving the gift, the friend will ___ us more.",
+      "options": [
+        "cherish",
+        "depend financially on",
+        "merely recognize",
+        "formally endorse"
+      ],
+      "answer": 0,
+      "rationales": [
+        "cherish: thương quý sâu hơn, đúng thay đổi tình cảm sau món quà.",
+        "depend financially on: lệ thuộc tài chính thêm quan hệ không có trong nguồn.",
+        "merely recognize: chỉ nhận mặt mình không phải tăng quý mến.",
+        "formally endorse: ủng hộ theo thủ tục khác sự gắn bó tình cảm."
+      ],
+      "dimension": "tăng thương quý"
+    }
+  ]
+},
+{
+  "id": "M288",
+  "sourceBlockId": "W24-B12",
+  "title": "Biết lúc nhường và lúc gánh trách nhiệm",
+  "sourceAlignment": "quote-and-english-checked",
+  "assessmentMode": "single-best-verb",
+  "difficultyReview": "single-best-verb-options-reviewed",
+  "review": "source-and-alternatives-reviewed-by-author",
+  "items": [
+    {
+      "sourceCue": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn và khi nào phải gánh vác trách nhiệm.",
+      "targetVietnamese": "phải dùng trí tuệ phán đoán khi nào nên nhường nhịn và khi nào phải gánh vác trách nhiệm.",
+      "sentence": "We must ___ when to yield and when to shoulder responsibility.",
+      "options": [
+        "discern",
+        "merely guess",
+        "delegate without consideration",
+        "publicly announce"
+      ],
+      "answer": 0,
+      "rationales": [
+        "discern: dùng trí tuệ phân định đúng tình huống, giữ lực phán đoán.",
+        "merely guess: đoán mò thiếu suy xét không giữ yêu cầu trí tuệ.",
+        "delegate without consideration: giao việc mà không xét trái cần tự phán đoán.",
+        "publicly announce: chỉ công bố thời điểm không phải tìm hiểu điều nên làm."
+      ],
+      "dimension": "phán đoán lúc nhường"
+    },
+    {
+      "sourceCue": "thích lui về ở ẩn.",
+      "targetVietnamese": "thích lui về ở ẩn.",
+      "sentence": "Faced with worldly competition, we may prefer to ___ into seclusion.",
+      "options": [
+        "retreat",
+        "be promoted",
+        "recruit others",
+        "lay claim to authority"
+      ],
+      "answer": 0,
+      "rationales": [
+        "retreat: rút lui ở ẩn, giữ hướng lùi khỏi sự xông pha.",
+        "be promoted: được thăng chức là tiến vào vị trí khác, không phải ẩn cư.",
+        "recruit others: tuyển người đi cùng là mở tổ chức, khác lui về một mình.",
+        "lay claim to authority: đòi quyền lực trái xu hướng không gánh việc đời."
+      ],
+      "dimension": "rút lui"
+    },
+    {
+      "sourceCue": "nếu nhường nhịn đúng sẽ tạo thành công đức",
+      "targetVietnamese": "nếu nhường nhịn đúng sẽ tạo thành công đức",
+      "sentence": "Yielding appropriately ___ merit.",
+      "options": [
+        "generates",
+        "merely records",
+        "spends",
+        "redistributes"
+      ],
+      "answer": 0,
+      "rationales": [
+        "generates: tạo nên công đức mới, giữ chiều làm phát sinh.",
+        "merely records: chỉ ghi sổ công đức đã có, không phải tạo thêm.",
+        "spends: tiêu công đức ngược hướng vun bồi.",
+        "redistributes: chia lại công đức sẵn có thêm cơ chế ngoài nguồn."
+      ],
+      "dimension": "tạo công đức"
+    },
+    {
+      "sourceCue": "nếu nhường nhịn sai, chúng ta sẽ mất công đức.",
+      "targetVietnamese": "nếu nhường nhịn sai, chúng ta sẽ mất công đức.",
+      "sentence": "Yielding inappropriately will cause us to ___ merit.",
+      "options": [
+        "lose",
+        "merely overlook",
+        "publicly deny",
+        "transfer voluntarily"
+      ],
+      "answer": 0,
+      "rationales": [
+        "lose: thực sự mất công đức, đúng hậu quả nhường sai.",
+        "merely overlook: chỉ không thấy công đức vẫn có thể còn nguyên.",
+        "publicly deny: phủ nhận công đức bằng lời không phải mất thật.",
+        "transfer voluntarily: tự nguyện chuyển đi khác hậu quả vì ứng xử sai."
+      ],
+      "dimension": "mất công đức"
+    },
+    {
+      "sourceCue": "chỉ đem lại yên ổn cho bản thân mình, trong khi đó những người khác phải chịu những tai họa.",
+      "targetVietnamese": "chỉ đem lại yên ổn cho bản thân mình, trong khi đó những người khác phải chịu những tai họa.",
+      "sentence": "Our yielding may merely ___ our own peace while others suffer disasters.",
+      "options": [
+        "secure",
+        "interrupt",
+        "call into question",
+        "demand an explanation for"
+      ],
+      "answer": 0,
+      "rationales": [
+        "secure: giữ được yên ổn riêng mình nhưng để người chịu họa, đúng giới hạn ích kỷ.",
+        "interrupt: làm mất yên của mình đảo hướng lợi riêng được cảnh báo.",
+        "call into question: đặt nghi vấn về sự yên không nói thực chất chỉ mình được yên.",
+        "demand an explanation for: đòi giải thích yên ổn là hành vi ngôn ngữ khác kết quả ứng xử."
+      ],
+      "dimension": "bình yên riêng và trách nhiệm"
     }
   ]
 }
