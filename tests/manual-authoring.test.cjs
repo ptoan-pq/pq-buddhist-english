@@ -4,8 +4,8 @@ const bank=require('../../outputs/context-bank-v1/bank.json');
 const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
 
 test('manual advanced authoring keeps distinct source-grounded frames',()=>{
-  assert.equal(manual.length,36);
-  assert.equal(manual.flatMap(x=>x[3]).length,180);
+  assert.equal(manual.length,42);
+  assert.equal(manual.flatMap(x=>x[3]).length,210);
   for(const [blockId,id,title,rows] of manual){
     const block=blocks.get(blockId);assert(block,id);
     assert.equal(rows.length,5,id);
