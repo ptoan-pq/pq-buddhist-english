@@ -1,5 +1,15 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Tiến độ mới nhất — 2026-10-30, M196–M237
+
+- Viết thủ công thêm **42 gói / 210 câu**, từ W17-B04 đến W20-B09. Tổng hiện hành **117 gói / 585 câu** được đối chiếu nguồn–khung Anh–phương án; tập ứng viên có 915 câu. Không đổi nhãn nháp để tăng số.
+- Các nhóm mới phân biệt cung cấp sinh kế với dự báo; gây dựng với phô bày tài sản; nhập định với suy ra hay thuật lại; diệt trừ với đè nén; giữ lòng trắc ẩn với chỉ tuyên bố mình có; từ chối nhận với hoãn nhận; tôn trọng với suy tôn; đóng góp với tìm sự công nhận.
+- Câu Việt vẫn là chuỗi nguyên văn từ nguồn. M208 lấy lại S01 p0074–0076 để không ghép ví dụ cầu khỏi bệnh vào câu hỏi về mục tiêu tu. M209–M214 và M216 có snapshot nguồn mở rộng, locator và SHA-256 để xử lý các đoạn quá ngắn hoặc thiếu tiền ngữ. M214 chỉ dùng câu đầu p0091 làm phần nối, không lặp nguyên toàn đoạn của M215.
+- M217 dùng nguyên p0486 và phần đầu p0487 của S06; giữ cả phân biệt siêng năng/đam mê và lời nhắc không làm quá sức. Thần Thánh tập thể dịch `divine beings`; không biến giải thích của tác giả thành kết luận y khoa hoặc vũ trụ học do người biên soạn xác minh.
+- **56/56 kiểm thử đạt**. Những phép kiểm này xác minh cấu trúc và bám nguồn bằng chuỗi, không tự chứng minh mọi distractor đều đã đạt độ khó mong muốn. Chưa có hiệu chuẩn độ khó độc lập.
+- Còn **855 câu**: 330 ứng viên M055–M120 phải rà/sửa; 270 nháp M001–M054 phải rà/sửa; 255 câu M238–M288 chưa viết. Điểm tiếp theo **M238 / W20-B10**.
+- Giữ riêng 72 câu ban đầu. Chưa thay dữ liệu public, chưa xuất bản bộ thiếu; bản Markdown xem trước và manifest tiến độ đã được dựng lại từ file thực.
+
 ## Tiến độ mới nhất — 2026-10-30, M157–M195
 
 - Viết riêng thêm **39 gói / 195 câu mới**, từ W14-B01 đến W17-B03. Tổng tự rà theo chuẩn một động từ đúng nhất hiện là **75 gói / 375 câu**. Không đổi nhãn 330 câu ứng viên cũ hay 270 nháp cũ để tăng số hoàn thiện.
