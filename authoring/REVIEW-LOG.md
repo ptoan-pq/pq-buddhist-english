@@ -33,3 +33,37 @@ Vì vậy giữ 54 gói/270 câu ấy ở `manual-drafts.cjs`, chờ rà và vi�
 ### Còn lại
 
 Mục tiêu vẫn là 1.440 câu mới, không phải 90 câu. Còn 1.350 câu chưa qua tự rà nội dung: gồm 270 câu nháp cần sửa và 1.080 câu chưa viết. Sau đó mới đến tích hợp giao diện, xác minh bằng trình duyệt, chuyển tiến độ và xuất bản.
+
+## 2026-10-29 — viết tiếp M073–M132
+
+### Nội dung đã bổ sung
+
+- Viết riêng 60 gói, 300 câu. Cộng với đợt trước: **78 gói, 390 câu đã được chính người biên soạn đối chiếu nguồn và phương án**.
+- Nguồn mới được bao phủ: W01-B05–B12, W02-B07–B12, W03-B01–B04, W04-B01–B06, W06-B01–B06, W07-B07–B12, W10-B01–B12 và W11-B01–B12.
+- Các nhóm ý gồm: thiền và đời sống; khiêm hạ; công bằng; nghiệp và ý nghiệp; phước, giới và Diệt Đế; tự xét lỗi; lý tưởng và tham vọng; trách nhiệm với trẻ em; lời chê, lời khen, góp ý và nói thật; thông cảm và phụng sự kín đáo.
+- Mỗi câu tiếp tục có câu Việt ngắn, trọn ý cần dịch. Năm câu dùng năm khung Anh riêng, không xóa lần lượt từng từ trên cùng một bản dịch.
+- Không nhập bản Anh có sẵn làm đáp án chuẩn; chọn lại vị ngữ theo câu Việt và toàn đoạn nguồn. Không cộng 72 câu chuyên sâu bảo toàn vào chỉ tiêu câu mới.
+
+### Việc tự rà đã thực hiện
+
+- Đọc từng khung với các lựa chọn, sửa các phương án không dùng chung bổ ngữ một cách tự nhiên: M091-Q5, M093-Q1, M094-Q1, M098-Q4, M099-Q1/Q3, M102-Q4, M106-Q1/Q4, M108-Q3, M110-Q4, M114-Q3, M116-Q1/Q2, M118-Q5, M120-Q2, M127-Q1, M128-Q3/Q5, M129-Q5 và M131-Q4.
+- Bỏ dạng từ gượng `embroideringly paraphrases` ở M117-Q1; thay bằng `embellishes` và viết lại lý do.
+- Rà phạm vi phủ định ở M090-Q3 và M117-Q5. Phương án nhiễu có thể tạo một mệnh đề đúng nhưng **không diễn đạt đúng ý câu Việt đang giao**; lời giải phải nói rõ điều này, không được giải thích như thể khung không có chữ phủ định.
+- Giữ các phân biệt về lực: `hamper` không phải `preclude`; `facilitate` không phải `guarantee`; `erode a monopoly` không phải chuyển hết độc quyền sang người mới; `takes refuge` không phải `receives monastic ordination`; `withhold hasty blame` không phải miễn mọi trách nhiệm.
+- Đối với khuyên răn, báo lỗi, hôn nhân và nhân quả: ghi đúng điều tác giả nguồn trình bày, không tự mở thành chỉ dẫn pháp lý hoặc khẳng định phổ quát ngoài phạm vi đoạn.
+
+### Kiểm tra kỹ thuật
+
+- Chạy lại 50 kiểm thử hiện có: 50 đạt tại mốc 390 câu.
+- Bản xem trước xác nhận một đoạn chung mỗi gói; câu Việt nhắc lại không chứa cả đoạn; đủ năm câu mới mở phản hồi; tráo lựa chọn vẫn gắn đúng lời giải; không sao nguyên khung hoặc cả bộ lựa chọn từ ngân hàng cơ bản tương ứng.
+- Trình đóng gói chỉ đọc và xuất các câu đã viết. Không tạo thêm câu để bù chỉ tiêu.
+- Những kiểm thử mang tên kiểm tra ngân hàng public vẫn chạy trên dữ liệu public cũ; chúng **không** chứng minh đã viết lại toàn bộ ngân hàng. Câu mới được kiểm bởi `manual-reviewed.test.cjs` và vòng tự đọc nội dung nêu trên.
+
+### Trạng thái chính xác tại mốc này
+
+- Đã tự rà: **390/1.440 câu**.
+- Nháp cũ còn cần sửa nghĩa và phương án: **270 câu**, không cộng vào số đủ điều kiện phát hành.
+- Chưa viết: **780 câu** thuộc 156 đoạn còn lại, bắt đầu từ W12-B01.
+- Tổng còn cần viết hoặc sửa và tự rà: **1.050 câu**.
+- Chưa có rà ngôn ngữ độc lập hoặc thử độ khó với người học. Không gọi các phép kiểm cấu trúc là chứng nhận độ khó.
+- Chưa thay dữ liệu chạy website, chưa push hoặc xuất bản. Các bước tích hợp, kiểm trình duyệt và migration tiến độ chỉ thực hiện sau khi đủ nội dung đã rà.
