@@ -4783,372 +4783,884 @@ module.exports = [
   {
     id: 'M133', sourceBlockId: 'W12-B01', title: 'Trách nhiệm: làm tròn việc thay vì chỉ nhận việc',
     sourceAlignment: 'quote-and-english-checked',
+    assessmentMode: 'best-fit-among-valid-alternatives',
     review: 'source-and-alternatives-reviewed-by-author',
     items: [
       {
         sourceCue: 'hoàn thành công việc quy định', targetVietnamese: 'muốn hoàn thành công việc quy định',
-        sentence: 'We want to ___ our assigned duties.',
-        options: ['fulfill', 'undertake', 'appraise', 'reassign'], answer: 0,
+        taskKind: 'expression-choice', sentence: '___',
+        options: ['We want to fulfill the duties assigned to us.', 'We want to carry out the work we are responsible for.', 'Our aim is to see our assigned work through to completion.', 'We want to discharge the responsibilities attached to our work.'], answer: 0,
+        preferredAnswers: [0,2], validAnswers: [0,1,2,3],
+        selectionCriterion: 'Giữ ý muốn và kết quả làm tròn việc đã giao; so cách lấy người làm hay công việc làm trọng tâm, không chọn chỉ vì từ vựng trang trọng.',
         rationales: [
-          'fulfill: thực hiện đến mức đáp ứng bổn phận; giữ kết quả hoàn thành.',
-          'undertake: nhận đảm đương; có thể mới bắt đầu, chưa giữ ý làm tròn.',
-          'appraise: đánh giá công việc; không khẳng định đã thực hiện.',
-          'reassign: giao lại cho người khác; thay hành động hoàn thành bằng phân công lại.'
-        ], dimension: 'fulfillment versus undertaking, appraisal, and reassignment'
+          'We want to fulfill the duties assigned to us.: ưu tiên vì giữ người muốn làm và đích làm tròn bổn phận trong một trục gọn.',
+          'We want to carry out the work we are responsible for.: dùng được; nhấn thực hiện phần việc, mức hoàn tất không nổi bằng fulfill hoặc through to completion.',
+          'Our aim is to see our assigned work through to completion.: cùng mức ưu tiên; đổi chủ ngữ sang mục tiêu nhưng giữ rõ việc làm đến nơi đến chốn.',
+          'We want to discharge the responsibilities attached to our work.: dùng được; nhìn việc làm qua nghĩa vụ gắn với nó, có giọng hành chính hơn câu Việt.'
+        ], dimension: 'personal intention, completion-focused aim, execution, and discharge of duty'
       },
       {
         sourceCue: 'buộc phải bớt tìm các niềm vui riêng', targetVietnamese: 'thì ta buộc phải bớt tìm các niềm vui riêng.',
-        sentence: 'We must therefore ___ the pursuit of private pleasures.',
-        options: ['curtail', 'conceal', 'merely defer', 'publicly justify'], answer: 0,
+        taskKind: 'expression-choice', sentence: '___',
+        options: ['We must therefore cut back on our pursuit of personal pleasures.', 'Living responsibly means leaving less room for our own pleasures.', 'We therefore have to curb our appetite for private enjoyment.', 'Our personal pleasures must take up less of our attention.'], answer: 0,
+        preferredAnswers: [0], validAnswers: [0,1,2,3],
+        selectionCriterion: 'Giữ lực buộc phải và hành động bớt tìm vui, thay vì chỉ diễn đạt lại thành ít chỗ, ít ham muốn hoặc ít chú ý.',
         rationales: [
-          'curtail: cắt giảm mức hoặc lượng; đúng chữ “bớt”.',
-          'conceal: che việc tìm vui khỏi người thấy; mức tìm vui có thể không đổi.',
-          'merely defer: chỉ dời thời điểm; chưa giảm phần niềm vui riêng.',
-          'publicly justify: công khai biện minh; không thực hiện sự tiết giảm cần thiết.'
-        ], dimension: 'curtailment versus concealment, deferral, and justification'
+          'We must therefore cut back on our pursuit of personal pleasures.: ưu tiên vì giữ chủ thể ta, lực must, liên kết therefore và hành động giảm tìm vui.',
+          'Living responsibly means leaving less room for our own pleasures.: dùng được trong mạch trách nhiệm; chọn chủ ngữ khái niệm và diễn đạt mức ưu tiên qua hình ảnh chừa chỗ.',
+          'We therefore have to curb our appetite for private enjoyment.: dùng được; hướng điểm nhấn vào sự ham muốn bên trong hơn là việc tìm thú vui.',
+          'Our personal pleasures must take up less of our attention.: dùng được; đưa thú vui lên đầu và thu hẹp điểm nhấn vào phần chú ý dành cho nó.'
+        ], dimension: 'obligatory reduction of pursuit versus life-priority, appetite, and attention framing'
       },
       {
         sourceCue: 'sa đà vào các trò vui độc hại', targetVietnamese: 'Người sa đà vào các trò vui độc hại thì không bao giờ có thể là người có trách nhiệm được.',
-        sentence: 'Someone who ___ can never be a responsible person.',
-        options: ['becomes engrossed in harmful pastimes', 'briefly samples an unfamiliar pastime', 'merely discusses the appeal of a pastime', 'keeps a pastime under detached observation'], answer: 0,
+        taskKind: 'expression-choice', sentence: '___',
+        options: ['Someone who lets harmful pleasures take over their life can never be a responsible person.', 'A person absorbed in harmful pastimes cannot be responsible.', 'Responsibility is incompatible with a life consumed by harmful pleasures.', 'No one can be responsible while caught up in damaging forms of enjoyment.'], answer: 0,
+        preferredAnswers: [0], validAnswers: [0,1,2,3],
+        selectionCriterion: 'Giữ người sa đà làm chủ ngữ, sắc thái mất giới hạn của sa đà và lực không bao giờ; các cách khái quát hóa vẫn dùng được nhưng đổi cách dẫn ý.',
         rationales: [
-          'becomes engrossed in harmful pastimes: chìm sâu, khó dứt sự chú tâm; giữ ý sa đà.',
-          'briefly samples an unfamiliar pastime: thử ngắn một lần; làm nhẹ mức mê đắm.',
-          'merely discusses the appeal of a pastime: chỉ bàn về sức hấp dẫn; đổi tham gia thành nói chuyện.',
-          'keeps a pastime under detached observation: quan sát không bị cuốn; trái trạng thái sa vào thú vui.'
-        ], dimension: 'absorption in harmful pleasure versus sampling, discussion, and detached observation'
+          'Someone who lets harmful pleasures take over their life can never be a responsible person.: ưu tiên vì giữ cấu trúc nói về người, mức sa đà và lực can never.',
+          'A person absorbed in harmful pastimes cannot be responsible.: dùng được và gọn; absorbed nhấn sự chú tâm sâu, ít gợi đánh mất chừng mực hơn take over their life.',
+          'Responsibility is incompatible with a life consumed by harmful pleasures.: dùng được; biến lời nói về người thành nhận định khái niệm, có giọng nghị luận hơn.',
+          'No one can be responsible while caught up in damaging forms of enjoyment.: dùng được; tổ chức thành tình trạng đang mắc vào, với nhịp phủ định đưa ra đầu.'
+        ], dimension: 'person-focused warning versus compressed description, abstract incompatibility, and situational framing'
       },
       {
         sourceCue: 'không còn đầu óc tâm hồn nghĩ đến người thân nữa', targetVietnamese: 'Nghiện rượu, mê cờ bạc, ham sắc đẹp... thì không còn đầu óc tâm hồn nghĩ đến người thân nữa.',
-        sentence: 'Obsession with alcohol, gambling, and physical beauty ___ concern for loved ones.',
-        options: ['crowds out', 'merely discloses', 'reaffirms', 'gives expression to'], answer: 0,
+        taskKind: 'expression-choice', sentence: '___',
+        options: ['Obsession with alcohol, gambling, and physical beauty leaves no room in the mind for loved ones.', 'People consumed by drink, gambling, and physical beauty no longer spare a thought for those they love.', 'Concern for loved ones is crowded out by an obsession with alcohol, gambling, and physical beauty.', 'When drink, gambling, and physical beauty absorb a person, thoughts of loved ones fall by the wayside.'], answer: 0,
+        preferredAnswers: [0,1], validAnswers: [0,1,2,3],
+        selectionCriterion: 'Giữ ba điều mê đắm và việc không còn chỗ nghĩ tới người thân. Ưu tiên cách giữ trực tiếp hình ảnh tâm hoặc hành vi không còn nghĩ, hơn cách chuyển thành quan tâm hay dùng thành ngữ mới.',
         rationales: [
-          'crowds out: lấn chỗ khiến điều khác không còn chỗ đứng; giữ hình ảnh tâm hết chỗ cho người thân.',
-          'merely discloses: chỉ làm lộ sự quan tâm; không diễn đạt việc bị loại khỏi tâm.',
-          'reaffirms: khẳng định lại sự quan tâm; đảo ảnh hưởng của mê đắm.',
-          'gives expression to: bộc lộ lòng quan tâm; khác việc không còn nghĩ đến người thân.'
-        ], dimension: 'displacement of concern versus disclosure, reaffirmation, and expression'
+          'Obsession with alcohol, gambling, and physical beauty leaves no room in the mind for loved ones.: ưu tiên vì dùng sự mê đắm làm lực lấn chỗ, giữ hình ảnh tâm không còn chỗ.',
+          'People consumed by drink, gambling, and physical beauty no longer spare a thought for those they love.: cùng mức ưu tiên; đặt người ở đầu và diễn đạt trực tiếp việc không còn nghĩ tới người thân.',
+          'Concern for loved ones is crowded out by an obsession with alcohol, gambling, and physical beauty.: dùng được; đưa phần bị mất lên đầu bằng bị động, nhấn lòng quan tâm thay cho hoạt động nghĩ.',
+          'When drink, gambling, and physical beauty absorb a person, thoughts of loved ones fall by the wayside.: dùng được; mệnh đề when làm câu kể giàu chuyển động, nhưng thành ngữ thêm một hình ảnh ngoài nguồn.'
+        ], dimension: 'mental space and human subject versus displaced concern and added idiomatic imagery'
       },
       {
         sourceCue: 'chăm sóc được cho người thân yêu', targetVietnamese: 'chăm sóc được cho người thân yêu',
-        sentence: 'We want to be able to ___ our loved ones.',
-        options: ['care for', 'worry about', 'speak on behalf of', 'take pride in'], answer: 0,
+        taskKind: 'expression-choice', sentence: '___',
+        options: ['We want to be able to care for those we love.', 'Our aim is to be able to look after our loved ones.', 'We want to be in a position to meet the needs of those close to us.', 'We want to be able to provide our loved ones with care.'], answer: 0,
+        preferredAnswers: [0,1], validAnswers: [0,1,2,3],
+        selectionCriterion: 'Giữ khả năng chăm sóc người thân trong giọng gần gũi. Không coi một lối chủ động là đúng còn một lối chủ ngữ mục tiêu là sai khi chúng sát ngang nhau.',
         rationales: [
-          'care for: chăm sóc bằng sự quan tâm và việc làm; đúng bổn phận được nêu.',
-          'worry about: lo lắng; có cảm xúc mà chưa chắc chăm lo được.',
-          'speak on behalf of: nói đại diện; không bao quát công việc chăm sóc.',
-          'take pride in: tự hào về; nói cảm xúc của mình chứ chưa giúp được người thân.'
-        ], dimension: 'practical care versus worry, representation, and pride'
+          'We want to be able to care for those we love.: ưu tiên vì trực tiếp, đủ khả năng và đối tượng được chăm, hợp giọng nói nguồn.',
+          'Our aim is to be able to look after our loved ones.: cùng mức ưu tiên; đổi trục sang mục tiêu mà vẫn giữ nội dung và sự gần gũi.',
+          'We want to be in a position to meet the needs of those close to us.: dùng được; diễn giải chăm sóc qua việc đáp ứng nhu cầu và điều kiện thực tế.',
+          'We want to be able to provide our loved ones with care.: dùng được; danh hóa care làm câu mang giọng cung cấp dịch vụ hơn hai cách ưu tiên.'
+        ], dimension: 'direct caregiving versus goal framing, meeting needs, and provision framing'
       }
     ]
   },
   {
-    id: 'M134', sourceBlockId: 'W12-B02', title: 'Hợp tác có thể hiện ra trong một việc rất nhỏ',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M134",
+    "sourceBlockId": "W12-B02",
+    "title": "Hợp tác có thể hiện ra trong một việc rất nhỏ",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'dù trực tiếp hay gián tiếp', targetVietnamese: 'Ngày nay, dù trực tiếp hay gián tiếp, con người vẫn đang hợp tác',
-        sentence: 'Today, people continue to ___.',
-        options: ['cooperate both directly and indirectly', 'cooperate only when meeting face to face', 'replace cooperation with direct command', 'require personal acquaintance before cooperating'], answer: 0,
-        rationales: [
-          'cooperate both directly and indirectly: giữ con người là người hợp tác và cả hai hình thức được nêu.',
-          'cooperate only when meeting face to face: chỉ hợp tác khi gặp; loại mất gián tiếp.',
-          'replace cooperation with direct command: thay phối hợp bằng mệnh lệnh; đổi bản chất hoạt động.',
-          'require personal acquaintance before cooperating: đòi phải quen biết; thêm điều kiện nguồn không có.'
-        ], dimension: 'recognition of two modes versus restriction, command, and acquaintance requirement'
+        "sourceCue": "dù trực tiếp hay gián tiếp",
+        "targetVietnamese": "Ngày nay, dù trực tiếp hay gián tiếp, con người vẫn đang hợp tác",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Today, people continue to cooperate, whether directly or indirectly.",
+          "People’s cooperation continues today in both direct and indirect forms.",
+          "Direct and indirect cooperation remain part of human life today.",
+          "People are still working together today, sometimes directly and sometimes indirectly."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ người làm chủ ngữ, hành động tiếp tục và sắc thái bất kể hình thức; so mạch hành động với danh hóa và cách phân tần suất.",
+        "rationales": [
+          "Today, people continue to cooperate, whether directly or indirectly.: ưu tiên vì giữ trục con người vẫn đang làm và sắc thái dù trực tiếp hay gián tiếp.",
+          "People’s cooperation continues today in both direct and indirect forms.: dùng được; lấy quá trình đã danh hóa làm chủ ngữ, giọng thuyết minh hơn.",
+          "Direct and indirect cooperation remain part of human life today.: dùng được; nhấn sự hiện diện trong đời sống hơn việc con người đang làm.",
+          "People are still working together today, sometimes directly and sometimes indirectly.: dùng được; sometimes chia theo các lần, khác nhẹ sắc thái không phân tần suất của nguồn."
+        ],
+        "dimension": "ongoing actor versus nominalized process, existence, and temporal distribution"
       },
       {
-        sourceCue: 'hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập', targetVietnamese: 'con người vẫn đang hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập này.',
-        sentence: 'People continue to ___ so that they can live in this vast, integrated global community.',
-        options: ['cooperate', 'merely coexist without interaction', 'compete exclusively', 'exercise a single centralized command'], answer: 0,
-        rationales: [
-          'cooperate: cùng góp phần và phối hợp; giữ tinh thần hợp tác để sống.',
-          'merely coexist without interaction: chỉ cùng tồn tại mà không tương tác; thiếu sự phối hợp.',
-          'compete exclusively: chỉ cạnh tranh; loại hợp tác vốn là trọng tâm.',
-          'exercise a single centralized command: cùng thi hành một lệnh trung tâm; thêm cơ cấu quyền lực nguồn không xác lập.'
-        ], dimension: 'cooperation versus bare coexistence, exclusive competition, and centralized command'
+        "sourceCue": "hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập",
+        "targetVietnamese": "con người vẫn đang hợp tác để sống trong cộng đồng thế giới rộng lớn hội nhập này.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "People continue to cooperate so that they can live in this vast, integrated global community.",
+          "Living in this vast, integrated global community involves people continuing to cooperate.",
+          "Through their continuing cooperation, people sustain life in this vast, interconnected global community.",
+          "People continue working together within this vast global community, where their lives are interconnected."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ quan hệ hợp tác để sống bằng một trục phương tiện–mục đích; các cách nhấn điều kiện hoặc kết quả vẫn dùng được nhưng chuyển điểm rơi.",
+        "rationales": [
+          "People continue to cooperate so that they can live in this vast, integrated global community.: ưu tiên vì giữ mục đích để sống rõ bằng so that và giữ con người làm chủ ngữ.",
+          "Living in this vast, integrated global community involves people continuing to cooperate.: dùng được; đưa việc sống lên đầu và nhìn hợp tác như một thành phần của đời sống.",
+          "Through their continuing cooperation, people sustain life in this vast, interconnected global community.: dùng được; mở bằng phương tiện rồi nhấn tác dụng duy trì đời sống.",
+          "People continue working together within this vast global community, where their lives are interconnected.: dùng được; làm rõ hội nhập qua mệnh đề where, còn quan hệ mục đích bớt nổi."
+        ],
+        "dimension": "purpose versus life-as-subject, means-fronting, and relative elaboration"
       },
       {
-        sourceCue: 'Đóng một đồng thuế', targetVietnamese: 'Đóng một đồng thuế là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.',
-        sentence: 'When we ___ even a single đồng in tax, we demonstrate cooperation with our country.',
-        options: ['pay', 'pledge to pay', 'assess', 'levy'], answer: 0,
-        rationales: [
-          'pay: thực nộp khoản thuế; giữ hành động đóng đã được dùng làm ví dụ.',
-          'pledge to pay: hứa nộp; chưa có sự đóng góp thực tế.',
-          'assess: xác định mức thuế; thuộc vai trò tính khoản phải nộp.',
-          'levy: đặt hoặc thu thuế theo thẩm quyền; đổi người đóng thành bên có quyền đánh thuế.'
-        ], dimension: 'payment versus pledge, assessment, and levy'
+        "sourceCue": "Đóng một đồng thuế",
+        "targetVietnamese": "Đóng một đồng thuế là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "By paying even a single đồng in tax, we already demonstrate our cooperation with the country as a whole.",
+          "Even a single đồng paid in tax is evidence of our cooperation with the whole country.",
+          "Our cooperation with the country as a whole is already evident when we pay just one đồng in tax.",
+          "When we contribute even a single đồng in tax, we give tangible expression to our cooperation with the entire country."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ khoản nhỏ như chính hành động chứng tỏ hợp tác; so trục người làm với khoản tiền làm bằng chứng và sự hợp tác làm đề tài.",
+        "rationales": [
+          "By paying even a single đồng in tax, we already demonstrate our cooperation with the country as a whole.: ưu tiên vì giữ việc ta làm, lượng nhỏ và ý đã chứng tỏ qua hành động ấy.",
+          "Even a single đồng paid in tax is evidence of our cooperation with the whole country.: dùng được; đưa khoản thuế lên làm bằng chứng, đổi động từ chứng tỏ thành danh từ evidence.",
+          "Our cooperation with the country as a whole is already evident when we pay just one đồng in tax.: dùng được; đưa hợp tác lên đầu rồi mới nói khi nào nó hiện rõ.",
+          "When we contribute even a single đồng in tax, we give tangible expression to our cooperation with the entire country.: dùng được; diễn giải việc nộp qua ý đóng góp và biểu hiện cụ thể, có nhịp dài hơn."
+        ],
+        "dimension": "demonstrating action versus evidence-subject, visible cooperation, and tangible expression"
       },
       {
-        sourceCue: 'chứng tỏ sự hợp tác của mình với cả đất nước', targetVietnamese: 'là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.',
-        sentence: 'In doing so, we have already ___.',
-        options: ['demonstrated our cooperation with the country as a whole', 'fully discharged every obligation to the country', 'replaced all other forms of civic participation', 'legislated the terms of civic participation'], answer: 0,
-        rationales: [
-          'demonstrated our cooperation with the country as a whole: giữ việc chứng tỏ đã có và phạm vi cả đất nước.',
-          'fully discharged every obligation to the country: hoàn tất mọi nghĩa vụ; mở một ví dụ nhỏ thành tuyệt đối.',
-          'replaced all other forms of civic participation: thay mọi hình thức khác; nguồn không loại các cách hợp tác khác.',
-          'legislated the terms of civic participation: đặt luật về tham gia; đổi người góp phần thành người lập pháp.'
-        ], dimension: 'evidence of participation versus total discharge, substitution, and legislation'
+        "sourceCue": "chứng tỏ sự hợp tác của mình với cả đất nước",
+        "targetVietnamese": "là ta đã chứng tỏ sự hợp tác của mình với cả đất nước rồi.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "In doing so, we have already demonstrated our cooperation with the country as a whole.",
+          "That act has already made our cooperation with the entire country visible.",
+          "Our cooperation with the whole country has already found expression in that act.",
+          "That is already a manifestation of our cooperation with the nation as a whole."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ ta đã chứng tỏ làm trục chính. Những cách lấy hành động hay sự hợp tác làm chủ ngữ vẫn tự nhiên nhưng thay trọng tâm người đang làm.",
+        "rationales": [
+          "In doing so, we have already demonstrated our cooperation with the country as a whole.: ưu tiên vì giữ chủ thể ta, hành động chứng tỏ và mức đã… rồi.",
+          "That act has already made our cooperation with the entire country visible.: dùng được; để hành động gây ra sự hiện rõ làm trọng tâm.",
+          "Our cooperation with the whole country has already found expression in that act.: dùng được; đưa hợp tác lên đầu rồi tìm nơi nó được biểu hiện.",
+          "That is already a manifestation of our cooperation with the nation as a whole.: dùng được; cách danh hóa làm câu tĩnh và có giọng nhận định hơn."
+        ],
+        "dimension": "human demonstration versus act-as-agent, cooperation-as-theme, and nominal manifestation"
       },
       {
-        sourceCue: 'ta chứng kiến sự tiến bộ của loài người', targetVietnamese: 'Và ta chứng kiến sự tiến bộ của loài người cho đến khi con người bắt đầu tạo ra robot có trí tuệ độc lập.',
-        sentence: 'And we ___ humanity’s progress to the point where humans begin creating robots with independent intelligence.',
-        options: ['witness', 'single-handedly accomplish', 'merely forecast without observing', 'claim exclusive credit for'], answer: 0,
-        rationales: [
-          'witness: thấy sự việc diễn ra; giữ vị trí người chứng kiến tiến bộ chung.',
-          'single-handedly accomplish: tự làm tất cả; đổi người quan sát thành tác nhân độc nhất.',
-          'merely forecast without observing: chỉ dự báo; trái việc chứng kiến được nguồn nói.',
-          'claim exclusive credit for: nhận công riêng; thêm thái độ chiếm thành quả chung.'
-        ], dimension: 'witnessing versus sole achievement, forecast, and exclusive credit'
+        "sourceCue": "ta chứng kiến sự tiến bộ của loài người",
+        "targetVietnamese": "Và ta chứng kiến sự tiến bộ của loài người cho đến khi con người bắt đầu tạo ra robot có trí tuệ độc lập.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "And we witness humanity’s progress to the point where humans begin creating robots with independent intelligence.",
+          "And we see humanity advance to the point of beginning to create robots with independent intelligence.",
+          "And humanity’s advance into creating robots with independent intelligence unfolds before our eyes.",
+          "And we are witnesses to humanity’s progress, now reaching the stage of creating robots with independent intelligence."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ người chứng kiến và mốc bắt đầu của tiến bộ. Dùng danh từ progress hoặc động từ advance đều có thể sát ngang nhau, không ép chỉ một cấu trúc.",
+        "rationales": [
+          "And we witness humanity’s progress to the point where humans begin creating robots with independent intelligence.: ưu tiên vì giữ người thấy, quá trình và mốc bắt đầu rõ ràng.",
+          "And we see humanity advance to the point of beginning to create robots with independent intelligence.: cùng mức ưu tiên; động từ advance làm câu chuyển động mà vẫn giữ đủ ý.",
+          "And humanity’s advance into creating robots with independent intelligence unfolds before our eyes.: dùng được; đưa tiến bộ lên trước và thêm hình ảnh diễn ra trước mắt.",
+          "And we are witnesses to humanity’s progress, now reaching the stage of creating robots with independent intelligence.: dùng được; nhấn vai nhân chứng, có nhịp trang trọng hơn nguồn."
+        ],
+        "dimension": "witnessing versus perception-and-action, unfolding image, and witness role"
       }
     ]
   },
   {
-    id: 'M135', sourceBlockId: 'W12-B03', title: 'Biết quy tắc, tuân theo và cùng vận hành',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M135",
+    "sourceBlockId": "W12-B03",
+    "title": "Biết quy tắc, tuân theo và cùng vận hành",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'có những Nguyên tắc riêng của mình', targetVietnamese: 'Trong cộng đồng, cơ quan, tu viện, hội đoàn... cũng có những Nguyên tắc riêng của mình',
-        sentence: 'Communities, organizations, monasteries, and associations also ___.',
-        options: ['have their own governing rules', 'apply one identical rulebook without variation', 'delegate every rule to individual preference', 'dispense with any shared standard'], answer: 0,
-        rationales: [
-          'have their own governing rules: có nguyên tắc nội bộ; giữ sự khác nhau của từng cộng đồng.',
-          'apply one identical rulebook without variation: dùng một bộ y hệt; xóa chữ “riêng”.',
-          'delegate every rule to individual preference: để tùy mỗi người; không còn tính nguyên tắc chung.',
-          'dispense with any shared standard: bỏ tiêu chuẩn chung; trái việc các tổ chức đều có nguyên tắc.'
-        ], dimension: 'institution-specific rules versus uniform imposition, private preference, and no standards'
+        "sourceCue": "có những Nguyên tắc riêng của mình",
+        "targetVietnamese": "Trong cộng đồng, cơ quan, tu viện, hội đoàn... cũng có những Nguyên tắc riêng của mình",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Communities, organizations, monasteries, and associations also have rules of their own.",
+          "Communities, organizations, monasteries, and associations also operate within their own sets of rules.",
+          "In communities, organizations, monasteries, and associations, shared life is also governed by rules particular to each group.",
+          "Communities, organizations, monasteries, and associations also have their own frameworks of rules."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ nhận định trực tiếp mỗi tổ chức có nguyên tắc riêng, không cần diễn giải trước sang việc vận hành hoặc cơ chế điều hành.",
+        "rationales": [
+          "Communities, organizations, monasteries, and associations also have rules of their own.: ưu tiên vì giữ đủ các loại cộng đồng, chữ cũng và nhận định có quy tắc riêng bằng trục gọn.",
+          "Communities, organizations, monasteries, and associations also operate within their own sets of rules.: dùng được; đưa cách tổ chức hoạt động vào trọng tâm thay cho sự có nguyên tắc.",
+          "In communities, organizations, monasteries, and associations, shared life is also governed by rules particular to each group.: dùng được; đưa đời sống chung làm chủ ngữ bị động, giải thích chức năng quy tắc nhiều hơn.",
+          "Communities, organizations, monasteries, and associations also have their own frameworks of rules.: dùng được; framework gợi cả một hệ thống, có sắc thái cơ cấu hơn cách nói giản dị của nguồn."
+        ],
+        "dimension": "possession of rules versus operation, governed shared life, and institutional framework"
       },
       {
-        sourceCue: 'giúp cộng đồng được ổn định', targetVietnamese: 'giúp cộng đồng được ổn định.',
-        sentence: 'These rules help ___ the community.',
-        options: ['stabilize', 'merely describe', 'chronicle the origins of', 'rank each member of'], answer: 0,
-        rationales: [
-          'stabilize: giúp vững và bớt xáo trộn; giữ tác dụng thực của nguyên tắc.',
-          'merely describe: chỉ mô tả; bỏ chức năng giúp đời sống chung ổn định.',
-          'chronicle the origins of: ghi lịch sử hình thành; đổi tác dụng vận hành sang chép sử.',
-          'rank each member of: phân thứ bậc; nguồn không gắn nguyên tắc với xếp hạng con người.'
-        ], dimension: 'stabilization versus description, chronicle, and ranking'
+        "sourceCue": "giúp cộng đồng được ổn định",
+        "targetVietnamese": "giúp cộng đồng được ổn định.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "These rules help keep the community stable.",
+          "These rules contribute to the community’s stability.",
+          "With these rules in place, the community has a firmer basis for stability.",
+          "The community’s stability is supported by these rules."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ tác dụng giúp ổn định mà không bảo đảm tuyệt đối. Hai cách nói trực tiếp về sự trợ giúp và đóng góp đều sát; cân nhắc trọng tâm quy tắc hay sự ổn định.",
+        "rationales": [
+          "These rules help keep the community stable.: ưu tiên vì giữ help và trạng thái stable trên một trục trực tiếp.",
+          "These rules contribute to the community’s stability.: cùng mức ưu tiên; đổi tính từ thành danh từ nhưng vẫn giữ mức góp phần, không nâng thành bảo đảm.",
+          "With these rules in place, the community has a firmer basis for stability.: dùng được; nhìn quy tắc như nền tảng tạo thuận lợi, thêm hình ảnh nền móng.",
+          "The community’s stability is supported by these rules.: dùng được; bị động đưa ổn định lên đầu, hợp khi sự ổn định đã là đề tài, ít theo trục nguồn đang nói quy tắc."
+        ],
+        "dimension": "direct support versus contribution, enabling foundation, and passive stability theme"
       },
       {
-        sourceCue: 'Mỗi người, mỗi thành viên cứ thuộc', targetVietnamese: 'Mỗi người, mỗi thành viên cứ thuộc',
-        sentence: 'Each person, every member, is to ___ the rules.',
-        options: ['know', 'merely acknowledge the existence of', 'claim authorship of', 'entrust others alone with interpreting'], answer: 0,
-        rationales: [
-          'know: biết, nắm nội dung; đúng yêu cầu thuộc nguyên tắc.',
-          'merely acknowledge the existence of: chỉ nhận có một bộ; chưa biết điều cần tuân.',
-          'claim authorship of: nhận mình đặt ra; đổi người cần học thành người soạn.',
-          'entrust others alone with interpreting: chỉ giao người khác giải nghĩa; không giữ yêu cầu từng thành viên tự nắm nội dung.'
-        ], dimension: 'knowing content versus recognizing existence, authorship claim, and outsourced familiarity'
+        "sourceCue": "Mỗi người, mỗi thành viên cứ thuộc",
+        "targetVietnamese": "Mỗi người, mỗi thành viên cứ thuộc",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Each person, every member, needs to know the rules by heart.",
+          "Every member needs to have the rules firmly in mind.",
+          "Each member needs to be thoroughly familiar with the rules.",
+          "The rules need to be well known to every member."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ mức thuộc và nhịp nhấn mỗi người, mỗi thành viên. Không chỉ so động từ know mà xét cả độ biết và việc câu giữ hay bỏ điệp nhấn.",
+        "rationales": [
+          "Each person, every member, needs to know the rules by heart.: ưu tiên vì giữ điệp nhấn chủ thể và mức thuộc bằng by heart.",
+          "Every member needs to have the rules firmly in mind.: dùng được; nhấn việc nhớ chắc trong đầu, nhưng không giữ đủ nhịp điệp mỗi người, mỗi thành viên.",
+          "Each member needs to be thoroughly familiar with the rules.: dùng được; nghiêng sang thông thạo nội dung hơn thuộc lòng, vẫn phù hợp việc cần nắm quy tắc.",
+          "The rules need to be well known to every member.: dùng được; đưa quy tắc lên đầu bằng bị động, còn mức well known rộng hơn thuộc."
+        ],
+        "dimension": "memorized content and repeated human subject versus mental retention, familiarity, and passive knowing"
       },
       {
-        sourceCue: 'tuân thủ các nguyên tắc đó', targetVietnamese: 'và tuân thủ các nguyên tắc đó',
-        sentence: 'And members are to ___.',
-        options: ['abide by them', 'pay lip service to them', 'interpret them for other people without following them', 'petition to rewrite them instead of applying them'], answer: 0,
-        rationales: [
-          'abide by them: thực sự tuân theo; giữ yêu cầu về hành vi.',
-          'pay lip service to them: ngoài miệng tán thành; thiếu làm theo.',
-          'interpret them for other people without following them: giải thích cho người nhưng mình không tuân; bỏ hành động của từng thành viên.',
-          'petition to rewrite them instead of applying them: xin sửa thay vì thi hành; là công việc khác yêu cầu nguồn.'
-        ], dimension: 'compliance versus lip service, external interpretation, and revision petition'
+        "sourceCue": "tuân thủ các nguyên tắc đó",
+        "targetVietnamese": "và tuân thủ các nguyên tắc đó",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "And members should abide by those rules.",
+          "And those rules should be observed by the members.",
+          "And members should conduct themselves in accordance with those rules.",
+          "And members should act within the framework of those rules."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Tiếp nối việc mỗi thành viên biết quy tắc bằng một hành động tuân thủ gọn; bị động hoặc cách diễn giải hành vi vẫn đúng nhưng đổi điểm nhấn hay nhịp.",
+        "rationales": [
+          "And members should abide by those rules.: ưu tiên trong mạch nối với câu trước vì giữ cùng chủ thể thành viên và hành động tuân thủ gọn.",
+          "And those rules should be observed by the members.: dùng được; đưa quy tắc lên đầu, phù hợp khi muốn nhấn điều phải được tuân hơn người tuân.",
+          "And members should conduct themselves in accordance with those rules.: dùng được; giải thích việc tuân qua cách hành xử, dài hơn mà không thêm một bước nghĩa cần thiết.",
+          "And members should act within the framework of those rules.: dùng được; nhấn giới hạn khuôn khổ, ít trực tiếp vào sự tuân thủ từng nguyên tắc."
+        ],
+        "dimension": "continuing actor and concise compliance versus passive rule theme, conduct elaboration, and framework"
       },
       {
-        sourceCue: 'thì mọi việc êm ấm vô cùng', targetVietnamese: 'thì mọi việc êm ấm vô cùng.',
-        sentence: 'Then everything ___.',
-        options: ['runs very smoothly', 'merely appears calm through concealed conflict', 'becomes exempt from every form of accountability', 'is left entirely without coordination'], answer: 0,
-        rationales: [
-          'runs very smoothly: giữ mức “êm ấm vô cùng” của mọi việc trong điều kiện vừa nêu.',
-          'merely appears calm through concealed conflict: chỉ giả yên do che xung đột; thêm giả tạo không có.',
-          'becomes exempt from every form of accountability: khỏi mọi trách nhiệm; không được suy từ ổn định.',
-          'is left entirely without coordination: không cần phối hợp; ngược vai trò của quy tắc chung.'
-        ], dimension: 'smooth functioning versus concealed conflict, immunity, and absent coordination'
+        "sourceCue": "thì mọi việc êm ấm vô cùng",
+        "targetVietnamese": "thì mọi việc êm ấm vô cùng.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Then everything runs very smoothly.",
+          "All affairs then proceed in complete harmony.",
+          "The result is a very harmonious communal life.",
+          "Under those conditions, day-to-day affairs run with remarkable ease."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ kết quả mọi việc êm thuận với nhịp đơn giản, không đổi riêng thành bầu không khí cộng đồng hay nhấn thao tác làm việc nhẹ nhàng.",
+        "rationales": [
+          "Then everything runs very smoothly.: ưu tiên vì then giữ mối nối, everything giữ phạm vi và very smoothly giữ kết quả bằng lời giản dị.",
+          "All affairs then proceed in complete harmony.: dùng được; harmony nhấn hòa hợp, giọng trịnh trọng hơn hình ảnh mọi việc êm.",
+          "The result is a very harmonious communal life.: dùng được; khái quát thành chất lượng đời sống chung, thay việc mọi thứ vận hành bằng một trạng thái.",
+          "Under those conditions, day-to-day affairs run with remarkable ease.: dùng được; nói rõ quan hệ điều kiện nhưng nghiêng sang thuận tiện, dễ dàng trong việc thường nhật."
+        ],
+        "dimension": "smooth overall result versus harmonious proceedings, communal state, and practical ease"
       }
     ]
   },
   {
-    id: 'M136', sourceBlockId: 'W12-B04', title: 'Biết ơn đóng góp thật, không ca ngợi quyền lực vô điều kiện',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M136",
+    "sourceBlockId": "W12-B04",
+    "title": "Biết ơn đóng góp thật, không ca ngợi quyền lực vô điều kiện",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'tất cả những người đã góp phần xây dựng cuộc sống này', targetVietnamese: 'chúng ta còn biết ơn tất cả những người đã góp phần xây dựng cuộc sống này, xã hội này.',
-        sentence: 'Our gratitude also ___.',
-        options: ['extends to everyone who has helped build our life and society', 'is restricted to people who give us personal gifts', 'depends exclusively on personal acquaintance', 'is reserved for the most publicly celebrated contributors'], answer: 0,
-        rationales: [
-          'extends to everyone who has helped build our life and society: giữ cả chữ “tất cả”, việc đã đóng góp và hai đối tượng cuộc sống, xã hội.',
-          'is restricted to people who give us personal gifts: chỉ cảm ơn người cho riêng; thu hẹp ích lợi xã hội.',
-          'depends exclusively on personal acquaintance: chỉ khi quen biết; không có điều kiện đó trong đoạn.',
-          'is reserved for the most publicly celebrated contributors: chỉ dành người nổi tiếng; bỏ đóng góp ít được thấy.'
-        ], dimension: 'extended gratitude versus gift-only, acquaintance-only, and fame-only gratitude'
+        "sourceCue": "tất cả những người đã góp phần xây dựng cuộc sống này",
+        "targetVietnamese": "chúng ta còn biết ơn tất cả những người đã góp phần xây dựng cuộc sống này, xã hội này.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "We are also grateful to everyone who has helped build this life and this society.",
+          "Our gratitude also extends to all who have contributed to building the life and society we share.",
+          "Everyone who has helped build our shared life and society also has our gratitude.",
+          "We also owe a debt of gratitude to all whose contributions have helped shape this life and society."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ biết ơn tất cả người đã góp phần, với giọng gần gũi và không tự tăng thành món nợ nặng. Đổi chủ ngữ vẫn chấp nhận khi đủ nội dung và giữ điểm nhấn mở rộng lòng biết ơn.",
+        "rationales": [
+          "We are also grateful to everyone who has helped build this life and this society.: ưu tiên vì giữ chủ thể chúng ta, chữ cũng, tất cả và việc đã góp phần bằng một mệnh đề trực tiếp.",
+          "Our gratitude also extends to all who have contributed to building the life and society we share.: cùng mức ưu tiên; đổi chủ ngữ sang lòng biết ơn để nhấn sự mở rộng, vẫn hợp mạch đoạn.",
+          "Everyone who has helped build our shared life and society also has our gratitude.: dùng được; đưa người nhận lòng biết ơn lên đầu, trọng tâm khác mạch đang mở rộng thái độ của ta.",
+          "We also owe a debt of gratitude to all whose contributions have helped shape this life and society.: dùng được; hình ảnh món nợ đẩy sắc thái ân nghĩa lên rõ hơn cách nói biết ơn đơn thuần."
+        ],
+        "dimension": "grateful human subject versus expanding gratitude, recipient theme, and indebtedness image"
       },
       {
-        sourceCue: 'cảnh sát giữ gìn an ninh trật tự', targetVietnamese: 'Những người cảnh sát giữ gìn an ninh trật tự đem lại cho mọi người cuộc sống bình yên cũng làm chúng ta biết ơn.',
-        sentence: 'We are also grateful to police officers who ___ public order and enable everyone to live in peace.',
-        options: ['maintain', 'merely assess', 'suspend', 'undermine'], answer: 0,
-        rationales: [
-          'maintain: giữ gìn để tình trạng tiếp tục; đúng chức năng an ninh trật tự được cảm ơn.',
-          'merely assess: chỉ đánh giá; chưa thực hiện việc giữ yên.',
-          'suspend: đình chỉ; đảo chức năng bảo vệ trật tự.',
-          'undermine: phá yếu nền trật tự; trái việc giữ gìn an ninh được cảm ơn.'
-        ], dimension: 'maintenance versus assessment, suspension, and substitution for judgment'
+        "sourceCue": "cảnh sát giữ gìn an ninh trật tự",
+        "targetVietnamese": "Những người cảnh sát giữ gìn an ninh trật tự đem lại cho mọi người cuộc sống bình yên cũng làm chúng ta biết ơn.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "We are also grateful to police officers who maintain public order and make it possible for everyone to live in peace.",
+          "Police officers who safeguard public order and help everyone live peacefully also deserve our gratitude.",
+          "By preserving security and public order, police officers enable people to live peacefully and earn our gratitude.",
+          "We also feel gratitude for the peaceful life made possible by police officers’ work in maintaining security and order."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ người cảnh sát là người được biết ơn, cùng việc giữ trật tự dẫn tới bình yên. Không lấy đáng được cảm ơn hoặc kiếm được sự cảm ơn làm điểm rơi thay cho lòng biết ơn đang có.",
+        "rationales": [
+          "We are also grateful to police officers who maintain public order and make it possible for everyone to live in peace.: ưu tiên vì giữ đúng người được biết ơn, hành động và tác dụng với mọi người.",
+          "Police officers who safeguard public order and help everyone live peacefully also deserve our gratitude.: dùng được; deserve chuyển lời bày tỏ thành đánh giá sự xứng đáng.",
+          "By preserving security and public order, police officers enable people to live peacefully and earn our gratitude.: dùng được; by làm quan hệ phương tiện rõ, còn earn gợi sự cảm ơn là kết quả được nhận.",
+          "We also feel gratitude for the peaceful life made possible by police officers’ work in maintaining security and order.: dùng được; đặt cuộc sống bình yên làm đối tượng trực tiếp, rồi mới nhắc người tạo điều kiện."
+        ],
+        "dimension": "gratitude to actors versus deservingness, earning gratitude, and gratefulness for a benefit"
       },
       {
-        sourceCue: 'xoa dịu phần nào nỗi đau khổ về bệnh tật', targetVietnamese: 'Những bác sĩ, những thầy thuốc đã cố gắng xoa dịu phần nào nỗi đau khổ về bệnh tật cho chúng ta.',
-        sentence: 'Doctors and other healers have tried to ___ the suffering illness causes us.',
-        options: ['alleviate some of', 'eradicate all', 'merely classify', 'conceal every outward sign of'], answer: 0,
-        rationales: [
-          'alleviate some of: làm nhẹ một phần; giữ cả mức độ lẫn tác dụng giúp.',
-          'eradicate all: diệt hết; vượt phạm vi “phần nào”.',
-          'merely classify: chỉ phân loại; bỏ việc làm bớt đau khổ.',
-          'conceal every outward sign of: giấu hết biểu hiện; khác giảm khổ thật và thêm tính toàn bộ.'
-        ], dimension: 'partial relief versus eradication, classification, and concealment'
+        "sourceCue": "xoa dịu phần nào nỗi đau khổ về bệnh tật",
+        "targetVietnamese": "Những bác sĩ, những thầy thuốc đã cố gắng xoa dịu phần nào nỗi đau khổ về bệnh tật cho chúng ta.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Doctors and other healers have tried to alleviate some of the suffering illness causes us.",
+          "Doctors and other healers have sought to ease, in some measure, our suffering from illness.",
+          "Efforts have been made by doctors and other healers to bring us some relief from the suffering of illness.",
+          "Doctors and other healers have worked to make the suffering we experience through illness somewhat less severe."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ ba điều: người thầy thuốc chủ động cố gắng, đối tượng là nỗi khổ vì bệnh, mức chỉ một phần. Không ưu tiên từ trang trọng chỉ vì hiếm; so cả lực, trục câu và độ tải.",
+        "rationales": [
+          "Doctors and other healers have tried to alleviate some of the suffering illness causes us.: ưu tiên vì giữ người làm, have tried và some, với động từ làm nhẹ gánh nghĩa trực tiếp.",
+          "Doctors and other healers have sought to ease, in some measure, our suffering from illness.: cùng mức ưu tiên về nghĩa; ease giản dị, in some measure đặt giới hạn rõ dù nhịp ngắt trang trọng hơn.",
+          "Efforts have been made by doctors and other healers to bring us some relief from the suffering of illness.: dùng được; danh hóa efforts và bị động làm người thực hiện lùi lại, câu nặng hơn.",
+          "Doctors and other healers have worked to make the suffering we experience through illness somewhat less severe.: dùng được; giữ sự nỗ lực và mức giảm, nhưng tách nghĩa xoa dịu thành một cấu trúc phân tích dài."
+        ],
+        "dimension": "actor and bounded attempt versus measured easing, passive effort, and analytic severity reduction"
       },
       {
-        sourceCue: 'đứng mũi chịu sào', targetVietnamese: 'Vì họ đã “đứng mũi chịu sào”, lo cho dân, cho nước, tìm cách làm cho xã hội ngày càng văn minh, tiến bộ.',
-        sentence: 'This is because they have ___ responsibility, cared for the people and the country, and sought to make society more civilized and progressive.',
-        options: ['shouldered', 'merely symbolized', 'disclaimed', 'privately profited from avoiding'], answer: 0,
-        rationales: [
-          'shouldered: đã đứng ra gánh; giữ thành ngữ và thời hoàn thành được nguồn nêu.',
-          'merely symbolized: chỉ làm biểu tượng; không đảm đương thực.',
-          'disclaimed: chối bỏ; trái chịu sào, lo dân nước.',
-          'privately profited from avoiding: được lợi riêng nhờ né trách nhiệm; thuộc hành vi tác giả loại khỏi lời cảm ơn.'
-        ], dimension: 'bearing responsibility versus symbolism, disavowal, and profitable evasion'
+        "sourceCue": "đứng mũi chịu sào",
+        "targetVietnamese": "Vì họ đã “đứng mũi chịu sào”, lo cho dân, cho nước, tìm cách làm cho xã hội ngày càng văn minh, tiến bộ.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "For they have shouldered responsibility, cared for the people and the country, and sought to make society more civilized and progressive.",
+          "For they have borne the burden of leadership, looked after the people and the country, and worked toward a more civilized and progressive society.",
+          "For the burden of responsibility has rested on them as they have cared for the people and the country and pursued society’s continued development and civilization.",
+          "For they have taken responsibility for the people and the country, striving to advance society and make it more civilized."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Chuyển thành ngữ sang hành động gánh vác tự nhiên, giữ chuỗi lo dân nước rồi tìm cách phát triển xã hội. Không dịch hình ảnh mũi thuyền theo chữ hoặc vì muốn gọn mà xóa hết chuỗi hành động.",
+        "rationales": [
+          "For they have shouldered responsibility, cared for the people and the country, and sought to make society more civilized and progressive.: ưu tiên vì giữ hình ảnh gánh, ba vế hành động và việc đã nỗ lực chứ không tự xác nhận thành công.",
+          "For they have borne the burden of leadership, looked after the people and the country, and worked toward a more civilized and progressive society.: cùng mức ưu tiên; diễn đạt idiom bằng gánh nặng lãnh đạo, vẫn giữ chuỗi trách nhiệm và đích hướng tới.",
+          "For the burden of responsibility has rested on them as they have cared for the people and the country and pursued society’s continued development and civilization.: dùng được; lấy gánh nặng làm chủ ngữ khiến vai chủ động bớt nổi, danh từ cuối câu làm giọng hàn lâm hơn.",
+          "For they have taken responsibility for the people and the country, striving to advance society and make it more civilized.: dùng được; gộp chăm lo vào trách nhiệm, gọn hơn nhưng ít giữ ba nhịp nguyên văn."
+        ],
+        "dimension": "serial responsible actions versus burden theme and compressed responsibility framing"
       },
       {
-        sourceCue: 'trừ những người lãnh đạo độc tài, tham nhũng', targetVietnamese: 'trừ những người lãnh đạo độc tài, tham nhũng, vơ vét, bóc lột nhân dân…',
-        sentence: 'This gratitude ___.',
-        options: ['excludes leaders who rule tyrannically, engage in corruption, plunder, or exploit the people', 'absolves oppressive officials because they hold office', 'extends indiscriminately to all officials', 'withdraws all scrutiny of official misconduct'], answer: 0,
-        rationales: [
-          'excludes leaders who rule tyrannically, engage in corruption, plunder, or exploit the people: giữ đủ các hành vi bị loại khỏi lời cảm ơn.',
-          'absolves oppressive officials because they hold office: miễn lỗi vì có chức; đảo việc loại khỏi người được cảm ơn.',
-          'extends indiscriminately to all officials: không phân biệt ai; xóa điều kiện về đóng góp tốt.',
-          'withdraws all scrutiny of official misconduct: bỏ xét sai phạm; trái sự nêu rõ độc tài và tham nhũng.'
-        ], dimension: 'exclusion from praise versus absolution, immunity, and withdrawn scrutiny'
+        "sourceCue": "trừ những người lãnh đạo độc tài, tham nhũng",
+        "targetVietnamese": "trừ những người lãnh đạo độc tài, tham nhũng, vơ vét, bóc lột nhân dân…",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "This does not include leaders who rule tyrannically, engage in corruption, plunder, or exploit the people.",
+          "Our gratitude does not extend to leaders who rule tyrannically, engage in corruption, plunder, or exploit the people.",
+          "Leaders who rule tyrannically, engage in corruption, plunder, or exploit the people are excluded from this gratitude.",
+          "An exception must be made for leaders whose rule is marked by tyranny, corruption, plunder, or exploitation of the people."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ vai trò khoanh ngoại lệ trong lời biết ơn, cùng đủ bốn loại hành vi. So một phần chú thích ngắn với một nhận định bị động hoặc lời đòi phải lập ngoại lệ.",
+        "rationales": [
+          "This does not include leaders who rule tyrannically, engage in corruption, plunder, or exploit the people.: ưu tiên vì gọn như một phần chú thích giới hạn phạm vi, vẫn giữ đủ bốn hành vi.",
+          "Our gratitude does not extend to leaders who rule tyrannically, engage in corruption, plunder, or exploit the people.: cùng mức ưu tiên; nói rõ phạm vi lòng biết ơn, phù hợp khi cần câu đứng độc lập.",
+          "Leaders who rule tyrannically, engage in corruption, plunder, or exploit the people are excluded from this gratitude.: dùng được; đưa nhóm bị loại ra làm đề tài, lực thông báo nổi hơn vai chú thích.",
+          "An exception must be made for leaders whose rule is marked by tyranny, corruption, plunder, or exploitation of the people.: dùng được; danh hóa các hành vi và must be made làm lời mang giọng quy định hơn."
+        ],
+        "dimension": "parenthetical scope versus explicit gratitude range, passive exception, and normative nominalization"
       }
     ]
   },
   {
-    id: 'M137', sourceBlockId: 'W12-B05', title: 'Đã cùng nương nhau, còn cần giữ tinh thần hợp tác',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M137",
+    "sourceBlockId": "W12-B05",
+    "title": "Đã cùng nương nhau, còn cần giữ tinh thần hợp tác",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'ta quay lại với sự hợp tác trực tiếp', targetVietnamese: 'Nhưng thôi, ta quay lại với sự hợp tác trực tiếp trong những công việc gần gũi với mình.',
-        sentence: 'But let us now ___.',
-        options: ['return to direct cooperation in tasks close to home', 'retract the claim that we already cooperate indirectly', 'move from local cooperation to global cooperation for the first time', 'rule out cooperation beyond local groups'], answer: 0,
-        rationales: [
-          'return to direct cooperation in tasks close to home: quay lại hợp tác trực tiếp gần mình; giữ hướng chuyển mạch.',
-          'retract the claim that we already cooperate indirectly: rút khẳng định trước; tác giả vẫn công nhận điều ấy.',
-          'move from local cooperation to global cooperation for the first time: đi từ gần ra xa lần đầu; đảo hướng quay lại.',
-          'rule out cooperation beyond local groups: loại quan hệ ngoài nhóm; biến trọng tâm bàn luận thành ranh giới tuyệt đối.'
-        ], dimension: 'return of focus versus permanent restriction, opposition, and subordination'
+        "sourceCue": "ta quay lại với sự hợp tác trực tiếp",
+        "targetVietnamese": "Nhưng thôi, ta quay lại với sự hợp tác trực tiếp trong những công việc gần gũi với mình.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "But let us return to direct cooperation in tasks close to home.",
+          "Let us now bring the discussion back to working directly with others in our everyday activities.",
+          "But the focus now returns to direct cooperation in the work immediately around us.",
+          "Turning back to matters closer to home, we can consider how people work directly with one another."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ động tác mời người đọc quay lại chủ đề và giọng chuyển mạch nhẹ. Đưa cuộc bàn luận hoặc điểm nhìn làm chủ ngữ đều đúng nhưng xa hơn vai chúng ta đang cùng bàn.",
+        "rationales": [
+          "But let us return to direct cooperation in tasks close to home.: ưu tiên vì giữ but, lời mời let us và hướng quay lại chủ đề gần bằng nhịp gọn.",
+          "Let us now bring the discussion back to working directly with others in our everyday activities.: dùng được; nói rõ hành động tổ chức cuộc bàn luận, dài hơn lời chuyển mạch nhẹ của nguồn.",
+          "But the focus now returns to direct cooperation in the work immediately around us.: dùng được; chủ ngữ focus làm câu có giọng tường thuật cấu trúc bài hơn lời trò chuyện.",
+          "Turning back to matters closer to home, we can consider how people work directly with one another.: dùng được; cụm mở đầu và can consider biến lời chuyển đề thành mời xem xét một vấn đề."
+        ],
+        "dimension": "inclusive conversational return versus explicit discourse management, focus subject, and participial transition"
       },
       {
-        sourceCue: 'đã luôn luôn hợp tác gián tiếp với cả thế giới rồi', targetVietnamese: 'Ta đã luôn luôn hợp tác gián tiếp với cả thế giới rồi',
-        sentence: 'We have always ___.',
-        options: ['cooperated indirectly with the entire world', 'merely proposed a future form of global cooperation', 'opted out of every existing relationship of cooperation', 'replaced all indirect cooperation with personal contracts'], answer: 0,
-        rationales: [
-          'cooperated indirectly with the entire world: giữ “luôn luôn”, phương thức gián tiếp và phạm vi cả thế giới.',
-          'merely proposed a future form of global cooperation: mới đề xuất cho sau; xóa tình trạng đã có.',
-          'opted out of every existing relationship of cooperation: rút khỏi hết; trái câu đã luôn hợp tác.',
-          'replaced all indirect cooperation with personal contracts: thay hết bằng hợp đồng riêng; thêm cơ chế không có.'
-        ], dimension: 'ongoing participation versus future proposal, opting out, and total replacement'
+        "sourceCue": "đã luôn luôn hợp tác gián tiếp với cả thế giới rồi",
+        "targetVietnamese": "Ta đã luôn luôn hợp tác gián tiếp với cả thế giới rồi",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "We have been cooperating indirectly with the whole world all along.",
+          "All along, our lives have involved indirect cooperation with the entire world.",
+          "Indirect cooperation with the whole world has always been part of our lives.",
+          "We have always taken part in a worldwide network of indirect cooperation."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ lời nhắc rằng ta vẫn luôn đang làm điều ấy từ trước, không chỉ một chân lý về đời sống. So hiện tại hoàn thành tiếp diễn với sự tồn tại khái quát và hình ảnh mạng lưới.",
+        "rationales": [
+          "We have been cooperating indirectly with the whole world all along.: ưu tiên vì giữ người làm, tính liên tục và all along gợi điều vốn đã có mà ta vừa nhận ra.",
+          "All along, our lives have involved indirect cooperation with the entire world.: dùng được; đưa đời sống vào vai chứa hoạt động, chủ thể hành động ít nổi hơn.",
+          "Indirect cooperation with the whole world has always been part of our lives.: dùng được; chuyển thành nhận định tĩnh về một phần của cuộc sống.",
+          "We have always taken part in a worldwide network of indirect cooperation.: dùng được; hình ảnh mạng lưới làm rõ nương nhau nhưng được thêm từ việc diễn giải."
+        ],
+        "dimension": "ongoing prior participation versus life-as-container, enduring component, and network image"
       },
       {
-        sourceCue: 'đó là biểu hiện của đạo đức và sự thông minh', targetVietnamese: 'vì đó là biểu hiện của đạo đức và sự thông minh.',
-        sentence: 'For this cooperative spirit ___ ethical character and intelligence.',
-        options: ['expresses', 'counterfeits', 'replaces the need for', 'exempts a person from developing'], answer: 0,
-        rationales: [
-          'expresses: thể hiện phẩm chất qua cách sống; giữ ý biểu hiện thật.',
-          'counterfeits: làm giả dáng vẻ; thêm sự không thành thật.',
-          'replaces the need for: làm không cần phẩm chất; đảo quan hệ từ phẩm chất ra biểu hiện.',
-          'exempts a person from developing: miễn rèn đạo đức và trí tuệ; không được suy từ việc hợp tác.'
-        ], dimension: 'expression versus counterfeit, substitution, and exemption from cultivation'
+        "sourceCue": "đó là biểu hiện của đạo đức và sự thông minh",
+        "targetVietnamese": "vì đó là biểu hiện của đạo đức và sự thông minh.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "For such cooperation is an expression of ethical character and intelligence.",
+          "For such cooperation reflects both ethical character and intelligence.",
+          "For ethical character and intelligence find expression in such cooperation.",
+          "For a person’s ethics and intelligence reveal themselves in the way that person cooperates."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ quan hệ biểu hiện, với sự hợp tác đang được nói làm điểm nối sang hai phẩm chất. Dùng danh từ expression hay động từ reflects đều có thể sát, không mặc định mọi danh hóa đều kém.",
+        "rationales": [
+          "For such cooperation is an expression of ethical character and intelligence.: ưu tiên vì nối thẳng từ sự hợp tác vừa nhắc đến sang điều nó biểu hiện.",
+          "For such cooperation reflects both ethical character and intelligence.: cùng mức ưu tiên; động từ reflects gọn mà không đổi mối quan hệ biểu hiện.",
+          "For ethical character and intelligence find expression in such cooperation.: dùng được; đảo điểm xuất phát sang hai phẩm chất, phù hợp khi muốn lấy chúng làm đề tài.",
+          "For a person’s ethics and intelligence reveal themselves in the way that person cooperates.: dùng được; cá thể hóa con người và giải thích qua cách hợp tác, rộng hơn cấu trúc chỉ định “đó”."
+        ],
+        "dimension": "given cooperation as theme versus reflected qualities, reversed theme, and individualized conduct"
       },
       {
-        sourceCue: 'Càng thông minh, con người càng hướng tới sự hợp tác làm việc', targetVietnamese: 'Càng thông minh, con người càng hướng tới sự hợp tác làm việc.',
-        sentence: 'The more intelligent people become, the more they ___.',
-        options: ['incline toward working together', 'compel others to collaborate regardless of personal choice', 'guarantee success in every collaborative venture', 'merely pretend to find collaboration attractive'], answer: 0,
-        rationales: [
-          'incline toward working together: giữ xu hướng làm việc và cấu trúc tăng tiến càng… càng trong khung.',
-          'compel others to collaborate regardless of personal choice: ép người khác; đổi hướng của chính mình thành cưỡng chế bên ngoài.',
-          'guarantee success in every collaborative venture: bảo đảm mọi lần đều thành; nguồn nói xu hướng chứ không hứa kết quả.',
-          'merely pretend to find collaboration attractive: chỉ giả thích hợp tác; không có xu hướng hành động thật.'
-        ], dimension: 'inclination versus legal obligation, certification, and appointment'
+        "sourceCue": "Càng thông minh, con người càng hướng tới sự hợp tác làm việc",
+        "targetVietnamese": "Càng thông minh, con người càng hướng tới sự hợp tác làm việc.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "The more intelligent people are, the more they incline toward working together.",
+          "As people grow more intelligent, they become increasingly disposed to work with one another.",
+          "Greater intelligence is accompanied by a stronger inclination toward cooperative work.",
+          "With greater intelligence comes a greater readiness to work together."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ cấu trúc tương quan càng… càng và con người có xu hướng hợp tác. So nhận định tương quan chung với một quá trình trưởng thành và cách đưa phẩm chất trừu tượng làm chủ ngữ.",
+        "rationales": [
+          "The more intelligent people are, the more they incline toward working together.: ưu tiên vì giữ trực tiếp hai mức tương quan và chủ thể con người.",
+          "As people grow more intelligent, they become increasingly disposed to work with one another.: dùng được; dựng thành quá trình mỗi người phát triển theo thời gian, cụ thể hơn tương quan chung.",
+          "Greater intelligence is accompanied by a stronger inclination toward cooperative work.: dùng được; hai danh hóa làm câu khái quát, giọng nghiên cứu hơn cách nói về người.",
+          "With greater intelligence comes a greater readiness to work together.: dùng được; đảo ngữ đưa quan hệ lên đầu và nhấn sự sẵn sàng, gần nhưng không hoàn toàn cùng nét hướng tới."
+        ],
+        "dimension": "correlative human tendency versus temporal growth, nominal correlation, and inverted readiness"
       },
       {
-        sourceCue: 'bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau', targetVietnamese: 'Càng đạo đức, con người càng bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau.',
-        sentence: 'The more ethical people become, the more they ___.',
-        options: ['safeguard cooperation through mutual care and gratitude', 'retain cooperation only while personal profit is immediate', 'compel loyalty by keeping others indebted', 'treat cooperation as a means to monopolize all gains'], answer: 0,
-        rationales: [
-          'safeguard cooperation through mutual care and gratitude: giữ quan hệ chung bằng tình thương, ân nghĩa; đúng cách bảo vệ nguồn nêu.',
-          'retain cooperation only while personal profit is immediate: giữ chỉ khi lợi ngay; thêm điều kiện vị mình.',
-          'compel loyalty by keeping others indebted: buộc trung thành bằng mắc nợ; đổi ân nghĩa thành công cụ.',
-          'treat cooperation as a means to monopolize all gains: hợp tác để ôm hết lợi; trái yêu thương lẫn nhau.'
-        ], dimension: 'safeguarding mutual bonds versus conditional profit, debt leverage, and monopoly'
+        "sourceCue": "bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau",
+        "targetVietnamese": "Càng đạo đức, con người càng bảo vệ sự hợp tác đó trong tình yêu thương ân nghĩa với nhau.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "The more ethical people are, the more they safeguard that cooperation in a spirit of mutual love and gratitude.",
+          "As people become more ethical, they grow more committed to sustaining cooperation through care and gratitude for one another.",
+          "Greater ethical commitment strengthens the preservation of cooperation within bonds of mutual love and gratitude.",
+          "The more ethically people live, the more they nurture and protect their cooperation with one another through love and gratitude."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ hành động bảo vệ quan hệ đã có, cấu trúc càng… càng và tình thương, ân nghĩa làm tinh thần của việc bảo vệ. Không chuyển toàn bộ sang chỉ ý muốn hay thêm một công việc nuôi dưỡng khi không cần.",
+        "rationales": [
+          "The more ethical people are, the more they safeguard that cooperation in a spirit of mutual love and gratitude.: ưu tiên vì giữ sự tương quan, hành động bảo vệ và tinh thần giữa người với nhau.",
+          "As people become more ethical, they grow more committed to sustaining cooperation through care and gratitude for one another.: dùng được; nhấn quá trình và cam kết duy trì hơn hành động bảo vệ trực tiếp.",
+          "Greater ethical commitment strengthens the preservation of cooperation within bonds of mutual love and gratitude.: dùng được; danh hóa commitment và preservation làm câu trừu tượng, ít hướng vào việc người đang làm.",
+          "The more ethically people live, the more they nurture and protect their cooperation with one another through love and gratitude.: dùng được; giữ nhịp càng… càng nhưng nurture phát triển thêm ý nuôi dưỡng cạnh bảo vệ."
+        ],
+        "dimension": "safeguarding existing cooperation versus commitment, nominal preservation, and protective nurture"
       }
     ]
   },
   {
-    id: 'M138', sourceBlockId: 'W12-B06', title: 'Tự trọng là cố giữ phẩm giá trong cách sống',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M138",
+    "sourceBlockId": "W12-B06",
+    "title": "Tự trọng là cố giữ phẩm giá trong cách sống",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'luôn giữ gìn nhân cách cẩn thận', targetVietnamese: 'Vì thế, người có lòng tự trọng luôn giữ gìn nhân cách cẩn thận',
-        sentence: 'Therefore, self-respecting people always carefully ___.',
-        options: ['safeguard their character', 'manage appearances regardless of actual conduct', 'claim moral superiority over everyone else', 'conceal misconduct to protect a reputation'], answer: 0,
-        rationales: [
-          'safeguard their character: gìn giữ phẩm chất thật; đúng đối tượng nhân cách.',
-          'manage appearances regardless of actual conduct: chỉ quản hình ảnh; có thể vẫn làm sai.',
-          'claim moral superiority over everyone else: tự nhận hơn hết; đổi giữ mình thành đề cao mình.',
-          'conceal misconduct to protect a reputation: giấu lỗi để giữ tiếng; không phải không để phát sinh lỗi.'
-        ], dimension: 'care of character versus image management, superiority claim, and concealment'
+        "sourceCue": "luôn giữ gìn nhân cách cẩn thận",
+        "targetVietnamese": "Vì thế, người có lòng tự trọng luôn giữ gìn nhân cách cẩn thận",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Therefore, self-respecting people always take great care to safeguard their character.",
+          "Therefore, people with self-respect are consistently careful about preserving their personal integrity.",
+          "Therefore, careful preservation of character is a constant concern for those who respect themselves.",
+          "Therefore, self-respect leads people to keep a careful watch over their own conduct."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ người có tự trọng là người đang cẩn thận giữ nhân cách, cùng mức luôn luôn. Không loại cấu trúc khác nếu ngang nghĩa; phân biệt việc gìn giữ, mối quan tâm và sự tự theo dõi.",
+        "rationales": [
+          "Therefore, self-respecting people always take great care to safeguard their character.: ưu tiên vì giữ đủ chủ thể, mức luôn, sự cẩn thận và việc bảo vệ nhân cách.",
+          "Therefore, people with self-respect are consistently careful about preserving their personal integrity.: cùng mức ưu tiên; integrity tự nhiên trong ngữ cảnh đạo đức, vẫn giữ sự bền bỉ cẩn trọng.",
+          "Therefore, careful preservation of character is a constant concern for those who respect themselves.: dùng được; chuyển hành động thành mối quan tâm đã danh hóa nên bớt trực tiếp.",
+          "Therefore, self-respect leads people to keep a careful watch over their own conduct.: dùng được; trình bày như tác dụng của tự trọng và nhấn tự giám sát hành vi hơn toàn bộ nhân cách."
+        ],
+        "dimension": "careful personal safeguarding versus integrity, nominal concern, and conduct monitoring"
       },
       {
-        sourceCue: 'không để có lỗi cho người khác xem thường', targetVietnamese: 'không để có lỗi cho người khác xem thường.',
-        sentence: 'They take care to ___.',
-        options: ['avoid faults that would cause others to look down on them', 'silence every critical response', 'prevent others from noticing existing faults', 'make public approval the sole test of right and wrong'], answer: 0,
-        rationales: [
-          'avoid faults that would cause others to look down on them: giữ việc tránh chính lỗi dẫn đến bị coi thường, không tự thêm phán đoán.',
-          'silence every critical response: dập mọi phê bình; đổi việc giữ mình thành khống chế người.',
-          'prevent others from noticing existing faults: chỉ giấu lỗi; không tránh lỗi nơi hành vi.',
-          'make public approval the sole test of right and wrong: lấy được thích làm chuẩn duy nhất; rộng hơn yêu cầu giữ phẩm giá.'
-        ], dimension: 'avoiding discreditable conduct versus silencing, concealment, and approval as moral proof'
+        "sourceCue": "không để có lỗi cho người khác xem thường",
+        "targetVietnamese": "không để có lỗi cho người khác xem thường.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "They take care to avoid faults that would give others cause to look down on them.",
+          "They guard against conduct that would lower them in other people’s eyes.",
+          "They try not to lay themselves open to others’ contempt through their own failings.",
+          "Their concern is not to let their own mistakes undermine the respect others have for them."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ hành động tránh chính lỗi của mình dẫn đến bị coi thường, với giọng trực tiếp. Những cách diễn đạt về vị thế trong mắt người, sự dễ bị khinh hoặc mất kính trọng vẫn dùng được nhưng chuyển hình ảnh.",
+        "rationales": [
+          "They take care to avoid faults that would give others cause to look down on them.: ưu tiên vì giữ lỗi làm nguyên nhân và người khác coi thường làm hệ quả, không đổi thành chỉ che lỗi.",
+          "They guard against conduct that would lower them in other people’s eyes.: dùng được; diễn đạt hậu quả bằng vị thế trong mắt người khác, mang tính hình ảnh hơn.",
+          "They try not to lay themselves open to others’ contempt through their own failings.: dùng được; nhấn sự dễ bị người khác khinh, từ contempt có lực nặng hơn cách nói xem thường.",
+          "Their concern is not to let their own mistakes undermine the respect others have for them.: dùng được; chuyển từ coi thường sang mất phần kính trọng, hợp câu sau nhưng ít theo từ ngữ câu này."
+        ],
+        "dimension": "avoiding faults with causal sequence versus social image, exposure to contempt, and eroded respect"
       },
       {
-        sourceCue: 'cố gắng Tự giữ gìn phẩm giá', targetVietnamese: 'Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá',
-        sentence: 'Self-respect means ___ preserve one’s dignity.',
-        options: ['striving to', 'being guaranteed to', 'merely claiming to', 'paying others to'], answer: 0,
-        rationales: [
-          'striving to: cố gắng hướng vào việc làm; giữ yếu tố nỗ lực.',
-          'being guaranteed to: được bảo đảm thành công; thêm sự không thể sai.',
-          'merely claiming to: chỉ tự nhận; không giữ nỗ lực hành động.',
-          'paying others to: thuê người làm thay; chuyển chủ thể của tự giữ mình.'
-        ], dimension: 'personal endeavor versus guaranteed success, claim alone, and outsourcing'
+        "sourceCue": "cố gắng Tự giữ gìn phẩm giá",
+        "targetVietnamese": "Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Self-respect means striving to preserve our own dignity.",
+          "Self-respect is the effort we make to maintain our dignity.",
+          "To respect ourselves is to work at safeguarding our dignity.",
+          "Preserving our dignity through conscious effort is what self-respect involves."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ định nghĩa tự trọng bằng một nỗ lực, không biến thành lời nhận đã hoàn hảo. So chủ ngữ khái niệm với động tác tự kính mình và việc giữ phẩm giá được đưa lên đầu.",
+        "rationales": [
+          "Self-respect means striving to preserve our own dignity.: ưu tiên vì giữ định nghĩa rõ, ý cố gắng nằm trong động từ và từ own giữ Tự.",
+          "Self-respect is the effort we make to maintain our dignity.: cùng mức ưu tiên; dùng danh từ effort mà vẫn sáng, không có lý do ép mọi danh hóa đều kém.",
+          "To respect ourselves is to work at safeguarding our dignity.: dùng được; chuyển khái niệm sang hành động tự kính mình, nhịp giải thích có tính thực hành hơn.",
+          "Preserving our dignity through conscious effort is what self-respect involves.: dùng được; đưa công việc giữ phẩm giá ra đầu, nhưng what-clause khiến câu nặng hơn cách định nghĩa trực tiếp."
+        ],
+        "dimension": "definition by striving versus clear effort noun, infinitival action, and fronted preservation"
       },
       {
-        sourceCue: 'không bị mất sự tôn trọng', targetVietnamese: 'để không bị mất sự tôn trọng của mọi người đối với mình.',
-        sentence: 'The aim of this effort is to ___.',
-        options: ['retain the respect of others', 'compel unquestioning deference', 'mistake flattering words for genuine regard', 'trade personal integrity for social favor'], answer: 0,
-        rationales: [
-          'retain the respect of others: giữ không để mất sự kính trọng; đúng phạm vi của mục đích.',
-          'compel unquestioning deference: ép kính phục không xét; đổi giữ mình thành điều khiển người.',
-          'mistake flattering words for genuine regard: nhầm tâng bốc với tôn trọng; không phải mục tiêu giữ phẩm giá.',
-          'trade personal integrity for social favor: đổi nhân cách lấy được thích; trái việc gìn giữ phẩm giá thật.'
-        ], dimension: 'retention versus extraction, imitation, and trading away'
+        "sourceCue": "không bị mất sự tôn trọng",
+        "targetVietnamese": "để không bị mất sự tôn trọng của mọi người đối với mình.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "The aim is to retain the respect others have for us.",
+          "We do so in order not to lose other people’s respect.",
+          "We seek to preserve the regard in which others hold us.",
+          "Our effort is directed toward ensuring that others continue to respect us."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ mục đích không mất sự tôn trọng: retain diễn đạt cùng ý bằng khẳng định, not lose giữ phủ định. Cả hai sát; không chấm sai một cấu trúc chỉ vì nó đổi cực câu.",
+        "rationales": [
+          "The aim is to retain the respect others have for us.: ưu tiên vì retain gói nghĩa không để mất, vẫn giữ mục đích rõ và giọng gọn.",
+          "We do so in order not to lose other people’s respect.: cùng mức ưu tiên; giữ hình thức phủ định và nối với nỗ lực câu trước bằng do so.",
+          "We seek to preserve the regard in which others hold us.: dùng được; cấu trúc hold someone in regard có giọng trang trọng hơn, không vì vậy mà chính xác hơn.",
+          "Our effort is directed toward ensuring that others continue to respect us.: dùng được; biểu đạt qua sự tiếp tục kính trọng, nhưng nhịp directed toward ensuring dài hơn cần thiết."
+        ],
+        "dimension": "positive retention versus negative purpose, formal regard construction, and continued-respect outcome"
       },
       {
-        sourceCue: 'Tự trọng nghĩa là', targetVietnamese: 'Như vậy, nếu nói cho đủ thì phải nói là, Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá để không bị mất sự tôn trọng của mọi người đối với mình.',
-        sentence: 'Thus, in a full account, self-respect is ___ the effort to preserve dignity so as not to lose the respect of others.',
-        options: ['identified with', 'awarded for publicizing', 'replaced by mere approval of', 'treated as independent of'], answer: 0,
-        rationales: [
-          'identified with: được xác định là nỗ lực tự giữ; đúng nội dung định nghĩa.',
-          'awarded for publicizing: được thưởng vì quảng bá sự cố gắng; thêm người cấp và tiêu chuẩn được thấy.',
-          'replaced by mere approval of: chỉ tán thành nỗ lực là thay được phẩm chất; chưa có việc tự rèn.',
-          'treated as independent of: tách khỏi nỗ lực giữ mình; trái mối gắn mà định nghĩa đặt ra.'
-        ], dimension: 'conceptual location versus conferral, publicity, and legislation'
+        "sourceCue": "Tự trọng nghĩa là",
+        "targetVietnamese": "Như vậy, nếu nói cho đủ thì phải nói là, Tự trọng nghĩa là cố gắng Tự giữ gìn phẩm giá để không bị mất sự tôn trọng của mọi người đối với mình.",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "options": [
+          "Thus, to put it fully, self-respect means striving to preserve our own dignity so that we do not lose the respect of others.",
+          "Thus, a fuller definition of self-respect is the effort to maintain our dignity in order to retain other people’s respect.",
+          "Thus, what we mean by self-respect is working to safeguard our dignity, with the aim of preserving the regard others have for us.",
+          "Thus, stated in full, self-respect consists in an effort to uphold our dignity and thereby keep the respect of others."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ cả lời chuyển sang định nghĩa đầy đủ, sự cố gắng, phẩm giá của chính mình và mục đích không mất kính trọng. So cách nối mục đích với cách diễn đạt kết quả và tải của mệnh đề định nghĩa.",
+        "rationales": [
+          "Thus, to put it fully, self-respect means striving to preserve our own dignity so that we do not lose the respect of others.: ưu tiên vì đủ bốn lớp ý với một trục định nghĩa và mệnh đề mục đích sáng.",
+          "Thus, a fuller definition of self-respect is the effort to maintain our dignity in order to retain other people’s respect.: cùng mức ưu tiên; dùng effort và retain vẫn giữ ý, không ép loại vì khác cấu trúc mẫu.",
+          "Thus, what we mean by self-respect is working to safeguard our dignity, with the aim of preserving the regard others have for us.: dùng được; what-clause và with the aim of làm nhịp định nghĩa dài, có giọng giải thích hơn.",
+          "Thus, stated in full, self-respect consists in an effort to uphold our dignity and thereby keep the respect of others.: dùng được; thereby nghiêng sang kết quả từ hành động hơn mục đích, uphold cũng trang trọng hơn preserve."
+        ],
+        "dimension": "full definition with purpose versus effort-noun formulation, what-clause explanation, and thereby result"
       }
     ]
   },

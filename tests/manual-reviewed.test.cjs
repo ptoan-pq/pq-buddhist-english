@@ -13,7 +13,7 @@ test('hand-authored batch has five distinct verb tasks and a rationale per optio
     assert(!ids.has(m.id),m.id);ids.add(m.id);
     assert(!blocks.has(m.sourceBlockId),m.sourceBlockId);blocks.add(m.sourceBlockId);
     assert.equal(m.items.length,5);
-    assert.equal(new Set(m.items.map(q=>q.sentence.toLowerCase().replace(/[\p{P}\p{S}]/gu,'').trim())).size,5);
+    assert.equal(new Set(m.items.map(q=>(q.taskKind==='expression-choice'?q.options[q.answer]:q.sentence).toLowerCase().replace(/[\p{P}\p{S}]/gu,'').trim())).size,5);
     assert.equal(new Set(m.items.map(q=>q.sourceCue)).size,5);
     assert.equal(new Set(m.items.map(q=>q.targetVietnamese)).size,5);
     assert.equal(new Set(m.items.map(q=>q.dimension)).size,5);
@@ -143,4 +143,16 @@ test('best-fit questions preserve valid alternatives, criteria, and tied prefere
   const bad=JSON.parse(JSON.stringify(rows.filter(m=>m.id==='M129')));
   bad[0].items[0].validAnswers=[0];
   assert.throws(()=>assemble(bad),/all four alternatives must be valid/);
+});
+
+test('whole-expression tasks offer complete sentences without a fixed verb-gap frame',()=>{
+  const sets=assemble().filter(s=>s.items.some(q=>q.taskKind==='expression-choice'));
+  assert(sets.length>0);
+  for(const set of sets)for(const q of set.items.filter(q=>q.taskKind==='expression-choice')){
+    assert.equal(q.assessmentMode,'best-fit-among-valid-alternatives');
+    assert(!q.prompt.includes('___'));
+    assert(q.options.every(s=>/[.!?]$/.test(s)&&s.split(/\s+/).length>=4));
+    assert(q.selectionCriterion.length>30);
+    assert(set.context.vietnamese.includes(q.targetVietnamese));
+  }
 });

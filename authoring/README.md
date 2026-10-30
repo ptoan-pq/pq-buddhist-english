@@ -13,13 +13,15 @@ Mục tiêu giữ nguyên: 288 gói × 5 câu = 1.440 câu nâng cao viết riê
 
 1. Đoạn Việt chung chỉ xuất hiện một lần trên mỗi gói.
 2. Mỗi thẻ trích nguyên văn câu hoặc mệnh đề từ nguồn Việt phía trên. Không viết lại bằng lời mình, không chèn tiêu chí dịch hoặc chú giải vào câu trích; không chép lại cả đoạn.
-3. Năm câu có năm khung Anh và năm trọng tâm khác nhau. Không thêm câu dẫn để ngụy trang một khung bị lặp.
+3. Năm nhiệm vụ có năm đơn vị ý và sản phẩm Anh khác nhau. Dạng trọng tâm mới là chọn giữa bốn câu/cụm câu hoàn chỉnh; chúng khác cách chọn chủ ngữ, tổ chức vị ngữ, chủ động/bị động, trọng tâm, liên kết hoặc nhịp, không chỉ đổi một từ trên cùng khung. Không thêm câu dẫn để ngụy trang việc lặp cùng câu.
 4. Chuẩn độ khó mới: cả bốn lựa chọn phải đúng ngữ pháp, tự nhiên và chấp nhận được trong chính ngữ cảnh. Không dùng hành động đối lập, đảo tác nhân hay khẳng định vô lý để tạo đáp án dễ loại. Người học chọn cách sát nhất về nghĩa, lực, trọng tâm và giọng; đây không phải câu phân loại ba cách sai và một cách đúng.
 5. Không dùng “trang trọng hơn”, “dài hơn”, “gần nghĩa nhưng không phải chữ nguồn” làm lý do duy nhất để chấm sai.
 6. Động từ mạnh phải được ý nguồn cho phép. Không đổi “nhận xét” thành “vạch trần”, “có thể” thành “bảo đảm”, hoặc “sửa lỗi” thành “trừng phạt”.
 7. Đặt cả năm câu dưới ngữ cảnh; nộp đủ mới mở phản hồi của gói. Vẫn chọn gói tự do và giữ tiến độ riêng.
 8. Mỗi câu dạng mới có `selectionCriterion`, `validAnswers: [0,1,2,3]` và `preferredAnswers`. Viết lý do so sánh cho từng phương án. Nếu các cách sát ngang nhau, cùng đưa vào `preferredAnswers`; không ép một đáp án vì thích một từ. Cách trung tính vẫn có thể ưu tiên hơn một động từ hình ảnh nếu sát nguồn hơn.
 9. Trong phản hồi, gọi các lựa chọn không ưu tiên là “dùng được, nhưng khác điểm nhấn”, không gọi là sai tiếng Anh. Khi tích hợp website phải phân biệt độ sát của lựa chọn với đúng/sai ngôn ngữ; không dùng nhãn báo sai cũ mà thiếu giải thích.
+10. Dùng `taskKind: 'expression-choice'` cho lựa chọn diễn đạt hoàn chỉnh. `sentence: '___'` ở dữ liệu chỉ là chỗ lắp phương án để xuất bản mẫu, **không hiển thị như bài điền từ**. Bốn lựa chọn do người biên soạn viết riêng. Không tạo chúng bằng thay đồng nghĩa hàng loạt; không xếp câu có động từ mạnh hơn hoặc không danh hóa là tự động tốt hơn.
+11. Đánh giá cả câu theo nguyên văn và chức năng trong đoạn: giữ/bỏ gì, đặt ai làm trọng tâm, điều kiện hay kết quả, ý muốn hay thành tựu, nhịp cảnh tỉnh hay giọng thuyết minh. Một cấu trúc khác câu nguồn vẫn có thể sát ngang nhau và được cùng ưu tiên.
 
 Các gói chưa có `assessmentMode: 'best-fit-among-valid-alternatives'` **chưa được xem là đạt chuẩn độ khó mới**, dù đã qua kiểm tra trích nguyên văn hoặc tự rà Việt–Anh. Không tự động gắn nhãn này cho câu cũ.
 
@@ -35,6 +37,7 @@ Kết quả mặc định ở `../outputs/context-bank-v1/manual-rewrite-preview
 - `MANUAL-REVIEWED-PREVIEW.md` — nguồn một lần, năm câu rồi đáp án đóng/mở;
 - `SOURCE-ALIGNED-PREVIEW.md` — chỉ các gói đã tự rà cặp trích dẫn–khung Anh;
 - `BEST-FIT-PREVIEW.md` — chỉ các gói đã viết lại theo chuẩn cả bốn cách đều dùng được;
+- `WHOLE-EXPRESSION-PREVIEW.md` — các gói chọn cách diễn đạt cả ý bằng bốn câu hoàn chỉnh, không hiện khung điền từ;
 - `manual-reviewed-preview.json` — packet nội dung;
 - `manual-rewrite-progress.json` — đếm riêng câu nháp, câu đã tự rà, câu chưa viết và câu còn cần rà.
 

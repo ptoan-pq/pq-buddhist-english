@@ -100,3 +100,14 @@ Mục tiêu vẫn là 1.440 câu mới, không phải 90 câu. Còn 1.350 câu c
 - Lưu riêng `validAnswers` và `preferredAnswers`; tráo phương án vẫn giữ đủ các chỉ số ưu tiên. Dùng trường `accepted` sẵn có để không đánh rớt một lựa chọn cùng mức ưu tiên trong kiểm thử.
 - **5/445 câu** đã được viết lại theo chuẩn lựa chọn gần nghĩa mới; **440 câu còn chờ sửa độ khó**. Con số 75 cặp khớp nguồn không được dùng thay cho con số 5 câu đạt vòng biên soạn mới.
 - Xuất thêm `BEST-FIT-PREVIEW.md` để kiểm đúng năm câu đã đổi. Chưa cập nhật website hoặc nhãn phản hồi trên giao diện public.
+
+## 2026-10-29 — chuyển trọng tâm từ chọn từ sang chọn cách diễn đạt
+
+- Theo yêu cầu mới, không giới hạn bài vào thay động từ trong một khung cố định. Viết lại M133–M138, **30 câu**, mỗi câu có bốn cách diễn đạt hoàn chỉnh được soạn riêng.
+- Tất cả giữ nguyên phần Việt trích từ nguồn. Phương án khác nhau ở cách chọn chủ ngữ, hướng thông tin, mức hoàn tất hành động, quan hệ mục đích/kết quả, chủ động/bị động, danh hóa, thành ngữ và nhịp.
+- M133-Q4 so câu lấy sự mê đắm làm tác nhân với câu lấy con người hoặc mối quan tâm bị lấn chỗ làm chủ ngữ. M134-Q3 so hành động đóng thuế với khoản đóng làm bằng chứng. M136-Q3 giữ cùng mức cố gắng và giảm một phần, so cách dựng câu chủ động, bị động và diễn giải dài. M138-Q4 chấp nhận cả retain và not lose khi dùng trong hai cấu trúc mục đích sát ngang nhau.
+- Không có quy tắc ưu tiên chủ động, từ mạnh hoặc từ hiếm bằng mọi giá. M137-Q3 chấp nhận cả `is an expression of` và `reflects`; M138-Q3 chấp nhận cả định nghĩa bằng `striving` và bằng danh từ `effort` rõ nghĩa.
+- Thêm `taskKind: expression-choice`, lưu nguyên văn bốn lựa chọn; trình đóng gói không sinh phương án. Dấu `___` nội bộ được thay bằng hướng dẫn chọn toàn bộ ý, không hiện bài điền từ cho học viên.
+- Kiểm thử vẫn kiểm sản phẩm riêng của năm nhiệm vụ: đối với dạng mới, so câu hoàn chỉnh chứ không đòi năm ký hiệu lắp dữ liệu phải khác nhau. Không đánh đồng độ dài câu với độ khó hoặc độ hoàn chỉnh ngữ pháp.
+- Xuất `WHOLE-EXPRESSION-PREVIEW.md` riêng để đọc 30 câu mới. Tổng hiện có 35 câu dạng chọn cách ưu tiên trong các phương án dùng được: 30 câu chọn cả cách diễn đạt, 5 câu M129 phân biệt cụm gần nghĩa trước đó. **410/445 câu còn chờ viết lại theo chuẩn độ khó mới**.
+- Đây là vòng tự biên soạn và tự rà, chưa có hiệu chuẩn bằng người học hoặc người rà độc lập. Website public chưa đổi.

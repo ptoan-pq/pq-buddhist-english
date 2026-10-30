@@ -57,7 +57,7 @@ function assemble(sets=authored,bank=loadBank()){
     const block=blocks.get(set.sourceBlockId);
     assert(block,`Missing source: ${set.sourceBlockId}`);
     assert.equal(set.items.length,5,`${set.id}: exactly five authored questions`);
-    assert.equal(new Set(set.items.map(q=>q.sentence)).size,5,`${set.id}: repeated frame`);
+    assert.equal(new Set(set.items.map(q=>q.taskKind==='expression-choice'?q.options[q.answer]:q.sentence)).size,5,`${set.id}: repeated frame or model expression`);
     assert.equal(new Set(set.items.map(q=>q.sourceCue)).size,5,`${set.id}: repeated source focus`);
     const vietnamese=block.source.paragraphs.join('\n\n');
     const source={title:block.source.title,locator:`${block.source.id}|${block.source.locators.join(', ')}`};
@@ -74,6 +74,11 @@ function assemble(sets=authored,bank=loadBank()){
         }
         const quote=quoteFromSource(vietnamese,q.sourceCue,q.targetVietnamese);
         assert.equal(q.sentence.split('___').length,2,`${id}: one blank`);
+        const expressionChoice=q.taskKind==='expression-choice';
+        if(expressionChoice){
+          assert.equal(q.sentence,'___',`${id}: expression choice must not constrain sentence structure`);
+          assert(q.options.every(option=>option.split(/\s+/).length>=4&&/[.!?]$/.test(option)),`${id}: complete expressions required`);
+        }
         assert.equal(q.options.length,4,`${id}: four alternatives`);
         assert.equal(new Set(q.options).size,4,`${id}: repeated alternative`);
         assert.equal(q.rationales.length,4,`${id}: explanation for each alternative`);
@@ -94,8 +99,8 @@ function assemble(sets=authored,bank=loadBank()){
           id,type:'choice',group:'verb-hand-authored',difficulty:'advanced-contextual',
           topic:set.title,pattern:q.options[0],dimension:q.dimension,
           sourceCue:q.sourceCue,evidence:quote,source,
-          targetVietnamese:quote,sentence:q.sentence,
-          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\n${q.sentence}`,
+          targetVietnamese:quote,sentence:q.sentence,taskKind:q.taskKind||'verb-gap',
+          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\n${expressionChoice?'Chọn cách diễn đạt toàn bộ ý sát nguồn nhất. Cả bốn cách đều dùng được; xét cả cách dựng câu, trọng tâm và sắc thái.':q.sentence}`,
           options:order.map(j=>q.options[j]),answer:order.indexOf(q.answer),
           ...(bestFit?{
             assessmentMode:set.assessmentMode,
@@ -148,6 +153,8 @@ function writePreview(directory){
   fs.writeFileSync(path.join(directory,'SOURCE-ALIGNED-PREVIEW.md'),markdown(aligned));
   const bestFit=modules.filter(m=>m.assessmentMode==='best-fit-among-valid-alternatives');
   fs.writeFileSync(path.join(directory,'BEST-FIT-PREVIEW.md'),markdown(bestFit));
+  const wholeExpression=modules.filter(m=>m.items.every(q=>q.taskKind==='expression-choice'));
+  fs.writeFileSync(path.join(directory,'WHOLE-EXPRESSION-PREVIEW.md'),markdown(wholeExpression));
   const used=new Set([...drafts.map(d=>d[0]),...modules.map(m=>m.sourceBlockId)]);
   const manifest={
     targetSets:288,targetQuestions:1440,
@@ -156,6 +163,7 @@ function writePreview(directory){
     sourceEnglishAlignedSets:aligned.length,sourceEnglishAlignedQuestions:aligned.length*5,
     sourceEnglishAlignmentPendingQuestions:count-aligned.length*5,
     bestFitRevisedQuestions:bestFit.length*5,
+    wholeExpressionRevisedQuestions:modules.flatMap(m=>m.items).filter(q=>q.taskKind==='expression-choice').length,
     difficultyRevisionPendingQuestions:count-bestFit.length*5,
     authorReviewRemainingQuestions:1440-count,
     draftedSetsIncludingLegacy:used.size,
