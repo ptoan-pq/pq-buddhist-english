@@ -111,3 +111,39 @@ Mục tiêu vẫn là 1.440 câu mới, không phải 90 câu. Còn 1.350 câu c
 - Kiểm thử vẫn kiểm sản phẩm riêng của năm nhiệm vụ: đối với dạng mới, so câu hoàn chỉnh chứ không đòi năm ký hiệu lắp dữ liệu phải khác nhau. Không đánh đồng độ dài câu với độ khó hoặc độ hoàn chỉnh ngữ pháp.
 - Xuất `WHOLE-EXPRESSION-PREVIEW.md` riêng để đọc 30 câu mới. Tổng hiện có 35 câu dạng chọn cách ưu tiên trong các phương án dùng được: 30 câu chọn cả cách diễn đạt, 5 câu M129 phân biệt cụm gần nghĩa trước đó. **410/445 câu còn chờ viết lại theo chuẩn độ khó mới**.
 - Đây là vòng tự biên soạn và tự rà, chưa có hiệu chuẩn bằng người học hoặc người rà độc lập. Website public chưa đổi.
+
+## 2026-10-30 — tiếp tục biên soạn toàn câu, hoàn tất vòng mới M121–M143
+
+### Phạm vi thực sự đã làm trong lượt này
+
+- Viết lại **85 câu** ở M121–M132 và M139–M143. Không tạo gói mới để tăng số đếm: đây là thay thế nội dung của 17 gói đã có, sau khi đọc lại nguồn riêng của từng gói.
+- M129 trước đó mới có năm câu chọn cụm gần nghĩa; nay cũng chuyển thành năm nhiệm vụ chọn cách diễn đạt cả ý. Giữ các trích dẫn nguyên văn và cho phép nhiều cách cùng mức ưu tiên.
+- M133–M138 giữ 30 câu toàn ý đã viết từ lượt trước. Tổng hiện có **115 câu toàn ý ở 23 gói liên tục M121–M143**, mỗi câu có bốn lựa chọn tự soạn và lời so sánh riêng.
+- Trong lượt này thêm **40 cặp Việt–Anh được đối chiếu lại** ở M121–M128; các gói khác trong lượt đã có trạng thái đối chiếu nhưng được đọc lại khi thay toàn bộ lựa chọn.
+
+### Những lỗi nghĩa đã sửa, không chỉ đổi hình thức câu hỏi
+
+- M121-Q1 giữ đủ ba mặt: đau khổ, khát khao và cả lầm lỗi. M121-Q3 khôi phục phủ định ở người chưa cảm nhận được mức đau; không còn chỉ nói nỗi đau hành hạ bệnh nhân. M121-Q5 dùng đúng mệnh đề về chí lớn không thành và hụt hẫng thay cho một lời bình về không bác bỏ ý kiến người vợ.
+- M122 không dùng câu tóm tắt quan điểm của bài thay cho câu nguồn. Giữ cả trộm đột nhập, bị phát hiện, chạy thoát; không tự thêm đe dọa giết người. Giữ đủ phản ứng của chủ nhà và quan hệ hiểu rõ hơn có lúc dẫn đến nghiêm hơn.
+- M123 giữ không vội trách/khen, không đổi thành không bao giờ trách/khen. Phương án ưu tiên ở cặp này giữ tính đối ứng của hai câu Việt; danh hóa hoặc hình ảnh mạnh hơn không tự được điểm cao hơn.
+- M124 giữ việc nhà sư thả trôi đời vì bất mãn, huynh đệ đến bày tỏ thương tin và khởi sự lập lại đời tu. Không biến đoạn thành một chuyện hoàn tục hoặc thành tựu tu chứng đã hoàn tất.
+- M125 giữ hạn học phí, gia đình nghèo và không có tiền. Ý nghĩ tự tử được giữ đúng là ý nghĩ trong ví dụ nguồn, không gán thành hành động. Không đành lòng bỏ mặc không bị hạ thành chỉ hơi khó làm ngơ.
+- M126 giữ điều kiện vẫn vui vẻ làm việc thiện nguyện khó, rồi khi có việc sẽ tận tụy. Không bỏ thành ngữ không đứng núi này trông núi nọ; dịch bằng ý tìm chỗ khác tốt hơn. Không lẫn không có lương với không có phước hoặc không có niềm vui.
+- M127 giữ các cấu trúc càng–càng và không ai sung sướng trọn vẹn, không đổi thành không ai có bất kỳ niềm vui nào. M128 giữ nhịp bác bỏ điều cứ tưởng, niềm vui cùng sức mạnh, và không mong cầu mà được; không diễn thành không cần làm gì cũng có vui.
+- M130–M132 giữ đủ lực càng phải, điều kiện đủ đạo lực, yêu cầu có tiền trước, việc lễ Phật xin gia hộ, khả năng làm việc thiện, tu kín đáo và đủ phước rồi mới tính việc giảng sư. Không biến điều kiện cần thành bảo đảm kết quả.
+- M139–M143 giữ mức hơi khác, tính tất nhiên của nhận định nhân quả theo nguồn, hai ba người và đủ chi tiết xây nhà, cả đêm cùng đều phải ở ví dụ luật sư, và lực rất mang tội trong lời răn biết quý công ăn việc làm.
+
+### Lựa chọn và kiểm tra
+
+- Mỗi câu mới có năm trường tách bạch: nguyên văn Việt, bốn cách diễn đạt, tiêu chí so sánh, các cách cùng ưu tiên, và lý do cho từng cách. Câu trích không kèm lời gợi ý loại phương án.
+- Khi hai hoặc ba cách sát ngang nhau thì cùng chấp nhận; ví dụ ba cách tự kềm chế thú vui ở M140-Q4. Không tạo một đáp án duy nhất chỉ để tiện chấm.
+- Sửa phép kiểm dấu kết câu để chấp nhận câu Anh có dấu chấm nằm trong ngoặc kép đóng. Thêm kiểm thử hồi quy cho trường hợp này và trường hợp không có dấu kết câu; không thay dấu câu đúng thành sai chỉ để qua phép kiểm.
+- Kiểm thử toàn repo và công cụ build: **57/57 đạt**. Chỉ chứng minh các thuộc tính kỹ thuật, trích nguyên chuỗi, tráo phương án, nhận nhiều lựa chọn ưu tiên và khóa phản hồi đủ năm câu; không chứng minh độ khó hoặc chất lượng dịch độc lập.
+- Đã xuất lại các bản Markdown và JSON xem trước. `WHOLE-EXPRESSION-PREVIEW.md` hiện chứa 115 câu; nguồn chung chỉ in một lần mỗi gói, mỗi thẻ nhắc lại đúng một trích dẫn ngắn có liên quan.
+
+### Trạng thái chưa được đánh đồng
+
+- 445 câu trong tập biên soạn hiện tại vẫn là tổng nháp, không tăng thành 530 do việc viết lại.
+- **115/445 câu** đã tự rà theo cả chuẩn nguồn nguyên văn và dạng lựa chọn toàn ý mới; **330 câu trong tập này còn chờ viết lại**.
+- Ngoài ra còn **270 câu nháp cũ** cần sửa và **725 câu chưa viết**. Vì vậy còn **1.325/1.440 câu** chưa đạt vòng biên soạn mới, chưa kể rà độc lập.
+- Giữ nguyên 72 câu chuyên sâu ban đầu ngoài chỉ tiêu 1.440. Chưa sửa dữ liệu chạy website, chưa push hoặc xuất bản. Bản nháp cũ còn được giữ trong lịch sử Git; không lấy câu cơ bản đắp vào chỉ tiêu.

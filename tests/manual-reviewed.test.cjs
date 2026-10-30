@@ -136,7 +136,10 @@ test('best-fit questions preserve valid alternatives, criteria, and tied prefere
     assert(q.analysis.includes('Cả bốn cách đều dùng được'));
   }
   const distance=set.items[1];
-  assert.deepEqual(distance.preferredAnswers.map(i=>distance.options[i]).sort(),['stay away from','steer clear of']);
+  assert.deepEqual(distance.preferredAnswers.map(i=>distance.options[i]).sort(),[
+    'And we will stay away from places where we are belittled.',
+    'And we will steer clear of places where we are looked down on.'
+  ]);
   const gift=set.items[3];
   assert.equal(gift.accepted.length,2);
   assert(markdown([set]).includes('Ưu tiên'));
@@ -151,8 +154,33 @@ test('whole-expression tasks offer complete sentences without a fixed verb-gap f
   for(const set of sets)for(const q of set.items.filter(q=>q.taskKind==='expression-choice')){
     assert.equal(q.assessmentMode,'best-fit-among-valid-alternatives');
     assert(!q.prompt.includes('___'));
-    assert(q.options.every(s=>/[.!?]$/.test(s)&&s.split(/\s+/).length>=4));
+    assert(q.options.every(s=>/[.!?][”’"')\]]*$/.test(s)&&s.split(/\s+/).length>=4));
     assert(q.selectionCriterion.length>30);
     assert(set.context.vietnamese.includes(q.targetVietnamese));
+  }
+});
+
+test('a complete expression may end with terminal punctuation inside a quotation',()=>{
+  const source=rows.find(m=>m.id==='M121');
+  assert(source,'empathy set must retain its individually authored alternatives');
+  const quoted=source.items[4].options.find(s=>/[.!?]”$/.test(s));
+  assert(quoted,'a quoted phrase may finish a complete English sentence');
+  assert.doesNotThrow(()=>assemble([source]));
+  const unfinished=JSON.parse(JSON.stringify(source));
+  unfinished.items[4].options[0]='An unfinished expression without terminal punctuation';
+  unfinished.items[4].rationales[0]=unfinished.items[4].options[0]+': deliberately incomplete fixture';
+  assert.throws(()=>assemble([unfinished]),/complete expressions required/);
+});
+
+test('revised whole-expression sets keep five different source focuses and accept tied best choices',()=>{
+  for(const set of assemble().filter(s=>s.items.every(q=>q.taskKind==='expression-choice'))){
+    assert.equal(set.sourceAlignment,'quote-and-english-checked',set.id);
+    assert.equal(new Set(set.items.map(q=>q.sourceCue)).size,5,set.id);
+    for(const q of set.items){
+      assert.deepEqual([...q.validAnswers].sort(),[0,1,2,3]);
+      assert(q.preferredAnswers.length>0&&q.preferredAnswers.length<4,q.id);
+      for(const i of q.preferredAnswers)assert(E.isCorrect(q,i),q.id);
+      assert(!q.prompt.includes('Giữ nguyên toàn bộ khung câu'),q.id);
+    }
   }
 });

@@ -77,7 +77,7 @@ function assemble(sets=authored,bank=loadBank()){
         const expressionChoice=q.taskKind==='expression-choice';
         if(expressionChoice){
           assert.equal(q.sentence,'___',`${id}: expression choice must not constrain sentence structure`);
-          assert(q.options.every(option=>option.split(/\s+/).length>=4&&/[.!?]$/.test(option)),`${id}: complete expressions required`);
+          assert(q.options.every(option=>option.split(/\s+/).length>=4&&/[.!?][”’"')\]]*$/.test(option)),`${id}: complete expressions required`);
         }
         assert.equal(q.options.length,4,`${id}: four alternatives`);
         assert.equal(new Set(q.options).size,4,`${id}: repeated alternative`);

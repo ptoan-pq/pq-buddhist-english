@@ -4034,751 +4034,1974 @@ module.exports = [
     ]
   },
   {
-    id: 'M121', sourceBlockId: 'W11-B01', title: 'Từ nhìn thấy khó chịu đến hiểu sức dày vò',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M121",
+    "sourceBlockId": "W11-B01",
+    "title": "Từ nhìn thấy khó chịu đến hiểu sức dày vò",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'đặt mình vào vị trí của người khác để hiểu', targetVietnamese: 'Thông cảm ở đây đòi hỏi thử nhìn từ vị trí người kia để hiểu, không chỉ bày tỏ lời chia buồn lịch sự.',
-        sentence: 'The empathy described requires us to ___.',
-        options: ['enter imaginatively into another person’s experience', 'express conventional sympathy without considering their experience', 'endorse every decision the person has made', 'substitute our judgment for their own account'], answer: 0,
-        rationales: [
-          'enter imaginatively into another person’s experience: đặt mình vào trải nghiệm của họ; giữ phương cách để hiểu.',
-          'express conventional sympathy without considering their experience: nói lời xã giao; chính khoảng cách đoạn muốn vượt qua.',
-          'endorse every decision the person has made: tán thành tất cả lựa chọn; hiểu người không phải mặc nhiên đồng ý.',
-          'substitute our judgment for their own account: lấy lời mình thay trải nghiệm họ; ngược thao tác đổi điểm nhìn.'
-        ], dimension: 'perspective-taking versus conventional sympathy, endorsement, and substitution'
+        "sourceCue": "đặt mình vào vị trí của người khác để hiểu",
+        "targetVietnamese": "Thông cảm nghĩa là đặt mình vào vị trí của người khác để hiểu nỗi đau khổ của họ, hiểu sự khát khao của họ, và hiểu cả những lầm lỗi của họ.",
+        "options": [
+          "Empathy means putting ourselves in another person’s place to understand their suffering, their longings, and even their failings.",
+          "To empathize is to see from another person’s position, seeking to understand what pains them, what they yearn for, and even where they go wrong.",
+          "An understanding of another person’s suffering, longings, and even failings, gained by imagining ourselves in their place, is what empathy means.",
+          "Empathy involves entering imaginatively into someone else’s experience so as to understand their pain, their aspirations, and even their mistakes."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ định nghĩa, hành động đặt mình vào vị trí và đủ ba điều cần hiểu, với chữ cả ở lầm lỗi. So tính trực tiếp, cách gọi sự khát khao và vị trí tên khái niệm.",
+        "dimension": "direct definition, action-oriented understanding, delayed naming, and imaginative entry",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Empathy means putting ourselves in another person’s place to understand their suffering, their longings, and even their failings.: ưu tiên; means giữ nghĩa là, putting ourselves in ... place giữ hình ảnh vị trí, longings không thu hẹp khát khao thành mục tiêu thành tựu.",
+          "To empathize is to see from another person’s position, seeking to understand what pains them, what they yearn for, and even where they go wrong.: dùng được; to empathize chuyển danh từ thành hành động, ba mệnh đề what làm rõ từng mặt nhưng seeking nhấn quá trình tìm hiểu.",
+          "An understanding of another person’s suffering, longings, and even failings, gained by imagining ourselves in their place, is what empathy means.: dùng được; đưa phần hiểu lên đầu và gọi tên empathy sau cùng, giữ ý nhưng tải cú pháp dày hơn nguồn.",
+          "Empathy involves entering imaginatively into someone else’s experience so as to understand their pain, their aspirations, and even their mistakes.: dùng được trong mạch; entering ... experience diễn ý đặt mình, aspirations thiên về hoài bão hơn longings nên bớt rộng."
+        ]
       },
       {
-        sourceCue: 'nhìn nét mặt nhăn nhó, u sầu, mà hiểu rằng họ khó chịu thôi', targetVietnamese: 'Từ nét mặt, ta chỉ suy ra họ khó chịu, chưa trực tiếp cảm được mức đau đang dày vò họ.',
-        sentence: 'From the patient’s expression, we can at first only ___.',
-        options: ['infer that they are uncomfortable', 'feel the full intensity of their pain ourselves', 'measure their pain precisely', 'diagnose the underlying illness with certainty'], answer: 0,
-        rationales: [
-          'infer that they are uncomfortable: suy từ dấu hiệu ra điều còn khái quát; giữ chữ “chỉ… thôi”.',
-          'feel the full intensity of their pain ourselves: cảm trọn cường độ; chính điều ta chưa làm được.',
-          'measure their pain precisely: đo chính xác; thêm phép đo không có từ nét mặt.',
-          'diagnose the underlying illness with certainty: chẩn đoán chắc bệnh; vượt thông tin mà quan sát cho phép.'
-        ], dimension: 'limited inference versus shared intensity, measurement, and certain diagnosis'
+        "sourceCue": "nhìn nét mặt nhăn nhó, u sầu, mà hiểu rằng họ khó chịu thôi",
+        "targetVietnamese": "Ta chỉ nhìn nét mặt nhăn nhó, u sầu, mà hiểu rằng họ khó chịu thôi.",
+        "options": [
+          "We merely look at their grimacing, sorrowful faces and understand only that they are uncomfortable.",
+          "All we gather from their pained, sorrowful expressions is that they feel uncomfortable.",
+          "Looking at the grimaces and sadness on their faces tells us no more than that they are uncomfortable.",
+          "Their grimacing, sorrowful faces give us only a limited understanding: they are uncomfortable."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ nét mặt nhăn nhó, u sầu và giới hạn chỉ hiểu họ khó chịu thôi. Không thêm chẩn đoán hoặc nhận đã biết cường độ đau; so người quan sát với biểu hiện làm chủ ngữ.",
+        "dimension": "bounded observation, restrictive inference, observation as evidence, and expression-led information",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We merely look at their grimacing, sorrowful faces and understand only that they are uncomfortable.: ưu tiên; we look rồi understand giữ hai thao tác và only that giới hạn đúng mức hiểu biết.",
+          "All we gather from their pained, sorrowful expressions is that they feel uncomfortable.: cùng mức ưu tiên; all ... is gom giới hạn vào cấu trúc câu, gather diễn đạt điều rút được từ nét mặt mà không thêm mức đau.",
+          "Looking at the grimaces and sadness on their faces tells us no more than that they are uncomfortable.: dùng được; việc nhìn làm chủ ngữ của tells us, no more than giữ giới hạn với giọng giải thích.",
+          "Their grimacing, sorrowful faces give us only a limited understanding: they are uncomfortable.: dùng được; nét mặt làm tác nhân give, rồi dấu hai chấm giải rõ nội dung của limited understanding."
+        ]
       },
       {
-        sourceCue: 'đau đớn nhức nhối đang hành hạ họ', targetVietnamese: 'Cơn đau hành hạ người bệnh dữ dội; không chỉ hơi gây bực mình hay tất yếu làm biến dạng cơ thể.',
-        sentence: 'The pain ___ the patient.',
-        options: ['torments', 'merely irritates', 'necessarily incapacitates', 'permanently disfigures'], answer: 0,
-        rationales: [
-          'torments: gây khổ sở dai dẳng, dữ dội; giữ sức của “đau đớn nhức nhối” và “hành hạ”.',
-          'merely irritates: chỉ gây khó chịu nhẹ; làm yếu mức đau nguồn nhấn.',
-          'necessarily incapacitates: tất yếu khiến mất khả năng hoạt động; thêm hậu quả không được xác lập.',
-          'permanently disfigures: làm biến dạng vĩnh viễn; đổi trải nghiệm đau sang tổn hại hình thể cụ thể.'
-        ], dimension: 'torment versus mild irritation, asserted incapacity, and disfigurement'
+        "sourceCue": "đau đớn nhức nhối đang hành hạ họ",
+        "targetVietnamese": "Ta không cảm nhận được mức độ đau đớn nhức nhối đang hành hạ họ.",
+        "options": [
+          "We do not feel the intensity of the aching pain that is tormenting them.",
+          "We cannot sense just how intensely that aching pain is tormenting them.",
+          "The intensity of the aching pain they are suffering remains beyond what we can feel.",
+          "We have no felt sense of how severe the aching pain tormenting them is."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ phủ định ở khả năng cảm nhận mức đau, đồng thời giữ sức hành hạ và trạng thái đang diễn ra. Không đổi thành không tin họ đau hoặc chỉ biết bệnh đau nói chung.",
+        "dimension": "negative felt intensity, embedded degree, inaccessible experience, and absence of felt sense",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We do not feel the intensity of the aching pain that is tormenting them.: ưu tiên; phủ định đặt ở feel, intensity giữ mức độ, aching và tormenting giữ nhức nhối và hành hạ.",
+          "We cannot sense just how intensely that aching pain is tormenting them.: cùng mức ưu tiên; how intensely chuyển mức độ thành mệnh đề dễ theo, cannot sense giữ việc chưa cảm nhận tới.",
+          "The intensity of the aching pain they are suffering remains beyond what we can feel.: dùng được; cường độ đau làm chủ ngữ của remains beyond, suffering ít sắc dày vò hơn tormenting.",
+          "We have no felt sense of how severe the aching pain tormenting them is.: dùng được; no felt sense phân biệt hiểu bằng suy nghĩ với cảm nhận, nhưng có giọng phân tích khái niệm hơn câu Việt."
+        ]
       },
       {
-        sourceCue: 'cơn nghiện dày vò ông khiếp lắm', targetVietnamese: 'Người chồng đang bị cơn nghiện giày vò, không phải đã thoát nghiện hoặc chỉ bị phê bình vì hút thuốc.',
-        sentence: 'The husband ___.',
-        options: ['is in the grip of a tormenting addiction', 'has recovered from addiction but dislikes criticism', 'is merely recounting someone else’s craving', 'has freely chosen discomfort without any compulsive pull'], answer: 0,
-        rationales: [
-          'is in the grip of a tormenting addiction: bị nghiện khống chế và hành hạ; giữ sức bức bách bên trong.',
-          'has recovered from addiction but dislikes criticism: đã hết nghiện; bỏ mất căn nguyên tác giả muốn ta hiểu.',
-          'is merely recounting someone else’s craving: chỉ kể cơn nghiện người khác; đổi người đang chịu.',
-          'has freely chosen discomfort without any compulsive pull: hoàn toàn tự do chọn; phủ nhận lực cơn nghiện.'
-        ], dimension: 'grip of addiction versus recovery, secondhand report, and unconstrained choice'
+        "sourceCue": "cơn nghiện dày vò ông khiếp lắm",
+        "targetVietnamese": "ta cảm nhận được cơn nghiện dày vò ông khiếp lắm,",
+        "options": [
+          "We can feel how terribly his addiction torments him.",
+          "We sense the terrible torment his addiction puts him through.",
+          "The terrible suffering his addiction causes him becomes something we can feel.",
+          "We come to appreciate how fiercely he is in the grip of his addiction."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ ta cảm nhận được, cơn nghiện là sức dày vò và mức khiếp lắm. So cảm nhận trực tiếp với hiểu thấu và hình ảnh bị nắm giữ; không rút mất người đang cảm thông.",
+        "dimension": "felt torment, sensed ordeal, suffering-led awareness, and cognitive grasp of captivity",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We can feel how terribly his addiction torments him.: ưu tiên; we can feel giữ người cảm nhận, addiction torments giữ tác nhân và terribly giữ cường độ.",
+          "We sense the terrible torment his addiction puts him through.: cùng mức ưu tiên; sense và puts him through truyền sức dày vò, terrible torment danh hóa nhưng vẫn sáng và gần trải nghiệm.",
+          "The terrible suffering his addiction causes him becomes something we can feel.: dùng được; nỗi khổ do nghiện được đưa lên đầu, becomes ... can feel chuyển về cảm nhận của ta.",
+          "We come to appreciate how fiercely he is in the grip of his addiction.: dùng được trong mạch; appreciate thiên về hiểu thấu, in the grip nhấn bị khống chế hơn trải nghiệm bị dày vò."
+        ]
       },
       {
-        sourceCue: 'Bà vợ thì chẳng gì sai, nhưng nếu đặt mình vào vị trí người chồng', targetVietnamese: 'Hiểu nỗi bức bách của chồng không xóa lý lẽ đúng của vợ; cần giữ được cả hai điểm nhìn.',
-        sentence: 'Taking the husband’s perspective allows us to ___.',
-        options: ['grasp his anguish without dismissing his wife’s concerns', 'vindicate smoking by discrediting his wife', 'transfer all responsibility to his wife', 'conclude that neither person has a legitimate concern'], answer: 0,
-        rationales: [
-          'grasp his anguish without dismissing his wife’s concerns: hiểu thêm chồng mà không bác vợ; giữ hai phía nguồn đồng thời nêu.',
-          'vindicate smoking by discrediting his wife: bênh hút thuốc bằng hạ vợ; trái câu bà vợ không sai.',
-          'transfer all responsibility to his wife: quy hết cho vợ; không có căn cứ từ thấu hiểu cơn nghiện.',
-          'conclude that neither person has a legitimate concern: phủ nhận cả hai; trái việc hiểu sâu cả lo sức khỏe và nỗi khổ.'
-        ], dimension: 'holding two perspectives versus discredit, blame transfer, and mutual dismissal'
+        "sourceCue": "\"chí lớn không thành\" khiến ông hụt hẫng",
+        "targetVietnamese": "lại thêm \"chí lớn không thành\" khiến ông hụt hẫng.",
+        "options": [
+          "On top of that, his “unfulfilled ambitions” leave him feeling let down.",
+          "Added to this is the disappointment he feels at his “unfulfilled ambitions.”",
+          "His sense of disappointment is compounded by his “unfulfilled ambitions.”",
+          "And then there are his “unfulfilled ambitions,” which leave him disheartened."
+        ],
+        "preferredAnswers": [
+          0,
+          3
+        ],
+        "selectionCriterion": "Giữ lại thêm, lời trích chí lớn không thành và hệ quả hụt hẫng. So hoài bão chưa thành làm tác nhân với cảm giác thất vọng làm chủ ngữ hoặc khoản khổ được cộng thêm.",
+        "dimension": "added cause and result, added disappointment, compounded feeling, and presentational addition",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "On top of that, his “unfulfilled ambitions” leave him feeling let down.: ưu tiên; on top of that giữ sự chồng thêm, ambitions làm chủ ngữ của leave, let down gần cảm giác hụt hẫng.",
+          "Added to this is the disappointment he feels at his “unfulfilled ambitions.”: dùng được; đưa disappointment thành điều được cộng thêm, đổi trọng tâm từ điều gây hụt hẫng sang cảm giác của ông.",
+          "His sense of disappointment is compounded by his “unfulfilled ambitions.”: dùng được trong mạch; compounded giữ sự nặng thêm, nhưng đặt nỗi thất vọng sẵn có làm nền thay vì kể tác động mới.",
+          "And then there are his “unfulfilled ambitions,” which leave him disheartened.: cùng mức ưu tiên; and then there are tái hiện lại thêm, mệnh đề which giữ nguyên quan hệ gây hụt hẫng."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M122",
+    "sourceBlockId": "W11-B02",
+    "title": "Hiểu người có thể dẫn đến thương hơn hoặc nghiêm hơn",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "tên trộm đột nhập vào nhà người ta",
+        "targetVietnamese": "Hoặc ta nghe kể chuyện tên trộm đột nhập vào nhà người ta, bị phát hiện, chạy thoát thân.",
+        "options": [
+          "Or we hear about a thief who breaks into someone’s home, is discovered, and makes his escape.",
+          "Or someone tells us of a thief breaking into a home, being discovered, and running to get away.",
+          "Or we hear the story of a break-in: the thief is discovered in someone’s home and runs to save his own skin.",
+          "Or the story reaches us of a thief who enters someone’s home unlawfully, is found out, and flees to save himself."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ hoặc ta nghe kể và chuỗi đột nhập, bị phát hiện, chạy thoát thân. So kể qua người nghe, người kể, sự kiện hoặc câu chuyện tới tai; không thêm việc đã lấy được đồ.",
+        "dimension": "hearer-led sequence, teller-led narration, event-led colon, and story-led arrival",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Or we hear about a thief who breaks into someone’s home, is discovered, and makes his escape.: ưu tiên; hear about giữ người nghe, breaks into và ba động tác theo thứ tự, makes his escape giữ thoát thân mà không tự thêm nguy cơ bị giết.",
+          "Or someone tells us of a thief breaking into a home, being discovered, and running to get away.: cùng mức ưu tiên; someone tells us đổi sang người kể không xác định, running giữ rõ động tác chạy mà không cường điệu thành bị đe dọa tính mạng.",
+          "Or we hear the story of a break-in: the thief is discovered in someone’s home and runs to save his own skin.: dùng được; break-in thành tên sự kiện rồi giải bằng hai mệnh đề, save his own skin có giọng khẩu ngữ hơn.",
+          "Or the story reaches us of a thief who enters someone’s home unlawfully, is found out, and flees to save himself.: dùng được; story reaches us đưa chuyện lên đầu, enters ... unlawfully giải nghĩa đột nhập nhưng ít gọn hơn breaks into."
+        ]
+      },
+      {
+        "sourceCue": "Ta đặt mình vào vị trí tên trộm để hiểu tâm lý của hắn",
+        "targetVietnamese": "Ta đặt mình vào vị trí tên trộm để hiểu tâm lý của hắn, sự tham lam, sự liều lĩnh, sự lây nhiễm từ kẻ xấu, sự bế tắc trong cuộc sống.",
+        "options": [
+          "We put ourselves in the thief’s place to understand his state of mind: his greed, his recklessness, the corrupting influence of bad company, and his sense of being trapped in life.",
+          "To understand the thief’s greed, recklessness, exposure to bad influences, and lack of a way forward in life, we imagine ourselves in his position.",
+          "We try to understand the thief’s psychology—greed, recklessness, the influence of bad people, and a life at an impasse—by putting ourselves in his place.",
+          "Putting ourselves in the thief’s position is how we approach his state of mind, including his greed, recklessness, susceptibility to bad influences, and life’s dead ends."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ đặt mình vào vị trí để hiểu tâm lý và đủ bốn mặt được liệt kê. So mục đích và phương tiện, không biến tìm hiểu nguyên nhân thành tha tội hoặc bênh vực việc trộm.",
+        "dimension": "perspective before explanation, purpose-first list, means-final understanding, and analytic approach",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We put ourselves in the thief’s place to understand his state of mind: his greed, his recklessness, the corrupting influence of bad company, and his sense of being trapped in life.: ưu tiên; giữ hành động rồi đích hiểu, danh sách rõ và không đổi hiểu thành tán thành.",
+          "To understand the thief’s greed, recklessness, exposure to bad influences, and lack of a way forward in life, we imagine ourselves in his position.: dùng được; đưa mục đích lên trước, exposure nhấn tiếp xúc với ảnh hưởng xấu hơn việc đã bị lây nhiễm.",
+          "We try to understand the thief’s psychology—greed, recklessness, the influence of bad people, and a life at an impasse—by putting ourselves in his place.: cùng mức ưu tiên; hiểu làm trục và phương tiện đặt mình ở cuối, đủ danh sách không thêm tha thứ.",
+          "Putting ourselves in the thief’s position is how we approach his state of mind, including his greed, recklessness, susceptibility to bad influences, and life’s dead ends.: dùng được trong mạch; approach nhấn cách tiếp cận, susceptibility thiên về khả năng chịu ảnh hưởng thay vì tác động đã có."
+        ]
+      },
+      {
+        "sourceCue": "Ta cũng đặt mình vào vị trí chủ nhà",
+        "targetVietnamese": "Ta cũng đặt mình vào vị trí chủ nhà để hiểu sự hốt hoảng, sự căm phẫn, sự sợ hãi khi bị đột nhập.",
+        "options": [
+          "We also put ourselves in the homeowner’s place to understand the alarm, indignation, and fear of having one’s home broken into.",
+          "We also imagine being the homeowner so as to understand the panic, outrage, and fear a break-in brings.",
+          "The homeowner’s alarm, indignation, and fear during a break-in are also feelings we seek to understand by taking their perspective.",
+          "To understand the alarm, anger, and fear caused by the intrusion, we take the homeowner’s perspective as well."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ cũng, đổi sang chủ nhà và đủ hốt hoảng, căm phẫn, sợ hãi khi bị đột nhập. So người đổi vị trí với cảm xúc hoặc mục đích làm điểm mở câu.",
+        "dimension": "parallel perspective, imagined role, emotion-led understanding, and purpose-first intrusion",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We also put ourselves in the homeowner’s place to understand the alarm, indignation, and fear of having one’s home broken into.: ưu tiên; also đặt đúng bước chuyển sang chủ nhà, ba danh từ và tình huống bị đột nhập được giữ đủ.",
+          "We also imagine being the homeowner so as to understand the panic, outrage, and fear a break-in brings.: cùng mức ưu tiên; imagine being đổi vai trực tiếp, panic và outrage giữ cường độ hai phản ứng đầu.",
+          "The homeowner’s alarm, indignation, and fear during a break-in are also feelings we seek to understand by taking their perspective.: dùng được; cảm xúc lên làm đề tài, seek to understand thiên quá trình tìm hiểu hơn lời nêu mục đích.",
+          "To understand the alarm, anger, and fear caused by the intrusion, we take the homeowner’s perspective as well.: dùng được; mục đích đứng đầu, anger rộng hơn indignation về nét phẫn nộ vì điều sai trái."
+        ]
+      },
+      {
+        "sourceCue": "Đôi khi ta nghiêm khắc hơn",
+        "targetVietnamese": "Đôi khi ta nghiêm khắc hơn.",
+        "options": [
+          "Sometimes we become stricter.",
+          "At times, we are more severe in our judgment.",
+          "Sometimes our response is stricter.",
+          "Greater strictness is sometimes the result."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ đôi khi, ta và mức nghiêm khắc hơn trong mạch hiểu người. So thay đổi ở người với phán xét, phản ứng hoặc kết quả; không thêm rằng hiểu sâu lúc nào cũng mềm lòng.",
+        "dimension": "personal change, evaluative severity, response focus, and abstract outcome",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Sometimes we become stricter.: ưu tiên; ngắn và trực tiếp như nguồn, become nêu sự đổi thái độ khi hiểu rõ hơn.",
+          "At times, we are more severe in our judgment.: dùng được trong mạch; in our judgment cụ thể hóa nghiêm khắc vào nhận định, severe có giọng mạnh và trang trọng hơn.",
+          "Sometimes our response is stricter.: dùng được; response làm chủ ngữ, hướng vào cách ta đáp lại người thay vì phẩm chất ta.",
+          "Greater strictness is sometimes the result.: dùng được; strictness thành kết quả của hiểu người, giữ sometimes nhưng bỏ người khỏi chủ ngữ."
+        ]
+      },
+      {
+        "sourceCue": "hơn là sự biểu hiện có vẻ tội nghiệp của họ",
+        "targetVietnamese": "Nghiêm khắc hơn là nhiều khi ta phát hiện người này rất ác độc, rất đê hèn, hơn là sự biểu hiện có vẻ tội nghiệp của họ.",
+        "options": [
+          "We become stricter because we often discover that someone is far more cruel and base than their pitiable appearance suggests.",
+          "Our stricter judgment often comes from discovering cruelty and baseness in someone that go far beyond what their pitiable appearance would suggest.",
+          "Often, finding someone far crueler and more contemptible than they appear in their pitiable state is what makes us stricter.",
+          "Behind a pitiable appearance, we often uncover a far greater degree of cruelty and baseness; that is why we become stricter."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ nhiều khi phát hiện mức ác độc đê hèn hơn vẻ tội nghiệp và lời giải thích nghiêm hơn. So giải thích trực tiếp với finding làm chủ ngữ hoặc bóc lộ phía sau vẻ ngoài.",
+        "dimension": "direct reason, judgment from discovery, long finding-subject, and uncovering behind appearance",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We become stricter because we often discover that someone is far more cruel and base than their pitiable appearance suggests.: ưu tiên; because dựng lời giải thích tự nhiên, discover giữ phát hiện và far more giữ chênh lệch lớn với vẻ ngoài.",
+          "Our stricter judgment often comes from discovering cruelty and baseness in someone that go far beyond what their pitiable appearance would suggest.: cùng mức ưu tiên; judgment làm trục và comes from nối căn cứ, cruelty danh hóa không mất cường độ hay so sánh.",
+          "Often, finding someone far crueler and more contemptible than they appear in their pitiable state is what makes us stricter.: dùng được; finding kéo tình huống dài lên đầu rồi mới chốt stricter, nhịp tải nặng hơn giải thích trực tiếp.",
+          "Behind a pitiable appearance, we often uncover a far greater degree of cruelty and baseness; that is why we become stricter.: dùng được; uncover và behind tạo cảnh phát hiện điều bị che, sát ngữ cảnh nhưng giàu hình ảnh hơn phát hiện trung tính."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M123",
+    "sourceBlockId": "W11-B03",
+    "title": "Thái độ chính xác cần đi qua lớp biểu hiện",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "phải tập khả năng Thông cảm",
+        "targetVietnamese": "Ta phải tập khả năng Thông cảm như vậy để sống trên cuộc đời.",
+        "options": [
+          "We must cultivate this capacity for empathy as we live in the world.",
+          "We need to develop the ability to empathize in this way in order to live in this world.",
+          "Living in this world requires us to cultivate that kind of empathy.",
+          "This is the capacity for empathy that we must train ourselves to develop in life."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ phải tập khả năng thông cảm như vậy và chức năng sống trên đời. So cultivate năng lực, develop khả năng, yêu cầu đời sống và chỉ định phẩm chất; không đổi thành đã có năng lực.",
+        "dimension": "cultivating capacity, developing ability, life-led necessity, and identifying a training target",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must cultivate this capacity for empathy as we live in the world.: ưu tiên; cultivate diễn đạt công phu tập dần, this capacity nối các ví dụ vừa nêu, must giữ phải.",
+          "We need to develop the ability to empathize in this way in order to live in this world.: cùng mức ưu tiên; develop the ability làm quá trình phát triển rõ, in this way giữ như vậy và mục đích được nêu trực tiếp.",
+          "Living in this world requires us to cultivate that kind of empathy.: dùng được; sống trên đời làm chủ ngữ requires, chuyển trọng tâm từ ta phải tập sang yêu cầu của đời.",
+          "This is the capacity for empathy that we must train ourselves to develop in life.: dùng được; this is ... that nhấn loại năng lực, train ourselves làm rõ công phu nhưng thêm tầng động từ."
+        ]
+      },
+      {
+        "sourceCue": "hành động đôi khi khác với bản chất",
+        "targetVietnamese": "hành động đôi khi khác với bản chất.",
+        "options": [
+          "Actions sometimes differ from a person’s underlying character.",
+          "Sometimes what people do does not reflect what they are really like.",
+          "A person’s underlying character and their actions do not always correspond.",
+          "There can sometimes be a gap between outward actions and inner character."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ đôi khi khác giữa hành động và bản chất, không suy ra mọi hành động đều giả tạo có chủ đích. So khác nhau, không phản ánh, không tương ứng và hình ảnh khoảng cách.",
+        "dimension": "direct difference, imperfect reflection, noncorrespondence, and possible gap",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Actions sometimes differ from a person’s underlying character.: ưu tiên; actions và differ giữ thẳng trục nguồn, sometimes giới hạn nhận định, underlying character làm rõ bản chất của người.",
+          "Sometimes what people do does not reflect what they are really like.: dùng được; does not reflect giải quan hệ thành hành động chưa phản ánh đúng con người, giọng hội thoại.",
+          "A person’s underlying character and their actions do not always correspond.: cùng mức ưu tiên; not always correspond là phủ định tần suất sát đôi khi khác, cân hai phía quan hệ.",
+          "There can sometimes be a gap between outward actions and inner character.: dùng được; gap biến khác nhau thành hình ảnh khoảng cách ngoài và trong, nhấn khả năng có độ lệch."
+        ]
+      },
+      {
+        "sourceCue": "Thấy người có lỗi, ta không vội chê trách",
+        "targetVietnamese": "Thấy người có lỗi, ta không vội chê trách.",
+        "options": [
+          "When we see that someone is at fault, we do not rush to blame them.",
+          "On seeing someone make a mistake, we hold back from hasty reproach.",
+          "We are slow to blame someone when we see them at fault.",
+          "The sight of someone’s fault does not send us rushing into criticism."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ thấy người có lỗi và không vội chê trách, không biến thành chẳng bao giờ quy lỗi. So lời trực tiếp với tự kềm lời trách và hình ảnh bị đẩy vào hành động.",
+        "dimension": "direct nonhasty blame, deliberate restraint, measured response, and personified triggering",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "When we see that someone is at fault, we do not rush to blame them.: ưu tiên; when giữ tình huống, do not rush giữ không vội chứ không cấm mọi lời trách.",
+          "On seeing someone make a mistake, we hold back from hasty reproach.: dùng được; hold back làm rõ tự kềm, make a mistake nghiêng về lỗi vô ý hơn phạm vi có lỗi.",
+          "We are slow to blame someone when we see them at fault.: cùng mức ưu tiên; be slow to blame tự nhiên và sát không vội, vẫn gắn lúc thấy lỗi.",
+          "The sight of someone’s fault does not send us rushing into criticism.: dùng được; fault làm đề tài và send us rushing là hình ảnh tác động, nhiều chuyển động hơn câu bình dị nguồn."
+        ]
+      },
+      {
+        "sourceCue": "Thấy người tử tế, ta không vội ngợi khen",
+        "targetVietnamese": "Thấy người tử tế, ta không vội ngợi khen.",
+        "options": [
+          "When we see someone being kind, we do not rush to praise them.",
+          "We do not hurry to praise someone simply because they appear kind.",
+          "Seeing someone behave decently does not make us lavish immediate praise on them.",
+          "Our praise is not immediate when we encounter someone who seems kind."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ thấy người tử tế và không vội ngợi khen, không thêm hàm ý mọi việc tử tế đáng nghi. So nhịp đối ứng với câu trách lỗi, căn cứ nhận định, cường độ khen và chủ ngữ lời khen.",
+        "dimension": "parallel caution before praise, appearance-based reasoning, lavishness, and praise-led timing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "When we see someone being kind, we do not rush to praise them.: ưu tiên; giữ when, người thấy và do not rush như cặp câu đối ứng, praise không tăng cường độ.",
+          "We do not hurry to praise someone simply because they appear kind.: dùng được trong đoạn bàn ngoài và trong; appear và simply because làm rõ căn cứ nhưng thêm sắc dè chừng vào câu trích.",
+          "Seeing someone behave decently does not make us lavish immediate praise on them.: dùng được; seeing làm chủ ngữ, lavish tăng độ hào phóng lời khen nên mạnh hơn ngợi khen chung.",
+          "Our praise is not immediate when we encounter someone who seems kind.: dùng được; praise làm chủ ngữ và not immediate giữ độ chậm, nhưng ít thể hiện việc ta chủ động không vội."
+        ]
+      },
+      {
+        "sourceCue": "để có thái độ chính xác hơn",
+        "targetVietnamese": "Ta cần phải hiểu sâu vào trong tâm của mọi người để có thái độ chính xác hơn.",
+        "options": [
+          "We need to understand people’s inner lives deeply so that we can respond to them more accurately.",
+          "To adopt a more fitting attitude toward people, we need to gain a deep understanding of their minds.",
+          "A more accurate response to people calls for deeper insight into their inner lives.",
+          "We need to look deeply into people’s minds in order to align our attitude more closely with who they are."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ cần hiểu sâu vào tâm mọi người để có thái độ chính xác hơn. So hiểu trước mục đích, mục đích trước yêu cầu, nhận định danh hóa và nhìn sâu; không đổi thành kiểm soát tâm người.",
+        "dimension": "understanding-first purpose, purpose-first understanding, response-led prerequisite, and alignment imagery",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We need to understand people’s inner lives deeply so that we can respond to them more accurately.: ưu tiên; need to understand giữ yêu cầu hiểu, deeply giữ độ sâu, so that nối mục đích ứng xử chính xác hơn.",
+          "To adopt a more fitting attitude toward people, we need to gain a deep understanding of their minds.: cùng mức ưu tiên; đưa thái độ phù hợp lên trước, gain ... understanding giữ quá trình đi tới hiểu sâu.",
+          "A more accurate response to people calls for deeper insight into their inner lives.: dùng được; response làm chủ ngữ calls for, lấy yêu cầu của thái độ đúng làm điểm mở thay vì ta cần hiểu.",
+          "We need to look deeply into people’s minds in order to align our attitude more closely with who they are.: dùng được trong mạch; look deeply và align tạo hình ảnh cho hiểu và điều chỉnh, diễn giải nhiều hơn nguồn."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M124",
+    "sourceBlockId": "W11-B04",
+    "title": "Một người còn thương có thể giúp người lầm lỗi đứng dậy",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "ai cũng cần có một người để nương tựa",
+        "targetVietnamese": "Trong cơn đau, trong khi vấp ngã, trong khi phạm sai lầm, ai cũng cần có một người để nương tựa.",
+        "options": [
+          "In pain, when we stumble, and when we make mistakes, we all need someone to lean on.",
+          "Everyone needs someone to turn to in times of pain, failure, or wrongdoing.",
+          "Pain, setbacks, and mistakes leave us all in need of someone we can rely on.",
+          "Someone to lean on is a need we all share when we are hurting, stumbling, or making mistakes."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ ba tình huống đau, vấp ngã, phạm sai lầm và ai cũng cần người nương tựa. So ba nhịp hoàn cảnh với cách gom thành thời khó khăn, quan hệ gây nhu cầu và nhu cầu làm điểm dẫn.",
+        "dimension": "situational need, turning for support, adversity-led causation, and shared-need focus",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "In pain, when we stumble, and when we make mistakes, we all need someone to lean on.: ưu tiên; giữ nhịp liệt kê tình huống, we all đủ ai cũng và lean on trúng nương tựa.",
+          "Everyone needs someone to turn to in times of pain, failure, or wrongdoing.: dùng được; turn to nhấn tìm đến người, failure và wrongdoing giải vấp ngã, sai lầm theo nét cụ thể hơn.",
+          "Pain, setbacks, and mistakes leave us all in need of someone we can rely on.: dùng được; ba khó khăn làm chủ ngữ của leave us in need, biểu đạt như nguyên nhân thay vì hoàn cảnh.",
+          "Someone to lean on is a need we all share when we are hurting, stumbling, or making mistakes.: dùng được; nhu cầu được đưa lên đầu, nhịp khái quát hơn lời nhắc về người đang đau."
+        ]
+      },
+      {
+        "sourceCue": "thả trôi đời mình trong thế tục",
+        "targetVietnamese": "Một nhà sư vì bất mãn đồng đạo của mình mà thả trôi đời mình trong thế tục.",
+        "options": [
+          "Disillusioned with his fellow practitioners, a monk lets his life drift into worldly ways.",
+          "A monk’s dissatisfaction with his fellow practitioners leads him to let his life drift into worldly living.",
+          "A monk drifts into worldly life after becoming discontented with his fellow practitioners.",
+          "Worldly life draws in a monk who, out of dissatisfaction with his fellow practitioners, has let himself drift."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ bất mãn đồng đạo là lý do và hành động thả trôi đời mình vào thế tục. So người để mặc đời trôi với sự bất mãn hoặc đời thế tục làm tác nhân; không tự thêm việc hoàn tục chính thức.",
+        "dimension": "disillusioned agency, dissatisfaction-led cause, temporal drift, and worldly-life attraction",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Disillusioned with his fellow practitioners, a monk lets his life drift into worldly ways.: ưu tiên; nguyên nhân mở câu rõ, lets ... drift giữ tự buông đời trôi chứ không phải một thủ tục rời Tăng đoàn.",
+          "A monk’s dissatisfaction with his fellow practitioners leads him to let his life drift into worldly living.: cùng mức ưu tiên; dissatisfaction làm chủ ngữ của leads nhưng him to let vẫn giữ phần buông xuôi của người tu.",
+          "A monk drifts into worldly life after becoming discontented with his fellow practitioners.: dùng được; after kể trình tự, nên quan hệ nguyên nhân vì bất mãn không tường minh bằng hai cách đầu.",
+          "Worldly life draws in a monk who, out of dissatisfaction with his fellow practitioners, has let himself drift.: dùng được; worldly life làm sức hút rồi mới giải lý do buông xuôi, thay điểm nhấn từ người sang môi trường thế tục."
+        ]
+      },
+      {
+        "sourceCue": "huynh đệ tìm đến bày tỏ yêu thương tin tưởng",
+        "targetVietnamese": "Nhưng có một huynh đệ tìm đến bày tỏ yêu thương tin tưởng,",
+        "options": [
+          "But a fellow practitioner comes to him and expresses love and trust.",
+          "But one of his fellow practitioners reaches out to him with love and trust.",
+          "But he receives a visit from a fellow practitioner who expresses affection and confidence in him.",
+          "But love and trust are offered to him by a fellow practitioner who comes to see him."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ nhưng, có người huynh đệ tìm đến và bày tỏ cả thương yêu lẫn tin tưởng. So chuyến đến gặp cụ thể với reach out bao quát hoặc tình cảm được đưa lên đầu.",
+        "dimension": "visit plus expression, relational reaching out, recipient-led visit, and offered affection",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "But a fellow practitioner comes to him and expresses love and trust.: ưu tiên; comes to him và expresses giữ hai hành động, đủ love và trust, một huynh đệ chưa bị nâng thành thầy.",
+          "But one of his fellow practitioners reaches out to him with love and trust.: dùng được; reaches out tự nhiên về chủ động kết nối, nhưng không tự chỉ một cuộc đến gặp trực tiếp như tìm đến.",
+          "But he receives a visit from a fellow practitioner who expresses affection and confidence in him.: cùng mức ưu tiên; đặt người nhận chuyến thăm làm trục vẫn giữ việc đến và lời bày tỏ tình cảm, tin cậy.",
+          "But love and trust are offered to him by a fellow practitioner who comes to see him.: dùng được; tình cảm làm chủ ngữ bị động, người huynh đệ và việc đến gặp xuất hiện muộn hơn."
+        ]
+      },
+      {
+        "sourceCue": "nhà sư đứng dậy để lập lại đời sống tu hành",
+        "targetVietnamese": "thế là nhà sư đứng dậy để lập lại đời sống tu hành.",
+        "options": [
+          "Then the monk gets back on his feet to rebuild his life of practice.",
+          "The monk then rises again and sets about restoring his life of practice.",
+          "This prompts the monk to pick himself up and reestablish his life of practice.",
+          "The rebuilding of the monk’s life of practice begins as he picks himself up again."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ thế là, đứng dậy và ý bắt đầu lập lại đời tu, không tuyên bố đã tu chứng. So hình ảnh hồi phục và việc khởi sự với nguyên nhân tác động hoặc sự tái lập làm chủ ngữ.",
+        "dimension": "recovery and purpose, rising to begin, prompted action, and rebuilding-led onset",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Then the monk gets back on his feet to rebuild his life of practice.: ưu tiên; gets back on his feet giữ hình ảnh đứng dậy trong nghĩa phục hồi, to rebuild giữ hướng đích lập lại đời tu.",
+          "The monk then rises again and sets about restoring his life of practice.: cùng mức ưu tiên; rises again giữ hình ảnh và sets about nhấn bắt tay làm, không xem việc hồi phục là đã hoàn tất.",
+          "This prompts the monk to pick himself up and reestablish his life of practice.: dùng được; this prompts làm rõ sự thương tin đã thúc người tu, causative mạnh hơn nhịp thế là đơn thuần.",
+          "The rebuilding of the monk’s life of practice begins as he picks himself up again.: dùng được; rebuilding làm trục và begins giữ mới khởi sự, nhưng hình ảnh người đứng lên không còn làm điểm mở."
+        ]
+      },
+      {
+        "sourceCue": "đằng sau cái sai lầm, còn có một nguyên nhân khác nữa",
+        "targetVietnamese": "Nhiều khi đằng sau cái sai lầm, còn có một nguyên nhân khác nữa.",
+        "options": [
+          "Often, there is another cause behind a mistake.",
+          "A mistake often has another cause lying behind it.",
+          "Often, a further cause underlies what went wrong.",
+          "Often, a mistake has an additional explanation lying beneath the surface."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ nhiều khi, đằng sau sai lầm và còn nguyên nhân khác. So lời nhận ra có thêm nguyên nhân với động từ underlie hoặc cách nói có nhiều điều phía sau; không biến nguyên nhân thành lý do miễn lỗi.",
+        "dimension": "additional cause, mistake-led attribution, underlying explanation, and more-behind framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Often, there is another cause behind a mistake.: ưu tiên; often và another giữ tần suất, nguyên nhân thêm, behind giữ hình ảnh nguồn rõ và gọn.",
+          "A mistake often has another cause lying behind it.: cùng mức ưu tiên; mistake làm chủ ngữ rồi lying behind giữ quan hệ nguyên nhân phía sau, không làm mất lượng khác.",
+          "Often, a further cause underlies what went wrong.: dùng được; underlies gánh đằng sau bằng một động từ, what went wrong mở cách gọi sự sai lầm.",
+          "Often, a mistake has an additional explanation lying beneath the surface.: dùng được; explanation chuyển từ tác nhân gây ra sang điều giải thích, beneath the surface giữ hình ảnh nguyên nhân chưa thấy phía sau."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M125",
+    "sourceBlockId": "W11-B05",
+    "title": "Hiểu áp lực của người khác để không làm ngơ",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "đến kỳ phải đóng tiền học mà không có tiền đóng",
+        "targetVietnamese": "Hoặc một em sinh viên nhà nghèo, đến kỳ phải đóng tiền học mà không có tiền đóng.",
+        "options": [
+          "Or consider a student from a poor family whose tuition is due, but who has no money to pay it.",
+          "Or think of a poor student facing a tuition payment they cannot afford.",
+          "Or there is a student from a poor family: the tuition deadline has arrived, and there is no money to pay.",
+          "Or tuition falls due for a student from a poor family who has nothing with which to pay it."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ ví dụ sinh viên nhà nghèo, kỳ phải đóng tiền học đã đến và không có tiền. So người làm điểm mở với khoản học phí đến hạn; phân biệt thiếu tiền hiện có với không đủ khả năng chi trả nói chung.",
+        "dimension": "student-led example, financial pressure, presented predicament, and tuition-led deadline",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Or consider a student from a poor family whose tuition is due, but who has no money to pay it.: ưu tiên; consider làm mảnh ví dụ thành câu Anh tự nhiên, due và has no money giữ hạn đóng và thiếu tiền thực tế.",
+          "Or think of a poor student facing a tuition payment they cannot afford.: dùng được; facing diễn đạt đang đối mặt, cannot afford rộng hơn không có tiền lúc đến hạn và poor student lược nét gia đình.",
+          "Or there is a student from a poor family: the tuition deadline has arrived, and there is no money to pay.: cùng mức ưu tiên; dấu hai chấm tách cảnh sinh viên và hoàn cảnh cấp bách, đủ nguồn gốc gia đình và hạn tiền.",
+          "Or tuition falls due for a student from a poor family who has nothing with which to pay it.: dùng được; tuition làm chủ ngữ của falls due, lấy khoản phải trả làm điểm dẫn thay vì người sinh viên."
+        ]
+      },
+      {
+        "sourceCue": "thậm chí có cả ý nghĩ tự tử",
+        "targetVietnamese": "Ta sẽ hiểu trăm nghìn ý nghĩ bức xúc xảy ra trong đầu, thậm chí có cả ý nghĩ tự tử.",
+        "options": [
+          "We will understand the countless distressing thoughts arising in the student’s mind, even thoughts of suicide.",
+          "We will grasp how the student’s mind fills with countless distressing thoughts, even thoughts of suicide.",
+          "The countless distressing thoughts in the student’s mind, including even thoughts of suicide, will become understandable to us.",
+          "We will come to understand the mental turmoil the student is experiencing, with countless distressing thoughts, even of suicide."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ ta sẽ hiểu, rất nhiều ý nghĩ bức xúc trong đầu và mức thậm chí tự tử, không đổi thành người sinh viên đã hành động. So ý nghĩ phát sinh, tâm bị lấp đầy và trạng thái rối bời.",
+        "dimension": "understanding arising thoughts, grasping mental filling, thought-led intelligibility, and turmoil framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We will understand the countless distressing thoughts arising in the student’s mind, even thoughts of suicide.: ưu tiên; will understand giữ điểm nhìn người cảm thông, countless truyền trăm nghìn tu từ và thoughts không thành hành động.",
+          "We will grasp how the student’s mind fills with countless distressing thoughts, even thoughts of suicide.: cùng mức ưu tiên; grasp how làm rõ hiểu được diễn biến tâm, fills with giữ lượng ý nghĩ tràn lên trong hoàn cảnh.",
+          "The countless distressing thoughts in the student’s mind, including even thoughts of suicide, will become understandable to us.: dùng được; ý nghĩ đứng đầu như điều nay có thể hiểu, bị động hóa quan hệ nhận thức và nhịp dài hơn.",
+          "We will come to understand the mental turmoil the student is experiencing, with countless distressing thoughts, even of suicide.: dùng được; mental turmoil gom sự bức xúc thành trạng thái chung, rồi giữ đủ ý nghĩ để không thay chi tiết bằng khái niệm."
+        ]
+      },
+      {
+        "sourceCue": "không thể đành lòng làm ngơ bỏ mặc",
+        "targetVietnamese": "Hiểu được sâu xa trong nội tâm người, ta không thể đành lòng làm ngơ bỏ mặc.",
+        "options": [
+          "Once we deeply understand another person’s inner life, we cannot bring ourselves to ignore them and leave them to their troubles.",
+          "A deep understanding of someone’s inner life makes it impossible for us to harden our hearts and leave them unattended.",
+          "Understanding what lies deep in another person’s heart, we cannot bear to turn away and abandon them.",
+          "We cannot remain indifferent and leave someone to cope alone once we understand their inner life deeply."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ hiểu sâu nội tâm rồi không đành lòng làm ngơ bỏ mặc. So sự không thể về lòng dạ với cứng lòng, quay đi hoặc thờ ơ; không tự hứa sẽ giải quyết hết khó khăn.",
+        "dimension": "understanding before moral inability, hardened-heart causation, unbearable abandonment, and response-first empathy",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Once we deeply understand another person’s inner life, we cannot bring ourselves to ignore them and leave them to their troubles.: ưu tiên; cannot bring ourselves gánh không đành lòng, ignore và leave giữ hai mặt làm ngơ, bỏ mặc.",
+          "A deep understanding of someone’s inner life makes it impossible for us to harden our hearts and leave them unattended.: dùng được; understanding làm chủ ngữ gây thay đổi, harden our hearts là hình ảnh cho sự vô cảm chứ không phải chữ nguồn.",
+          "Understanding what lies deep in another person’s heart, we cannot bear to turn away and abandon them.: cùng mức ưu tiên; cannot bear truyền không nỡ, turn away và abandon đủ quay lưng, bỏ mặc với giọng giàu cảm xúc.",
+          "We cannot remain indifferent and leave someone to cope alone once we understand their inner life deeply.: dùng được; đưa phản ứng lên trước và điều kiện hiểu ra cuối, cope alone làm rõ điều bỏ mặc đặt lên người kia."
+        ]
+      },
+      {
+        "sourceCue": "có khả năng thông cảm sâu sắc với mọi người",
+        "targetVietnamese": "Người có đạo đức là người có khả năng thông cảm sâu sắc với mọi người.",
+        "options": [
+          "An ethical person is someone capable of deep empathy with everyone.",
+          "A person of moral character can empathize deeply with all people.",
+          "The capacity to empathize deeply with everyone is a quality of an ethical person.",
+          "What marks an ethical person is the ability to understand everyone with deep empathy."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ người có đạo đức, khả năng thông cảm sâu và phạm vi mọi người. So định nghĩa người với dấu hiệu nhận diện, không suy ra phải luôn đồng ý với mọi người.",
+        "dimension": "person definition, modal empathizing, capacity as a quality, and identifying hallmark",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "An ethical person is someone capable of deep empathy with everyone.: ưu tiên; is someone capable giữ là người có khả năng, deep và everyone đủ mức độ và phạm vi.",
+          "A person of moral character can empathize deeply with all people.: cùng mức ưu tiên; can empathize biến khả năng thành vị ngữ tự nhiên, moral character giữ đạo đức của người.",
+          "The capacity to empathize deeply with everyone is a quality of an ethical person.: dùng được; capacity làm chủ ngữ và quality nêu đặc tính, giọng khái quát thay định nghĩa người trực tiếp.",
+          "What marks an ethical person is the ability to understand everyone with deep empathy.: dùng được; what marks dựng tiêu chí nhận diện, understand giải thêm thao tác bên trong empathy."
+        ]
+      },
+      {
+        "sourceCue": "ta thường có cách xử lý tích cực hơn",
+        "targetVietnamese": "Thông cảm rồi thì ta thường có cách xử lý tích cực hơn.",
+        "options": [
+          "Once we empathize, we often find a more constructive way to respond.",
+          "Having come to understand someone with empathy, we tend to handle the situation more positively.",
+          "A more constructive response often follows empathy.",
+          "Empathy often opens the way to a more positive handling of the situation."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ sau khi thông cảm, thường chứ không luôn, và xử lý tích cực hơn. So người đáp lại, kết quả theo sau và sự mở đường; không coi đồng cảm là bảo đảm giải quyết thành công.",
+        "dimension": "person-led constructive response, tendency in handling, subsequent outcome, and enabling path",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Once we empathize, we often find a more constructive way to respond.: ưu tiên; once giữ rồi, often giữ thường và find a way cho thấy cách xử lý chứ không tuyên bố đã giải quyết xong.",
+          "Having come to understand someone with empathy, we tend to handle the situation more positively.: cùng mức ưu tiên; tend to giữ tần suất, handle diễn đạt xử lý và positively giữ hướng tích cực.",
+          "A more constructive response often follows empathy.: dùng được; response lên đầu như kết quả thường theo sau, ngắn nhưng không còn người thực hiện.",
+          "Empathy often opens the way to a more positive handling of the situation.: dùng được; opens the way là hình ảnh tạo điều kiện, handling danh hóa hành động và nhịp xa người hơn."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M126",
+    "sourceBlockId": "W11-B06",
+    "title": "Tập tận tụy từ những việc không lương",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "ta còn phải làm phước bằng cách làm những việc chẳng ai làm",
+        "targetVietnamese": "Thậm chí khi chưa có việc làm, ta còn phải làm phước bằng cách làm những việc chẳng ai làm",
+        "options": [
+          "Even when we do not yet have a job, we must still do good deeds by taking on tasks that no one else does.",
+          "We must still take up neglected tasks as good deeds, even before we have found employment.",
+          "Being without a job does not remove our obligation to do good by undertaking work that nobody else does.",
+          "Even before employment comes, doing the work no one else will do remains a way in which we must do good."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ thậm chí khi chưa có việc, còn phải làm phước và phương tiện làm việc chẳng ai làm. So điều kiện trước, nghĩa vụ trước và diễn đạt như chưa được miễn trách nhiệm.",
+        "dimension": "condition-led duty, neglected-task action, nonexemption, and continuing means of doing good",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Even when we do not yet have a job, we must still do good deeds by taking on tasks that no one else does.: ưu tiên; even when và must still giữ trọn lực, by taking on nối đúng việc làm phước với các việc bị để mặc.",
+          "We must still take up neglected tasks as good deeds, even before we have found employment.: cùng mức ưu tiên; take up neglected tasks gọn và sát ngữ cảnh, even before giữ chưa có việc làm.",
+          "Being without a job does not remove our obligation to do good by undertaking work that nobody else does.: dùng được; dựng thành nghĩa vụ không mất đi, làm rõ hàm ý còn phải nhưng có giọng lý luận hơn.",
+          "Even before employment comes, doing the work no one else will do remains a way in which we must do good.: dùng được; công việc làm chủ ngữ dài và remains giữ còn, giọng nặng hơn lời khuyên trực tiếp."
+        ]
+      },
+      {
+        "sourceCue": "vớt rác trên kênh mương",
+        "targetVietnamese": "vớt rác trên kênh mương",
+        "options": [
+          "We remove floating rubbish from canals and ditches.",
+          "We fish rubbish out of canals and ditches.",
+          "Canals and ditches are cleared of floating rubbish through our work.",
+          "Our task is to lift rubbish out of the water in canals and ditches."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ hành động vớt rác trong kênh mương, không thay bằng tổng vệ sinh hay nạo vét cả lòng kênh. So người làm, thao tác vớt và nguồn nước được làm sạch làm điểm dẫn.",
+        "dimension": "removal action, idiomatic fishing out, cleaned-waterway passive, and task-defined lifting",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We remove floating rubbish from canals and ditches.: ưu tiên; remove ... from nói rõ rác được lấy khỏi nước, floating làm rõ thao tác vớt trong ngữ cảnh.",
+          "We fish rubbish out of canals and ditches.: cùng mức ưu tiên; fish ... out tự nhiên về động tác lấy vật khỏi nước, không có nghĩa ở đây là đánh cá.",
+          "Canals and ditches are cleared of floating rubbish through our work.: dùng được; kênh mương làm chủ ngữ bị động, kết quả được sạch rác nổi hơn động tác người vớt.",
+          "Our task is to lift rubbish out of the water in canals and ditches.: dùng được; task làm trục và lift nêu chiều đưa rác khỏi nước, diễn giải thao tác đầy hơn câu Việt ngắn."
+        ]
+      },
+      {
+        "sourceCue": "tất cả đều làm không có lương",
+        "targetVietnamese": "tất cả đều làm không có lương.",
+        "options": [
+          "We do all of this without pay.",
+          "All these tasks are done without pay.",
+          "We receive no wages for any of these tasks.",
+          "None of this work brings us a wage."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ tất cả việc vừa kể đều không có lương. So người làm, việc được làm và việc không nhận lương; không suy ra không có bất cứ niềm vui hay phước nào.",
+        "dimension": "unpaid action, task-led passive, receipt of wages, and work-led income",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We do all of this without pay.: ưu tiên; we do giữ hoạt động, all of this nối toàn bộ danh sách và without pay đúng không có lương.",
+          "All these tasks are done without pay.: cùng mức ưu tiên; bị động đặt tất cả việc lên đầu như nguồn, không làm mất người làm do ngữ cảnh rõ.",
+          "We receive no wages for any of these tasks.: dùng được; chuyển từ làm không lương sang nhận không có lương, negative any giữ phạm vi tất cả.",
+          "None of this work brings us a wage.: dùng được; work làm tác nhân không đem về lương, nhấn thu nhập thay cho điều kiện làm việc."
+        ]
+      },
+      {
+        "sourceCue": "vậy mà ta còn vui vẻ hăng hái làm",
+        "targetVietnamese": "Những việc thiện nguyện đó không dễ làm, vậy mà ta còn vui vẻ hăng hái làm, thì khi đã có công ăn việc làm, ta sẽ rất tận tụy, không đứng núi này trông núi nọ.",
+        "options": [
+          "If we cheerfully and eagerly do volunteer work that is far from easy, then once employed we will be deeply dedicated, rather than always looking for greener pastures.",
+          "When we willingly and enthusiastically take on such difficult volunteer work, we will bring great dedication to paid employment instead of forever eyeing something better elsewhere.",
+          "Cheerful, eager effort in that difficult volunteer work will carry over into wholehearted dedication once we have a job, without constantly looking elsewhere for something better.",
+          "If even those difficult volunteer tasks are met with our cheerfulness and enthusiasm, our later employment will receive great dedication rather than a restless search for greener pastures."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ việc thiện nguyện khó mà vẫn vui hăng hái, rồi khi có việc sẽ tận tụy và không ngó việc khác. So mạch điều kiện với sự chuyển thói quen thành cơ chế; giữ thành ngữ bằng nghĩa tự nhiên.",
+        "dimension": "conditional volunteer-to-work transfer, active enthusiastic undertaking, carry-over mechanism, and task-led parallel",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "If we cheerfully and eagerly do volunteer work that is far from easy, then once employed we will be deeply dedicated, rather than always looking for greener pastures.: ưu tiên; if và then once giữ mạch điều kiện, cheerful và eagerly đủ thái độ, greener pastures diễn đúng thành ngữ so chỗ khác ngon hơn.",
+          "When we willingly and enthusiastically take on such difficult volunteer work, we will bring great dedication to paid employment instead of forever eyeing something better elsewhere.: cùng mức ưu tiên; when dựng người chủ động làm, paid employment làm rõ đối chiếu với thiện nguyện và eyeing giữ cứ trông nơi khác.",
+          "Cheerful, eager effort in that difficult volunteer work will carry over into wholehearted dedication once we have a job, without constantly looking elsewhere for something better.: dùng được; effort làm tác nhân carry over, biến mạch điều kiện thành sự chuyển phẩm chất sang công việc sau này.",
+          "If even those difficult volunteer tasks are met with our cheerfulness and enthusiasm, our later employment will receive great dedication rather than a restless search for greener pastures.: dùng được; hai bị động met và receive đưa công việc lên đầu, đủ quan hệ nhưng ít người hành động và nặng hơn."
+        ]
+      },
+      {
+        "sourceCue": "Buộc tâm ta phải yêu công việc mình làm",
+        "targetVietnamese": "Buộc tâm ta phải yêu công việc mình làm, rồi hạnh phúc sẽ đến với ta.",
+        "options": [
+          "We must make ourselves love the work we do; then happiness will come to us.",
+          "We must train our minds to love our work, and happiness will then come to us.",
+          "Loving our work is something we must require of ourselves; happiness will follow.",
+          "We must insist on loving the work we do, after which happiness will come our way."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ lực buộc tâm phải yêu chính việc mình làm và hạnh phúc sẽ đến sau. So sự buộc mình với công phu rèn tâm, yêu cầu tự đặt và quyết tâm; không làm nhẹ thành chỉ thử thích công việc.",
+        "dimension": "self-compulsion, mental training, self-imposed requirement, and insistent resolve",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must make ourselves love the work we do; then happiness will come to us.: ưu tiên; make ourselves giữ lực buộc, love the work we do đúng đối tượng và then happiness will come giữ trình tự.",
+          "We must train our minds to love our work, and happiness will then come to us.: dùng được; train our minds diễn công phu dài hơn, giữ tâm rõ nhưng nhẹ sắc buộc tức thời.",
+          "Loving our work is something we must require of ourselves; happiness will follow.: dùng được; yêu việc làm chủ ngữ của require, tách một lời yêu cầu rồi kết happiness will follow gọn.",
+          "We must insist on loving the work we do, after which happiness will come our way.: dùng được; insist nhấn quyết tâm tự đòi, come our way đổi hình ảnh hạnh phúc đến với ta sang đường đến tự nhiên."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M127",
+    "sourceBlockId": "W11-B07",
+    "title": "Từ bi không chỉ là một cảm xúc đứng yên",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "một tâm lý thôi thúc là làm cái gì đó cho chúng sinh được an vui hạnh phúc",
+        "targetVietnamese": "Bây giờ với tâm Từ bi thương yêu hết tất cả chúng sinh, đương nhiên chúng ta cũng bị một tâm lý thôi thúc là làm cái gì đó cho chúng sinh được an vui hạnh phúc.",
+        "options": [
+          "Now, with compassion and love for all sentient beings, we naturally feel an urge to do something for their peace and happiness.",
+          "Now that our compassion embraces all sentient beings, we are naturally moved to do something to bring them peace and happiness.",
+          "Compassionate love for all sentient beings now naturally stirs in us a desire to act for their peace and happiness.",
+          "An urge to do something for the peace and happiness of all sentient beings naturally arises in us now, out of our compassionate love for them."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ tâm thương tất cả chúng sinh, hiện tại với tâm ấy và sự thôi thúc tự nhiên làm gì cho họ an vui. So người cảm thấy thôi thúc với lòng từ làm tác nhân hoặc thôi thúc tự phát sinh.",
+        "dimension": "felt urge, being moved to act, compassion as stirring agent, and urge-led emergence",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Now, with compassion and love for all sentient beings, we naturally feel an urge to do something for their peace and happiness.: ưu tiên; now, all và naturally đủ thời điểm, phạm vi, tính tự nhiên, feel an urge giữ trạng thái thôi thúc chứ chưa nói đã làm.",
+          "Now that our compassion embraces all sentient beings, we are naturally moved to do something to bring them peace and happiness.: cùng mức ưu tiên; now that nối tâm từ hiện có, are moved to giữ sức thúc và to bring đủ hướng cho chúng sinh an vui.",
+          "Compassionate love for all sentient beings now naturally stirs in us a desire to act for their peace and happiness.: dùng được; compassionate love làm chủ ngữ stirs, desire to act gom làm cái gì thành ý muốn hành động.",
+          "An urge to do something for the peace and happiness of all sentient beings naturally arises in us now, out of our compassionate love for them.: dùng được; urge đứng đầu và arises nêu phát sinh, nguyên nhân lòng từ đặt cuối tạo nhịp giải thích ngược."
+        ]
+      },
+      {
+        "sourceCue": "Tâm Từ bi càng nhiều thì sự thôi thúc càng lớn",
+        "targetVietnamese": "Tâm Từ bi càng nhiều thì sự thôi thúc càng lớn.",
+        "options": [
+          "The greater our compassion, the stronger the urge.",
+          "As our compassion grows, so does the urge to act.",
+          "A growth in compassion brings a corresponding increase in the urge to act.",
+          "The urge to act strengthens in proportion to our compassion."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ càng nhiều thì càng lớn như quan hệ hai mức tăng cùng nhau; act chỉ nối lại hành động ở câu trước. So hai vế tương ứng, chuyển động theo thời gian, quan hệ nhân quả và giọng tỉ lệ.",
+        "dimension": "correlative degree, parallel growth, nominal causal increase, and proportional strengthening",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "The greater our compassion, the stronger the urge.: ưu tiên; the greater ... the stronger giữ cấu trúc so sánh đồng tiến rất sát và gọn, urge nối ý trước.",
+          "As our compassion grows, so does the urge to act.: cùng mức ưu tiên; grows và so does làm quan hệ tăng cùng rõ bằng động từ, act gọi lại mục đích thôi thúc đã nêu.",
+          "A growth in compassion brings a corresponding increase in the urge to act.: dùng được; growth và increase danh hóa hai mức, brings làm chiều nhân quả tường minh hơn cấu trúc càng càng.",
+          "The urge to act strengthens in proportion to our compassion.: dùng được; strengthens diễn động lực tăng, in proportion có giọng tỉ lệ phân tích hơn lời thuyết minh đời thường."
+        ]
+      },
+      {
+        "sourceCue": "Càng hiểu Đạo, chúng ta càng hiểu rõ bản chất cuộc đời thật là đau khổ",
+        "targetVietnamese": "Càng hiểu Đạo, chúng ta càng hiểu rõ bản chất cuộc đời thật là đau khổ.",
+        "options": [
+          "The more we understand the Dharma, the more clearly we see that life is, by its very nature, suffering.",
+          "As our understanding of the Dharma deepens, we recognize more clearly the suffering inherent in life.",
+          "A deeper understanding of the Dharma brings a clearer realization that suffering is intrinsic to life.",
+          "Life’s inherently painful nature becomes clearer to us as we come to understand the Dharma more deeply."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ càng hiểu Đạo càng thấy rõ bản chất đời thực là đau khổ. So nhận định về bản chất với đau khổ nằm trong đời; không tự sửa giáo lý nguồn thành một luận đề khác nhẹ hơn.",
+        "dimension": "correlative realization, recognizing inherent suffering, understanding-led clarity, and nature-led disclosure",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "The more we understand the Dharma, the more clearly we see that life is, by its very nature, suffering.: ưu tiên; so sánh đồng tiến và that life is ... suffering giữ chính nhận định bản chất, không chỉ nói đời có một phần khổ.",
+          "As our understanding of the Dharma deepens, we recognize more clearly the suffering inherent in life.: dùng được; recognize và inherent giữ việc thấy rõ khổ vốn có, nhưng đặt suffering trong đời thay vì đồng nhất đời theo nhịp nguồn.",
+          "A deeper understanding of the Dharma brings a clearer realization that suffering is intrinsic to life.: dùng được; understanding làm tác nhân brings, realization danh hóa việc hiểu và intrinsic giữ nét bản chất.",
+          "Life’s inherently painful nature becomes clearer to us as we come to understand the Dharma more deeply.: dùng được; bản chất đời đứng đầu, becomes clearer mô tả sự sáng rõ của đối tượng và đưa công phu hiểu Đạo ra cuối."
+        ]
+      },
+      {
+        "sourceCue": "mọi người không khổ vì điều này thì cũng khổ vì điều khác",
+        "targetVietnamese": "Chung quanh ta, mọi người không khổ vì điều này thì cũng khổ vì điều khác.",
+        "options": [
+          "Everyone around us suffers from one thing or another.",
+          "Around us, if it is not one thing causing people suffering, it is another.",
+          "One source of suffering or another troubles everyone around us.",
+          "For everyone around us, suffering comes from this or that part of life."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ chung quanh ta, mọi người và không điều này thì điều khác. So cách gọn one thing or another, cấu trúc luân phiên và nguồn khổ làm tác nhân; không nói mọi người khổ giống nhau.",
+        "dimension": "universal varied suffering, either-or rhythm, troubling causes, and life-aspect framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Everyone around us suffers from one thing or another.: ưu tiên; everyone và around us giữ phạm vi, one thing or another nén tự nhiên hai vế điều này điều khác.",
+          "Around us, if it is not one thing causing people suffering, it is another.: cùng mức ưu tiên; if it is not ... it is another tái hiện nhịp luân phiên và địa điểm mở đầu.",
+          "One source of suffering or another troubles everyone around us.: dùng được; nguồn khổ làm chủ ngữ troubles, diễn tác động lên người hơn trạng thái chịu khổ của người.",
+          "For everyone around us, suffering comes from this or that part of life.: dùng được; for everyone dựng phạm vi, this or that part of life giải rộng điều này điều khác theo các mặt đời sống."
+        ]
+      },
+      {
+        "sourceCue": "Không ai thực sự trọn vẹn sung sướng",
+        "targetVietnamese": "Không ai thực sự trọn vẹn sung sướng.",
+        "options": [
+          "No one is truly, completely happy.",
+          "No one enjoys happiness that is truly complete.",
+          "Truly complete happiness is not anyone’s lot.",
+          "There is no one whose happiness is truly whole."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ không ai và mức thực sự trọn vẹn; không biến thành không ai có bất cứ niềm vui nào. So trạng thái người, trải nghiệm hưởng, phần đời được hưởng và sự toàn vẹn của hạnh phúc.",
+        "dimension": "negative complete state, enjoyed completeness, existential lot, and wholeness framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "No one is truly, completely happy.: ưu tiên; no one và completely giữ phạm vi phủ định đúng mức trọn vẹn, happy gần giọng nguồn.",
+          "No one enjoys happiness that is truly complete.: cùng mức ưu tiên; enjoys ... complete đặt tính trọn vẹn vào happiness, không phủ định các niềm vui từng phần.",
+          "Truly complete happiness is not anyone’s lot.: dùng được; lot làm câu có giọng thân phận và chiêm nghiệm, mạnh sắc văn hơn nhận định trực tiếp.",
+          "There is no one whose happiness is truly whole.: dùng được; there is no one dựng phủ định tồn tại, whose happiness đưa trọng tâm sang sự toàn vẹn của niềm vui."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M128",
+    "sourceBlockId": "W11-B08",
+    "title": "Vất vả vì người mà không khô cạn niềm vui",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "rất bận rộn vất vả cực khổ vì tha nhân",
+        "targetVietnamese": "Người tu đúng sẽ là người rất bận rộn vất vả cực khổ vì tha nhân,",
+        "options": [
+          "Those who practice rightly will be very busy, working hard and bearing hardship for others.",
+          "Right practice will make us people whose lives are busy with hard work and hardship for the sake of others.",
+          "A person who practices rightly will lead a very busy life of strenuous effort and hardship in service to others.",
+          "Being constantly occupied with demanding work and hardship for others will characterize those who practice rightly."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ người tu đúng sẽ rất bận, vất vả và chịu cực vì tha nhân. So người làm chủ ngữ với việc tu làm tác nhân và hoạt động làm dấu hiệu; không thêm ý kiệt sức hay than khổ.",
+        "dimension": "practitioner-led prediction, practice as cause, life of service, and defining activity",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Those who practice rightly will be very busy, working hard and bearing hardship for others.: ưu tiên; those who practice rightly giữ điều kiện phẩm chất của người, will và very busy giữ lực, đủ làm nặng và chịu cực vì người.",
+          "Right practice will make us people whose lives are busy with hard work and hardship for the sake of others.: dùng được; right practice làm tác nhân make us, tăng nét nhân quả so với lời mô tả người tu đúng.",
+          "A person who practices rightly will lead a very busy life of strenuous effort and hardship in service to others.: cùng mức ưu tiên; lead a ... life tự nhiên về đời sống bận vất vả, in service to others giữ vì tha nhân.",
+          "Being constantly occupied with demanding work and hardship for others will characterize those who practice rightly.: dùng được; hoạt động làm chủ ngữ dài của characterize, constantly nghiêng về tính liên tục hơn mức rất bận của nguồn."
+        ]
+      },
+      {
+        "sourceCue": "nhưng niềm vui trong tâm thì tràn đầy",
+        "targetVietnamese": "nhưng niềm vui trong tâm thì tràn đầy.",
+        "options": [
+          "Yet their hearts are full of joy.",
+          "But inwardly, they overflow with joy.",
+          "Yet joy fills their hearts to the brim.",
+          "But the joy within them is abundant."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ nhưng tương phản với đời làm việc cực nhọc và niềm vui trong tâm tràn đầy. So người có tâm đầy vui với niềm vui tràn hoặc làm sức lấp đầy; không đổi thành đời sống bên ngoài nhàn hạ.",
+        "dimension": "full heart, inward overflowing, joy as filling agent, and abundance statement",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Yet their hearts are full of joy.: ưu tiên; yet nối tương phản, hearts are full giữ trong tâm tràn đầy bằng lời tự nhiên, không thêm yên ổn bên ngoài.",
+          "But inwardly, they overflow with joy.: dùng được; inwardly nhấn đối lập nội tâm và bề ngoài, overflow giàu hình ảnh vui trào ra hơn đầy bên trong.",
+          "Yet joy fills their hearts to the brim.: cùng mức ưu tiên; joy làm chủ ngữ fills, to the brim giữ mức tràn đầy của tâm.",
+          "But the joy within them is abundant.: dùng được; abundant đủ nhiều nhưng ít gợi hình ảnh đầy tràn, giọng thuyết minh hơn câu cảm nhận."
+        ]
+      },
+      {
+        "sourceCue": "Chúng ta cứ tưởng rằng lo cho người khác sẽ làm mình cực khổ",
+        "targetVietnamese": "Chúng ta cứ tưởng rằng lo cho người khác sẽ làm mình cực khổ,",
+        "options": [
+          "We keep assuming that caring for others will make us suffer.",
+          "We tend to think that looking after others will bring us hardship.",
+          "Our persistent assumption is that caring for others will make life hard for us.",
+          "Caring for others, we imagine, will only mean hardship for ourselves."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ đây là điều ta cứ tưởng, chứ không phải sự thật người viết xác nhận; giữ tương lai sẽ và điều cực khổ cho mình. So giả định lặp với xu hướng nghĩ, danh hóa niềm tin và lối chen lời.",
+        "dimension": "repeated assumption, habitual thought, nominal belief, and parenthetical imagined hardship",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We keep assuming that caring for others will make us suffer.: ưu tiên; keep assuming giữ cứ tưởng, will make us suffer giữ hệ quả đang được ta hình dung chứ chưa xác nhận.",
+          "We tend to think that looking after others will bring us hardship.: dùng được; tend to think nhẹ sắc cứ tưởng nhưng looking after và bring hardship giữ hành động cùng điều ta dự kiến.",
+          "Our persistent assumption is that caring for others will make life hard for us.: dùng được; persistent assumption giữ sự bám vào ý nghĩ, danh từ hóa khiến lời tự xét có giọng phân tích hơn.",
+          "Caring for others, we imagine, will only mean hardship for ourselves.: dùng được trong mạch phản biện; we imagine đánh dấu tưởng, only làm nổi cách nhìn một chiều trước câu ngược lại."
+        ]
+      },
+      {
+        "sourceCue": "chính vì đem niềm vui đến cho người khác mà tâm ta tự nhiên có niềm vui và sức mạnh",
+        "targetVietnamese": "nhưng không, ngược lại, chính vì đem niềm vui đến cho người khác mà tâm ta tự nhiên có niềm vui và sức mạnh.",
+        "options": [
+          "But no—on the contrary, it is precisely because we bring joy to others that joy and strength naturally arise in our own hearts.",
+          "But the opposite is true: bringing joy to others is exactly what naturally fills our own hearts with joy and strength.",
+          "No; rather, our hearts naturally gain joy and strength through the very act of bringing joy to others.",
+          "Contrary to that assumption, the joy we bring to others naturally becomes a source of joy and strength within us."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ nhịp bác bỏ nhưng không, ngược lại và chính vì đem vui cho người mà tâm tự có cả vui và sức mạnh. So cleft nhấn nguyên nhân với chủ ngữ hành động, người nhận hoặc nguồn năng lượng.",
+        "dimension": "causal cleft and reversal, action-led filling, heart-led gaining, and offered joy as source",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "But no—on the contrary, it is precisely because we bring joy to others that joy and strength naturally arise in our own hearts.: ưu tiên; but no và on the contrary giữ cú bác bỏ, precisely because giữ nhấn nguyên nhân, đủ joy và strength tự phát trong tâm.",
+          "But the opposite is true: bringing joy to others is exactly what naturally fills our own hearts with joy and strength.: cùng mức ưu tiên; opposite is true giữ lật điều tưởng, bringing làm chủ ngữ của fills và exactly giữ nét chính vì.",
+          "No; rather, our hearts naturally gain joy and strength through the very act of bringing joy to others.: dùng được; tâm người làm chủ ngữ gain, through the very act giữ nguyên nhân nhưng nhịp chốt nguyên nhân bớt nổi.",
+          "Contrary to that assumption, the joy we bring to others naturally becomes a source of joy and strength within us.: dùng được; diễn niềm vui trao ra như nguồn cho nội tâm, source of là hình ảnh giải thích dài hơn quan hệ chính vì của nguồn."
+        ]
+      },
+      {
+        "sourceCue": "Niềm vui này không mong cầu mà được",
+        "targetVietnamese": "Niềm vui này không mong cầu mà được.",
+        "options": [
+          "This joy comes without our seeking it.",
+          "We receive this joy without having sought it.",
+          "This is a joy we gain without setting out to obtain it.",
+          "Unsought, this joy nevertheless becomes ours."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ niềm vui này được mà không mong cầu, không đổi thành chẳng cần làm gì hoặc không xứng đáng. So niềm vui đến, người nhận và lời nhấn bất ngờ của điều không tìm mà có.",
+        "dimension": "unsought arrival, unplanned receipt, absent acquisition goal, and concessive possession",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "This joy comes without our seeking it.: ưu tiên; joy comes tự nhiên cho niềm vui có được, without seeking giữ không tìm cầu chứ không nói thiếu hành động giúp người.",
+          "We receive this joy without having sought it.: cùng mức ưu tiên; we receive đổi chủ ngữ sang người nhận, vẫn giữ điều chưa từng cố tìm niềm vui cho mình.",
+          "This is a joy we gain without setting out to obtain it.: dùng được; setting out to obtain giải mong cầu như một đích chủ ý, dài hơn nhưng không thay nó bằng không bỏ công.",
+          "Unsought, this joy nevertheless becomes ours.: dùng được; unsought đưa nghịch lý lên đầu và nevertheless giữ mà được, có giọng tu từ cô đọng hơn lời nguồn."
+        ]
+      }
+    ],
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives"
+  },
+  {
+    "id": "M129",
+    "sourceBlockId": "W11-B09",
+    "title": "Tình thương và sự tôn trọng cũng là điều có thể trao",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "best-fit-among-valid-alternatives",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "chỉ thích đến nơi đâu mà ta được tôn trọng",
+        "targetVietnamese": "Ta chỉ thích đến nơi đâu mà ta được tôn trọng",
+        "sentence": "___",
+        "options": [
+          "We only like to go where we are respected.",
+          "The only places we like going to are those where we are respected.",
+          "We are drawn only to places where people respect us.",
+          "Only places where we are respected appeal to us as places to visit."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ chữ chỉ giới hạn nơi ta thích đến và sự được tôn trọng. So người thích đến với nơi được ưa thích; không ưu tiên gravitate chỉ vì hình ảnh mạnh.",
+        "rationales": [
+          "We only like to go where we are respected.: ưu tiên; người làm chủ ngữ, only like to go giữ trực tiếp chỉ thích đến và where giữ điều kiện nơi.",
+          "The only places we like going to are those where we are respected.: cùng mức ưu tiên; đưa the only places lên đầu làm phạm vi giới hạn rõ, còn việc thích đến vẫn được nói trực tiếp.",
+          "We are drawn only to places where people respect us.: dùng được; drawn chuyển trọng tâm sang sức thu hút của nơi có người tôn trọng ta hơn việc nói thẳng thích đến.",
+          "Only places where we are respected appeal to us as places to visit.: dùng được; nơi chốn làm chủ ngữ của appeal, cấu trúc dài hơn do phải nói rõ sức hấp dẫn gắn với việc đến."
+        ],
+        "dimension": "personal preference, place-focused restrictive definition, attraction, and place-led appeal",
+        "taskKind": "expression-choice"
+      },
+      {
+        "sourceCue": "tránh xa nơi mình bị coi thường",
+        "targetVietnamese": "và sẽ tránh xa nơi mình bị coi thường",
+        "sentence": "___",
+        "options": [
+          "And we will stay away from places where we are belittled.",
+          "And we will steer clear of places where we are looked down on.",
+          "And places where people treat us with contempt are places we will avoid.",
+          "And being looked down on will keep us away from such places."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ và sẽ tránh xa nơi bị coi thường, với giọng đời thường. Hai cách nói về người chủ động tránh xa được cùng ưu tiên; so với nơi hoặc trải nghiệm bị coi thường làm trục.",
+        "rationales": [
+          "And we will stay away from places where we are belittled.: ưu tiên; will giữ sẽ, stay away diễn đạt giữ khoảng cách và belittled giữ bị coi thường.",
+          "And we will steer clear of places where we are looked down on.: cùng mức ưu tiên; steer clear of và looked down on đều tự nhiên, giữ việc ta chủ động tránh nơi ấy.",
+          "And places where people treat us with contempt are places we will avoid.: dùng được; nhắc nơi hai lần để lấy nơi làm chủ ngữ, với contempt có sắc thái khinh miệt đậm hơn belittled.",
+          "And being looked down on will keep us away from such places.: dùng được trong mạch; trải nghiệm bị coi thường làm tác nhân keep us away, khác điểm nhấn ta sẽ tự tránh."
+        ],
+        "dimension": "active avoidance, idiomatic distance, place-focused exclusion, and experience-led causation",
+        "taskKind": "expression-choice"
+      },
+      {
+        "sourceCue": "tu tập Khiêm hạ để tôn trọng",
+        "targetVietnamese": "chúng ta tu tập Khiêm hạ để tôn trọng",
+        "sentence": "___",
+        "options": [
+          "We cultivate humility so that we can respect others.",
+          "To develop respect for others, we cultivate humility.",
+          "Our cultivation of humility is directed toward respect for others.",
+          "Humility is what we cultivate as a way of treating others with respect."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ tu tập khiêm hạ và mục đích tôn trọng. So hành động trước, mục đích trước, danh hóa và cách đưa phẩm chất lên làm đề tài; không đồng nhất tôn trọng với chỉ biểu hiện lễ phép.",
+        "rationales": [
+          "We cultivate humility so that we can respect others.: ưu tiên; cultivate giữ công phu tu, so that nối đúng mục đích phát triển lòng tôn trọng.",
+          "To develop respect for others, we cultivate humility.: cùng mức ưu tiên; đưa mục đích lên trước vẫn giữ đủ quan hệ và người thực hành, tự nhiên khi đang nối ý tôn trọng.",
+          "Our cultivation of humility is directed toward respect for others.: dùng được; cultivation danh hóa công phu, is directed toward giữ hướng đi nhưng có giọng nghị luận hơn.",
+          "Humility is what we cultivate as a way of treating others with respect.: dùng được; lấy humility làm đề tài và treating cụ thể hóa sự tôn trọng thành cách đối đãi."
+        ],
+        "dimension": "practice-first purpose, purpose-first action, directed cultivation, and humility-topic cleft",
+        "taskKind": "expression-choice"
+      },
+      {
+        "sourceCue": "chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng",
+        "targetVietnamese": "chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng cho cuộc đời, cho con người",
+        "sentence": "___",
+        "options": [
+          "We can have a great deal of love and respect to offer the world and other people.",
+          "We can have abundant love and respect to give to the world and other people.",
+          "What we can offer the world and other people is a wealth of love and respect.",
+          "The world and other people can receive an abundance of love and respect from us."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ có thể có rất nhiều tình thương và lòng kính để dâng tặng. So khả năng có điều để trao với điều được trao hoặc người nhận làm điểm dẫn; không ép khác biệt giả giữa offer và give.",
+        "rationales": [
+          "We can have a great deal of love and respect to offer the world and other people.: ưu tiên; can have giữ khả năng có nhiều, to offer giữ mục đích dâng tặng và đủ hai đối tượng.",
+          "We can have abundant love and respect to give to the world and other people.: cùng mức ưu tiên; give giản dị mà trọn ý, abundant giữ rất nhiều không cần gán offer luôn cao hơn.",
+          "What we can offer the world and other people is a wealth of love and respect.: dùng được; what-cleft làm nổi món quà tinh thần, chuyển nhẹ từ điều ta có sẵn để trao sang điều có thể trao.",
+          "The world and other people can receive an abundance of love and respect from us.: dùng được; đưa người nhận làm chủ ngữ của receive, giữ lượng và nguồn trao nhưng không còn trục ta có để dâng."
+        ],
+        "dimension": "resources to offer, resources to give, gift-focused cleft, and recipient perspective",
+        "taskKind": "expression-choice"
+      },
+      {
+        "sourceCue": "khiến cho nhau được an vui ấm áp",
+        "targetVietnamese": "Lòng thương yêu và sự tôn trọng đó cũng khiến cho nhau được an vui ấm áp.",
+        "sentence": "___",
+        "options": [
+          "Such love and respect also bring people a sense of peace and warmth.",
+          "Through such love and respect, people also feel peaceful and cared for.",
+          "Peace and warmth also grow among people through that love and respect.",
+          "Such love and respect also allow people to find comfort and well-being in one another."
+        ],
+        "answer": 0,
+        "preferredAnswers": [
+          0
+        ],
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "selectionCriterion": "Giữ lòng thương và sự tôn trọng ấy cũng khiến người được an vui ấm áp. So kết quả trực tiếp, cảm nhận của người nhận, bầu không khí chung và quan hệ nâng đỡ lẫn nhau.",
+        "rationales": [
+          "Such love and respect also bring people a sense of peace and warmth.: ưu tiên; such và also giữ đó cũng, bring nêu rõ quan hệ đem lại an vui và ấm áp cho người.",
+          "Through such love and respect, people also feel peaceful and cared for.: dùng được; người làm chủ ngữ của feel, cared for chuyển sự ấm áp sang cảm giác được quan tâm trong quan hệ.",
+          "Peace and warmth also grow among people through that love and respect.: dùng được; peace and warmth làm chủ ngữ của grow, diễn đạt như bầu không khí nuôi lớn giữa mọi người.",
+          "Such love and respect also allow people to find comfort and well-being in one another.: dùng được; find ... in one another làm nổi tính tương hỗ của nhau, nhưng có thêm cách nhìn tình thương như điều cho phép tìm chỗ dựa."
+        ],
+        "dimension": "direct human result, recipient feeling, shared atmosphere, and mutual comfort",
+        "taskKind": "expression-choice"
       }
     ]
   },
   {
-    id: 'M122', sourceBlockId: 'W11-B02', title: 'Hiểu người có thể dẫn đến thương hơn hoặc nghiêm hơn',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M130",
+    "sourceBlockId": "W11-B10",
+    "title": "Thấy được người dễ bị khuất khỏi sự chú ý",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'tên trộm đột nhập vào nhà người ta', targetVietnamese: 'Kẻ trộm đột nhập nhà; nguồn chưa kể hắn lục tung nhà, lấy được đồ hay bao vây chủ nhà.',
-        sentence: 'The thief ___ someone’s home.',
-        options: ['breaks into', 'ransacks', 'lays siege to', 'repossesses'], answer: 0,
-        rationales: [
-          'breaks into: vào trái phép; giữ đúng hành động đột nhập.',
-          'ransacks: lục soát, xáo tung để tìm đồ; thêm diễn tiến chưa được kể.',
-          'lays siege to: bao vây để khuất phục; đổi cách xâm nhập thành vây hãm.',
-          'repossesses: thu hồi tài sản mình có quyền lấy lại; thêm quyền sở hữu trái tình huống trộm.'
-        ], dimension: 'unlawful entry versus ransacking, siege, and repossession'
+        "sourceCue": "khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền",
+        "targetVietnamese": "Chúng ta càng phải khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền",
+        "options": [
+          "We must take even greater care to show genuine regard for poor, sick, and disabled lay Buddhists.",
+          "We must be all the more sensitive in making poor, sick, and disabled lay Buddhists feel valued.",
+          "Poor, sick, and disabled lay Buddhists must be treated by us with all the more tact and regard.",
+          "All the more care and sensitivity must go into the way we value poor, sick, and disabled lay Buddhists."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ càng phải, sự khéo léo và quý hóa đủ ba nhóm người. So sự quan tâm được biểu lộ với cảm nhận được trân trọng, và người hành động với người được đối đãi làm trọng tâm.",
+        "dimension": "tactful expressed regard, felt value, recipient-led passive, and care-led obligation",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must take even greater care to show genuine regard for poor, sick, and disabled lay Buddhists.: ưu tiên; must và even greater care giữ lực càng phải, show genuine regard gánh sự quý hóa được thể hiện.",
+          "We must be all the more sensitive in making poor, sick, and disabled lay Buddhists feel valued.: cùng mức ưu tiên; be sensitive và feel valued diễn đạt sự khéo léo từ phía người dễ tủi thân, phù hợp câu sau.",
+          "Poor, sick, and disabled lay Buddhists must be treated by us with all the more tact and regard.: dùng được; bị động đưa ba nhóm người lên đầu, làm we ít nổi hơn lời tự nhắc chúng ta của nguồn.",
+          "All the more care and sensitivity must go into the way we value poor, sick, and disabled lay Buddhists.: dùng được; care and sensitivity làm chủ ngữ, tập trung vào cách đối đãi và có giọng khái quát hơn."
+        ]
       },
       {
-        sourceCue: 'bị phát hiện, chạy thoát thân', targetVietnamese: 'Khi bị phát hiện, hắn chạy để thoát, không phải thong thả rời đi sau khi hoàn tất việc được phép.',
-        sentence: 'Once discovered, the intruder ___.',
-        options: ['flees', 'retires after completing an authorized task', 'surrenders to the homeowner', 'returns to negotiate compensation'], answer: 0,
-        rationales: [
-          'flees: chạy trốn khỏi nguy cơ bị bắt; giữ chuyển động và động cơ thoát thân.',
-          'retires after completing an authorized task: rời sau việc hợp lệ; trái đột nhập và bị phát hiện.',
-          'surrenders to the homeowner: chịu đầu hàng; đảo hướng chạy thoát.',
-          'returns to negotiate compensation: quay lại bồi thường; thêm hành vi không có.'
-        ], dimension: 'flight versus authorized departure, surrender, and negotiated return'
+        "sourceCue": "vì họ rất dễ tủi thân",
+        "targetVietnamese": "vì họ rất dễ tủi thân.",
+        "options": [
+          "Because they are very easily hurt and made to feel small.",
+          "Because it takes very little for them to feel slighted and hurt.",
+          "Because they are particularly vulnerable to feelings of hurt and inferiority.",
+          "Because a sense of being overlooked can so easily wound them."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ vì và mức rất dễ tủi thân; không biến nhạy cảm thành lỗi đáng trách. So cảm giác trực tiếp với phẩm chất dễ tổn thương hoặc lý do bị bỏ quên được rút từ ngữ cảnh.",
+        "dimension": "felt hurt, low threshold, psychological vulnerability, and context-specific neglect",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Because they are very easily hurt and made to feel small.: ưu tiên; easily hurt and made to feel small diễn đạt trực tiếp nỗi đau gắn với cảm giác kém được coi trọng.",
+          "Because it takes very little for them to feel slighted and hurt.: cùng mức ưu tiên; it takes very little giữ mức rất dễ, slighted nối cảm giác không được quý hóa trong mạch nguồn.",
+          "Because they are particularly vulnerable to feelings of hurt and inferiority.: dùng được; vulnerable to và inferiority chuyển trải nghiệm thành nhận định tâm lý, trang trọng hơn giọng quan tâm của nguồn.",
+          "Because a sense of being overlooked can so easily wound them.: dùng được trong đoạn; làm rõ sự bỏ quên ở các câu sau như tác động gây tủi, nhưng hẹp hơn lời nói chung rất dễ tủi thân."
+        ]
       },
       {
-        sourceCue: 'Ta cũng đặt mình vào vị trí chủ nhà', targetVietnamese: 'Việc tìm hiểu không dừng ở kẻ trộm; ta còn xét nỗi kinh hoảng và căm phẫn của chủ nhà.',
-        sentence: 'The exercise in understanding ___.',
-        options: ['takes account of both the intruder’s circumstances and the homeowner’s distress', 'substitutes the intruder’s grievance for the homeowner’s experience', 'treats the homeowner’s fear as irrelevant to the judgment', 'grants the intruder authority to define the harm'], answer: 0,
-        rationales: [
-          'takes account of both the intruder’s circumstances and the homeowner’s distress: xét cả hai vị trí; giữ chữ “cũng”.',
-          'substitutes the intruder’s grievance for the homeowner’s experience: lấy một phía thay phía kia; bỏ nỗi sợ của chủ.',
-          'treats the homeowner’s fear as irrelevant to the judgment: gạt sợ hãi ra ngoài; trái sự chủ động đặt mình vào vị trí họ.',
-          'grants the intruder authority to define the harm: cho kẻ trộm độc quyền gọi tên thiệt hại; không có trong việc hiểu hai bên.'
-        ], dimension: 'dual consideration versus substitution, exclusion, and unilateral authority'
+        "sourceCue": "nhìn thấy họ đang ngồi lặng lẽ ở một góc",
+        "targetVietnamese": "Người tu phải đủ đạo lực để nhìn thấy họ đang ngồi lặng lẽ ở một góc nào đó trong sân chùa.",
+        "options": [
+          "Practitioners need sufficient spiritual strength to notice them sitting quietly in some corner of the temple courtyard.",
+          "Only with enough spiritual strength can practitioners notice them sitting quietly in a corner of the temple courtyard.",
+          "Noticing them seated quietly in a corner of the temple courtyard requires practitioners to have sufficient spiritual strength.",
+          "Practitioners must be spiritually strong enough for those quiet figures in a corner of the temple courtyard to come to their notice."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ điều kiện đủ đạo lực mới nhìn thấy, người ngồi lặng lẽ và góc sân chùa. Không biến điều kiện cần thành lời bảo đảm tất cả người có đạo lực đều sẽ thấy.",
+        "dimension": "necessary spiritual capacity, fronted prerequisite, nominal noticing, and entering awareness",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Practitioners need sufficient spiritual strength to notice them sitting quietly in some corner of the temple courtyard.: ưu tiên; need sufficient ... to giữ yêu cầu đủ, notice diễn đạt nhìn thấy người đang bị bỏ qua, vị trí và tư thế vẫn đủ.",
+          "Only with enough spiritual strength can practitioners notice them sitting quietly in a corner of the temple courtyard.: cùng mức ưu tiên; only with đảo điều kiện lên đầu nhưng vẫn là điều kiện cần, không bảo đảm một kết quả tự động.",
+          "Noticing them seated quietly in a corner of the temple courtyard requires practitioners to have sufficient spiritual strength.: dùng được; noticing làm chủ ngữ và requires diễn đạt yêu cầu, nhịp thiên về phân tích điều kiện.",
+          "Practitioners must be spiritually strong enough for those quiet figures in a corner of the temple courtyard to come to their notice.: dùng được; come to their notice đổi hướng từ người chủ động thấy sang người lọt vào chú ý, có giọng văn viết hơn."
+        ]
       },
       {
-        sourceCue: 'Đôi khi ta nghiêm khắc hơn', targetVietnamese: 'Hiểu sâu đôi khi khiến đánh giá nghiêm hơn; thông cảm không tự động đồng nghĩa với giảm nhẹ.',
-        sentence: 'Closer understanding can ___.',
-        options: ['prompt a stricter judgment', 'lead to a more lenient judgment in every case', 'automatically absolve the offender', 'suspend every distinction between harm and innocence'], answer: 0,
-        rationales: [
-          'prompt a stricter judgment: dẫn tới xét nghiêm hơn; giữ khả năng được tác giả nêu rõ.',
-          'lead to a more lenient judgment in every case: luôn làm nhẹ; xóa hai hướng có thể của sự hiểu.',
-          'automatically absolve the offender: tự tha lỗi; hiểu hoàn cảnh không phải tuyên vô can.',
-          'suspend every distinction between harm and innocence: bỏ hết phân biệt; trái mục đích có thái độ chính xác.'
-        ], dimension: 'possible stricter judgment versus automatic mitigation, absolution, and moral collapse'
+        "sourceCue": "trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn",
+        "targetVietnamese": "Bởi vì trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn.",
+        "options": [
+          "Because our view is being obscured by those who are wealthier and more elegant.",
+          "Because wealthier, more elegant people are blocking our view.",
+          "Because those who are wealthier and more elegant occupy the foreground of our attention.",
+          "Because our attention is so taken up with wealthier, more elegant people that they obscure our view of others."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ bởi vì và hình ảnh bị che trước mắt bởi người giàu sang hơn. So hình ảnh thấy với cách giải rõ sự chú ý từ ngữ cảnh, không thêm ác ý cố tình che khuất cho những người giàu.",
+        "dimension": "obscured view, active blocking image, attentional foreground, and explicit mechanism",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Because our view is being obscured by those who are wealthier and more elegant.: ưu tiên; bị động giữ chính điểm nhìn đang bị che và đủ hai mức so sánh, không gán chủ ý cản người khác.",
+          "Because wealthier, more elegant people are blocking our view.: cùng mức ưu tiên; đổi sang người giàu hơn làm chủ ngữ của blocking, vẫn có thể hiểu là hình ảnh chứ không hành động cố ý.",
+          "Because those who are wealthier and more elegant occupy the foreground of our attention.: dùng được; foreground of our attention chuyển hình ảnh trước mắt thành vị trí trong chú ý, nêu cơ chế rõ hơn nguồn.",
+          "Because our attention is so taken up with wealthier, more elegant people that they obscure our view of others.: dùng được trong mạch; diễn giải quan hệ giữa chú ý vào người sang và không thấy người khác, dài và giải thích nhiều hơn câu trích."
+        ]
       },
       {
-        sourceCue: 'hơn là sự biểu hiện có vẻ tội nghiệp của họ', targetVietnamese: 'Vẻ đáng thương bên ngoài có thể che một bản chất ác độc hơn ta tưởng, chứ không đủ chứng minh người ấy vô hại.',
-        sentence: 'A pitiable appearance may ___ underlying malice.',
-        options: ['mask', 'rule out', 'justify', 'atone for'], answer: 0,
-        rationales: [
-          'mask: che khỏi cái nhìn đầu tiên; giữ đối lập biểu hiện và bản chất.',
-          'rule out: loại trừ; biến vẻ tội nghiệp thành bằng chứng không thể có ác.',
-          'justify: làm cho ác ý có lý; không phải quan hệ che khuất.',
-          'atone for: chuộc lại; thêm một tác dụng sửa lỗi chỉ nhờ vẻ ngoài.'
-        ], dimension: 'masking versus exclusion, justification, and atonement'
+        "sourceCue": "Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy",
+        "targetVietnamese": "Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy được những người nghèo đang có mặt ở chùa.",
+        "options": [
+          "Without compassion for sentient beings, we will fail to notice the poor people who are there at the temple.",
+          "If we have no love for sentient beings, we will not see the poor people present at the temple.",
+          "A lack of compassion for sentient beings will leave us blind to the poor people there at the temple.",
+          "The poor people present at the temple will escape our notice if we lack love for sentient beings."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ điều kiện không có lòng thương, phủ định sẽ không thấy và người nghèo thực sự có mặt. So fail to notice và not see với hình ảnh mù trước hoặc đối tượng thoát khỏi chú ý.",
+        "dimension": "conditional failure to notice, direct not-seeing, metaphorical blindness, and recipient-led inattention",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Without compassion for sentient beings, we will fail to notice the poor people who are there at the temple.: ưu tiên; fail to notice gánh việc người ở đó nhưng ta không nhận thấy, without giữ nguyên điều kiện thiếu lòng thương.",
+          "If we have no love for sentient beings, we will not see the poor people present at the temple.: cùng mức ưu tiên; if và will not giữ cấu trúc điều kiện trực tiếp, love gần chữ thương yêu mà không thay đổi đối tượng.",
+          "A lack of compassion for sentient beings will leave us blind to the poor people there at the temple.: dùng được; blind to là hình ảnh thiếu nhận biết, lấy sự thiếu lòng thương làm tác nhân thay cho ta.",
+          "The poor people present at the temple will escape our notice if we lack love for sentient beings.: dùng được; người nghèo đứng đầu và escape our notice diễn đạt không được chú ý, điều kiện lùi về cuối."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M123', sourceBlockId: 'W11-B03', title: 'Thái độ chính xác cần đi qua lớp biểu hiện',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M131",
+    "sourceBlockId": "W11-B11",
+    "title": "Phá vòng thiếu phước bằng việc vừa sức đang có",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'phải tập khả năng Thông cảm', targetVietnamese: 'Khả năng thông cảm cần được rèn luyện, không phải chỉ tuyên bố mình đã có.',
-        sentence: 'We need to ___ the capacity for empathy.',
-        options: ['cultivate', 'profess', 'advertise', 'delegate'], answer: 0,
-        rationales: [
-          'cultivate: bồi dưỡng bằng tập luyện; giữ việc phải tập một năng lực.',
-          'profess: tự nhận có hoặc tin; lời tuyên bố không thay việc luyện.',
-          'advertise: làm người khác biết; không tự phát triển năng lực.',
-          'delegate: giao cho người khác làm thay; không phù hợp với năng lực chính mình cần rèn.'
-        ], dimension: 'cultivation versus profession, publicity, and delegation'
+        "sourceCue": "có tiền rồi mới bố thí cúng dường",
+        "targetVietnamese": "ta phải có tiền rồi mới bố thí cúng dường",
+        "options": [
+          "We must have money before we can give donations and make offerings.",
+          "Only when we have money can we give donations and make offerings.",
+          "Having money is a prerequisite for giving donations and making offerings.",
+          "Giving donations and making offerings requires us first to have money."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ có tiền trước rồi mới có thể bố thí cúng dường; đây là điều kiện trong lập luận của nguồn, không hứa có tiền là tự nhiên biết cho. So con người, điều kiện và hành động làm điểm dẫn.",
+        "dimension": "personal prerequisite, only-when inversion, conceptual precondition, and giving-led requirement",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must have money before we can give donations and make offerings.: ưu tiên; must have ... before we can giữ yêu cầu trước sau và hai hoạt động bố thí, cúng dường.",
+          "Only when we have money can we give donations and make offerings.: cùng mức ưu tiên; only when đưa điều kiện cần lên mạnh hơn mà không chuyển thành điều kiện đủ.",
+          "Having money is a prerequisite for giving donations and making offerings.: dùng được; prerequisite gọi tên quan hệ điều kiện bằng khái niệm, thay giọng chúng ta tự xét bằng giọng thuyết minh.",
+          "Giving donations and making offerings requires us first to have money.: dùng được; hai việc cho làm chủ ngữ của requires, nội dung đủ nhưng trọng tâm chuyển sang yêu cầu của hoạt động."
+        ]
       },
       {
-        sourceCue: 'hành động đôi khi khác với bản chất', targetVietnamese: 'Hành động thấy được có lúc khiến ta hiểu sai bản chất, không phải lúc nào cũng bộc lộ trọn con người.',
-        sentence: 'Outward conduct can ___.',
-        options: ['give a misleading impression of inner character', 'authenticate every claim about inner character', 'exhaust everything there is to know about a person', 'guarantee a transparent view of motive'], answer: 0,
-        rationales: [
-          'give a misleading impression of inner character: tạo ấn tượng có thể khác bản chất; giữ giới hạn của biểu hiện.',
-          'authenticate every claim about inner character: xác thực mọi nhận định; nâng một dấu hiệu thành chứng cứ đủ cho tất cả.',
-          'exhaust everything there is to know about a person: nói hết con người; trái yêu cầu hiểu sâu vào trong.',
-          'guarantee a transparent view of motive: bảo đảm thấy động cơ rõ; xóa khả năng ngoài khác trong.'
-        ], dimension: 'potentially misleading appearance versus complete authentication and transparency'
+        "sourceCue": "lễ Phật xin gia hộ cho có cơ hội làm phước",
+        "targetVietnamese": "ta phải lễ Phật xin gia hộ cho có cơ hội làm phước",
+        "options": [
+          "We must bow in reverence to the Buddha and ask for his support so that we may have opportunities to do good deeds.",
+          "We must bow reverently to the Buddha, asking him to help us find opportunities to do good deeds.",
+          "We must seek the Buddha’s support in gaining opportunities to do good deeds, bowing to him in reverence.",
+          "Bowing in reverence to the Buddha and asking for his support are what we must do to gain opportunities to do good deeds."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ phải lễ Phật, xin gia hộ và mục đích có cơ hội làm phước. Không rút thành mong có cơ hội hay thêm lời bảo đảm cơ hội sẽ đến tức thì; so thứ tự hành động và tải cú pháp.",
+        "dimension": "reverent action plus petition, participial petition, petition-first ordering, and action-list subject",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must bow in reverence to the Buddha and ask for his support so that we may have opportunities to do good deeds.: ưu tiên; hai hành động ngang hàng rõ ràng, so that we may giữ cơ hội là điều cầu xin chứ chưa là kết quả chắc chắn.",
+          "We must bow reverently to the Buddha, asking him to help us find opportunities to do good deeds.: cùng mức ưu tiên; asking nối lời xin với lúc lễ, help us find giữ mục đích tiếp cận cơ hội thực tế trong đoạn.",
+          "We must seek the Buddha’s support in gaining opportunities to do good deeds, bowing to him in reverence.: dùng được; đưa việc xin gia hộ lên trước và lễ Phật thành phần sau, đổi thứ tự nhấn của câu nguồn.",
+          "Bowing in reverence to the Buddha and asking for his support are what we must do to gain opportunities to do good deeds.: dùng được; lấy hai việc làm chủ ngữ dài rồi mới đến must, giọng xác định bổn phận nặng hơn trục ta phải."
+        ]
       },
       {
-        sourceCue: 'Thấy người có lỗi, ta không vội chê trách', targetVietnamese: 'Thấy lỗi thì đừng hấp tấp trách; lời này yêu cầu hoãn sự vội vàng, không tuyên mọi lỗi đều được miễn xét.',
-        sentence: 'On noticing a fault, we should ___.',
-        options: ['withhold hasty blame while seeking a deeper understanding', 'grant permanent immunity from criticism', 'disregard the fault as necessarily unreal', 'publicly condemn the person before asking what happened'], answer: 0,
-        rationales: [
-          'withhold hasty blame while seeking a deeper understanding: chưa vội trách và tìm hiểu; giữ cả thận trọng lẫn mục đích.',
-          'grant permanent immunity from criticism: miễn trách vĩnh viễn; mở rộng “không vội” thành “không bao giờ”.',
-          'disregard the fault as necessarily unreal: mặc định lỗi không thật; tác giả không phủ định điều đã thấy.',
-          'publicly condemn the person before asking what happened: kết án công khai trước khi hỏi; đảo thái độ được yêu cầu.'
-        ], dimension: 'considered delay versus immunity, denial, and premature condemnation'
+        "sourceCue": "quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình",
+        "targetVietnamese": "rồi quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình.",
+        "options": [
+          "Then we look around for something within our means that we can do as a good deed.",
+          "Then we survey our surroundings, seeking ways to do good that lie within our capabilities.",
+          "Our next step is to look for opportunities nearby to do good deeds within our capacity.",
+          "Then we seek out feasible ways of doing good by looking at what is needed around us."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ rồi, quan sát chung quanh, tìm việc và trong khả năng. Ưu tiên lời gọn theo hành động cụ thể; không chọn seek out chỉ vì nó mạnh hơn look for.",
+        "dimension": "concrete looking around, systematic survey, next-step framing, and need-led active search",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Then we look around for something within our means that we can do as a good deed.: ưu tiên; look around for gộp quan sát và tìm tự nhiên, within our means giữ giới hạn khả năng, something giữ việc cụ thể.",
+          "Then we survey our surroundings, seeking ways to do good that lie within our capabilities.: dùng được; survey và seeking tách hai thao tác rõ, giọng quan sát có hệ thống và trang trọng hơn câu Việt.",
+          "Our next step is to look for opportunities nearby to do good deeds within our capacity.: dùng được; next step diễn đạt rồi như bước hành động, opportunities nearby lấy cơ hội làm điểm tìm.",
+          "Then we seek out feasible ways of doing good by looking at what is needed around us.: dùng được trong mạch giúp người; what is needed làm rõ tiêu điểm quan sát, còn seek out mang sắc tích cực tìm ra hơn look for."
+        ]
       },
       {
-        sourceCue: 'Thấy người tử tế, ta không vội ngợi khen', targetVietnamese: 'Thấy một biểu hiện tử tế, ta cũng chưa vội khen khi chưa hiểu con người; không phải cố hà tiện lời khen đúng.',
-        sentence: 'An apparently kind act calls for us to ___.',
-        options: ['refrain from rushing to praise before understanding the person', 'withhold every deserved compliment as a rule', 'presume a malicious intention without evidence', 'credit the person with every possible virtue'], answer: 0,
-        rationales: [
-          'refrain from rushing to praise before understanding the person: chậm lại để hiểu; giữ tính đối xứng với đừng vội trách.',
-          'withhold every deserved compliment as a rule: luôn giữ lại cả lời khen xứng; biến thận trọng thành hẹp hòi.',
-          'presume a malicious intention without evidence: mặc định ác ý; thay vội khen bằng vội kết tội.',
-          'credit the person with every possible virtue: gán mọi đức tính; vượt xa một hành động được thấy.'
-        ], dimension: 'unhurried praise versus stinginess, presumed malice, and blanket attribution'
+        "sourceCue": "phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm",
+        "targetVietnamese": "phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm.",
+        "options": [
+          "We must make a great effort, we must work very hard, and we must endure a great deal.",
+          "We must strive hard, toil hard, and bear a great deal.",
+          "A great deal of effort, hard work, and endurance is required of us.",
+          "It takes enormous effort, hard work, and endurance on our part."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ ba lần phải và ba mặt cố gắng, vất vả, chịu đựng nhiều. So nhịp nhấn lặp có chủ ý với động từ nén gọn và danh từ hóa; không coi lặp từ là lỗi cần xóa.",
+        "dimension": "repeated obligation, compressed verbal triad, nominal passive demand, and impersonal effort requirement",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "We must make a great effort, we must work very hard, and we must endure a great deal.: ưu tiên; lặp we must tái hiện ba nhịp phải và giữ mỗi mặt bằng một vị ngữ riêng dễ nghe.",
+          "We must strive hard, toil hard, and bear a great deal.: dùng được và gọn; ba động từ mạnh giữ đủ mặt hành động nhưng một must chung làm giảm nhịp nhấn lặp.",
+          "A great deal of effort, hard work, and endurance is required of us.: dùng được; bị động required gom sức bỏ ra thành danh từ, giữ sự đòi hỏi nhưng giọng lạnh và khái quát hơn.",
+          "It takes enormous effort, hard work, and endurance on our part.: dùng được; it takes diễn đạt mức đòi hỏi như điều thực tế cần có, ít có giọng thúc mình bằng ba lần phải."
+        ]
       },
       {
-        sourceCue: 'để có thái độ chính xác hơn', targetVietnamese: 'Hiểu bên trong để điều chỉnh thái độ cho sát con người thật, không để bên ngoài tự quyết toàn bộ cách mình phản ứng.',
-        sentence: 'Deeper understanding helps us ___.',
-        options: ['calibrate our response to the person’s actual character', 'standardize every response regardless of circumstance', 'justify whichever reaction comes first', 'replace attention to the person with a fixed label'], answer: 0,
-        rationales: [
-          'calibrate our response to the person’s actual character: chỉnh thái độ cho đúng thực chất; giữ mục tiêu chính xác hơn.',
-          'standardize every response regardless of circumstance: dùng một phản ứng cho mọi người; bỏ việc hiểu riêng.',
-          'justify whichever reaction comes first: biện hộ phản ứng đầu; trái việc xét sâu trước khi quyết.',
-          'replace attention to the person with a fixed label: dùng nhãn thay hiểu người; đảo phương pháp của đoạn.'
-        ], dimension: 'calibrated response versus uniformity, rationalization, and labeling'
+        "sourceCue": "những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn",
+        "targetVietnamese": "Sau vài lần chịu khó làm phước thì những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn.",
+        "options": [
+          "After we make the effort to do good a few times, it suddenly becomes easier on later occasions, and opportunities come more readily.",
+          "Once we have persevered in doing good a few times, later good deeds suddenly come more easily, as do the opportunities for them.",
+          "A few initial efforts to do good are followed by a sudden easing of later efforts and readier opportunities.",
+          "Having persisted in doing good a few times, we suddenly find both the doing and the opportunities easier thereafter."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ vài lần chịu khó, bỗng nhiên và hai thay đổi riêng: dễ làm hơn, cơ hội dễ đến hơn. So câu theo tiến trình với sự chuyển được danh hóa hoặc câu nhìn từ trải nghiệm của người làm.",
+        "dimension": "temporal transition with dual outcomes, parallel ease, nominal easing, and experiential discovery",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "After we make the effort to do good a few times, it suddenly becomes easier on later occasions, and opportunities come more readily.: ưu tiên; mở bằng nỗ lực vài lần, giữ suddenly, later occasions và opportunities come more readily thành ý riêng.",
+          "Once we have persevered in doing good a few times, later good deeds suddenly come more easily, as do the opportunities for them.: cùng mức ưu tiên; persevered giữ chịu khó, as do nối gọn hai việc đều dễ hơn mà không bỏ cơ hội.",
+          "A few initial efforts to do good are followed by a sudden easing of later efforts and readier opportunities.: dùng được; nominal easing nén sự chuyển nhưng mất cảm giác người trực tiếp làm và phát hiện sự dễ hơn.",
+          "Having persisted in doing good a few times, we suddenly find both the doing and the opportunities easier thereafter.: dùng được trong mạch; find hướng câu vào trải nghiệm của ta, còn the doing hơi trừu tượng hơn gọi thẳng good deeds."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M124', sourceBlockId: 'W11-B04', title: 'Một người còn thương có thể giúp người lầm lỗi đứng dậy',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M132",
+    "sourceBlockId": "W11-B12",
+    "title": "Giúp kín đáo mà không rút khỏi đời sống vị tha",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'ai cũng cần có một người để nương tựa', targetVietnamese: 'Trong đau khổ hay sai lầm, người ấy cần một chỗ dựa nơi con người, không phải một người tuyên mọi hành vi của họ đều đúng.',
-        sentence: 'Even a person who has done wrong may need someone to ___.',
-        options: ['offer a dependable human refuge', 'vindicate every act they have committed', 'grant immunity from all responsibility', 'hide every relevant fact from others'], answer: 0,
-        rationales: [
-          'offer a dependable human refuge: làm chỗ dựa không ghét bỏ; giữ nhu cầu được nâng đỡ.',
-          'vindicate every act they have committed: biện minh mọi việc; thương con người không phải công nhận mọi hành vi.',
-          'grant immunity from all responsibility: miễn hết trách nhiệm; nguồn không nói xóa lỗi.',
-          'hide every relevant fact from others: giấu mọi sự thật; không phải điều kiện của sự nương tựa.'
-        ], dimension: 'refuge versus blanket vindication, immunity, and concealment'
+        "sourceCue": "xử lý sự mâu thuẫn này cho khéo léo",
+        "targetVietnamese": "Người cư sĩ phải khôn ngoan xử lý sự mâu thuẫn này cho khéo léo",
+        "options": [
+          "Lay practitioners must handle this tension wisely and skillfully.",
+          "Lay practitioners must wisely navigate this tension with tact.",
+          "This tension calls for wisdom and skill in how lay practitioners respond to it.",
+          "Lay practitioners must find a wise and skillful way of reconciling these competing demands."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ cư sĩ phải, khôn ngoan và khéo xử lý sự mâu thuẫn đã nêu. Không bắt buộc phải giải quyết dứt điểm; so xử lý căng thẳng với cách gọi thành hai đòi hỏi cần dung hòa.",
+        "dimension": "open-ended handling, tactful navigation, situation-led demand, and reconciliatory goal",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Lay practitioners must handle this tension wisely and skillfully.: ưu tiên; handle giữ phạm vi xử lý rộng, wisely and skillfully truyền đủ hai sắc thái mà không hứa hết mâu thuẫn.",
+          "Lay practitioners must wisely navigate this tension with tact.: cùng mức ưu tiên; navigate gợi lựa đường trong tình thế khó, with tact hợp yêu cầu cư xử kín đáo mà vị tha.",
+          "This tension calls for wisdom and skill in how lay practitioners respond to it.: dùng được; tension trở thành chủ ngữ của calls for, lời buộc người cư sĩ chuyển thành yêu cầu của tình huống.",
+          "Lay practitioners must find a wise and skillful way of reconciling these competing demands.: dùng được trong ngữ cảnh; reconciling cụ thể hóa xử lý là dung hòa hai yêu cầu, mạnh về đích hòa hợp hơn nguyên văn."
+        ]
       },
       {
-        sourceCue: 'thả trôi đời mình trong thế tục', targetVietnamese: 'Vì bất mãn đồng đạo, nhà sư buông đời mình trôi vào thế tục; nguồn không kể một quyết định xuất gia hay hoàn tục có thủ tục.',
-        sentence: 'Disillusioned with fellow monastics, the monk ___.',
-        options: ['lets his life drift into worldly ways', 'formally completes a prescribed return to lay life', 'is expelled by a disciplinary council', 'deliberately enters a retreat under supervision'], answer: 0,
-        rationales: [
-          'lets his life drift into worldly ways: buông trôi hướng sống; giữ sắc thái không tự giữ mình.',
-          'formally completes a prescribed return to lay life: hoàn tất thủ tục; thêm tính chính thức không được kể.',
-          'is expelled by a disciplinary council: bị hội đồng đuổi; đổi tác nhân và nguyên nhân.',
-          'deliberately enters a retreat under supervision: chủ động nhập thất; trái hướng trôi trong thế tục.'
-        ], dimension: 'worldly drift versus formal transition, expulsion, and supervised retreat'
+        "sourceCue": "nhờ ai đưa quà cho người nghèo trong xóm",
+        "targetVietnamese": "ví dụ như nhờ ai đưa quà cho người nghèo trong xóm",
+        "options": [
+          "For example, we can ask someone to deliver gifts to poor people in the neighborhood.",
+          "For instance, we can have gifts delivered to poor neighbors by someone else.",
+          "One example is arranging for another person to take gifts to poor people in the neighborhood.",
+          "We can, for example, use another person’s help to get gifts to poor neighbors."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ đây là ví dụ nhờ người khác đưa quà cho người nghèo trong xóm; không tự thêm người nhận không biết danh tính người cho. So hành động nhờ, sắp xếp hoặc kết quả quà được đưa tới.",
+        "dimension": "requesting delivery, causative gift focus, arranging an intermediary, and outcome-oriented help",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "For example, we can ask someone to deliver gifts to poor people in the neighborhood.: ưu tiên; ask someone to deliver giữ trực tiếp nhờ ai đưa, đủ quà và đối tượng trong xóm.",
+          "For instance, we can have gifts delivered to poor neighbors by someone else.: dùng được; have ... delivered đưa quà và kết quả chuyển giao lên trước, người trung gian thành by someone else.",
+          "One example is arranging for another person to take gifts to poor people in the neighborhood.: cùng mức ưu tiên; arranging for diễn đạt tự nhiên việc nhờ và tổ chức người khác đưa, one example giữ chức năng ví dụ.",
+          "We can, for example, use another person’s help to get gifts to poor neighbors.: dùng được; get gifts to nhấn quà đến nơi nhờ giúp đỡ, ít thể hiện trực tiếp một lời nhờ hơn ask."
+        ]
       },
       {
-        sourceCue: 'tìm đến bày tỏ yêu thương tin tưởng', targetVietnamese: 'Một huynh đệ chủ động tìm đến với tình thương và sự tin tưởng, không chờ người lầm lỗi đến xin trước.',
-        sentence: 'A fellow practitioner ___.',
-        options: ['reaches out with affection and trust', 'waits for a formal appeal before making contact', 'demands a confession before showing any concern', 'publicly cites the monk as a cautionary example'], answer: 0,
-        rationales: [
-          'reaches out with affection and trust: chủ động kết nối để thương và tin; giữ sáng kiến của người huynh đệ.',
-          'waits for a formal appeal before making contact: đợi xin chính thức; mất bước tự tìm đến.',
-          'demands a confession before showing any concern: đặt thú lỗi làm giá; thêm điều kiện không có.',
-          'publicly cites the monk as a cautionary example: bêu ra làm gương; khác việc tìm đến nâng đỡ.'
-        ], dimension: 'supportive outreach versus waiting, conditional concern, and public exemplification'
+        "sourceCue": "để không bị rơi vào lỗi khoe khoang kiêu mạn",
+        "targetVietnamese": "Việc tu hành cần phải kín đáo để không bị rơi vào lỗi khoe khoang kiêu mạn",
+        "options": [
+          "Our practice needs to remain discreet so that we do not fall into boasting and conceit.",
+          "We need to keep our practice discreet to avoid the faults of boasting and conceit.",
+          "Discretion in our practice is needed to guard against boasting and conceit.",
+          "The need for discretion in practice lies in protecting us from the pitfalls of boasting and conceit."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ cần kín đáo và mục đích tránh lỗi khoe khoang, kiêu mạn. Không biến kín đáo thành bảo đảm hết kiêu mạn; so chủ ngữ việc tu, người tu và nguyên tắc kín đáo.",
+        "dimension": "practice-led discretion, active keeping, nominal safeguard, and explanation of necessity",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Our practice needs to remain discreet so that we do not fall into boasting and conceit.: ưu tiên; practice làm chủ ngữ như nguồn, needs giữ yêu cầu và so that giữ đích tránh rơi vào lỗi.",
+          "We need to keep our practice discreet to avoid the faults of boasting and conceit.: cùng mức ưu tiên; we làm người chủ động giữ kín, avoid the faults nêu mục đích rõ, không hứa kết quả chắc chắn.",
+          "Discretion in our practice is needed to guard against boasting and conceit.: dùng được; discretion danh hóa yêu cầu, guard against diễn đạt phòng ngừa với giọng nguyên tắc.",
+          "The need for discretion in practice lies in protecting us from the pitfalls of boasting and conceit.: dùng được; giải thích căn cứ của nhu cầu bằng lies in, nhưng nhiều danh hóa làm trục câu xa hành động hơn."
+        ]
       },
       {
-        sourceCue: 'đứng dậy để lập lại đời sống tu hành', targetVietnamese: 'Được nâng đỡ, nhà sư khôi phục đời sống tu; không chỉ lên tiếng tán thành giá trị tu hành.',
-        sentence: 'With that support, the monk ___.',
-        options: ['reestablishes his life of practice', 'merely applauds the value of practice', 'delegates practice to the person helping him', 'receives automatic recognition as awakened'], answer: 0,
-        rationales: [
-          'reestablishes his life of practice: dựng lại việc sống và tu; giữ chuyển biến thực sau vấp ngã.',
-          'merely applauds the value of practice: chỉ khen giá trị; chưa trở lại thực hành.',
-          'delegates practice to the person helping him: giao người khác tu thay; đổi tác nhân cần đứng dậy.',
-          'receives automatic recognition as awakened: tự được xem giác ngộ; thêm thành tựu vượt câu chuyện phục hồi.'
-        ], dimension: 'restored practice versus approval alone, delegation, and automatic attainment'
+        "sourceCue": "giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín",
+        "targetVietnamese": "đến khi có phước rồi thì giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín",
+        "options": [
+          "Once we have blessings, we help people in our neighborhood gain access to the teachings through trustworthy websites.",
+          "When we have blessings, we use reliable websites to help our neighbors come into contact with the teachings.",
+          "With blessings in place, we make the teachings accessible to people in our neighborhood through reputable websites.",
+          "Once we have blessings, reliable websites become a means by which we bring our neighbors closer to the teachings."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ đến khi có phước, giúp người xóm làng tiếp cận đạo lý và phương tiện trang uy tín. Không đổi tiếp cận thành đã hiểu hay đã tu; so người giúp, phương tiện và tính dễ tiếp cận.",
+        "dimension": "assisted access, active use of a medium, accessibility causative, and website-led proximity",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Once we have blessings, we help people in our neighborhood gain access to the teachings through trustworthy websites.: ưu tiên; once giữ mốc điều kiện, help ... gain access giữ vai trò giúp tiếp cận, đủ đối tượng và phương tiện.",
+          "When we have blessings, we use reliable websites to help our neighbors come into contact with the teachings.: cùng mức ưu tiên; use reliable websites đưa hành động sử dụng phương tiện ra rõ, come into contact chưa đẩy thành hiểu thông hay tu tập.",
+          "With blessings in place, we make the teachings accessible to people in our neighborhood through reputable websites.: dùng được; make ... accessible tập trung vào việc đạo lý được đưa tới tầm tiếp cận của người nhận, hơi thiên tổ chức điều kiện.",
+          "Once we have blessings, reliable websites become a means by which we bring our neighbors closer to the teachings.: dùng được; website làm chủ ngữ phương tiện, bring ... closer dùng hình ảnh khoảng cách để diễn đạt tiếp cận."
+        ]
       },
       {
-        sourceCue: 'đằng sau cái sai lầm, còn có một nguyên nhân khác nữa', targetVietnamese: 'Sau lỗi thấy được có thể còn căn nguyên khác cần hiểu, chứ không phải vì có căn nguyên thì lỗi tự biến mất.',
-        sentence: 'The closing reminder asks us to ___.',
-        options: ['look beyond the visible fault for a further cause', 'treat the visible fault as proof of the whole character', 'erase responsibility whenever a cause is found', 'infer deliberate malice from every mistake'], answer: 0,
-        rationales: [
-          'look beyond the visible fault for a further cause: tìm thêm điều phía sau; giữ thái độ không vội kết tội.',
-          'treat the visible fault as proof of the whole character: suy cả con người từ một lỗi; trái yêu cầu hiểu sâu.',
-          'erase responsibility whenever a cause is found: có nguyên nhân là xóa trách nhiệm; nguồn không cho phép bước suy ấy.',
-          'infer deliberate malice from every mistake: coi mọi lỗi là ác ý; đảo lời cảnh tỉnh đừng vội ghét.'
-        ], dimension: 'further causal inquiry versus totalizing judgment, absolution, and assumed malice'
+        "sourceCue": "sau này đủ phước làm giảng sư đăng tòa sẽ tính sau",
+        "targetVietnamese": "sau này đủ phước làm giảng sư đăng tòa sẽ tính sau",
+        "options": [
+          "As for taking the teaching seat as a Dharma lecturer, we can consider that later, when we have sufficient blessings.",
+          "We can leave the question of taking the teaching seat as a Dharma lecturer until later, when our blessings are sufficient.",
+          "Becoming a Dharma lecturer and taking the teaching seat is a matter for later consideration, once we have enough blessings.",
+          "When we have sufficient blessings in the future, we can turn to the question of taking the teaching seat as a Dharma lecturer."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ đủ phước, vai trò giảng sư đăng tòa và để tính sau. So lời gác việc ấy lại ở hiện tại với việc dẫn từ một tương lai đủ điều kiện; không dịch thành chắc chắn sẽ làm giảng sư.",
+        "dimension": "present deferral, leaving a question aside, nominal future consideration, and condition-first future",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "As for taking the teaching seat as a Dharma lecturer, we can consider that later, when we have sufficient blessings.: ưu tiên; as for đưa đề tài ra rồi consider that later giữ giọng tính sau, when giữ đủ phước là điều kiện.",
+          "We can leave the question of taking the teaching seat as a Dharma lecturer until later, when our blessings are sufficient.: cùng mức ưu tiên; leave the question ... until later tự nhiên và giữ ý chưa tính việc ấy ngay.",
+          "Becoming a Dharma lecturer and taking the teaching seat is a matter for later consideration, once we have enough blessings.: dùng được; matter for later consideration danh hóa quyết định, và becoming làm rõ việc đảm nhận vai trò trong tương lai.",
+          "When we have sufficient blessings in the future, we can turn to the question of taking the teaching seat as a Dharma lecturer.: dùng được; mở bằng tương lai đủ phước rồi mới nói cân nhắc, khiến điều kiện nổi hơn lời tạm gác hiện tại."
+        ]
       }
-    ]
-  },
-  {
-    id: 'M125', sourceBlockId: 'W11-B05', title: 'Hiểu áp lực của người khác để không làm ngơ',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'đến kỳ phải đóng tiền học mà không có tiền đóng', targetVietnamese: 'Học phí đã đến hạn nhưng người sinh viên chưa có tiền; nguồn không nói trường đã gia hạn hay miễn khoản ấy.',
-        sentence: 'The tuition fees ___, but the student has no money to pay them.',
-        options: ['fall due', 'are waived', 'are deferred', 'have already been paid'], answer: 0,
-        rationales: [
-          'fall due: đến hạn phải trả; giữ điểm thời gian gây sức ép.',
-          'are waived: được miễn; xóa nghĩa vụ đang làm sinh viên bức bách.',
-          'are deferred: được hoãn; thêm sự tháo gỡ chưa có trong tình huống.',
-          'have already been paid: đã được đóng; trái thiếu tiền vào đúng kỳ phải đóng.'
-        ], dimension: 'payment becoming due versus waiver, deferral, and completed payment'
-      },
-      {
-        sourceCue: 'trăm nghìn ý nghĩ bức xúc xảy ra trong đầu', targetVietnamese: 'Sự thiếu tiền tạo sức ép tinh thần dồn dập, không chỉ là một bài toán tài chính người ngoài có thể tính hộ là đủ.',
-        sentence: 'Understanding the student means recognizing how financial pressure can ___.',
-        options: ['torment the mind with a multitude of distressing thoughts', 'merely invite detached calculation', 'certify a permanent inability to study', 'prove a settled intention to abandon education'], answer: 0,
-        rationales: [
-          'torment the mind with a multitude of distressing thoughts: làm tâm bức bách bởi nhiều ý nghĩ; giữ mức khổ bên trong.',
-          'merely invite detached calculation: chỉ đòi tính toán bình thản; làm mất sức ép mà thông cảm cần nhận ra.',
-          'certify a permanent inability to study: xác nhận không thể học vĩnh viễn; thêm kết luận về năng lực.',
-          'prove a settled intention to abandon education: chứng minh đã quyết bỏ học; nguồn nêu bức xúc, không chốt quyết định ấy.'
-        ], dimension: 'psychological torment versus detached calculation, incapacity, and settled abandonment'
-      },
-      {
-        sourceCue: 'không thể đành lòng làm ngơ bỏ mặc', targetVietnamese: 'Khi hiểu sâu, ta không nỡ quay đi bỏ mặc người ấy; không chỉ nhìn thấy rồi vẫn giữ nguyên khoảng cách.',
-        sentence: 'A deep grasp of that distress makes it hard to ___.',
-        options: ['turn away and leave the student unsupported', 'notice the difficulty', 'consider a constructive response', 'take the student’s account seriously'], answer: 0,
-        rationales: [
-          'turn away and leave the student unsupported: làm ngơ và bỏ mặc; đúng điều lòng thương khiến ta không nỡ.',
-          'notice the difficulty: nhận thấy khó khăn; hiểu sâu làm điều này rõ hơn, không làm khó nhận thấy.',
-          'consider a constructive response: nghĩ cách giúp; là hướng được thúc đẩy chứ không bị ngăn.',
-          'take the student’s account seriously: coi trọng trải nghiệm họ; phù hợp với thông cảm, không phải việc khó làm vì đã hiểu.'
-        ], dimension: 'refusal of abandonment versus noticing, constructive consideration, and serious attention'
-      },
-      {
-        sourceCue: 'khả năng thông cảm sâu sắc với mọi người', targetVietnamese: 'Đạo đức ở đây bao gồm năng lực hiểu sâu nỗi khổ người khác, không chỉ nhã nhặn biểu lộ rằng mình có quan tâm.',
-        sentence: 'The ethical capacity emphasized is to ___.',
-        options: ['empathize deeply with others', 'signal concern without engaging with their experience', 'classify everyone by the assistance they deserve', 'claim authority over another person’s decisions'], answer: 0,
-        rationales: [
-          'empathize deeply with others: đi sâu để hiểu người; giữ phẩm chất thông cảm tác giả nhấn.',
-          'signal concern without engaging with their experience: biểu lộ mà không hiểu; dừng ở hình thức.',
-          'classify everyone by the assistance they deserve: phân hạng ai xứng nhận; đổi năng lực hiểu thành xét quyền hưởng.',
-          'claim authority over another person’s decisions: nhận quyền quyết định thay; không phải sự thông cảm.'
-        ], dimension: 'deep empathy versus signaling, deservingness classification, and control claim'
-      },
-      {
-        sourceCue: 'thường có cách xử lý tích cực hơn', targetVietnamese: 'Thông cảm thường dẫn tới cách xử lý tích cực hơn; không hứa rằng hiểu rồi sẽ tự giải quyết mọi khó khăn.',
-        sentence: 'Empathy tends to ___.',
-        options: ['inform a more constructive response', 'guarantee the resolution of every practical difficulty', 'substitute understanding for any need to act', 'transfer the entire burden of the problem to the helper'], answer: 0,
-        rationales: [
-          'inform a more constructive response: giúp hình thành cách xử lý tốt hơn; giữ mức “thường” và tính định hướng.',
-          'guarantee the resolution of every practical difficulty: bảo đảm giải hết; nâng tác dụng thường có thành tuyệt đối.',
-          'substitute understanding for any need to act: hiểu là khỏi cần làm; trái điều không nỡ bỏ mặc.',
-          'transfer the entire burden of the problem to the helper: chuyển hết gánh nặng; thêm nghĩa vụ toàn phần ngoài nguồn.'
-        ], dimension: 'constructive guidance versus guarantee, inaction, and total burden transfer'
-      }
-    ]
-  },
-  {
-    id: 'M126', sourceBlockId: 'W11-B06', title: 'Tập tận tụy từ những việc không lương',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'khi chưa có việc làm, ta còn phải làm phước', targetVietnamese: 'Chưa có việc làm vẫn cần chủ động làm việc thiện; không đợi có lương mới bắt đầu giúp người.',
-        sentence: 'Even while unemployed, we are urged to ___.',
-        options: ['undertake good works', 'defer every act of service until hired', 'claim that lack of wages cancels every obligation to help', 'limit goodwill to promises of future donations'], answer: 0,
-        rationales: [
-          'undertake good works: chủ động nhận và làm việc thiện; giữ sự thực hành ngay khi chưa có việc.',
-          'defer every act of service until hired: hoãn tới khi được tuyển; trái nhấn mạnh “khi chưa có”.',
-          'claim that lack of wages cancels every obligation to help: lấy chưa có lương làm lý do miễn; ngược lời khuyên.',
-          'limit goodwill to promises of future donations: chỉ hứa cho sau này; bỏ việc làm cụ thể nguồn liệt kê.'
-        ], dimension: 'present service versus employment-conditioned delay, exemption, and deferred promise'
-      },
-      {
-        sourceCue: 'làm những việc chẳng ai làm', targetVietnamese: 'Ta nhận cả những việc bị để đó không ai làm, không phải chỉ chỉ huy người khác làm phần khó.',
-        sentence: 'The service described asks us to ___.',
-        options: ['take on work that others leave undone', 'supervise others while avoiding the neglected work', 'claim credit for tasks already completed by others', 'analyze why the work is neglected without doing it'], answer: 0,
-        rationales: [
-          'take on work that others leave undone: tự nhận việc còn bỏ ngỏ; giữ tinh thần sẵn làm.',
-          'supervise others while avoiding the neglected work: chỉ giám sát mà né; đổi người trực tiếp phụng sự.',
-          'claim credit for tasks already completed by others: lấy công người khác; trái việc tự làm phước.',
-          'analyze why the work is neglected without doing it: chỉ phân tích; chưa thực hiện việc thiện.'
-        ], dimension: 'taking on neglected work versus oversight, credit appropriation, and analysis alone'
-      },
-      {
-        sourceCue: 'tất cả đều làm không có lương', targetVietnamese: 'Các việc ấy đều là tình nguyện không nhận lương, không phải làm để ghi nợ tiền công cho người nhận.',
-        sentence: 'For these tasks, we ___.',
-        options: ['offer our labor without pay', 'accept deferred wages', 'barter our labor for personal favors', 'invoice the beneficiaries after completion'], answer: 0,
-        rationales: [
-          'offer our labor without pay: tự góp công không lương; đúng phạm vi “tất cả”.',
-          'accept deferred wages: nhận lương muộn; vẫn có lương chứ không phải không lương.',
-          'barter our labor for personal favors: đổi công lấy lợi riêng; thêm điều kiện trao đổi.',
-          'invoice the beneficiaries after completion: lập hóa đơn sau việc; trái tinh thần thiện nguyện.'
-        ], dimension: 'unpaid service versus deferred pay, barter, and invoicing'
-      },
-      {
-        sourceCue: 'rất tận tụy, không đứng núi này trông núi nọ', targetVietnamese: 'Khi đã có việc, ta tận tâm với công việc thay vì luôn ngó sang chỗ khác vì không thỏa mãn.',
-        sentence: 'Once employed, the person is expected to ___.',
-        options: ['devote themselves to the work rather than constantly covet another position', 'remain physically present while disengaging from every task', 'switch positions whenever a more attractive title appears', 'treat each assignment as someone else’s responsibility'], answer: 0,
-        rationales: [
-          'devote themselves to the work rather than constantly covet another position: tận tụy, không đứng núi này trông núi nọ; giữ cả công việc và tâm hướng.',
-          'remain physically present while disengaging from every task: chỉ có mặt mà không góp sức; không phải tận tụy.',
-          'switch positions whenever a more attractive title appears: đổi ngay vì danh tốt hơn; làm đúng điều thành ngữ cảnh báo.',
-          'treat each assignment as someone else’s responsibility: giao trách nhiệm cho người khác; trái nhận việc hết lòng.'
-        ], dimension: 'dedication versus disengagement, restless job-coveting, and responsibility-shifting'
-      },
-      {
-        sourceCue: 'Buộc tâm ta phải yêu công việc mình làm', targetVietnamese: 'Nguồn yêu cầu rèn tâm biết yêu việc mình đang làm, không chỉ ngồi chờ công việc tự làm mình thích.',
-        sentence: 'The final instruction is to ___.',
-        options: ['train the mind to love the work at hand', 'wait for the job to produce enthusiasm without effort', 'demand ideal conditions before showing commitment', 'replace dedication with a declaration of happiness'], answer: 0,
-        rationales: [
-          'train the mind to love the work at hand: chủ động rèn thái độ với việc đang làm; giữ đối tượng cần chuyển là tâm mình.',
-          'wait for the job to produce enthusiasm without effort: chờ thụ động; đảo hướng phải tự rèn.',
-          'demand ideal conditions before showing commitment: đặt điều kiện hoàn hảo; khác biết yêu việc hiện có.',
-          'replace dedication with a declaration of happiness: chỉ tuyên bố vui; bỏ bước thay đổi thái độ thực.'
-        ], dimension: 'trained appreciation versus passive expectation, ideal-condition demand, and declaration'
-      }
-    ]
-  },
-  {
-    id: 'M127', sourceBlockId: 'W11-B07', title: 'Từ bi không chỉ là một cảm xúc đứng yên',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'bị một tâm lý thôi thúc là làm cái gì đó', targetVietnamese: 'Lòng từ tạo sự thúc đẩy từ bên trong để làm việc giúp người, không chỉ một quy định bên ngoài buộc mình tuân theo.',
-        sentence: 'In the passage, compassion ___.',
-        options: ['impels us to act for others', 'formally commissions us to work for an institution', 'legally compels our participation', 'certifies our eligibility to help'], answer: 0,
-        rationales: [
-          'impels us to act for others: thôi thúc từ bên trong; đúng lực tâm lý tác giả nói.',
-          'formally commissions us to work for an institution: giao nhiệm vụ cho tổ chức; thêm thủ tục và bên giao việc.',
-          'legally compels our participation: cưỡng chế bằng luật; khác động lực thương yêu.',
-          'certifies our eligibility to help: chứng nhận đủ điều kiện; không diễn đạt sức thúc hành động.'
-        ], dimension: 'inner impulse versus commission, legal compulsion, and eligibility'
-      },
-      {
-        sourceCue: 'Tâm Từ bi càng nhiều thì sự thôi thúc càng lớn', targetVietnamese: 'Khi lòng từ lớn thêm, sức thôi thúc giúp người cũng tăng, không chỉ khởi đầu rồi giữ nguyên.',
-        sentence: 'As compassion deepens, the impulse to help ___.',
-        options: ['intensifies', 'merely persists unchanged', 'subsides', 'is retrospectively justified'], answer: 0,
-        rationales: [
-          'intensifies: tăng cường độ; giữ tương quan “càng… càng”.',
-          'merely persists unchanged: chỉ còn đó với mức cũ; bỏ phần lớn thêm.',
-          'subsides: dịu xuống; đảo hướng tương quan trong câu.',
-          'is retrospectively justified: được biện minh về sau; đổi độ lớn của động lực sang việc giải thích.'
-        ], dimension: 'intensification versus unchanged persistence, subsiding, and justification'
-      },
-      {
-        sourceCue: 'cho chúng sinh được an vui hạnh phúc', targetVietnamese: 'Việc được thôi thúc là làm điều góp vào an vui của chúng sinh, không quyết thay họ phải muốn gì.',
-        sentence: 'The intended action is to ___.',
-        options: ['contribute to sentient beings’ well-being', 'dictate what sentient beings must prefer', 'secure gratitude before providing assistance', 'claim credit for happiness others have created'], answer: 0,
-        rationales: [
-          'contribute to sentient beings’ well-being: góp vào sự an vui của người nhận; giữ hướng vị tha.',
-          'dictate what sentient beings must prefer: quy định ham muốn của họ; thêm quyền kiểm soát.',
-          'secure gratitude before providing assistance: đòi biết ơn trước; đưa lợi người giúp thành điều kiện.',
-          'claim credit for happiness others have created: lấy công không phải mình làm; khác hành động giúp thật.'
-        ], dimension: 'contributing to welfare versus control, conditional aid, and credit appropriation'
-      },
-      {
-        sourceCue: 'Càng hiểu Đạo, chúng ta càng hiểu rõ bản chất cuộc đời thật là đau khổ', targetVietnamese: 'Hiểu Đạo giúp thấy rõ khổ trong đời sống, không phải biến đời sống thành khổ bằng cách nghĩ tiêu cực.',
-        sentence: 'Understanding the Dharma helps us ___ the suffering woven through life.',
-        options: ['discern', 'manufacture', 'romanticize', 'deliberately prolong'], answer: 0,
-        rationales: [
-          'discern: thấy rõ điều có trong đời sống; giữ quan hệ hiểu sâu và nhận ra.',
-          'manufacture: tạo ra; đổi nhận thức về khổ thành nguyên nhân gây khổ.',
-          'romanticize: tô vẻ đẹp lý tưởng; trái thái độ nhận thực trạng để thương.',
-          'deliberately prolong: cố kéo dài; thêm ý muốn giữ người trong khổ.'
-        ], dimension: 'discernment versus manufacture, romanticization, and prolongation'
-      },
-      {
-        sourceCue: 'Không ai thực sự trọn vẹn sung sướng', targetVietnamese: 'Nguồn không mô tả ai là hoàn toàn được hưởng hạnh phúc không vướng khổ, nhưng cũng không phủ nhận mọi niềm vui từng phần.',
-        sentence: 'In this account, no one ___.',
-        options: ['enjoys happiness entirely untouched by suffering', 'ever experiences any moment of pleasure', 'is capable of responding to another’s pain', 'has grounds to cultivate compassion'], answer: 0,
-        rationales: [
-          'enjoys happiness entirely untouched by suffering: có hạnh phúc trọn vẹn không xen khổ; đúng điều nguồn phủ định.',
-          'ever experiences any moment of pleasure: có dù một lúc vui; mở rộng phủ định trọn vẹn thành phủ định mọi niềm vui.',
-          'is capable of responding to another’s pain: có khả năng đáp lại nỗi khổ; trái động lực giúp người được khơi lên.',
-          'has grounds to cultivate compassion: có căn cứ tu lòng từ; chính khổ phổ biến là căn cứ đoạn nêu.'
-        ], dimension: 'scope of incomplete happiness versus denial of all pleasure and capacity'
-      }
-    ]
-  },
-  {
-    id: 'M128', sourceBlockId: 'W11-B08', title: 'Vất vả vì người mà không khô cạn niềm vui',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'rất bận rộn vất vả cực khổ vì tha nhân', targetVietnamese: 'Người tu đúng vẫn lao tâm lao lực vì người khác; niềm vui không được dùng để phủ nhận phần vất vả ấy.',
-        sentence: 'The practitioner described ___.',
-        options: ['toils for the good of others', 'is spared all demanding work', 'merely supervises hardship borne by others', 'substitutes declarations of goodwill for service'], answer: 0,
-        rationales: [
-          'toils for the good of others: làm việc vất vả vì người; giữ công sức thực tế.',
-          'is spared all demanding work: khỏi mọi việc khó; trái cực khổ đã được nêu.',
-          'merely supervises hardship borne by others: chỉ quản việc người khác chịu; đổi tác nhân gánh sức.',
-          'substitutes declarations of goodwill for service: chỉ nói có thiện tâm; bỏ việc phụng sự.'
-        ], dimension: 'toil versus exemption, oversight alone, and verbal substitution'
-      },
-      {
-        sourceCue: 'nhưng niềm vui trong tâm thì tràn đầy', targetVietnamese: 'Niềm vui đầy trong tâm đồng thời với công việc vất vả, không chỉ đến sau khi mọi việc đã hết.',
-        sentence: 'Inner joy ___ strenuous service.',
-        options: ['coexists with', 'begins only after the end of', 'negates the reality of', 'merely conceals resentment toward'], answer: 0,
-        rationales: [
-          'coexists with: cùng hiện diện; giữ nghịch lý vui ngay giữa vất vả.',
-          'begins only after the end of: chỉ bắt đầu lúc xong hết; đổi thời điểm của niềm vui.',
-          'negates the reality of: phủ nhận có vất vả thật; niềm vui không xóa công sức.',
-          'merely conceals resentment toward: chỉ che oán giận; thêm cảm xúc ngầm trái lời mô tả.'
-        ], dimension: 'coexistence versus delayed onset, negation, and concealed resentment'
-      },
-      {
-        sourceCue: 'tâm ta tự nhiên có niềm vui và sức mạnh', targetVietnamese: 'Đem vui cho người lại nuôi thêm niềm vui và sức mạnh bên trong mình.',
-        sentence: 'Bringing others joy can ___ our inner strength.',
-        options: ['nourish', 'merely display', 'deplete', 'quantify'], answer: 0,
-        rationales: [
-          'nourish: nuôi lớn, tiếp sức; giữ nguồn sức mạnh nảy sinh khi đem vui cho người.',
-          'merely display: chỉ bộc lộ sức mạnh sẵn có; bỏ tác dụng tạo thêm nội lực.',
-          'deplete: làm cạn; đảo kết quả được tác giả mô tả.',
-          'quantify: đo thành lượng; đổi việc được tiếp sức thành công việc đo lường.'
-        ], dimension: 'inner replenishment versus distraction, exoneration, and distinction'
-      },
-      {
-        sourceCue: 'Niềm vui này không mong cầu mà được', targetVietnamese: 'Niềm vui đến dù không lấy nó làm thứ săn tìm, không phải tiền thưởng đã thỏa thuận trước.',
-        sentence: 'This joy ___.',
-        options: ['arises without being sought', 'is bargained for before service begins', 'is demanded as repayment', 'is advertised as an accomplishment before it is felt'], answer: 0,
-        rationales: [
-          'arises without being sought: có được ngoài sự cầu riêng; giữ “không mong cầu mà được”.',
-          'is bargained for before service begins: được mặc cả trước; biến hệ quả tự nhiên thành điều kiện giao dịch.',
-          'is demanded as repayment: bị đòi như tiền công; trái sự không cầu.',
-          'is advertised as an accomplishment before it is felt: được khoe trước trải nghiệm; thêm động cơ và thời điểm không có.'
-        ], dimension: 'unsought arising versus bargain, repayment demand, and premature publicity'
-      },
-      {
-        sourceCue: 'Chúng ta cứ tưởng rằng lo cho người khác sẽ làm mình cực khổ, nhưng không', targetVietnamese: 'Đoạn đảo lại dự đoán rằng lo cho người chỉ khiến nội tâm khổ hơn; không phủ nhận công việc vẫn nặng.',
-        sentence: 'The example ___ the assumption that service can only impoverish us inwardly.',
-        options: ['overturns', 'substantiates', 'merely repeats', 'discourages any questioning of'], answer: 0,
-        rationales: [
-          'overturns: lật lại một giả định bằng kết quả ngược; giữ chuyển ý “nhưng không, ngược lại”.',
-          'substantiates: cung cấp căn cứ cho giả định; đảo hướng lập luận.',
-          'merely repeats: chỉ nhắc lại; bỏ điều bất ngờ về vui và sức mạnh.',
-          'discourages any questioning of: ngăn mọi sự xét lại giả định; trái việc chính đoạn đang sửa nó.'
-        ], dimension: 'overturning an assumption versus substantiation, repetition, and dogmatization'
-      }
-    ]
-  },
-  {
-    id: 'M129', sourceBlockId: 'W11-B09', title: 'Tình thương và sự tôn trọng cũng là điều có thể trao',
-    sourceAlignment: 'quote-and-english-checked',
-    assessmentMode: 'best-fit-among-valid-alternatives',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'chỉ thích đến nơi đâu mà ta được tôn trọng', targetVietnamese: 'Ta chỉ thích đến nơi đâu mà ta được tôn trọng',
-        sentence: 'We ___ only those places where we are respected.',
-        options: ['prefer to visit', 'gravitate toward', 'are drawn to', 'feel inclined to visit'], answer: 0,
-        preferredAnswers: [0], validAnswers: [0,1,2,3],
-        selectionCriterion: 'Giữ trực tiếp ý thích đến, không chuyển trọng tâm sang sức thu hút của nơi chốn hoặc hành vi thường tìm tới.',
-        rationales: [
-          'prefer to visit: ưu tiên ở đây vì diễn đạt thẳng sự ưa thích đi tới; only trong khung giữ chữ “chỉ”.',
-          'gravitate toward: dùng được và giàu hình ảnh, nhấn xu hướng tự tìm tới nơi có sức hút hơn là nói thẳng sở thích.',
-          'are drawn to: dùng được, nhấn việc ta bị nơi ấy thu hút; trọng tâm chuyển nhẹ từ lòng thích sang sức hấp dẫn.',
-          'feel inclined to visit: dùng được, nhấn tâm muốn hoặc thiên hướng đi đến; dè dặt hơn cách nói trực tiếp “thích”.'
-        ], dimension: 'preference versus habitual attraction, being drawn, and inclination'
-      },
-      {
-        sourceCue: 'tránh xa nơi mình bị coi thường', targetVietnamese: 'và sẽ tránh xa nơi mình bị coi thường',
-        sentence: 'And we will ___ places where we are belittled.',
-        options: ['stay away from', 'steer clear of', 'avoid', 'shun'], answer: 0,
-        preferredAnswers: [0,1], validAnswers: [0,1,2,3],
-        selectionCriterion: 'Giữ ý chủ động tránh xa, với giọng đời thường của đoạn. Hai cách giữ khoảng cách sát ngang nhau được cùng chấp nhận.',
-        rationales: [
-          'stay away from: ưu tiên vì nói trực tiếp việc giữ mình không tới gần; rất sát “tránh xa” và giọng giản dị.',
-          'steer clear of: cùng mức ưu tiên; tự nhiên trong giọng đời thường, nhấn chủ động tránh nơi gây khó chịu.',
-          'avoid: đúng và gọn; phạm vi rộng hơn, không nhấn hình ảnh giữ khoảng cách rõ bằng hai cách ưu tiên.',
-          'shun: đúng trong ngữ cảnh, nhưng dễ gợi sự xa lánh quyết liệt hoặc khước từ mang tính xã hội mạnh hơn.'
-        ], dimension: 'keeping distance versus broad avoidance and emphatic social rejection'
-      },
-      {
-        sourceCue: 'tu tập Khiêm hạ để tôn trọng', targetVietnamese: 'chúng ta tu tập Khiêm hạ để tôn trọng',
-        sentence: 'We cultivate humility in order to ___.',
-        options: ['respect others', 'show respect for others', 'extend respect to others', 'treat others with respect'], answer: 0,
-        preferredAnswers: [0], validAnswers: [0,1,2,3],
-        selectionCriterion: 'Giữ sự tôn trọng như phẩm chất được tu trong tâm; không cần chuyển riêng sang biểu hiện hay cách đối xử bên ngoài.',
-        rationales: [
-          'respect others: ưu tiên vì giữ trọn nghĩa tôn trọng mà ít diễn giải thêm nhất, hợp trọng tâm tu tâm khiêm hạ.',
-          'show respect for others: dùng được; đưa điểm nhấn sang biểu lộ lòng kính, trong khi nguyên văn chưa tách tâm với biểu hiện.',
-          'extend respect to others: dùng được và hợp mạch trao tặng phía sau; nhấn sự hướng lòng kính tới người.',
-          'treat others with respect: dùng được; cụ thể hóa thành cách đối xử, phù hợp toàn đoạn nhưng diễn giải nhiều hơn động từ trần.'
-        ], dimension: 'inner respect versus expression, extension, and respectful treatment'
-      },
-      {
-        sourceCue: 'chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng', targetVietnamese: 'chúng ta có thể có rất nhiều tình Thương yêu và sự Tôn trọng để dâng tặng cho cuộc đời, cho con người',
-        sentence: 'We can ___.',
-        options: ['have abundant love and respect to offer the world and other people', 'have abundant love and respect to share with the world and other people', 'have abundant love and respect to extend to the world and other people', 'have abundant love and respect to give the world and other people'], answer: 0,
-        preferredAnswers: [0,3], validAnswers: [0,1,2,3],
-        selectionCriterion: 'Giữ hình ảnh dâng tặng và khả năng có rất nhiều tình thương, lòng kính để trao. Offer và give đều sát; không tạo một thứ bậc giả giữa hai cách này.',
-        rationales: [
-          'have abundant love and respect to offer the world and other people: ưu tiên vì offer giữ rõ sắc thái đem điều mình có ra dâng tặng.',
-          'have abundant love and respect to share with the world and other people: dùng được, ấm áp; chuyển nhẹ hình ảnh từ trao tặng sang chia sẻ.',
-          'have abundant love and respect to extend to the world and other people: dùng được; nhấn sự mở rộng tình thương và lòng kính tới người nhận.',
-          'have abundant love and respect to give the world and other people: cùng mức ưu tiên; give giản dị mà vẫn giữ đầy đủ ý trao tặng.'
-        ], dimension: 'offering and giving versus sharing and extending'
-      },
-      {
-        sourceCue: 'khiến cho nhau được an vui ấm áp', targetVietnamese: 'Lòng thương yêu và sự tôn trọng đó cũng khiến cho nhau được an vui ấm áp.',
-        sentence: 'Such love and respect also ___.',
-        options: ['bring people warmth and a sense of well-being', 'offer people warmth and a sense of well-being', 'foster warmth and a sense of well-being among people', 'afford people warmth and a sense of well-being'], answer: 0,
-        preferredAnswers: [0], validAnswers: [0,1,2,3],
-        selectionCriterion: 'Giữ quan hệ tạo kết quả của “khiến cho”, cùng giọng sáng và gần gũi; không chỉ xếp từ nào trang trọng hơn lên trước.',
-        rationales: [
-          'bring people warmth and a sense of well-being: ưu tiên vì vừa nói rõ kết quả đến với người, vừa giữ giọng dễ tiếp nhận.',
-          'offer people warmth and a sense of well-being: dùng được; nghiêng về điều tình thương đem đến như một món quà hơn là nhấn kết quả được gây nên.',
-          'foster warmth and a sense of well-being among people: dùng được; gợi nuôi dưỡng một bầu không khí chung, rộng hơn điểm nhấn người được an vui.',
-          'afford people warmth and a sense of well-being: dùng được và giữ nghĩa đem lại; giọng trang trọng hơn, không vì vậy mà chính xác hơn bring.'
-        ], dimension: 'direct result versus offering, fostering a climate, and formal provision'
-      }
-    ]
-  },
-  {
-    id: 'M130', sourceBlockId: 'W11-B10', title: 'Thấy được người dễ bị khuất khỏi sự chú ý',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền', targetVietnamese: 'Chúng ta càng phải khéo léo quý hóa những Phật tử nghèo, bệnh hoạn, tật nguyền',
-        sentence: 'We must take even greater care to ___.',
-        options: ['treat poor, sick, and disabled lay Buddhists with genuine regard', 'patronize them as objects of charity', 'indulge every request without discernment', 'display them as evidence of our own generosity'], answer: 0,
-        rationales: [
-          'treat poor, sick, and disabled lay Buddhists with genuine regard: giữ đủ ba nhóm người được nguồn nêu, cùng thái độ quý hóa.',
-          'patronize them as objects of charity: thương kiểu kẻ cả; dễ làm tăng tủi thân, trái dụng ý.',
-          'indulge every request without discernment: chiều mọi yêu cầu; không được suy từ sự ân cần.',
-          'display them as evidence of our own generosity: đem người yếu thế ra khoe; đổi mục tiêu sang danh mình.'
-        ], dimension: 'valuing dignity versus patronage, indiscriminate indulgence, and self-display'
-      },
-      {
-        sourceCue: 'vì họ rất dễ tủi thân', targetVietnamese: 'vì họ rất dễ tủi thân.',
-        sentence: 'This is because they can easily ___.',
-        options: ['feel hurt and diminished', 'manipulate others through a calculated display of weakness', 'demand preferential treatment as a legal right', 'renounce every wish for human contact'], answer: 0,
-        rationales: [
-          'feel hurt and diminished: tủi vì cảm thấy mình nhỏ bé, ít được quý; giữ nỗi dễ tổn thương.',
-          'manipulate others through a calculated display of weakness: diễn yếu để thao túng; thêm động cơ ác ý.',
-          'demand preferential treatment as a legal right: đòi đặc quyền bằng luật; không có trong tâm lý tủi thân.',
-          'renounce every wish for human contact: bỏ mọi mong được gần người; mở rộng quá mức nỗi dễ chạnh lòng.'
-        ], dimension: 'vulnerability versus calculated manipulation, legal demand, and total withdrawal'
-      },
-      {
-        sourceCue: 'nhìn thấy họ đang ngồi lặng lẽ ở một góc', targetVietnamese: 'Người tu phải đủ đạo lực để nhìn thấy họ đang ngồi lặng lẽ ở một góc nào đó trong sân chùa.',
-        sentence: 'Practitioners need sufficient spiritual strength to ___ these people sitting quietly in a corner of the temple courtyard.',
-        options: ['notice', 'scrutinize', 'interrogate', 'patronize'], answer: 0,
-        rationales: [
-          'notice: để tâm mà nhận ra sự có mặt; giữ cái thấy nhờ thương yêu.',
-          'scrutinize: xem xét kỹ để đánh giá; thêm mục đích khảo xét không có trong việc nhận ra người bị bỏ quên.',
-          'interrogate: chất vấn; không phải thấy người đang ngồi yên.',
-          'patronize: đối xử kẻ cả như ban ơn; khác sự nhận ra đầy quý trọng.'
-        ], dimension: 'attentive noticing versus fault-finding, interrogation, and spectacle'
-      },
-      {
-        sourceCue: 'trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn', targetVietnamese: 'Bởi vì trước mắt chúng ta đang bị che bởi những người giàu có sang trọng hơn.',
-        sentence: 'This is because the wealthier, more elegant people ___.',
-        options: ['monopolize our attention and leave poorer people unnoticed', 'deliberately obstruct every line of sight', 'physically exclude all poor visitors', 'explicitly forbid us to greet anyone else'], answer: 0,
-        rationales: [
-          'monopolize our attention and leave poorer people unnoticed: chiếm trường chú ý; giữ nghĩa che khuất trong tâm lý.',
-          'deliberately obstruct every line of sight: cố chắn mọi góc nhìn; thêm chủ ý và cách làm vật lý.',
-          'physically exclude all poor visitors: đuổi người nghèo khỏi chùa; trái việc họ vẫn đang có mặt.',
-          'explicitly forbid us to greet anyone else: ra lệnh cấm chào; thêm thẩm quyền và lời nói không có.'
-        ], dimension: 'attentional exclusion versus intentional obstruction, physical exclusion, and prohibition'
-      },
-      {
-        sourceCue: 'Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy', targetVietnamese: 'Nếu không có lòng thương yêu chúng sinh, chúng ta sẽ không thấy được những người nghèo đang có mặt ở chùa.',
-        sentence: 'Without compassion for sentient beings, we will fail to ___ the poor people present at the temple.',
-        options: ['notice', 'diagnose', 'censure', 'classify'], answer: 0,
-        rationales: [
-          'notice: nhận ra họ đang có mặt; giữ đúng hành động “thấy” trong điều kiện phủ định.',
-          'diagnose: chẩn đoán bệnh trạng; thêm chức năng chuyên môn không có trong câu trích.',
-          'censure: trách phạt bằng lời; không diễn đạt việc thấy người bị khuất khỏi chú ý.',
-          'classify: phân loại; thêm một thao tác đánh giá thay cho nhận ra sự hiện diện.'
-        ], dimension: 'inclusive attention versus diagnosis, poverty-as-proof, and donation ranking'
-      }
-    ]
-  },
-  {
-    id: 'M131', sourceBlockId: 'W11-B11', title: 'Phá vòng thiếu phước bằng việc vừa sức đang có',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'có tiền rồi mới bố thí cúng dường', targetVietnamese: 'ta phải có tiền rồi mới bố thí cúng dường',
-        sentence: 'We need to have money before we can ___ donations and offerings.',
-        options: ['give', 'collect', 'promise', 'solicit'], answer: 0,
-        rationales: [
-          'give: chính mình đem của cho và cúng; giữ người hành động cùng điều kiện có tiền.',
-          'collect: thu gom từ người khác; đổi người bố thí thành bên nhận.',
-          'promise: hứa sẽ cho; chưa phải hành động cần có tiền để thực hiện ngay.',
-          'solicit: xin hoặc vận động quyên góp; khác việc tự mình bố thí, cúng dường.'
-        ], dimension: 'practical prerequisite versus automatic production, symbolism, and exemption'
-      },
-      {
-        sourceCue: 'lễ Phật xin gia hộ cho có cơ hội làm phước', targetVietnamese: 'ta phải lễ Phật xin gia hộ cho có cơ hội làm phước',
-        sentence: 'We must bow in reverence to the Buddha and ask for his support to ___.',
-        options: ['find opportunities to do good', 'be exempted from doing good', 'receive automatic credit for deeds never performed', 'transfer every duty to someone else'], answer: 0,
-        rationales: [
-          'find opportunities to do good: có duyên để chính mình làm; giữ đối tượng của lời xin gia hộ.',
-          'be exempted from doing good: được miễn làm; đảo mục tiêu lời cầu.',
-          'receive automatic credit for deeds never performed: được công cho việc chưa làm; thêm cơ chế thay thế hành động.',
-          'transfer every duty to someone else: chuyển hết nghĩa vụ; bỏ phần nỗ lực của người cầu.'
-        ], dimension: 'seeking opportunity versus exemption, unearned credit, and duty transfer'
-      },
-      {
-        sourceCue: 'quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình', targetVietnamese: 'rồi quan sát chung quanh tìm việc gì để làm phước trong khả năng của mình.',
-        sentence: 'We then look around to ___.',
-        options: ['seek out feasible ways to help', 'wait until every material limitation disappears', 'promise assistance beyond our means', 'measure our worth solely by the size of a donation'], answer: 0,
-        rationales: [
-          'seek out feasible ways to help: tìm cách giúp vừa sức; giữ cả quan sát lẫn giới hạn khả năng.',
-          'wait until every material limitation disappears: chờ hết mọi thiếu; duy trì vòng lẩn quẩn nguồn muốn phá.',
-          'promise assistance beyond our means: hứa vượt sức; mất điều kiện “trong khả năng”.',
-          'measure our worth solely by the size of a donation: chỉ xét lượng tiền; trái việc một chút sức cũng có giá trị.'
-        ], dimension: 'feasible initiative versus ideal-condition waiting, overpromising, and donation-size ranking'
-      },
-      {
-        sourceCue: 'phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm', targetVietnamese: 'phải cố gắng nhiều lắm, phải vất vả nhiều lắm, phải chịu đựng nhiều lắm.',
-        sentence: 'We must ___.',
-        options: ['make great efforts, toil hard, and endure a great deal', 'withdraw from service at the first difficulty', 'claim an exemption because the work is demanding', 'deny that the work involves any hardship'], answer: 0,
-        rationales: [
-          'make great efforts, toil hard, and endure a great deal: giữ cả ba việc và mức “nhiều lắm”, không làm nhẹ chữ phải.',
-          'withdraw from service at the first difficulty: bỏ ngay khi khó; đảo lời yêu cầu cố gắng.',
-          'claim an exemption because the work is demanding: xin miễn vì nặng; trái nhận phần vất vả.',
-          'deny that the work involves any hardship: phủ nhận khó; nguồn thừa nhận khó rồi yêu cầu chịu đựng.'
-        ], dimension: 'perseverance versus abandonment inference, exemption claim, and concealment'
-      },
-      {
-        sourceCue: 'những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn', targetVietnamese: 'Sau vài lần chịu khó làm phước thì những lần sau bỗng nhiên dễ làm phước hơn, cơ hội đến dễ dàng hơn.',
-        sentence: 'After persisting through a few initial good deeds, we ___.',
-        options: ['find it easier to do good, with opportunities coming more readily', 'become wealthy after a single gift', 'eliminate every future obstacle', 'no longer need to make any effort'], answer: 0,
-        rationales: [
-          'find it easier to do good, with opportunities coming more readily: giữ đủ hai thay đổi: dễ làm hơn và dễ có cơ hội hơn.',
-          'become wealthy after a single gift: giàu ngay một lần; thêm kết quả và thời hạn nguồn không hứa.',
-          'eliminate every future obstacle: xóa mọi trở ngại; vượt ý thuận lợi hơn.',
-          'no longer need to make any effort: khỏi nỗ lực từ đây; trái việc thuận lợi hơn để tiếp tục làm.'
-        ], dimension: 'opening further opportunity versus instant reward, total obstacle removal, and permanent exemption'
-      }
-    ]
-  },
-  {
-    id: 'M132', sourceBlockId: 'W11-B12', title: 'Giúp kín đáo mà không rút khỏi đời sống vị tha',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
-      {
-        sourceCue: 'xử lý sự mâu thuẫn này cho khéo léo', targetVietnamese: 'Người cư sĩ phải khôn ngoan xử lý sự mâu thuẫn này cho khéo léo',
-        sentence: 'Lay practitioners must wisely ___.',
-        options: ['reconcile discretion with altruistic engagement', 'equate discretion with complete withdrawal from service', 'subordinate every good deed to public visibility', 'resolve the tension by abandoning all interaction'], answer: 0,
-        rationales: [
-          'reconcile discretion with altruistic engagement: tìm cách giữ được cả hai yêu cầu; đúng ý xử lý khéo mâu thuẫn.',
-          'equate discretion with complete withdrawal from service: coi kín đáo là bỏ phụng sự; xóa một phía cần giữ.',
-          'subordinate every good deed to public visibility: làm mọi việc tùy sự được thấy; trái tránh khoe.',
-          'resolve the tension by abandoning all interaction: bỏ mọi tương tác; trái yêu cầu vị tha gắn với người.'
-        ], dimension: 'reconciling two demands versus withdrawal, publicity priority, and abandoned interaction'
-      },
-      {
-        sourceCue: 'nhờ ai đưa quà cho người nghèo trong xóm', targetVietnamese: 'ví dụ như nhờ ai đưa quà cho người nghèo trong xóm',
-        sentence: 'For example, we can ___.',
-        options: ['have someone deliver gifts to poor people in the neighborhood', 'take credit for another person’s donation', 'require the recipient to attend a public presentation', 'withhold the gift unless the donor is identified'], answer: 0,
-        rationales: [
-          'have someone deliver gifts to poor people in the neighborhood: giữ việc nhờ người chuyển cùng người nhận và nơi nhận.',
-          'take credit for another person’s donation: lấy công người khác; đổi quyền sở hữu món quà và động cơ.',
-          'require the recipient to attend a public presentation: buộc nhận trước công chúng; trái tránh ra mặt.',
-          'withhold the gift unless the donor is identified: chỉ cho khi công khai người cho; đảo mục đích kín đáo.'
-        ], dimension: 'mediated giving versus appropriated credit, public presentation, and disclosure condition'
-      },
-      {
-        sourceCue: 'để không bị rơi vào lỗi khoe khoang kiêu mạn', targetVietnamese: 'Việc tu hành cần phải kín đáo để không bị rơi vào lỗi khoe khoang kiêu mạn',
-        sentence: 'Practice needs to remain discreet to ___.',
-        options: ['guard against boasting and conceit', 'shield misconduct from accountability', 'imply a superior spiritual status through hints', 'secure exclusive ownership of every benefit'], answer: 0,
-        rationales: [
-          'guard against boasting and conceit: ngăn mình rơi vào hai lỗi nội tâm; giữ mục đích tu tập.',
-          'shield misconduct from accountability: giấu sai khỏi trách nhiệm; đổi kín đáo điều thiện thành bao che điều ác.',
-          'imply a superior spiritual status through hints: ngầm khoe địa vị; vẫn nuôi kiêu mạn thay vì tránh.',
-          'secure exclusive ownership of every benefit: giữ độc quyền ích lợi; thêm tính chiếm hữu không có.'
-        ], dimension: 'preventing self-display versus evasion, insinuated superiority, and appropriation'
-      },
-      {
-        sourceCue: 'giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín', targetVietnamese: 'đến khi có phước rồi thì giúp người trong xóm làng tiếp cận với đạo lý qua các trang uy tín',
-        sentence: 'Once we have blessings, we can ___.',
-        options: ['direct our neighbors to the teachings through trustworthy websites', 'claim personal authority in place of every outside source', 'demand that all advice pass exclusively through us', 'attribute our private opinions to an authoritative source'], answer: 0,
-        rationales: [
-          'direct our neighbors to the teachings through trustworthy websites: giữ người được giúp, nội dung đạo lý và phương tiện trang uy tín.',
-          'claim personal authority in place of every outside source: tự thay mọi nguồn bằng mình; trái cách giới thiệu được gợi.',
-          'demand that all advice pass exclusively through us: giữ độc quyền hướng dẫn; thêm quyền kiểm soát.',
-          'attribute our private opinions to an authoritative source: gán ý mình cho nguồn; không phải giúp tiếp cận nguồn thật.'
-        ], dimension: 'referral to reliable sources versus personal authority, gatekeeping, and false attribution'
-      },
-      {
-        sourceCue: 'sau này đủ phước làm giảng sư đăng tòa sẽ tính sau', targetVietnamese: 'sau này đủ phước làm giảng sư đăng tòa sẽ tính sau',
-        sentence: 'Taking the teaching seat as a Dharma lecturer is something to ___.',
-        options: ['defer until we have sufficient blessings', 'renounce permanently in every circumstance', 'undertake immediately as proof of sincerity', 'claim credit for before any preparation'], answer: 0,
-        rationales: [
-          'defer until we have sufficient blessings: để sau khi đủ phước; không thay điều kiện cụ thể bằng một chữ chung chung.',
-          'renounce permanently in every circumstance: bỏ mãi mãi; xóa khả năng “sau này… sẽ tính”.',
-          'undertake immediately as proof of sincerity: làm ngay để chứng tâm; trái lời chưa nên ra mặt giảng.',
-          'claim credit for before any preparation: nhận công trước chuẩn bị; thêm sự khoe vốn cần tránh.'
-        ], dimension: 'conditional deferral versus permanent renunciation, immediate performance, and premature credit'
-      }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
     id: 'M133', sourceBlockId: 'W12-B01', title: 'Trách nhiệm: làm tròn việc thay vì chỉ nhận việc',
@@ -5665,313 +6888,826 @@ module.exports = [
     ]
   },
   {
-    id: 'M139', sourceBlockId: 'W12-B07', title: 'Tận tụy ở công sở chưa bao quát mọi mặt siêng năng',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M139",
+    "sourceBlockId": "W12-B07",
+    "title": "Tận tụy ở công sở chưa bao quát mọi mặt siêng năng",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'Siêng năng hơi khác với Tận tụy một chút', targetVietnamese: 'Siêng năng hơi khác với Tận tụy một chút.',
-        sentence: 'Diligence ___ dedication.',
-        options: ['differs slightly from', 'is diametrically opposed to', 'is fully interchangeable with', 'is caused entirely by'], answer: 0,
-        rationales: [
-          'differs slightly from: giữ đúng mức khác biệt nhỏ, không nâng thành đối nghịch.',
-          'is diametrically opposed to: đối lập hoàn toàn; làm quá “hơi khác”.',
-          'is fully interchangeable with: dùng thay nhau hoàn toàn; xóa khác biệt nguồn nêu.',
-          'is caused entirely by: hoàn toàn do điều kia tạo ra; thêm quan hệ nhân quả.'
-        ], dimension: 'limited distinction versus absolute opposition, equivalence, and causal sequence'
+        "sourceCue": "Siêng năng hơi khác với Tận tụy một chút",
+        "targetVietnamese": "Siêng năng hơi khác với Tận tụy một chút.",
+        "options": [
+          "Diligence differs slightly from dedication.",
+          "There is a slight difference between diligence and dedication.",
+          "Diligence and dedication are not quite the same thing.",
+          "A small distinction can be drawn between diligence and dedication."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ mức khác biệt nhỏ trong lời mở đầu định nghĩa. Hai cách nói trực tiếp bằng differs hoặc difference sát ngang nhau; không biến việc chọn cấu trúc thành quy tắc đúng sai.",
+        "dimension": "direct comparison, existential distinction, conversational negation, and analytic passive",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Diligence differs slightly from dedication.: ưu tiên vì đặt siêng năng làm chủ ngữ và diễn đạt thẳng mức hơi khác bằng differs slightly.",
+          "There is a slight difference between diligence and dedication.: cùng mức ưu tiên; đưa sự khác biệt làm trục mà vẫn giữ đúng mức độ và giọng thuyết minh.",
+          "Diligence and dedication are not quite the same thing.: dùng được, gần giọng hội thoại; not quite the same xác nhận không đồng nhất nhưng để mức khác biệt ít tường minh hơn.",
+          "A small distinction can be drawn between diligence and dedication.: dùng được; dạng bị động can be drawn đưa thao tác phân biệt của người giải thích lên thay cho nhận định trực tiếp."
+        ]
       },
       {
-        sourceCue: 'siêng năng trong bổn phận việc làm', targetVietnamese: 'Tận tụy là siêng năng trong bổn phận việc làm',
-        sentence: 'Dedication here means ___.',
-        options: ['applying oneself diligently to occupational duties', 'working only when a task is personally entertaining', 'taking on duties without carrying them out', 'advertising how demanding one’s duties are'], answer: 0,
-        rationales: [
-          'applying oneself diligently to occupational duties: chuyên tâm và chịu khó trong phần việc bổn phận; đúng phạm vi tận tụy.',
-          'working only when a task is personally entertaining: làm tùy hứng; thiếu sự gắn bó với bổn phận.',
-          'taking on duties without carrying them out: nhận mà không thực hiện; chưa có sự tận tâm.',
-          'advertising how demanding one’s duties are: kể việc nặng; không thay cho việc dốc sức làm.'
-        ], dimension: 'diligent application versus entertainment, unfulfilled undertaking, and workload publicity'
+        "sourceCue": "siêng năng trong bổn phận việc làm",
+        "targetVietnamese": "Tận tụy là siêng năng trong bổn phận việc làm",
+        "options": [
+          "Dedication means applying oneself diligently to the duties of one’s work.",
+          "To be dedicated is to be diligent in carrying out one’s work duties.",
+          "Dedication consists in the diligent performance of one’s work duties.",
+          "The diligence with which we attend to our work duties is what constitutes dedication."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ định nghĩa tận tụy trong phạm vi bổn phận công việc. Ưu tiên trục định nghĩa dễ theo, không coi danh hóa là sai nhưng so tải thông tin và vị trí của tên khái niệm.",
+        "dimension": "definition through application, personal quality, nominal performance, and delayed naming",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Dedication means applying oneself diligently to the duties of one’s work.: ưu tiên; apply oneself diễn đạt sự chuyên tâm thực hiện, với bổn phận công việc làm đối tượng rõ.",
+          "To be dedicated is to be diligent in carrying out one’s work duties.: cùng mức ưu tiên; chuyển tên khái niệm thành trạng thái của người làm mà giữ định nghĩa và phạm vi.",
+          "Dedication consists in the diligent performance of one’s work duties.: dùng được; performance danh hóa việc thực hiện, khiến giọng định nghĩa cô đọng và trang trọng hơn.",
+          "The diligence with which we attend to our work duties is what constitutes dedication.: dùng được; bắt đầu bằng phẩm chất của hoạt động rồi mới gọi tên tận tụy, nên điểm chốt đến muộn hơn nguồn."
+        ]
       },
       {
-        sourceCue: 'chịu khó tốn công sức để thực hiện mọi công việc trong cuộc sống', targetVietnamese: 'còn siêng năng là chịu khó tốn công sức để thực hiện mọi công việc trong cuộc sống.',
-        sentence: 'Diligence, by contrast, means ___.',
-        options: ['being willing to expend effort on all of life’s tasks', 'confining effort to paid employment', 'exempting domestic activity from any need for effort', 'counting willingness as equivalent to completed work'], answer: 0,
-        rationales: [
-          'being willing to expend effort on all of life’s tasks: giữ sự chịu khó bỏ công cùng phạm vi mọi việc sống.',
-          'confining effort to paid employment: chỉ tính việc có lương; hẹp hơn định nghĩa.',
-          'exempting domestic activity from any need for effort: miễn việc nhà; trái phạm vi mọi công việc.',
-          'counting willingness as equivalent to completed work: xem muốn làm như đã xong; không phải lời định nghĩa.'
-        ], dimension: 'broad effort versus employment restriction, domestic exemption, and intention-outcome equivalence'
+        "sourceCue": "chịu khó tốn công sức để thực hiện mọi công việc trong cuộc sống",
+        "targetVietnamese": "còn siêng năng là chịu khó tốn công sức để thực hiện mọi công việc trong cuộc sống.",
+        "options": [
+          "Diligence, by contrast, means willingly putting effort into all the tasks of daily life.",
+          "To be diligent, by contrast, is to take the trouble to do all the tasks that life involves.",
+          "Diligence, on the other hand, is a willingness to expend effort on every task in life.",
+          "All the tasks of life call for willing effort: that is what diligence means here."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ quan hệ đối chiếu với tận tụy và sự chịu khó bỏ công thực hiện mọi việc. Phân biệt hành động bỏ sức với định nghĩa thiên về sự sẵn lòng hoặc lời dẫn bắt đầu từ các việc.",
+        "dimension": "effortful action, taking the trouble, dispositional willingness, and task-led definition",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Diligence, by contrast, means willingly putting effort into all the tasks of daily life.: ưu tiên vì đặt khái niệm trước rồi định nghĩa bằng hành động bỏ công, giữ by contrast và all.",
+          "To be diligent, by contrast, is to take the trouble to do all the tasks that life involves.: cùng mức ưu tiên; take the trouble to do chuyển chịu khó thành cụm động từ tự nhiên, không mất phạm vi mọi việc.",
+          "Diligence, on the other hand, is a willingness to expend effort on every task in life.: dùng được; diễn đạt qua phẩm chất willingness nên hướng sự chú ý vào thái độ sẵn lòng hơn hành động thực hiện.",
+          "All the tasks of life call for willing effort: that is what diligence means here.: dùng được trong mạch; đảo lên bắt đầu bằng các việc và nhu cầu bỏ sức, rồi mới kết nối về định nghĩa."
+        ]
       },
       {
-        sourceCue: 'Tận tụy ở công sở, nhưng đôi khi về đến nhà không chịu làm gì khác', targetVietnamese: 'Người ta có thể Tận tụy ở công sở, nhưng đôi khi về đến nhà không chịu làm gì khác',
-        sentence: 'People may be dedicated at the office, yet sometimes ___ when they return home.',
-        options: ['refuse to do anything else', 'cannot find any other task to do', 'have already completed every remaining task', 'are unaware of any remaining duties'], answer: 0,
-        rationales: [
-          'refuse to do anything else: giữ “không chịu”, là thiếu ý muốn làm chứ không phải không có việc.',
-          'cannot find any other task to do: không tìm ra việc; đổi nguyên nhân từ không chịu sang không có việc.',
-          'have already completed every remaining task: đã làm xong hết; thêm kết quả nguồn không nói.',
-          'are unaware of any remaining duties: không biết còn bổn phận; khác việc biết nhưng không chịu làm.'
-        ], dimension: 'nonautomatic transfer versus exclusion, universal contrast, and reverse dependence'
+        "sourceCue": "Tận tụy ở công sở, nhưng đôi khi về đến nhà không chịu làm gì khác",
+        "targetVietnamese": "Người ta có thể Tận tụy ở công sở, nhưng đôi khi về đến nhà không chịu làm gì khác",
+        "options": [
+          "People may be dedicated at the office, yet sometimes refuse to do anything else when they get home.",
+          "People can devote themselves to their office work but sometimes be unwilling to do anything else once home.",
+          "Dedication at the office may coexist with an occasional unwillingness to do anything else at home.",
+          "Even people who are dedicated at work may sometimes come home and decline to do anything else."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ có thể, đôi khi và sắc thái không chịu làm. Ưu tiên câu đi theo con người từ công sở về nhà; so với cách khái quát hóa thành hai phẩm chất cùng tồn tại hoặc lời từ chối nhẹ hơn.",
+        "dimension": "human trajectory, devoted action, abstract coexistence, and concessive recasting",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "People may be dedicated at the office, yet sometimes refuse to do anything else when they get home.: ưu tiên; giữ người làm, may, sometimes và refuse, đồng thời tái hiện lúc trở về nhà.",
+          "People can devote themselves to their office work but sometimes be unwilling to do anything else once home.: cùng mức ưu tiên; devote themselves làm rõ tận tụy, be unwilling giữ không chịu mà không buộc phải có lời từ chối nói ra.",
+          "Dedication at the office may coexist with an occasional unwillingness to do anything else at home.: dùng được; chuyển tương phản đời thường thành quan hệ coexist giữa hai danh hóa, ít có cảm giác đi từ công sở về nhà.",
+          "Even people who are dedicated at work may sometimes come home and decline to do anything else.: dùng được; even làm nổi điều bất ngờ trong tương phản, còn decline có giọng từ chối nhã hơn không chịu."
+        ]
       },
       {
-        sourceCue: 'lấy cớ làm về mệt', targetVietnamese: 'lấy cớ làm về mệt.',
-        sentence: 'The person ___.',
-        options: ['invokes fatigue after work as an excuse', 'merely acknowledges being tired after work', 'seeks treatment for clinically assessed exhaustion', 'regrets causing other people to become tired'], answer: 0,
-        rationales: [
-          'invokes fatigue after work as an excuse: viện mệt làm lý do tránh việc; giữ sắc thái “lấy cớ”.',
-          'merely acknowledges being tired after work: chỉ nhận mình mệt; chưa có chức năng biện hộ.',
-          'seeks treatment for clinically assessed exhaustion: đi chữa sự kiệt sức đã được khám; thêm việc y khoa không có.',
-          'regrets causing other people to become tired: hối vì làm người khác mệt; đổi người chịu mệt và thái độ.'
-        ], dimension: 'pretext versus measurement, noticing, and remorse'
+        "sourceCue": "lấy cớ làm về mệt",
+        "targetVietnamese": "lấy cớ làm về mệt.",
+        "options": [
+          "They use being tired after work as an excuse.",
+          "They make an excuse of their tiredness after work.",
+          "Their excuse is that they are tired after work.",
+          "They cite fatigue after work as their excuse."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ sắc thái lấy cớ, không chỉ ghi nhận mệt. Ưu tiên hành động biến sự mệt thành cớ trong giọng gần gũi; không cần động từ trang trọng mới diễn đạt đúng.",
+        "dimension": "making a pretext versus excuse-led and formal citation framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "They use being tired after work as an excuse.: ưu tiên; use ... as an excuse giữ cả hành động lấy cớ lẫn lý do mệt sau khi làm về.",
+          "They make an excuse of their tiredness after work.: cùng mức ưu tiên; make an excuse of diễn đạt rõ việc biến sự mệt thành một cái cớ.",
+          "Their excuse is that they are tired after work.: dùng được; lấy lời giải thích làm chủ ngữ, nhấn nội dung của cớ hơn hành vi viện cớ.",
+          "They cite fatigue after work as their excuse.: dùng được; cite và fatigue mang giọng thuật lại trang trọng, khác khẩu khí đời thường của nguồn."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M140', sourceBlockId: 'W12-B08', title: 'Chịu cực trước, niềm vui bền có thể đến sau',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M140",
+    "sourceBlockId": "W12-B08",
+    "title": "Chịu cực trước, niềm vui bền có thể đến sau",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'Sống có trách nhiệm là phải chịu cực', targetVietnamese: 'Sống có trách nhiệm là phải chịu cực.',
-        sentence: 'Living responsibly entails ___.',
-        options: ['bearing hardship', 'projecting an image of busyness', 'delegating every demanding task', 'claiming exemption from discomfort'], answer: 0,
-        rationales: [
-          'bearing hardship: nhận và chịu phần cực; giữ cái giá thực tế của trách nhiệm.',
-          'projecting an image of busyness: làm vẻ bận; chưa có việc gánh khó thật.',
-          'delegating every demanding task: giao hết phần khó; không giữ yêu cầu chính mình chịu cực.',
-          'claiming exemption from discomfort: tự cho được miễn cực; đảo lời mở đầu.'
-        ], dimension: 'bearing hardship versus busy appearance, total delegation, and exemption'
+        "sourceCue": "Sống có trách nhiệm là phải chịu cực",
+        "targetVietnamese": "Sống có trách nhiệm là phải chịu cực.",
+        "options": [
+          "Living responsibly means having to bear hardship.",
+          "To live responsibly is to accept that one must endure hardship.",
+          "A responsible life entails hardship.",
+          "Hardship is part of what living responsibly demands of us."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ quan hệ định nghĩa và lực phải chịu cực, không tự thêm thái độ vui lòng chấp nhận. So cách nói trực tiếp với việc chuyển thành yêu cầu, hệ quả hoặc thái độ đối với khó nhọc.",
+        "dimension": "necessity-bearing definition, acceptance framing, entailment, and hardship-led demand",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Living responsibly means having to bear hardship.: ưu tiên; means having to bear giữ cả là và phải chịu, bằng trục câu sáng và trực tiếp.",
+          "To live responsibly is to accept that one must endure hardship.: dùng được trong lời khuyên; accept that đưa thêm điểm nhìn về thái độ tiếp nhận điều phải chịu.",
+          "A responsible life entails hardship.: dùng được và rất gọn; entails cho biết khó nhọc đi kèm tất yếu nhưng trải nghiệm phải chịu ít nổi hơn.",
+          "Hardship is part of what living responsibly demands of us.: dùng được; đưa hardship ra đầu và nhân hóa đời sống có trách nhiệm thành điều đòi hỏi ở ta."
+        ]
       },
       {
-        sourceCue: 'sau nhiều năm sẽ trở thành hạnh phúc', targetVietnamese: 'Ban đầu thấy cực, nhưng sau nhiều năm sẽ trở thành hạnh phúc.',
-        sentence: 'At first, responsible living feels hard, but over many years it ___.',
-        options: ['becomes a source of happiness', 'is instantly rewarded with pleasure', 'is merely forgotten without any positive change', 'proves that responsibility was unnecessary'], answer: 0,
-        rationales: [
-          'becomes a source of happiness: giữ kết quả sau nhiều năm mà không tự khẳng định mọi công việc nặng đã hết.',
-          'is instantly rewarded with pleasure: được vui ngay lập tức; xóa khoảng thời gian nguồn nhấn.',
-          'is merely forgotten without any positive change: chỉ quên đi; không có kết quả hạnh phúc.',
-          'proves that responsibility was unnecessary: chứng tỏ không cần trách nhiệm; đảo ý khuyến khích của đoạn.'
-        ], dimension: 'eventual transformation versus instant reward, mere forgetting, and repudiation'
+        "sourceCue": "Ban đầu thấy cực, nhưng sau nhiều năm sẽ trở thành hạnh phúc",
+        "targetVietnamese": "Ban đầu thấy cực, nhưng sau nhiều năm sẽ trở thành hạnh phúc.",
+        "options": [
+          "It feels hard at first, but after many years it will become a source of happiness.",
+          "What feels hard at first will, after many years, become a source of happiness.",
+          "After many years, happiness will come from what initially felt like hardship.",
+          "The initial hardship will, after many years, give way to happiness."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ trải nghiệm ban đầu, khoảng nhiều năm và sự chuyển thành hạnh phúc. Ưu tiên cách cho thấy chính việc đang thấy cực trở thành nguồn vui, không hàm ý việc nặng đã biến mất.",
+        "dimension": "temporal contrast, fused-relative subject, retrospective happiness, and replacement imagery",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "It feels hard at first, but after many years it will become a source of happiness.: ưu tiên; hai vế đi theo đúng tiến trình đầu rồi sau, giữ will và many years.",
+          "What feels hard at first will, after many years, become a source of happiness.: cùng mức ưu tiên; mệnh đề what gom điều đang thấy cực làm chủ ngữ của sự chuyển thành hạnh phúc.",
+          "After many years, happiness will come from what initially felt like hardship.: dùng được; đưa mốc sau nhiều năm lên trước rồi nhìn ngược về nguồn của niềm vui.",
+          "The initial hardship will, after many years, give way to happiness.: dùng được như cách nói trải nghiệm thay đổi; give way dễ gợi khó nhọc nhường chỗ và chấm dứt, nên kém chính xác hơn về điểm chuyển hóa."
+        ]
       },
       {
-        sourceCue: 'đem niềm vui đến cho mọi người chung quanh mình', targetVietnamese: 'Người sống có trách nhiệm là người đem niềm vui đến cho mọi người chung quanh mình',
-        sentence: 'A responsible person ___.',
-        options: ['brings joy to everyone around them', 'draws all their enjoyment from others’ service', 'requires others to display happiness for their benefit', 'withholds help until gratitude is expressed'], answer: 0,
-        rationales: [
-          'brings joy to everyone around them: giữ hướng mang vui tới người và phạm vi mọi người quanh mình.',
-          'draws all their enjoyment from others’ service: chỉ hưởng người phục vụ; đảo người cho và người nhận.',
-          'requires others to display happiness for their benefit: ép người tỏ vui; thay hạnh phúc thật bằng trình diễn.',
-          'withholds help until gratitude is expressed: chờ được cảm ơn mới giúp; thêm điều kiện không có.'
-        ], dimension: 'giving joy versus consuming service, staged happiness, and gratitude condition'
+        "sourceCue": "đem niềm vui đến cho mọi người chung quanh mình",
+        "targetVietnamese": "Người sống có trách nhiệm là người đem niềm vui đến cho mọi người chung quanh mình",
+        "options": [
+          "A responsible person is someone who brings joy to everyone around them.",
+          "To be responsible is to bring joy to all those around us.",
+          "Everyone around a responsible person receives joy from them.",
+          "Bringing joy to everyone around oneself is a mark of a responsible person."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ cấu trúc nhận diện người có trách nhiệm qua hành động đem vui cho mọi người xung quanh. So định nghĩa về người với lời khái quát về phẩm chất, người nhận hoặc dấu hiệu nhận biết.",
+        "dimension": "person definition, infinitival quality, recipient perspective, and identifying hallmark",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "A responsible person is someone who brings joy to everyone around them.: ưu tiên; giữ người làm chủ ngữ, quan hệ là người và động từ brings hướng niềm vui đến đủ mọi người quanh mình.",
+          "To be responsible is to bring joy to all those around us.: dùng được; chuyển nhận định về người thành định nghĩa phẩm chất bằng hành động, ngôi we gần giọng lời khuyên.",
+          "Everyone around a responsible person receives joy from them.: dùng được; đặt người nhận niềm vui lên đầu nên đổi điểm nhìn khỏi người sống có trách nhiệm.",
+          "Bringing joy to everyone around oneself is a mark of a responsible person.: dùng được; nhấn hành động như một dấu hiệu nhận diện, bớt trực tiếp hơn cách là người của câu Việt."
+        ]
       },
       {
-        sourceCue: 'kềm chế những trò vui của mình', targetVietnamese: 'kềm chế những trò vui của mình',
-        sentence: 'They ___ their own amusements.',
-        options: ['rein in', 'relabel', 'publicize', 'delegate'], answer: 0,
-        rationales: [
-          'rein in: giữ lại, kiềm bớt; đúng hình ảnh tự chế nhu cầu riêng.',
-          'relabel: đổi tên; không thay mức ham vui.',
-          'publicize: làm được biết; không diễn đạt việc tự hạn chế.',
-          'delegate: giao người khác làm; không phải kiểm soát thú vui của chính mình.'
-        ], dimension: 'restraint versus relabeling, publicity, and delegation'
+        "sourceCue": "kềm chế những trò vui của mình",
+        "targetVietnamese": "kềm chế những trò vui của mình",
+        "options": [
+          "They rein in their own amusements.",
+          "They keep their own pursuit of amusement in check.",
+          "They exercise restraint in their own amusements.",
+          "Their own amusements are kept within bounds."
+        ],
+        "preferredAnswers": [
+          0,
+          1,
+          2
+        ],
+        "selectionCriterion": "Giữ sự tự hạn chế thú vui, không phải cấm tuyệt đối. Ba cách chủ động sát ngang nhau; so với bị động làm mờ người tự kềm chế, không dùng từ mạnh làm tiêu chí duy nhất.",
+        "dimension": "active self-restraint through three predicates versus passive bounds",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "They rein in their own amusements.: ưu tiên; rein in diễn đạt kiềm lại mức độ, với người tự hạn chế và thú vui của mình cùng rõ.",
+          "They keep their own pursuit of amusement in check.: cùng mức ưu tiên; keep ... in check giữ giới hạn sự tìm vui, khác hình ảnh nhưng sát hành động tự kềm.",
+          "They exercise restraint in their own amusements.: cùng mức ưu tiên; exercise restraint diễn đạt bằng phẩm chất tự chế, vẫn giữ người thực hiện và đối tượng.",
+          "Their own amusements are kept within bounds.: dùng được; đặt thú vui lên đầu bằng bị động, mức giới hạn rõ nhưng tác nhân tự kềm không còn được nói trực tiếp."
+        ]
       },
       {
-        sourceCue: 'luật Nhân quả sẽ đem về lại quả lành trái ngọt', targetVietnamese: 'thì luật Nhân quả sẽ đem về lại quả lành trái ngọt tất nhiên.',
-        sentence: 'Then the law of karma will inevitably ___.',
-        options: ['bring good results in return', 'supply a literal harvest as payment', 'grant immunity from every future mistake', 'prove that no prior effort was needed'], answer: 0,
-        rationales: [
-          'bring good results in return: giữ nghĩa quả lành trả về; khung giữ luật nhân quả làm tác nhân và chữ “tất nhiên”.',
-          'supply a literal harvest as payment: trả bằng nông sản; hiểu hình ảnh theo nghĩa đen.',
-          'grant immunity from every future mistake: ban quyền miễn mọi lỗi sau này; thêm bảo đảm không có.',
-          'prove that no prior effort was needed: chứng tỏ khỏi cần cố gắng; xóa phần nhân trách nhiệm.'
-        ], dimension: 'figurative fruition versus literal payment, immunity, and absent effort'
+        "sourceCue": "luật Nhân quả sẽ đem về lại quả lành trái ngọt tất nhiên",
+        "targetVietnamese": "thì luật Nhân quả sẽ đem về lại quả lành trái ngọt tất nhiên.",
+        "options": [
+          "Then the law of karma will inevitably bring good results in return.",
+          "Then the law of karma will inevitably return good fruits to them.",
+          "Good results will then inevitably come back to them through the law of karma.",
+          "Under the law of karma, good fruits will inevitably be their return."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ thì, sẽ, tính tất nhiên và ý quả lành trở lại. So chủ ngữ luật Nhân quả đem về với chủ ngữ kết quả, không chấm hình ảnh trái ngọt là hơn hay kém chỉ vì văn vẻ.",
+        "dimension": "law as agent, fruit imagery, returning results, and nominal recompense",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Then the law of karma will inevitably bring good results in return.: ưu tiên; luật Nhân quả làm tác nhân brings, inevitably giữ tất nhiên và in return giữ chiều trở lại.",
+          "Then the law of karma will inevitably return good fruits to them.: cùng mức ưu tiên; giữ cùng tác nhân và tính tất yếu, dùng fruits để nối hình ảnh quả lành của nguồn.",
+          "Good results will then inevitably come back to them through the law of karma.: dùng được; kết quả làm chủ ngữ của come back, còn luật Nhân quả thành cơ chế, nên đổi điểm dẫn.",
+          "Under the law of karma, good fruits will inevitably be their return.: dùng được; nói về phần nhận lại dưới luật Nhân quả, mang nhịp khái quát và danh từ hóa hơn hành động đem về."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M141', sourceBlockId: 'W12-B09', title: 'Phối hợp làm tăng điều một người không tự làm nổi',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M141",
+    "sourceBlockId": "W12-B09",
+    "title": "Phối hợp làm tăng điều một người không tự làm nổi",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'Nếu làm việc một mình, người đó sẽ thiếu trước hụt sau', targetVietnamese: 'Nếu làm việc một mình, người đó sẽ thiếu trước hụt sau.',
-        sentence: 'If a person works alone, they will ___.',
-        options: ['fall short of one necessity or another', 'be incapable of accomplishing any task at all', 'choose scarcity as an end in itself', 'deliberately reject every available resource'], answer: 0,
-        rationales: [
-          'fall short of one necessity or another: giữ thành ngữ thiếu trước hụt sau, không nâng thành không thể làm bất cứ việc gì.',
-          'be incapable of accomplishing any task at all: không làm được gì; mạnh hơn ví dụ vẫn có cái ăn hay cái nhà.',
-          'choose scarcity as an end in itself: cố chọn thiếu thốn; thêm động cơ không có.',
-          'deliberately reject every available resource: cố bỏ mọi nguồn lực; không phải nguyên nhân được kể.'
-        ], dimension: 'competing unmet needs versus total incapacity, chosen scarcity, and deliberate rejection'
+        "sourceCue": "Nếu làm việc một mình, người đó sẽ thiếu trước hụt sau",
+        "targetVietnamese": "Nếu làm việc một mình, người đó sẽ thiếu trước hụt sau.",
+        "options": [
+          "If a person works alone, they will fall short of one necessity or another.",
+          "Someone working alone will find themselves lacking one essential thing after another.",
+          "Working alone will leave a person with recurring shortfalls in life’s necessities.",
+          "One necessity or another will be missing when a person works alone."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ điều kiện làm một mình và sự thiếu thứ này rồi thiếu thứ khác, không tự thêm nghèo tuyệt đối. So kinh nghiệm của người với kết quả được danh hóa hoặc đồ vật bị thiếu làm chủ ngữ.",
+        "dimension": "conditional shortage, experiential lack, causative shortfalls, and necessity-led framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "If a person works alone, they will fall short of one necessity or another.: ưu tiên; mệnh đề if giữ điều kiện rõ, fall short diễn đạt không đáp ứng đủ hết các nhu cầu được đoạn sau minh họa.",
+          "Someone working alone will find themselves lacking one essential thing after another.: cùng mức ưu tiên; find themselves lacking thể hiện cảnh thiếu thứ này đến thứ khác qua người trực tiếp trải qua.",
+          "Working alone will leave a person with recurring shortfalls in life’s necessities.: dùng được; lấy việc làm một mình làm tác nhân và gom các lần thiếu thành recurring shortfalls.",
+          "One necessity or another will be missing when a person works alone.: dùng được; đưa cái thiếu lên đầu, còn người và điều kiện xuất hiện sau, khác trục kể người của nguồn."
+        ]
       },
       {
-        sourceCue: 'họ phân công nhau trong một sự hợp tác chung', targetVietnamese: 'Từ khi có gia đình, họ phân công nhau trong một sự hợp tác chung, và đời sống họ khá lên theo cấp số nhân.',
-        sentence: 'Once they have a family, they ___, and their standard of living improves exponentially.',
-        options: ['divide the work among themselves', 'duplicate every task independently', 'transfer all work to a single member', 'reserve planning for themselves while refusing to act'], answer: 0,
-        rationales: [
-          'divide the work among themselves: chia nhau công việc trong mục đích chung; giữ sự phân công.',
-          'duplicate every task independently: ai cũng làm lại tất cả; không có lợi thế phân việc.',
-          'transfer all work to a single member: dồn hết một người; trái sự hợp tác nhiều người.',
-          'reserve planning for themselves while refusing to act: chỉ giữ phần tính mà không làm; thêm trốn việc.'
-        ], dimension: 'division of labor versus duplication, concentration, and planning without execution'
+        "sourceCue": "họ phân công nhau trong một sự hợp tác chung",
+        "targetVietnamese": "Từ khi có gia đình, họ phân công nhau trong một sự hợp tác chung, và đời sống họ khá lên theo cấp số nhân.",
+        "options": [
+          "Once they have a family, they divide the work among themselves and cooperate, and their standard of living improves exponentially.",
+          "With a family established, they work together through a division of labor, and their living conditions improve exponentially.",
+          "Family life brings a cooperative sharing of tasks, and their standard of living rises exponentially.",
+          "Their standard of living improves exponentially once family life allows them to cooperate and divide their work."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ từ khi có gia đình, phân công trong hợp tác và mức khá lên theo cấp số nhân. So trình tự nguồn với cách rút hợp tác thành cơ chế hoặc đưa kết quả lên trước.",
+        "dimension": "chronological cooperation, division-of-labor mechanism, family agency, and result-first explanation",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Once they have a family, they divide the work among themselves and cooperate, and their standard of living improves exponentially.: ưu tiên; giữ người và mốc once rồi đến phân công, hợp tác và kết quả với đủ mức exponentially.",
+          "With a family established, they work together through a division of labor, and their living conditions improve exponentially.: cùng mức ưu tiên; division of labor gom việc phân công mà work together vẫn giữ sự hợp tác chung.",
+          "Family life brings a cooperative sharing of tasks, and their standard of living rises exponentially.: dùng được; lấy family life làm tác nhân mang đến cách chia việc, cô hơn nhưng ít thấy hành động họ tự phân công.",
+          "Their standard of living improves exponentially once family life allows them to cooperate and divide their work.: dùng được trong mạch; đưa thành quả lên đầu rồi giải thích điều kiện gia đình tạo khả năng chia việc và hợp tác."
+        ]
       },
       {
-        sourceCue: 'Có hai ba người cùng làm nhà', targetVietnamese: 'Có hai ba người cùng làm nhà thì họ có thể xây căn nhà to hơn với cột lớn hơn, mái cao hơn, mảng tường rộng hơn.',
-        sentence: 'With two or three people ___, they can build a larger house, with bigger columns, a higher roof, and wider walls.',
-        options: ['working together', 'merely comparing their individual plans', 'taking turns claiming sole credit', 'working independently toward incompatible designs'], answer: 0,
-        rationales: [
-          'working together: giữ việc cùng làm; khung giữ đủ hai ba người và các chi tiết căn nhà lớn hơn.',
-          'merely comparing their individual plans: chỉ so phương án; chưa có hợp sức thực hiện.',
-          'taking turns claiming sole credit: thay nhau nhận công riêng; khác phối hợp xây dựng.',
-          'working independently toward incompatible designs: mỗi người theo thiết kế xung khắc; không giữ mục tiêu chung.'
-        ], dimension: 'combined effort versus comparison, alternating credit, and incompatible independent work'
+        "sourceCue": "Có hai ba người cùng làm nhà",
+        "targetVietnamese": "Có hai ba người cùng làm nhà thì họ có thể xây căn nhà to hơn với cột lớn hơn, mái cao hơn, mảng tường rộng hơn.",
+        "options": [
+          "With two or three people working together, they can build a larger house with bigger columns, a higher roof, and wider walls.",
+          "Two or three people building together can put up a larger house, using bigger columns, a higher roof, and wider walls.",
+          "A larger house, with bigger columns, a higher roof, and wider walls, can be built when two or three people work together.",
+          "Cooperation between two or three builders makes a house of greater size possible, with larger columns, a higher roof, and broader walls."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ hai ba người, khả năng xây và đủ ba chi tiết so sánh. So tác nhân, điều kiện và sản phẩm làm trọng tâm, không đánh giá bằng độ dài hoặc từ hiếm.",
+        "dimension": "conditional construction, human builders, passive house focus, and cooperation as enabling cause",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "With two or three people working together, they can build a larger house with bigger columns, a higher roof, and wider walls.: ưu tiên; giữ điều kiện hợp sức trước, can và toàn bộ chi tiết lớn hơn, cao hơn, rộng hơn.",
+          "Two or three people building together can put up a larger house, using bigger columns, a higher roof, and wider walls.: cùng mức ưu tiên; đặt hai ba người làm chủ ngữ trực tiếp và put up là cách nói tự nhiên về dựng nhà.",
+          "A larger house, with bigger columns, a higher roof, and wider walls, can be built when two or three people work together.: dùng được; bị động đặt ngôi nhà làm trọng tâm, dồn điều kiện hợp sức xuống cuối câu.",
+          "Cooperation between two or three builders makes a house of greater size possible, with larger columns, a higher roof, and broader walls.: dùng được; cooperation trở thành chủ ngữ trừu tượng của makes ... possible, giải thích cơ chế thay cho kể người xây."
+        ]
       },
       {
-        sourceCue: 'Xã hội tiến bộ hơn khi cộng đồng bộ tộc hợp tác', targetVietnamese: 'Xã hội tiến bộ hơn khi cộng đồng bộ tộc hợp tác đi săn, trồng trọt, xây nhà, rèn luyện, tự vệ.',
-        sentence: 'Society ___ as tribal communities cooperate in hunting, farming, house-building, training, and self-defense.',
-        options: ['advances', 'merely commemorates earlier progress', 'certifies that all progress is complete', 'replaces practical work with talk'], answer: 0,
-        rationales: [
-          'advances: xã hội tiến lên; giữ tác nhân và sự thay đổi, không chỉ nói về tiến bộ.',
-          'merely commemorates earlier progress: chỉ kỷ niệm việc đã qua; khác tiến bộ đang được tạo ra.',
-          'certifies that all progress is complete: xác nhận đã hoàn tất mọi tiến bộ; thêm tính tuyệt đối.',
-          'replaces practical work with talk: lấy nói thay làm; bỏ sự hợp tác thực tế trong các hoạt động.'
-        ], dimension: 'advancement versus commemoration, certification, and talk replacing work'
+        "sourceCue": "Xã hội tiến bộ hơn khi cộng đồng bộ tộc hợp tác",
+        "targetVietnamese": "Xã hội tiến bộ hơn khi cộng đồng bộ tộc hợp tác đi săn, trồng trọt, xây nhà, rèn luyện, tự vệ.",
+        "options": [
+          "Society advances as tribal communities cooperate in hunting, farming, house-building, training, and self-defense.",
+          "When tribal communities hunt, farm, build houses, train, and defend themselves together, society progresses.",
+          "Cooperation in hunting, farming, building houses, training, and self-defense helps tribal society advance.",
+          "Social progress accompanies tribal communities’ cooperation in hunting, farming, house-building, training, and self-defense."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ xã hội tiến bộ khi cộng đồng hợp tác và đủ năm hoạt động. So mệnh đề hành động có chủ thể với cách biến hợp tác hoặc tiến bộ thành danh từ chủ đạo.",
+        "dimension": "society-led progress, event-led subordinate clause, cooperation-led agency, and nominal accompaniment",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Society advances as tribal communities cooperate in hunting, farming, house-building, training, and self-defense.: ưu tiên; xã hội đứng đầu như nguồn và cooperate gắn đủ các hoạt động của cộng đồng bộ tộc.",
+          "When tribal communities hunt, farm, build houses, train, and defend themselves together, society progresses.: cùng mức ưu tiên; đưa mệnh đề khi lên đầu, đổi danh từ hoạt động thành năm động từ có cùng tác nhân rõ.",
+          "Cooperation in hunting, farming, building houses, training, and self-defense helps tribal society advance.: dùng được; cooperation làm nguyên nhân giúp xã hội tiến, quan hệ hỗ trợ nổi hơn thời điểm khi hợp tác.",
+          "Social progress accompanies tribal communities’ cooperation in hunting, farming, house-building, training, and self-defense.: dùng được; progress và cooperation đều là danh từ nên diễn đạt như quan hệ đồng hành, ít có hành động của người."
+        ]
       },
       {
-        sourceCue: 'Họ an toàn hơn trong một cộng đồng đông hơn và hợp tác hơn', targetVietnamese: 'Họ an toàn hơn trong một cộng đồng đông hơn và hợp tác hơn.',
-        sentence: 'In a larger, more cooperative community, people ___.',
-        options: ['enjoy greater security', 'eliminate every possible danger', 'become immune to all losses', 'no longer need self-defense'], answer: 0,
-        rationales: [
-          'enjoy greater security: giữ người dân là bên được an toàn hơn; không đổi họ thành người tự xóa nguy hiểm.',
-          'eliminate every possible danger: xóa mọi nguy hiểm; nâng “hơn” thành tuyệt đối.',
-          'become immune to all losses: không chịu bất cứ thiệt hại nào; mở an toàn hơn thành bảo đảm toàn diện.',
-          'no longer need self-defense: khỏi tự vệ; trái việc tự vệ được kể là hoạt động hợp tác.'
-        ], dimension: 'improved security versus total danger removal, immunity, and no defense requirement'
+        "sourceCue": "Họ an toàn hơn trong một cộng đồng đông hơn và hợp tác hơn",
+        "targetVietnamese": "Họ an toàn hơn trong một cộng đồng đông hơn và hợp tác hơn.",
+        "options": [
+          "They are safer in a larger, more cooperative community.",
+          "They enjoy greater safety in a larger community whose members cooperate more.",
+          "A larger, more cooperative community offers them greater safety.",
+          "Greater safety is theirs within a larger and more cooperative community."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ người được an toàn hơn cùng cả hai mức đông hơn và hợp tác hơn. So vị ngữ trạng thái với trải nghiệm hưởng an toàn, cộng đồng ban cho an toàn hoặc lối nhấn tu từ.",
+        "dimension": "comparative state, experienced safety, community agency, and rhetorical possession",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "They are safer in a larger, more cooperative community.: ưu tiên; are safer đơn giản nhưng trúng trạng thái so sánh, không cần từ cầu kỳ để tạo độ hay.",
+          "They enjoy greater safety in a larger community whose members cooperate more.: cùng mức ưu tiên; enjoy greater safety diễn đạt trải nghiệm được hưởng, mệnh đề members làm rõ ai hợp tác.",
+          "A larger, more cooperative community offers them greater safety.: dùng được; đổi cộng đồng từ môi trường thành chủ ngữ offers, làm tác dụng bảo vệ nổi bật hơn.",
+          "Greater safety is theirs within a larger and more cooperative community.: dùng được; đưa greater safety lên đầu và dùng is theirs mang giọng tu từ hơn nhận định bình dị nguồn."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M142', sourceBlockId: 'W12-B10', title: 'Biết luật không đồng nghĩa thuộc hết luật',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M142",
+    "sourceBlockId": "W12-B10",
+    "title": "Biết luật không đồng nghĩa thuộc hết luật",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'lại chẳng đơn giản chút nào', targetVietnamese: 'Hai việc đơn giản là Thuộc các quy tắc, và tuân thủ các quy tắc, lại chẳng đơn giản chút nào.',
-        sentence: 'The two seemingly simple tasks—knowing the rules and following them—___.',
-        options: ['turn out to be far from simple', 'remain effortless in practice', 'require no familiarity with the rules', 'remove every need for coordination'], answer: 0,
-        rationales: [
-          'turn out to be far from simple: hóa ra không hề đơn giản; giữ sự lật lại ấn tượng ban đầu.',
-          'remain effortless in practice: vẫn dễ làm ngoài thực tế; trái nhận xét của nguồn.',
-          'require no familiarity with the rules: không cần biết quy tắc; phủ nhận chính một trong hai công việc.',
-          'remove every need for coordination: khỏi cần phối hợp; thêm kết quả nguồn không nêu.'
-        ], dimension: 'qualification of simplicity versus confirmation, celebration, and obviation'
+        "sourceCue": "Hai việc đơn giản là Thuộc các quy tắc, và tuân thủ các quy tắc",
+        "targetVietnamese": "Hai việc đơn giản là Thuộc các quy tắc, và tuân thủ các quy tắc, lại chẳng đơn giản chút nào.",
+        "options": [
+          "The two seemingly simple tasks—knowing the rules and following them—are not simple at all.",
+          "Knowing the rules and complying with them may sound simple, yet neither task is simple at all.",
+          "There is nothing simple about those two seemingly simple tasks: knowing the rules and following them.",
+          "Far from being simple, knowing the rules and abiding by them are two demanding tasks."
+        ],
+        "preferredAnswers": [
+          0,
+          2
+        ],
+        "selectionCriterion": "Giữ hai việc cùng lối lặp đơn giản rồi chẳng đơn giản chút nào để tạo nghịch chuyển. Không rút câu thành nhận xét khó chung chung và bỏ nhịp tự đính chính.",
+        "dimension": "repeated-simple reversal, apparent simplicity, fronted negation, and demand-based reformulation",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "The two seemingly simple tasks—knowing the rules and following them—are not simple at all.: ưu tiên; giữ hai việc, đặt tên từng việc rồi đảo kỳ vọng bằng not simple at all đúng nhịp nguồn.",
+          "Knowing the rules and complying with them may sound simple, yet neither task is simple at all.: dùng được; chuyển vẻ đơn giản thành may sound và dùng neither để phân bổ nhận định cho cả hai việc.",
+          "There is nothing simple about those two seemingly simple tasks: knowing the rules and following them.: cùng mức ưu tiên; đưa phủ định mạnh lên trước nhưng vẫn giữ lặp simple và đủ hai nhiệm vụ.",
+          "Far from being simple, knowing the rules and abiding by them are two demanding tasks.: dùng được; far from giữ lực phủ định, còn demanding thay lần lặp simple bằng đánh giá về sức đòi hỏi."
+        ]
       },
       {
-        sourceCue: 'Không ai thuộc hết các bộ luật của quốc gia mình', targetVietnamese: 'Không ai thuộc hết các bộ luật của quốc gia mình.',
-        sentence: 'No one ___.',
-        options: ['knows the country’s entire body of law by heart', 'acknowledges that national laws exist', 'can locate any legal reference at all', 'has ever complied with a legal requirement'], answer: 0,
-        rationales: [
-          'knows the country’s entire body of law by heart: thuộc trọn mọi bộ luật; giữ phạm vi của chữ “hết”.',
-          'acknowledges that national laws exist: biết có luật; phủ nhận điều này rộng và khác hẳn không thuộc hết.',
-          'can locate any legal reference at all: tìm được bất kỳ tài liệu nào; nguồn kể luật sư vẫn tra tài liệu.',
-          'has ever complied with a legal requirement: từng tuân một điều; mở không thuộc hết thành chưa bao giờ làm đúng.'
-        ], dimension: 'complete memorization versus existence awareness, reference access, and any compliance'
+        "sourceCue": "Không ai thuộc hết các bộ luật của quốc gia mình",
+        "targetVietnamese": "Không ai thuộc hết các bộ luật của quốc gia mình.",
+        "options": [
+          "No one knows their own country’s entire body of law by heart.",
+          "No one has memorized all the laws of their own country.",
+          "Their own country’s entire body of law is more than anyone can hold in memory.",
+          "Complete recall of all the laws of one’s own country eludes everyone."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ không ai, thuộc hết và quốc gia mình. So trạng thái biết thuộc với việc học thuộc, khả năng chứa trong trí nhớ hoặc lối diễn đạt khái niệm có sắc tu từ.",
+        "dimension": "state of knowing, completed memorization, memory capacity, and abstract elusiveness",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "No one knows their own country’s entire body of law by heart.: ưu tiên; knows ... by heart diễn đạt trực tiếp trạng thái thuộc, entire giữ hết và own giữ mình.",
+          "No one has memorized all the laws of their own country.: cùng mức ưu tiên; has memorized diễn đạt kết quả học thuộc với đủ all và own country.",
+          "Their own country’s entire body of law is more than anyone can hold in memory.: dùng được; chuyển không ai thuộc hết thành giới hạn sức nhớ của mọi người, chủ ngữ là toàn bộ luật.",
+          "Complete recall of all the laws of one’s own country eludes everyone.: dùng được; complete recall làm chủ ngữ của eludes, giọng trừu tượng và văn viết hơn câu phủ định đời thường."
+        ]
       },
       {
-        sourceCue: 'Luật sư cũng không thuộc nổi', targetVietnamese: 'Luật sư cũng không thuộc nổi',
-        sentence: 'Even lawyers cannot ___.',
-        options: ['know the entire body of law by heart', 'acknowledge that laws exist', 'consult reference materials', 'offer any professional judgment'], answer: 0,
-        rationales: [
-          'know the entire body of law by heart: giữ giới hạn thuộc hết, với “entire body of law” lấy từ câu ngay trước.',
-          'acknowledge that laws exist: thừa nhận có luật; không thuộc hết không phải không nhận biết luật tồn tại.',
-          'consult reference materials: tra tài liệu; nguồn kể luật sư chính là người phải làm việc ấy.',
-          'offer any professional judgment: đưa bất kỳ nhận định chuyên môn nào; mở giới hạn trí nhớ thành bất tài toàn diện.'
-        ], dimension: 'inclusion in a limitation versus absolution, exclusion, and incompetence claim'
+        "sourceCue": "Luật sư cũng không thuộc nổi",
+        "targetVietnamese": "Luật sư cũng không thuộc nổi",
+        "options": [
+          "Even lawyers cannot learn it all by heart.",
+          "Even lawyers cannot commit the whole body of law to memory.",
+          "The entire body of law exceeds even lawyers’ capacity to memorize it.",
+          "Even for lawyers, memorizing the entire body of law is beyond reach."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ ngay cả luật sư cũng không thuộc nổi, với toàn bộ luật đã được nêu ở câu trước. So người làm chủ ngữ với giới hạn trí nhớ và mục tiêu học thuộc làm chủ ngữ.",
+        "dimension": "anaphoric human limitation, explicit memorization, capacity framing, and unattainable task",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Even lawyers cannot learn it all by heart.: ưu tiên; even và cannot giữ cũng không nổi, it all nối tự nhiên với luật ở câu trước mà không nhắc dài.",
+          "Even lawyers cannot commit the whole body of law to memory.: cùng mức ưu tiên; commit ... to memory rõ nghĩa thuộc, nói lại đối tượng đầy đủ thích hợp khi tách câu.",
+          "The entire body of law exceeds even lawyers’ capacity to memorize it.: dùng được; đưa khối lượng luật lên đầu và diễn đạt giới hạn của trí nhớ luật sư, giọng phân tích hơn.",
+          "Even for lawyers, memorizing the entire body of law is beyond reach.: dùng được; đặt việc học thuộc làm mục tiêu ngoài tầm, dùng hình ảnh beyond reach thay cho vị ngữ không nổi."
+        ]
       },
       {
-        sourceCue: 'lấy tài liệu ra nghiên cứu', targetVietnamese: 'lấy tài liệu ra nghiên cứu',
-        sentence: 'The lawyers ___ legal materials.',
-        options: ['consult', 'amend', 'promulgate', 'confiscate'], answer: 0,
-        rationales: [
-          'consult: lấy ra tra cứu và nghiên cứu; giữ việc dùng tài liệu để biết luật.',
-          'amend: sửa văn bản; thêm quyền hoặc hoạt động thay đổi nội dung.',
-          'promulgate: ban hành; đổi người tra cứu thành bên làm luật có hiệu lực.',
-          'confiscate: tịch thu; thêm hành vi cưỡng chế thay việc nghiên cứu.'
-        ], dimension: 'reference consultation versus memory recitation, promulgation, and confiscation'
+        "sourceCue": "rất nhiều người cả đời chưa chạm tay vào sách luật",
+        "targetVietnamese": "rất nhiều người cả đời chưa chạm tay vào sách luật.",
+        "options": [
+          "Many people have never so much as touched a law book in their lives.",
+          "A great many people have gone their whole lives without ever touching a law book.",
+          "For many people, a law book is something they have never laid a hand on in their entire lives.",
+          "A whole lifetime passes for many people without their ever opening a law book."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ rất nhiều người, cả đời và hình ảnh chưa chạm tay vào sách. So sự chưa hề tiếp xúc với cách diễn ý chưa mở sách; không gán người chưa đọc luật là kém đạo đức.",
+        "dimension": "emphatic noncontact, lifetime trajectory, topicalized book, and metonymic opening",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Many people have never so much as touched a law book in their lives.: ưu tiên; never so much as touched giữ nhấn mạnh đến chạm tay còn chưa và in their lives giữ cả đời.",
+          "A great many people have gone their whole lives without ever touching a law book.: cùng mức ưu tiên; gone their whole lives dựng một quãng đời không lần tiếp xúc, vẫn giữ động tác touching.",
+          "For many people, a law book is something they have never laid a hand on in their entire lives.: dùng được; lấy law book làm đề tài trong phần sau for many people, nhịp nặng hơn nhưng giữ hình ảnh bàn tay.",
+          "A whole lifetime passes for many people without their ever opening a law book.: dùng được như lối nói chưa hề đọc đến; opening chuyển hình ảnh chạm tay thành mở sách nên không sát hình ảnh bằng hai cách ưu tiên."
+        ]
       },
       {
-        sourceCue: 'nghiên cứu cả đêm khi nhận lời của khách hàng', targetVietnamese: 'Luật sư đều phải lấy tài liệu ra nghiên cứu cả đêm khi nhận lời của khách hàng.',
-        sentence: 'When lawyers take on a client’s case, they must ___.',
-        options: ['study the relevant materials throughout the night', 'guarantee an answer before examining the facts', 'delegate every act of legal judgment to the client', 'treat lack of instant recall as proof the law does not exist'], answer: 0,
-        rationales: [
-          'study the relevant materials throughout the night: giữ việc nghiên cứu tài liệu, cả đêm và lực “phải” trong khung.',
-          'guarantee an answer before examining the facts: hứa kết luận trước khi xét; không có trong ví dụ tra cứu.',
-          'delegate every act of legal judgment to the client: giao khách tự phán hết; trái phần việc luật sư nhận.',
-          'treat lack of instant recall as proof the law does not exist: suy không nhớ là không có luật; đánh đồng trí nhớ với thực tại.'
-        ], dimension: 'case preparation versus premature guarantee, client delegation, and false absence inference'
+        "sourceCue": "Luật sư đều phải lấy tài liệu ra nghiên cứu cả đêm khi nhận lời của khách hàng",
+        "targetVietnamese": "Luật sư đều phải lấy tài liệu ra nghiên cứu cả đêm khi nhận lời của khách hàng.",
+        "options": [
+          "Whenever lawyers take on a client’s case, they all have to get out the relevant materials and study them all night.",
+          "On accepting a client’s case, every lawyer must bring out the relevant materials and spend the whole night studying them.",
+          "Taking on a client’s case requires all lawyers to consult the relevant materials throughout the night.",
+          "For all lawyers, accepting a client’s case means a whole night spent studying the relevant materials."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ đều phải, lúc nhận lời khách và cả đêm, không hạ thành thỉnh thoảng tra cứu. So chuỗi lấy tài liệu ra rồi nghiên cứu với cách nén thành yêu cầu hoặc trải nghiệm một đêm.",
+        "dimension": "sequential legal work, universal obligation, requirement-led compression, and overnight experience",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Whenever lawyers take on a client’s case, they all have to get out the relevant materials and study them all night.: ưu tiên; giữ tác nhân, toàn thể all, nghĩa phải và hai hành động lấy ra rồi học cả đêm khi nhận vụ việc.",
+          "On accepting a client’s case, every lawyer must bring out the relevant materials and spend the whole night studying them.: cùng mức ưu tiên; every lawyer và must giữ lực, mệnh đề on đặt đúng tình huống kích hoạt việc nghiên cứu.",
+          "Taking on a client’s case requires all lawyers to consult the relevant materials throughout the night.: dùng được; consult nén việc lấy tài liệu và nghiên cứu thành hoạt động tham khảo, lấy nhận vụ việc làm yêu cầu.",
+          "For all lawyers, accepting a client’s case means a whole night spent studying the relevant materials.: dùng được; a whole night spent đưa thời gian và trải nghiệm lên rõ, nhưng hành động lấy tài liệu ra không còn riêng."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   },
   {
-    id: 'M143', sourceBlockId: 'W12-B11', title: 'Quý một hạt cơm, quý cả cơ hội làm việc',
-    sourceAlignment: 'quote-and-english-checked',
-    review: 'source-and-alternatives-reviewed-by-author',
-    items: [
+    "id": "M143",
+    "sourceBlockId": "W12-B11",
+    "title": "Quý một hạt cơm, quý cả cơ hội làm việc",
+    "sourceAlignment": "quote-and-english-checked",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
       {
-        sourceCue: 'một hạt cơm rơi còn nhặt lên', targetVietnamese: 'Ông bà mình một hạt cơm rơi còn nhặt lên',
-        sentence: 'Our grandparents would ___ even a fallen grain of rice.',
-        options: ['pick up', 'merely count', 'display', 'deliberately discard'], answer: 0,
-        rationales: [
-          'pick up: nhặt lên khỏi nơi rơi; giữ hành động cụ thể làm nền cho phép so sánh.',
-          'merely count: chỉ đếm; chưa ngăn hạt cơm bị phí.',
-          'display: bày cho thấy; không phải nhặt để không phí.',
-          'deliberately discard: cố vứt bỏ; đảo cử chỉ giữ gìn.'
-        ], dimension: 'retrieval versus counting, display, and discard'
+        "sourceCue": "Ông bà mình một hạt cơm rơi còn nhặt lên",
+        "targetVietnamese": "Ông bà mình một hạt cơm rơi còn nhặt lên",
+        "options": [
+          "Our grandparents would pick up even a single grain of rice that had fallen.",
+          "Even a single fallen grain of rice was something our grandparents would pick up.",
+          "Our grandparents would retrieve even one grain of rice from where it had fallen.",
+          "Picking up even a lone fallen grain of rice was our grandparents’ way."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ ông bà, một hạt cơm rơi và chữ còn nhấn sự nâng niu đến vật rất nhỏ. So người thực hiện với đối tượng rất nhỏ hoặc nếp sống được đưa lên đầu.",
+        "dimension": "grandparent action, grain-focused emphasis, retrieval, and habitual-way framing",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Our grandparents would pick up even a single grain of rice that had fallen.: ưu tiên; người và hành động pick up rõ, even a single giữ lực một hạt còn nhặt.",
+          "Even a single fallen grain of rice was something our grandparents would pick up.: cùng mức ưu tiên; đưa even a single fallen grain lên đầu làm nổi chính đối tượng nhỏ mà câu Việt nhấn.",
+          "Our grandparents would retrieve even one grain of rice from where it had fallen.: dùng được; retrieve gợi lấy lại vật đã rơi, có giọng thuật lại trang trọng hơn pick up.",
+          "Picking up even a lone fallen grain of rice was our grandparents’ way.: dùng được; biến hành động thành một nếp sống với was ... way, ít trực tiếp hơn cảnh ông bà nhặt hạt cơm."
+        ]
       },
       {
-        sourceCue: 'không cho phí phạm', targetVietnamese: 'không cho phí phạm',
-        sentence: 'They did so to ___.',
-        options: ['prevent waste', 'advertise the grain’s monetary value', 'certify the quality of the entire harvest', 'transfer responsibility for the meal to someone else'], answer: 0,
-        rationales: [
-          'prevent waste: ngăn sự phí phạm; đúng mục đích được nói ngay sau hành động.',
-          'advertise the grain’s monetary value: công bố giá tiền; thêm mục đích giao dịch.',
-          'certify the quality of the entire harvest: chứng nhận cả vụ mùa; mở một cử chỉ nhỏ thành kiểm định rộng.',
-          'transfer responsibility for the meal to someone else: chuyển trách nhiệm bữa ăn; không liên quan mục đích giữ lại hạt cơm.'
-        ], dimension: 'waste prevention versus valuation publicity, quality certification, and duty transfer'
+        "sourceCue": "không cho phí phạm",
+        "targetVietnamese": "không cho phí phạm",
+        "options": [
+          "They would not let it go to waste.",
+          "They would make sure it was not wasted.",
+          "They would prevent that grain of rice from being wasted.",
+          "They would save it from going to waste."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ không cho phí phạm như ý chí tránh lãng phí hạt cơm, không biến thành tiết kiệm tiền. So lời bình dị với vị ngữ phòng ngừa hoặc cứu khỏi hao phí.",
+        "dimension": "nonpermission, ensuring preservation, prevention passive, and saving from waste",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "They would not let it go to waste.: ưu tiên; not let ... go to waste rất tự nhiên, nối it với hạt cơm và giữ lực không cho.",
+          "They would make sure it was not wasted.: cùng mức ưu tiên; make sure nêu việc bảo đảm không bị phí, vẫn giữ hành động chủ ý của ông bà.",
+          "They would prevent that grain of rice from being wasted.: dùng được; prevent ... from being wasted diễn đạt rõ nhưng có giọng phòng ngừa và bị động dài hơn.",
+          "They would save it from going to waste.: dùng được; save ... from giữ ý tránh mất phí, làm nổi hạt cơm như vật được giữ lại."
+        ]
       },
       {
-        sourceCue: 'công việc gì đến với ta, ta đều yêu quý tôn trọng', targetVietnamese: 'Vì thế bất cứ công việc gì đến với ta, ta đều yêu quý tôn trọng',
-        sentence: 'Therefore, whatever work comes our way, we ___.',
-        options: ['cherish and respect it', 'rank it solely by prestige', 'tolerate it while withholding effort', 'use it only to assert superiority over other workers'], answer: 0,
-        rationales: [
-          'cherish and respect it: giữ đủ yêu quý và tôn trọng, cùng phạm vi bất cứ công việc gì trong khung.',
-          'rank it solely by prestige: chỉ xếp theo tiếng tăm; không giữ việc quý bất cứ công việc nào.',
-          'tolerate it while withholding effort: miễn cưỡng chịu và không góp sức; trái tận tụy.',
-          'use it only to assert superiority over other workers: lấy việc làm cớ mình hơn người; đổi quý việc thành đề cao mình.'
-        ], dimension: 'cherishing work versus prestige ranking, disengaged tolerance, and superiority claim'
+        "sourceCue": "cả một công ăn việc làm mà ta không yêu quý thì rất mang tội",
+        "targetVietnamese": "thì cả một công ăn việc làm mà ta không yêu quý thì rất mang tội.",
+        "options": [
+          "Then surely, if we fail to cherish the very work that gives us a livelihood, we are gravely at fault.",
+          "How much more at fault we are, then, if we do not cherish the very work that sustains us.",
+          "Failing to value the very work that sustains us is therefore a grave wrong on our part.",
+          "We incur serious blame, then, by not valuing the work through which we make our living."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ bước tăng từ hạt cơm lên cả công ăn việc làm và lực rất mang tội, không làm nhẹ thành hơi thiếu biết ơn. So điều kiện và sự tăng cấp với cách nêu hành vi hay quy trách nhiệm.",
+        "dimension": "escalating condition, rhetorical a-fortiori appeal, act-focused moral judgment, and incurred blame",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Then surely, if we fail to cherish the very work that gives us a livelihood, we are gravely at fault.: ưu tiên; then nối lập luận trước, the very work that gives us a livelihood giữ bước tăng lên cả sinh kế và gravely at fault giữ lực mang tội.",
+          "How much more at fault we are, then, if we do not cherish the very work that sustains us.: cùng mức ưu tiên; how much more thể hiện tự nhiên bước tăng từ hạt cơm lên sinh kế, do not cherish giữ hành vi chưa biết yêu quý.",
+          "Failing to value the very work that sustains us is therefore a grave wrong on our part.: dùng được; đưa hành vi không quý việc lên đầu thành chủ ngữ và grave wrong làm phán định, ít đối thoại hơn nguồn.",
+          "We incur serious blame, then, by not valuing the work through which we make our living.: dùng được; incur serious blame diễn đạt trách nhiệm nặng, nhưng giọng quy lỗi xã hội rõ hơn giọng răn mình của nguồn."
+        ]
       },
       {
-        sourceCue: 'rất tận tụy làm việc', targetVietnamese: 'và rất tận tụy làm việc',
-        sentence: 'And we ___.',
-        options: ['work with wholehearted dedication', 'profess dedication without changing our effort', 'request recognition before beginning', 'leave every difficult part to others'], answer: 0,
-        rationales: [
-          'work with wholehearted dedication: giữ việc làm rất tận tụy, không thêm một lời tự tuyên bố.',
-          'profess dedication without changing our effort: chỉ tự nhận tận tâm; không thay cho làm.',
-          'request recognition before beginning: xin ghi công trước; thêm yêu cầu danh vọng.',
-          'leave every difficult part to others: đẩy mọi phần nặng; trái đóng góp thực.'
-        ], dimension: 'wholehearted application versus profession, advance recognition, and avoidance'
+        "sourceCue": "bất cứ công việc gì đến với ta, ta đều yêu quý tôn trọng",
+        "targetVietnamese": "Vì thế bất cứ công việc gì đến với ta, ta đều yêu quý tôn trọng,",
+        "options": [
+          "Therefore, whatever work comes our way, we cherish and respect it.",
+          "For that reason, we value and honor every kind of work that comes to us.",
+          "Every task that comes our way is therefore met with our appreciation and respect.",
+          "Our response to any work that comes to us, then, is to cherish it and treat it with respect."
+        ],
+        "preferredAnswers": [
+          0
+        ],
+        "selectionCriterion": "Giữ vì thế, bất cứ việc gì và cả yêu quý lẫn tôn trọng. So điều kiện bao quát đặt trước với đối tượng hoặc phản ứng được danh hóa làm điểm dẫn.",
+        "dimension": "fronted scope, honor-based respect, task-focused passive, and nominal response",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "Therefore, whatever work comes our way, we cherish and respect it.: ưu tiên; whatever đứng trước giữ nhịp bất cứ, cherish và respect giữ hai thái độ bằng hai động từ rõ.",
+          "For that reason, we value and honor every kind of work that comes to us.: dùng được; every kind bao quát việc và honor nâng sắc thái kính trọng, có giọng trang trọng hơn respect.",
+          "Every task that comes our way is therefore met with our appreciation and respect.: dùng được; công việc làm chủ ngữ bị động, appreciation danh hóa thái độ yêu quý và làm mờ hành động của ta.",
+          "Our response to any work that comes to us, then, is to cherish it and treat it with respect.: dùng được; response làm trục rồi mới nói hai hành động, nhấn cách đáp lại công việc thay cho trực tiếp yêu quý."
+        ]
       },
       {
-        sourceCue: 'cho cao năng suất', targetVietnamese: 'rất tận tụy làm việc cho cao năng suất.',
-        sentence: 'We work with wholehearted dedication to ___.',
-        options: ['raise productivity', 'merely lengthen attendance', 'inflate reports of output', 'reclassify unfinished work as complete'], answer: 0,
-        rationales: [
-          'raise productivity: làm mức tạo kết quả cao hơn; giữ đích năng suất.',
-          'merely lengthen attendance: chỉ ở lâu hơn; không tự làm năng suất cao.',
-          'inflate reports of output: thổi số liệu; trái hiệu quả thật.',
-          'reclassify unfinished work as complete: ghi việc dở thành xong; đổi nhãn không tạo kết quả.'
-        ], dimension: 'productivity versus attendance time, inflated reporting, and false completion'
+        "sourceCue": "rất tận tụy làm việc cho cao năng suất",
+        "targetVietnamese": "và rất tận tụy làm việc cho cao năng suất.",
+        "options": [
+          "And we work with deep dedication to achieve high productivity.",
+          "And we devote ourselves wholeheartedly to the work so as to make it highly productive.",
+          "And our wholehearted dedication to the work is directed toward high productivity.",
+          "And achieving high productivity is the aim of our deeply dedicated work."
+        ],
+        "preferredAnswers": [
+          0,
+          1
+        ],
+        "selectionCriterion": "Giữ rất tận tụy và mục tiêu năng suất cao, không tự bảo đảm đã đạt năng suất. So người hành động, sự tận tụy và mục tiêu làm chủ ngữ; không quy tắc hóa rằng mọi danh hóa đều kém.",
+        "dimension": "human work and purpose, wholehearted devotion, directed dedication, and goal-first statement",
+        "taskKind": "expression-choice",
+        "sentence": "___",
+        "answer": 0,
+        "validAnswers": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "rationales": [
+          "And we work with deep dedication to achieve high productivity.: ưu tiên; người làm và work gọn rõ, deep dedication giữ rất tận tụy, to achieve giữ mục đích.",
+          "And we devote ourselves wholeheartedly to the work so as to make it highly productive.: cùng mức ưu tiên; devote ourselves wholeheartedly đưa sự dốc lòng thành vị ngữ, so as to vẫn là mục tiêu chứ không kết quả đã có.",
+          "And our wholehearted dedication to the work is directed toward high productivity.: dùng được; dedication làm chủ ngữ của is directed, tập trung vào hướng của sự tận tâm thay vì người làm.",
+          "And achieving high productivity is the aim of our deeply dedicated work.: dùng được; đưa đích năng suất lên đầu, rồi mới nói công việc tận tụy; hợp khi cần nối với một đoạn đang bàn năng suất."
+        ]
       }
-    ]
+    ],
+    "assessmentMode": "best-fit-among-valid-alternatives"
   }
 ];
