@@ -69,7 +69,7 @@ function assemble(sets=authored,bank=loadBank()){
     return {
       id:set.id,title:set.title,sourceBlockId:set.sourceBlockId,
       review:set.review,sourceAlignment:set.sourceAlignment||'pending-english-review',
-      context:{title:block.title,vietnamese,translation:'',source},
+      context:{title:set.title,vietnamese,translation:'',source},
       items:set.items.map((q,i)=>{
         const id=`${set.id}-Q${i+1}`;
         assert(vietnamese.includes(q.sourceCue),`${id}: source cue absent`);

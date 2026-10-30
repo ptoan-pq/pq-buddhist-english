@@ -157,3 +157,15 @@ test('a corrected passage keeps a traceable verbatim source snapshot without mod
   bad.sourceOverride.paragraphs[0]+=' Câu không có trong nguồn.';
   assert.throws(()=>assemble([bad]),/replacement source checksum mismatch/);
 });
+
+test('current reviewed verb sets do not reuse a whole context under a second title',()=>{
+  const checkedIds=new Set(rows.filter(r=>r.difficultyReview==='single-best-verb-options-reviewed').map(r=>r.id));
+  const seen=new Map();
+  for(const set of assemble().filter(s=>checkedIds.has(s.id))){
+    assert(!seen.has(set.context.vietnamese),`${set.id}: repeats ${seen.get(set.context.vietnamese)}`);
+    seen.set(set.context.vietnamese,set.id);
+    assert.equal(set.context.title,set.title);
+  }
+  assert(rows.find(r=>r.id==='M179').sourceOverride);
+  assert(rows.find(r=>r.id==='M188').sourceOverride);
+});

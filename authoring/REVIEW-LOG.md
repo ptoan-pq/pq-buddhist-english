@@ -1,5 +1,28 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Tiến độ mới nhất — 2026-10-30, M157–M195
+
+- Viết riêng thêm **39 gói / 195 câu mới**, từ W14-B01 đến W17-B03. Tổng tự rà theo chuẩn một động từ đúng nhất hiện là **75 gói / 375 câu**. Không đổi nhãn 330 câu ứng viên cũ hay 270 nháp cũ để tăng số hoàn thiện.
+- Mỗi câu có trích nguyên văn, khung Anh riêng, bốn động từ/cụm động từ và bốn lý do. Có các phân biệt về nhận thức, tác động, phạm vi và thời gian: observe/regulate; infer/detect/recall; weigh/announce; lessen/absolve; elude/invite; preserve/reconstruct; outlast/outpace; constitute/foretell; eradicate/restrain.
+- Giữ lực của nguồn: “giúp dễ” không thành “bảo đảm”; “biến mất” không thành chỉ giảm; điều kiện “có thể” không thành chắc chắn; “không được lạm dụng thức lâu” không bị bỏ; “chỉ cần cân nhắc… sẽ” giữ quan hệ đủ điều kiện mà chính nguồn khẳng định.
+- Không coi một trạng thái lạ là Thánh quả; giữ riêng năm triền cái, kiết sử, bốn Jhānas và bốn Noble Fruits. Ở chỗ tác giả định nghĩa “Tứ thiền” là cả bốn mức, dịch theo nghĩa bao quát `the four Jhānas`, không biến thành riêng Fourth Jhāna.
+- Quyết định thuật ngữ để dùng lại: Hành ấm → `the aggregate of mental formations`; thiên tử trong đoạn đối thoại → `male celestial beings`; chấp ngã → `clinging to a self` hoặc `self-attachment` theo bảng Janna. Không đổi luận giải của tác giả bằng kiến thức bên ngoài.
+
+### Khắc phục ngữ cảnh thiếu và trùng
+
+- M179 bổ sung S04 `epub:c:0001:b:0395` vào đoạn `0394`, để lời nhắc chuẩn bị nền không bị ép thành năm câu hỏi chỉ xoay quanh một danh sách ngắn.
+- Phát hiện W16-B08 vốn dùng lại đúng đoạn `0395`. M188 không soạn lại năm biến thể của nội dung M179; dùng đoạn liền kề đã tra sách gốc: câu cuối S04 `0396` làm phần dẫn, rồi đoạn `0397` về chỗ dựa phương pháp và sự chung đồng. Giữ nguyên mọi chữ, locator, checksum và cờ `excerpted`.
+- Tên ngữ cảnh trong packet nay dùng tiêu đề đã biên soạn cho đúng nội dung thực của từng gói, không tiếp tục kế thừa một nhãn chủ điểm bị lệch.
+- Thêm kiểm thử phát hiện hai gói đã rà dùng lại nguyên ngữ cảnh dưới tên khác. Hiện 75 gói đã rà không có bản trùng toàn văn. Điều này không thay thế việc đọc xem các ý có gần nhau hay không.
+
+### Mốc kiểm và phần chưa xong
+
+- **56/56 kiểm thử đạt**: cấu trúc, nguyên văn nguồn, checksum snapshot bổ sung, đáp án duy nhất được chấm, tráo lựa chọn gắn đúng lời giải, khóa phản hồi và ngữ cảnh không trùng toàn văn.
+- Đã đọc lại các khung mới với cả bốn phương án và sửa lỗi độ ngắn của lời giải, chỗ thuật ngữ chấp ngã, vai trò giới tính của thiên tử và lực điều kiện ở M193. Chưa có rà ngôn ngữ độc lập hoặc hiệu chuẩn độ khó bằng người học.
+- Tập ứng viên hiện có **705 câu**, chỉ **375 câu** được đánh dấu qua vòng nguồn–khung–phương án hiện hành. **330 câu M055–M120** vẫn chờ sửa; **270 nháp M001–M054** vẫn chưa được tính hoàn thiện; **465 câu M196–M288** chưa viết. Tổng còn **1.065/1.440 câu**.
+- Điểm viết tiếp: **M196 / W17-B04**. Sau phần nguồn mới còn phải xử lý cả hai tập nháp cũ. Không có điểm nào cho phép bỏ qua chúng hoặc dùng lại câu cơ bản để lấp số.
+- Bản Markdown/JSON và bộ đếm được xuất lại từ dữ liệu trên đĩa. 72 câu chuyên sâu ban đầu vẫn nằm ngoài chỉ tiêu. Chưa hoàn tất toàn bộ; website public và tiến độ người học chưa bị thay thế.
+
 ## Tiến độ hiện hành — 2026-10-30, tiếp tục làm toàn bộ theo dạng một động từ đúng nhất
 
 - Lượt này đã viết lại **110 câu** ở M121–M141 và M143, giữ M142 là năm câu mẫu đã được người học duyệt dạng bài. Không cộng việc viết lại vào tổng như câu mới.

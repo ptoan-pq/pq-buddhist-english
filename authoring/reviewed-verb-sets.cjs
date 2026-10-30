@@ -7869,4 +7869,4172 @@ module.exports = [
       }
     ]
   }
+,
+  {
+    "id": "M157",
+    "sourceBlockId": "W14-B01",
+    "title": "Biết hơi thở, quen hơi thở và tách khỏi sự điều khiển",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hơi thở căn bản là hơi thở Biết mà không điều khiển.",
+        "targetVietnamese": "Hơi thở căn bản là hơi thở Biết mà không điều khiển.",
+        "sentence": "The basic breathing practice consists in ___ the breath, not controlling it.",
+        "options": [
+          "observing",
+          "regulating",
+          "amplifying",
+          "synchronizing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "observing: biết, quan sát; không chủ ý đổi nhịp thở.",
+          "regulating: điều chỉnh nhịp; trái chữ không điều khiển.",
+          "amplifying: làm mạnh hoặc nhiều hơn; thêm tác động lên hơi thở.",
+          "synchronizing: đồng bộ với nhịp khác; thêm mục tiêu phối nhịp."
+        ],
+        "dimension": "observation"
+      },
+      {
+        "sourceCue": "Thở một lát là nghẹn tức khó chịu.",
+        "targetVietnamese": "Thở một lát là nghẹn tức khó chịu.",
+        "sentence": "After breathing for a while, beginners ___ a constricted, uncomfortable feeling.",
+        "options": [
+          "develop",
+          "anticipate",
+          "feign",
+          "mask"
+        ],
+        "answer": 0,
+        "rationales": [
+          "develop: bắt đầu có cảm giác; giữ triệu chứng thực xuất hiện.",
+          "anticipate: dự đoán sẽ có; chưa phải thật sự bị khó chịu.",
+          "feign: giả vờ có; thêm ý làm bộ không có ở nguồn.",
+          "mask: che giấu; nói việc không để người thấy cảm giác."
+        ],
+        "dimension": "symptom onset"
+      },
+      {
+        "sourceCue": "Biết thôi, chứ không chủ ý làm cho hơi thở dài hay ngắn.",
+        "targetVietnamese": "Biết thôi, chứ không chủ ý làm cho hơi thở dài hay ngắn.",
+        "sentence": "We simply remain aware; we do not ___ the length of the breath.",
+        "options": [
+          "deliberately alter",
+          "accurately gauge",
+          "closely observe",
+          "clearly recognize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "deliberately alter: chủ ý thay đổi; đúng việc làm dài ngắn bị loại.",
+          "accurately gauge: đo nhận chính xác; nguồn không cấm biết độ dài.",
+          "closely observe: quan sát kỹ; phủ định này trái yêu cầu chỉ biết.",
+          "clearly recognize: nhận rõ; không phải điều đang được ngăn."
+        ],
+        "dimension": "nonintervention"
+      },
+      {
+        "sourceCue": "Tập như vậy một thời gian thì hành giả quen với hơi thở trong thiền.",
+        "targetVietnamese": "Tập như vậy một thời gian thì hành giả quen với hơi thở trong thiền.",
+        "sentence": "After practicing this way for some time, meditators ___ breathing in meditation.",
+        "options": [
+          "grow accustomed to",
+          "grow wary of",
+          "take pride in",
+          "take issue with"
+        ],
+        "answer": 0,
+        "rationales": [
+          "grow accustomed to: trở nên quen; giữ quá trình tập dần có thích nghi.",
+          "grow wary of: sinh dè chừng; đổi quen thuộc thành cảnh giác.",
+          "take pride in: lấy làm tự hào; thêm đánh giá về bản thân.",
+          "take issue with: phản đối; không diễn sự quen hơi thở."
+        ],
+        "dimension": "habituation"
+      },
+      {
+        "sourceCue": "Tách cái điều khiển ra khỏi cái Biết, buộc ta phải tỉnh giác nhiều hơn.",
+        "targetVietnamese": "Tách cái điều khiển ra khỏi cái Biết, buộc ta phải tỉnh giác nhiều hơn.",
+        "sentence": "___ control from awareness calls for greater lucid awareness.",
+        "options": [
+          "Disentangling",
+          "Inferring",
+          "Exempting",
+          "Diverting"
+        ],
+        "answer": 0,
+        "rationales": [
+          "Disentangling: tách hai thao tác đang dính nhau; đúng phân biệt biết với điều khiển.",
+          "Inferring: suy ra điều khiển từ cái biết; đảo tách thành suy luận.",
+          "Exempting: miễn trừ; không phải tháo hai hoạt động đang đi liền.",
+          "Diverting: lái đi chỗ khác; chưa truyền sự phân tách rõ ràng."
+        ],
+        "dimension": "disentanglement"
+      }
+    ]
+  },
+  {
+    "id": "M158",
+    "sourceBlockId": "W14-B02",
+    "title": "Nhịp thở bộc lộ trạng thái tâm, rồi mới điều chỉnh",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi tâm ta loạn thì hơi thở sẽ dồn dập.",
+        "targetVietnamese": "Khi tâm ta loạn thì hơi thở sẽ dồn dập.",
+        "sentence": "When the mind is agitated, breathing ___.",
+        "options": [
+          "comes in rapid bursts",
+          "settles into a gentle rhythm",
+          "is held back",
+          "trails off"
+        ],
+        "answer": 0,
+        "rationales": [
+          "comes in rapid bursts: dồn dập; giữ nhịp mau gấp theo tâm loạn.",
+          "settles into a gentle rhythm: đi vào nhịp nhẹ; đảo đặc điểm nguồn nêu.",
+          "is held back: bị kìm lại; thêm tác nhân ngăn nhịp thở.",
+          "trails off: nhỏ dần rồi ngưng; không phải nhịp gấp dồn."
+        ],
+        "dimension": "rapid breathing"
+      },
+      {
+        "sourceCue": "Khi tâm ta yên lắng thì hơi thở sẽ êm dịu.",
+        "targetVietnamese": "Khi tâm ta yên lắng thì hơi thở sẽ êm dịu.",
+        "sentence": "When the mind settles, breathing ___.",
+        "options": [
+          "grows gentle",
+          "catches abruptly",
+          "becomes labored",
+          "comes to a halt"
+        ],
+        "answer": 0,
+        "rationales": [
+          "grows gentle: trở nên êm dịu; không có nghĩa ngừng thở.",
+          "catches abruptly: khựng đột ngột; khác nhịp êm của nguồn.",
+          "becomes labored: thành nhọc nhằn; trái trạng thái dễ nhẹ.",
+          "comes to a halt: dừng lại; quá mạnh so với êm dịu."
+        ],
+        "dimension": "gentleness"
+      },
+      {
+        "sourceCue": "Chỉ nhìn hơi thở là ta hiểu nội tâm của mình.",
+        "targetVietnamese": "Chỉ nhìn hơi thở là ta hiểu nội tâm của mình.",
+        "sentence": "Simply observing the breath ___ our inner state to us.",
+        "options": [
+          "reveals",
+          "determines",
+          "legitimizes",
+          "replaces"
+        ],
+        "answer": 0,
+        "rationales": [
+          "reveals: cho thấy nội tâm; giữ chức năng nhận biết.",
+          "determines: quyết định tâm sẽ ra sao; đổi dấu hiệu thành nguyên nhân.",
+          "legitimizes: xác nhận là chính đáng; thêm phán xét đạo đức.",
+          "replaces: thế chỗ cho nội tâm; không phải hiểu nội tâm."
+        ],
+        "dimension": "revelation"
+      },
+      {
+        "sourceCue": "Chỉ nhìn hơi thở",
+        "targetVietnamese": "Chỉ nhìn hơi thở",
+        "sentence": "By looking at the breath alone, we can ___ our inner state.",
+        "options": [
+          "understand",
+          "control",
+          "recreate",
+          "transcend"
+        ],
+        "answer": 0,
+        "rationales": [
+          "understand: hiểu ra; không tự bảo đảm đã điều phục tâm.",
+          "control: nắm điều khiển; bước điều chỉnh nằm ở câu sau.",
+          "recreate: tái tạo; thêm một quá trình tạo lại trạng thái.",
+          "transcend: vượt lên khỏi; mạnh hơn nhận biết đang ra sao."
+        ],
+        "dimension": "understanding"
+      },
+      {
+        "sourceCue": "Hiểu nội tâm của mình rồi thì ta tự biết điều chỉnh nội tâm lại.",
+        "targetVietnamese": "Hiểu nội tâm của mình rồi thì ta tự biết điều chỉnh nội tâm lại.",
+        "sentence": "Once we understand our inner state, we know for ourselves how to ___ it.",
+        "options": [
+          "adjust",
+          "diagnose",
+          "disguise",
+          "advertise"
+        ],
+        "answer": 0,
+        "rationales": [
+          "adjust: điều chỉnh lại; giữ bước hành động sau khi hiểu.",
+          "diagnose: chẩn đoán; mới xác định vấn đề, chưa sửa.",
+          "disguise: ngụy trang; đổi điều chỉnh thật thành che vẻ ngoài.",
+          "advertise: quảng bá; thêm người nghe và ý phô bày."
+        ],
+        "dimension": "adjustment"
+      }
+    ]
+  },
+  {
+    "id": "M159",
+    "sourceBlockId": "W14-B03",
+    "title": "Đánh giá từng nhịp, phân biệt thời lượng với tốc độ",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hơi thở thông minh là cảm nhận từng mỗi hơi thở vào hay ra, độ dài vậy hợp lý chưa, đủ chưa, thì dừng lại.",
+        "targetVietnamese": "Hơi thở thông minh là cảm nhận từng mỗi hơi thở vào hay ra, độ dài vậy hợp lý chưa, đủ chưa, thì dừng lại.",
+        "sentence": "Intelligent breathing means sensing each in-breath or out-breath, judging whether its length is appropriate and sufficient, and then ___.",
+        "options": [
+          "stopping",
+          "pausing to speculate",
+          "prolonging it further",
+          "repeating it unchanged"
+        ],
+        "answer": 0,
+        "rationales": [
+          "stopping: dừng khi đủ; giữ điểm kết từng hơi theo cảm nhận.",
+          "pausing to speculate: dừng để phỏng đoán; thêm suy luận không có trong câu.",
+          "prolonging it further: kéo dài thêm; trái điểm đủ rồi dừng.",
+          "repeating it unchanged: lặp không đổi; không giữ việc đánh giá riêng mỗi hơi."
+        ],
+        "dimension": "stopping at sufficiency"
+      },
+      {
+        "sourceCue": "Hơi thở này đòi hỏi hành giả tập trung, tinh tế, thông minh, để đánh giá từng sát na một.",
+        "targetVietnamese": "Hơi thở này đòi hỏi hành giả tập trung, tinh tế, thông minh, để đánh giá từng sát na một.",
+        "sentence": "This breathing requires concentration, subtlety, and intelligence to ___ each moment.",
+        "options": [
+          "appraise",
+          "predict",
+          "replay",
+          "prolong"
+        ],
+        "answer": 0,
+        "rationales": [
+          "appraise: đánh giá theo cảm nhận; giữ công phu từng sát na.",
+          "predict: dự đoán tương lai; không phải xét lúc đang diễn ra.",
+          "replay: diễn lại điều trước; lệch hiện tại từng khoảnh khắc.",
+          "prolong: làm dài ra; thay nhận biết bằng can thiệp thời gian."
+        ],
+        "dimension": "momentary appraisal"
+      },
+      {
+        "sourceCue": "Không hơi thở nào sẽ giống hệt hơi thở nào.",
+        "targetVietnamese": "Không hơi thở nào sẽ giống hệt hơi thở nào.",
+        "sentence": "No two breaths ___ exactly.",
+        "options": [
+          "match",
+          "recur",
+          "alternate",
+          "accumulate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "match: giống hệt; phủ định giữ tính riêng từng hơi.",
+          "recur: tái xuất hiện; nói lần lặp chứ không độ giống.",
+          "alternate: luân phiên; nói trật tự mà không so phẩm chất.",
+          "accumulate: tích lại; không diễn sự giống nhau."
+        ],
+        "dimension": "nonidentity"
+      },
+      {
+        "sourceCue": "Đương nhiên là hơi thở ra vẫn bảo đảm dài hơn hơi thở vào.",
+        "targetVietnamese": "Đương nhiên là hơi thở ra vẫn bảo đảm dài hơn hơi thở vào.",
+        "sentence": "The out-breath still ___ the in-breath.",
+        "options": [
+          "outlasts",
+          "outweighs",
+          "outpaces",
+          "outshines"
+        ],
+        "answer": 0,
+        "rationales": [
+          "outlasts: dài hơn về thời gian; đúng chiều so độ dài.",
+          "outweighs: nặng hoặc quan trọng hơn; sai chiều kích so sánh.",
+          "outpaces: nhanh hơn; nhầm độ dài với tốc độ.",
+          "outshines: nổi bật hơn; thêm đánh giá hơn kém về giá trị."
+        ],
+        "dimension": "duration"
+      },
+      {
+        "sourceCue": "Nhưng độ dài của mỗi hơi thở sẽ tùy thuộc vào sự cảm nhận của tâm.",
+        "targetVietnamese": "Nhưng độ dài của mỗi hơi thở sẽ tùy thuộc vào sự cảm nhận của tâm.",
+        "sentence": "But the length of each breath ___ the mind’s sensing of it.",
+        "options": [
+          "depends on",
+          "takes precedence over",
+          "gives rise to",
+          "compensates for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "depends on: tùy thuộc; giữ cảm nhận làm căn cứ độ dài.",
+          "takes precedence over: được ưu tiên hơn; đổi quan hệ nền tảng thành thứ bậc.",
+          "gives rise to: gây ra; đảo chiều tùy thuộc của nguồn.",
+          "compensates for: bù đắp; thêm một sự thiếu hụt không được nêu."
+        ],
+        "dimension": "dependence"
+      }
+    ]
+  },
+  {
+    "id": "M160",
+    "sourceBlockId": "W14-B04",
+    "title": "Không ép thở thêm và không nhầm giả định với thành tựu",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hơi thở của thiền cũng không cho phép ta điều khiển hơi thở, nhất là rất cấm kỵ thở cho nhiều, thở cho dài.",
+        "targetVietnamese": "Hơi thở của thiền cũng không cho phép ta điều khiển hơi thở, nhất là rất cấm kỵ thở cho nhiều, thở cho dài.",
+        "sentence": "Meditative breathing does not ___ us to control the breath; forcing more or longer breaths is especially forbidden.",
+        "options": [
+          "permit",
+          "compel",
+          "teach",
+          "encourage"
+        ],
+        "answer": 0,
+        "rationales": [
+          "permit: cho phép; phủ định giữ giới hạn thực hành.",
+          "compel: ép phải; không bị ép vẫn có thể được phép.",
+          "teach: dạy cách; không dạy khác với không cho phép.",
+          "encourage: khích lệ; yếu hơn sự cấm chủ động điều khiển."
+        ],
+        "dimension": "prohibition"
+      },
+      {
+        "sourceCue": "Ta phải đủ thông minh để biết hơi thở vào như thế nào là được rồi, để không cố gắng thở thêm chút nữa.",
+        "targetVietnamese": "Ta phải đủ thông minh để biết hơi thở vào như thế nào là được rồi, để không cố gắng thở thêm chút nữa.",
+        "sentence": "We must be intelligent enough to ___ when the in-breath is sufficient, so as not to force even a little more.",
+        "options": [
+          "sense",
+          "declare",
+          "prescribe",
+          "approximate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "sense: cảm nhận biết đủ; giữ phán đoán trực tiếp về hơi thở.",
+          "declare: tuyên bố đủ; lời nói không tự là biết bằng cảm giác.",
+          "prescribe: ấn định trước; trái biết theo hơi hiện tại.",
+          "approximate: ước chừng gần đúng; không giữ mức biết đã đủ rồi."
+        ],
+        "dimension": "sensed sufficiency"
+      },
+      {
+        "sourceCue": "để không cố gắng thở thêm chút nữa.",
+        "targetVietnamese": "để không cố gắng thở thêm chút nữa.",
+        "sentence": "So that we do not ___ the breath any further.",
+        "options": [
+          "force",
+          "observe",
+          "register",
+          "sense"
+        ],
+        "answer": 0,
+        "rationales": [
+          "force: cố ép thêm; đúng hành động nguồn ngăn.",
+          "observe: quan sát; nguồn không bảo thôi biết hơi thở.",
+          "register: ghi nhận; nhận biết không phải cố hít thêm.",
+          "sense: cảm nhận; phủ định làm mất công phu cần giữ."
+        ],
+        "dimension": "forced extension"
+      },
+      {
+        "sourceCue": "Đa phần người tu tập phép hơi thở bị sai ở chỗ gắng thở nhiều,",
+        "targetVietnamese": "Đa phần người tu tập phép hơi thở bị sai ở chỗ gắng thở nhiều,",
+        "sentence": "Most breath practitioners go wrong when they ___ breathing too much.",
+        "options": [
+          "insist on",
+          "take account of",
+          "lose count of",
+          "become wary of"
+        ],
+        "answer": 0,
+        "rationales": [
+          "insist on: cứ cố đòi làm nhiều; giữ nỗ lực sai ở tăng hơi.",
+          "take account of: tính đến; cân nhắc không phải cố thực hiện.",
+          "lose count of: quên đếm; nguồn không nói lỗi đếm số hơi.",
+          "become wary of: sinh dè chừng; ngược lại với đang gắng làm nhiều."
+        ],
+        "dimension": "misdirected effort"
+      },
+      {
+        "sourceCue": "tưởng rằng thở nhiều là sẽ mau đắc đạo hơn, đâu ngờ, thở nhiều sẽ bế tắc.",
+        "targetVietnamese": "tưởng rằng thở nhiều là sẽ mau đắc đạo hơn, đâu ngờ, thở nhiều sẽ bế tắc.",
+        "sentence": "They ___ that breathing more will bring enlightenment sooner, not realizing that too much breathing leads to blockage.",
+        "options": [
+          "labor under the illusion",
+          "come to the realization",
+          "raise the possibility",
+          "demand proof"
+        ],
+        "answer": 0,
+        "rationales": [
+          "labor under the illusion: mắc vào một tưởng lầm; giữ ý tin sai bị câu sau bác.",
+          "come to the realization: nhận ra sự thật; biến điều nguồn phủ định thành đúng.",
+          "raise the possibility: nêu khả năng; quá dè dặt so với tin tưởng của họ.",
+          "demand proof: đòi chứng minh; nói yêu cầu bằng chứng, không nói đã tin."
+        ],
+        "dimension": "mistaken belief"
+      }
+    ]
+  },
+  {
+    "id": "M161",
+    "sourceBlockId": "W14-B05",
+    "title": "Tập giữa công việc: ghi nhớ thân rồi ở cùng hơi thở",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Ai tập quen hơi thở có ý thức đó rồi sẽ tự tin và thích thú,",
+        "targetVietnamese": "Ai tập quen hơi thở có ý thức đó rồi sẽ tự tin và thích thú,",
+        "sentence": "Those accustomed to this conscious breathing ___ confident and delighted.",
+        "options": [
+          "grow",
+          "appear",
+          "remain",
+          "are pronounced"
+        ],
+        "answer": 0,
+        "rationales": [
+          "grow: trở nên; giữ kết quả quen tập rồi mới có tự tin.",
+          "appear: trông có vẻ; chỉ bề ngoài chưa chắc cảm xúc thật.",
+          "remain: vẫn như cũ; giả định đã tự tin trước khi quen tập.",
+          "are pronounced: được người khác kết luận; thêm người đánh giá bên ngoài."
+        ],
+        "dimension": "confidence developing"
+      },
+      {
+        "sourceCue": "bất cứ thời gian nào trong ngày, hễ áp dụng được là thực hành liền,",
+        "targetVietnamese": "bất cứ thời gian nào trong ngày, hễ áp dụng được là thực hành liền,",
+        "sentence": "At any time of day, whenever it can be applied, we ___ at once.",
+        "options": [
+          "put it into practice",
+          "work out its theory",
+          "negotiate its terms",
+          "record its benefits"
+        ],
+        "answer": 0,
+        "rationales": [
+          "put it into practice: thực hành ngay; giữ hành động chứ không chỉ hiểu.",
+          "work out its theory: nghiên cứu lý thuyết; chưa tự tập ngay.",
+          "negotiate its terms: thương lượng điều kiện; thêm một giao dịch không có.",
+          "record its benefits: ghi lợi ích; thu thập thông tin không thay thực hành."
+        ],
+        "dimension": "immediate application"
+      },
+      {
+        "sourceCue": "vì làm cho thân và tâm dễ chịu.",
+        "targetVietnamese": "vì làm cho thân và tâm dễ chịu.",
+        "sentence": "Because it ___ both body and mind.",
+        "options": [
+          "soothes",
+          "stimulates",
+          "taxes",
+          "desensitizes"
+        ],
+        "answer": 0,
+        "rationales": [
+          "soothes: làm dễ chịu, dịu lại; giữ tác động dễ nhẹ lên cả hai.",
+          "stimulates: kích thích; không nhất thiết khiến dễ chịu.",
+          "taxes: làm hao sức; ngược tác dụng được nguồn khen.",
+          "desensitizes: làm giảm độ nhạy; không phải dễ chịu nhờ biết rõ."
+        ],
+        "dimension": "comfort"
+      },
+      {
+        "sourceCue": "Dần dần khi làm việc bận rộn, nhưng ta cứ cố gắng nhớ toàn thân,",
+        "targetVietnamese": "Dần dần khi làm việc bận rộn, nhưng ta cứ cố gắng nhớ toàn thân,",
+        "sentence": "Gradually, even while busy at work, we keep trying to ___ the whole body in awareness.",
+        "options": [
+          "hold",
+          "reconstruct",
+          "freeze",
+          "reposition"
+        ],
+        "answer": 0,
+        "rationales": [
+          "hold: giữ trong sự biết; đúng cố nhớ toàn thân giữa việc bận.",
+          "reconstruct: dựng lại hình ảnh; đổi cảm nhận thành tái tạo.",
+          "freeze: làm đóng cứng; trái ý giữ biết, không phải gồng thân.",
+          "reposition: đặt sang vị trí khác; thêm chuyển động tư thế."
+        ],
+        "dimension": "sustained awareness"
+      },
+      {
+        "sourceCue": "rồi hơi thở hiện ra, và ta bám theo hơi thở luôn.",
+        "targetVietnamese": "rồi hơi thở hiện ra, và ta bám theo hơi thở luôn.",
+        "sentence": "Then the breath becomes apparent and we ___.",
+        "options": [
+          "stay with it",
+          "set the pace for it",
+          "take charge of it",
+          "break away from it"
+        ],
+        "answer": 0,
+        "rationales": [
+          "stay with it: bám theo; giữ biết liên tục mà không tự điều khiển.",
+          "set the pace for it: đặt nhịp cho; thêm can thiệp vào hơi.",
+          "take charge of it: nắm điều hành; đổi theo dõi thành làm chủ nhịp.",
+          "break away from it: rời khỏi; đảo hướng bám theo nguồn nêu."
+        ],
+        "dimension": "staying with the breath"
+      }
+    ]
+  },
+  {
+    "id": "M162",
+    "sourceBlockId": "W14-B06",
+    "title": "Tác ý cùng hơi thở: nhắc mình, gắn kết và phát nguyện",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "khi có tỉnh giác như thế, ta phải âm thầm nhắc chính mình, chẳng có gì là ta, thân chẳng phải là ta, tâm chẳng phải là ta.",
+        "targetVietnamese": "khi có tỉnh giác như thế, ta phải âm thầm nhắc chính mình, chẳng có gì là ta, thân chẳng phải là ta, tâm chẳng phải là ta.",
+        "sentence": "With such lucid awareness, we must silently ___ ourselves that nothing is self: neither body nor mind.",
+        "options": [
+          "remind",
+          "assure",
+          "persuade",
+          "promise"
+        ],
+        "answer": 0,
+        "rationales": [
+          "remind: nhắc lại điều cần nhớ; giữ thao tác tự nhắc âm thầm.",
+          "assure: trấn an cho yên lòng; thêm một nỗi sợ cần làm dịu.",
+          "persuade: thuyết phục để tin mới; khác nhắc điều đang biết.",
+          "promise: hứa cho tương lai; không phải nhớ một nhận định hiện tại."
+        ],
+        "dimension": "silent reminder"
+      },
+      {
+        "sourceCue": "Phải tác ý gắn hơi thở vào để đừng lìa hơi thở.",
+        "targetVietnamese": "Phải tác ý gắn hơi thở vào để đừng lìa hơi thở.",
+        "sentence": "We must deliberately direct the mind to ___ the breath with this reflection so that we do not leave the breath behind.",
+        "options": [
+          "integrate",
+          "contrast",
+          "supplant",
+          "compare"
+        ],
+        "answer": 0,
+        "rationales": [
+          "integrate: gắn vào cùng; giữ hai việc đi liền thay vì bỏ hơi thở.",
+          "contrast: đặt đối lập; không phải liên kết cùng thực hành.",
+          "supplant: thế chỗ; làm mất một trong hai việc cần giữ.",
+          "compare: so sánh; mới xét giống khác, chưa gắn kết."
+        ],
+        "dimension": "integration"
+      },
+      {
+        "sourceCue": "Nếu không gắn hơi thở vào, ta sẽ thích thú với tác ý quán chiếu đó mà ít để ý đến hơi thở.",
+        "targetVietnamese": "Nếu không gắn hơi thở vào, ta sẽ thích thú với tác ý quán chiếu đó mà ít để ý đến hơi thở.",
+        "sentence": "If we do not include the breath, that reflection will ___ us and we will pay less attention to breathing.",
+        "options": [
+          "absorb",
+          "perplex",
+          "reassure",
+          "exasperate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "absorb: cuốn sự thích thú chú ý vào; giữ nguyên nhân lơi hơi thở.",
+          "perplex: làm rối trí; không phải hấp dẫn khiến thích thú.",
+          "reassure: trấn an; không diễn sự bị cuốn mải mê.",
+          "exasperate: làm bực tức; trái thái độ thích thú nguồn nêu."
+        ],
+        "dimension": "absorbed attention"
+      },
+      {
+        "sourceCue": "Thở vào, nhớ thân này vô thường; thở ra, nhớ thân này vô thường.",
+        "targetVietnamese": "Thở vào, nhớ thân này vô thường; thở ra, nhớ thân này vô thường.",
+        "sentence": "With each in-breath and out-breath, we ___ that this body is impermanent.",
+        "options": [
+          "remember",
+          "postulate",
+          "imagine",
+          "announce"
+        ],
+        "answer": 0,
+        "rationales": [
+          "remember: nhớ điều cần giữ trong tâm; không dựng hình hay lập giả thuyết.",
+          "postulate: đặt làm tiền đề giả định; không giữ chữ nhớ.",
+          "imagine: tưởng tượng; khác nhắc lại điều đã hiểu.",
+          "announce: thông báo; thêm người nghe, không còn tác ý thầm."
+        ],
+        "dimension": "remembering impermanence"
+      },
+      {
+        "sourceCue": "Thở vào, nguyện yêu thương tất cả chúng sinh; thở ra, nguyện yêu thương tất cả chúng sinh.",
+        "targetVietnamese": "Thở vào, nguyện yêu thương tất cả chúng sinh; thở ra, nguyện yêu thương tất cả chúng sinh.",
+        "sentence": "With every in-breath and out-breath, we ___ love all sentient beings.",
+        "options": [
+          "vow to",
+          "claim to",
+          "try to",
+          "pretend to"
+        ],
+        "answer": 0,
+        "rationales": [
+          "vow to: phát nguyện; giữ lời hướng tâm đầy cam kết.",
+          "claim to: tự nhận hiện có; không phải lời nguyện cho mình.",
+          "try to: cố thực hiện; hành động cố gắng khác tuyên lập nguyện.",
+          "pretend to: giả vờ; phủ nhận sự chân thật không được nguồn nghi ngờ."
+        ],
+        "dimension": "aspiration"
+      }
+    ]
+  }
+,
+  {
+    "id": "M163",
+    "sourceBlockId": "W14-B07",
+    "title": "Biết từng hơi, không thở nhiều hay thở sâu",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Ta nhắc lại, hơi thở của thiền là thở có ý thức là thở mà biết rõ từng hơi thở ra từng hơi thở vào.",
+        "targetVietnamese": "Ta nhắc lại, hơi thở của thiền là thở có ý thức là thở mà biết rõ từng hơi thở ra từng hơi thở vào.",
+        "sentence": "I ___ that meditative breathing is conscious breathing: knowing each out-breath and each in-breath clearly.",
+        "options": [
+          "reiterate",
+          "concede",
+          "retract",
+          "qualify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "reiterate: nhắc lại; giữ cùng ý đã nói, không đổi lập trường.",
+          "concede: nhượng bộ thừa nhận; thêm một tranh luận trước đó.",
+          "retract: rút lại; trái việc đang lặp lại lời dạy.",
+          "qualify: giới hạn nhận định; thêm sự điều chỉnh nội dung."
+        ],
+        "dimension": "reiteration"
+      },
+      {
+        "sourceCue": "Nhưng tuyệt nhiên không phải là thở cho nhiều,",
+        "targetVietnamese": "Nhưng tuyệt nhiên không phải là thở cho nhiều,",
+        "sentence": "But it certainly does not ___ breathing more.",
+        "options": [
+          "consist in",
+          "interfere with",
+          "benefit from",
+          "detract from"
+        ],
+        "answer": 0,
+        "rationales": [
+          "consist in: là việc làm đó; phủ định giữ không phải tăng hơi.",
+          "interfere with: cản trở; đổi định nghĩa thành tác động gây trở ngại.",
+          "benefit from: hưởng lợi; khác xác định nội dung phép tập.",
+          "detract from: làm giảm giá trị; không diễn điều bị loại khỏi định nghĩa."
+        ],
+        "dimension": "definition versus effect"
+      },
+      {
+        "sourceCue": "hay thở cho sâu gì cả.",
+        "targetVietnamese": "hay thở cho sâu gì cả.",
+        "sentence": "Nor are we to try to ___ our breathing.",
+        "options": [
+          "deepen",
+          "prolong",
+          "quicken",
+          "suspend"
+        ],
+        "answer": 0,
+        "rationales": [
+          "deepen: làm sâu; đúng phần thở sâu bị bác riêng ở đây.",
+          "prolong: làm dài; nói thời gian, không phải độ sâu.",
+          "quicken: làm nhịp mau hơn; đổi chiều kích độ sâu thành tốc độ.",
+          "suspend: ngưng lại; không phải tăng độ sâu."
+        ],
+        "dimension": "depth"
+      },
+      {
+        "sourceCue": "Hơi thở tự nhiên có ý thức đó sẽ có hiện tượng là hơi vào lấy rất ít thời gian,",
+        "targetVietnamese": "Hơi thở tự nhiên có ý thức đó sẽ có hiện tượng là hơi vào lấy rất ít thời gian,",
+        "sentence": "With such natural, conscious breathing, the in-breath ___.",
+        "options": [
+          "lasts very briefly",
+          "lingers for a while",
+          "resumes after a pause",
+          "recurs at intervals"
+        ],
+        "answer": 0,
+        "rationales": [
+          "lasts very briefly: chỉ chiếm thời gian ngắn; đúng mô tả độ dài hơi vào.",
+          "lingers for a while: kéo dài vương lại; trái rất ít thời gian.",
+          "resumes after a pause: bắt đầu lại; nói bước chuyển chứ chưa nói thời lượng.",
+          "recurs at intervals: lặp theo khoảng; nói tần suất thay vì độ dài."
+        ],
+        "dimension": "inhalation duration"
+      },
+      {
+        "sourceCue": "mà hơi ra mới dài.",
+        "targetVietnamese": "mà hơi ra mới dài.",
+        "sentence": "The out-breath, by contrast, ___ the in-breath.",
+        "options": [
+          "outlasts",
+          "outpaces",
+          "outweighs",
+          "outshines"
+        ],
+        "answer": 0,
+        "rationales": [
+          "outlasts: dài hơn về thời gian; giữ đối chiếu vào ngắn ra dài.",
+          "outpaces: nhanh hơn; sai chiều kích thời lượng.",
+          "outweighs: nặng hay quan trọng hơn; không phải độ dài.",
+          "outshines: nổi bật hơn; thêm đánh giá giá trị."
+        ],
+        "dimension": "exhalation duration"
+      }
+    ]
+  },
+  {
+    "id": "M164",
+    "sourceBlockId": "W14-B08",
+    "title": "Giữ nhân khi đã có quả tỉnh giác",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hơi thở có ý thức sẽ tạo ra trạng thái tỉnh giác.",
+        "targetVietnamese": "Hơi thở có ý thức sẽ tạo ra trạng thái tỉnh giác.",
+        "sentence": "Conscious breathing ___ lucid awareness.",
+        "options": [
+          "produces",
+          "presupposes",
+          "interprets",
+          "advertises"
+        ],
+        "answer": 0,
+        "rationales": [
+          "produces: tạo ra; giữ chiều từ nhân tới trạng thái kết quả.",
+          "presupposes: đòi có trước; đảo kết quả thành điều kiện.",
+          "interprets: giải nghĩa; không phải gây xuất hiện trạng thái.",
+          "advertises: quảng bá; thêm khán giả thay cho thực hành."
+        ],
+        "dimension": "causal production"
+      },
+      {
+        "sourceCue": "Khi có tỉnh giác rồi, hành giả lại dễ bị khuynh hướng bám lấy cái tỉnh giác, bớt biết rõ hơi thở.",
+        "targetVietnamese": "Khi có tỉnh giác rồi, hành giả lại dễ bị khuynh hướng bám lấy cái tỉnh giác, bớt biết rõ hơi thở.",
+        "sentence": "Once lucid awareness appears, practitioners tend to ___ it, becoming less clearly aware of the breath.",
+        "options": [
+          "cling to",
+          "make room for",
+          "draw conclusions from",
+          "lose patience with"
+        ],
+        "answer": 0,
+        "rationales": [
+          "cling to: bám lấy; giữ sự chấp vào kết quả khiến quên nhân.",
+          "make room for: chừa chỗ; chưa có sự bám chặt.",
+          "draw conclusions from: rút kết luận; thêm suy luận không được nêu.",
+          "lose patience with: bực vì nó; trái bị hấp dẫn bám lấy."
+        ],
+        "dimension": "clinging to a result"
+      },
+      {
+        "sourceCue": "Tỉnh giác là quả, hơi thở có ý thức là nhân.",
+        "targetVietnamese": "Tỉnh giác là quả, hơi thở có ý thức là nhân.",
+        "sentence": "Lucid awareness is the result; conscious breathing ___ the cause.",
+        "options": [
+          "constitutes",
+          "validates",
+          "obscures",
+          "nullifies"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitutes: chính là; giữ quan hệ định danh nhân quả.",
+          "validates: xác nhận nhân là đúng; không nói bản thân nó là nhân.",
+          "obscures: che khuất; đảo vai trò làm nền rõ ràng.",
+          "nullifies: vô hiệu hóa; trái việc tạo kết quả."
+        ],
+        "dimension": "cause identification"
+      },
+      {
+        "sourceCue": "Bỏ nhân để cầu quả thì quả đó sẽ hết.",
+        "targetVietnamese": "Bỏ nhân để cầu quả thì quả đó sẽ hết.",
+        "sentence": "Abandon the cause in pursuit of the result, and that result will ___.",
+        "options": [
+          "disappear",
+          "consolidate",
+          "accumulate",
+          "crystallize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "disappear: mất đi; giữ lời cảnh báo quả sẽ hết khi bỏ nhân.",
+          "consolidate: củng cố; ngược kết quả suy mất.",
+          "accumulate: tích thêm; đổi hao mất thành gia tăng.",
+          "crystallize: thành hình rõ hơn; không diễn chấm dứt."
+        ],
+        "dimension": "loss of result"
+      },
+      {
+        "sourceCue": "Vì thế, dù cho có những kết quả thú vị nào hiện ra, hành giả vẫn phải khôn ngoan biết rõ hơi thở để giữ cái gốc, để giữ cái nhân, thì cái kết quả kia sẽ bền vững hơn.",
+        "targetVietnamese": "Vì thế, dù cho có những kết quả thú vị nào hiện ra, hành giả vẫn phải khôn ngoan biết rõ hơi thở để giữ cái gốc, để giữ cái nhân, thì cái kết quả kia sẽ bền vững hơn.",
+        "sentence": "Therefore, whatever interesting results appear, practitioners must wisely stay clearly aware of the breath to ___ the root cause, making the result more lasting.",
+        "options": [
+          "preserve",
+          "substitute",
+          "postpone",
+          "prejudge"
+        ],
+        "answer": 0,
+        "rationales": [
+          "preserve: giữ lại nền nhân; không bỏ hơi thở để chạy theo quả.",
+          "substitute: thay bằng cái khác; trái giữ gốc.",
+          "postpone: hoãn về sau; không giữ nhân đang cần thực hiện.",
+          "prejudge: phán trước; đổi gìn giữ thành đánh giá."
+        ],
+        "dimension": "preserving a cause"
+      }
+    ]
+  },
+  {
+    "id": "M165",
+    "sourceBlockId": "W14-B09",
+    "title": "Trơn êm: không phải dựng hình, dự báo hay hít cố thêm",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hít vào thở ra thì không cần dạy cũng phải làm nếu muốn sống.",
+        "targetVietnamese": "Hít vào thở ra thì không cần dạy cũng phải làm nếu muốn sống.",
+        "sentence": "To stay alive, we have to inhale and exhale even without being ___.",
+        "options": [
+          "taught",
+          "authorized",
+          "examined",
+          "praised"
+        ],
+        "answer": 0,
+        "rationales": [
+          "taught: được dạy; giữ tính tự có của thở để sống.",
+          "authorized: được cấp phép; thêm quyền hạn không có trong nguồn.",
+          "examined: được khám xét; không liên quan việc học thở.",
+          "praised: được khen; đổi kiến thức thành sự công nhận."
+        ],
+        "dimension": "untaught breathing"
+      },
+      {
+        "sourceCue": "Nhưng hít vào thở ra với ý thức biết rõ, và thở cho khéo để có được một hơi thở trơn êm mới là khó.",
+        "targetVietnamese": "Nhưng hít vào thở ra với ý thức biết rõ, và thở cho khéo để có được một hơi thở trơn êm mới là khó.",
+        "sentence": "But breathing with clear awareness and skillfully ___ a smooth breath is the difficult part.",
+        "options": [
+          "achieving",
+          "depicting",
+          "stipulating",
+          "foretelling"
+        ],
+        "answer": 0,
+        "rationales": [
+          "achieving: làm cho có được; giữ kết quả thực trong hơi thở.",
+          "depicting: miêu tả; chưa thực sự có hơi êm.",
+          "stipulating: đặt thành quy định; khác tự tập làm được.",
+          "foretelling: báo trước; mới nói tương lai, chưa có kết quả."
+        ],
+        "dimension": "actual achievement"
+      },
+      {
+        "sourceCue": "Hoặc là ta biết mình thở nhưng hơi thở đó bị thô, bị vướng, bị rít, bị mạnh, vì bị điều khiển thô bạo.",
+        "targetVietnamese": "Hoặc là ta biết mình thở nhưng hơi thở đó bị thô, bị vướng, bị rít, bị mạnh, vì bị điều khiển thô bạo.",
+        "sentence": "Or we know we are breathing, but the breath is rough, obstructed, rasping, and forceful because it is ___.",
+        "options": [
+          "being manipulated roughly",
+          "being merely registered",
+          "being accurately timed",
+          "being quietly observed"
+        ],
+        "answer": 0,
+        "rationales": [
+          "being manipulated roughly: bị điều khiển thô; giữ nguyên nhân gây các tính chất ấy.",
+          "being merely registered: chỉ được ghi nhận; không tự tạo sự thô bạo.",
+          "being accurately timed: được đo thời gian chính xác; không có ý ép nhịp.",
+          "being quietly observed: được quan sát lặng lẽ; trái việc can thiệp mạnh."
+        ],
+        "dimension": "rough interference"
+      },
+      {
+        "sourceCue": "Hơi thở đúng là hơi thở trơn êm. Không cần biết dài hay ngắn, miễn trơn êm là được.",
+        "targetVietnamese": "Hơi thở đúng là hơi thở trơn êm. Không cần biết dài hay ngắn, miễn trơn êm là được.",
+        "sentence": "Correct breathing is ___ by smoothness, not by whether it is long or short.",
+        "options": [
+          "defined",
+          "estimated",
+          "predicted",
+          "disputed"
+        ],
+        "answer": 0,
+        "rationales": [
+          "defined: xác định bằng đặc tính; giữ tiêu chí đúng ở sự trơn êm.",
+          "estimated: ước lượng; chưa nhận diện tiêu chuẩn đúng.",
+          "predicted: được dự báo trước; nói điều chưa tới, không xác lập tiêu chí đúng của hơi thở.",
+          "disputed: bị phản bác; trái việc dùng nó làm tiêu chí."
+        ],
+        "dimension": "criterion"
+      },
+      {
+        "sourceCue": "vì nếu hít thêm chút nữa sẽ mất sự trơn êm.",
+        "targetVietnamese": "vì nếu hít thêm chút nữa sẽ mất sự trơn êm.",
+        "sentence": "For if we inhale even a little more, we will ___ that smoothness.",
+        "options": [
+          "lose",
+          "prolong",
+          "recover",
+          "simulate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "lose: mất đi; giữ điểm vượt ngưỡng khiến hơi không êm.",
+          "prolong: kéo dài; đảo hậu quả thành giữ thêm được.",
+          "recover: lấy lại; giả định đã mất trước đó.",
+          "simulate: giả lập; thêm cố tạo vẻ ngoài thay vì mất thật."
+        ],
+        "dimension": "threshold loss"
+      }
+    ]
+  },
+  {
+    "id": "M166",
+    "sourceBlockId": "W14-B10",
+    "title": "Biết chiều thở và theo sát từng chuyển động",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Trước hết, hơi thở vào, ta biết rõ là hơi thở vào; hơi thở ra, ta biết rõ là hơi thở ra.",
+        "targetVietnamese": "Trước hết, hơi thở vào, ta biết rõ là hơi thở vào; hơi thở ra, ta biết rõ là hơi thở ra.",
+        "sentence": "First, we clearly ___ between the in-breath and the out-breath as each occurs.",
+        "options": [
+          "distinguish",
+          "switch",
+          "intervene",
+          "mediate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "distinguish: phân biệt rõ chiều; giữ biết đang vào hay ra.",
+          "switch: tự chuyển giữa hai chiều; thêm điều khiển.",
+          "intervene: can thiệp; trái nhận biết đơn thuần.",
+          "mediate: dàn xếp giữa hai phía; không có tranh chấp để hòa giải."
+        ],
+        "dimension": "direction recognition"
+      },
+      {
+        "sourceCue": "Có một điều đơn giản là khi theo dõi hơi thở, ta biết là đang có thở, nhưng lại không để ý rõ là đang thở ra hay đang thở vào.",
+        "targetVietnamese": "Có một điều đơn giản là khi theo dõi hơi thở, ta biết là đang có thở, nhưng lại không để ý rõ là đang thở ra hay đang thở vào.",
+        "sentence": "While following the breath, we may know that breathing is happening but ___ to distinguish clearly whether it is going out or coming in.",
+        "options": [
+          "fail",
+          "refuse",
+          "attempt",
+          "strive"
+        ],
+        "answer": 0,
+        "rationales": [
+          "fail: không nhận ra được; giữ thiếu chú ý, không gán cố tình.",
+          "refuse: khước từ; thêm chủ ý không muốn phân biệt.",
+          "attempt: thử làm; chưa nói kết quả không phân biệt được.",
+          "strive: gắng làm; nói nỗ lực chứ không sự bỏ sót."
+        ],
+        "dimension": "failure versus intent"
+      },
+      {
+        "sourceCue": "Đây cũng là do thiếu chăm chú, thiếu tỉnh giác.",
+        "targetVietnamese": "Đây cũng là do thiếu chăm chú, thiếu tỉnh giác.",
+        "sentence": "This ___ a lack of attentiveness and lucid awareness.",
+        "options": [
+          "stems from",
+          "compensates for",
+          "calls attention to",
+          "stands for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "stems from: bắt nguồn từ; giữ thiếu chú tâm là nguyên nhân.",
+          "compensates for: bù đắp; đổi quan hệ nguyên nhân thành sửa thiếu.",
+          "calls attention to: gọi sự chú ý tới; không truyền nguồn gốc.",
+          "stands for: tượng trưng; khác gây ra việc không rõ chiều thở."
+        ],
+        "dimension": "underlying reason"
+      },
+      {
+        "sourceCue": "nghĩa là ta theo dõi sự chuyển động của hơi thở một cách sát sao từng chút một.",
+        "targetVietnamese": "nghĩa là ta theo dõi sự chuyển động của hơi thở một cách sát sao từng chút một.",
+        "sentence": "In other words, we ___ every tiny movement of the breath.",
+        "options": [
+          "track",
+          "infer",
+          "stage",
+          "regulate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "track: theo sát; giữ từng chút diễn biến thực.",
+          "infer: suy ra; không phải trực tiếp quan sát.",
+          "stage: dàn dựng; thêm việc tạo một trình tự giả lập.",
+          "regulate: điều chỉnh; biến theo dõi thành điều khiển."
+        ],
+        "dimension": "close tracking"
+      },
+      {
+        "sourceCue": "Nếu có lúc nào ta lơ mơ không rõ hơi đang ra hay đang vào, hay đang dừng lại để chuẩn bị đổi chiều, tức là ta đang mất tỉnh giác.",
+        "targetVietnamese": "Nếu có lúc nào ta lơ mơ không rõ hơi đang ra hay đang vào, hay đang dừng lại để chuẩn bị đổi chiều, tức là ta đang mất tỉnh giác.",
+        "sentence": "If we become vague about whether the breath is going out, coming in, or pausing before changing direction, we are ___ lucid awareness.",
+        "options": [
+          "losing",
+          "conserving",
+          "reporting",
+          "testing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "losing: mất dần; đúng dấu hiệu lơ mơ nguồn xác định.",
+          "conserving: giữ lại; ngược việc không còn biết rõ.",
+          "reporting: tường thuật; thêm người nghe và phát biểu.",
+          "testing: kiểm tra; không phải hậu quả đang mất tỉnh giác."
+        ],
+        "dimension": "lost clarity"
+      }
+    ]
+  },
+  {
+    "id": "M167",
+    "sourceBlockId": "W14-B11",
+    "title": "Thụ động quan sát và nhận biết tác động từ nội tâm",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Hầu hết người tu tập pháp môn hơi thở hay bị một sai lầm nghiêm trọng là ráng thở dài hơn bình thường, nghĩa là luôn can thiệp vào hơi thở.",
+        "targetVietnamese": "Hầu hết người tu tập pháp môn hơi thở hay bị một sai lầm nghiêm trọng là ráng thở dài hơn bình thường, nghĩa là luôn can thiệp vào hơi thở.",
+        "sentence": "Most breath practitioners make a serious error by ___ the breath, forcing it to last longer than usual.",
+        "options": [
+          "interfering with",
+          "growing familiar with",
+          "drawing conclusions from",
+          "keeping track of"
+        ],
+        "answer": 0,
+        "rationales": [
+          "interfering with: can thiệp; giữ việc cố kéo dài làm đổi hơi thở.",
+          "growing familiar with: quen dần; không tự tạo sự kéo dài cưỡng ép.",
+          "drawing conclusions from: rút suy luận; không phải trực tiếp đổi nhịp.",
+          "keeping track of: theo dõi; không giữ yếu tố cố tác động."
+        ],
+        "dimension": "interference"
+      },
+      {
+        "sourceCue": "Ở đây Phật dạy ta phải biết rõ, nhưng không được can thiệp vào hơi thở.",
+        "targetVietnamese": "Ở đây Phật dạy ta phải biết rõ, nhưng không được can thiệp vào hơi thở.",
+        "sentence": "Here the Buddha teaches us to know the breath clearly but to ___ intervening in it.",
+        "options": [
+          "refrain from",
+          "get used to",
+          "take pride in",
+          "seek recognition for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "refrain from: tránh không thực hiện; giữ giới hạn không can thiệp.",
+          "get used to: tập quen với việc can thiệp; đảo lời cấm.",
+          "take pride in: tự hào vì làm; thêm khuyến khích việc bị ngăn.",
+          "seek recognition for: tìm ghi công; biến chỉ dẫn thực hành thành danh vọng."
+        ],
+        "dimension": "restraint"
+      },
+      {
+        "sourceCue": "Hành giả tỉnh táo thụ động quan sát hơi thở ra vào rõ ràng nhưng không can thiệp, không cố ý điều khiển hơi thở.",
+        "targetVietnamese": "Hành giả tỉnh táo thụ động quan sát hơi thở ra vào rõ ràng nhưng không can thiệp, không cố ý điều khiển hơi thở.",
+        "sentence": "Alert but passive, practitioners clearly ___ the in-breath and out-breath without intervening or deliberately controlling them.",
+        "options": [
+          "observe",
+          "rehearse",
+          "coordinate",
+          "standardize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "observe: quan sát; giữ trạng thái tỉnh táo không làm chủ nhịp.",
+          "rehearse: tập diễn lại; thêm khuôn được dựng sẵn.",
+          "coordinate: phối nhịp; đã có tác động tổ chức vào ra.",
+          "standardize: chuẩn hóa; làm đều theo mẫu, trái không điều khiển."
+        ],
+        "dimension": "passive observation"
+      },
+      {
+        "sourceCue": "Chắc chắn hơi thở sẽ không đều đặn suốt thời gian ngồi thiền.",
+        "targetVietnamese": "Chắc chắn hơi thở sẽ không đều đặn suốt thời gian ngồi thiền.",
+        "sentence": "The breath will certainly not ___ a regular rhythm throughout the meditation.",
+        "options": [
+          "maintain",
+          "signal",
+          "imitate",
+          "prescribe"
+        ],
+        "answer": 0,
+        "rationales": [
+          "maintain: giữ liên tục; phủ định giữ không đều suốt buổi.",
+          "signal: báo hiệu; nói dấu hiệu chứ không trạng thái nhịp thật.",
+          "imitate: bắt chước; thêm chủ ý mô phỏng một mẫu.",
+          "prescribe: ấn định; biến hơi thở thành bên ra quy tắc."
+        ],
+        "dimension": "irregularity over time"
+      },
+      {
+        "sourceCue": "Những vọng động bí mật của nội tâm sâu kín sẽ chi phối vào hơi thở khiến cho hơi thở khi mạnh khi yếu, khi dài khi ngắn khác nhau.",
+        "targetVietnamese": "Những vọng động bí mật của nội tâm sâu kín sẽ chi phối vào hơi thở khiến cho hơi thở khi mạnh khi yếu, khi dài khi ngắn khác nhau.",
+        "sentence": "Hidden disturbances deep in the mind ___ breathing, making it vary in strength and length.",
+        "options": [
+          "govern",
+          "reflect",
+          "validate",
+          "foreshadow"
+        ],
+        "answer": 0,
+        "rationales": [
+          "govern: chi phối; giữ tác động từ tâm ra biến đổi hơi.",
+          "reflect: phản chiếu; đảo vai nguyên nhân thành hình ảnh.",
+          "validate: xác nhận đúng; thêm quan hệ bằng chứng.",
+          "foreshadow: báo trước; chưa phải trực tiếp gây khác biệt."
+        ],
+        "dimension": "mental influence"
+      }
+    ]
+  },
+  {
+    "id": "M168",
+    "sourceBlockId": "W14-B12",
+    "title": "Ghi nhận biến chuyển và không lầm yên mặt ngoài",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi nội tâm yên tĩnh, hơi thở êm dịu và dài hơn; khi nội tâm có xung động, dù âm thầm, hơi thở sẽ mạnh và ngắn hơn.",
+        "targetVietnamese": "Khi nội tâm yên tĩnh, hơi thở êm dịu và dài hơn; khi nội tâm có xung động, dù âm thầm, hơi thở sẽ mạnh và ngắn hơn.",
+        "sentence": "When the inner mind is quiet, breathing is gentler and longer; when even hidden impulses ___, it becomes stronger and shorter.",
+        "options": [
+          "arise",
+          "subside",
+          "stabilize",
+          "coalesce"
+        ],
+        "answer": 0,
+        "rationales": [
+          "arise: xuất hiện, khởi động; giữ tình huống tâm có xung động.",
+          "subside: dịu xuống; đảo điều kiện gây hơi mạnh ngắn.",
+          "stabilize: thành ổn định; không nói hoạt động xung động.",
+          "coalesce: kết tụ thành khối; thêm một mức hợp hình chưa được nêu."
+        ],
+        "dimension": "impulse onset"
+      },
+      {
+        "sourceCue": "Ta chỉ việc theo dõi và ghi nhận sự biến chuyển như thế chứ không can thiệp điều chỉnh cho hơi thở trở nên đều đặn như ý mình muốn.",
+        "targetVietnamese": "Ta chỉ việc theo dõi và ghi nhận sự biến chuyển như thế chứ không can thiệp điều chỉnh cho hơi thở trở nên đều đặn như ý mình muốn.",
+        "sentence": "We simply ___ these changes rather than intervene to make breathing as regular as we wish.",
+        "options": [
+          "observe and register",
+          "induce and measure",
+          "suppress and conceal",
+          "predict and standardize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "observe and register: theo dõi, ghi nhận; giữ hai thao tác tiếp nhận.",
+          "induce and measure: gây ra rồi đo; thêm chủ động tạo biến chuyển.",
+          "suppress and conceal: đè xuống và che; trái nhận biết hiện tượng đang có.",
+          "predict and standardize: dự báo rồi chuẩn hóa; đã can thiệp để ép đều."
+        ],
+        "dimension": "registration without control"
+      },
+      {
+        "sourceCue": "Đây là một đặc tính khác lạ của Thiền đạo Phật so với các loại Thiền hay Khí công khác.",
+        "targetVietnamese": "Đây là một đặc tính khác lạ của Thiền đạo Phật so với các loại Thiền hay Khí công khác.",
+        "sentence": "This characteristic ___ Buddhist meditation from other forms of meditation or qigong.",
+        "options": [
+          "distinguishes",
+          "isolates",
+          "exempts",
+          "protects"
+        ],
+        "answer": 0,
+        "rationales": [
+          "distinguishes: phân biệt nét riêng; không tự thêm đánh giá hơn kém.",
+          "isolates: cô lập không cho tiếp xúc; khác nói nét đặc trưng.",
+          "exempts: miễn cho; cần có nghĩa vụ được miễn, nguồn không nêu.",
+          "protects: bảo vệ khỏi; thêm nguy cơ từ phương pháp khác."
+        ],
+        "dimension": "distinctiveness"
+      },
+      {
+        "sourceCue": "Khi thực hành đúng theo lời Phật dạy như thế, ta sẽ thấy tâm trầm tĩnh từ trong sâu thẳm.",
+        "targetVietnamese": "Khi thực hành đúng theo lời Phật dạy như thế, ta sẽ thấy tâm trầm tĩnh từ trong sâu thẳm.",
+        "sentence": "Practicing correctly in this way, we find that the mind ___.",
+        "options": [
+          "grows still from deep within",
+          "withdraws from other people",
+          "goes completely blank",
+          "becomes emotionally numb"
+        ],
+        "answer": 0,
+        "rationales": [
+          "grows still from deep within: trầm tĩnh từ chiều sâu; không chỉ yên bên ngoài.",
+          "withdraws from other people: rút khỏi mọi người; thêm hệ quả xã hội.",
+          "goes completely blank: trống không hoàn toàn; không đồng nghĩa trầm tĩnh.",
+          "becomes emotionally numb: tê cảm xúc; khác tâm sâu được an tĩnh."
+        ],
+        "dimension": "deep stillness"
+      },
+      {
+        "sourceCue": "Còn việc can thiệp điều khiển hơi thở theo ý mình có thể khiến tâm có vẻ như nhanh chóng tắt vọng tưởng, nhưng trong sâu thẳm lại bị khuấy động.",
+        "targetVietnamese": "Còn việc can thiệp điều khiển hơi thở theo ý mình có thể khiến tâm có vẻ như nhanh chóng tắt vọng tưởng, nhưng trong sâu thẳm lại bị khuấy động.",
+        "sentence": "Deliberately controlling the breath may seem to end wandering thoughts quickly, but deep within it ___ the mind.",
+        "options": [
+          "agitates",
+          "absorbs",
+          "reconciles",
+          "fortifies"
+        ],
+        "answer": 0,
+        "rationales": [
+          "agitates: khuấy động; giữ tương phản vẻ yên và bất ổn sâu.",
+          "absorbs: thu hút hết chú ý; khác tạo nhiễu động.",
+          "reconciles: hòa giải xung đột; đảo chiều sang yên hơn.",
+          "fortifies: làm vững mạnh; không giữ hệ quả tâm bị khuấy."
+        ],
+        "dimension": "hidden agitation"
+      }
+    ]
+  }
+,
+  {
+    "id": "M169",
+    "sourceBlockId": "W15-B01",
+    "title": "Không chủ quan: phát hiện lỗi nhỏ và giữ sự cảnh giác",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Người chủ quan cho mình không thể phạm sai lầm sẽ là người phạm sai lầm liên tục.",
+        "targetVietnamese": "Người chủ quan cho mình không thể phạm sai lầm sẽ là người phạm sai lầm liên tục.",
+        "sentence": "People who ___ that they cannot make mistakes will make them continually.",
+        "options": [
+          "presume",
+          "establish",
+          "prove",
+          "discover"
+        ],
+        "answer": 0,
+        "rationales": [
+          "presume: tự cho là đúng; giữ thái độ chủ quan chưa được chứng minh.",
+          "establish: xác lập bằng căn cứ; không phải niềm tin chủ quan bị bác.",
+          "prove: chứng minh thật; biến giả định sai thành kết luận đúng.",
+          "discover: tìm thấy sự thật; không giữ nét tự tin thiếu cơ sở."
+        ],
+        "dimension": "presumption"
+      },
+      {
+        "sourceCue": "Ngược lại, người lúc nào cũng nơm nớp lo sợ lỗi lầm sẽ tránh được rất nhiều lỗi lầm.",
+        "targetVietnamese": "Ngược lại, người lúc nào cũng nơm nớp lo sợ lỗi lầm sẽ tránh được rất nhiều lỗi lầm.",
+        "sentence": "By contrast, those constantly apprehensive about error will ___ many mistakes.",
+        "options": [
+          "avoid",
+          "admit",
+          "rationalize",
+          "atone for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "avoid: tránh được trước khi mắc; giữ hiệu quả của cảnh giác.",
+          "admit: thừa nhận lỗi đã có; không phải ngăn mắc lỗi.",
+          "rationalize: biện hộ; làm lỗi có vẻ hợp lý không làm nó khỏi xảy ra.",
+          "atone for: chuộc lỗi; thuộc bước sau khi đã phạm."
+        ],
+        "dimension": "error prevention"
+      },
+      {
+        "sourceCue": "Những lỗi lầm này cũng không phải luôn luôn được phát hiện vì chúng cũng rất vi tế.",
+        "targetVietnamese": "Những lỗi lầm này cũng không phải luôn luôn được phát hiện vì chúng cũng rất vi tế.",
+        "sentence": "These faults are not always ___, because they are very subtle.",
+        "options": [
+          "detected",
+          "publicized",
+          "confessed",
+          "penalized"
+        ],
+        "answer": 0,
+        "rationales": [
+          "detected: được phát hiện; giữ vấn đề nhận biết lỗi nhỏ nhiệm.",
+          "publicized: được công khai; có thể đã thấy nhưng chưa nói ra.",
+          "confessed: được thú nhận; cần thêm chủ thể nhận mình có lỗi.",
+          "penalized: bị phạt; phát hiện không đồng nghĩa trừng phạt."
+        ],
+        "dimension": "detection"
+      },
+      {
+        "sourceCue": "Hiểu được như vậy nên người tu phải biết lo sợ thường xuyên.",
+        "targetVietnamese": "Hiểu được như vậy nên người tu phải biết lo sợ thường xuyên.",
+        "sentence": "Recognizing this, practitioners must ___ the possibility of error.",
+        "options": [
+          "remain apprehensive about",
+          "feign concern about",
+          "silence criticism of",
+          "profess immunity to"
+        ],
+        "answer": 0,
+        "rationales": [
+          "remain apprehensive about: thường giữ nỗi lo cảnh giác; không gán tự miễn lỗi.",
+          "feign concern about: giả bộ lo; thêm sự không chân thật.",
+          "silence criticism of: chặn lời phê bình; đổi tự xét thành ngăn người khác góp ý.",
+          "profess immunity to: tự nhận miễn nhiễm; trái thái độ phải lo sai."
+        ],
+        "dimension": "moral apprehension"
+      },
+      {
+        "sourceCue": "Sự lo lắng này là dấu hiệu của trí tuệ và đạo đức.",
+        "targetVietnamese": "Sự lo lắng này là dấu hiệu của trí tuệ và đạo đức.",
+        "sentence": "Such concern ___ wisdom and ethical character.",
+        "options": [
+          "indicates",
+          "guarantees",
+          "produces",
+          "substitutes for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "indicates: là dấu hiệu; giữ quan hệ biểu hiện, không bảo đảm đủ mọi phẩm chất.",
+          "guarantees: bảo đảm chắc chắn; mạnh hơn một dấu hiệu.",
+          "produces: tạo ra; đổi biểu hiện thành nguyên nhân.",
+          "substitutes for: thay thế; không phải khỏi cần trí tuệ hay đạo đức."
+        ],
+        "dimension": "indication"
+      }
+    ]
+  },
+  {
+    "id": "M170",
+    "sourceBlockId": "W15-B02",
+    "title": "Canh chừng điều chưa biết và không để ý nghĩ cuốn đi",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Người tu thiền cũng vậy, phải canh chừng vì không biết vọng tưởng sẽ xuất hiện lúc nào, mang theo vấn đề gì khiến tâm ta bị cuốn hút chạy theo.",
+        "targetVietnamese": "Người tu thiền cũng vậy, phải canh chừng vì không biết vọng tưởng sẽ xuất hiện lúc nào, mang theo vấn đề gì khiến tâm ta bị cuốn hút chạy theo.",
+        "sentence": "Meditators too must ___, not knowing when wandering thoughts will appear or what they will bring to draw the mind along.",
+        "options": [
+          "keep watch",
+          "pass judgment",
+          "give reassurance",
+          "claim foresight"
+        ],
+        "answer": 0,
+        "rationales": [
+          "keep watch: canh chừng; giữ cảnh giác vì chưa biết lúc hay nội dung sẽ tới.",
+          "pass judgment: phán xét; thêm đánh giá thay cho quan sát chờ.",
+          "give reassurance: trấn an; không phải canh trước điều chưa biết.",
+          "claim foresight: nhận biết trước; trái câu không biết khi nào và chuyện gì."
+        ],
+        "dimension": "watchfulness"
+      },
+      {
+        "sourceCue": "khiến tâm ta bị cuốn hút chạy theo.",
+        "targetVietnamese": "khiến tâm ta bị cuốn hút chạy theo.",
+        "sentence": "Such thoughts can ___.",
+        "options": [
+          "sweep us along",
+          "leave us cold",
+          "bring us to our senses",
+          "keep us grounded"
+        ],
+        "answer": 0,
+        "rationales": [
+          "sweep us along: cuốn tâm chạy theo; giữ hình ảnh bị kéo đi.",
+          "leave us cold: khiến dửng dưng; trái sức cuốn hút.",
+          "bring us to our senses: làm tỉnh lại; đảo hướng bị lôi thành trở về rõ biết.",
+          "keep us grounded: giữ vững nền; ngược bị ý nghĩ kéo xa."
+        ],
+        "dimension": "being swept away"
+      },
+      {
+        "sourceCue": "Có khi đó là chuyện của quá khứ; có khi đó là niềm mơ ước tương lai; có khi đó là những suy nghĩ vụn vặt, chuyện buồn thương giận ghét…",
+        "targetVietnamese": "Có khi đó là chuyện của quá khứ; có khi đó là niềm mơ ước tương lai; có khi đó là những suy nghĩ vụn vặt, chuyện buồn thương giận ghét…",
+        "sentence": "Such thinking may ___ the past, hopes for the future, everyday trifles, or sorrow, love, anger, and hatred.",
+        "options": [
+          "concern",
+          "foretell",
+          "resolve",
+          "disown"
+        ],
+        "answer": 0,
+        "rationales": [
+          "concern: liên quan, xoay quanh; giữ các loại nội dung được kể.",
+          "foretell: báo trước; không thể thay chuyện quá khứ bằng tiên đoán.",
+          "resolve: giải quyết; nghĩ về vấn đề chưa bảo đảm xử lý nó.",
+          "disown: chối bỏ; thêm thái độ phủ nhận các chuyện ấy."
+        ],
+        "dimension": "thought content"
+      },
+      {
+        "sourceCue": "Có khi đó là những lỗi lầm về đạo đức rất nguy hiểm như hận thù ganh tị…",
+        "targetVietnamese": "Có khi đó là những lỗi lầm về đạo đức rất nguy hiểm như hận thù ganh tị…",
+        "sentence": "Sometimes wandering thoughts ___ highly dangerous moral failings such as hatred and envy.",
+        "options": [
+          "involve",
+          "excuse",
+          "neutralize",
+          "eradicate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "involve: bao hàm, liên quan; giữ nội dung sai lỗi đang xuất hiện.",
+          "excuse: tha hoặc biện hộ; thêm sự chấp thuận lỗi.",
+          "neutralize: làm mất tác dụng; đảo thành khắc phục lỗi.",
+          "eradicate: diệt trừ; trái việc bản thân ý nghĩ mang nội dung lỗi."
+        ],
+        "dimension": "involvement"
+      },
+      {
+        "sourceCue": "Nếu sự cảnh giác đạt đến mức độ sâu sắc tinh vi thấu suốt thì ta có thể đạt đến sự khai ngộ bất ngờ làm thay đổi cả trạng thái tâm thức.",
+        "targetVietnamese": "Nếu sự cảnh giác đạt đến mức độ sâu sắc tinh vi thấu suốt thì ta có thể đạt đến sự khai ngộ bất ngờ làm thay đổi cả trạng thái tâm thức.",
+        "sentence": "If vigilance ___ a deep, subtle, penetrating level, we may attain sudden awakening that changes our whole state of mind.",
+        "options": [
+          "reaches",
+          "mimics",
+          "circumvents",
+          "diagnoses"
+        ],
+        "answer": 0,
+        "rationales": [
+          "reaches: đạt tới; giữ điều kiện và chữ có thể, không hứa tất thành.",
+          "mimics: bắt chước vẻ ngoài; không có độ sâu thực.",
+          "circumvents: đi vòng tránh; không giữ việc phát triển tới mức đó.",
+          "diagnoses: chẩn đoán; xác định mức không phải tự đạt tới."
+        ],
+        "dimension": "reaching a level"
+      }
+    ]
+  },
+  {
+    "id": "M171",
+    "sourceBlockId": "W15-B03",
+    "title": "Nguồn của công đức và khả năng nâng căn cơ",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Cũng vậy, nếu một người có thể thường xuyên lo sợ lỗi lầm và cảnh giác vọng tưởng thì người đó vẫn có thể trở thành cao tăng chân chính.",
+        "targetVietnamese": "Cũng vậy, nếu một người có thể thường xuyên lo sợ lỗi lầm và cảnh giác vọng tưởng thì người đó vẫn có thể trở thành cao tăng chân chính.",
+        "sentence": "Likewise, someone who regularly fears moral faults and watches wandering thoughts can still ___ a genuinely eminent monk.",
+        "options": [
+          "become",
+          "impersonate",
+          "appoint",
+          "endorse"
+        ],
+        "answer": 0,
+        "rationales": [
+          "become: trở thành; giữ tiềm năng thực của người ấy, không chỉ vẻ ngoài.",
+          "impersonate: đóng giả; thêm sự lừa dối không có trong nguồn.",
+          "appoint: bổ nhiệm người khác; đổi chủ thể của sự trưởng thành.",
+          "endorse: ủng hộ ai; không phải tự đạt phẩm chất."
+        ],
+        "dimension": "becoming"
+      },
+      {
+        "sourceCue": "Công đức này xuất phát từ nguồn gốc đạo đức khiêm hạ và sự chuyên cần đầy thiện chí.",
+        "targetVietnamese": "Công đức này xuất phát từ nguồn gốc đạo đức khiêm hạ và sự chuyên cần đầy thiện chí.",
+        "sentence": "This merit ___ ethical humility and well-intentioned diligence.",
+        "options": [
+          "stems from",
+          "accounts for",
+          "stands in for",
+          "makes allowance for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "stems from: xuất phát từ; giữ hai phẩm chất làm nguồn công đức.",
+          "accounts for: giải thích cho; đảo chiều nguồn gốc.",
+          "stands in for: thay thế cho; không giữ chúng là nền tạo công đức.",
+          "makes allowance for: châm chước; thêm một lỗi cần được bỏ qua."
+        ],
+        "dimension": "origin of merit"
+      },
+      {
+        "sourceCue": "Đạo đức khiêm hạ và sự chuyên cần có thể đưa một người căn cơ tầm thường trở thành căn cơ xuất sắc.",
+        "targetVietnamese": "Đạo đức khiêm hạ và sự chuyên cần có thể đưa một người căn cơ tầm thường trở thành căn cơ xuất sắc.",
+        "sentence": "Humility and diligence can ___ a person’s ordinary aptitude to an exceptional level.",
+        "options": [
+          "elevate",
+          "certify",
+          "project",
+          "compare"
+        ],
+        "answer": 0,
+        "rationales": [
+          "elevate: nâng lên thực sự; giữ chuyển căn cơ tầm thường thành xuất sắc.",
+          "certify: chứng nhận; đánh giá có thể không làm năng lực đổi.",
+          "project: dự phóng; mới là ước tính hoặc hình dung.",
+          "compare: so với một chuẩn; không tự tạo sự tiến bộ."
+        ],
+        "dimension": "transformation of aptitude"
+      },
+      {
+        "sourceCue": "Riêng đạo đức khiêm hạ bao trùm một phạm vi rất rộng lớn từ công phu lễ Phật siêng năng, tôn trọng mọi người đến ngăn ngừa kiêu mạn.",
+        "targetVietnamese": "Riêng đạo đức khiêm hạ bao trùm một phạm vi rất rộng lớn từ công phu lễ Phật siêng năng, tôn trọng mọi người đến ngăn ngừa kiêu mạn.",
+        "sentence": "Humility ___ a wide range, from diligent bowing to the Buddha and respect for everyone to preventing conceit.",
+        "options": [
+          "encompasses",
+          "abolishes",
+          "exaggerates",
+          "postpones"
+        ],
+        "answer": 0,
+        "rationales": [
+          "encompasses: bao trùm; giữ định nghĩa phạm vi rộng.",
+          "abolishes: bãi bỏ; đổi bao gồm các việc thành loại chúng đi.",
+          "exaggerates: phóng đại; thêm lời nghi ngờ mức độ tác giả nêu.",
+          "postpones: hoãn lại; không có nghĩa bao gồm."
+        ],
+        "dimension": "scope of humility"
+      },
+      {
+        "sourceCue": "từ công phu lễ Phật siêng năng, tôn trọng mọi người đến ngăn ngừa kiêu mạn.",
+        "targetVietnamese": "từ công phu lễ Phật siêng năng, tôn trọng mọi người đến ngăn ngừa kiêu mạn.",
+        "sentence": "Its practices range from diligent bowing to the Buddha and respect for everyone to ___ conceit.",
+        "options": [
+          "preventing",
+          "concealing",
+          "excusing",
+          "exploiting"
+        ],
+        "answer": 0,
+        "rationales": [
+          "preventing: ngăn trước; đúng không để kiêu mạn khởi thành lỗi.",
+          "concealing: che giấu khi đã có; không phải ngăn phát sinh.",
+          "excusing: biện hộ; làm kiêu có vẻ được phép.",
+          "exploiting: lợi dụng; thêm việc dùng tâm kiêu làm công cụ."
+        ],
+        "dimension": "prevention of conceit"
+      }
+    ]
+  },
+  {
+    "id": "M172",
+    "sourceBlockId": "W15-B04",
+    "title": "Thực tập bước thứ bảy trên nền sáu giai đoạn trước",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Thứ nhất là sự thực hành một pháp môn tu tập thiền định so với các Chánh đạo trước chỉ là tu tập các công hạnh của thân khẩu ý.",
+        "targetVietnamese": "Thứ nhất là sự thực hành một pháp môn tu tập thiền định so với các Chánh đạo trước chỉ là tu tập các công hạnh của thân khẩu ý.",
+        "sentence": "The first distinction is ___ a meditative method, whereas the earlier aspects of the path train virtues of body, speech, and mind.",
+        "options": [
+          "practicing",
+          "formulating",
+          "publicizing",
+          "comparing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "practicing: đích thân thực hành; giữ khác biệt về bước tu tập.",
+          "formulating: soạn ra phương pháp; đổi người tu thành người thiết kế.",
+          "publicizing: quảng bá; chưa có tự mình dụng công.",
+          "comparing: so sánh; nghiên cứu phương pháp không thay thực tập."
+        ],
+        "dimension": "actual practice"
+      },
+      {
+        "sourceCue": "Khi tu đến Chánh Niệm, đệ tử Phật phải bắt tay vào thực hành một phương pháp thiền định rõ rệt và quyết tâm.",
+        "targetVietnamese": "Khi tu đến Chánh Niệm, đệ tử Phật phải bắt tay vào thực hành một phương pháp thiền định rõ rệt và quyết tâm.",
+        "sentence": "On reaching Right Mindfulness, the Buddha’s disciples must ___ clear and determined practice of a meditative method.",
+        "options": [
+          "embark on",
+          "put off",
+          "take sides on",
+          "lay down the terms of"
+        ],
+        "answer": 0,
+        "rationales": [
+          "embark on: bắt tay vào; giữ bước khởi sự làm thực.",
+          "put off: hoãn lại; ngược yêu cầu bắt đầu.",
+          "take sides on: chọn phe ý kiến; thêm tranh luận thay vì hành trì.",
+          "lay down the terms of: đặt điều khoản; không phải thực tập cho mình."
+        ],
+        "dimension": "embarking on meditation"
+      },
+      {
+        "sourceCue": "Nếu chưa biết tọa thiền thì ta chưa tu tập được bước thứ bảy của Bát Chánh đạo.",
+        "targetVietnamese": "Nếu chưa biết tọa thiền thì ta chưa tu tập được bước thứ bảy của Bát Chánh đạo.",
+        "sentence": "If we have not yet learned sitting meditation, we have not yet ___ the seventh step of the Noble Eightfold Path.",
+        "options": [
+          "practiced",
+          "outlined",
+          "numbered",
+          "translated"
+        ],
+        "answer": 0,
+        "rationales": [
+          "practiced: tu tập; giữ công phu thực chứ không kiến thức sách.",
+          "outlined: phác đề cương; chưa thực hiện bước tu.",
+          "numbered: đánh số; biết thứ tự không phải tu được.",
+          "translated: dịch tên gọi; thêm nhiệm vụ ngôn ngữ nguồn không nêu."
+        ],
+        "dimension": "training a path factor"
+      },
+      {
+        "sourceCue": "Vì là bước thứ bảy nên những giai đoạn trước đều là nền tảng quan trọng.",
+        "targetVietnamese": "Vì là bước thứ bảy nên những giai đoạn trước đều là nền tảng quan trọng.",
+        "sentence": "Because this is the seventh step, all the earlier stages ___ important foundations.",
+        "options": [
+          "constitute",
+          "validate",
+          "foretell",
+          "supplant"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitute: là nền; giữ sự cần thiết của những bước trước.",
+          "validate: chứng thực nền; không nói bản thân là nền.",
+          "foretell: báo trước; chỉ trình tự chưa giữ quan hệ làm cơ sở.",
+          "supplant: thay thế nền; thêm sự loại bỏ cái cũ."
+        ],
+        "dimension": "foundations"
+      },
+      {
+        "sourceCue": "Tuy nhiên, nếu chỉ tu sáu giai đoạn trước mà không tiến thêm tu tập Chánh Niệm thì ta chưa thực hiện đầy đủ sự tu hành trong đạo Phật.",
+        "targetVietnamese": "Tuy nhiên, nếu chỉ tu sáu giai đoạn trước mà không tiến thêm tu tập Chánh Niệm thì ta chưa thực hiện đầy đủ sự tu hành trong đạo Phật.",
+        "sentence": "But if we practice only the first six stages and do not ___ Right Mindfulness, our Buddhist practice remains incomplete.",
+        "options": [
+          "progress to",
+          "renounce",
+          "interpret",
+          "advertise"
+        ],
+        "answer": 0,
+        "rationales": [
+          "progress to: tiến thêm tới; giữ bước tiếp theo cần được tu.",
+          "renounce: từ bỏ; khác chưa tiến tới một bước.",
+          "interpret: giải nghĩa; kiến thức không thay cho thêm thực hành.",
+          "advertise: quảng bá; không phải công phu của người tu."
+        ],
+        "dimension": "progression beyond a foundation"
+      }
+    ]
+  },
+  {
+    "id": "M173",
+    "sourceBlockId": "W15-B05",
+    "title": "Khảo sát, chọn lựa và phân tích phương pháp",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Còn phương pháp dụng công nhiếp tâm cho thiền định thì Phật cũng đã linh động dạy rất nhiều cách thức,",
+        "targetVietnamese": "Còn phương pháp dụng công nhiếp tâm cho thiền định thì Phật cũng đã linh động dạy rất nhiều cách thức,",
+        "sentence": "The Buddha has flexibly ___ many ways of gathering the mind for meditation.",
+        "options": [
+          "taught",
+          "postulated",
+          "standardized",
+          "prohibited"
+        ],
+        "answer": 0,
+        "rationales": [
+          "taught: dạy; giữ vai trò truyền phương pháp để thực hành.",
+          "postulated: đặt giả thuyết; không giữ lời hướng dẫn tu thực.",
+          "standardized: chuẩn hóa một khuôn; trái linh động nhiều cách.",
+          "prohibited: cấm; đảo chiều của việc truyền dạy."
+        ],
+        "dimension": "teaching methods"
+      },
+      {
+        "sourceCue": "và sau này các đại sư cũng chế tác thêm.",
+        "targetVietnamese": "và sau này các đại sư cũng chế tác thêm.",
+        "sentence": "Later, great masters have ___ additional methods.",
+        "options": [
+          "devised",
+          "authenticated",
+          "inherited",
+          "catalogued"
+        ],
+        "answer": 0,
+        "rationales": [
+          "devised: chế tác ra; giữ nét sáng tạo thêm phương pháp.",
+          "authenticated: xác thực; chỉ kiểm điều đã có.",
+          "inherited: thừa hưởng; không tự chế tác mới.",
+          "catalogued: lập danh mục; sắp xếp cách cũ không phải sáng tạo thêm."
+        ],
+        "dimension": "devising"
+      },
+      {
+        "sourceCue": "Bây giờ thì chúng ta phải khảo sát mọi vấn đề liên quan đến Thiền để biết chọn lựa pháp môn hợp lý nhất cho bản thân mình và cho nhiều người khác.",
+        "targetVietnamese": "Bây giờ thì chúng ta phải khảo sát mọi vấn đề liên quan đến Thiền để biết chọn lựa pháp môn hợp lý nhất cho bản thân mình và cho nhiều người khác.",
+        "sentence": "We must now ___ all issues related to meditation so that we can choose the most suitable method for ourselves and many others.",
+        "options": [
+          "investigate",
+          "settle",
+          "dismiss",
+          "publicize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "investigate: khảo sát để hiểu; giữ bước nghiên cứu trước khi chọn.",
+          "settle: quyết định dứt; đi quá bước tìm hiểu.",
+          "dismiss: gạt đi; không phải xem xét mọi vấn đề.",
+          "publicize: công bố; truyền thông khác khảo sát cho rõ."
+        ],
+        "dimension": "investigation"
+      },
+      {
+        "sourceCue": "để biết chọn lựa pháp môn hợp lý nhất cho bản thân mình và cho nhiều người khác.",
+        "targetVietnamese": "để biết chọn lựa pháp môn hợp lý nhất cho bản thân mình và cho nhiều người khác.",
+        "sentence": "So that we can ___ the most suitable method for ourselves and many other people.",
+        "options": [
+          "select",
+          "endorse",
+          "impose",
+          "codify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "select: chọn theo mức phù hợp; đúng đích của khảo sát.",
+          "endorse: tán thành một cách đã có; chưa có so chọn cho người cụ thể.",
+          "impose: áp lên mọi người; thêm sự cưỡng chế.",
+          "codify: hệ thống hóa quy tắc; khác chọn pháp môn phù hợp."
+        ],
+        "dimension": "selection"
+      },
+      {
+        "sourceCue": "Những kiến thức về khoa học, y học, khí công, Âm Dương, cũng giúp chúng ta trong việc phân tích các pháp môn tu tập.",
+        "targetVietnamese": "Những kiến thức về khoa học, y học, khí công, Âm Dương, cũng giúp chúng ta trong việc phân tích các pháp môn tu tập.",
+        "sentence": "Knowledge of science, medicine, qigong, and yin and yang also ___ us in analyzing methods of practice.",
+        "options": [
+          "assists",
+          "authorizes",
+          "obliges",
+          "absolves"
+        ],
+        "answer": 0,
+        "rationales": [
+          "assists: giúp việc phân tích; không tự xác nhận mọi phương pháp đều đúng.",
+          "authorizes: cho thẩm quyền; khác cung cấp hiểu biết để phân tích.",
+          "obliges: bắt buộc; không giữ quan hệ hỗ trợ.",
+          "absolves: miễn lỗi; thêm trách nhiệm cần được tha."
+        ],
+        "dimension": "assistance in analysis"
+      }
+    ]
+  },
+  {
+    "id": "M174",
+    "sourceBlockId": "W15-B06",
+    "title": "Bỏ cuộc, loay hoay và quyết tâm theo đuổi",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Vọng tưởng làm tâm bị xao lãng là nỗi đau khổ ghê gớm của người tu thiền.",
+        "targetVietnamese": "Vọng tưởng làm tâm bị xao lãng là nỗi đau khổ ghê gớm của người tu thiền.",
+        "sentence": "Wandering thoughts ___ the mind, a source of terrible suffering for meditators.",
+        "options": [
+          "distract",
+          "constitute",
+          "decipher",
+          "shelter"
+        ],
+        "answer": 0,
+        "rationales": [
+          "distract: làm xao lãng; giữ tác động làm tâm mất tập trung.",
+          "constitute: cấu thành; khác làm trạng thái tâm bị phân tán.",
+          "decipher: giải mã; biến ý nghĩ thành người phân tích tâm.",
+          "shelter: che chở; đảo khổ gây ra thành sự bảo vệ."
+        ],
+        "dimension": "distraction"
+      },
+      {
+        "sourceCue": "Nhiều người trở nên chán nản rồi bỏ cuộc, và một khi đã bỏ thiền tập thì đường giải thoát đã đóng lại.",
+        "targetVietnamese": "Nhiều người trở nên chán nản rồi bỏ cuộc, và một khi đã bỏ thiền tập thì đường giải thoát đã đóng lại.",
+        "sentence": "Many become discouraged and ___; once meditation is abandoned, the path to liberation is closed.",
+        "options": [
+          "give up",
+          "fall behind",
+          "hold back",
+          "branch out"
+        ],
+        "answer": 0,
+        "rationales": [
+          "give up: bỏ cuộc; giữ chấm dứt công phu chứ không chỉ chậm.",
+          "fall behind: tụt sau người khác; chưa phải tự ngừng hẳn.",
+          "hold back: kiềm chưa tiến; có thể còn tiếp tục, không phải bỏ.",
+          "branch out: mở sang lĩnh vực khác; thêm hướng mới chưa được nêu."
+        ],
+        "dimension": "abandonment"
+      },
+      {
+        "sourceCue": "Nhiều người cố gắng suốt cả đời nhưng cũng loay hoay khi được khi mất chứ không thể tránh được sự xao lãng dứt khoát mãi mãi.",
+        "targetVietnamese": "Nhiều người cố gắng suốt cả đời nhưng cũng loay hoay khi được khi mất chứ không thể tránh được sự xao lãng dứt khoát mãi mãi.",
+        "sentence": "Many try all their lives yet fluctuate between success and loss and ___ permanent freedom from distraction.",
+        "options": [
+          "cannot secure",
+          "do not publicize",
+          "refuse to risk",
+          "do not dispute"
+        ],
+        "answer": 0,
+        "rationales": [
+          "cannot secure: không đạt giữ được vững mãi; giữ giới hạn kết quả của nhiều người.",
+          "do not publicize: không công bố; thêm chuyện riêng tư thay vì chưa đạt.",
+          "refuse to risk: không muốn liều; thêm thái độ tự từ chối.",
+          "do not dispute: không phản bác; nói quan điểm chứ không công phu."
+        ],
+        "dimension": "unsecured permanence"
+      },
+      {
+        "sourceCue": "Tâm không xao lãng, có chánh niệm, khiến ta phấn khởi tin tưởng đi tới.",
+        "targetVietnamese": "Tâm không xao lãng, có chánh niệm, khiến ta phấn khởi tin tưởng đi tới.",
+        "sentence": "An undistracted, mindful state ___ us to advance with enthusiasm and confidence.",
+        "options": [
+          "inspires",
+          "obliges",
+          "licenses",
+          "forces"
+        ],
+        "answer": 0,
+        "rationales": [
+          "inspires: khơi phấn khởi tin tưởng; giữ động lực tự thân.",
+          "obliges: buộc theo nghĩa vụ; không diễn niềm vui làm động lực.",
+          "licenses: cấp phép; thêm thẩm quyền cho phép tiến.",
+          "forces: cưỡng ép; trái sự hăng hái tự nhiên được nêu."
+        ],
+        "dimension": "encouragement"
+      },
+      {
+        "sourceCue": "Ta phải xác định lập trường là dù khó khăn cách mấy vẫn quyết lòng theo đuổi.",
+        "targetVietnamese": "Ta phải xác định lập trường là dù khó khăn cách mấy vẫn quyết lòng theo đuổi.",
+        "sentence": "However difficult it becomes, we must ___ continuing the practice.",
+        "options": [
+          "commit ourselves to",
+          "seek recognition for",
+          "raise objections to",
+          "make excuses for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "commit ourselves to: quyết lòng gắn bó; giữ lập trường theo đuổi dù khó.",
+          "seek recognition for: tìm ghi công; thêm danh vọng làm đích.",
+          "raise objections to: phản đối; trái lời xác định theo đuổi.",
+          "make excuses for: biện hộ; chưa phải quyết thực hiện."
+        ],
+        "dimension": "steadfast commitment"
+      }
+    ]
+  }
+,
+  {
+    "id": "M175",
+    "sourceBlockId": "W15-B07",
+    "title": "Nghiệp vơi nhẹ, tâm dễ chú ý và nỗ lực không thiếu công đức",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi ác nghiệp quá khứ đã được vơi nhẹ, khi thiện nghiệp hiện tại đã huân tập được nhiều, tự nhiên tâm ta trở nên trầm tĩnh, sáng suốt,",
+        "targetVietnamese": "Khi ác nghiệp quá khứ đã được vơi nhẹ, khi thiện nghiệp hiện tại đã huân tập được nhiều, tự nhiên tâm ta trở nên trầm tĩnh, sáng suốt,",
+        "sentence": "When past unwholesome karma has been ___ and much present wholesome karma cultivated, the mind naturally becomes calm and clear.",
+        "options": [
+          "lessened",
+          "absolved",
+          "concealed",
+          "reclassified"
+        ],
+        "answer": 0,
+        "rationales": [
+          "lessened: được làm vơi; giữ mức nhẹ bớt, chưa nói xóa sạch.",
+          "absolved: được tuyên tha; thêm một quyền lực xét tha lỗi.",
+          "concealed: bị che giấu; cái không thấy chưa phải đã giảm.",
+          "reclassified: được đổi phân loại; chỉ đổi tên, không đổi sức nặng."
+        ],
+        "dimension": "lessening"
+      },
+      {
+        "sourceCue": "dễ chú tâm theo hơi thở, ít bị vọng tưởng làm xao lãng.",
+        "targetVietnamese": "dễ chú tâm theo hơi thở, ít bị vọng tưởng làm xao lãng.",
+        "sentence": "The mind can ___ the breath more easily and is less distracted by wandering thoughts.",
+        "options": [
+          "attend to",
+          "meddle with",
+          "disregard",
+          "regulate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "attend to: chú tâm theo; giữ biết hơi mà không tự điều khiển.",
+          "meddle with: can thiệp vụng vào; không phải chú tâm theo dõi.",
+          "disregard: bỏ qua; đảo hướng quan tâm được nói.",
+          "regulate: điều chỉnh nhịp; thêm tác động lên đối tượng."
+        ],
+        "dimension": "attending"
+      },
+      {
+        "sourceCue": "Rồi chỉ cần khéo léo tinh tấn nhẹ nhàng theo dõi hơi thở ra vào, tâm ta có thể nhanh chóng xuất hiện trạng thái Chánh niệm tỉnh giác.",
+        "targetVietnamese": "Rồi chỉ cần khéo léo tinh tấn nhẹ nhàng theo dõi hơi thở ra vào, tâm ta có thể nhanh chóng xuất hiện trạng thái Chánh niệm tỉnh giác.",
+        "sentence": "Then skillful, gentle perseverance in ___ the in-breath and out-breath can quickly bring about Right Mindfulness and lucid awareness.",
+        "options": [
+          "following",
+          "patterning",
+          "curtailing",
+          "stylizing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "following: theo dõi; giữ tinh tấn nhẹ nhàng chứ không ép mẫu.",
+          "patterning: đặt thành khuôn nhịp; thêm sự điều khiển.",
+          "curtailing: cắt bớt; không phải chỉ biết nhịp vào ra.",
+          "stylizing: cách điệu; thêm một hình thức chủ ý bày ra."
+        ],
+        "dimension": "following"
+      },
+      {
+        "sourceCue": "tâm ta có thể nhanh chóng xuất hiện trạng thái Chánh niệm tỉnh giác.",
+        "targetVietnamese": "tâm ta có thể nhanh chóng xuất hiện trạng thái Chánh niệm tỉnh giác.",
+        "sentence": "A state of Right Mindfulness and lucid awareness can quickly ___ in the mind.",
+        "options": [
+          "arise",
+          "congeal",
+          "oscillate",
+          "subside"
+        ],
+        "answer": 0,
+        "rationales": [
+          "arise: xuất hiện; giữ có thể chứ chưa phải luôn chắc chắn.",
+          "congeal: đông đặc; thêm tính cứng khối không có.",
+          "oscillate: dao động; nói tới lui sau khi đã có trạng thái.",
+          "subside: lắng mất; ngược chiều bắt đầu có."
+        ],
+        "dimension": "arising"
+      },
+      {
+        "sourceCue": "Người không biết gây tạo công đức, cứ loay hoay lo nhiếp tâm, có khi cả đời chưa đạt được trạng thái Chánh niệm tỉnh giác.",
+        "targetVietnamese": "Người không biết gây tạo công đức, cứ loay hoay lo nhiếp tâm, có khi cả đời chưa đạt được trạng thái Chánh niệm tỉnh giác.",
+        "sentence": "Those who do not create merit but keep ___ to gather the mind may go a whole lifetime without attaining Right Mindfulness and lucid awareness.",
+        "options": [
+          "struggling",
+          "preparing",
+          "pretending",
+          "refusing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "struggling: loay hoay nỗ lực khó nhọc; giữ việc có tập mà có khi chưa đạt.",
+          "preparing: chuẩn bị làm; chưa có công phu đang loay hoay.",
+          "pretending: làm bộ; thêm sự gian dối chưa được nêu.",
+          "refusing: từ chối; trái việc đang cố nhiếp tâm."
+        ],
+        "dimension": "ineffective struggle"
+      }
+    ]
+  },
+  {
+    "id": "M176",
+    "sourceBlockId": "W15-B08",
+    "title": "Học, hành thiền, phụng sự và điều kiện nhập thất",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi còn là học Tăng, học Ni, chúng ta phải vất vả cùng một lúc vừa học giáo lý, vừa tu tập thiền định, vừa công quả tạo phước.",
+        "targetVietnamese": "Khi còn là học Tăng, học Ni, chúng ta phải vất vả cùng một lúc vừa học giáo lý, vừa tu tập thiền định, vừa công quả tạo phước.",
+        "sentence": "As monks and nuns in training, we must work hard to ___ doctrinal study, meditation, and volunteer service that creates blessings.",
+        "options": [
+          "combine",
+          "alternate",
+          "rank",
+          "delegate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "combine: kết hợp cùng lúc; giữ cả ba phần việc phải tự làm.",
+          "alternate: luân phiên từng lượt; thiếu ý cùng một lúc.",
+          "rank: xếp hạng ưu tiên; không tự là thực hiện cả ba.",
+          "delegate: giao người khác; sai chủ thể phải vất vả làm."
+        ],
+        "dimension": "combined practice"
+      },
+      {
+        "sourceCue": "Đến khi nào công đức sung mãn, ta mới có thể nhập thất chuyên chú thiền định để tiến sâu vào các mức định.",
+        "targetVietnamese": "Đến khi nào công đức sung mãn, ta mới có thể nhập thất chuyên chú thiền định để tiến sâu vào các mức định.",
+        "sentence": "Only when merit is abundant can we ___ a solitary retreat devoted to meditation to advance into deeper levels of meditative absorption.",
+        "options": [
+          "undertake",
+          "supervise",
+          "finance",
+          "certify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "undertake: đích thân vào đợt tu; giữ việc tự nhập thất.",
+          "supervise: giám sát người khác; không phải mình chuyên chú thiền.",
+          "finance: cấp kinh phí; đóng tiền khác với nhập thất.",
+          "certify: chứng nhận; thêm quyền thẩm định người tu."
+        ],
+        "dimension": "entering retreat"
+      },
+      {
+        "sourceCue": "Nhưng cũng đã có nhiều người chưa cần nhập thất mà tâm đã khai mở chỉ vì phước đã đủ.",
+        "targetVietnamese": "Nhưng cũng đã có nhiều người chưa cần nhập thất mà tâm đã khai mở chỉ vì phước đã đủ.",
+        "sentence": "Yet many people’s minds have already ___ without a retreat, simply because their blessings were sufficient.",
+        "options": [
+          "opened",
+          "wandered",
+          "hardened",
+          "relapsed"
+        ],
+        "answer": 0,
+        "rationales": [
+          "opened: khai mở; giữ thành tựu đã có mà chưa cần nhập thất.",
+          "wandered: đi lang thang; khác mức tâm khai mở.",
+          "hardened: trở nên cứng; không diễn sự mở ra của tâm.",
+          "relapsed: tái sa sút; cần có lần đạt rồi mất trước đó."
+        ],
+        "dimension": "opening"
+      },
+      {
+        "sourceCue": "Thời gian dành cho việc gây tạo công đức càng nhiều",
+        "targetVietnamese": "Thời gian dành cho việc gây tạo công đức càng nhiều",
+        "sentence": "The more time we devote to ___ merit,",
+        "options": [
+          "creating",
+          "claiming",
+          "cataloguing",
+          "apportioning"
+        ],
+        "answer": 0,
+        "rationales": [
+          "creating: gây tạo; giữ việc làm thật chứ không lời nhận công.",
+          "claiming: nhận về mình; có thể tự nhận mà chưa làm.",
+          "cataloguing: ghi danh mục; đếm lại không phải tạo thêm.",
+          "apportioning: chia phần; đòi công đức sẵn có để phân bổ."
+        ],
+        "dimension": "creating merit"
+      },
+      {
+        "sourceCue": "thì sau này thời gian dành cho việc dụng công thiền định càng đỡ phải tốn kém hơn.",
+        "targetVietnamese": "thì sau này thời gian dành cho việc dụng công thiền định càng đỡ phải tốn kém hơn.",
+        "sentence": "The less time we will later need to ___ to intensive meditation.",
+        "options": [
+          "devote",
+          "defer",
+          "attribute",
+          "compare"
+        ],
+        "answer": 0,
+        "rationales": [
+          "devote: dành ra cho công phu; giữ lượng thời gian cần bỏ giảm.",
+          "defer: hoãn lại; đổi dành bao lâu thành làm lúc nào.",
+          "attribute: quy cho nguyên nhân; không phải phân thời gian tu.",
+          "compare: đem so; không diễn việc thực sự dùng thời gian."
+        ],
+        "dimension": "time devoted"
+      }
+    ]
+  },
+  {
+    "id": "M177",
+    "sourceBlockId": "W15-B09",
+    "title": "Hiểu chướng ngại và bền chí trên con đường lâu dài",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Trừ những bậc Bồ tát thị hiện, còn lại ai cũng phải gặp nhiều chướng ngại trên con đường tu tập Thiền định.",
+        "targetVietnamese": "Trừ những bậc Bồ tát thị hiện, còn lại ai cũng phải gặp nhiều chướng ngại trên con đường tu tập Thiền định.",
+        "sentence": "Apart from Bodhisattvas manifesting in the world, everyone must ___ many obstacles on the path of meditation.",
+        "options": [
+          "encounter",
+          "fabricate",
+          "solicit",
+          "canonize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "encounter: gặp phải; không tự gây hoặc mong được giao chướng ngại.",
+          "fabricate: bịa hoặc tạo ra; thêm tác nhân tự làm khó mình.",
+          "solicit: xin được nhận; đổi khó gặp phải thành mục đích muốn có.",
+          "canonize: tôn làm chuẩn thiêng; không phải sự gặp trở ngại."
+        ],
+        "dimension": "encountering obstacles"
+      },
+      {
+        "sourceCue": "Vì vậy ta phải hiểu rõ bản chất những chướng ngại đó để vững tâm vượt qua.",
+        "targetVietnamese": "Vì vậy ta phải hiểu rõ bản chất những chướng ngại đó để vững tâm vượt qua.",
+        "sentence": "We must therefore understand the nature of these obstacles clearly so that we can ___ them with a steady mind.",
+        "options": [
+          "overcome",
+          "overlook",
+          "outwardly disguise",
+          "merely classify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "overcome: vượt qua thật; giữ mục đích hiểu để tiến chứ không lờ đi.",
+          "overlook: bỏ sót hoặc không quan tâm; không phải vượt được.",
+          "outwardly disguise: che vẻ ngoài; khó khăn vẫn còn nguyên.",
+          "merely classify: chỉ phân loại; biết tên chưa đủ để vượt."
+        ],
+        "dimension": "overcoming"
+      },
+      {
+        "sourceCue": "Có những chướng ngại dễ được vượt qua, nhưng cũng có những chướng ngại làm ta vất vả cả đời.",
+        "targetVietnamese": "Có những chướng ngại dễ được vượt qua, nhưng cũng có những chướng ngại làm ta vất vả cả đời.",
+        "sentence": "Some obstacles are easily overcome, while others ___ us for a lifetime.",
+        "options": [
+          "tax",
+          "exonerate",
+          "vindicate",
+          "foretell"
+        ],
+        "answer": 0,
+        "rationales": [
+          "tax: làm hao công sức; giữ sự vất vả suốt đời.",
+          "exonerate: tuyên miễn lỗi; không diễn khó khăn phải chịu.",
+          "vindicate: chứng minh ta đúng; thêm kết quả được minh oan.",
+          "foretell: báo trước về ta; không phải gánh nặng kéo dài."
+        ],
+        "dimension": "lifelong strain"
+      },
+      {
+        "sourceCue": "Ta phải biết nghiệp của mình cũng như phải biết cơ cấu của từng chướng ngại để chuẩn bị tinh thần cho sự chiến đấu lâu dài.",
+        "targetVietnamese": "Ta phải biết nghiệp của mình cũng như phải biết cơ cấu của từng chướng ngại để chuẩn bị tinh thần cho sự chiến đấu lâu dài.",
+        "sentence": "We must know our karma and the structure of each obstacle to ___ a long struggle.",
+        "options": [
+          "prepare ourselves for",
+          "claim exemption from",
+          "declare victory over",
+          "negotiate an end to"
+        ],
+        "answer": 0,
+        "rationales": [
+          "prepare ourselves for: chuẩn bị tinh thần; giữ cuộc đối diện còn phía trước.",
+          "claim exemption from: xin miễn; trái sẵn sàng chịu công phu dài.",
+          "declare victory over: tuyên thắng; đi quá bước chuẩn bị.",
+          "negotiate an end to: thương lượng kết thúc; thêm bên đối tác không có."
+        ],
+        "dimension": "preparation"
+      },
+      {
+        "sourceCue": "Mỗi kiếp chuyên cần là một bước tiến đến gần sự Giác ngộ nếu ta giữ vững chí nguyện của mình.",
+        "targetVietnamese": "Mỗi kiếp chuyên cần là một bước tiến đến gần sự Giác ngộ nếu ta giữ vững chí nguyện của mình.",
+        "sentence": "Every diligent lifetime brings us a step closer to awakening if we ___ our aspiration.",
+        "options": [
+          "hold fast to",
+          "merely profess",
+          "bargain over",
+          "take leave of"
+        ],
+        "answer": 0,
+        "rationales": [
+          "hold fast to: giữ vững; giữ điều kiện chí nguyện bền chứ không chỉ nói.",
+          "merely profess: chỉ tuyên bố; có lời mà chưa có sự bền lòng.",
+          "bargain over: mặc cả; thêm điều kiện trao đổi cho nguyện.",
+          "take leave of: chia tay; trái giữ nguyện không rời."
+        ],
+        "dimension": "steadfast aspiration"
+      }
+    ]
+  },
+  {
+    "id": "M178",
+    "sourceBlockId": "W15-B10",
+    "title": "Nhiếp tâm: khác biệt căn cơ và mục tiêu chính",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Chướng ngại thứ hai, và cũng là chướng ngại chính của việc tu tập Thiền định chính là vọng tưởng.",
+        "targetVietnamese": "Chướng ngại thứ hai, và cũng là chướng ngại chính của việc tu tập Thiền định chính là vọng tưởng.",
+        "sentence": "Wandering thoughts ___ the second and principal obstacle in meditation.",
+        "options": [
+          "constitute",
+          "foretell",
+          "alleviate",
+          "transcend"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitute: chính là; giữ quan hệ nhận diện chướng ngại.",
+          "foretell: báo trước; không nói chính chúng là chướng ngại.",
+          "alleviate: làm nhẹ; đảo vật cản thành phương tiện giúp.",
+          "transcend: vượt khỏi; không phải nêu tên vật cản."
+        ],
+        "dimension": "identifying an obstacle"
+      },
+      {
+        "sourceCue": "Có người nhiếp tâm dễ dàng, nhưng cũng có người nhiếp tâm rất vất vả.",
+        "targetVietnamese": "Có người nhiếp tâm dễ dàng, nhưng cũng có người nhiếp tâm rất vất vả.",
+        "sentence": "Some can ___ the mind easily, while others struggle greatly to do so.",
+        "options": [
+          "gather",
+          "depict",
+          "divert",
+          "disown"
+        ],
+        "answer": 0,
+        "rationales": [
+          "gather: thu nhiếp; giữ việc tâm được quy tụ.",
+          "depict: miêu tả; không phải tự gom sự chú ý.",
+          "divert: lái sang nơi khác; khác tập trung không tán loạn.",
+          "disown: chối tâm là của mình; không giữ hoạt động nhiếp tâm."
+        ],
+        "dimension": "gathering the mind"
+      },
+      {
+        "sourceCue": "Đây là nhân duyên riêng, năng khiếu riêng của mỗi người, không ai giống ai.",
+        "targetVietnamese": "Đây là nhân duyên riêng, năng khiếu riêng của mỗi người, không ai giống ai.",
+        "sentence": "Each person has distinct conditions and aptitude; no two people ___.",
+        "options": [
+          "are alike",
+          "compete",
+          "confer",
+          "collaborate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "are alike: giống nhau; phủ định giữ sự riêng biệt cá nhân.",
+          "compete: thi đấu; thêm quan hệ tranh hơn.",
+          "confer: cùng bàn bạc ý kiến; không diễn sự giống hay khác nhau về căn cơ.",
+          "collaborate: cùng làm; không diễn sự tương đồng."
+        ],
+        "dimension": "individual differences"
+      },
+      {
+        "sourceCue": "Nói đến Thiền định là nói đến mục tiêu nội tâm vắng lặng không còn vọng tưởng.",
+        "targetVietnamese": "Nói đến Thiền định là nói đến mục tiêu nội tâm vắng lặng không còn vọng tưởng.",
+        "sentence": "Meditation ___ the goal of inner stillness free from wandering thoughts.",
+        "options": [
+          "aims at",
+          "testifies to",
+          "makes up for",
+          "dispenses with"
+        ],
+        "answer": 0,
+        "rationales": [
+          "aims at: hướng tới đích; không nhận là đã đạt trước.",
+          "testifies to: chứng thực đã có; vượt quá mức mục tiêu.",
+          "makes up for: bù đắp; thêm một thiếu hụt cần bù.",
+          "dispenses with: bỏ không cần; đảo điều cốt lõi thành thừa."
+        ],
+        "dimension": "goal orientation"
+      },
+      {
+        "sourceCue": "Vì vậy dù chúng ta sử dụng nhiều phương tiện như thế nào, cũng phải có một điểm chủ yếu phải thành tựu, đó là hết vọng tưởng.",
+        "targetVietnamese": "Vì vậy dù chúng ta sử dụng nhiều phương tiện như thế nào, cũng phải có một điểm chủ yếu phải thành tựu, đó là hết vọng tưởng.",
+        "sentence": "Whatever means we use, we must ___ the central result: the ending of wandering thoughts.",
+        "options": [
+          "achieve",
+          "announce",
+          "hypothesize",
+          "rename"
+        ],
+        "answer": 0,
+        "rationales": [
+          "achieve: thành tựu thực; giữ điều phải làm được.",
+          "announce: công bố; lời nói không bảo đảm kết quả.",
+          "hypothesize: đặt giả thuyết; chưa là tự tu đạt.",
+          "rename: đổi tên; không thay đổi trạng thái tâm."
+        ],
+        "dimension": "attaining a result"
+      }
+    ]
+  },
+  {
+    "id": "M179",
+    "sourceBlockId": "W15-B11",
+    "title": "Nền móng đầy đủ và công phu sau khi tâm đã vắng",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Người khôn ngoan trí tuệ là người biết chuẩn bị những nền móng đầy đủ trước khi tiến tới mục tiêu chính.",
+        "targetVietnamese": "Người khôn ngoan trí tuệ là người biết chuẩn bị những nền móng đầy đủ trước khi tiến tới mục tiêu chính.",
+        "sentence": "Wise people ___ complete foundations before advancing toward the principal goal.",
+        "options": [
+          "lay",
+          "survey",
+          "advertise",
+          "inherit"
+        ],
+        "answer": 0,
+        "rationales": [
+          "lay: dựng nền; giữ tự chuẩn bị cho đủ trước khi tiến.",
+          "survey: khảo sát nền; xem xét chưa phải tạo nền đầy đủ.",
+          "advertise: quảng bá nền; không thay việc tự chuẩn bị.",
+          "inherit: thừa hưởng; thêm chuyện nhận nền từ người khác."
+        ],
+        "dimension": "laying foundations"
+      },
+      {
+        "sourceCue": "Và khi tâm đã đạt được sự vắng lặng cũng không phải là hết việc.",
+        "targetVietnamese": "Và khi tâm đã đạt được sự vắng lặng cũng không phải là hết việc.",
+        "sentence": "Even when the mind has attained stillness, our work has not ___.",
+        "options": [
+          "ended",
+          "deepened",
+          "diversified",
+          "stabilized"
+        ],
+        "answer": 0,
+        "rationales": [
+          "ended: kết thúc; phủ định giữ còn công phu phía trước.",
+          "deepened: đi sâu hơn; khác việc còn hay hết.",
+          "diversified: chia nhiều nhánh; không phải nghĩa hết việc.",
+          "stabilized: thành ổn định; nói tính chất, không nói chấm dứt."
+        ],
+        "dimension": "unfinished work"
+      },
+      {
+        "sourceCue": "Đó chỉ là khởi đầu cho một quá trình Thiền định thật sự sắp tới.",
+        "targetVietnamese": "Đó chỉ là khởi đầu cho một quá trình Thiền định thật sự sắp tới.",
+        "sentence": "That merely ___ the beginning of the true meditative process that lies ahead.",
+        "options": [
+          "marks",
+          "forecloses",
+          "postpones",
+          "replaces"
+        ],
+        "answer": 0,
+        "rationales": [
+          "marks: đánh dấu chính khởi đầu; giữ còn tiến trình thật phía trước.",
+          "forecloses: loại bỏ khả năng; ngược mở đầu.",
+          "postpones: hoãn lại; thêm sự chưa bắt đầu do trì hoãn.",
+          "replaces: thay thế; làm mất tiến trình thay vì dẫn vào."
+        ],
+        "dimension": "beginning"
+      },
+      {
+        "sourceCue": "Đức Phật đã dạy rất nhiều phương pháp nhiếp tâm diệt trừ vọng tưởng theo nhiều căn cơ khác nhau, và tất cả những phương pháp đó đều nhất quán xuyên suốt.",
+        "targetVietnamese": "Đức Phật đã dạy rất nhiều phương pháp nhiếp tâm diệt trừ vọng tưởng theo nhiều căn cơ khác nhau, và tất cả những phương pháp đó đều nhất quán xuyên suốt.",
+        "sentence": "The Buddha has ___ many methods of gathering the mind and eliminating wandering thoughts for different aptitudes, all consistent throughout.",
+        "options": [
+          "taught",
+          "postulated",
+          "revoked",
+          "withheld"
+        ],
+        "answer": 0,
+        "rationales": [
+          "taught: truyền dạy; giữ nguồn nhiều phương pháp nhất quán.",
+          "postulated: đặt giả thuyết; khác hướng dẫn tu thực.",
+          "revoked: bãi bỏ; đảo truyền pháp thành rút lại.",
+          "withheld: giữ không cho; trái đã dạy nhiều cách."
+        ],
+        "dimension": "teaching consistently"
+      },
+      {
+        "sourceCue": "Sau này nhiều bậc đại sư cũng lập thêm ra những pháp môn khác để giúp nhiếp tâm, nhưng cũng góp phần làm đạo Phật bị phân hóa.",
+        "targetVietnamese": "Sau này nhiều bậc đại sư cũng lập thêm ra những pháp môn khác để giúp nhiếp tâm, nhưng cũng góp phần làm đạo Phật bị phân hóa.",
+        "sentence": "Later, great masters also ___ additional methods to help gather the mind, but these also contributed to divisions within Buddhism.",
+        "options": [
+          "devised",
+          "canonized",
+          "restored",
+          "deprecated"
+        ],
+        "answer": 0,
+        "rationales": [
+          "devised: lập thêm ra; giữ sự sáng tạo phương pháp theo lời nguồn.",
+          "canonized: đưa thành kinh điển chuẩn; mạnh hơn tự lập thêm.",
+          "restored: khôi phục cái đã mất; thêm lịch sử trước đó từng có.",
+          "deprecated: chê bỏ; đảo hành vi đề xuất thêm phương pháp."
+        ],
+        "dimension": "devising versus restoring"
+      }
+    ],
+    "sourceOverride": {
+      "id": "S04",
+      "title": "Giáo Trình Thiền Học",
+      "locators": [
+        "epub:c:0001:b:0394",
+        "epub:c:0001:b:0395"
+      ],
+      "paragraphs": [
+        "Tuy nhiên nếu ta hấp tấp đi thẳng vào nội tâm, chỉ biết có việc diệt trừ vọng tưởng, tức là ta thiếu sự chuẩn bị cần thiết vững chắc phía trước như tạo ra một Âm lực dồi dào, một thân thể an ổn, một Đạo đức thuần thục, một công đức sung mãn. Người khôn ngoan trí tuệ là người biết chuẩn bị những nền móng đầy đủ trước khi tiến tới mục tiêu chính.",
+        "Và khi tâm đã đạt được sự vắng lặng cũng không phải là hết việc. Đó chỉ là khởi đầu cho một quá trình Thiền định thật sự sắp tới. Đức Phật đã dạy rất nhiều phương pháp nhiếp tâm diệt trừ vọng tưởng theo nhiều căn cơ khác nhau, và tất cả những phương pháp đó đều nhất quán xuyên suốt. Sau này nhiều bậc đại sư cũng lập thêm ra những pháp môn khác để giúp nhiếp tâm, nhưng cũng góp phần làm đạo Phật bị phân hóa."
+      ],
+      "sha256": "2ad3cd16aafb71dfe8621a39c63216115124e4cb09ddd1917c22ca177add271b"
+    }
+  },
+  {
+    "id": "M180",
+    "sourceBlockId": "W15-B12",
+    "title": "Mỗi người một thời gian và tâm dần yên lắng",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi ta thực hành đúng theo đường lối căn bản của Phật dạy, với nền tảng công đức, Đạo đức, Khí công, Điều thân, dần dần tâm ta sẽ yên lắng.",
+        "targetVietnamese": "Khi ta thực hành đúng theo đường lối căn bản của Phật dạy, với nền tảng công đức, Đạo đức, Khí công, Điều thân, dần dần tâm ta sẽ yên lắng.",
+        "sentence": "Practicing correctly along the Buddha’s basic path, with foundations of merit, ethics, qigong, and bodily regulation, the mind gradually ___.",
+        "options": [
+          "settles",
+          "congeals",
+          "wanders",
+          "revolts"
+        ],
+        "answer": 0,
+        "rationales": [
+          "settles: yên lắng; không tự biến thành trống rỗng hay cứng đặc.",
+          "congeals: đông lại; thêm tính cứng khối không được nêu.",
+          "wanders: lang thang; trái kết quả yên của nguồn.",
+          "revolts: nổi loạn; đảo kết quả thực hành đúng."
+        ],
+        "dimension": "gradual settling"
+      },
+      {
+        "sourceCue": "Thời gian để tâm đi vào yên lắng tùy thuộc vào căn cơ nhân duyên của mỗi người.",
+        "targetVietnamese": "Thời gian để tâm đi vào yên lắng tùy thuộc vào căn cơ nhân duyên của mỗi người.",
+        "sentence": "The time needed for the mind to become quiet ___ each person’s aptitude and conditions.",
+        "options": [
+          "depends on",
+          "gives rise to",
+          "passes judgment on",
+          "makes up for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "depends on: tùy thuộc; giữ căn cơ nhân duyên làm yếu tố chi phối.",
+          "gives rise to: sinh ra; đảo thời gian thành nguyên nhân căn cơ.",
+          "passes judgment on: phán xét; thêm người đánh giá không có.",
+          "makes up for: bù đắp; không phải quan hệ thời gian được quyết định."
+        ],
+        "dimension": "individual dependence"
+      },
+      {
+        "sourceCue": "Có người vài năm,",
+        "targetVietnamese": "Có người vài năm,",
+        "sentence": "For some people, this process ___ a few years.",
+        "options": [
+          "takes",
+          "saves",
+          "buys",
+          "repays"
+        ],
+        "answer": 0,
+        "rationales": [
+          "takes: mất chừng ấy thời gian; giữ số năm công phu.",
+          "saves: tiết kiệm; thêm so sánh với mốc lâu hơn.",
+          "buys: mua thêm thời gian; khác thời lượng cần bỏ.",
+          "repays: hoàn trả; thêm món nợ thời gian không có."
+        ],
+        "dimension": "time taken"
+      },
+      {
+        "sourceCue": "có người vài chục năm.",
+        "targetVietnamese": "có người vài chục năm.",
+        "sentence": "For others, the practice ___ over several decades.",
+        "options": [
+          "extends",
+          "recedes",
+          "oscillates",
+          "presides"
+        ],
+        "answer": 0,
+        "rationales": [
+          "extends: trải dài; giữ thời lượng nhiều chục năm.",
+          "recedes: lùi xa; không nói kéo dài công phu.",
+          "oscillates: dao động; thêm sự lên xuống chưa có ở mệnh đề này.",
+          "presides: chủ trì; không diễn một khoảng thời gian."
+        ],
+        "dimension": "decades of practice"
+      },
+      {
+        "sourceCue": "Khi vọng tưởng đã yên lắng, đó là lúc ta vượt qua được chướng ngại thứ hai.",
+        "targetVietnamese": "Khi vọng tưởng đã yên lắng, đó là lúc ta vượt qua được chướng ngại thứ hai.",
+        "sentence": "Once wandering thoughts have quieted, we have ___ the second obstacle.",
+        "options": [
+          "overcome",
+          "catalogued",
+          "predicted",
+          "personified"
+        ],
+        "answer": 0,
+        "rationales": [
+          "overcome: vượt qua; giữ kết quả công phu đã thành.",
+          "catalogued: lập danh mục; biết tên chưa phải vượt.",
+          "predicted: dự báo; mới hướng tương lai chứ chưa đạt.",
+          "personified: nhân cách hóa; thêm tưởng tạo hình người cho chướng ngại."
+        ],
+        "dimension": "overcoming the second obstacle"
+      }
+    ]
+  }
+,
+  {
+    "id": "M181",
+    "sourceBlockId": "W16-B01",
+    "title": "Không xao lãng: kết quả có thật và vọng tưởng được thấy sớm",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Thứ hai, Chánh Niệm là trạng thái của Tâm đã có kết quả tâm linh, mà biểu hiện rõ nhất là không bao giờ quên mất sự dụng công tu tập.",
+        "targetVietnamese": "Thứ hai, Chánh Niệm là trạng thái của Tâm đã có kết quả tâm linh, mà biểu hiện rõ nhất là không bao giờ quên mất sự dụng công tu tập.",
+        "sentence": "Second, Right Mindfulness ___ a spiritual attainment of mind, shown most clearly by never forgetting the practice.",
+        "options": [
+          "constitutes",
+          "forecasts",
+          "imitates",
+          "obscures"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitutes: là kết quả đã có; giữ sự thành tựu thực của tâm.",
+          "forecasts: dự báo sẽ có; chưa phải tâm đã đạt kết quả.",
+          "imitates: bắt chước vẻ ngoài; thêm sự giả lập.",
+          "obscures: che khuất; ngược việc thể hiện rõ kết quả."
+        ],
+        "dimension": "attainment rather than promise"
+      },
+      {
+        "sourceCue": "Vọng tưởng có thể còn, nhưng không đủ sức làm tâm xao lãng.",
+        "targetVietnamese": "Vọng tưởng có thể còn, nhưng không đủ sức làm tâm xao lãng.",
+        "sentence": "Wandering thoughts may remain, but they lack the power to ___ the mind.",
+        "options": [
+          "distract",
+          "edify",
+          "reassure",
+          "vindicate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "distract: làm xao lãng; giữ giới hạn sức kéo khỏi công phu.",
+          "edify: giáo hóa; không phải tác dụng tán loạn.",
+          "reassure: trấn an; đổi tác động cản trở thành giúp yên.",
+          "vindicate: minh oan; thêm tranh chấp đúng sai chưa có."
+        ],
+        "dimension": "insufficient distraction"
+      },
+      {
+        "sourceCue": "Khi đã đạt được Chánh Niệm, tâm hành giả thường xuyên rỗng rang sáng suốt, và ít vọng tưởng.",
+        "targetVietnamese": "Khi đã đạt được Chánh Niệm, tâm hành giả thường xuyên rỗng rang sáng suốt, và ít vọng tưởng.",
+        "sentence": "Once Right Mindfulness is attained, the mind regularly ___ open and clear, with few wandering thoughts.",
+        "options": [
+          "remains",
+          "seems",
+          "is declared",
+          "is imagined"
+        ],
+        "answer": 0,
+        "rationales": [
+          "remains: duy trì trạng thái thực; giữ thường xuyên chứ không chỉ có vẻ.",
+          "seems: trông có vẻ; yếu hơn trạng thái tâm được khẳng định.",
+          "is declared: được tuyên bố; thêm người nhận xét bằng lời.",
+          "is imagined: được hình dung; biến kết quả thật thành tưởng tượng."
+        ],
+        "dimension": "remaining clear"
+      },
+      {
+        "sourceCue": "Vọng tưởng manh nha muốn khởi thì đã bị phát hiện và tự diệt trừ.",
+        "targetVietnamese": "Vọng tưởng manh nha muốn khởi thì đã bị phát hiện và tự diệt trừ.",
+        "sentence": "As wandering thoughts begin to stir, they are ___ and die away on their own.",
+        "options": [
+          "detected",
+          "anticipated",
+          "inferred",
+          "recalled"
+        ],
+        "answer": 0,
+        "rationales": [
+          "detected: được thấy ngay khi manh nha; giữ nhận biết điều đang có.",
+          "anticipated: được dự đoán trước; đổi phát hiện thành đoán tương lai.",
+          "inferred: được suy ra; khác trực tiếp thấy trong sâu kín.",
+          "recalled: được nhớ lại; đưa về quá khứ thay vì đang khởi."
+        ],
+        "dimension": "early detection"
+      },
+      {
+        "sourceCue": "Chúng ta có thể nói Chánh Niệm chính là tâm không xao lãng khi an trú trong pháp môn tu tập.",
+        "targetVietnamese": "Chúng ta có thể nói Chánh Niệm chính là tâm không xao lãng khi an trú trong pháp môn tu tập.",
+        "sentence": "Right Mindfulness can be ___ as the mind’s nondistraction while abiding in the method of practice.",
+        "options": [
+          "described",
+          "prescribed",
+          "enforced",
+          "advertised"
+        ],
+        "answer": 0,
+        "rationales": [
+          "described: nói, mô tả đúng là; giữ lời định nghĩa về trạng thái.",
+          "prescribed: được kê hoặc quy định phải làm; không phải định nghĩa.",
+          "enforced: được cưỡng chế; thêm tác nhân ép buộc.",
+          "advertised: được quảng bá; thêm việc truyền thông công chúng."
+        ],
+        "dimension": "defining a state"
+      }
+    ]
+  },
+  {
+    "id": "M182",
+    "sourceBlockId": "W16-B02",
+    "title": "Nhận ra tiến bộ, được khích lệ và đề phòng suy nghĩ sai",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "lúc đó, hành giả thật sự thành tựu Chánh Niệm tỉnh giác.",
+        "targetVietnamese": "lúc đó, hành giả thật sự thành tựu Chánh Niệm tỉnh giác.",
+        "sentence": "At that point, practitioners have genuinely ___ Right Mindfulness and lucid awareness.",
+        "options": [
+          "attained",
+          "foreseen",
+          "extolled",
+          "postulated"
+        ],
+        "answer": 0,
+        "rationales": [
+          "attained: thành tựu; giữ kết quả thật lúc đủ các dấu hiệu nguồn nêu.",
+          "foreseen: thấy trước; chưa có kết quả hiện tại.",
+          "extolled: ca ngợi; lời khen không thay việc tự đạt.",
+          "postulated: đặt giả thuyết; không giữ mức thật sự thành tựu."
+        ],
+        "dimension": "genuine attainment"
+      },
+      {
+        "sourceCue": "Đó là một trạng thái mới của tâm, khác nhiều so với nội tâm loạn động trước kia.",
+        "targetVietnamese": "Đó là một trạng thái mới của tâm, khác nhiều so với nội tâm loạn động trước kia.",
+        "sentence": "This new state of mind ___ greatly from the former agitation.",
+        "options": [
+          "differs",
+          "results",
+          "benefits",
+          "draws strength"
+        ],
+        "answer": 0,
+        "rationales": [
+          "differs: khác nhiều; giữ quan hệ so sánh hai trạng thái.",
+          "results: sinh ra từ; đổi khác biệt thành quan hệ nguyên nhân.",
+          "benefits: hưởng lợi từ; thêm một tác dụng chưa được nói.",
+          "draws strength: lấy sức từ; không phải nhận diện mức khác nhau."
+        ],
+        "dimension": "difference rather than derivation"
+      },
+      {
+        "sourceCue": "Chính nhờ kết quả ban đầu này mà chúng ta cảm thấy phấn khởi tin tưởng để tiến bước trên đường tu tập.",
+        "targetVietnamese": "Chính nhờ kết quả ban đầu này mà chúng ta cảm thấy phấn khởi tin tưởng để tiến bước trên đường tu tập.",
+        "sentence": "This initial result ___ us to advance on the path with enthusiasm and confidence.",
+        "options": [
+          "encourages",
+          "compels",
+          "licenses",
+          "requires"
+        ],
+        "answer": 0,
+        "rationales": [
+          "encourages: khích lệ từ kết quả đã có; giữ sự phấn khởi tin tưởng.",
+          "compels: cưỡng ép; không truyền động lực tự thân.",
+          "licenses: cấp phép; thêm một quyền cần được ban.",
+          "requires: đòi hỏi; chuyển niềm vui thành nghĩa vụ."
+        ],
+        "dimension": "encouragement"
+      },
+      {
+        "sourceCue": "Tuy nhiên nếu không được răn nhắc, chúng ta có thể xuất hiện một số suy nghĩ sai lầm",
+        "targetVietnamese": "Tuy nhiên nếu không được răn nhắc, chúng ta có thể xuất hiện một số suy nghĩ sai lầm",
+        "sentence": "Without admonition, we may ___ mistaken thoughts.",
+        "options": [
+          "develop",
+          "renounce",
+          "refute",
+          "diagnose"
+        ],
+        "answer": 0,
+        "rationales": [
+          "develop: nảy sinh; giữ khả năng có ý nghĩ sai, chưa khẳng định luôn có.",
+          "renounce: từ bỏ; trái hướng mới xuất hiện.",
+          "refute: bác lại; nghĩa là đang chống ý nghĩ sai.",
+          "diagnose: chẩn đoán; xác định ý sai chứ không sinh ý sai."
+        ],
+        "dimension": "mistaken thoughts developing"
+      },
+      {
+        "sourceCue": "Tuy nhiên nếu không được răn nhắc, chúng ta có thể xuất hiện một số suy nghĩ sai lầm đưa đến đổ vỡ về sau.",
+        "targetVietnamese": "Tuy nhiên nếu không được răn nhắc, chúng ta có thể xuất hiện một số suy nghĩ sai lầm đưa đến đổ vỡ về sau.",
+        "sentence": "Yet without admonition, we may develop mistaken thoughts that ___ later collapse.",
+        "options": [
+          "bring about",
+          "foreshadow",
+          "rationalize",
+          "document"
+        ],
+        "answer": 0,
+        "rationales": [
+          "bring about: đưa tới, gây ra; giữ nguy cơ hệ quả về sau.",
+          "foreshadow: báo hiệu; mới là dấu đi trước, chưa nói gây ra.",
+          "rationalize: biện hộ; làm hệ quả có vẻ hợp lý, không tạo ra nó.",
+          "document: ghi nhận; thuộc việc mô tả sau khi đã có."
+        ],
+        "dimension": "causal collapse"
+      }
+    ]
+  },
+  {
+    "id": "M183",
+    "sourceBlockId": "W16-B03",
+    "title": "Quý trọng, sử dụng và giữ kết quả Chánh Niệm",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Một suy nghĩ sai lầm khác là không biết quý trọng kết quả Chánh niệm đã đạt được,",
+        "targetVietnamese": "Một suy nghĩ sai lầm khác là không biết quý trọng kết quả Chánh niệm đã đạt được,",
+        "sentence": "Another error is failing to ___ the attainment of Right Mindfulness.",
+        "options": [
+          "value",
+          "publicize",
+          "certify",
+          "duplicate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "value: quý trọng; giữ thái độ đối với kết quả đã có.",
+          "publicize: công bố; không cần nói với người khác mới là quý.",
+          "certify: chứng nhận; thêm thẩm quyền xác thực.",
+          "duplicate: làm bản sao; không phải cách nâng niu thành tựu."
+        ],
+        "dimension": "valuing attainment"
+      },
+      {
+        "sourceCue": "không biết sử dụng Chánh niệm cho sự tu hành sắp tới.",
+        "targetVietnamese": "không biết sử dụng Chánh niệm cho sự tu hành sắp tới.",
+        "sentence": "Another failure is not knowing how to ___ Right Mindfulness for further practice.",
+        "options": [
+          "put to use",
+          "pass judgment on",
+          "lay claim to",
+          "pay lip service to"
+        ],
+        "answer": 0,
+        "rationales": [
+          "put to use: đem ứng dụng; đúng làm lợi cho công phu tiếp theo.",
+          "pass judgment on: đánh giá; chưa tận dụng năng lực sẵn có.",
+          "lay claim to: tự nhận là mình có; lời nhận không thay ứng dụng.",
+          "pay lip service to: chỉ tán thành bằng miệng; thiếu hành động thực."
+        ],
+        "dimension": "practical use"
+      },
+      {
+        "sourceCue": "Chánh niệm có công năng giúp ta dễ biết rõ lỗi lầm và vọng tưởng trong tâm.",
+        "targetVietnamese": "Chánh niệm có công năng giúp ta dễ biết rõ lỗi lầm và vọng tưởng trong tâm.",
+        "sentence": "Right Mindfulness ___ clear recognition of faults and wandering thoughts in the mind.",
+        "options": [
+          "facilitates",
+          "guarantees",
+          "replaces",
+          "conceals"
+        ],
+        "answer": 0,
+        "rationales": [
+          "facilitates: làm dễ hơn; đúng giúp dễ biết, chưa hứa thấy hết.",
+          "guarantees: bảo đảm chắc chắn; mạnh quá so với hỗ trợ.",
+          "replaces: thay thế; làm mất nhu cầu biết rõ.",
+          "conceals: che lấp; đảo công năng nhận ra thành giấu đi."
+        ],
+        "dimension": "facilitation"
+      },
+      {
+        "sourceCue": "Ta phải tận dụng tính chất đặc biệt này của Chánh niệm để kiểm soát lỗi lầm và vọng tưởng.",
+        "targetVietnamese": "Ta phải tận dụng tính chất đặc biệt này của Chánh niệm để kiểm soát lỗi lầm và vọng tưởng.",
+        "sentence": "We must ___ this special quality of Right Mindfulness to control faults and wandering thoughts.",
+        "options": [
+          "make full use of",
+          "take credit for",
+          "give publicity to",
+          "raise the profile of"
+        ],
+        "answer": 0,
+        "rationales": [
+          "make full use of: tận dụng; giữ hành động dùng hết lợi ích có sẵn.",
+          "take credit for: nhận công; chuyển hướng sang danh tiếng mình.",
+          "give publicity to: công bố; thông tin cho người không thay tự tu.",
+          "raise the profile of: làm nổi tiếng; không giữ công năng kiểm soát nội tâm."
+        ],
+        "dimension": "full utilization"
+      },
+      {
+        "sourceCue": "Lúc nào ta cũng phải giữ gìn sự tỉnh giác rỗng rang đó để nhanh chóng phát hiện vô số lỗi lầm và vọng tưởng thầm kín vẫn đang tiếp tục dấy khởi.",
+        "targetVietnamese": "Lúc nào ta cũng phải giữ gìn sự tỉnh giác rỗng rang đó để nhanh chóng phát hiện vô số lỗi lầm và vọng tưởng thầm kín vẫn đang tiếp tục dấy khởi.",
+        "sentence": "We must always ___ that open lucid awareness to detect quickly the countless hidden faults and wandering thoughts that continue to arise.",
+        "options": [
+          "preserve",
+          "simulate",
+          "announce",
+          "reconstruct"
+        ],
+        "answer": 0,
+        "rationales": [
+          "preserve: giữ gìn điều đang có; giữ công phu liên tục.",
+          "simulate: giả lập; không phải trạng thái tỉnh giác thật.",
+          "announce: tuyên bố; chưa duy trì trạng thái nội tâm.",
+          "reconstruct: dựng lại sau khi mất; thêm một lần đứt mất trước đó."
+        ],
+        "dimension": "preserving awareness"
+      }
+    ]
+  },
+  {
+    "id": "M184",
+    "sourceBlockId": "W16-B04",
+    "title": "Nhắc tâm còn phiền động và không lầm yên với thanh tịnh",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Khi đang tỉnh giác, ta phải tự nhắc thầm rằng “nội tâm vẫn còn nhiều phiền động” mặc dù có thể ta không thấy được hết những phiền động đó ra sao.",
+        "targetVietnamese": "Khi đang tỉnh giác, ta phải tự nhắc thầm rằng “nội tâm vẫn còn nhiều phiền động” mặc dù có thể ta không thấy được hết những phiền động đó ra sao.",
+        "sentence": "While lucidly aware, we must silently ___ ourselves that much inner disturbance remains, even if we cannot see it all.",
+        "options": [
+          "remind",
+          "assure",
+          "persuade",
+          "promise"
+        ],
+        "answer": 0,
+        "rationales": [
+          "remind: nhắc điều cần giữ trong trí; không phải tự cấp bảo đảm.",
+          "assure: trấn an cho yên lòng; thêm mục đích làm dịu lo.",
+          "persuade: thuyết phục để tin; khác nhắc lại điều đã hiểu.",
+          "promise: hứa cho mai sau; không phải nhớ một trạng thái hiện có."
+        ],
+        "dimension": "silent reminder"
+      },
+      {
+        "sourceCue": "Lúc ngồi thiền theo dõi hơi thở, ta tác ý nhẹ nhàng “thở vào biết tâm còn phiền động; thở ra biết tâm còn phiền động”.",
+        "targetVietnamese": "Lúc ngồi thiền theo dõi hơi thở, ta tác ý nhẹ nhàng “thở vào biết tâm còn phiền động; thở ra biết tâm còn phiền động”.",
+        "sentence": "While following the breath in meditation, we deliberately and gently ___ the thought: “Breathing in, know that the mind is still disturbed; breathing out, know the same.”",
+        "options": [
+          "bring up",
+          "act out",
+          "rule out",
+          "argue against"
+        ],
+        "answer": 0,
+        "rationales": [
+          "bring up: đưa ý vào tâm; giữ tác ý nhẹ chứ không diễn hay bác.",
+          "act out: diễn thành hành động; thêm biểu hiện ra ngoài.",
+          "rule out: loại bỏ; trái việc chủ động nhớ lời quán.",
+          "argue against: tranh luận chống; không phải tác ý ghi nhớ."
+        ],
+        "dimension": "deliberate recollection"
+      },
+      {
+        "sourceCue": "Nhiều người thấy tâm bớt vọng tưởng đã tưởng lầm rằng tâm đã thanh tịnh.",
+        "targetVietnamese": "Nhiều người thấy tâm bớt vọng tưởng đã tưởng lầm rằng tâm đã thanh tịnh.",
+        "sentence": "Many people ___ fewer wandering thoughts for a purified mind.",
+        "options": [
+          "mistake",
+          "substitute",
+          "trade",
+          "exchange"
+        ],
+        "answer": 0,
+        "rationales": [
+          "mistake: nhầm dấu giảm với thành tựu thanh tịnh; giữ lỗi nhận định.",
+          "substitute: cố dùng thay thế; thêm chủ ý chọn một thứ thế thứ khác.",
+          "trade: đem đổi chác; không phải tin lầm về trạng thái.",
+          "exchange: trao đổi; thêm giao dịch thay cho nhầm nhận."
+        ],
+        "dimension": "mistaking a sign for attainment"
+      },
+      {
+        "sourceCue": "Một chút yên lắng bên ngoài chưa có đáng gì so với vô số vọng tưởng còn nguyên sức mạnh tiềm ẩn bên trong sâu kín.",
+        "targetVietnamese": "Một chút yên lắng bên ngoài chưa có đáng gì so với vô số vọng tưởng còn nguyên sức mạnh tiềm ẩn bên trong sâu kín.",
+        "sentence": "A little outward quiet ___ beside countless hidden wandering thoughts that retain their full strength deep within.",
+        "options": [
+          "counts for little",
+          "settles the matter",
+          "guarantees success",
+          "rules out relapse"
+        ],
+        "answer": 0,
+        "rationales": [
+          "counts for little: chưa đáng kể; giữ sự chênh lệch ngoài yên trong mạnh.",
+          "settles the matter: giải quyết xong; trái còn sức nhiễu động.",
+          "guarantees success: bảo đảm thành công; thêm kết quả chắc chắn.",
+          "rules out relapse: loại nguy cơ lui sụt; ngược lời cảnh báo kế tiếp."
+        ],
+        "dimension": "limited outward quiet"
+      },
+      {
+        "sourceCue": "Chỉ cần ta thiếu công đức, thiếu cảnh giác là chúng sẽ trỗi dậy quật ngã ta, còn tệ hơn hồi chưa biết tu.",
+        "targetVietnamese": "Chỉ cần ta thiếu công đức, thiếu cảnh giác là chúng sẽ trỗi dậy quật ngã ta, còn tệ hơn hồi chưa biết tu.",
+        "sentence": "If merit and vigilance are lacking, those thoughts will ___ and knock us down, leaving us worse off than before practice began.",
+        "options": [
+          "surge up",
+          "die away",
+          "remain latent",
+          "become tractable"
+        ],
+        "answer": 0,
+        "rationales": [
+          "surge up: trỗi dậy mạnh; giữ sức có thể quật ngã của nguồn.",
+          "die away: tự tắt dần; đảo chiều lời cảnh báo rằng các ý nghĩ sẽ trỗi dậy mạnh.",
+          "remain latent: vẫn ẩn yên; không có sự trỗi dậy.",
+          "become tractable: trở nên dễ điều phục; ngược sức quật ngã được nêu."
+        ],
+        "dimension": "resurgence"
+      }
+    ]
+  },
+  {
+    "id": "M185",
+    "sourceBlockId": "W16-B05",
+    "title": "Diệt triền cái làm chuẩn, không lấy trạng thái lạ thay tiến bộ",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Theo tiêu chuẩn được quy định bởi đức Phật, sau khi chứng được Chánh niện tỉnh giác một thời gian, hành giả sẽ diệt trừ được Năm Triền cái để chuẩn bị chứng nhập Sơ thiền.",
+        "targetVietnamese": "Theo tiêu chuẩn được quy định bởi đức Phật, sau khi chứng được Chánh niện tỉnh giác một thời gian, hành giả sẽ diệt trừ được Năm Triền cái để chuẩn bị chứng nhập Sơ thiền.",
+        "sentence": "According to the Buddha’s standard, after a period of Right Mindfulness and lucid awareness, practitioners will ___ the five hindrances in preparation for the First Jhāna.",
+        "options": [
+          "eliminate",
+          "suspend",
+          "diagnose",
+          "rename"
+        ],
+        "answer": 0,
+        "rationales": [
+          "eliminate: diệt trừ; giữ lực làm hết, không chỉ tạm gác.",
+          "suspend: tạm ngưng; vẫn để khả năng trở lại nguyên vẹn.",
+          "diagnose: chẩn định; biết tên chưa làm hết triền cái.",
+          "rename: đổi tên; không tạo tiến bộ công phu thật."
+        ],
+        "dimension": "elimination"
+      },
+      {
+        "sourceCue": "Đây là một giai đoạn không thể thiếu,",
+        "targetVietnamese": "Đây là một giai đoạn không thể thiếu,",
+        "sentence": "This stage cannot be ___.",
+        "options": [
+          "dispensed with",
+          "passed through",
+          "prepared for",
+          "entered"
+        ],
+        "answer": 0,
+        "rationales": [
+          "dispensed with: bỏ qua như không cần; phủ định giữ tính không thể thiếu.",
+          "passed through: đi qua; phủ định này lại cấm hoàn thành giai đoạn.",
+          "prepared for: chuẩn bị; trái yêu cầu có nền cho giai đoạn.",
+          "entered: bước vào; không phải ý phải có nó."
+        ],
+        "dimension": "indispensable stage"
+      },
+      {
+        "sourceCue": "và cũng là thước đo chính xác cho công phu tu hành của chúng ta.",
+        "targetVietnamese": "và cũng là thước đo chính xác cho công phu tu hành của chúng ta.",
+        "sentence": "It also ___ an accurate measure of our practice.",
+        "options": [
+          "serves as",
+          "makes space for",
+          "takes precedence over",
+          "breaks away from"
+        ],
+        "answer": 0,
+        "rationales": [
+          "serves as: làm thước đo; giữ quan hệ công năng đánh giá.",
+          "makes space for: chừa chỗ; chưa nói chính nó là chuẩn.",
+          "takes precedence over: được ưu tiên hơn; đổi chức năng thành thứ bậc.",
+          "breaks away from: rời khỏi; trái vai trò chuẩn đối chiếu."
+        ],
+        "dimension": "measure"
+      },
+      {
+        "sourceCue": "thì biết ngay những trạng thái lạ đó chưa phải là sự tiến bộ đúng hướng của Thiền định Phật giáo;",
+        "targetVietnamese": "thì biết ngay những trạng thái lạ đó chưa phải là sự tiến bộ đúng hướng của Thiền định Phật giáo;",
+        "sentence": "Then we ___ at once that those unusual states are not rightly directed progress in Buddhist meditation.",
+        "options": [
+          "recognize",
+          "presume",
+          "postulate",
+          "proclaim"
+        ],
+        "answer": 0,
+        "rationales": [
+          "recognize: biết ngay khi kiểm lại triền cái; giữ kết luận dựa trên chuẩn nguồn.",
+          "presume: cho là đúng khi chưa đủ căn cứ; yếu hơn biết sau đối chiếu.",
+          "postulate: đặt giả thuyết; chưa phải nhận ra điều kiểm chứng.",
+          "proclaim: tuyên bố cho người; thêm việc phát biểu ra ngoài."
+        ],
+        "dimension": "recognizing a false sign"
+      },
+      {
+        "sourceCue": "Phá trừ được Năm Triền cái vừa thuộc về lĩnh vực Đạo đức (Tham dục, sân hận), vừa thuộc về Trí tuệ (Hoang mang), vừa thuộc về năng lực (hôn trầm, trạo cử).",
+        "targetVietnamese": "Phá trừ được Năm Triền cái vừa thuộc về lĩnh vực Đạo đức (Tham dục, sân hận), vừa thuộc về Trí tuệ (Hoang mang), vừa thuộc về năng lực (hôn trầm, trạo cử).",
+        "sentence": "Overcoming the five hindrances ___ ethics (sensual desire and ill will), wisdom (uncertainty), and capacity (drowsiness and restlessness).",
+        "options": [
+          "spans",
+          "prioritizes",
+          "supplants",
+          "conflates"
+        ],
+        "answer": 0,
+        "rationales": [
+          "spans: bao trùm cả ba lĩnh vực; giữ vừa thuộc về mỗi mặt.",
+          "prioritizes: xếp thứ tự ưu tiên; nguồn không xếp cao thấp.",
+          "supplants: thay chỗ ba mặt; không phải công phu thuộc các mặt đó.",
+          "conflates: trộn không phân biệt; xóa ranh giới tác giả đang chỉ rõ."
+        ],
+        "dimension": "spanning domains"
+      }
+    ]
+  },
+  {
+    "id": "M186",
+    "sourceBlockId": "W16-B06",
+    "title": "Không lạm dụng thức lâu, vẫn dành thời gian ngủ",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Tuy nhiên, khi cần tỉnh táo để ngồi thiền và ngồi lâu thì sự đòi hỏi của giấc ngủ lại là một điều khó chịu.",
+        "targetVietnamese": "Tuy nhiên, khi cần tỉnh táo để ngồi thiền và ngồi lâu thì sự đòi hỏi của giấc ngủ lại là một điều khó chịu.",
+        "sentence": "When alertness is needed for long meditation sittings, we ___ the demand for sleep irksome.",
+        "options": [
+          "find",
+          "render",
+          "declare",
+          "imagine"
+        ],
+        "answer": 0,
+        "rationales": [
+          "find: cảm thấy nó khó chịu; giữ trải nghiệm khi muốn tỉnh ngồi lâu.",
+          "render: làm cho nó khó chịu; thêm hành động gây ra trạng thái.",
+          "declare: tuyên bố; chưa khẳng định mình thật sự cảm thấy.",
+          "imagine: tưởng tượng; biến trải nghiệm được nêu thành giả lập."
+        ],
+        "dimension": "experienced inconvenience"
+      },
+      {
+        "sourceCue": "Khi trạng thái Chánh niệm tỉnh giác được kéo dài và tâm trở nên vắng lặng sâu xa, tự nhiên nhu cầu ngủ lúc đó biến mất.",
+        "targetVietnamese": "Khi trạng thái Chánh niệm tỉnh giác được kéo dài và tâm trở nên vắng lặng sâu xa, tự nhiên nhu cầu ngủ lúc đó biến mất.",
+        "sentence": "When Right Mindfulness and lucid awareness are sustained and the mind grows deeply quiet, the need for sleep naturally ___.",
+        "options": [
+          "vanishes",
+          "diminishes",
+          "recedes",
+          "fluctuates"
+        ],
+        "answer": 0,
+        "rationales": [
+          "vanishes: biến mất lúc đó; giữ mức hoàn toàn, không biến thành lời cấm ngủ.",
+          "diminishes: giảm lượng; yếu hơn biến mất.",
+          "recedes: lùi bớt; chưa nói hết hẳn nhu cầu lúc ấy.",
+          "fluctuates: dao động; thêm nhịp lúc tăng lúc giảm."
+        ],
+        "dimension": "vanishing versus reduction"
+      },
+      {
+        "sourceCue": "Hành giả an trú trong Chánh niệm tỉnh giác và không cảm thấy buồn ngủ dù thức rất khuya.",
+        "targetVietnamese": "Hành giả an trú trong Chánh niệm tỉnh giác và không cảm thấy buồn ngủ dù thức rất khuya.",
+        "sentence": "Abiding in Right Mindfulness and lucid awareness, practitioners do not ___ sleepy even when awake very late.",
+        "options": [
+          "feel",
+          "look",
+          "seem",
+          "pretend to be"
+        ],
+        "answer": 0,
+        "rationales": [
+          "feel: cảm thấy; giữ trải nghiệm chủ quan, không suy từ vẻ ngoài.",
+          "look: trông có vẻ; đổi cảm nhận thành quan sát từ ngoài.",
+          "seem: có vẻ; không nói người ấy thực sự cảm thấy gì.",
+          "pretend to be: giả vờ; thêm ý diễn một biểu hiện không thật."
+        ],
+        "dimension": "subjective sleepiness"
+      },
+      {
+        "sourceCue": "Nhưng hành giả cũng không được lạm dụng khả năng thức dài lâu của mình,",
+        "targetVietnamese": "Nhưng hành giả cũng không được lạm dụng khả năng thức dài lâu của mình,",
+        "sentence": "But practitioners must not ___ their ability to stay awake for long periods.",
+        "options": [
+          "abuse",
+          "disclose",
+          "underestimate",
+          "examine"
+        ],
+        "answer": 0,
+        "rationales": [
+          "abuse: lạm dụng; giữ cảnh báo không dùng quá mức.",
+          "disclose: tiết lộ; nguồn không bảo phải giấu năng lực.",
+          "underestimate: đánh giá thấp; trái hướng sử dụng quá mức.",
+          "examine: xem xét; không có nghĩa dùng năng lực sai."
+        ],
+        "dimension": "misuse"
+      },
+      {
+        "sourceCue": "vẫn phải dành thời gian cho não bộ chìm vào giấc ngủ, vì ngay cả đức Phật cũng phải ngủ vài giờ trong đêm.",
+        "targetVietnamese": "vẫn phải dành thời gian cho não bộ chìm vào giấc ngủ, vì ngay cả đức Phật cũng phải ngủ vài giờ trong đêm.",
+        "sentence": "We must still ___ time for the brain to sink into sleep, for even the Buddha slept a few hours at night.",
+        "options": [
+          "set aside",
+          "postpone",
+          "ration",
+          "extend"
+        ],
+        "answer": 0,
+        "rationales": [
+          "set aside: dành riêng; giữ yêu cầu có thời gian ngủ thực.",
+          "postpone: dời lại; không bảo đảm thời gian được dành lúc cần.",
+          "ration: chia hạn phần tối thiểu; thêm chủ trương giới hạn.",
+          "extend: kéo dài thêm; nguồn không quy định tăng so với mức trước."
+        ],
+        "dimension": "allocating sleep time"
+      }
+    ]
+  }
+,
+  {
+    "id": "M187",
+    "sourceBlockId": "W16-B07",
+    "title": "Diệt triền cái không bảo đảm bất thoái chuyển",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Sau khi phá trừ được Năm Triền cái, hành giả chuẩn bị nhập được Sơ thiền.",
+        "targetVietnamese": "Sau khi phá trừ được Năm Triền cái, hành giả chuẩn bị nhập được Sơ thiền.",
+        "sentence": "After eliminating the five hindrances, practitioners ___ entry into the First Jhāna.",
+        "options": [
+          "prepare for",
+          "claim immunity through",
+          "refrain from",
+          "merely forecast"
+        ],
+        "answer": 0,
+        "rationales": [
+          "prepare for: chuẩn bị nhập; chưa nói đã tự đạt và đứng vững vĩnh viễn.",
+          "claim immunity through: tự nhận miễn nhiễm; thêm bảo đảm nguồn không có.",
+          "refrain from: kiêng không vào; đảo hướng chuẩn bị.",
+          "merely forecast: chỉ dự báo; không giữ công phu sẵn sàng nhập."
+        ],
+        "dimension": "preparing for attainment"
+      },
+      {
+        "sourceCue": "Nhiều lý luận đã xem thường bốn mức thiền là do không hiểu hết vấn đề.",
+        "targetVietnamese": "Nhiều lý luận đã xem thường bốn mức thiền là do không hiểu hết vấn đề.",
+        "sentence": "Many arguments ___ the four Jhānas because they do not fully understand the issue.",
+        "options": [
+          "disparage",
+          "differentiate",
+          "commemorate",
+          "codify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "disparage: xem nhẹ, chê thấp; giữ hệ quả của hiểu chưa đủ.",
+          "differentiate: phân biệt; không mang sự coi thường.",
+          "commemorate: kỷ niệm tôn nhớ; trái hạ thấp giá trị.",
+          "codify: hệ thống hóa; thêm công việc tổ chức khái niệm."
+        ],
+        "dimension": "disparagement"
+      },
+      {
+        "sourceCue": "Ai xem thường bốn mức thiền sẽ tổn phước rất nặng.",
+        "targetVietnamese": "Ai xem thường bốn mức thiền sẽ tổn phước rất nặng.",
+        "sentence": "Disparaging the four Jhānas will severely ___ one’s blessings.",
+        "options": [
+          "diminish",
+          "reallocate",
+          "authenticate",
+          "consolidate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "diminish: làm hao tổn; giữ mức tổn phước nặng theo nguồn.",
+          "reallocate: chia lại; phước đổi chỗ không phải bị hao.",
+          "authenticate: chứng thực; không diễn sức suy mất.",
+          "consolidate: củng cố; đảo tổn hại thành tăng vững."
+        ],
+        "dimension": "diminished blessings"
+      },
+      {
+        "sourceCue": "Tuy nhiên, ta đừng nghĩ rằng một khi đã phá trừ được Năm Triền cái là đã bước vào địa vị bất thoái chuyển.",
+        "targetVietnamese": "Tuy nhiên, ta đừng nghĩ rằng một khi đã phá trừ được Năm Triền cái là đã bước vào địa vị bất thoái chuyển.",
+        "sentence": "We must not ___ that eliminating the five hindrances means we have entered a state of nonretrogression.",
+        "options": [
+          "assume",
+          "question",
+          "dispute",
+          "doubt"
+        ],
+        "answer": 0,
+        "rationales": [
+          "assume: cho là đúng; phủ định giữ đừng tự nhận không còn lui sụt.",
+          "question: đặt nghi vấn; phủ định sẽ ngăn sự thận trọng.",
+          "dispute: bác bỏ; phủ định khiến lời cảnh báo đổi chiều.",
+          "doubt: ngờ vực; nguồn không cấm nghi ngờ lời tự nhận đó."
+        ],
+        "dimension": "unwarranted certainty"
+      },
+      {
+        "sourceCue": "Ta vẫn còn có thể bị tà kiến chưa hết nên có thể phạm sai lầm để gây tổn phước và bị thoái chuyển ở kiếp này hay kiếp sau.",
+        "targetVietnamese": "Ta vẫn còn có thể bị tà kiến chưa hết nên có thể phạm sai lầm để gây tổn phước và bị thoái chuyển ở kiếp này hay kiếp sau.",
+        "sentence": "Remaining wrong views may still cause mistakes, loss of blessings, and make us ___ in this or a future life.",
+        "options": [
+          "regress",
+          "consolidate",
+          "specialize",
+          "officiate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "regress: lui sụt; giữ khả năng thoái chuyển chưa bị xóa.",
+          "consolidate: củng cố; nói tiến vững ngược cảnh báo.",
+          "specialize: chuyên môn hóa; không diễn sự mất công phu.",
+          "officiate: chủ trì nghi lễ; thêm vai trò không có ở nguồn."
+        ],
+        "dimension": "regression"
+      }
+    ]
+  },
+  {
+    "id": "M188",
+    "sourceBlockId": "W16-B08",
+    "title": "Tìm chỗ dựa chung và khuyên trở về sự hòa hợp",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Chúng ta dễ tìm gặp những người tu hành trong đạo Phật đang thực hành một pháp môn của một đại sư tổ sư nào đó, với thái độ cũng cuồng tín tin chết tin sống.",
+        "targetVietnamese": "Chúng ta dễ tìm gặp những người tu hành trong đạo Phật đang thực hành một pháp môn của một đại sư tổ sư nào đó, với thái độ cũng cuồng tín tin chết tin sống.",
+        "sentence": "We readily encounter Buddhists practicing a method of a particular great or ancestral master while ___ it with fanatical, unquestioning faith.",
+        "options": [
+          "embracing",
+          "appraising",
+          "questioning",
+          "reconstructing"
+        ],
+        "answer": 0,
+        "rationales": [
+          "embracing: ôm giữ tin theo; giữ thái độ tin chết tin sống, không phải khảo sát.",
+          "appraising: thẩm định; trái lòng tin không xét lại.",
+          "questioning: đặt nghi vấn; ngược tính cuồng tín nguồn phê.",
+          "reconstructing: dựng lại phương pháp; thêm việc biên soạn chưa có."
+        ],
+        "dimension": "unquestioning adherence"
+      },
+      {
+        "sourceCue": "Họ không có cơ duyên gặp được sự truyền dạy một pháp môn chính thống của Phật.",
+        "targetVietnamese": "Họ không có cơ duyên gặp được sự truyền dạy một pháp môn chính thống của Phật.",
+        "sentence": "They have lacked the opportunity to ___ instruction in an authentic method of the Buddha.",
+        "options": [
+          "encounter",
+          "authenticate",
+          "impose",
+          "revoke"
+        ],
+        "answer": 0,
+        "rationales": [
+          "encounter: gặp được sự truyền dạy; giữ thiếu cơ duyên tiếp xúc.",
+          "authenticate: xác minh; giả định đã tiếp cận để kiểm tra.",
+          "impose: áp đặt; đổi người nhận pháp thành người ép người khác.",
+          "revoke: rút bỏ; thêm quyền hủy phương pháp."
+        ],
+        "dimension": "opportunity to encounter"
+      },
+      {
+        "sourceCue": "Nếu họ may mắn có kết quả thì chỉ góp phần làm cho đạo Phật bị biến thái nhanh hơn.",
+        "targetVietnamese": "Nếu họ may mắn có kết quả thì chỉ góp phần làm cho đạo Phật bị biến thái nhanh hơn.",
+        "sentence": "If they happen to obtain results, those results only ___ a faster distortion of Buddhism.",
+        "options": [
+          "contribute to",
+          "attest against",
+          "compensate for",
+          "protect against"
+        ],
+        "answer": 0,
+        "rationales": [
+          "contribute to: góp phần gây; giữ chiều đánh giá phê bình của chính tác giả.",
+          "attest against: làm bằng chứng chống; không phải tham gia tạo hệ quả.",
+          "compensate for: bù đắp; đảo hệ quả xấu thành sửa thiếu.",
+          "protect against: bảo vệ khỏi; ngược lời nguồn đang cảnh báo."
+        ],
+        "dimension": "contributing to a consequence"
+      },
+      {
+        "sourceCue": "Là một Tăng sĩ có trách nhiệm với Phật Pháp, ta phải cương quyết lấy pháp môn chính thống của Phật làm chỗ dựa, làm tiêu chuẩn.",
+        "targetVietnamese": "Là một Tăng sĩ có trách nhiệm với Phật Pháp, ta phải cương quyết lấy pháp môn chính thống của Phật làm chỗ dựa, làm tiêu chuẩn.",
+        "sentence": "As monastics responsible for the Dharma, we must firmly ___ the Buddha’s authentic method as our basis and standard.",
+        "options": [
+          "adopt",
+          "forecast",
+          "publicize",
+          "hypothesize"
+        ],
+        "answer": 0,
+        "rationales": [
+          "adopt: lấy làm chỗ nương và chuẩn; giữ lựa chọn tự thực hiện.",
+          "forecast: dự báo một chuyện tương lai; chưa có hành động lấy phương pháp làm nền.",
+          "publicize: quảng bá; lời truyền thông không thay việc nương theo.",
+          "hypothesize: đặt giả thuyết; không giữ quyết tâm lấy làm chuẩn."
+        ],
+        "dimension": "adopting a basis"
+      },
+      {
+        "sourceCue": "Ta cũng phải biết khuyên mọi người lấy pháp môn tu hành chính thống của Phật để làm chỗ chung đồng cho đạo Phật.",
+        "targetVietnamese": "Ta cũng phải biết khuyên mọi người lấy pháp môn tu hành chính thống của Phật để làm chỗ chung đồng cho đạo Phật.",
+        "sentence": "We must also ___ others to take the Buddha’s authentic method as common ground for Buddhism.",
+        "options": [
+          "encourage",
+          "compel",
+          "authorize",
+          "appoint"
+        ],
+        "answer": 0,
+        "rationales": [
+          "encourage: khuyên; giữ lời hướng dẫn chứ không cưỡng bức.",
+          "compel: buộc người khác phải làm; mạnh hơn lời khuyên không có cưỡng chế.",
+          "authorize: cho phép; đổi lời khuyên thành cấp quyền.",
+          "appoint: bổ nhiệm; không phải hướng mọi người chọn nền chung."
+        ],
+        "dimension": "exhortation"
+      }
+    ],
+    "sourceOverride": {
+      "id": "S04",
+      "title": "Giáo Trình Thiền Học",
+      "locators": [
+        "epub:c:0001:b:0396",
+        "epub:c:0001:b:0397"
+      ],
+      "paragraphs": [
+        "Chúng ta dễ tìm gặp những người tu hành trong đạo Phật đang thực hành một pháp môn của một đại sư tổ sư nào đó, với thái độ cũng cuồng tín tin chết tin sống.",
+        "Họ không có cơ duyên gặp được sự truyền dạy một pháp môn chính thống của Phật. Nếu họ may mắn có kết quả thì chỉ góp phần làm cho đạo Phật bị biến thái nhanh hơn. Là một Tăng sĩ có trách nhiệm với Phật Pháp, ta phải cương quyết lấy pháp môn chính thống của Phật làm chỗ dựa, làm tiêu chuẩn. Ta cũng phải biết khuyên mọi người lấy pháp môn tu hành chính thống của Phật để làm chỗ chung đồng cho đạo Phật. Từ từ đạo Phật phải được đưa trở về một giềng mối để có được đoàn kết hòa hợp như ngày xưa."
+      ],
+      "sha256": "47839f64da87141e366d465463b24423ec5055a25565023237d81945bcb92191",
+      "excerpted": true
+    }
+  },
+  {
+    "id": "M189",
+    "sourceBlockId": "W16-B09",
+    "title": "Ảnh trong tâm: chế tác, nhận biết và quy nguồn",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Nguyên nhân bên trong là chính Hành ấm của ta đã sáng tạo, chế tác ra những linh ảnh đó chứ không ai khác.",
+        "targetVietnamese": "Nguyên nhân bên trong là chính Hành ấm của ta đã sáng tạo, chế tác ra những linh ảnh đó chứ không ai khác.",
+        "sentence": "The internal cause is our own aggregate of mental formations, which ___ those visions, not anyone else.",
+        "options": [
+          "fabricates",
+          "interprets",
+          "authenticates",
+          "documents"
+        ],
+        "answer": 0,
+        "rationales": [
+          "fabricates: chế tác nên; ở đây không tự hàm ý cố tình lừa người.",
+          "interprets: giải nghĩa ảnh có trước; không phải làm ra ảnh.",
+          "authenticates: xác nhận là thật; ngược việc ảnh do tâm tạo.",
+          "documents: ghi chép; giả định có sự kiện ngoài để ghi lại."
+        ],
+        "dimension": "fabrication"
+      },
+      {
+        "sourceCue": "Có khi ta thấy hiện ra cả một đoạn đối thoại lưu loát giữa các vị thiên tử về đạo lý, nhưng thật ra chính Hành ấm của ta đã dựng nên tất cả.",
+        "targetVietnamese": "Có khi ta thấy hiện ra cả một đoạn đối thoại lưu loát giữa các vị thiên tử về đạo lý, nhưng thật ra chính Hành ấm của ta đã dựng nên tất cả.",
+        "sentence": "We may see a fluent dialogue about moral teachings among male celestial beings, but our own aggregate of mental formations actually ___ the whole scene.",
+        "options": [
+          "constructs",
+          "transcribes",
+          "translates",
+          "deciphers"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constructs: dựng nên; giữ nguồn của toàn cảnh ở bên trong.",
+          "transcribes: chép lại lời đã nói; giả định có cuộc thoại thật bên ngoài.",
+          "translates: dịch sang ngôn ngữ khác; không diễn sáng tạo toàn cảnh.",
+          "deciphers: giải mã; mới hiểu một nội dung có trước."
+        ],
+        "dimension": "construction versus transcription"
+      },
+      {
+        "sourceCue": "Hành ấm ta rất vi tế nhỏ nhiệm nên khó được nhận biết.",
+        "targetVietnamese": "Hành ấm ta rất vi tế nhỏ nhiệm nên khó được nhận biết.",
+        "sentence": "The subtle working of our aggregate of mental formations ___ easy detection.",
+        "options": [
+          "eludes",
+          "invites",
+          "requires",
+          "permits"
+        ],
+        "answer": 0,
+        "rationales": [
+          "eludes: khó lọt vào sự nhận biết; easy giữ khó chứ chưa nói bất khả biết.",
+          "invites: mời gọi chú ý; đảo khó thấy thành dễ nhận.",
+          "requires: đòi phải phát hiện; nói nghĩa vụ chứ không khó khăn.",
+          "permits: cho phép dễ nhận; ngược tính vi tế khó biết."
+        ],
+        "dimension": "elusive detection"
+      },
+      {
+        "sourceCue": "Hành ấm tạo ra ảo ảnh mà ta cứ tưởng ảo ảnh đến từ bên ngoài rồi cho rằng mình đã cao siêu xuất chúng.",
+        "targetVietnamese": "Hành ấm tạo ra ảo ảnh mà ta cứ tưởng ảo ảnh đến từ bên ngoài rồi cho rằng mình đã cao siêu xuất chúng.",
+        "sentence": "The aggregate creates illusions, but we ___ them to external sources and conclude that we are exceptionally advanced.",
+        "options": [
+          "attribute",
+          "submit",
+          "report",
+          "entrust"
+        ],
+        "answer": 0,
+        "rationales": [
+          "attribute: quy nguồn cho; giữ nhầm cái trong tâm thành đến từ ngoài.",
+          "submit: trình cho người xét; thêm một bên nhận hồ sơ.",
+          "report: báo lại cho bên ngoài; không phải tin họ là nguồn tạo.",
+          "entrust: giao phó; thêm quan hệ nhờ bên khác giữ giúp."
+        ],
+        "dimension": "mistaken attribution"
+      },
+      {
+        "sourceCue": "Cuối cùng thì tâm kiêu mạn sẽ phá hoại tất cả công trình tu tập từ trước đến giờ.",
+        "targetVietnamese": "Cuối cùng thì tâm kiêu mạn sẽ phá hoại tất cả công trình tu tập từ trước đến giờ.",
+        "sentence": "In the end, conceit ___ all the practice built up so far.",
+        "options": [
+          "wrecks",
+          "questions",
+          "overshadows",
+          "misrepresents"
+        ],
+        "answer": 0,
+        "rationales": [
+          "wrecks: phá hoại; giữ hậu quả thật lên công phu tích lũy.",
+          "questions: đặt nghi vấn; chưa làm hỏng công phu.",
+          "overshadows: lấn sự chú ý; che nổi bật không phải phá hủy.",
+          "misrepresents: mô tả sai; là sai trình bày, không giữ tổn hại thực."
+        ],
+        "dimension": "destruction"
+      }
+    ]
+  },
+  {
+    "id": "M190",
+    "sourceBlockId": "W16-B10",
+    "title": "Có thần thông không đồng nghĩa đã tan chấp ngã",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Thật ra các bậc Alahán cũng có đại thần thông đại diệu dụng",
+        "targetVietnamese": "Thật ra các bậc Alahán cũng có đại thần thông đại diệu dụng",
+        "sentence": "Arahants also ___ great supernormal powers and wondrous capabilities.",
+        "options": [
+          "possess",
+          "simulate",
+          "forecast",
+          "legislate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "possess: thực có; giữ nhận định khẳng định năng lực của nguồn.",
+          "simulate: giả lập; phủ nhận năng lực thật.",
+          "forecast: tiên đoán; chưa nói tự có năng lực ấy.",
+          "legislate: đặt luật; đổi phẩm chất thành một hoạt động quản lý."
+        ],
+        "dimension": "possession"
+      },
+      {
+        "sourceCue": "mà Phật gọi là tam minh lục thông,",
+        "targetVietnamese": "mà Phật gọi là tam minh lục thông,",
+        "sentence": "The Buddha ___ these as the Threefold Knowledge and the Six Supernormal Powers.",
+        "options": [
+          "designates",
+          "infers",
+          "prescribes",
+          "promotes"
+        ],
+        "answer": 0,
+        "rationales": [
+          "designates: gọi tên; giữ việc đặt tên cho nhóm năng lực.",
+          "infers: suy ra; không phải cách gọi đã nêu.",
+          "prescribes: chỉ định phải làm; đổi tên gọi thành mệnh lệnh.",
+          "promotes: cổ vũ; không giữ chức năng định danh."
+        ],
+        "dimension": "designation"
+      },
+      {
+        "sourceCue": "nhưng thần thông của Alahán không gây tổn hại vì các ngài đã vượt qua chấp ngã.",
+        "targetVietnamese": "nhưng thần thông của Alahán không gây tổn hại vì các ngài đã vượt qua chấp ngã.",
+        "sentence": "But Arahants’ supernormal powers do not ___ harm, because they have gone beyond clinging to a self.",
+        "options": [
+          "cause",
+          "foresee",
+          "excuse",
+          "conceal"
+        ],
+        "answer": 0,
+        "rationales": [
+          "cause: gây ra; phủ định giữ không tạo tổn hại.",
+          "foresee: thấy trước; nói khả năng dự báo, khác gây hại.",
+          "excuse: biện hộ; giả định đã có hại cần bào chữa.",
+          "conceal: che giấu; không nói hại có được tạo ra hay không."
+        ],
+        "dimension": "nonharm"
+      },
+      {
+        "sourceCue": "Còn chướng ngại thần thông mà chúng ta nói ở đây là loại thần thông xuất hiện khi tâm đã an định khá sâu nhưng chưa tan hết chấp ngã.",
+        "targetVietnamese": "Còn chướng ngại thần thông mà chúng ta nói ở đây là loại thần thông xuất hiện khi tâm đã an định khá sâu nhưng chưa tan hết chấp ngã.",
+        "sentence": "The obstacle discussed here consists of powers that ___ when the mind is fairly deeply settled but clinging to a self has not fully dissolved.",
+        "options": [
+          "arise",
+          "subside",
+          "recur",
+          "congeal"
+        ],
+        "answer": 0,
+        "rationales": [
+          "arise: xuất hiện; giữ điều kiện tâm đã an nhưng ngã chưa tan.",
+          "subside: lắng giảm đi; giả định trạng thái đã có và đang yếu xuống, không phải mới xuất hiện.",
+          "recur: trở lại; thêm lịch sử đã có rồi mất.",
+          "congeal: đông cứng; không phải bước phát sinh năng lực."
+        ],
+        "dimension": "arising under conditions"
+      },
+      {
+        "sourceCue": "nhưng chưa tan hết chấp ngã.",
+        "targetVietnamese": "nhưng chưa tan hết chấp ngã.",
+        "sentence": "But clinging to a self has not yet been ___ completely.",
+        "options": [
+          "eradicated",
+          "restrained",
+          "identified",
+          "described"
+        ],
+        "answer": 0,
+        "rationales": [
+          "eradicated: diệt tan; giữ tan hết chứ không chỉ lắng tạm.",
+          "restrained: kềm lại; dù kềm hoàn toàn vẫn có thể còn gốc.",
+          "identified: nhận ra; thấy nó chưa tự làm hết nó.",
+          "described: miêu tả; nói rõ không đồng nghĩa phá tan."
+        ],
+        "dimension": "eradication versus restraint"
+      }
+    ]
+  },
+  {
+    "id": "M191",
+    "sourceBlockId": "W16-B11",
+    "title": "Phân biệt chuẩn Thánh quả và độ sâu thiền chứng",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Bên cạnh tiêu chuẩn kỳ tuyệt về bốn mức Thiền, Phật cũng xác lập ra bốn Thánh quả giải thoát từ thấp lên cao.",
+        "targetVietnamese": "Bên cạnh tiêu chuẩn kỳ tuyệt về bốn mức Thiền, Phật cũng xác lập ra bốn Thánh quả giải thoát từ thấp lên cao.",
+        "sentence": "Alongside the extraordinary standard of the four Jhānas, the Buddha also ___ four Noble Fruits of liberation, ordered from lower to higher.",
+        "options": [
+          "established",
+          "conjectured",
+          "merged",
+          "withdrew"
+        ],
+        "answer": 0,
+        "rationales": [
+          "established: xác lập; giữ bốn mức được định rõ thành chuẩn.",
+          "conjectured: phỏng đoán; giảm lực thành giả thuyết.",
+          "merged: gộp lại; không còn bốn mức phân từ thấp tới cao.",
+          "withdrew: rút bỏ; đảo xác lập thành bãi bỏ."
+        ],
+        "dimension": "establishing standards"
+      },
+      {
+        "sourceCue": "Người chứng được một trong bốn Thánh quả này được xem là có tư cách của thánh, có thánh tính, có giá trị làm thánh, vượt lên khỏi sự tầm thường của con người.",
+        "targetVietnamese": "Người chứng được một trong bốn Thánh quả này được xem là có tư cách của thánh, có thánh tính, có giá trị làm thánh, vượt lên khỏi sự tầm thường của con người.",
+        "sentence": "Anyone who attains one of the four Noble Fruits is regarded as possessing Noble character and worth, having ___ the ordinary human condition.",
+        "options": [
+          "risen above",
+          "taken issue with",
+          "drawn attention to",
+          "made peace with"
+        ],
+        "answer": 0,
+        "rationales": [
+          "risen above: vượt lên; giữ phẩm chất cao hơn sự tầm thường.",
+          "taken issue with: phản đối; khác tự vượt bằng thành tựu.",
+          "drawn attention to: chỉ cho người thấy; thêm việc truyền đạt.",
+          "made peace with: hòa với, chấp nhận; không giữ nghĩa vượt khỏi."
+        ],
+        "dimension": "transcending ordinariness"
+      },
+      {
+        "sourceCue": "Tiêu chuẩn để đánh giá các quả thánh là dựa vào mức độ tăng trưởng Đạo đức qua việc phá trừ các Kiết sử,",
+        "targetVietnamese": "Tiêu chuẩn để đánh giá các quả thánh là dựa vào mức độ tăng trưởng Đạo đức qua việc phá trừ các Kiết sử,",
+        "sentence": "Noble Attainments are ___ by ethical growth through the breaking of fetters.",
+        "options": [
+          "gauged",
+          "caused",
+          "advertised",
+          "postponed"
+        ],
+        "answer": 0,
+        "rationales": [
+          "gauged: đo, đánh giá; giữ công năng của tiêu chuẩn.",
+          "caused: gây ra; đổi cơ sở đánh giá thành nguyên nhân trực tiếp.",
+          "advertised: quảng bá; không phải xét mức chứng quả.",
+          "postponed: hoãn lại; thêm sự trì hoãn chưa được nói."
+        ],
+        "dimension": "gauging attainment"
+      },
+      {
+        "sourceCue": "khác với tiêu chuẩn của Tứ thiền là dựa vào mức độ nhập định sâu cạn.",
+        "targetVietnamese": "khác với tiêu chuẩn của Tứ thiền là dựa vào mức độ nhập định sâu cạn.",
+        "sentence": "By contrast, the criterion for the four Jhānas ___ the depth of meditative absorption.",
+        "options": [
+          "depends on",
+          "accounts for",
+          "gives rise to",
+          "compensates for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "depends on: dựa vào; giữ chiều dùng độ sâu làm chuẩn.",
+          "accounts for: giải thích hoặc gây; đảo tiêu chuẩn thành lời giải cho độ sâu.",
+          "gives rise to: làm phát sinh; không phải đo bằng điều đã có.",
+          "compensates for: bù trừ; thêm quan hệ sửa thiếu không được nêu."
+        ],
+        "dimension": "basis of a criterion"
+      },
+      {
+        "sourceCue": "Nhiều người đã cảm thấy mơ hồ về sự khác nhau của Tứ Thiền và Tứ Thánh quả vì cả hai đều rất cao cả vĩ đại, đều là những nấc thang hướng về giải thoát.",
+        "targetVietnamese": "Nhiều người đã cảm thấy mơ hồ về sự khác nhau của Tứ Thiền và Tứ Thánh quả vì cả hai đều rất cao cả vĩ đại, đều là những nấc thang hướng về giải thoát.",
+        "sentence": "Many people ___ the distinction between the four Jhānas and the four Noble Fruits, because both are lofty steps toward liberation.",
+        "options": [
+          "have difficulty grasping",
+          "avoid examining",
+          "refrain from explaining",
+          "undertake to redefine"
+        ],
+        "answer": 0,
+        "rationales": [
+          "have difficulty grasping: chưa hiểu rõ; giữ trạng thái mơ hồ, không gán cố ý.",
+          "avoid examining: né không tìm hiểu; thêm ý không muốn xét.",
+          "refrain from explaining: không nói cho người khác; có thể hiểu rất rõ nhưng giữ im.",
+          "undertake to redefine: chủ động định nghĩa lại; thêm một dự án thay chuẩn."
+        ],
+        "dimension": "uncertainty versus intention"
+      }
+    ]
+  },
+  {
+    "id": "M192",
+    "sourceBlockId": "W16-B12",
+    "title": "Nhập, xuất và thời gian cần cho chuyển trạng thái",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Tứ thiền nghĩa là bốn mức độ nhập định được chia ra Sơ thiền, Nhị thiền, Tam thiền và Tứ thiền.",
+        "targetVietnamese": "Tứ thiền nghĩa là bốn mức độ nhập định được chia ra Sơ thiền, Nhị thiền, Tam thiền và Tứ thiền.",
+        "sentence": "The four levels of meditative absorption are ___ into the First, Second, Third, and Fourth Jhānas.",
+        "options": [
+          "divided",
+          "transformed",
+          "merged",
+          "inducted"
+        ],
+        "answer": 0,
+        "rationales": [
+          "divided: chia thành các mức; giữ phân loại, không đổi chất.",
+          "transformed: biến thành; thêm một sự chuyển hóa.",
+          "merged: gộp những phần riêng thành một; ngược chiều chia các mức được nguồn nêu.",
+          "inducted: được kết nạp; dùng cho người vào tổ chức, không phân cấp trạng thái."
+        ],
+        "dimension": "classification"
+      },
+      {
+        "sourceCue": "Bốn mức thiền này đều có nhập và xuất, nghĩa là khi muốn an trú mức thiền nào, ta phải có thời gian dụng công",
+        "targetVietnamese": "Bốn mức thiền này đều có nhập và xuất, nghĩa là khi muốn an trú mức thiền nào, ta phải có thời gian dụng công",
+        "sentence": "Each level has entry and exit; to ___ any one of them, we need time for practice.",
+        "options": [
+          "enter and abide in",
+          "draw conclusions about",
+          "give publicity to",
+          "postpone access to"
+        ],
+        "answer": 0,
+        "rationales": [
+          "enter and abide in: nhập và an trú; giữ thời gian dụng công thực.",
+          "draw conclusions about: rút kết luận; hiểu bằng lý thuyết không phải nhập.",
+          "give publicity to: quảng bá; thêm người nghe thay cho công phu.",
+          "postpone access to: hoãn tiếp cận; ngược ý muốn an trú."
+        ],
+        "dimension": "entry requiring effort"
+      },
+      {
+        "sourceCue": "chứ không phải đó là những trạng thái thường xuyên.",
+        "targetVietnamese": "chứ không phải đó là những trạng thái thường xuyên.",
+        "sentence": "These are not states that ___ continuously.",
+        "options": [
+          "persist",
+          "recur",
+          "alternate",
+          "develop"
+        ],
+        "answer": 0,
+        "rationales": [
+          "persist: tồn tại liên tục; phủ định giữ không phải trạng thái thường ngày.",
+          "recur: tái diễn nhiều lần; có lặp chưa phải liên tục.",
+          "alternate: luân phiên; không nói một mức còn mãi.",
+          "develop: phát triển; nói tiến trình lớn dần, không phải sự hiện diện liên tục."
+        ],
+        "dimension": "noncontinuous states"
+      },
+      {
+        "sourceCue": "Rồi khi muốn trở lại trạng thái như cũ, ta cũng phải mất công thoát ra chứ không phải tức thì được.",
+        "targetVietnamese": "Rồi khi muốn trở lại trạng thái như cũ, ta cũng phải mất công thoát ra chứ không phải tức thì được.",
+        "sentence": "To return to our previous state, we must ___; it cannot be done instantly.",
+        "options": [
+          "make an effort to emerge",
+          "switch back instantaneously",
+          "wait without any effort",
+          "describe the state retrospectively"
+        ],
+        "answer": 0,
+        "rationales": [
+          "make an effort to emerge: dụng công thoát ra; giữ mất công và không tức thì.",
+          "switch back instantaneously: chuyển ngay; trực tiếp trái lời nguồn.",
+          "wait without any effort: chờ không cần làm; bỏ mất nỗ lực được nhấn.",
+          "describe the state retrospectively: kể lại; không phải tự ra khỏi trạng thái."
+        ],
+        "dimension": "emergence"
+      },
+      {
+        "sourceCue": "Bình thường khi không nhập thiền, một thiền giả an trú trong nội tâm tỉnh giác vắng lặng nhưng không phải là bốn mức thiền này.",
+        "targetVietnamese": "Bình thường khi không nhập thiền, một thiền giả an trú trong nội tâm tỉnh giác vắng lặng nhưng không phải là bốn mức thiền này.",
+        "sentence": "Outside meditative absorption, a meditator ordinarily ___ quiet lucid awareness, but not one of these four Jhānas.",
+        "options": [
+          "abides in",
+          "lays claim to",
+          "simulates",
+          "yearns for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "abides in: an trú thực; giữ phân biệt trạng thái thường ngày với bốn mức.",
+          "lays claim to: tự nhận có; lời tuyên bố chưa phải đang sống trong.",
+          "simulates: giả lập; phủ nhận tính thật không có ở nguồn.",
+          "yearns for: khao khát; biến trạng thái đã có thành điều chưa có."
+        ],
+        "dimension": "ordinary abiding"
+      }
+    ]
+  }
+,
+  {
+    "id": "M193",
+    "sourceBlockId": "W17-B01",
+    "title": "Cân nhắc điều nên làm thay vì chỉ khư khư giữ giới",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Mục tiêu quan trọng là đem an vui cho người, không gieo đau khổ cho người.",
+        "targetVietnamese": "Mục tiêu quan trọng là đem an vui cho người, không gieo đau khổ cho người.",
+        "sentence": "The important goal is to ___ well-being to others, not sow suffering for them.",
+        "options": [
+          "bring",
+          "promise",
+          "attribute",
+          "owe"
+        ],
+        "answer": 0,
+        "rationales": [
+          "bring: đem tới thực; giữ đối tượng nhận niềm an vui.",
+          "promise: hứa sẽ đem; chưa có tác động thực tế.",
+          "attribute: quy cho người là nguyên nhân; đảo chiều trao nhận.",
+          "owe: mang ơn về; thêm quan hệ mắc nợ không được nói."
+        ],
+        "dimension": "bringing benefit"
+      },
+      {
+        "sourceCue": "Chỉ cần phải cân nhắc nên làm hay không nên làm thì sẽ thành được Chánh Nghiệp.",
+        "targetVietnamese": "Chỉ cần phải cân nhắc nên làm hay không nên làm thì sẽ thành được Chánh Nghiệp.",
+        "sentence": "Simply ___ whether to act or not to act will lead to Right Action.",
+        "options": [
+          "weighing",
+          "announcing",
+          "postulating",
+          "dictating"
+        ],
+        "answer": 0,
+        "rationales": [
+          "weighing: cân nhắc hai lựa chọn; giữ đánh giá trước khi hành động.",
+          "announcing: thông báo; nói ra chưa tự là xét kỹ.",
+          "postulating: đặt làm giả thuyết; không phải lựa giữa nên và không.",
+          "dictating: ra lệnh; thêm áp lực lên người khác."
+        ],
+        "dimension": "deliberation"
+      },
+      {
+        "sourceCue": "Giới luật chỉ là một phần nhỏ trong Chánh Nghiệp, không phải là tất cả.",
+        "targetVietnamese": "Giới luật chỉ là một phần nhỏ trong Chánh Nghiệp, không phải là tất cả.",
+        "sentence": "The precepts ___ only a small part of Right Action, not the whole.",
+        "options": [
+          "constitute",
+          "regulate",
+          "foretell",
+          "compensate for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitute: cấu thành một phần; giữ quan hệ bao gồm.",
+          "regulate: điều hành toàn bộ; khác nói phần của một lĩnh vực.",
+          "foretell: báo trước; chỉ quan hệ thời gian, không phải thành phần.",
+          "compensate for: bù đắp; thêm một thiếu hụt không có trong câu."
+        ],
+        "dimension": "part and whole"
+      },
+      {
+        "sourceCue": "Hãy cẩn thận, vì cứ khư khư giữ giới, chúng ta cũng dễ phạm sai lầm.",
+        "targetVietnamese": "Hãy cẩn thận, vì cứ khư khư giữ giới, chúng ta cũng dễ phạm sai lầm.",
+        "sentence": "Be careful: by clinging rigidly to the precepts, we can still ___ mistakes.",
+        "options": [
+          "commit",
+          "expose",
+          "recount",
+          "justify"
+        ],
+        "answer": 0,
+        "rationales": [
+          "commit: phạm vào; giữ cảnh báo người giữ giới vẫn có thể làm sai.",
+          "expose: phát lộ; thấy lỗi khác với tự gây lỗi.",
+          "recount: kể lại; thêm người nghe, không nói ai mắc.",
+          "justify: biện hộ; xảy ra sau khi đã có lỗi, không phải nghĩa phạm."
+        ],
+        "dimension": "committing error"
+      },
+      {
+        "sourceCue": "Đem an vui hay đau khổ cho người khác là điều mà chúng ta phải cân nhắc trong suốt cuộc đời tu hành để làm sao tạo được Chánh Nghiệp.",
+        "targetVietnamese": "Đem an vui hay đau khổ cho người khác là điều mà chúng ta phải cân nhắc trong suốt cuộc đời tu hành để làm sao tạo được Chánh Nghiệp.",
+        "sentence": "Throughout our life of practice, we must weigh whether we bring others well-being or suffering, in order to ___ Right Action.",
+        "options": [
+          "cultivate",
+          "codify",
+          "advertise",
+          "redefine"
+        ],
+        "answer": 0,
+        "rationales": [
+          "cultivate: tạo dựng bằng hành xử; giữ đích của cân nhắc suốt đời.",
+          "codify: hệ thống hóa thành luật; không tự thực hiện hành động đúng.",
+          "advertise: quảng bá; lời truyền thông không thay công phu.",
+          "redefine: định nghĩa lại; nguồn không yêu cầu sửa giáo lý."
+        ],
+        "dimension": "cultivating right action"
+      }
+    ]
+  },
+  {
+    "id": "M194",
+    "sourceBlockId": "W17-B02",
+    "title": "Không ghi trong giới vẫn phải tránh làm phiền",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Nói về giới luật, chúng ta phải biết có nhiều điều không nằm trong giới luật, nhưng chúng ta cũng phải tránh đừng để rơi vào lầm lỗi.",
+        "targetVietnamese": "Nói về giới luật, chúng ta phải biết có nhiều điều không nằm trong giới luật, nhưng chúng ta cũng phải tránh đừng để rơi vào lầm lỗi.",
+        "sentence": "We must ___ errors even in matters not covered by the precepts.",
+        "options": [
+          "avoid",
+          "record",
+          "excuse",
+          "catalogue"
+        ],
+        "answer": 0,
+        "rationales": [
+          "avoid: ngăn mình rơi vào; giữ bổn phận ngoài danh mục điều luật.",
+          "record: ghi nhận; chưa ngăn hành vi sai xảy ra.",
+          "excuse: bào chữa cho lỗi đã có; trái việc tự ngăn mình mắc sai lầm từ đầu.",
+          "catalogue: lập danh sách; biết các lỗi chưa phải không phạm."
+        ],
+        "dimension": "avoiding unlisted wrongs"
+      },
+      {
+        "sourceCue": "Trong giới không có điều luật là không nên nói chuyện ồn ào làm phiền người khác.",
+        "targetVietnamese": "Trong giới không có điều luật là không nên nói chuyện ồn ào làm phiền người khác.",
+        "sentence": "The precepts do not expressly ___ noisy conversation that disturbs others.",
+        "options": [
+          "prohibit",
+          "describe",
+          "predict",
+          "encourage"
+        ],
+        "answer": 0,
+        "rationales": [
+          "prohibit: đặt điều luật cấm; giữ vấn đề không có quy định riêng.",
+          "describe: miêu tả; mô tả khác với lập điều cấm.",
+          "predict: dự báo; không nói danh mục hành vi được ngăn.",
+          "encourage: khuyến khích; không được khuyến khích chưa có nghĩa có điều luật cấm."
+        ],
+        "dimension": "explicit prohibition"
+      },
+      {
+        "sourceCue": "Ví dụ đi trên xe công cộng, người khác muốn giữ tâm thanh thản mà chúng ta kể hết chuyện này đến chuyện kia và nói rất to, làm phiền những người chung quanh, thì đó cũng là sai trái.",
+        "targetVietnamese": "Ví dụ đi trên xe công cộng, người khác muốn giữ tâm thanh thản mà chúng ta kể hết chuyện này đến chuyện kia và nói rất to, làm phiền những người chung quanh, thì đó cũng là sai trái.",
+        "sentence": "For example, on public transport, others want peace of mind, but we tell one story after another and ___, disturbing them; that too is wrong.",
+        "options": [
+          "speak very loudly",
+          "whisper confidences",
+          "keep our voices low",
+          "speak in hushed tones"
+        ],
+        "answer": 0,
+        "rationales": [
+          "speak very loudly: nói rất to; giữ cách gây ồn làm người khác phiền.",
+          "whisper confidences: thì thầm chuyện riêng; ngược mức âm lượng được nêu.",
+          "keep our voices low: hạ giọng; không phải nguyên nhân ồn ào của ví dụ.",
+          "speak in hushed tones: nói khẽ; đổi hành vi gây phiền thành cách nói khác."
+        ],
+        "dimension": "volume of speech"
+      },
+      {
+        "sourceCue": "chúng ta kể hết chuyện này đến chuyện kia và nói rất to, làm phiền những người chung quanh,",
+        "targetVietnamese": "chúng ta kể hết chuyện này đến chuyện kia và nói rất to, làm phiền những người chung quanh,",
+        "sentence": "We recount one story after another and speak very loudly, which ___ those around us.",
+        "options": [
+          "disturbs",
+          "startles",
+          "offends",
+          "intimidates"
+        ],
+        "answer": 0,
+        "rationales": [
+          "disturbs: làm phiền sự thanh thản; không thêm sợ hay bị xúc phạm.",
+          "startles: làm giật mình; đòi yếu tố đột ngột chưa được nói.",
+          "offends: xúc phạm phẩm giá; mạnh hơn phiền vì tiếng ồn.",
+          "intimidates: đe nẹt gây sợ; thêm chủ ý hoặc cảm giác uy hiếp."
+        ],
+        "dimension": "disturbance rather than fear"
+      },
+      {
+        "sourceCue": "Tuy không có quy định trong giới luật nhưng làm phiền người khác cũng không phải là Chánh Nghiệp.",
+        "targetVietnamese": "Tuy không có quy định trong giới luật nhưng làm phiền người khác cũng không phải là Chánh Nghiệp.",
+        "sentence": "Although not specified in the precepts, disturbing others does not ___ Right Action.",
+        "options": [
+          "constitute",
+          "undermine",
+          "evoke",
+          "anticipate"
+        ],
+        "answer": 0,
+        "rationales": [
+          "constitute: là một hành vi thuộc; phủ định giữ không phải Chánh Nghiệp.",
+          "undermine: làm suy; phủ định này lại bảo không gây ảnh hưởng xấu.",
+          "evoke: gợi nhớ; không phải xác định bản chất hành vi.",
+          "anticipate: đi trước; đổi phân loại đạo đức thành thứ tự thời gian."
+        ],
+        "dimension": "ethical classification"
+      }
+    ]
+  },
+  {
+    "id": "M195",
+    "sourceBlockId": "W17-B03",
+    "title": "Tránh phạm khác với chủ động tạo lợi ích trong thiện pháp",
+    "sourceAlignment": "quote-and-english-checked",
+    "assessmentMode": "single-best-verb",
+    "difficultyReview": "single-best-verb-options-reviewed",
+    "review": "source-and-alternatives-reviewed-by-author",
+    "items": [
+      {
+        "sourceCue": "Phước cũng là Chánh nghiệp nhưng phải gây tạo.",
+        "targetVietnamese": "Phước cũng là Chánh nghiệp nhưng phải gây tạo.",
+        "sentence": "Blessings also belong to Right Action, but they must be ___.",
+        "options": [
+          "created",
+          "claimed",
+          "announced",
+          "reclassified"
+        ],
+        "answer": 0,
+        "rationales": [
+          "created: gây tạo bằng hành động; không chỉ nói mình có.",
+          "claimed: tự nhận lấy; không bảo đảm đã làm việc thiện.",
+          "announced: công bố; thêm người nghe thay cho hành động.",
+          "reclassified: đổi cách xếp loại; chỉ đổi tên không tạo phước."
+        ],
+        "dimension": "creating blessings"
+      },
+      {
+        "sourceCue": "Giới là tránh không làm, giữ không phạm, nhưng phước thì phải làm.",
+        "targetVietnamese": "Giới là tránh không làm, giữ không phạm, nhưng phước thì phải làm.",
+        "sentence": "Keeping precepts means ___ wrongdoing and avoiding violations, whereas blessings require action.",
+        "options": [
+          "refraining from",
+          "benefiting from",
+          "recovering from",
+          "learning from"
+        ],
+        "answer": 0,
+        "rationales": [
+          "refraining from: tránh không làm; giữ mặt ngăn hành vi của giới.",
+          "benefiting from: hưởng lợi từ; ngược tránh làm sai.",
+          "recovering from: hồi phục sau; giả định đã bị ảnh hưởng bởi lỗi.",
+          "learning from: học sau khi có lỗi; không phải giữ không phạm từ đầu."
+        ],
+        "dimension": "refraining from harm"
+      },
+      {
+        "sourceCue": "Phước là giúp cho người được lợi ích trong thiện pháp.",
+        "targetVietnamese": "Phước là giúp cho người được lợi ích trong thiện pháp.",
+        "sentence": "Creating blessings means ___ others through wholesome means.",
+        "options": [
+          "benefiting",
+          "flattering",
+          "indulging",
+          "beholding"
+        ],
+        "answer": 0,
+        "rationales": [
+          "benefiting: làm người được lợi ích; giữ điều kiện trong thiện pháp.",
+          "flattering: tâng bốc; có thể nuôi tự ái chứ chưa giúp thật.",
+          "indulging: chiều ý thích; không bảo đảm lợi ích thiện.",
+          "beholding: chỉ nhìn ngắm; chưa tạo tác động giúp người."
+        ],
+        "dimension": "wholesome benefit"
+      },
+      {
+        "sourceCue": "Trong câu này hàm chứa có hai ý. Một là giúp người, hai là trong thiện pháp.",
+        "targetVietnamese": "Trong câu này hàm chứa có hai ý. Một là giúp người, hai là trong thiện pháp.",
+        "sentence": "The definition ___ two points: helping others and doing so wholesomely.",
+        "options": [
+          "contains",
+          "merges",
+          "negates",
+          "postpones"
+        ],
+        "answer": 0,
+        "rationales": [
+          "contains: hàm chứa hai yêu cầu; giữ cả giúp người và tính thiện.",
+          "merges: trộn thành một; không giữ hai mặt phân biệt rõ.",
+          "negates: bác bỏ; ngược định nghĩa đang khẳng định.",
+          "postpones: hoãn lại; không phải quan hệ gồm hai ý."
+        ],
+        "dimension": "two conditions"
+      },
+      {
+        "sourceCue": "Ví dụ như giúp đỡ mà không trong thiện pháp thì không phải làm phước. Cho nên, việc giúp đỡ người phải trong thiện pháp.",
+        "targetVietnamese": "Ví dụ như giúp đỡ mà không trong thiện pháp thì không phải làm phước. Cho nên, việc giúp đỡ người phải trong thiện pháp.",
+        "sentence": "Help that is not wholesome does not ___ creating blessings; helping others must be wholesome.",
+        "options": [
+          "qualify as",
+          "lead away from",
+          "cast doubt on",
+          "pave the way for"
+        ],
+        "answer": 0,
+        "rationales": [
+          "qualify as: đủ tư cách là; giữ điều kiện thiện để được xem là làm phước.",
+          "lead away from: dẫn xa khỏi; phủ định này không nói nó là loại việc gì.",
+          "cast doubt on: làm nghi ngờ; không phải xét một hành động có đạt điều kiện.",
+          "pave the way for: mở đường cho; nói hệ quả sau chứ không bản chất hành vi."
+        ],
+        "dimension": "qualifying as a good deed"
+      }
+    ]
+  }
 ];
