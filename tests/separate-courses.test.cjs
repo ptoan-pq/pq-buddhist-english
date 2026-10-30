@@ -21,10 +21,12 @@ test('All 1512 advanced questions have complete frames, recalled Vietnamese and 
     assert(q.prompt.includes(`“${q.evidence}”`));assert(set.context.vietnamese.includes(q.evidence));assert(q.evidence.includes(q.sourceCue));
     assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);
     assert(q.analysis.includes(q.sentence.replace('___',q.options[q.answer])));
-    assert(q.analysis.split('\n')[1].length>70);assert(q.source.locator&&q.source.title);
+    if(set.id.startsWith('M'))assert(q.analysis.length>200);
+    else assert(q.analysis.split('\n')[1].length>70);
+    assert(q.source.locator&&q.source.title);
   }}assert.equal(ids.size,1512);assert(dimensions.size>=24);
-  assert.equal(verbs.sets.filter(s=>s.id.startsWith('N')).length,288);
-  assert.equal(verbs.sets.filter(s=>s.id.startsWith('N')).flatMap(s=>s.items).filter(q=>q.group==='verb-advanced-new').length,1440);
+  assert.equal(verbs.sets.filter(s=>s.id.startsWith('M')).length,288);
+  assert.equal(verbs.sets.filter(s=>s.id.startsWith('M')).flatMap(s=>s.items).filter(q=>q.group==='verb-hand-authored').length,1440);
 });
 test('Advanced sets submit six together, retry only wrong answers, and allow free packet selection',()=>{
   const s=E.create(verbs),set=verbs.sets[0];

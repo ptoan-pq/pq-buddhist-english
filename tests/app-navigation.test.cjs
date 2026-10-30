@@ -30,14 +30,28 @@ test('The actual app switches between the two programs, keeps 5/6 questions sepa
   app.buttons().filter(b=>b.textContent==='Mở gói này').at(11).onclick();
   assert.equal(app.questions().length,6);assert(app.questions().every(q=>q.id.startsWith('V12-')));
   const choice=walk(app.questions()[0]).find(e=>e.className==='option');choice.onclick();
-  const verbResponse=JSON.parse(app.saved.get('pq-english-verb-mastery-v3')).sets.V12.responses;
+  const verbResponse=JSON.parse(app.saved.get('pq-english-verb-mastery-v4')).sets.V12.responses;
   assert.equal(Object.keys(verbResponse).length,1);
   app.select('program-select','dharma');app.select('topic-select','context-w24');
   assert.equal(app.questions().length,5);assert(app.questions().every(q=>q.id.startsWith('W24-B01-Q0')));
   assert(!app.main.textContent.includes('Phần 2 —'));
   app.select('program-select','verbs');app.select('topic-select','verb-mastery');
   assert.equal(app.questions().length,6);assert(app.questions().every(q=>q.id.startsWith('V12-')));
-  assert.deepEqual(JSON.parse(app.saved.get('pq-english-verb-mastery-v3')).sets.V12.responses,verbResponse);
+  assert.deepEqual(JSON.parse(app.saved.get('pq-english-verb-mastery-v4')).sets.V12.responses,verbResponse);
   app.select('topic-select','verb-review');assert.equal(app.questions().length,5);
   assert(app.main.textContent.includes('Ôn động từ cơ bản'));
+});
+
+test('Authored packets show five concise cards, one shared instruction, and free selection through M288',()=>{
+  const app=boot();app.select('program-select','verbs');
+  app.buttons().filter(b=>b.textContent==='Mở gói này').at(12).onclick();
+  assert.equal(app.questions().length,5);
+  assert(app.questions().every(q=>q.id.startsWith('M001-')));
+  assert(app.questions().every(q=>!q.textContent.includes('Chọn động từ')));
+  assert.equal((app.main.textContent.match(/Mỗi câu có một đáp án phù hợp nhất/g)||[]).length,1);
+  app.select('packet-select','299');
+  assert(app.questions().every(q=>q.id.startsWith('M288-')));
+  const option=walk(app.questions()[0]).find(e=>e.className==='option');option.onclick();
+  app.select('packet-select','12');app.select('packet-select','299');
+  assert.equal(Object.keys(JSON.parse(app.saved.get('pq-english-verb-mastery-v4')).sets.M288.responses).length,1);
 });

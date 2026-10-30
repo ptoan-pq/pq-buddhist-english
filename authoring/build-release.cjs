@@ -1,0 +1,20 @@
+'use strict';
+// Serialize authored content only. No question, option, or translation generation.
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const assert=require('node:assert/strict'),crypto=require('node:crypto');
+const {assemble,loadBank}=require('./build-manual-preview.cjs');
+const filename=path.join(__dirname,'../advanced-verbs.js');
+const sandbox={window:{}};
+vm.runInNewContext(fs.readFileSync(filename,'utf8'),sandbox);
+const specialist=JSON.parse(JSON.stringify(sandbox.window.PQAdvancedVerbs.modules.filter(m=>/^V\d+$/.test(m.id))));
+assert.equal(specialist.flatMap(m=>m.items).length,72);
+assert.equal(crypto.createHash('sha256').update(JSON.stringify(specialist)).digest('hex'),'8c0fbb1b747f812dfd2a41ff06e6913305d1c2d263c7ab8737b1a2039afe1403','Preserve the original 72 specialist questions exactly');
+const modules=assemble();
+assert.equal(modules.length,288);
+assert.equal(modules.flatMap(m=>m.items).length,1440);
+assert.deepEqual(modules.map(m=>m.id),Array.from({length:288},(_,i)=>`M${String(i+1).padStart(3,'0')}`));
+assert.deepEqual(modules.map(m=>m.sourceBlockId).sort(),Array.from(loadBank().topics.flatMap(t=>t.blocks),b=>b.id).sort());
+assert(modules.every(m=>m.sourceAlignment==='quote-and-english-checked'));
+const payload={version:4,kind:'manually-authored-contextual-verb-mastery',authoredQuestions:1440,preservedSpecialistQuestions:72,modules:[...specialist,...modules]};
+fs.writeFileSync(filename,'window.PQAdvancedVerbs='+JSON.stringify(payload,null,2)+';\n');
+console.log('Release data: 1440 authored questions + 72 unchanged specialist questions.');

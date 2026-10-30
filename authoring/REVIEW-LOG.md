@@ -1,5 +1,17 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Hoàn tất biên soạn — 2026-10-30, M001–M288
+
+- Đã viết lại nốt **54 gói / 270 câu M001–M054**, không lấy lại nguyên các nháp nhiều đáp án cùng đúng. Tập hiện hành đủ **288 gói / 1.440 câu**, phủ toàn bộ 288 đoạn nguồn. Bảo toàn nháp cũ để đối chiếu, không tính hai lần vào số câu.
+- Từng câu có trích Việt nguyên văn, một khung Anh riêng, bốn lựa chọn động từ/cụm động từ, một đáp án và bốn lý do đối chiếu. Không có khung trùng hoàn toàn trong 1.440 câu. Đã tự rà nguồn–khung–phương án; chưa có rà ngôn ngữ độc lập hoặc hiệu chuẩn độ khó.
+- Bổ sung snapshot nguồn ở M004, M030, M040, M041 để khôi phục ngữ cảnh hoặc tránh lấy câu OCR hỏng làm câu hỏi; giữ locator và checksum. M030 không âm thầm sửa chữ của nguồn: bỏ câu OCR hỏng khỏi đoạn tuyển và chọn các câu nguyên văn còn đọc rõ.
+- Lượt cuối sửa hòa hợp chủ ngữ/động từ M055, M082, đại từ M066, chủ thể M080; vị trí đại từ trong cụm động từ M234/M282; và các lựa chọn gượng ở M223/M257/M260/M267. Sửa cả lý do theo lựa chọn, không chỉ sửa đáp án.
+- Đóng gói **1.440 câu M mới + 72 câu V chuyên sâu không đổi**; checksum của 72 câu được khóa trong kiểm thử. Chương trình 24 chủ điểm và kho động từ cơ bản không bị sửa.
+- Theo yêu cầu giao diện mới nhất, mỗi thẻ chỉ còn trích Việt và khung Anh, không lặp câu hướng dẫn chọn đáp án. Hướng dẫn chung xuất hiện một lần ở đầu gói. Đủ năm câu mới reveal, retry chỉ câu sai, chọn gói tự do.
+- Khóa tiến độ mới `pq-english-verb-mastery-v4`: tiếp nhận kết quả của V01–V12 không đổi, không cấp PASS M từ các câu N cũ. Không xóa dữ liệu ở khóa v3.
+- **60/60 kiểm thử đạt**, gồm so sánh dữ liệu public với file biên soạn, phủ đủ 288 ID/đoạn, kiểm nguyên văn và snapshot, giữ 72 câu, submit/retry, chọn M288, migration và khôi phục đáp án.
+- Kiểm tra trình duyệt trực quan chưa thực hiện được: profile Chrome chưa có cửa sổ và in-app browser bị tắt trong Work settings. Đã chạy kiểm thử DOM của chính app; không coi đây là screenshot QA hoặc chứng nhận toàn bộ độ khó ngôn ngữ.
+
 ## Tiến độ mới nhất — 2026-10-30, rà xong M085–M120
 
 - Đọc nguồn và sửa tiếp **36 gói / 180 câu M085–M120**. Tập chính M055–M288 hiện có **234 gói / 1.170 câu** đã qua lượt đối chiếu nguồn, khung và phương án.

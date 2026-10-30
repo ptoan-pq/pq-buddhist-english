@@ -53,7 +53,7 @@ function quoteFromSource(source,cue,authoredQuote){
 
 function assemble(sets=authored,bank=loadBank()){
   const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
-  return sets.map(set=>{
+  return [...sets].sort((a,b)=>a.id.localeCompare(b.id)).map(set=>{
     const block=blocks.get(set.sourceBlockId);
     assert(block,`Missing source: ${set.sourceBlockId}`);
     assert.equal(set.items.length,5,`${set.id}: exactly five authored questions`);
@@ -94,7 +94,7 @@ function assemble(sets=authored,bank=loadBank()){
           sourceCue:q.sourceCue,evidence:quote,source,
           targetVietnamese:quote,sentence:q.sentence,
           taskKind:'verb-gap',assessmentMode:'single-best-verb',
-          prompt:`Trích nguyên văn từ nguồn:\n“${quote}”\n\nChọn động từ/cụm động từ phù hợp nhất để dịch câu trích. Chỉ một đáp án.\n\n${q.sentence}`,
+          prompt:`“${quote}”\n\n${q.sentence}`,
           options:order.map(j=>q.options[j]),answer:order.indexOf(q.answer),
           analysis:`Câu hoàn chỉnh: ${model}\n\n${q.rationales.join('\n\n')}`,
           rationales:order.map(j=>q.rationales[j])
@@ -105,8 +105,8 @@ function assemble(sets=authored,bank=loadBank()){
 }
 
 function markdown(modules){
-  const out=['# Master động từ — bản thảo biên soạn thủ công','',
-    'Chưa phát hành. Ngữ cảnh Việt được in một lần cho mỗi gói; phần Việt ở mỗi câu hỏi được trích nguyên văn từ chính nguồn đó, không chèn diễn giải.',
+  const out=['# Master động từ — 1.440 câu biên soạn thủ công','',
+    'Bản đối chiếu nội dung. Ngữ cảnh Việt được in một lần cho mỗi gói; phần Việt ở mỗi câu hỏi được trích nguyên văn từ chính nguồn đó, không chèn diễn giải.',
     'Trích nguyên văn không đồng nghĩa khung Anh đã khớp đủ ý. Trạng thái rà cặp Việt–Anh được ghi riêng trên từng gói; không coi kiểm thử cấu trúc là chứng nhận chất lượng ngôn ngữ.',''];
   for(const set of modules){
     out.push(`## ${set.id} — ${set.title}`,'',`Nguồn: ${set.context.source.title} · ${set.context.source.locator}`,'',
@@ -126,13 +126,16 @@ function markdown(modules){
 function writePreview(directory){
   const modules=assemble(),count=modules.flatMap(m=>m.items).length;
   fs.mkdirSync(directory,{recursive:true});
-  fs.writeFileSync(path.join(directory,'manual-reviewed-preview.json'),JSON.stringify({status:'unpublished-mixed-review-drafts',modules},null,2)+'\n');
+  fs.writeFileSync(path.join(directory,'manual-reviewed-preview.json'),JSON.stringify({status:'complete-author-reviewed',modules},null,2)+'\n');
   fs.writeFileSync(path.join(directory,'MANUAL-REVIEWED-PREVIEW.md'),markdown(modules));
+  fs.writeFileSync(path.join(directory,'MASTER-VERBS-1440.md'),markdown(modules));
   const aligned=modules.filter(m=>m.sourceAlignment==='quote-and-english-checked');
   fs.writeFileSync(path.join(directory,'SOURCE-ALIGNED-PREVIEW.md'),markdown(aligned));
   const revisedIds=new Set(authored.filter(m=>m.difficultyReview==='single-best-verb-options-reviewed').map(m=>m.id));
   const revised=modules.filter(m=>revisedIds.has(m.id));
   fs.writeFileSync(path.join(directory,'VERB-CHOICE-REVIEWED-PREVIEW.md'),markdown(revised));
+  const revisedBlocks=new Set(revised.map(m=>m.sourceBlockId));
+  const pendingLegacy=drafts.filter(d=>!revisedBlocks.has(d[0]));
   const used=new Set([...drafts.map(d=>d[0]),...modules.map(m=>m.sourceBlockId)]);
   const manifest={
     targetSets:288,targetQuestions:1440,
@@ -149,11 +152,12 @@ function writePreview(directory){
     draftedQuestionsIncludingLegacy:used.size*5,
     undraftedQuestions:(288-used.size)*5,
     preservedSpecialistQuestionsNotCountedTowardNew1440:72,
-    legacyDraftSetsAwaitingSemanticRevision:drafts.length,
-    legacyDraftQuestionsAwaitingSemanticRevision:drafts.flatMap(d=>d[3]).length,
+    preservedLegacyDraftSets:drafts.length,
+    legacyDraftSetsAwaitingSemanticRevision:pendingLegacy.length,
+    legacyDraftQuestionsAwaitingSemanticRevision:pendingLegacy.flatMap(d=>d[3]).length,
     notYetDraftedSourceBlocks:loadBank().topics.flatMap(t=>t.blocks).filter(b=>!used.has(b.id)).map(b=>b.id),
-    publication:'unchanged',independentLanguageReview:false,
-    note:'Author-reviewed drafts are not certified by structural tests. Legacy drafts require semantic revision before release.'
+    publication:'release-candidate',independentLanguageReview:false,
+    note:'All 1440 questions have authored replacements. Structural tests do not certify language quality or calibrated difficulty. Original legacy drafts remain archived, not served.'
   };
   fs.writeFileSync(path.join(directory,'manual-rewrite-progress.json'),JSON.stringify(manifest,null,2)+'\n');
   return manifest;

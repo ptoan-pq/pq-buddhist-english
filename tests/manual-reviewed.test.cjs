@@ -2,13 +2,12 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const rows=require('../authoring/reviewed-verb-sets.cjs');
-const drafts=require('../authoring/manual-drafts.cjs');
 const {assemble,markdown,loadBank,quoteFromSource}=require('../authoring/build-manual-preview.cjs');
 const E=require('../engine.js');
 
 test('hand-authored batch has five distinct verb tasks and a rationale per option',()=>{
   assert(rows.length>0);
-  const ids=new Set(),blocks=new Set(drafts.map(x=>x[0]));
+  const ids=new Set(),blocks=new Set();
   for(const m of rows){
     assert(!ids.has(m.id),m.id);ids.add(m.id);
     assert(!blocks.has(m.sourceBlockId),m.sourceBlockId);blocks.add(m.sourceBlockId);
@@ -131,7 +130,8 @@ test('active course chooses one verb in a real frame, never a whole translation 
     assert.notEqual(q.sentence,'___',q.id);
     assert(!q.validAnswers&&!q.preferredAnswers,q.id);
     assert.equal([0,1,2,3].filter(i=>E.isCorrect(q,i)).length,1,q.id);
-    assert(q.prompt.includes('Chỉ một đáp án.'),q.id);
+    assert(!q.prompt.includes('Chỉ một đáp án.'),q.id);
+    assert.equal(q.prompt,`“${q.targetVietnamese}”\n\n${q.sentence}`,q.id);
   }
   const bad=JSON.parse(JSON.stringify(rows.slice(0,1)));
   bad[0].items[0].sentence='___';

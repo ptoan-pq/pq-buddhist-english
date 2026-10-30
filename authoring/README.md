@@ -1,10 +1,10 @@
-# Viết lại Master động từ — chưa phát hành
+# Master động từ — bản biên soạn 1.440 câu
 
 Mục tiêu giữ nguyên: 288 gói × 5 câu = 1.440 câu nâng cao viết riêng từng câu. 72 câu chuyên sâu ban đầu được bảo toàn ngoài chỉ tiêu 1.440 câu mới.
 
 ## Nguồn dữ liệu
 
-- `manual-drafts.cjs`: bảo toàn 54 gói/270 câu nháp từ những lượt trước. Có lỗi phương án gần nghĩa cùng đúng, đáp án không khớp lời giải và câu không tập trung vào động từ. Chưa được xem là đủ chuẩn phát hành.
+- `manual-drafts.cjs`: bảo toàn 54 gói/270 câu nháp lịch sử. Toàn bộ đã có bản viết lại M001–M054 trong tập hiện hành; không dùng các nháp này để phục vụ người học hoặc cộng thêm vào chỉ tiêu.
 - `reviewed-verb-sets.cjs`: câu được viết riêng với câu Việt ngắn cần diễn đạt, khung Anh riêng, bốn phương án và bốn lý do đối chiếu nguồn. Trạng thái rà là của chính người biên soạn, không phải người rà độc lập.
 - `build-manual-preview.cjs`: chỉ đóng gói nội dung đã viết sang JSON và Markdown. Không cắt động từ ra từ bản dịch mẫu, không chia họ từ để tạo phương án, không bù số lượng bằng câu dự phòng.
 - Ngữ cảnh lấy trực tiếp từ `context-bank.js`. Bản Anh cũ không phải đáp án bắt buộc. Giữ nguồn, phủ định, tác nhân, mức độ, thời điểm và điều kiện.
@@ -30,6 +30,7 @@ Bản chọn toàn câu và nhiều lựa chọn cùng đúng là hướng đã 
 ```sh
 node --test tests/manual-authoring.test.cjs tests/manual-reviewed.test.cjs
 node authoring/build-manual-preview.cjs
+node authoring/build-release.cjs
 ```
 
 Kết quả mặc định ở `../outputs/context-bank-v1/manual-rewrite-preview/`:
@@ -44,4 +45,6 @@ Kiểm thử chứng minh các thuộc tính cấu trúc, không chứng minh m�
 
 ## Điều kiện phát hành
 
-Chưa thay các file public khi còn thiếu câu hoặc còn câu nháp chưa sửa. Khi đủ 1.440 câu đã rà nội dung, mới tích hợp vào giao diện và kiểm tra hiển thị thật: một ngữ cảnh, năm thẻ, submit/retry, chọn gói, migration tiến độ. Nội dung thay đổi không được hưởng PASS từ câu cũ khác nghĩa. Còn phải chạy kiểm thử toàn repo và xác minh bản public sau khi phát hành.
+`build-release.cjs` chỉ đóng gói khi đủ M001–M288, đúng 1.440 câu và phủ đủ 288 đoạn; kiểm checksum để giữ nguyên 72 câu chuyên sâu ban đầu. Dữ liệu phát hành được so trực tiếp với tập biên soạn trong kiểm thử. Mỗi gói có một ngữ cảnh, năm thẻ, submit/retry và chọn gói tự do. Hướng dẫn chọn đáp án chỉ hiện một lần ở đầu gói. Phiên bản tiến độ v4 giữ lịch sử cũ tại khóa cũ, chỉ tiếp nhận kết quả của 72 câu V01–V12 không thay đổi; không cấp PASS từ các câu N cũ sang M mới.
+
+Toàn bộ 1.440 câu đã được người biên soạn tự đối chiếu nguồn và phương án. Chưa có rà ngôn ngữ độc lập hoặc hiệu chuẩn độ khó bằng dữ liệu người học; không coi kiểm thử cấu trúc là chứng nhận mọi câu đều khó như nhau.

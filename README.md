@@ -2,18 +2,20 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Hai khóa học độc lập — v5.0
+## Hai khóa học độc lập — bản biên soạn thủ công 1.440 câu
 
 - **Diễn đạt Phật học:** giữ nguyên 1.440 câu gốc, 24 chủ điểm × 12 gói × 5 câu. Không trộn phần động từ bổ sung vào các gói này nữa.
-- **Master động từ:** chương trình riêng, hiện có **300 gói nâng cao = 1.512 câu**. 72 câu đầu được biên soạn chuyên sâu; **1.440 câu mới** được viết từ các bản dịch/ngữ cảnh nguồn, phủ đủ 288 đoạn. Các gói tổ chức theo sự khác nhau về nghĩa, cường độ, tác nhân, căn cứ nhận thức, diễn tiến và kết quả; không lấy lại câu hỏi cơ bản.
+- **Master động từ:** chương trình riêng, **300 gói = 1.512 câu**. Giữ nguyên 72 câu chuyên sâu V01–V12; **1.440 câu M001–M288** được biên soạn riêng theo nguồn Việt, thay toàn bộ tập N cũ. Mỗi câu có khung Anh riêng, bốn lựa chọn và phân tích từng lựa chọn; không lấy câu cơ bản để bù số lượng.
 - Mỗi câu nâng cao có nguyên câu Việt để nhớ ngữ cảnh, một câu Anh khuyết vị ngữ và bốn lựa chọn cùng lĩnh vực/ngữ cảnh nhưng khác một nét nghĩa. Lời giải nêu câu hoàn chỉnh và vì sao từng lựa chọn làm đổi ý nguồn. Không tự động coi một từ đồng nghĩa đúng là sai.
 - **Bộ ôn động từ cơ bản:** 1.440 câu động từ của bản trước được giữ nguyên, truy cập từ bên trong khóa Master động từ. Đây là kho ôn cũ, không phải 1.440 câu nâng cao mới.
 - Đổi khóa bằng **Chọn khóa học**; chọn chủ điểm hoặc gói tùy ý. Tất cả gói của hai chương trình chính đều mở tự do. Nộp đủ 5 hoặc 6 câu mới mở phản hồi; chỉ làm lại câu sai.
-- Tiến độ và sổ tay tách riêng; thay đổi ở khóa này không sửa đáp án khóa kia. Khóa gốc dùng `pq-english-context-Wxx-base-v1`, khóa nâng cao dùng `pq-english-verb-mastery-v3`, kho ôn dùng `pq-english-verb-review-v1`.
+- Tiến độ và sổ tay tách riêng; thay đổi ở khóa này không sửa đáp án khóa kia. Khóa gốc dùng `pq-english-context-Wxx-base-v1`, khóa nâng cao dùng `pq-english-verb-mastery-v4`, kho ôn dùng `pq-english-verb-review-v1`. Chỉ chuyển kết quả của 72 câu V không đổi; câu M mới không hưởng PASS từ tập N trước đây. Các khóa lưu cũ vẫn được giữ nguyên.
 - Chuyển dữ liệu từ bộ gộp v4: giữ câu trả lời/lịch sử hợp lệ của câu gốc và bộ động từ cũ vào đúng kho. Không trao PASS nâng cao từ câu dễ. Khóa lưu cũ không bị ghi đè; JSON cũ vẫn nhập được.
 - `context-bank.js` và `context-verbs.js` không bị sửa/xóa. `context-lessons.js` chỉ tạo chủ điểm gốc; `advanced-verbs.js` và `verb-lessons.js` tạo khóa động từ và kho ôn. `project.js` tách tiến độ theo mã câu.
 
 Phần nâng cao được biên soạn, không được sinh bằng cách thay hàng loạt từ đồng nghĩa vào câu cũ. Độ khó chưa được hiệu chuẩn bằng dữ liệu người học và chưa có rà soát độc lập của người bản xứ. Chọn đáp án đúng không thay thế năng lực tự viết/nói. Kiểm thử chương trình không chứng nhận chất lượng ngôn ngữ.
+
+Ngữ cảnh in một lần mỗi gói. Mỗi thẻ chỉ có câu Việt trích nguyên văn, khung Anh và các lựa chọn; hướng dẫn chọn động từ không lặp trên từng thẻ. Xem quy trình biên soạn trong `authoring/README.md`; chạy `node authoring/build-release.cjs` để đóng gói lại từ nội dung đã viết, không tạo câu hỏi mới.
 
 ## Chương trình v2 — hồ sơ các file cũ được giữ lại
 
