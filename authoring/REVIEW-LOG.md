@@ -1,5 +1,14 @@
 # Nhật ký rà bản biên soạn thủ công
 
+## Tiến độ mới nhất — 2026-10-30, rà xong M085–M120
+
+- Đọc nguồn và sửa tiếp **36 gói / 180 câu M085–M120**. Tập chính M055–M288 hiện có **234 gói / 1.170 câu** đã qua lượt đối chiếu nguồn, khung và phương án.
+- Đã sửa: `là trí tuệ và can đảm` thành quan hệ thể hiện phẩm chất, không chỉ cần phẩm chất; giữ câu tự vấn về động cơ là câu tự vấn; sửa người mai mối tự vui thành đúng người trải nghiệm cảm xúc, không phải xã hội ban thưởng; `thật là có lỗi` giữ lực phê bình có điều kiện; tránh biến nỗi lo dân số thành dự báo chắc chắn.
+- Phần nói thật/nói dối/góp ý giữ riêng các thao tác relay/embellish/retract; persist/withdraw/broadcast; facilitate/compel; confidence/infallibility; receive advice/pledge obedience; discovering/suspecting; shielding/reforming. Chỉnh phạm vi `tất cả mọi người`, điều kiện ít duyên và thời hạn tiếp tục báo lỗi.
+- Lượt lấy câu nguyên văn tự động ở M115–M120 có các câu trùng vì hai thao tác nằm trong cùng câu dài. Đã xem lại và tách đúng các vế nguyên văn tương ứng, không để mỗi câu hỏi lặp toàn bộ cùng câu nguồn.
+- **56/56 kiểm thử đạt**. Còn **270 câu M001–M054** trong `manual-drafts.cjs`, chưa được tính vào số hoàn thiện. Phải sửa cả những lựa chọn gần nghĩa cùng đúng, không chỉ bổ sung metadata.
+- Chưa thực hiện rà ngôn ngữ cuối trên toàn bộ 1.440 câu, chưa hiệu chuẩn độ khó độc lập; website public chưa đổi. Điểm tiếp theo: **M001**, sau đó xử lý hết M054 và kiểm tổng.
+
 ## Tiến độ mới nhất — 2026-10-30, hoàn tất phần viết mới đến M288 và rà M055–M084
 
 - Viết thêm **51 gói / 255 câu mới** ở M238–M288; toàn bộ các gói nguồn mới đến cuối W24 đã có câu. Sau đó đọc lại nguồn và cả bốn lựa chọn của **30 gói / 150 câu M055–M084**, thay phần Việt diễn giải bằng trích nguyên văn, sửa khung và các lựa chọn không khớp.
