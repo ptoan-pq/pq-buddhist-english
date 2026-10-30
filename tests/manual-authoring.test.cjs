@@ -1,9 +1,14 @@
 const test=require('node:test'),assert=require('node:assert/strict');
-const manual=require('../../outputs/context-bank-v1/manual-verb-authoring.cjs');
-const bank=require('../../outputs/context-bank-v1/bank.json');
+const manual=require('../authoring/manual-drafts.cjs');
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const sandbox={window:{}};
+vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../context-bank.js'),'utf8'),sandbox);
+const bank=sandbox.window.PQContextBank;
 const blocks=new Map(bank.topics.flatMap(t=>t.blocks).map(b=>[b.id,b]));
 
-test('manual advanced authoring keeps distinct source-grounded frames',()=>{
+// This checks draft structure only. It does not certify answer uniqueness,
+// grammatical distractors, or semantic faithfulness.
+test('preserved manual drafts have traceable cues and distinct frame strings',()=>{
   assert.equal(manual.length,54);
   assert.equal(manual.flatMap(x=>x[3]).length,270);
   for(const [blockId,id,title,rows] of manual){
