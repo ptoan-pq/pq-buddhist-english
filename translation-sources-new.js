@@ -241,3 +241,245 @@ globalThis.PQTranslationSources=[
     }
   }
 ];
+globalThis.PQTranslationSources.push(...[
+  {
+    "id": "N021",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 34) ĐỨA CON NUÔI",
+      "vietnamese": "Gặp người có ưu điểm thì tự nhiên cái thích khởi lên. Đây là lúc thử thách đạo đức chung thủy của con người. Người thiếu đạo đức chung thủy thì cứ để tâm mình thích tiếp, và nếu có cơ hội thì thả trôi tình cảm tới luôn, không cần biết hậu quả. Người có đạo đức chung thủy thì chặt đứt cái thích đó ngay từ ý niệm đầu tiên. Nhưng không phải ai cũng đủ sức mạnh, đủ ý chí, đủ lý trí, đủ đạo đức, để chặt đứt cái thích đó ngay lập tức.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0592"
+      }
+    }
+  },
+  {
+    "id": "N022",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 37) NHÌN XA HƠN",
+      "vietnamese": "Ngược lại với tâm đố kị là tâm bao dung. Nếu ai có tài có đức, có khả năng đóng góp xây dựng cộng đồng thì ta ủng hộ, hỗ trợ, phụ giúp. Thậm chí việc ủng hộ phụ giúp của ta khiến người đó vượt lên cao hơn ta, ta cũng rất sẵn lòng. Ta đặt lợi ích chung lên cao hơn danh dự cá nhân ta, cao hơn lợi ích cá nhân ta, cao hơn sự kiêu hãnh của ta. Thậm chí việc ủng hộ người tài có thể sẽ khiến ta bị thiệt thòi trước mắt, nhưng đời con cháu ta sẽ hưởng trái ngọt lành.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0620"
+      }
+    }
+  },
+  {
+    "id": "N023",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 37) NHÌN XA HƠN",
+      "vietnamese": "Nhìn thấy người tài đức mà vui mừng quý mến, đó là người có đạo đức rất cao. Tuy chưa làm gì, chỉ cái tâm bao dung đó thôi, cũng đã là đóng góp rất nhiều cho xã hội. Ta phải tâm nguyện với chính mình rằng sẽ luôn ủng hộ người tài đức. Ta thật lòng mong cho có nhiều người giỏi hơn mình để xây dựng xã hội khá hơn. Rõ ràng ta đã không đóng góp được gì nhiều cho xã hội, nếu có ai có thể đóng góp nhiều hơn thì nhất định người đó phải giỏi hơn ta. Lúc nào cũng ước ao xuất hiện nhiều người giỏi hơn ta, đó là đạo đức cao thượng. Nhân quả trở lại với người có tâm bao dung đó là trong dòng họ con cháu sẽ xuất hiện bậc kỳ tài.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0624"
+      }
+    }
+  },
+  {
+    "id": "N024",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "Xe chạy bon bon trên đường về quê thì phải dừng lại vì gặp phải khúc đường cực xấu, hố sâu hoắm. Mọi người xuống xe đứng nhìn tìm cách đưa xe đi qua an toàn. Lạ thật, đoạn đường sau lưng vừa đi qua rất tốt còn rất mới, nghĩa là mới vừa thi công xong. Bên kia hố sâu cũng là con đường rất đẹp cũng vừa mới làm xong. Chỉ có khúc ngắn khoảng 10m này thì hư nặng nề, hố sâu, xe đi qua rất nguy hiểm. Chẳng hiểu vì sao.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0701"
+      }
+    }
+  },
+  {
+    "id": "N025",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "Có lẽ mấy căn nhà bên đường đã quá quen với cảnh khách phương xa đến đấy dừng lại bàn tán nên chẳng ai buồn đi ra giải thích. Hai người khách đi đến hỏi chủ nhà vì sao có tình trạng thi công bỏ dở một khúc ngắn lại như vậy. Chủ nhà giải thích là có hai đơn vị thi công hai khúc đường, và theo hợp đồng là hai khúc đường sẽ giáp nhau tại đây. Nhưng sau khi thi công đúng chiều dài theo hợp đồng thì không giáp nhau, còn hụt mất một khúc 10m như thế, và không ai có trách nhiệm phải làm cả. Họ dùng máy đo kỹ phần đường đã làm là chính xác, nên dừng lại. Hai bên đều dừng lại cách nhau 10m, vì đã hoàn thành hợp đồng của mình. Đoạn ngắn này không ai làm nên xuống cấp trầm trọng, đi qua lại vừa vất vả vừa nguy hiểm.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0702"
+      }
+    }
+  },
+  {
+    "id": "N026",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "5 người trên xe bàn nhau rồi quyết định hủy chuyến đi về quê thăm thú cảnh rừng núi, sẽ dành cả ngày hôm nay xử lý đoạn đường này. Họ liên lạc vài nơi để gọi xe chở đất lẫn đá đến đổ lấp hố sâu. Họ chạy ra chợ mua xẻng cuốc nện tay trở lại để san đất cho bằng. Buổi trưa họ mua mì gói ăn tạm, rồi tiếp tục san đất. Không ngờ đoạn đường hư này nuốt hơn hai mươi xe đất lẫn đá. Đến chiều tối mịt việc tạm xong, khúc đường đã bằng phẳng, xe cộ qua lại an toàn dễ dàng. 5 người của họ mới quay xe về thành phố",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0703"
+      }
+    }
+  },
+  {
+    "id": "N027",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "Hai công ty thi công đã hoàn thành hợp đồng, nhưng chưa hoàn thành lương tâm đạo đức. Họ phải hiểu nếu để yên khúc đường ngắn đó thì chẳng bao lâu nó sẽ hư hỏng, đe dọa an toàn giao thông của mọi người, nhất là đêm tối. Họ ở trong nghề thi công cầu đường thì càng phải hiểu kỹ thuật an toàn giao thông hơn ai hết. Đội thi công bên này tị nạnh đội thi công bên kia về khúc đường 10m vì sợ thiệt thòi cho mình. Đâu ngờ 10m đường hư hỏng nguy hiểm đó đã phá hỏng đạo đức và phúc lành của họ.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0704"
+      }
+    }
+  },
+  {
+    "id": "N028",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "Ở đây ta nói về tinh thần trách nhiệm. Kẻ kém đạo đức thì có đủ lý luận để chứng minh phần việc đó không phải trách nhiệm của mình nên không cần phải quan tâm giải quyết. Người có đạo đức thì việc ở đâu cũng thấy là trách nhiệm của mình. Đi ngoài đường thấy rác rơi vãi cũng tự trách mình đã chưa làm được gì để kêu gọi mọi người biết tham gia nhặt rác. Nhìn thấy người nghèo khổ cũng tự trách mình chưa đóng góp được gì cho cuộc đời bớt khó khăn...",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0707"
+      }
+    }
+  },
+  {
+    "id": "N029",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 44) KHÚC ĐƯỜNG CỦA AI",
+      "vietnamese": "Nếu một đất nước có được nhiều người có tinh thần trách nhiệm cao thì đất nước đó sẽ hùng cường. Ngược lại thì đất nước đó mãi mãi thuộc diện \"đang phát triển\". Ta phải dạy con em mình có tinh thần trách nhiệm cao độ phủ sóng khắp nơi. Các em hễ thấy việc gì có lợi cho đời là hăng hái góp công góp sức, đừng đổ trách nhiệm cho ai khác. Thậm chí còn phải tranh giành để được làm chứ không phải đợi ai kêu mới làm nữa.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0708"
+      }
+    }
+  },
+  {
+    "id": "N030",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 50) TĨNH TÂM",
+      "vietnamese": "Tĩnh tâm có nhiều lợi ích. Lợi ích thứ nhất là giải tỏa stress, giúp tâm hồn thư thái bình tĩnh an vui. Lợi ích thứ hai là hỗ trợ sức khỏe, tăng sức đề kháng, tạo ra một nội lực tiềm tàng cho cơ thể. Lợi ích thứ ba là tái tạo làm mới não bộ giúp thông minh hơn, nhớ tốt hơn. Lợi ích thứ tư là kiểm soát được cảm xúc, không cho sự nóng giận, hứng chí, chi phối tâm hồn mình. Lợi ích thứ năm là thay đổi quan điểm rất nhiều với cuộc sống, nhìn mọi chuyện tích cực hơn, bao dung hơn, sâu sắc hơn. Còn nhiều lợi ích của việc tập luyện tĩnh tâm lắm.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0768"
+      }
+    }
+  },
+  {
+    "id": "N031",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 50) TĨNH TÂM",
+      "vietnamese": "Tĩnh tâm và Đạo đức cũng liên quan với nhau rất mật thiết. Người có đạo đức dễ tập luyện tĩnh tâm, và người có tập luyện tĩnh tâm cũng dễ có đạo đức. Các bậc thánh thực sự, dù ở tôn giáo nào, cũng đều là người có khả năng tĩnh tâm sâu xa. Ta nói bậc thánh thực sự, nghĩa là người có đạo đức trí tuệ thực sự, chứ không phải thánh do tôn giáo đó phong tặng. Người được phong tặng chưa chắc là thánh thực sự, vì họ được công nhận bởi những người chưa phải là thánh. Còn thánh thực sự thì không cần ai phong tặng, họ có đạo đức và trí tuệ mà ít ai hiểu nổi.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0769"
+      }
+    }
+  },
+  {
+    "id": "N032",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 51) LỪA DỐI",
+      "vietnamese": "Con của vua phải rèn luyện và mẫu mực hơn con của dân thường gấp trăm lần. Bà con dòng họ của thủ tướng phải ngay lập tức giữ mình cẩn thận hơn trước kia. Sinh ra trời cho sắc đẹp thì phải bảo vệ tâm hồn mình tương xứng. Kế thừa tài sản của cha mẹ thì phải làm sao cho tài sản đó tạo nên điều có ích cho xã hội, chứ không phải xài cho hết. Nói chung, sống cực khổ cống hiến làm ta yên tâm hơn những cái may mắn bất ngờ.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0786"
+      }
+    }
+  },
+  {
+    "id": "N033",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 52) ĐỨNG ĐẦU",
+      "vietnamese": "Đôi khi người đứng đầu có sáng kiến mới, nhưng phải làm cho cái sáng kiến mới đó trở thành quy luật chung, kế hoạch chung, chứ đừng để cho sáng kiến mới đó trở thành ý muốn riêng. Càng lên cao, cái tôi càng mất dần, thì đó là chân lý, là đạo đức. Xưa nay bao nhiêu người lãnh đạo phạm sai lầm chỉ vì tưởng mình có quyền ra lệnh cho cấp dưới làm theo ý mình. Có một clip quay từ điện thoại di động, cảnh có vẻ bên Mỹ, cô nữ cảnh sát dữ dằn đuổi người đàn ông nghèo khổ ra khỏi tiệm ăn. Một thực khách khác hỏi cô lấy luật nào để đuổi công dân ra khỏi tiệm ăn lúc người ta đang ăn. Nữ cảnh sát trả lời \"I am the law\" tao là luật đây. Xem clip đó rất tội nghiệp người nghèo, được một người tốt bụng mời vào tiệm ăn, rốt cuộc có ai gọi báo cảnh sát đến đuổi đi. Kiểu bạo chúa.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0794"
+      }
+    }
+  },
+  {
+    "id": "N034",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 55) TỈ MỈ",
+      "vietnamese": "Ở đây tôi muốn chia sẻ bí quyết của tôi chính là đừng tin vào mắt mình, hãy tìm cách phóng to mọi thứ lên để nhìn thật kỹ. Các khuyết điểm không dễ nhìn thấy. Phải dùng phương tiện gì để truy tìm khuyết điểm gắt gao nhất. Không bao giờ được cho rằng đã tốt đẹp rồi, vì vẫn còn cái dở kém ở đâu đó mà ta phải phát hiện cho ra. Khi ta tỉ mỉ đến mức độ sợi tóc chẻ làm trăm thì ta sẽ phát minh ra nhiều điều mới lạ.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0843"
+      }
+    }
+  },
+  {
+    "id": "N035",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 57) MUỐN SAO CÓ VẬY",
+      "vietnamese": "Trong cuộc sống bộn bề hơn thua ganh ghét, ta phải càng giữ lòng mình nhân ái bao dung, cứ mong cho mọi người hơn mình, cứ giúp cho mọi người hơn mình, vậy mà đời mình lại may mắn thăng hoa. Bản năng ích kỷ hay khiến ta thầm mong người khác thất bại, khổ sở, mất uy tín. Bản năng đó nguy hiểm, làm cho ta cứ bị tan vỡ hư hao. Bây giờ ta quyết sửa lại, bẻ ngược cái khuynh hướng đó, tập cầu mong cho người khác hạnh phúc thành công. Dù ta chưa được hạnh phúc thành công, ta vẫn thành tựu được đạo đức cần thiết. Chỉ cái đạo đức thôi, lòng ta đã tự tin yên ổn rồi.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0877"
+      }
+    }
+  },
+  {
+    "id": "N036",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 59) HƯNG SUY",
+      "vietnamese": "Có một võ phái cũng áp dụng đạo đức khiêm tốn này, dạy môn sinh biết tôn trọng mọi võ phái khác vì hiểu rằng các võ phái khác giỏi hơn mình. Nhưng khi ta làm việc vất vả, học hành vất vả, tu hành vất vả, thì khi có chút kết quả, ta đều bị tâm lý kiêu ngạo làm cường điệu lên, đều tự đánh giá mình cao hơn giá trị thật của mình. Người tu thì tưởng mình chứng thánh quả cao siêu rồi, doanh nghiệp thì tưởng mình lên top 10 rồi. Nghệ sĩ thì tưởng mình được yêu thích nhất rồi. Hậu quả là tiêu rồi.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0899"
+      }
+    }
+  },
+  {
+    "id": "N037",
+    "context": {
+      "title": "Câu hỏi số 26: MỘT SỐ CƯ SĨ KỂ VỀ VIỆC LÀM ĂN GIAO TIẾP Ở THẾ GIAN MUỐN ĐƯỢC VIỆC PHẢI CÓ TIỆC TÙNG ĂN NHẬU KHIẾN CHO VIỆC GIỮ GIỚI KHÓ KHĂN?",
+      "vietnamese": "Đáp: Con người có tâm lý là những ai cùng vui với mình, cùng khổ với mình, nhất là cùng hư với mình, mới là bạn thân thiết, bạn thân thiết thì có thể tin tưởng hợp tác làm ăn, rất kỳ lạ. Thật ra chỉ những ai cùng tu dưỡng đạo đức như mình thì tạm đáng tin để hợp tác làm ăn, vậy mà còn rắc rối tùm lum. Ta nên hiểu rằng mục đích của việc làm ăn là đi tìm lợi nhuận, họ hợp tác với ta vì cho rằng ta sẽ giúp họ đạt lợi nhuận mà thôi. Tiệc tùng chỉ là cái cớ để thỏa mãn thú vui sở thích chè chén mà không bị vợ con cằn nhằn. Ta mạnh dạn từ chối tiệc tùng, thử xem họ có dám hủy hợp đồng không. Nhiều người cư sĩ kiên quyết không dự tiệc, chỉ làm ăn nghiêm túc, vậy mà vẫn thành công, chẳng ai dám lấy lý do vì nó không nhậu với tôi nên tôi cắt hợp đồng cả.",
+      "translation": "",
+      "source": {
+        "title": "Cẩm Nang Tu Hành Của Cư Sĩ Tại Gia",
+        "locator": "S03|epub:c:0005:b:0021"
+      }
+    }
+  },
+  {
+    "id": "N038",
+    "context": {
+      "title": "Câu hỏi số 27: VIỆC LÀM ĂN SINH KẾ CÓ ỔN ĐỊNH THÌ MỚI YÊN TÂM TU TẬP, LÀM SAO ĐỂ ĐƯỢC SINH KẾ ỔN ĐỊNH?",
+      "vietnamese": "Đáp: Nghề nghiệp sinh kế trong cuộc đời này mà liệt kê ra là vô số chuyện, vô số ngành nghề, từ việc nhỏ như bán vé số hay việc lớn như công ty tập đoàn đa quốc gia. Trong việc làm ăn thì không phải lúc nào cũng bằng phẳng ổn định, khi lên khi xuống, khi lên đạt lãi kỷ lục, khi xuống có khi xin phá sản luôn. Trị giá chứng khoán thì nhảy lên xuống từng giờ. Chỉ số đường huyết của mỗi người cũng giao động mỗi giờ. Hầu như trên đời này chẳng có cái gì ổn định cả. Ta phải tập sống với sự bất ổn, sẵn sàng cho sự bất ổn, chuẩn bị dự phòng cho sự bất ổn. Khi thành công là đã phải chuẩn bị cho lúc thất bại rồi, chứ không phải đợi khi thất bại mới xoay sở.",
+      "translation": "",
+      "source": {
+        "title": "Cẩm Nang Tu Hành Của Cư Sĩ Tại Gia",
+        "locator": "S03|epub:c:0005:b:0024"
+      }
+    }
+  },
+  {
+    "id": "N039",
+    "context": {
+      "title": "Câu hỏi số 33: CÓ MỘT SỐ NƠI CHỦ TRƯƠNG TỤNG KINH THẬT NHIỀU ĐỂ CÓ PHƯỚC, ĐÚNG CHĂNG?",
+      "vietnamese": "Sau khi tụng kinh rồi ta phải thực hành rất nhiều theo những gì kinh dạy thì mới gọi là tu hành. Còn chỉ tụng rồi dừng lại thì chưa phải. Những ước nguyện cao cả trong kinh, chẳng hạn như cầu cho tất cả chúng sinh đều được giải thoát, cũng chỉ là ước nguyện chứ không phải thực tế. Nhiều tôn giáo bạn lên kế hoạch truyền đạo rất cụ thể, rất bài bản, rất chi tiết, chứ không dừng lại ở lời cầu nguyện, nên họ lôi kéo được nhiều tín đồ. Ta nên cân đối thời gian tụng kinh và thời gian để thực hành lời Phật dạy trong đời sống thực tế, sao cho thời gian áp dụng thực hành phải thật nhiều để có phước thật sự.",
+      "translation": "",
+      "source": {
+        "title": "Cẩm Nang Tu Hành Của Cư Sĩ Tại Gia",
+        "locator": "S03|epub:c:0005:b:0048"
+      }
+    }
+  },
+  {
+    "id": "N040",
+    "context": {
+      "title": "Câu hỏi số 69: BẮT ĐẦU NGỒI THIỀN THÌ CẦN PHẢI TÁC Ý NHƯ THẾ NÀO Ạ?",
+      "vietnamese": "Mỗi một tâm hạnh có thể được suy gẫm kỹ hơn tùy theo hành giả cảm nhận nơi tâm mình cần gì. Vì dụ như khi tác ý lòng tôn kính Phật tuyệt đối, hành giả có thể chiêm nghiệm sự vĩ đại vô lượng của Phật trong vài giây. Ví dụ như khi tác ý lòng thương yêu chúng sinh vô hạn, hành giả có thể suy gẫm về nhiều hạng chúng sinh cụ thể. Ví dụ như khi tác ý giữ tâm khiêm hạ tột cùng, hành giả có thể xem mình như cát bụi cỏ rác và muốn được tôn trọng mọi người. Thời ngồi thiền nào cũng tác ý các tâm hạnh đó, lâu ngày tâm ta tự động hoàn thiện dần.",
+      "translation": "",
+      "source": {
+        "title": "Cẩm Nang Tu Hành Của Cư Sĩ Tại Gia",
+        "locator": "S03|epub:c:0008:b:0057"
+      }
+    }
+  }
+]);

@@ -98,11 +98,16 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới viết tay, 20 ngữ cảnh tuyển thêm từ thư viện gốc trong `translation-sources-new.js`.
 - Nguyên văn Việt được chụp từ bản ghi nguồn; một truyện nối hai đoạn liên tiếp để đủ kết cục.
-- Kiểm thử 73/73 đạt; đang xuất bản, tổng 1.260/1.500.
+- Kiểm thử 73/73 đạt; commit `439619a`, Pages run `41161143231` thành công, tổng 1.260/1.500.
+
+## Đợt 13 — D253–D272
+
+- 100 yêu cầu mới viết tay; tập trung trách nhiệm, khiêm tốn, hợp đồng, sinh kế và công phu.
+- 73/73 kiểm thử đạt; đang xuất bản, tổng 1.360/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 12 còn 240 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D253–D272, 100 yêu cầu; không thay thế hoặc nhân bản các gói cũ.
+- Sau đợt 13 còn 140 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D273–D292, 100 yêu cầu; không thay thế hoặc nhân bản các gói cũ.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
