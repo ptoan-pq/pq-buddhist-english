@@ -19,7 +19,7 @@ function boot(hash=''){
   const saved=new Map(),localStorage={getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)};
   const sandbox={document,localStorage,setTimeout,Blob,URL,location:{hash},window:null};sandbox.window=sandbox;sandbox.addEventListener=()=>{};sandbox.confirm=()=>true;
   vm.createContext(sandbox);
-  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-units-v2.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-course.js','engine.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
+  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-units-v2.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-batch-10.js','translation-course.js','engine.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
   const main=document.getElementById('main');
   return {main,saved,translation:sandbox.PQTranslationCourse,get:id=>document.getElementById(id),buttons:()=>walk(main).filter(e=>e.tagName==='button'),questions:()=>walk(main).filter(e=>(e.className||'').split(' ').includes('question')),select:(id,value)=>{const e=document.getElementById(id);e.value=value;e.onchange();}};
 }
@@ -60,7 +60,7 @@ test('Translation is a separate program with five click-only questions and persi
 
 test('a direct translation link opens its packet catalog without changing the other courses',()=>{
   const app=boot('#translation');assert(app.main.textContent.includes('Các gói dịch theo ý'));
-  assert.equal(app.buttons().filter(b=>b.textContent==='Mở gói dịch').length,192);
+  assert.equal(app.buttons().filter(b=>b.textContent==='Mở gói dịch').length,212);
   assert(!app.saved.has('pq-english-verb-mastery-v4'));
 });
 
