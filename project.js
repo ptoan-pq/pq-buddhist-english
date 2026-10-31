@@ -1,6 +1,7 @@
 (function(root){
   'use strict';
   const E=root.PQEngine||(typeof require!=='undefined'?require('./engine.js'):null);
+  const X=root.PQExpressions||(typeof require!=='undefined'?require('./expressions.js'):null);
   function key(course){return course.storageKey||(course.weekId?`pq-english-${course.weekId}-v1`:'pq-english-progress-v1');}
   function previousKey(course){return course.previousStorageKeys?.[0]||course.previousStorageKey||null;}
   function complete(course,state){return !!state&&course.sets.every(set=>state.sets[set.id]?.status==='passed');}
@@ -27,7 +28,7 @@
     return E.validate(course,state);
   }
   function restoreState(course,state){return compatibleSource(course,state)?migrateSubset(course,[state]):E.validate(course,state);}
-  function exportProject(courses,states,selected){return {format:'pq-english-project',schema:2,selected,exportedAt:new Date().toISOString(),progress:Object.fromEntries(courses.filter(c=>states[c.id]).map(c=>[c.id,states[c.id]]))};}
+  function exportProject(courses,states,selected,expressions){return {format:'pq-english-project',schema:2,selected,exportedAt:new Date().toISOString(),progress:Object.fromEntries(courses.filter(c=>states[c.id]).map(c=>[c.id,states[c.id]])),...(expressions===undefined?{}:{expressions:X.validate(expressions)})};}
   function validateBackup(courses,payload){
     const lookup=new Map(courses.map(c=>[c.id,c]));
     if(payload?.schema===1&&lookup.has(payload.courseId))payload={format:'pq-english-project',schema:2,selected:payload.courseId,progress:{[payload.courseId]:payload}};
@@ -35,7 +36,7 @@
     const progress={};for(const [id,value] of Object.entries(payload.progress)){const c=lookup.get(id);if(!c)throw Error(`Không nhận ra chủ điểm trong bản sao lưu: ${id}`);progress[id]=restoreState(c,value);}
     for(const c of courses)if(!progress[c.id]&&c.previousSources){const sources=Object.values(payload.progress).filter(s=>compatibleSource(c,s));if(sources.length)progress[c.id]=migrateSubset(c,sources);}
     if(!progress[payload.selected])throw Error('Thiếu tiến độ của chủ điểm đang chọn.');
-    return {selected:payload.selected,progress};
+    return {selected:payload.selected,progress,...(Object.hasOwn(payload,'expressions')?{expressions:X.validate(payload.expressions)}:{})};
   }
   const api={key,previousKey,complete,canOpen,compatibleSource,migrateSubset,restoreState,exportProject,validateBackup};root.PQProject=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

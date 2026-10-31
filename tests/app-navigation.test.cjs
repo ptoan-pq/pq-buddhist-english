@@ -13,15 +13,15 @@ class Element{
   focus(){}
 }
 const walk=e=>[e,...e.children.flatMap(walk)];
-function boot(hash=''){
-  const roots=['main','storage-warning','backup-file'].map(id=>{const e=new Element('div');e.id=id;return e;}),nav=['catalog','learn','notes','progress'].map(view=>{const e=new Element('button');e.dataset.view=view;return e;});
+function boot(hash='',initial=[]){
+  const roots=['main','storage-warning','backup-file'].map(id=>{const e=new Element('div');e.id=id;return e;}),nav=['catalog','learn','notes','progress','expressions','expression-review'].map(view=>{const e=new Element('button');e.dataset.view=view;return e;});
   const document={createElement:tag=>new Element(tag),getElementById:id=>roots.flatMap(walk).find(e=>e.id===id),querySelectorAll:()=>nav,querySelector:()=>null,body:new Element('body')};
-  const saved=new Map(),localStorage={getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)};
+  const saved=new Map(initial),localStorage={getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)};
   const sandbox={document,localStorage,setTimeout,Blob,URL,location:{hash},window:null};sandbox.window=sandbox;sandbox.addEventListener=()=>{};sandbox.confirm=()=>true;
   vm.createContext(sandbox);
-  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-units-v2.js','translation-sources-new.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-batch-10.js','translation-batch-11.js','translation-batch-12.js','translation-batch-13.js','translation-batch-14.js','translation-batch-15.js','translation-course.js','engine.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
+  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-units-v2.js','translation-sources-new.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-batch-10.js','translation-batch-11.js','translation-batch-12.js','translation-batch-13.js','translation-batch-14.js','translation-batch-15.js','translation-course.js','engine.js','expression-bank.js','expressions.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
   const main=document.getElementById('main');
-  return {main,saved,translation:sandbox.PQTranslationCourse,get:id=>document.getElementById(id),buttons:()=>walk(main).filter(e=>e.tagName==='button'),questions:()=>walk(main).filter(e=>(e.className||'').split(' ').includes('question')),select:(id,value)=>{const e=document.getElementById(id);e.value=value;e.onchange();}};
+  return {main,saved,visit:view=>nav.find(b=>b.dataset.view===view).onclick(),translation:sandbox.PQTranslationCourse,get:id=>document.getElementById(id),buttons:()=>walk(main).filter(e=>e.tagName==='button'),questions:()=>walk(main).filter(e=>(e.className||'').split(' ').includes('question')),select:(id,value)=>{const e=document.getElementById(id);e.value=value;e.onchange();}};
 }
 test('The actual app switches between the two programs, keeps 5/6 questions separate, and retains click answers',()=>{
   const app=boot();assert(app.main.textContent.includes('Ba chương trình độc lập'));
@@ -112,6 +112,39 @@ test('failed answers have an unmistakable red-card state and stay marked while r
   app.buttons().find(b=>b.textContent==='Nộp cả bộ →').onclick();
   assert.equal(app.questions().filter(c=>c.className.includes('question-failed')).length,0);
   assert.equal(app.questions().filter(c=>c.className.includes('question-passed')).length,5);
+});
+
+test('learner can save an expression after feedback, review a new context, and reload without touching course progress',()=>{
+ const app=boot('#translation');app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
+ assert(!app.buttons().some(b=>b.textContent.includes('Lưu cụm:')),'Do not reveal expressions before submission');
+ for(const q of app.translation.sets[0].items)for(const chunk of q.chunks.filter(c=>c.every(a=>q.answer.includes(a)))){const card=app.questions().find(c=>c.id===q.id),label='Thêm cụm: '+chunk.map(a=>q.tokens[a]).join(' ');walk(card).find(e=>e.attrs?.['aria-label']===label).onclick();}
+ app.buttons().find(b=>b.textContent==='Nộp cả bộ →').onclick();
+ const before=app.saved.get('pq-english-meaning-translation-v2');
+ app.buttons().find(b=>b.textContent==='⭐ Lưu cụm: lean on someone').onclick();
+ assert.equal(Object.keys(JSON.parse(app.saved.get('pq-english-expressions-v1')).cards).length,1);
+ app.visit('expressions');assert(app.main.textContent.includes('lean on someone'));assert(app.main.textContent.includes('someone to lean on'));
+ app.visit('expression-review');app.buttons().find(b=>b.textContent.startsWith('Gọi lại từ ý Việt')).onclick();
+ assert(app.main.textContent.includes('Sau khi mất việc'));assert(!app.main.textContent.includes('Một đáp án phù hợp'));
+ app.buttons().find(b=>b.textContent.includes('leaned on')).onclick();
+ const reload=boot('#translation',[...app.saved]);reload.visit('expression-review');
+ assert(reload.buttons().some(b=>b.attrs['aria-pressed']==='true'));
+ reload.buttons().find(b=>b.textContent==='Nộp lượt ôn →').onclick();assert(reload.main.textContent.includes('Đã đạt'));
+ assert.equal(reload.saved.get('pq-english-meaning-translation-v2'),before);
+ reload.buttons().find(b=>b.textContent==='Kết thúc lượt ôn').onclick();
+ assert.equal(JSON.parse(reload.saved.get('pq-english-expressions-v1')).session,null);
+});
+test('seven expression questions reveal together; wrong cards stay red across reload and retry',()=>{
+ const X=require('../expressions.js'),bank=require('../expression-bank.js'),book=X.create();
+ for(const entry of bank.slice(0,7))X.save(book,{...entry,surface:'example',curatedId:entry.id},{courseId:'meaning-translation',setId:'D01',itemId:entry.id,en:'We seek support.',vi:'Chúng tôi tìm sự hỗ trợ.',paragraph:'Chúng tôi tìm sự hỗ trợ khi cần.',analysis:'Giữ đúng người cần giúp.',source:{title:'Test source',locator:'test:1'}},'2020-01-01');
+ let app=boot('#translation',[['pq-english-expressions-v1',JSON.stringify(book)]]);app.visit('expression-review');app.buttons().find(b=>b.textContent.startsWith('Gọi lại từ ý Việt')).onclick();
+ assert.equal(app.questions().length,7);assert(!app.main.textContent.includes('Một đáp án phù hợp'));
+ let snapshot=JSON.parse(app.saved.get('pq-english-expressions-v1')),questions=X.tasks(snapshot);
+ for(const [i,q]of questions.entries()){const option=q.options[i===6?1:0],card=app.questions()[i];walk(card).find(e=>e.tagName==='button'&&e.textContent.endsWith(option)).onclick();if(i<6)assert(app.buttons().find(b=>b.textContent==='Nộp lượt ôn →').disabled);}
+ app.buttons().find(b=>b.textContent==='Nộp lượt ôn →').onclick();assert.equal(app.questions().filter(c=>c.className.includes('question-failed')).length,1);
+ app=boot('#translation',[...app.saved]);app.visit('expression-review');app.buttons().find(b=>b.textContent==='Làm lại cụm chưa đạt').onclick();
+ assert.equal(app.questions().length,1);assert(app.questions()[0].className.includes('question-needs-retry'));
+ snapshot=JSON.parse(app.saved.get('pq-english-expressions-v1'));const q=X.tasks(snapshot)[0];walk(app.questions()[0]).find(e=>e.tagName==='button'&&e.textContent.endsWith(q.options[0])).onclick();app.buttons().find(b=>b.textContent==='Nộp lượt ôn →').onclick();
+ assert.equal(app.questions().filter(c=>c.className.includes('question-failed')).length,0);
 });
 
 test('Authored packets show five concise cards, one shared instruction, and free selection through M288',()=>{

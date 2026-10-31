@@ -1,5 +1,14 @@
 # Lịch sử phiên bản web
 
+## Sổ tay cụm diễn đạt — 2026-10-30
+
+- Thêm `Cụm đã lưu` để lưu expression sau khi nộp và xem lại cả câu Anh, ý Việt, khung dùng, phân tích và nguồn.
+- Thêm `Ôn hôm nay`: mỗi lượt 5–7 câu cùng dạng, chỉ mở đáp án sau khi nộp đủ lượt; có gọi lại câu nguồn, chọn sắc thái, ghép câu mới và sửa bản dịch sát chữ.
+- Bài vận dụng mới hiện có cho 24 cụm được tuyển thủ công, mỗi cụm 4 tình huống khác nhau; không tính việc nhớ nguyên câu nguồn là dùng vững.
+- Thêm lịch nhắc 1–3–7–14–30 ngày, trạng thái Đã lưu → Đang luyện → Cần ôn lại → Vững trong bài ôn; gợi ý được ghi là có hỗ trợ.
+- Thêm backup/restore sổ tay cụm từ tùy chọn; JSON cũ không có sổ tay vẫn khôi phục bình thường và không xóa dữ liệu sổ tay hiện tại.
+- Thêm kiểm thử dữ liệu hỏng, lưu trùng, lịch ôn, retry, backup, giao diện click-only; toàn bộ **83/83 test** đạt.
+
 ## Bổ sung ghi chú tư duy — 2026-10-30
 
 - Lưu nội dung người học bổ sung tại `authoring/translation-thinking-note.md`.
