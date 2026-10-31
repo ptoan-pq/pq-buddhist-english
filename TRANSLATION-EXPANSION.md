@@ -31,10 +31,22 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu biên soạn tay trong `translation-batch-03.js`.
 - 20 ngữ cảnh mới: phạm vi nhân quả, giới luật, nội tâm, lời chê/khen.
-- Trạng thái: đang kiểm tra để xuất bản. Tổng sau đợt: 360/1.500.
+- Đã xuất bản: commit `0f9e3ef`, GitHub Pages run `41156290936` thành công.
+- Đã tải và biên dịch các file thực tế từ website công khai: 72 gói / 360 yêu cầu, đến D72.
+- Tổng sau đợt: 360/1.500. Đây chưa phải hoàn thành mục tiêu.
+
+## Kiểm chứng sau ba đợt
+
+- 73 kiểm thử đạt, gồm ghép toàn bộ 360 yêu cầu, nộp trọn gói, lưu/khôi phục và gợi ý.
+- 60 yêu cầu cũ được đối chiếu với bản trước mở rộng: không thay đổi nội dung đã biên dịch.
+- 72 ngữ cảnh khác nhau, mỗi gói đúng 5 yêu cầu; có đơn vị nguồn 1, 2 và 3 câu.
+- Trích Việt được kiểm tra nằm nguyên văn trong đoạn nguồn.
+- Kiểm thử cấu trúc không thay thế đánh giá văn dịch; phần dịch và giải thích được đọc, sửa trong lúc biên soạn.
+- Chưa kiểm tra trực quan bằng trình duyệt trong đợt này; không báo đã xem ảnh giao diện.
 
 ## Công việc còn lại
 
 - Sau đợt 03 còn 1.140 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D73–D92, 100 yêu cầu; không thay thế hoặc nhân bản D01–D72.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
