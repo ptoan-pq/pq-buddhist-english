@@ -1,5 +1,12 @@
 # Lịch sử phiên bản web
 
+## Gói dịch có khung cuộn — 2026-10-30
+
+- Đưa 300 gói Dịch theo ý vào một khung cuộn riêng, cao vừa phải và luôn có thanh cuộn.
+- Nút “Chọn gói dịch” đưa người học thẳng tới khung danh sách thay vì phải kéo qua toàn bộ trang.
+- Giữ nguyên thứ tự gói, trạng thái hoàn thành và thao tác chọn gói tự do.
+- Kiểm thử UI xác nhận khung chứa đủ 300 gói; toàn bộ 83/83 test đạt.
+
 ## Sổ tay cụm diễn đạt — 2026-10-30
 
 - Thêm `Cụm đã lưu` để lưu expression sau khi nộp và xem lại cả câu Anh, ý Việt, khung dùng, phân tích và nguồn.

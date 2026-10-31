@@ -61,6 +61,7 @@ test('Translation is a separate program with five click-only questions and persi
 test('a direct translation link opens its packet catalog without changing the other courses',()=>{
   const app=boot('#translation');assert(app.main.textContent.includes('Các gói dịch theo ý'));
   assert.equal(app.buttons().filter(b=>b.textContent==='Mở gói dịch').length,300);
+  const scroll=walk(app.main).find(e=>e.className==='translation-packet-scroll');assert(scroll,'Translation packets should be inside a dedicated scroll panel');assert.equal(scroll.children.length,300);assert.equal(scroll.attrs['aria-label'],'Danh sách cuộn các gói dịch');
   assert(!app.saved.has('pq-english-verb-mastery-v4'));
 });
 
