@@ -24,10 +24,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới đã biên soạn tay trong `translation-batch-02.js`.
 - 20 ngữ cảnh khác đợt 01; có lời nói, công việc, lòng can đảm, cộng đồng và tu tập.
-- Trạng thái: đang kiểm tra để xuất bản. Tổng sau đợt: 260/1.500.
+- Đã xuất bản: commit `101c977`, GitHub Pages run `41155638421` thành công.
+- Tổng sau đợt: 260/1.500.
+
+## Đợt 03 — D53–D72
+
+- 100 yêu cầu biên soạn tay trong `translation-batch-03.js`.
+- 20 ngữ cảnh mới: phạm vi nhân quả, giới luật, nội tâm, lời chê/khen.
+- Trạng thái: đang kiểm tra để xuất bản. Tổng sau đợt: 360/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 02 còn 1.240 yêu cầu để đạt 1.500.
+- Sau đợt 03 còn 1.140 yêu cầu để đạt 1.500.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
