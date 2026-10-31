@@ -74,9 +74,16 @@ test('the translation thinking guide opens inline without losing a draft or hint
   const chunk=walk(app.questions()[0]).find(e=>e.className==='chip chunk-card'&&!e.disabled);chunk.onclick();
   const draft=app.saved.get('pq-english-meaning-translation-v2');
   guide().open=true;guide().ontoggle();
-  assert.equal(walk(guide()).filter(e=>e.tagName==='li').length,5);
+  assert.equal(walk(guide()).find(e=>e.tagName==='ol').children.length,5);
   assert(guide().textContent.includes('không phải luôn chọn từ mạnh hoặc hiếm nhất'));
   assert(guide().textContent.includes('Với yêu cầu 2–3 câu'));
+  assert(guide().textContent.includes('Trong tình huống này, người bản xứ sẽ nói gì để đạt cùng mục đích?'));
+  assert(guide().textContent.includes('Gấp câu gốc lại'));
+  assert(guide().textContent.includes("I've been swamped at work lately and haven't had a chance to see my friends."));
+  assert(guide().textContent.includes('5 chỗ cần “đổi đầu” từ Việt sang Anh'));
+  assert(guide().textContent.includes('Dịch theo chức năng'));
+  assert(guide().textContent.includes('Một hai ngày sau'));
+  assert(guide().textContent.includes('Vì sao họ chọn chủ ngữ, động từ và cấu trúc đó, còn mình thì không?'));
   assert.equal(app.saved.get('pq-english-meaning-translation-v2'),draft);
   app.buttons().find(b=>b.textContent==='Hoàn tác').onclick();
   assert.equal(guide().open,true,'The guide should stay open when the exercise rerenders');

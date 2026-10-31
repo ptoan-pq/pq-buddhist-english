@@ -1,5 +1,12 @@
 # Lịch sử phiên bản web
 
+## Bổ sung ghi chú tư duy — 2026-10-30
+
+- Lưu nội dung người học bổ sung tại `authoring/translation-thinking-note.md`.
+- Thêm vào “Cách tư duy trước khi dịch”: câu hỏi theo tình huống/mục đích, 5 bước tư duy, ví dụ swamped at work, 5 cách chuyển cấu trúc, dịch theo chức năng và bài tập dịch ngược.
+- Giữ hướng dẫn cũ cùng bước đối chiếu nguồn ở cuối; không thay ngân hàng 1.500 câu, ID hoặc tiến độ.
+- Kiểm thử nội dung ghi chú và việc mở hướng dẫn không làm mất câu đang ghép/gợi ý.
+
 ## 5.0 — 2026-10-29
 
 ### Mở rộng khóa Master động từ

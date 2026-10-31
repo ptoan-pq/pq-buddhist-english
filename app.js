@@ -32,6 +32,48 @@
   function visit(target){view=target;if(target==='learn'){displayed=state.active;if(C.freeSets){E.openSet(C,state,displayed);save();}}render();goTop();}
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>visit(b.dataset.view));
   function heading(eyebrow,title,intro){main.append(node('div',eyebrow,'eyebrow'),node('h1',title,'title'));if(intro)main.append(node('p',intro,'intro'));}
+  function appendTranslationPracticeNote(body){
+    const section=node('section',undefined,'translation-practice-note');
+    section.append(node('h3','Dịch ý và tác dụng, không dịch các chữ'),node('p','Trước mỗi câu, đừng hỏi “Câu này dịch sang tiếng Anh thế nào?” mà hãy hỏi “Trong tình huống này, người bản xứ sẽ nói gì để đạt cùng mục đích?”. Bạn dịch ý và tác dụng của câu, không dịch các chữ.'));
+    section.append(node('h4','5 bước tư duy trước mỗi câu'));
+    const steps=node('ol');
+    [
+      ['Gấp câu gốc lại','Tự hỏi “Rốt cuộc người này muốn nói gì?”, rồi diễn đạt lại bằng tiếng Việt đơn giản nhất. Bước này giúp bạn thoát khỏi mặt chữ.'],
+      ['Hình dung tình huống','Ai đang nói với ai, thân mật hay trang trọng, và họ muốn than thở, xin lỗi, thuyết phục hay thông báo?'],
+      ['Tìm lõi câu','Xác định ai hoặc cái gì làm gì. Hãy chọn chủ ngữ và một động từ thật đắt trước, rồi mới thêm chi tiết.'],
+      ['Nói bằng tiếng Anh, không nhìn lại câu Việt','Ưu tiên những cụm từ bạn từng nghe người bản xứ dùng, thay vì tự ghép từng từ.'],
+      ['Đọc to để kiểm tra','Câu có giống lời người thật nói không? Có từ nào bỏ đi mà ý vẫn đủ không? Nếu có thì cắt.']
+    ].forEach(([title,text])=>{const li=node('li');li.append(node('strong',title),node('p',text));steps.append(li);});section.append(steps);
+    const example=node('div',undefined,'translation-guide-example');
+    example.append(node('strong','Ví dụ: đổi chủ thể, chọn cụm tự nhiên'),node('p','Câu gốc: “Dạo này công việc của tôi bận quá nên không có thời gian gặp bạn bè.”'),node('p',"Word by word: Recently my work is too busy so I don't have time to meet friends."),node('p','Ý thật: Gần đây tôi ngập đầu trong công việc, chẳng gặp được bạn bè.'),node('p',"Tự nhiên: I've been swamped at work lately and haven't had a chance to see my friends.",'guide-english'),node('p',"Ở đây, người bận là “tôi” chứ không phải “công việc”. “Dạo này” kéo dài đến hiện tại nên dùng I've been, còn “bận quá” thành swamped."));section.append(example);
+    section.append(node('h4','5 chỗ cần “đổi đầu” từ Việt sang Anh'));
+    const shifts=node('ul');
+    [
+      ['Nêu chủ đề rồi bình luận → Chủ ngữ + động từ','“Căn nhà này xây lâu rồi” → This house was built a long time ago.'],
+      ['Động từ + từ bổ nghĩa → Một động từ mạnh','“Khóc nức nở” → sobbed; “đi vội vào phòng” → hurried into the room.'],
+      ['Nêu bối cảnh hoặc lý do trước → Thường nêu ý chính trước','“Vì trời mưa nên tôi ở nhà” → I stayed home because of the rain.'],
+      ['Không bắt buộc đánh dấu thì, số ít/nhiều, mạo từ → Bắt buộc phải chọn','“Tôi ăn rồi” → I\'ve already eaten.'],
+      ['Nhiều từ lặp ý, từ đệm → Gọn, bỏ phần thừa','“Vấn đề ô nhiễm môi trường” → thường chỉ cần pollution hoặc environmental pollution.']
+    ].forEach(([title,text])=>{const li=node('li');li.append(node('strong',title),node('p',text));shifts.append(li);});section.append(shifts);
+    section.append(node('h4','Dịch theo chức năng'));
+    const functions=node('ul');
+    [
+      '“Có gì đâu!” (đáp lại lời cảm ơn) → It was nothing. hoặc No problem.',
+      '“Để tôi xem đã.” → Let me think about it.',
+      '“Ăn cơm chưa?” (lời chào hỏi quan tâm) → How\'s it going? (nếu thật sự hỏi chuyện ăn uống thì là Have you eaten yet?).'
+    ].forEach(text=>functions.append(node('li',text)));section.append(functions);
+    section.append(node('h4','Cách luyện hiệu quả nhất: dịch ngược'),node('p','Cách này có sẵn “đáp án” chuẩn native để bạn tự đối chiếu:'));
+    const reverse=node('ol');
+    [
+      'Chọn 3–5 câu tiếng Anh do người bản xứ viết, thuộc lĩnh vực bạn quan tâm.',
+      'Dịch sang tiếng Việt tự nhiên.',
+      'Một hai ngày sau, chỉ nhìn bản Việt và dịch lại sang tiếng Anh.',
+      'So với bản gốc và tự hỏi: “Vì sao họ chọn chủ ngữ, động từ và cấu trúc đó, còn mình thì không?”',
+      "Ghi lại nguyên cụm hay, không ghi từ đơn lẻ, ví dụ swamped at work, haven't had a chance to."
+    ].forEach(text=>reverse.append(node('li',text)));section.append(reverse);
+    section.append(node('p','Câu hỏi ở bước 4 là phần quan trọng nhất. Làm đều mỗi ngày, bạn sẽ dần tích lũy được những cách nói có sẵn để dùng ngay, thay vì phải ghép từng từ.'),node('p','Lưu ý khi áp dụng: đây là các gợi ý theo ngữ cảnh, không phải quy tắc cứng. “Gấp câu gốc lại” giúp dựng cách diễn đạt, nhưng cuối cùng vẫn phải mở lại để kiểm tra đủ nghĩa, chủ thể, phủ định, điều kiện và sắc thái. Chỉ cắt chữ thừa, không cắt ý nguồn. Với bản sách, chọn giọng văn sách phù hợp, không ép mọi câu thành khẩu ngữ.','helper'));
+    body.append(section);
+  }
   function renderTranslationGuide(){
     if(C.programId!=='translation')return;
     const guide=node('details',undefined,'translation-guide');guide.open=guideOpen;guide.ontoggle=()=>{guideOpen=guide.open;};
@@ -49,6 +91,7 @@
     body.append(steps);
     const example=node('div',undefined,'translation-guide-example');example.append(node('strong','Ví dụ ghép theo hai đơn vị ý'),node('p','“Thấy người có lỗi, ta không vội chê trách.”'),node('p','When we see someone at fault, we do not rush to blame them.','guide-english'),node('p','Hoàn cảnh thấy lỗi → thái độ không vội chê trách. Không cần giữ nguyên thứ tự từng chữ để giữ đúng quan hệ ý.'));body.append(example);
     const linked=node('p');linked.append(node('strong','Với yêu cầu 2–3 câu: '),node('span','xác định câu sau tiếp nối, giải thích hay đối lập với câu trước, rồi chọn đại từ, từ nối và thứ tự thông tin. Đọc lại cả cụm, đừng chỉ kiểm tra từng câu riêng.'));body.append(linked);
+    appendTranslationPracticeNote(body);
     body.append(node('p','Đọc Việt → hình dung trục câu → nhìn thẻ → ghép theo cụm → đọc lại toàn ý.','translation-guide-recall'),node('p','Tự nhắc: “Tôi hiểu ý gì? Tôi lấy gì làm trục? Tôi sẽ nói ý ấy bằng cụm nào?”','helper'));
     guide.append(body);main.append(guide);
   }
