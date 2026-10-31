@@ -62,11 +62,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới biên soạn tay trong `translation-batch-06.js`.
 - 20 ngữ cảnh mới về Chánh Nghiệp, sinh kế, giúp người, bạn tốt và sự cải hóa.
-- Trạng thái: đang kiểm tra và xuất bản, tổng dự kiến 660/1.500.
+- Đã xuất bản: commit `d2adbed`, GitHub Pages run `41157924575` thành công; tổng 660/1.500.
+
+## Đợt 07 — D133–D152
+
+- 100 yêu cầu biên soạn tay trong `translation-batch-07.js`.
+- 20 ngữ cảnh mới: danh/đức, cơn nản, tham vọng, chê/khen, công lao, lựa chọn nghiệp.
+- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 760/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 06 còn 840 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D133–D152, 100 yêu cầu; không thay thế hoặc nhân bản D01–D132.
+- Sau đợt 07 còn 740 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D153–D172, 100 yêu cầu; không thay thế hoặc nhân bản D01–D152.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
