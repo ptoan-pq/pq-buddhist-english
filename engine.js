@@ -107,6 +107,10 @@
     if(!Number.isInteger(index)||index<0||index>=course.sets.length)throw Error('Không có gói này.');
     state.active=index;const set=current(course,state);if(!state.sets[set.id])state.sets[set.id]=record(set);state.sets[set.id].visited=true;state.updatedAt=now();
   }
+  function resetSet(course,state,setId){
+    const index=course.sets.findIndex(set=>set.id===setId);if(index<0)throw Error('Không có bộ này.');
+    const previous=state.sets[setId],next=record(course.sets[index]);if(previous?.visited||previous?.status==='passed'||previous?.history?.length)next.visited=true;state.sets[setId]=next;state.active=index;state.updatedAt=now();return next;
+  }
   function sequence(set,q,value) {
     if(value===undefined)return 'Chưa trả lời';
     const type=q.type||set.type;
@@ -203,6 +207,6 @@
     if(!retries)lines.push('- Chưa ghi nhận lỗi ở các lượt nộp đầu. Tiếp tục chuyển giao sang ngữ cảnh mới.');
     lines.push('','## Nguồn nội dung','',...[...sources].map(v=>`- ${v}`),'','Thuật ngữ Anh trong bài là cách dịch theo ngữ cảnh. Ghi chú này không thay thế nguyên tác.','');return lines.join('\n');
   }
-  const api={create,record,current,isSequence,isComplete,isCorrect,saveResponse,placeChunk,removeWord,undoWords,resetWords,hintWord,missing,submit,retry,advance,openSet,sequence,shuffled,validate,statistics,markdown};
+  const api={create,record,current,isSequence,isComplete,isCorrect,saveResponse,placeChunk,removeWord,undoWords,resetWords,hintWord,missing,submit,retry,advance,openSet,resetSet,sequence,shuffled,validate,statistics,markdown};
   root.PQEngine=api;if(typeof module!=='undefined'&&module.exports)module.exports=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

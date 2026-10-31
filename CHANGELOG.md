@@ -8,6 +8,13 @@
 - Kiểm thử UI xác nhận khung chứa đủ 300 gói; toàn bộ 83/83 test đạt.
 - Đồng nhất thêm bộ chọn native ở đầu trang: Dịch theo ý giờ có `Chọn gói dịch` với 300 option, cùng kiểu menu cuộn như `Chọn chủ điểm` và `Chọn bộ luyện động từ`.
 
+## Dấu hoàn thành và học lại từng bộ — 2026-10-31
+
+- Các option đã hoàn thành trong thanh chọn hiển thị dấu `✓` ở cả chủ điểm, gói dịch và gói học.
+- Thêm nút `Học lại bộ này` trong màn học; reset chỉ xóa PASS, đáp án và lịch sử của bộ hiện tại, không ảnh hưởng các bộ khác.
+- Bộ đã reset vẫn được đánh dấu là đã từng học nhưng trở về trạng thái chưa hoàn thành.
+- Kiểm thử tổng: **85/85 đạt**.
+
 ## Sổ tay cụm diễn đạt — 2026-10-30
 
 - Thêm `Cụm đã lưu` để lưu expression sau khi nộp và xem lại cả câu Anh, ý Việt, khung dùng, phân tích và nguồn.

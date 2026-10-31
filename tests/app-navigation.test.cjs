@@ -123,6 +123,13 @@ test('failed answers have an unmistakable red-card state and stay marked while r
   assert.equal(app.questions().filter(c=>c.className.includes('question-failed')).length,0);
   assert.equal(app.questions().filter(c=>c.className.includes('question-passed')).length,5);
 });
+test('a completed packet shows a reset button and reset does not affect another packet',()=>{
+ const app=boot('#translation'),set=app.translation.sets[0];app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
+ for(const q of set.items)for(const chunk of q.chunks.filter(c=>c.every(a=>q.answer.includes(a)))){const card=app.questions().find(c=>c.id===q.id),label='Thêm cụm: '+chunk.map(a=>q.tokens[a]).join(' ');walk(card).find(e=>e.attrs?.['aria-label']===label).onclick();}
+ app.buttons().find(b=>b.textContent==='Nộp cả bộ →').onclick();assert(app.buttons().some(b=>b.textContent==='Học lại bộ này'));
+ app.select('packet-select','11');const before=JSON.parse(app.saved.get('pq-english-meaning-translation-v2'));assert.equal(before.sets.D01.status,'passed');
+ app.select('packet-select','0');app.buttons().find(b=>b.textContent==='Học lại bộ này').onclick();const after=JSON.parse(app.saved.get('pq-english-meaning-translation-v2'));assert.equal(after.sets.D01.status,'answer');assert.equal(after.sets.D12.status,'answer');
+});
 
 test('learner can save an expression after feedback, review a new context, and reload without touching course progress',()=>{
  const app=boot('#translation');app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
