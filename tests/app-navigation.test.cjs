@@ -19,9 +19,9 @@ function boot(hash=''){
   const saved=new Map(),localStorage={getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)};
   const sandbox={document,localStorage,setTimeout,Blob,URL,location:{hash},window:null};sandbox.window=sandbox;sandbox.addEventListener=()=>{};sandbox.confirm=()=>true;
   vm.createContext(sandbox);
-  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-course.js','engine.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
+  for(const file of ['course.js','context-bank.js','context-verbs.js','advanced-verbs.js','context-lessons.js','verb-lessons.js','translation-units-v2.js','translation-course.js','engine.js','project.js','app.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),sandbox);
   const main=document.getElementById('main');
-  return {main,saved,get:id=>document.getElementById(id),buttons:()=>walk(main).filter(e=>e.tagName==='button'),questions:()=>walk(main).filter(e=>e.className==='question'),select:(id,value)=>{const e=document.getElementById(id);e.value=value;e.onchange();}};
+  return {main,saved,translation:sandbox.PQTranslationCourse,get:id=>document.getElementById(id),buttons:()=>walk(main).filter(e=>e.tagName==='button'),questions:()=>walk(main).filter(e=>(e.className||'').split(' ').includes('question')),select:(id,value)=>{const e=document.getElementById(id);e.value=value;e.onchange();}};
 }
 test('The actual app switches between the two programs, keeps 5/6 questions separate, and retains click answers',()=>{
   const app=boot();assert(app.main.textContent.includes('Ba chương trình độc lập'));
@@ -54,7 +54,7 @@ test('Translation is a separate program with five click-only questions and persi
   assert(!app.main.textContent.includes('Một đáp án phù hợp'));
   app.select('packet-select','11');assert(app.questions().every(q=>q.id.startsWith('D12-')));
   app.select('packet-select','0');assert(app.buttons().some(b=>b.textContent==='Gợi ý · 1/3'));
-  const saved=JSON.parse(app.saved.get('pq-english-meaning-translation-v1'));
+  const saved=JSON.parse(app.saved.get('pq-english-meaning-translation-v2'));
   assert.equal(saved.sets.D01.hints['D01-Q1'].length,1);
 });
 
@@ -62,6 +62,25 @@ test('a direct translation link opens its packet catalog without changing the ot
   const app=boot('#translation');assert(app.main.textContent.includes('Các gói dịch theo ý'));
   assert.equal(app.buttons().filter(b=>b.textContent==='Mở gói dịch').length,12);
   assert(!app.saved.has('pq-english-verb-mastery-v4'));
+});
+
+test('failed answers have an unmistakable red-card state and stay marked while retrying',()=>{
+  const app=boot('#translation');app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
+  const set=app.translation.sets[0];
+  for(const [i,q]of set.items.entries()){
+    const chunks=q.chunks.filter(c=>c.every(a=>q.answer.includes(a)));if(i===4)chunks.reverse();
+    for(const chunk of chunks){const card=app.questions().find(c=>c.id===q.id),label='Thêm cụm: '+chunk.map(a=>q.tokens[a]).join(' ');walk(card).find(e=>e.attrs?.['aria-label']===label).onclick();}
+  }
+  app.buttons().find(b=>b.textContent==='Nộp cả bộ →').onclick();
+  const failed=app.questions().filter(c=>c.className.includes('question-failed'));
+  assert.equal(failed.length,1);assert(failed[0].textContent.includes('CHƯA ĐẠT'));
+  assert.equal(app.questions().filter(c=>c.className.includes('question-passed')).length,4);
+  app.buttons().find(b=>b.textContent==='Làm lại câu chưa đạt').onclick();
+  assert.equal(app.questions().length,1);assert(app.questions()[0].className.includes('question-needs-retry'));
+  const q=set.items[4];for(const chunk of q.chunks.filter(c=>c.every(a=>q.answer.includes(a)))){const label='Thêm cụm: '+chunk.map(a=>q.tokens[a]).join(' ');walk(app.questions()[0]).find(e=>e.attrs?.['aria-label']===label).onclick();}
+  app.buttons().find(b=>b.textContent==='Nộp cả bộ →').onclick();
+  assert.equal(app.questions().filter(c=>c.className.includes('question-failed')).length,0);
+  assert.equal(app.questions().filter(c=>c.className.includes('question-passed')).length,5);
 });
 
 test('Authored packets show five concise cards, one shared instruction, and free selection through M288',()=>{

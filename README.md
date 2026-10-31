@@ -8,17 +8,17 @@ Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên Gi
 
 Mở trực tiếp: https://ptoan-pq.github.io/pq-buddhist-english/#translation
 
-- 12 gói D01–D12, 60 câu; mỗi gói hiện một đoạn tuyển nguyên văn và năm câu cùng dạng.
+- 12 gói D01–D12, 60 yêu cầu dịch; mỗi gói hiện ngữ cảnh nguồn đầy đủ và năm bài cùng dạng. Có 36 bài một câu, 12 bài hai câu và 12 bài ba câu nguồn. Câu Anh được phép tách/gộp theo mạch ý, không ép số câu 1:1.
 - Bốn dạng: dựng câu bằng cụm, sửa bản dịch sát chữ, đổi trục câu, giữ mạch và nối ý. Phần sửa dịch sát chữ có bản Anh lỗi được ghi rõ để người học dựng lại, không học thuộc bản lỗi.
 - Click thẻ cụm để ghép; có hai thẻ dư ở mỗi câu. Click một từ đã đặt để trả xuống, click ô trống để chọn vị trí chèn. Có Hoàn tác và Làm lại câu này.
 - Gợi ý đặt đúng **một từ**, không mở cả cụm; tối đa ba từ mỗi câu. Từ đã gợi ý được giữ đúng chỗ, không bị xóa khi làm lại; bộ đếm được lưu qua tải lại, đổi gói và sao lưu JSON.
-- Nộp đủ năm câu mới mở bản dịch, điểm chuyển khỏi dịch chữ và phân tích. Chỉ làm lại câu sai. Chấp nhận các trật tự khác đã được biên soạn, không chấm theo danh tính thẻ khi hai thẻ mang cùng một từ.
-- Tiến độ riêng tại `pq-english-meaning-translation-v1`; phân biệt đúng ngay không gợi ý, đúng có gợi ý và đúng sau khi xem phản hồi. Sổ tay Markdown và bản sao lưu toàn project bao gồm khóa mới.
+- Nộp đủ năm bài mới mở bản dịch, điểm chuyển khỏi dịch chữ và phân tích. Bài sai có nền đỏ nhạt, viền đỏ đậm và nhãn CHƯA ĐẠT; lúc làm lại vẫn đỏ cho đến khi nộp đạt. Chỉ làm lại bài sai. Chấp nhận các trật tự khác đã biên soạn, không chấm theo danh tính thẻ khi hai thẻ mang cùng một từ.
+- Tiến độ riêng tại `pq-english-meaning-translation-v2`; giữ khóa v1 và chuyển đáp án/PASS/số từ gợi ý của 32 bài không đổi. 28 bài viết lại có ID mới, không hưởng PASS cũ. Phân biệt đúng ngay không gợi ý, đúng có gợi ý và đúng sau phản hồi; sổ tay Markdown và sao lưu JSON bao gồm khóa mới.
 - Giữ nguyên 24 chủ điểm, 1.440 câu Master động từ mới, 72 câu chuyên sâu và các kho ôn cũ. Không chuyển PASS giữa những câu khác nội dung.
-- Nội dung được biên tập và đối chiếu theo Janna Translation; bản Anh cũ là tài liệu đối chiếu, không phải đáp án bất biến. Các đoạn tuyển có thể lược câu ngoài phạm vi bài và được ghi rõ.
+- Nội dung được biên tập và đối chiếu theo Janna Translation; bản Anh cũ là tài liệu đối chiếu, không phải đáp án bất biến. Ngữ cảnh chung không cắt riêng vài câu để vừa với câu hỏi: giữ diễn giải, ví dụ và kết luận đạo lý của đoạn nguồn đã chọn.
 - Chưa có hiệu chuẩn độ khó độc lập. Bài ghép có hỗ trợ không tương đương tự dịch tự do.
 
-Nội dung nằm trong `translation-course.js`, các cụm và thẻ dư được viết riêng từng câu. Bước compile chỉ tách thẻ thành các từ để hỗ trợ gợi ý một từ, không tự sinh bản dịch hoặc phương án nhiễu. Xuất bản đối chiếu bằng `node authoring/export-translation.cjs`.
+Nội dung nền nằm trong `translation-course.js`; các yêu cầu đoạn 2–3 câu và những bản viết lại ở `translation-units-v2.js`. Các cụm và thẻ dư được viết riêng từng bài. Compile chỉ tách thẻ thành từ để gợi ý một từ, không sinh bản dịch hoặc phương án nhiễu. Xuất bản đối chiếu bằng `node authoring/export-translation.cjs` vào `outputs/meaning-translation-v2/` bên ngoài repo.
 
 ### Diễn đạt Phật học và Master động từ — giữ nguyên
 

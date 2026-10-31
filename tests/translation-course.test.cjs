@@ -1,7 +1,7 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const E=require('../engine.js'),P=require('../project.js'),s={window:null};s.window=s;vm.createContext(s);
-for(const file of ['advanced-verbs.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
+for(const file of ['advanced-verbs.js','translation-units-v2.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
 const course=JSON.parse(JSON.stringify(s.PQTranslationCourse));
 test('12 independently selectable packets contain 60 original-source targets and authored phrase choices',()=>{
   assert.equal(course.sets.length,12);assert.equal(course.sets.flatMap(s=>s.items).length,60);
@@ -13,6 +13,20 @@ test('12 independently selectable packets contain 60 original-source targets and
     for(const q of set.items){assert(set.context.vietnamese.includes(q.targetVietnamese));assert(!q.prompt.includes('Ghép'));assert(q.chunks.filter(chunk=>!chunk.every(a=>q.answer.includes(a))).length>=2);assert(q.chunks.some(chunk=>chunk.length>1));assert(q.tokens.length>q.answer.length);assert(q.analysis.length>100);for(const a of q.accepted){assert(E.isComplete(set,q,a));assert(E.isCorrect(q,a));}}
   }
   const monk=course.sets[0].items[2];assert.equal(E.sequence(course.sets[0],monk,monk.answer),'Disillusioned with his fellow practitioners, a monk drifts into worldly life.');
+});
+
+test('v1 imports retain unchanged PASS answers and spent hints but not revised multi-sentence answers',()=>{
+  const old=require('./fixtures/translation-v1-progress.json');
+  const snapshot=JSON.stringify(old),restored=P.migrateSubset(course,[old]);
+  assert.equal(JSON.stringify(old),snapshot);
+  assert.equal(E.statistics(course,restored).passed,3);
+  assert.equal(restored.sets.D01.hints['D01-Q1'].length,1);
+  assert.equal(restored.sets.D01.status,'answer');
+  assert.deepEqual(restored.sets.D01.round,['D01-Q2-r2','D01-Q5-r2']);
+  assert(!Object.hasOwn(restored.sets.D01.responses,'D01-Q2-r2'));
+  assert.doesNotThrow(()=>E.validate(course,restored));
+  const backup={format:'pq-english-project',schema:2,selected:course.id,progress:{[course.id]:old}};
+  assert.equal(P.validateBackup([course],backup).progress[course.id].sets.D01.hints['D01-Q1'].length,1);
 });
 test('all 60 translations support chunk clicks, delayed whole-packet feedback and project backup',()=>{
   const state=E.create(course);
@@ -34,4 +48,15 @@ test('authored alternative orders and identical word tiles are not rejected just
   E.saveResponse(course,state,'D08',q.id,q.accepted[1]);assert(E.isCorrect(q,state.sets.D08.responses[q.id]));
   const duplicate={type:'compose',tokens:['we','help','we'],answer:[0,1]};assert(E.isCorrect(duplicate,[2,1]));
   assert(!E.isCorrect(duplicate,[1,2]));
+});
+
+test('every packet keeps its complete source context and includes two- and three-sentence translation units',()=>{
+  const bank=s.PQAdvancedVerbs.modules;
+  for(const set of course.sets){
+    const original=bank.find(m=>m.context.source.locator===set.context.source.locator&&m.context.vietnamese===set.context.vietnamese);
+    assert(original,set.id+': use complete context, not isolated excerpts');
+    assert(set.items.some(q=>q.sourceSentenceCount===2),set.id+': two-sentence unit');
+    assert(set.items.some(q=>q.sourceSentenceCount===3),set.id+': three-sentence unit');
+    assert(set.items.every(q=>[1,2,3].includes(q.sourceSentenceCount)));
+  }
 });

@@ -15,6 +15,7 @@
         const old=source.sets?.[set.id];if(!old||state.sets[set.id])continue;
         const ids=set.items.map(q=>q.id),pick=values=>Object.fromEntries(Object.entries(values||{}).filter(([id])=>ids.includes(id)));
         const r=E.record(set);r.responses=pick(old.responses);r.visited=!!old.visited;
+        if(old.hints)r.hints=pick(old.hints);
         r.history=(old.history||[]).map(a=>{const round=a.round.filter(id=>ids.includes(id)),responses=pick(a.responses);return {submittedAt:a.submittedAt,round,responses,wrong:round.filter(id=>!E.isCorrect(set.items.find(q=>q.id===id),responses[id]))};}).filter(a=>a.round.length);
         r.passedItems=ids.filter(id=>r.history.some(a=>a.round.includes(id)&&!a.wrong.includes(id)));
         const pending=ids.filter(id=>!r.passedItems.includes(id));r.round=pending.length?pending:ids;r.status=pending.length?'answer':'passed';state.sets[set.id]=r;

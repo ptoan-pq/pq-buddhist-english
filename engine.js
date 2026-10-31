@@ -111,7 +111,7 @@
     if(value===undefined)return 'Chưa trả lời';
     const type=q.type||set.type;
     if(type==='choice')return q.options[value];
-    if(type==='compose'){const rendering=q.renderings?.find(text=>normalizedText(text)===composeKey(q,value));if(rendering)return rendering;const text=value.map(i=>i===null?'…':q.tokens[i]).join(' ').replace(/\s+([,.;!?])/g,'$1').replace(/[,;:]+$/,'');return text.charAt(0).toUpperCase()+text.slice(1)+(/[.!?]$/.test(text)?'':'.');}
+    if(type==='compose'){const rendering=q.renderings?.find(text=>normalizedText(text)===composeKey(q,value));if(rendering)return rendering;const text=value.map(i=>i===null?'…':q.tokens[i]).join(' ').replace(/\s+([,.;!?])/g,'$1').replace(/[,;:]+$/,'').replace(/(^|[.!?]\s+)([a-z])/g,(_,prefix,letter)=>prefix+letter.toUpperCase());return /[.!?][”"]?$/.test(text)?text:text.replace(/([”"]?)$/,'.$1');}
     if(type==='order'||type==='paragraph')return value.map(n=>q.tokens[n]).join(type==='paragraph'?'\n\n':' ');
     if(type==='match')return q.left.map((v,i)=>`${v} → ${value[i]===null?'…':q.options[value[i]]}`).join('\n');
     return q.parts.map((part,i)=>part+(i<value.length?(value[i]===null?'[…]':q.options[value[i]]):'')).join('');
