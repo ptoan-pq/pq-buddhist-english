@@ -49,11 +49,18 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 - 100 yêu cầu mới biên soạn tay trong `translation-batch-04.js`.
 - 20 ngữ cảnh chưa dùng: nhận lỗi, quyền lực, báo lỗi, nói thật, thông cảm và giúp kín đáo.
 - 73 kiểm thử đạt trên tổng 460 câu; trích nguồn, ghép cụm, gợi ý, nộp cả gói và khôi phục đều đạt.
-- Trạng thái: đang xuất bản. Không thay đổi các câu cũ hoặc khóa lưu tiến độ.
+- Đã xuất bản: commit `b83d627`, GitHub Pages run `41157036297` thành công.
+- Không thay đổi các câu cũ hoặc khóa lưu tiến độ.
+
+## Đợt 05 — D93–D112
+
+- 100 yêu cầu mới biên soạn tay trong `translation-batch-05.js`.
+- 20 ngữ cảnh mới về hợp tác, lễ độ, nhận biết và công phu; giữ các phân biệt thời lượng/tốc độ, nhân/quả, biết/can thiệp.
+- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 560/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 04 còn 1.040 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D93–D112, 100 yêu cầu; không thay thế hoặc nhân bản D01–D92.
+- Sau đợt 05 còn 940 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D113–D132, 100 yêu cầu; không thay thế hoặc nhân bản D01–D112.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
