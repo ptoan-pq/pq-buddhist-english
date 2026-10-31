@@ -57,6 +57,11 @@ test('Translation is a separate program with five click-only questions and persi
   const saved=JSON.parse(app.saved.get('pq-english-meaning-translation-v2'));
   assert.equal(saved.sets.D01.hints['D01-Q1'].length,1);
 });
+test('course and packet selectors stop occupying the viewport while a lesson is being worked',()=>{
+ const app=boot('#translation');assert(!walk(app.main).some(e=>e.className==='course-pickers picker-static'));
+ app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
+ assert(walk(app.main).some(e=>e.className==='course-pickers picker-static'));
+});
 
 test('a direct translation link opens its packet catalog without changing the other courses',()=>{
   const app=boot('#translation');assert(app.main.textContent.includes('Các gói dịch theo ý'));

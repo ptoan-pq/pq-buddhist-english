@@ -15,6 +15,12 @@
 - Bộ đã reset vẫn được đánh dấu là đã từng học nhưng trở về trạng thái chưa hoàn thành.
 - Kiểm thử tổng: **85/85 đạt**.
 
+## Bộ chọn không che màn hình khi làm bài — 2026-10-31
+
+- Khi vào màn làm bài, bộ chọn khóa học/chủ điểm/gói chuyển về bố cục tĩnh và cuộn lên cùng trang.
+- Khi ở danh mục, bộ chọn vẫn giữ vị trí thuận tiện để đổi khóa hoặc gói.
+- Kiểm thử tổng: **86/86 đạt**.
+
 ## Sổ tay cụm diễn đạt — 2026-10-30
 
 - Thêm `Cụm đã lưu` để lưu expression sau khi nộp và xem lại cả câu Anh, ý Việt, khung dùng, phân tích và nguồn.
