@@ -109,11 +109,18 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới viết tay; nguồn bổ sung từ Bài Giảng Tâm Lý Đạo Đức, đủ định vị từng đoạn.
 - Phân biệt lời kể/quan điểm nguồn với khẳng định được kiểm chứng bên ngoài.
-- Kiểm thử 73/73 đạt; đang xuất bản, tổng 1.460/1.500.
+- Kiểm thử 73/73 đạt; commit `9495a7b`, Pages run `41162026250` thành công, tổng 1.460/1.500.
+
+## Đợt 15 — D293–D300
+
+- 40 yêu cầu cuối viết tay, tổng 300 gói/1.500 yêu cầu.
+- Giữ ngữ cảnh nguyên văn, ba lần gợi ý tối đa, nộp cả gói và tự chọn gói.
+- Không đổi khóa lưu, ID câu cũ hoặc tiến độ đã lưu.
+- Đang kiểm tra bản phát hành cuối và xác nhận nội dung công khai.
 
 ## Công việc còn lại
 
-- Sau đợt 14 còn 40 yêu cầu để đạt 1.500.
-- Đợt cuối dùng D293–D300, không thay thế hoặc nhân bản các gói cũ.
+- Đã biên soạn đủ D01–D300, tổng 1.500 yêu cầu.
+- Còn bước xác nhận phát hành công khai và ghi kết quả kiểm tra cuối.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.

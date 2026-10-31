@@ -243,6 +243,104 @@ globalThis.PQTranslationSources=[
 ];
 globalThis.PQTranslationSources.push(...[
   {
+    "id": "N061",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 60) DƯ LUẬN",
+      "vietnamese": "Làm được 5 năm thì tôi vô tình lên mạng Internet đọc được các bài viết của mình, đã đưa tên nhân vật cụ thể vào. Tôi hiểu ra là họ đã dùng tôi viết bài để ca ngợi những nhân vật xấu xa, và đả kích bôi nhọ nói xấu những người chân chính. Xã hội rối loạn vì sự thật bị đảo lộn. Người tốt thì bị mọi người cho là xấu, người xấu thì bị mọi người cho là tốt. Tôi run sợ. Bài viết của tôi thuyết phục quá, hấp dẫn nhiều người quá, góp phần làm cho kẻ xấu chiếm ưu thế giữa đời.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:0908"
+      }
+    }
+  },
+  {
+    "id": "N062",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 70) SỢ MA",
+      "vietnamese": "Nhưng không dễ yêu thương. Để tự nhiên đừng làm gì thì ta chẳng yêu thương được ai, trừ những người đối xử tốt với ta trước như cha mẹ, gia đình, người tử tế. Ta chỉ yêu thương lại một cách thụ động. Người nào có trí tuệ và đạo đức mới biết \"luyện tập\" để tăng trưởng tình yêu thương trong lòng mình đối với muôn loài vạn vật. Ta phải tự nhủ với chính mình, tự ra lệnh cho chính mình, buộc mình phải yêu thương tất cả. Tự ép buộc như thế, tự ra lệnh như thế, tự nhủ như thế, lâu ngày tình yêu thương sẽ bắt đầu xuất hiện dần dần. Rồi điều kỳ diệu sẽ đến với cuộc đời ta.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:1049"
+      }
+    }
+  },
+  {
+    "id": "N063",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 85) LỜI NÓI",
+      "vietnamese": "Có người sẽ phản bác rằng, ví dụ trong chiến đấu giữ nước, trong tình huống nguy cấp, nếu không thể hiện uy lực thì lính sẽ không sợ mà xông lên. Thật ra trong quân đội có kỷ luật nghiêm minh sẵn rồi, quân lệnh như sơn mà, ai mà không thực thi mệnh lệnh của chỉ huy thì tòa án binh xử đẹp ngay. Nhưng mệnh lệnh đầy tình cảm của chỉ huy sẽ làm chiến sĩ luôn nhớ tới tình yêu nước, tình yêu đồng đội, tình yêu đồng bào. Các tình cảm thiêng liêng cao quý đó được gói trong mệnh lệnh tình cảm của chỉ huy. Còn nếu chỉ huy hay dùng uy để ra lệnh thì cấp dưới cũng phải làm, nhưng sợ mà làm, làm mà không mang theo tình yêu lý tưởng trong tim.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:1263"
+      }
+    }
+  },
+  {
+    "id": "N064",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 97) RỪNG ƠI",
+      "vietnamese": "Chỉ những người có đạo đức sâu sắc mới yêu được từng cánh hoa ngọn lá, và yêu được những cánh rừng mênh mông. Người bình thường nhìn cây chỉ là cây, người có trí tuệ nhìn cây là nền tảng sự sống của Địa cầu. Sự trao đổi chất giữa cây và đất, nước, không khí, tạo nên những điều có lợi cho sự sống muôn loài. Ngoài ra cây còn tỏa ra một trường sinh học vô hình hỗ trợ cho tinh thần của các giống loài động vật. Thế nên rừng cây mênh mông bát ngát đã tạo nên trường sinh học che chở não bộ của muôn loài động vật.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:1430"
+      }
+    }
+  },
+  {
+    "id": "N065",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 118) NIỀM TIN",
+      "vietnamese": "Chuyện thứ nhất, một người đàn ông do nghe được ở đâu đó vài thông tin về kho báu thời chiến tranh thế giới thứ hai của người Nhật. Họ tin rằng người Nhật đã tấn công các nước Đông Nam Á để chiếm đất và chiếm luôn rất nhiều vàng bạc báu vật của các nước để đem về Nhật. Nhưng không may, chiến tranh kết thúc sớm hơn họ nghĩ, nước Nhật bị đồng minh chiếm đóng. Lính Nhật không thể đem châu báu về nước được nên đã tạm chôn tại Việt Nam và Philippines, trên những vùng núi vắng. Vì tin chắc về thông tin này nên ông dành cả một đời để đi tìm kho báu mà ông nghĩ rằng mình có bản đồ đó, mất rất nhiều thời gian và của cải, và cuối cùng ông chết trong tuyệt vọng. Niềm tin này không đúng. Điều ông tin không có thật.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:1713"
+      }
+    }
+  },
+  {
+    "id": "N066",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 124) HƯỞNG RỒI SẼ HẾT",
+      "vietnamese": "Ta nghe cụm từ ''Đạo đức đạt đến Vô Ngã hoàn toàn\" thì cũng đừng tưởng là chỉ có đạo đức. Nếu không có hành vi phúc thiện vô hạn thì cũng không chứng tỏ được đạo đức vô hạn. Nếu không có tĩnh tâm vô hạn thì cũng không bảo đảm được đạo đức vô hạn. Đó là lý do một bậc thánh vĩnh viễn phải cứu độ chúng sinh vạn loại là thế. Các vị thánh không có giới hạn của thời gian hay không gian hay cõi giới, không có giới hạn của kiếp sống ngắn ngủi này. Các vị làm phúc thiện vô hạn, tu dưỡng đạo đức vô hạn, và tĩnh tâm vô hạn.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:1794"
+      }
+    }
+  },
+  {
+    "id": "N067",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 158) CUỘC ĐẤU CỦA Ý CHÍ",
+      "vietnamese": "Giám đốc Hoan là bạn cùng khóa an ninh với tôi nên chúng tôi khá hiểu nhau. Hoan tốt nghiệp hạng nhì, sau tôi là thủ khoa (tràng vỗ tay vang lên), nhưng khi ra công tác thì Hoan thành công vượt trội hơn tôi. Hoan có cái đặc tính là quyết tâm cao, làm việc gì thì làm cho triệt để chứ không dừng bỏ nửa chừng. Tôi học giỏi hơn Hoan một chút vì có lẽ chỉ số thông minh cao hơn Hoan, tuy nhiên khi ra làm việc thì cái Ý Chí của Hoan mới phát huy tác dụng. Thành tích xuất sắc của Hoan đã khiến Hoan được bổ nhiệm giám đốc công an tỉnh trẻ nhất nước.",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:2267"
+      }
+    }
+  },
+  {
+    "id": "N068",
+    "context": {
+      "title": "ĐẠO ĐỨC (số 177) GIÁ TRỊ TÂM LINH",
+      "vietnamese": "Vị chủ tọa giới thiệu về nội dung của buổi hội thảo hôm nay nhằm tìm kiếm giá trị của tâm linh từ các quan điểm tôn giáo khác nhau. Thời đại công nghệ kỹ thuật tiến bộ vượt bậc, robot đang gánh vác công việc thay thế dần con người, Trí tuệ nhân tạo đang suy nghĩ giùm con người, tưởng là hay, nhưng rồi con người giật mình suy nghĩ lại, thế giá trị con người còn lại chỗ nào. Buổi hội thảo này nhằm trả lời câu hỏi về giá trị con người sẽ còn lại ở đâu. Ban tổ chức đã định hướng câu trả lời là: Giá trị con người chỉ còn nằm ở Tâm linh, nơi mà robot không có đường đi tới. Mỗi đại diện tôn giáo sẽ lên trình bày quan điểm của tôn giáo mình về giá trị Tâm linh của con người như thế nào. Lần lượt các đại biểu lên diễn đàn trình bày như sau.:",
+      "translation": "",
+      "source": {
+        "title": "Nền Tảng Đạo Đức",
+        "locator": "S06|epub:c:0001:b:2552"
+      }
+    }
+  }
+]);
+globalThis.PQTranslationSources.push(...[
+  {
     "id": "N041",
     "context": {
       "title": "Bài Giảng Tâm Lý Đạo Đức",
