@@ -2,7 +2,25 @@
 
 Trang học tĩnh bằng HTML, CSS và JavaScript, chạy trực tiếp trên GitHub Pages. Không cần đăng nhập, khóa API hoặc bước build.
 
-## Hai khóa học độc lập — bản biên soạn thủ công 1.440 câu
+## Ba chương trình độc lập
+
+### Dịch theo ý — Không word by word
+
+Mở trực tiếp: https://ptoan-pq.github.io/pq-buddhist-english/#translation
+
+- 12 gói D01–D12, 60 câu; mỗi gói hiện một đoạn tuyển nguyên văn và năm câu cùng dạng.
+- Bốn dạng: dựng câu bằng cụm, sửa bản dịch sát chữ, đổi trục câu, giữ mạch và nối ý. Phần sửa dịch sát chữ có bản Anh lỗi được ghi rõ để người học dựng lại, không học thuộc bản lỗi.
+- Click thẻ cụm để ghép; có hai thẻ dư ở mỗi câu. Click một từ đã đặt để trả xuống, click ô trống để chọn vị trí chèn. Có Hoàn tác và Làm lại câu này.
+- Gợi ý đặt đúng **một từ**, không mở cả cụm; tối đa ba từ mỗi câu. Từ đã gợi ý được giữ đúng chỗ, không bị xóa khi làm lại; bộ đếm được lưu qua tải lại, đổi gói và sao lưu JSON.
+- Nộp đủ năm câu mới mở bản dịch, điểm chuyển khỏi dịch chữ và phân tích. Chỉ làm lại câu sai. Chấp nhận các trật tự khác đã được biên soạn, không chấm theo danh tính thẻ khi hai thẻ mang cùng một từ.
+- Tiến độ riêng tại `pq-english-meaning-translation-v1`; phân biệt đúng ngay không gợi ý, đúng có gợi ý và đúng sau khi xem phản hồi. Sổ tay Markdown và bản sao lưu toàn project bao gồm khóa mới.
+- Giữ nguyên 24 chủ điểm, 1.440 câu Master động từ mới, 72 câu chuyên sâu và các kho ôn cũ. Không chuyển PASS giữa những câu khác nội dung.
+- Nội dung được biên tập và đối chiếu theo Janna Translation; bản Anh cũ là tài liệu đối chiếu, không phải đáp án bất biến. Các đoạn tuyển có thể lược câu ngoài phạm vi bài và được ghi rõ.
+- Chưa có hiệu chuẩn độ khó độc lập. Bài ghép có hỗ trợ không tương đương tự dịch tự do.
+
+Nội dung nằm trong `translation-course.js`, các cụm và thẻ dư được viết riêng từng câu. Bước compile chỉ tách thẻ thành các từ để hỗ trợ gợi ý một từ, không tự sinh bản dịch hoặc phương án nhiễu. Xuất bản đối chiếu bằng `node authoring/export-translation.cjs`.
+
+### Diễn đạt Phật học và Master động từ — giữ nguyên
 
 - **Diễn đạt Phật học:** giữ nguyên 1.440 câu gốc, 24 chủ điểm × 12 gói × 5 câu. Không trộn phần động từ bổ sung vào các gói này nữa.
 - **Master động từ:** chương trình riêng, **300 gói = 1.512 câu**. Giữ nguyên 72 câu chuyên sâu V01–V12; **1.440 câu M001–M288** được biên soạn riêng theo nguồn Việt, thay toàn bộ tập N cũ. Mỗi câu có khung Anh riêng, bốn lựa chọn và phân tích từng lựa chọn; không lấy câu cơ bản để bù số lượng.
