@@ -64,6 +64,30 @@ test('a direct translation link opens its packet catalog without changing the ot
   assert(!app.saved.has('pq-english-verb-mastery-v4'));
 });
 
+test('the translation thinking guide opens inline without losing a draft or hints',()=>{
+  const app=boot('#translation');
+  const guide=()=>walk(app.main).find(e=>e.tagName==='details'&&e.children.some(c=>c.tagName==='summary'&&c.textContent==='Cách tư duy trước khi dịch'));
+  assert(guide(),'The translation catalog should offer a compact guide');
+  assert.equal(guide().open,false);
+  app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
+  app.buttons().find(b=>b.textContent==='Gợi ý · 0/3').onclick();
+  const chunk=walk(app.questions()[0]).find(e=>e.className==='chip chunk-card'&&!e.disabled);chunk.onclick();
+  const draft=app.saved.get('pq-english-meaning-translation-v2');
+  guide().open=true;guide().ontoggle();
+  assert.equal(walk(guide()).filter(e=>e.tagName==='li').length,5);
+  assert(guide().textContent.includes('không phải luôn chọn từ mạnh hoặc hiếm nhất'));
+  assert(guide().textContent.includes('Với yêu cầu 2–3 câu'));
+  assert.equal(app.saved.get('pq-english-meaning-translation-v2'),draft);
+  app.buttons().find(b=>b.textContent==='Hoàn tác').onclick();
+  assert.equal(guide().open,true,'The guide should stay open when the exercise rerenders');
+  const afterUndo=app.saved.get('pq-english-meaning-translation-v2');
+  guide().open=false;guide().ontoggle();
+  assert.equal(app.saved.get('pq-english-meaning-translation-v2'),afterUndo);
+  assert.equal(app.questions().length,5);
+  assert(app.buttons().some(b=>b.textContent==='Gợi ý · 1/3'));
+  app.select('program-select','verbs');assert.equal(guide(),undefined);
+});
+
 test('failed answers have an unmistakable red-card state and stay marked while retrying',()=>{
   const app=boot('#translation');app.buttons().find(b=>b.textContent==='Mở gói dịch').onclick();
   const set=app.translation.sets[0];

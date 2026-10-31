@@ -5,7 +5,7 @@
   let C=allCourses.find(c=>c.id===selected)||courses[0];
   const requested=window.location?.hash?.slice(1);if(requested==='translation')C=translation;else if(requested==='verbs')C=verbs;else if(requested==='dharma')C=courses[0];
   const main=document.getElementById('main'),warning=document.getElementById('storage-warning');
-  let state=E.create(C),view='catalog',displayed=0,gapFocus={},wordFocus={},hintFlash=null;
+  let state=E.create(C),view='catalog',displayed=0,gapFocus={},wordFocus={},hintFlash=null,guideOpen=false;
   const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
   function announce(message){warning.textContent=message;warning.hidden=!message;}
   allCourses.forEach(course=>{try{const raw=localStorage.getItem(P.key(course));if(raw)states[course.id]=E.validate(course,JSON.parse(raw));else{const sources=(course.previousSources||[]).flatMap(spec=>{const previous=localStorage.getItem(spec.key);if(!previous)return [];const parsed=JSON.parse(previous);return P.compatibleSource(course,parsed)?[parsed]:[];});states[course.id]=sources.length?P.migrateSubset(course,sources):E.create(course);}}catch(err){blocked.add(course.id);states[course.id]=E.create(course);announce('Một bản tiến độ cũ chưa đọc được và được giữ nguyên. Các khóa khác vẫn sử dụng được; bạn có thể khôi phục từ JSON.');}});
@@ -31,6 +31,26 @@
   function visit(target){view=target;if(target==='learn'){displayed=state.active;if(C.freeSets){E.openSet(C,state,displayed);save();}}render();goTop();}
   document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>visit(b.dataset.view));
   function heading(eyebrow,title,intro){main.append(node('div',eyebrow,'eyebrow'),node('h1',title,'title'));if(intro)main.append(node('p',intro,'intro'));}
+  function renderTranslationGuide(){
+    if(C.programId!=='translation')return;
+    const guide=node('details',undefined,'translation-guide');guide.open=guideOpen;guide.ontoggle=()=>{guideOpen=guide.open;};
+    guide.append(node('summary','Cách tư duy trước khi dịch'));
+    const body=node('div',undefined,'translation-guide-body');
+    body.append(node('p','Hiểu điều cần diễn đạt trước, rồi mới tìm cách nói bằng tiếng Anh. Bạn chỉ cần tự hỏi trong đầu, không phải nộp phần phân tích.'));
+    const steps=node('ol');
+    [
+      ['Câu này nói điều gì trong đoạn?','Đọc cả đoạn để biết đây là nhận xét, nguyên nhân, ví dụ, đối lập hay lời khuyên. Xác định “họ”, “điều đó”, “như vậy” đang chỉ ai hoặc ý nào.'],
+      ['Lấy gì làm trục câu?','Tìm chủ thể → hành động hoặc trạng thái → đối tượng hoặc kết quả. Chủ ngữ tiếng Anh không nhất thiết là những từ đứng đầu câu Việt. Với “Thấy người có lỗi, ta không vội chê trách”, trục là: we → do not rush to blame → them; phần đầu nêu hoàn cảnh.'],
+      ['Các ý liên hệ thế nào?','Nhận ra nguyên nhân, điều kiện, tương phản hoặc mục đích. Giữ đúng các nét nghĩa: chỉ, chưa, vẫn, mới; có thể, phải; dù, nếu, vì, để. “Không vội chê trách” không có nghĩa là “không bao giờ chê trách”.'],
+      ['Ý này thường được nói bằng cụm nào?','Bây giờ mới nhìn các thẻ và ghép theo cụm ý, thay vì tìm từ Anh tương ứng với từng chữ Việt. “Không vội làm gì” → do not rush to do something. Chọn động từ đúng lực: giúp ≠ ép buộc; nhận ra ≠ đoán; giảm bớt ≠ xóa bỏ. Sắc bén là chọn đúng nét nghĩa, không phải luôn chọn từ mạnh hoặc hiếm nhất.'],
+      ['Câu Anh tự nhiên và còn đúng ý nguồn không?','Đọc riêng câu Anh: có rõ ai làm gì, các ý nối có thuận không? Sau đó đối chiếu lại câu Việt: có bỏ sót, thêm ý, đổi chủ thể, phủ định hoặc mức độ khẳng định không? Câu nghe hay vẫn có thể dịch sai.']
+    ].forEach(([title,text])=>{const item=node('li');item.append(node('strong',title),node('p',text));steps.append(item);});
+    body.append(steps);
+    const example=node('div',undefined,'translation-guide-example');example.append(node('strong','Ví dụ ghép theo hai đơn vị ý'),node('p','“Thấy người có lỗi, ta không vội chê trách.”'),node('p','When we see someone at fault, we do not rush to blame them.','guide-english'),node('p','Hoàn cảnh thấy lỗi → thái độ không vội chê trách. Không cần giữ nguyên thứ tự từng chữ để giữ đúng quan hệ ý.'));body.append(example);
+    const linked=node('p');linked.append(node('strong','Với yêu cầu 2–3 câu: '),node('span','xác định câu sau tiếp nối, giải thích hay đối lập với câu trước, rồi chọn đại từ, từ nối và thứ tự thông tin. Đọc lại cả cụm, đừng chỉ kiểm tra từng câu riêng.'));body.append(linked);
+    body.append(node('p','Đọc Việt → hình dung trục câu → nhìn thẻ → ghép theo cụm → đọc lại toàn ý.','translation-guide-recall'),node('p','Tự nhắc: “Tôi hiểu ý gì? Tôi lấy gì làm trục? Tôi sẽ nói ý ấy bằng cụm nào?”','helper'));
+    guide.append(body);main.append(guide);
+  }
   function answerArray(q,type,r){if(Array.isArray(r.responses[q.id]))return [...r.responses[q.id]];return type==='order'||type==='paragraph'?[]:q.answer.map(()=>null);}
   function choose(set,q,value,key){change(()=>E.saveResponse(C,state,set.id,q.id,value),key);}
   function reviewCard(set,q,r,card){
@@ -151,6 +171,6 @@
     let phase='';courses.forEach(course=>{if(course.phase!==phase){phase=course.phase;main.append(node('h2',phase,'catalog-phase'));}const card=node('section',undefined,'catalog-card'),status=P.complete(course,states[course.id]),stats=E.statistics(course,states[course.id]);card.append(node('div',`CHỦ ĐIỂM ${String(course.week).padStart(2,'0')} · ${course.subtitle}`,'eyebrow'),node('h3',course.title.replace(/^Chủ điểm \d+ — /,''),'catalog-title'),node('p',course.targets.join(' · '),'catalog-targets'));const actions=node('div',undefined,'meta-row');actions.append(node('span',`${stats.completedSets}/12 gói hoàn thành · 60 câu`,'helper'));const b=button(status?'Xem lại':'Chọn gói để học',()=>openCourse(course),'primary');actions.append(b);card.append(actions);main.append(card);});
     const old=node('section',undefined,'note-section');old.append(node('h2','Bản học tổng hợp v1'),node('p','72 câu của bản cũ được giữ riêng cùng tiến độ cũ. Bản này không tính thành chủ điểm 1 của chương trình mới.'));old.append(button('Mở bản cũ và tiến độ',()=>openCourse(legacy)));main.append(old);
   }
-  function render(){main.replaceChildren();renderTopicPicker();document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(view==='catalog')renderCatalog();else if(view==='notes')renderNotes();else if(view==='progress')renderProgress();else renderLesson();}
+  function render(){main.replaceChildren();renderTopicPicker();renderTranslationGuide();document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(view==='catalog')renderCatalog();else if(view==='notes')renderNotes();else if(view==='progress')renderProgress();else renderLesson();}
   render();
 })();
