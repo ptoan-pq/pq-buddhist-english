@@ -124,11 +124,22 @@
       ]
     }
   ];
+  const segmenter=new Intl.Segmenter('vi',{granularity:'sentence'});
+  for(const row of root.PQTranslationExpansion||[]){
+    const context=bank.get(row.sourceId)?.context;if(!context)throw Error('Missing expansion source '+row.sourceId);
+    const sentences=[...segmenter.segment(context.vietnamese)].filter(s=>/\p{L}/u.test(s.segment));
+    const questions=row.units.map(([start,count,text,extra,pattern,analysis])=>{
+      const first=sentences[start],last=sentences[start+count-1];if(!first||!last||count<1||count>3)throw Error('Invalid authored source span '+row.id);
+      const vi=context.vietnamese.slice(first.index,last.index+last.segment.trimEnd().length).trim();
+      return {vi,sourceSentenceCount:count,chunks:text.split('|'),extra:extra.split('|'),pattern,analysis};
+    });
+    rows.push({...row,questions});
+  }
   function compile(row){
     const original=bank.get(row.sourceId);if(!original)throw Error('Missing translation source '+row.sourceId);
-    const upgrades=root.PQTranslationUnitsV2?.[row.id];if(!upgrades)throw Error('Missing authored paragraph units '+row.id);
+    const upgrades=root.PQTranslationUnitsV2?.[row.id];if(!upgrades&&!row.units)throw Error('Missing authored paragraph units '+row.id);
     const context={...original.context,title:row.title,translation:'',excerpted:false};
-    const questions=row.questions.map((q,i)=>{const upgrade=upgrades.find(u=>u.index===i);return upgrade?{...upgrade,revision:2}:q;});
+    const questions=row.questions.map((q,i)=>{const upgrade=upgrades?.find(u=>u.index===i);return upgrade?{...upgrade,revision:2}:q;});
     return {id:row.id,title:row.title,mode:row.mode,type:'compose',context,instruction:row.mode+' · Mỗi yêu cầu dịch 1–3 câu nguồn. Click cụm để ghép; có thẻ dư. Bấm từ đã ghép để trả xuống, hoặc ô trống để chọn chỗ chèn. Gợi ý tối đa 3 từ mỗi yêu cầu. Nộp đủ 5 yêu cầu mới xem phần chữa.',items:questions.map((q,i)=>{
       if(!context.vietnamese.includes(q.vi))throw Error(row.id+': target is not in passage');
       const tokens=[],chunks=[...q.chunks,...q.extra].map(text=>text.split(/\s+/).map(word=>{tokens.push(word);return tokens.length-1;}));

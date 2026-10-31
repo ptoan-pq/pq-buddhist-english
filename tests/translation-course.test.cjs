@@ -1,12 +1,12 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const E=require('../engine.js'),P=require('../project.js'),s={window:null};s.window=s;vm.createContext(s);
-for(const file of ['advanced-verbs.js','translation-units-v2.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
+for(const file of ['advanced-verbs.js','translation-units-v2.js','translation-batch-01.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
 const course=JSON.parse(JSON.stringify(s.PQTranslationCourse));
-test('12 independently selectable packets contain 60 original-source targets and authored phrase choices',()=>{
-  assert.equal(course.sets.length,12);assert.equal(course.sets.flatMap(s=>s.items).length,60);
-  assert.equal(new Set(course.sets.map(s=>s.context.vietnamese)).size,12);
-  assert.equal(new Set(course.sets.map(s=>s.mode)).size,4);
+test('32 independently selectable packets contain 160 original-source targets and authored phrase choices',()=>{
+  assert.equal(course.sets.length,32);assert.equal(course.sets.flatMap(s=>s.items).length,160);
+  assert.equal(new Set(course.sets.map(s=>s.context.vietnamese)).size,32);
+  assert(new Set(course.sets.map(s=>s.mode)).size>=4);
   const state=E.create(course);E.openSet(course,state,11);assert.equal(E.current(course,state).id,'D12');
   for(const set of course.sets){assert.equal(set.items.length,5);assert(set.context.source.locator);
     assert.equal(new Set(set.items.map(q=>q.targetVietnamese)).size,5);
@@ -28,7 +28,7 @@ test('v1 imports retain unchanged PASS answers and spent hints but not revised m
   const backup={format:'pq-english-project',schema:2,selected:course.id,progress:{[course.id]:old}};
   assert.equal(P.validateBackup([course],backup).progress[course.id].sets.D01.hints['D01-Q1'].length,1);
 });
-test('all 60 translations support chunk clicks, delayed whole-packet feedback and project backup',()=>{
+test('all published translations support chunk clicks, delayed whole-packet feedback and project backup',()=>{
   const state=E.create(course);
   for(const [index,set]of course.sets.entries()){
     E.openSet(course,state,index);
@@ -39,9 +39,21 @@ test('all 60 translations support chunk clicks, delayed whole-packet feedback an
     }
     assert.equal(E.submit(course,state).wrong.length,0);
   }
-  assert.equal(E.statistics(course,state).independentPassed,60);
+  assert.equal(E.statistics(course,state).independentPassed,160);
   const exported=P.exportProject([course],{[course.id]:state},course.id),restored=P.validateBackup([course],JSON.parse(JSON.stringify(exported)));
   assert(P.complete(course,restored.progress[course.id]));assert(E.markdown(course,state).includes('Đổi trục câu'));
+});
+
+test('the first expansion preserves all existing progress, hints and item IDs',()=>{
+  const legacy={...course,sets:course.sets.slice(0,12)},state=E.create(legacy),set=legacy.sets[0],q=set.items[0];
+  E.hintWord(legacy,state,set.id,q.id);
+  const snapshot=JSON.stringify(state),restored=E.validate(course,JSON.parse(snapshot));
+  assert.deepEqual(restored.sets.D01.responses,state.sets.D01.responses);
+  assert.deepEqual(restored.sets.D01.hints,state.sets.D01.hints);
+  assert.equal(restored.active,0);
+  E.openSet(course,restored,31);assert.equal(E.current(course,restored).id,'D32');
+  E.openSet(course,restored,0);assert.deepEqual(restored.sets.D01.hints,state.sets.D01.hints);
+  assert.equal(JSON.stringify(state),snapshot);
 });
 test('authored alternative orders and identical word tiles are not rejected just for differing token IDs',()=>{
   const q=course.sets[7].items[0],state=E.create(course);E.openSet(course,state,7);
