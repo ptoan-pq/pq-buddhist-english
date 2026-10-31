@@ -22,7 +22,12 @@
   function packetStatus(r){return r?.status==='passed'?'Hoàn thành':r?.visited||r?.history.length||Object.keys(r?.responses||{}).length?'Đã học · chưa hoàn thành':'Chưa học';}
   function renderTopicPicker(){
     const pickers=node('div',undefined,'course-pickers'),programId=C.programId||'dharma',program=node('div',undefined,'topic-picker'),programLabel=node('label','Chọn khóa học'),programSelect=node('select');programLabel.htmlFor='program-select';programSelect.id='program-select';[['dharma','Diễn đạt Phật học — 24 chủ điểm'],['verbs','Master động từ — chương trình riêng'],['translation','Dịch theo ý — Không word by word']].forEach(([id,title])=>{const o=node('option',title);o.value=id;o.selected=id===programId;programSelect.append(o);});programSelect.onchange=()=>showProgram(programSelect.value);program.append(programLabel,programSelect);pickers.append(program);
-    if(programId==='translation'){main.append(pickers);return;}
+    if(programId==='translation'){
+      const picker=node('div',undefined,'topic-picker'),label=node('label','Chọn gói dịch'),select=node('select');label.htmlFor='topic-select';select.id='topic-select';
+      const placeholder=node('option','Chọn bất kỳ gói dịch nào…');placeholder.value='';placeholder.disabled=true;placeholder.selected=view==='catalog';select.append(placeholder);
+      translation.sets.forEach((set,i)=>{const option=node('option',`${set.id} — ${set.title}`);option.value=String(i);option.selected=view!=='catalog'&&i===displayed;select.append(option);});
+      select.onchange=()=>openCourse(translation,Number(select.value));picker.append(label,select);pickers.append(picker);main.append(pickers);return;
+    }
     const picker=node('div',undefined,'topic-picker'),label=node('label',programId==='verbs'?'Chọn bộ luyện động từ':'Chọn chủ điểm'),select=node('select');label.htmlFor='topic-select';select.id='topic-select';
     const placeholder=node('option',programId==='verbs'?'Chọn bộ nâng cao hoặc kho ôn cũ…':'Chọn bất kỳ chủ điểm nào…');placeholder.value='';placeholder.disabled=true;placeholder.selected=view==='catalog';select.append(placeholder);
     (programId==='verbs'?[verbs,verbArchive]:[...courses,legacy]).forEach(course=>{const option=node('option',course.title);option.value=course.id;option.selected=view!=='catalog'&&course.id===C.id;select.append(option);});

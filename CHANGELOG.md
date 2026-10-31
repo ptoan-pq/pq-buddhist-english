@@ -6,6 +6,7 @@
 - Nút “Chọn gói dịch” đưa người học thẳng tới khung danh sách thay vì phải kéo qua toàn bộ trang.
 - Giữ nguyên thứ tự gói, trạng thái hoàn thành và thao tác chọn gói tự do.
 - Kiểm thử UI xác nhận khung chứa đủ 300 gói; toàn bộ 83/83 test đạt.
+- Đồng nhất thêm bộ chọn native ở đầu trang: Dịch theo ý giờ có `Chọn gói dịch` với 300 option, cùng kiểu menu cuộn như `Chọn chủ điểm` và `Chọn bộ luyện động từ`.
 
 ## Sổ tay cụm diễn đạt — 2026-10-30
 
