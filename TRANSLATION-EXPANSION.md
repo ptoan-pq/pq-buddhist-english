@@ -103,11 +103,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 ## Đợt 13 — D253–D272
 
 - 100 yêu cầu mới viết tay; tập trung trách nhiệm, khiêm tốn, hợp đồng, sinh kế và công phu.
-- 73/73 kiểm thử đạt; đang xuất bản, tổng 1.360/1.500.
+- 73/73 kiểm thử đạt; commit `ca57989`, Pages run `41161588596` thành công, tổng 1.360/1.500.
+
+## Đợt 14 — D273–D292
+
+- 100 yêu cầu mới viết tay; nguồn bổ sung từ Bài Giảng Tâm Lý Đạo Đức, đủ định vị từng đoạn.
+- Phân biệt lời kể/quan điểm nguồn với khẳng định được kiểm chứng bên ngoài.
+- Kiểm thử 73/73 đạt; đang xuất bản, tổng 1.460/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 13 còn 140 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D273–D292, 100 yêu cầu; không thay thế hoặc nhân bản các gói cũ.
+- Sau đợt 14 còn 40 yêu cầu để đạt 1.500.
+- Đợt cuối dùng D293–D300, không thay thế hoặc nhân bản các gói cũ.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.

@@ -1,11 +1,11 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const E=require('../engine.js'),P=require('../project.js'),s={window:null};s.window=s;vm.createContext(s);
-for(const file of ['advanced-verbs.js','translation-units-v2.js','translation-sources-new.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-batch-10.js','translation-batch-11.js','translation-batch-12.js','translation-batch-13.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
+for(const file of ['advanced-verbs.js','translation-units-v2.js','translation-sources-new.js','translation-batch-01.js','translation-batch-02.js','translation-batch-03.js','translation-batch-04.js','translation-batch-05.js','translation-batch-06.js','translation-batch-07.js','translation-batch-08.js','translation-batch-09.js','translation-batch-10.js','translation-batch-11.js','translation-batch-12.js','translation-batch-13.js','translation-batch-14.js','translation-course.js'])vm.runInContext(fs.readFileSync(path.join(__dirname,'..',file),'utf8'),s);
 const course=JSON.parse(JSON.stringify(s.PQTranslationCourse));
-test('272 independently selectable packets contain 1360 original-source targets and authored phrase choices',()=>{
-  assert.equal(course.sets.length,272);assert.equal(course.sets.flatMap(s=>s.items).length,1360);
-  assert.equal(new Set(course.sets.map(s=>s.context.vietnamese)).size,272);
+test('292 independently selectable packets contain 1460 original-source targets and authored phrase choices',()=>{
+  assert.equal(course.sets.length,292);assert.equal(course.sets.flatMap(s=>s.items).length,1460);
+  assert.equal(new Set(course.sets.map(s=>s.context.vietnamese)).size,292);
   assert(new Set(course.sets.map(s=>s.mode)).size>=4);
   const state=E.create(course);E.openSet(course,state,11);assert.equal(E.current(course,state).id,'D12');
   for(const set of course.sets){assert.equal(set.items.length,5);assert(set.context.source.locator);
@@ -39,7 +39,7 @@ test('all published translations support chunk clicks, delayed whole-packet feed
     }
     assert.equal(E.submit(course,state).wrong.length,0);
   }
-  assert.equal(E.statistics(course,state).independentPassed,1360);
+  assert.equal(E.statistics(course,state).independentPassed,1460);
   const exported=P.exportProject([course],{[course.id]:state},course.id),restored=P.validateBackup([course],JSON.parse(JSON.stringify(exported)));
   assert(P.complete(course,restored.progress[course.id]));assert(E.markdown(course,state).includes('Đổi trục câu'));
 });

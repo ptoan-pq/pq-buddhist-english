@@ -243,6 +243,248 @@ globalThis.PQTranslationSources=[
 ];
 globalThis.PQTranslationSources.push(...[
   {
+    "id": "N041",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Và cái thứ hai xã hội cần nữa là sư bình an nội tâm. Hiện nay con người ta sống rất là căng thẳng vì phải đấu tranh với sinh kế rất mệt mỏi. Ngay cả các trò giải trí cũng làm người ta căng thẳng nữa. Người nào lo sinh kế tìm miếng ăn miếng mặc đã khổ rồi; những người chơi game điện tử cũng căng thẳng không kém vì các trò bắn giết ì xèo trong đó; những vũ trường thuốc lắc gào thét nhảy múa điên dại, những trận bóng đá reo hò inh ỏi thâu đêm… đều là biểu hiện của một thế giới bất an căng thẳng. Nếu xuất hiện thêm vài màn khủng bố nổ bom, vài cuộc tấn công giết chóc thì sự căng thẳng còn ghê gớm không biết đến dường nào.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:0042"
+      }
+    }
+  },
+  {
+    "id": "N042",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Hoặc ví dụ như hạnh nhẫn nhục cũng là một tâm lý đạo đức quan trọng của người tu hành. Đó là tâm bình thản bất động đối với những nghịch cảnh, sự xúc phạm, sự trái ý. Nhiều khi chúng ta đã buồn bực, giận hờn, đau khổ vì mọi điều trong cuộc sống để rồi phải bày tỏ thái độ gay gắt, cáu kỉnh, hậm hực, nóng nảy… khiến cho người ngoài nhìn vào đánh giá là thiếu đạo lực. Nhất là người xuất gia thì sự bình thản trước nghịch cảnh còn quan trọng hơn rất nhiều. Nhưng chúng ta đã thiếu sức mạnh tinh thần nào đó khiến chúng ta yếu đuối không còn vững vàng.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:0337"
+      }
+    }
+  },
+  {
+    "id": "N043",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Năm 12 tuổi, lúc còn là thái tử, Phật đã theo vua cha Sudodana ra đồng làm lễ Hạ điền vào đầu mùa trồng lúa. Trong lúc mọi người đang vui chơi, Thái tử lặng lẽ đến gốc cây ngồi thiền. Ngài nhanh chóng nhập vào Sơ thiền và ngồi quên thời gian. Đến khi vua cha sực nhớ cho người đi tìm thì thấy Thái tử vẫn ngồi trong bóng cây. Nhìn tàng cây, vua cha lấy làm lạ vì thấy những cành lá của cây như đang cố kéo nhau về mặt trời để tiếp tục che mát cho Thái tử.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:0471"
+      }
+    }
+  },
+  {
+    "id": "N044",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Thật ra đó chính là nhược điểm của người xuất gia, vì không đủ lòng tôn kính Phật nên tự cho rằng lễ Phật bấy nhiêu năm là đủ rồi. Dù cho chúng ta có lễ Phật muôn ngàn kiếp cũng không tôn vinh hết được thánh tính vĩ đại của Phật. Chính vì không hiểu được thánh tính cao siêu vĩ đại của Phật mà ta đã không phát tâm thiết tha lễ bái Phật thật nhiều. Nếu không lễ bái cung kính Phật thường xuyên tha thiết, phước tu hành của chúng ta sẽ cạn dần. Người xuất gia mà hết phước thì sẽ bị hoàn tục. Còn giữ được màu áo tu, còn được người quý trọng vì còn phước; nếu hết phước thì mọi chuyện đó chấm dứt.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:0549"
+      }
+    }
+  },
+  {
+    "id": "N045",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Từ trước đến giờ chúng ta ít nhận ra lỗi của mình, thường tự cho mình là đúng, thường tự bênh vực ý nghĩ và việc làm của mình. Chính vì không thấy được cái sai của mình nên chúng ta đã gây rất nhiều nghiệp bất thiện mà không hay biết. Hạnh phúc lớn của người hiểu đạo là thấy được lỗi của mình để dừng lại. Các vị cổ đức đã nói, Bồtát sợ nhân, chúng sinh sợ quả. Bồtát có trí tuệ nên tránh sai lầm ngay từ đầu; còn chúng sinh phải đợi khi quả báo hiện ra khổ sở mới biết sợ.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:0687"
+      }
+    }
+  },
+  {
+    "id": "N046",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "- Yêu tinh quỷ ma không xâm phạm. Ngoài khả năng cảm hóa, lòng Từ bi còn có kết quả là tạo thành uy lực. Nhìn thấy một người có tâm Từ, phi nhân vừa quý mến vừa nể sợ nên không có ý định xâm phạm. Nhiều người bị các vong linh quấy phá, đã khéo léo quán Từ bi liền thoát nạn. Quán Từ bi hiệu quả hơn dùng chú thuật trấn ếm. Chú thuật chỉ trấn ếm tạm thời, và dễ gây thù oán. Năng lực của Từ tâm vượt lên cao để cảm hóa các chúng sinh trong cõi vô hình đó.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:1076"
+      }
+    }
+  },
+  {
+    "id": "N047",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Khi đã kiêu mạn rồi thì, như đã biết, các đức tính của người tu đó mất dần, các nghiệp bất thiện được gây tạo dần, và Phật Pháp cũng vì thế mà tuột dốc theo. Lúc đó ta sẽ thấy các tu sĩ thường là người tham lam, ích kỷ, giành giật, nói xấu lẫn nhau, vu khống qua lại, tính toán hơn thua, phạm hạnh khuyết lở…. Những năng lục tâm linh của người tu cạn kiệt dần. Mọi người nhìn vào càng lúc càng cười chê, gièm pha, hủy báng chung cả Phật Pháp. Đó là giai đoạn Phật Pháp thật sự đi vào giai đoạn suy vong nguy hiểm.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:1166"
+      }
+    }
+  },
+  {
+    "id": "N048",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Khi ngồi thiền, chúng ta vì hiểu được công đức vô lượng của Phật nên biết mình chỉ là cát bụi cỏ rác. Nếu không hiểu như vậy, chúng ta cứ tưởng mình giỏi lắm, cao lắm, quan trọng lắm, hơn người nhiều lắm… thật là đáng thương. Đôi khi trong đời, chúng ta cũng làm được một số điều hay nào đó, nhưng hãy tỉnh táo nhớ rằng những điều đó chưa đáng là gì so với chư Thánh. Phải hiểu như vậy, ta mới chân thành xem mình chỉ là cát bụi cỏ rác. Nếu không, dù có khởi nghĩ mình là cát bụi cũng không thành tâm, cũng rất gượng gạo.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:1306"
+      }
+    }
+  },
+  {
+    "id": "N049",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Câu chuyện của ngài Hư Vân đi triền sơn ở núi Ngũ Đài cũng vậy. Cứ ba bước Ngài lạy một lạy, đi suốt mấy năm trời mới tới được núi. Khi nghe câu chuyện của một vị Thiền sư, đi ba bước lạy một lạy, lạy Bồ Tát Văn Thù, người có trí tuệ sẽ luôn băn khoăn: Tại sao cũng là một con người mà họ có tâm dõng mãnh đến như vậy, có tâm thiết tha tôn kính Phật đến độ như vậy? Tại sao ta cũng là con người mà không thể hiểu được, không thể làm được điều gì tốt đẹp ? Có băn khoăn, tự chất vấn mình như vậy, chúng ta mới có ý thức vươn lên, phấn đấu để đạt được những điều tốt đẹp.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:1666"
+      }
+    }
+  },
+  {
+    "id": "N050",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Việc giảng pháp cũng vậy. Mặc dù những điều được giảng đều có ích cho người nghe, nhưng không phải lúc nào chúng ta cũng gặp thuận lợi. Có khi chúng ta gặp sự chống đối quyết liệt của người khác. Thậm chí, có người còn tìm ra đủ âm mưu, kế hoạch để ngăn cản. Tất nhiên, cũng có người bênh vực, nhưng điều quan trọng là chúng ta phải chịu đựng để tiếp tục giảng. Bởi chúng ta biết rằng, những người nghe giảng sẽ được lợi ích, sẽ tiến bộ. Trừ trường hợp cái duyên hoàn toàn không thuận lợi, chúng ta có thể tạm ngưng, đừng bao giờ vì tự ái mà bỏ công việc nửa chừng.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:1901"
+      }
+    }
+  },
+  {
+    "id": "N051",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Vừa qua, ở Mỹ có diễn ra một Hội nghị. Trong đó, có nhiều học giả nghiên cứu về Phật giáo nổi tiếng trên thế giới tham dự. Họ thảo luận về vấn đề cần xác định bài kinh nào là do Phật thuyết, bài kinh nào không phải Phật thuyết. Lần ấy, có cả Đức Đạt Lai Lạt Ma tham dự. Họ dựa vào tư tưởng và ngôn ngữ để chứng minh rất chặt chẽ và có sức thuyết phục rằng các bài kinh này xuất hiện sau thời Đức Phật. Chẳng hạn, họ chọn trong bài kinh những từ ngữ mà thời Đức Phật chưa có để chứng minh rằng, bài kinh đó xuất hiện sau Phật thuyết rất xa.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2081"
+      }
+    }
+  },
+  {
+    "id": "N052",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Người có tật hay nói dối còn bị quả báo là không nhìn thấy sự cao cả của các bậc Thánh nên không thể khởi tâm cung kính. Đó cũng là một thiệt thòi lớn. Muốn chứng Thánh, chúng ta phải cung kính các bậc Thánh. Đó là Nhân Quả rất rõ ràng và vững chắc, Nhân Quả không thể phủ nhận được. Ngày xưa, khi có vị nào đắc đạo, Đức Phật luôn cho họ biết Nhân Quả, nghĩa là cho biết họ đã từng cung kính, cúng dường Phật hay một vị A La Hán nào, từ kiếp nào để bây giờ được đắc đạo.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2166"
+      }
+    }
+  },
+  {
+    "id": "N053",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Dù là niệm Phật hay tu Thiền, người biết tu tập thường không bị chi phối bởi ngoại cảnh. Có khi đang niệm Phật, tuy nói chuyện với người khác nhưng họ vẫn ở lại với câu niệm Phật trong tâm mình, tâm không hướng ra ngoại cảnh. Người tu Thiền lúc nào cũng kiểm soát tâm mình, xem tâm tịnh hay động. Mặc dù nói chuyện với người khác hoặc làm việc gì đó nhưng lúc nào họ cũng ở lại với tâm, kiểm soát tâm. Sức định càng sâu, họ càng ít bị ngoại cảnh chi phối.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2289"
+      }
+    }
+  },
+  {
+    "id": "N054",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Có một thời gian, Phật tử có quan niệm là, đối với Tăng Ni, dù lầm lỗi thế nào họ cũng một mực kính trọng. Quan niệm này cũng có nhiều cái hay, thể hiện sự bao dung, độ lượng của Phật tử đối với người tu hành. Nhưng vô tình, quan niệm ấy đã góp phần nuôi dưỡng những phần tử xấu trong Phật pháp, làm ảnh hưởng đến uy tín của Đạo, làm cho Phật pháp nhanh chóng suy tàn. Phật tử cần phải khắt khe hơn nữa, phải đặt lòng tôn kính cúng dường của mình đúng chỗ, đúng đối tượng. Có như vậy, chúng ta mới gạn lọc dần những đối tượng kém phẩm chất, lợi dụng Phật pháp để thoả mãn nhu cầu của mình.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2372"
+      }
+    }
+  },
+  {
+    "id": "N055",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Người tu hành phải biết nhẫn nhục, chịu đựng. Trong đại chúng đôi khi cũng xảy ra những va chạm nhỏ, mỗi người phải nhẫn nhục, không nuôi hờn giận trong lòng. Trong cuộc sống cũng vậy, không phải lúc nào bước ra làm Phật sự, chúng ta cũng gặp thuận lợi. Nhiều khi chúng ta phải đối mặt với những nghịch cảnh éo le. Có người do bất đồng quan điểm, tìm mọi cách công kích, chỉ trích, ngăn cản việc làm của mình. Thậm chí, có lúc chúng ta bị vu khống, bị người ta đặt điều nói xấu…Nhưng dù bị oan, lúc đó chúng ta cũng phải chịu đựng. Làm được điều này không phải dễ.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2520"
+      }
+    }
+  },
+  {
+    "id": "N056",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Người ta kể rằng, vua Phillippe xứ Macédoine, cha của Alexandre Đại đế (người từng đem quân đi đánh từ Hi Lạp qua Ấn Độ, chiếm cả một vùng đế quốc rất rộng lớn qua Trung Đông, Ai Cập đến Ấn Độ) là người rất tinh tế. Ông cho rằng, bệnh chung của tất cả các ông vua trên thế giới này là kiêu ngạo. Bởi vậy, ông dặn người hầu đứng ở đầu giường, mỗi buổi sáng, khi ông vừa thức dậy, câu phải nói với ông đầu tiên là: Philip, ngươi phải nhớ rằng ngươi chỉ là một con người tầm thường mà thôi. Làm như vậy là ông muốn nhắc nhở mình suốt cuộc đời ông không được kiêu ngạo. Vì kiêu ngạo thường đem lại thất bại cho con người. Vì thế, trong cuộc đời làm vua, ông trị dân rất thành công. Con trai ông là Alêchxăng Đại đế, từng chinh phục khắp nơi cũng là người đa mưu, túc trí.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2619"
+      }
+    }
+  },
+  {
+    "id": "N057",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Trường hợp Mạc Đĩnh Chi của nước ta cũng là tấm gương về nhẫn nhục. Ông sinh ra trong một gia đình rất nghèo, cha chết sớm, bản thân lại xấu xí. Tuy vậy, ông vẫn cố gắng học hành và đỗ Trạng nguyên. Khi đi sứ bên Tàu, ông được vua nước ấy nể phục và phong làm Trạng nguyên. Như vậy, ông được làm Trạng nguyên cả hai nước. Sự chịu đựng gian khổ để học thành tài của Mạc Đĩnh Chi tuy còn vì mục đích cầu sự nghiệp, nhưng tâm ông tốt, không làm điều gì ác nên vẫn gần với nhẫn nhục của đạo Phật.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2729"
+      }
+    }
+  },
+  {
+    "id": "N058",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Những người nhập thất phải cẩn thận. Vì khi chưa phải là một người đạt được cuộc sống vị tha, đang bị vị kỷ chi phối, tâm từ bi chưa thật sự rộng mở mà bước vào thất tinh tấn tu hành, đối diện với mình, họ dễ bị vị kỷ, chấp ngã chi phối. Mỗi ngày, chấp ngã cứ lớn dần lên, công đức bị hao tổn mà họ không hay biết. Chỉ có những người công đức quá khứ rất lớn, tâm vị tha rộng mở, đời sống hết sức từ ái, khi vào thất mới thật sự yên tâm. Họ sẽ không phát triển bản ngã hay vị kỷ.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:2798"
+      }
+    }
+  },
+  {
+    "id": "N059",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Ngày nay, kỹ thuật vải vóc, may mặc tiến bộ hơn trước nhiều. Chúng ta nên mặc những loại vải tương đối tốt, có độ bền cao nhưng đừng chọn những loại vải quá đắt tiền, quá sang trọng. Theo tiêu chuẩn chung, mỗi Thầy được ba bộ quần áo ( Tam y nhất bát) nhưng trong hoàn cảnh xã hội bây giờ không nhất thiết phải như vậy. Các Thầy có thể mặc nhiều hơn, ít nhất phải có năm bộ quần áo. Vì đề phòng mưa gió, hơn nữa vải vóc bây giờ quá nhiều, giá cả cũng phải chăng, không cần thiết phải tiết kiệm đến mức thiếu thốn nữa. Thời bây giờ, người bình thường có đến hai ba chục bộ đồ cũng là chuyện thường tình. Bởi vậy, tùy hoàn cảnh xã hội mà chúng ta điều chỉnh nhu cầu của mình cho hợp lý.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:3008"
+      }
+    }
+  },
+  {
+    "id": "N060",
+    "context": {
+      "title": "Bài Giảng Tâm Lý Đạo Đức",
+      "vietnamese": "Đạo Phật ngày nay cần nhìn lại vấn đề một cách trung dung. Chúng ta phải chọn cách khác để đi, không thể cho rằng, tiêu thụ nhiều để kinh tế phát triển mà gây nên những vấn nạn cho xã hội. Chúng ta phải sống một cuộc sống đơn giản. Nếu có ai đó cho rằng, sống đơn giản không kích thích sự phát triển kinh tế, chúng ta cũng có lý để giải thích cho cặn kẽ. Chúng ta phải vững tin mà đi trên con đường Đức Phật đã dạy, cố gắng tìm đời sống đơn giản và hợp lý.",
+      "translation": "",
+      "source": {
+        "title": "Bài Giảng Tâm Lý Đạo Đức",
+        "locator": "S13|docx:p:3056"
+      }
+    }
+  }
+]);
+globalThis.PQTranslationSources.push(...[
+  {
     "id": "N021",
     "context": {
       "title": "ĐẠO ĐỨC (số 34) ĐỨA CON NUÔI",
