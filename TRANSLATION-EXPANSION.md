@@ -1,6 +1,6 @@
 # Dịch theo ý — sổ biên soạn và xuất bản
 
-Mục tiêu đã nhận: 1.500 yêu cầu dịch (300 gói × 5), gồm 60 yêu cầu cũ.
+Đã hoàn thành và xuất bản: **1.500 yêu cầu dịch (300 gói × 5)**, gồm 60 yêu cầu cũ.
 Không dùng agent phụ. Mỗi khoảng 100 yêu cầu mới phải kiểm tra và xuất bản,
 rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng chất lượng.
 
@@ -116,11 +116,21 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 - 40 yêu cầu cuối viết tay, tổng 300 gói/1.500 yêu cầu.
 - Giữ ngữ cảnh nguyên văn, ba lần gợi ý tối đa, nộp cả gói và tự chọn gói.
 - Không đổi khóa lưu, ID câu cũ hoặc tiến độ đã lưu.
-- Đang kiểm tra bản phát hành cuối và xác nhận nội dung công khai.
+- Đã xuất bản: commit `b862733`, Pages run `41162234678` thành công.
 
-## Công việc còn lại
+## Kiểm chứng bản cuối
+
+- 73/73 kiểm thử đạt, không bỏ qua test nào.
+- Tải HTML và 31 script từ website công khai: SHA-256 đều khớp file cục bộ.
+- Biên dịch các tệp công khai trong JavaScript runtime: 300 gói, 1.500 câu, 1.500 ID khác nhau, từ D01 đến D300.
+- 300 ngữ cảnh khác nhau; mỗi gói đúng 5 câu hỏi và có đơn vị dịch 2 cùng 3 câu nguồn.
+- 68 ngữ cảnh bổ sung đối chiếu nguyên văn với thư viện gốc; một truyện nối hai đoạn liên tiếp, không tự sáng tác phần nối.
+- Khóa lưu vẫn là `pq-english-meaning-translation-v2`, chọn gói tự do vẫn bật.
+- Kiểm thử ghép cụm, giới hạn 3 từ gợi ý, nộp đủ gói, đánh đỏ câu sai, lưu/khôi phục và xuất Markdown đều đạt.
+- Chưa kiểm tra trực quan bằng trình duyệt: hồ sơ Chrome được kết nối không có cửa sổ mở. Kiểm tra giao diện tự động dùng DOM test double, không giả là trình duyệt thật.
+- Kiểm thử cấu trúc và đối chiếu hash không tự chứng minh chất lượng văn dịch; bản Anh, thẻ nhiễu và giải thích được viết và đối chiếu riêng trong lúc biên soạn.
+
+## Trạng thái hoàn tất
 
 - Đã biên soạn đủ D01–D300, tổng 1.500 yêu cầu.
-- Còn bước xác nhận phát hành công khai và ghi kết quả kiểm tra cuối.
-- Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
-- Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
+- Bản công khai đã được xác nhận đủ 1.500 yêu cầu, không còn đợt biên soạn nào trong mục tiêu này.
