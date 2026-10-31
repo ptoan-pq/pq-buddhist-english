@@ -86,11 +86,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới viết tay trong `translation-batch-10.js`.
 - 20 ngữ cảnh mới, gồm chuyển trạng thái, tiêu chuẩn tiến bộ, sinh kế và thiên vị.
-- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 1.060/1.500.
+- Đã xuất bản: commit `0d469b8`, GitHub Pages run `41159949674` thành công; tổng 1.060/1.500.
+
+## Đợt 11 — D213–D232
+
+- 100 yêu cầu mới viết tay trong `translation-batch-11.js`.
+- 20 ngữ cảnh mới; giữ phạm vi lời nguồn, không xóa các bảo lưu hoặc biến ý niệm thành chứng nhận.
+- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 1.160/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 10 còn 440 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D213–D232, 100 yêu cầu; không thay thế hoặc nhân bản D01–D212.
+- Sau đợt 11 còn 340 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D233–D252, 100 yêu cầu; không thay thế hoặc nhân bản D01–D232.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
