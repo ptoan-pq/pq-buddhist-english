@@ -56,11 +56,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới biên soạn tay trong `translation-batch-05.js`.
 - 20 ngữ cảnh mới về hợp tác, lễ độ, nhận biết và công phu; giữ các phân biệt thời lượng/tốc độ, nhân/quả, biết/can thiệp.
-- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 560/1.500.
+- Đã xuất bản: commit `da0b098`, GitHub Pages run `41157474874` thành công; tổng 560/1.500.
+
+## Đợt 06 — D113–D132
+
+- 100 yêu cầu mới biên soạn tay trong `translation-batch-06.js`.
+- 20 ngữ cảnh mới về Chánh Nghiệp, sinh kế, giúp người, bạn tốt và sự cải hóa.
+- Trạng thái: đang kiểm tra và xuất bản, tổng dự kiến 660/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 05 còn 940 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D113–D132, 100 yêu cầu; không thay thế hoặc nhân bản D01–D112.
+- Sau đợt 06 còn 840 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D133–D152, 100 yêu cầu; không thay thế hoặc nhân bản D01–D132.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
