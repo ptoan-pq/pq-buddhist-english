@@ -44,9 +44,16 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 - Kiểm thử cấu trúc không thay thế đánh giá văn dịch; phần dịch và giải thích được đọc, sửa trong lúc biên soạn.
 - Chưa kiểm tra trực quan bằng trình duyệt trong đợt này; không báo đã xem ảnh giao diện.
 
+## Đợt 04 — D73–D92
+
+- 100 yêu cầu mới biên soạn tay trong `translation-batch-04.js`.
+- 20 ngữ cảnh chưa dùng: nhận lỗi, quyền lực, báo lỗi, nói thật, thông cảm và giúp kín đáo.
+- 73 kiểm thử đạt trên tổng 460 câu; trích nguồn, ghép cụm, gợi ý, nộp cả gói và khôi phục đều đạt.
+- Trạng thái: đang xuất bản. Không thay đổi các câu cũ hoặc khóa lưu tiến độ.
+
 ## Công việc còn lại
 
-- Sau đợt 03 còn 1.140 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D73–D92, 100 yêu cầu; không thay thế hoặc nhân bản D01–D72.
+- Sau đợt 04 còn 1.040 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D93–D112, 100 yêu cầu; không thay thế hoặc nhân bản D01–D92.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.
