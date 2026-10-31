@@ -92,11 +92,17 @@ rồi tiếp tục biên soạn. Không coi số lượng là bằng chứng ch�
 
 - 100 yêu cầu mới viết tay trong `translation-batch-11.js`.
 - 20 ngữ cảnh mới; giữ phạm vi lời nguồn, không xóa các bảo lưu hoặc biến ý niệm thành chứng nhận.
-- Trạng thái: đang kiểm tra và xuất bản; tổng dự kiến 1.160/1.500.
+- Đã xuất bản: commit `027a6d9`, GitHub Pages run `41160433279` thành công; tổng 1.160/1.500.
+
+## Đợt 12 — D233–D252
+
+- 100 yêu cầu mới viết tay, 20 ngữ cảnh tuyển thêm từ thư viện gốc trong `translation-sources-new.js`.
+- Nguyên văn Việt được chụp từ bản ghi nguồn; một truyện nối hai đoạn liên tiếp để đủ kết cục.
+- Kiểm thử 73/73 đạt; đang xuất bản, tổng 1.260/1.500.
 
 ## Công việc còn lại
 
-- Sau đợt 11 còn 340 yêu cầu để đạt 1.500.
-- Đợt kế tiếp dùng D233–D252, 100 yêu cầu; không thay thế hoặc nhân bản D01–D232.
+- Sau đợt 12 còn 240 yêu cầu để đạt 1.500.
+- Đợt kế tiếp dùng D253–D272, 100 yêu cầu; không thay thế hoặc nhân bản các gói cũ.
 - Tiếp tục từng đợt khoảng 100; cập nhật sổ này với commit xuất bản thực tế.
 - Không báo hoàn thành toàn bộ trước khi đủ nội dung đã kiểm và đã lên web.

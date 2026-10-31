@@ -1,7 +1,7 @@
 (function(root){
   'use strict';
   // Chunks, distractors and explanations below are authored, not generated.
-  const bank=new Map(root.PQAdvancedVerbs.modules.map(m=>[m.id,m]));
+  const bank=new Map([...root.PQAdvancedVerbs.modules,...(root.PQTranslationSources||[])].map(m=>[m.id,m]));
   const rows=[
     {
       id:'D01',sourceId:'M124',mode:'Dựng câu bằng cụm',title:'Một chỗ dựa để đứng dậy',
