@@ -84,6 +84,14 @@ test('the translation thinking guide opens inline without losing a draft or hint
   assert(guide().textContent.includes('Dịch theo chức năng'));
   assert(guide().textContent.includes('Một hai ngày sau'));
   assert(guide().textContent.includes('Vì sao họ chọn chủ ngữ, động từ và cấu trúc đó, còn mình thì không?'));
+  assert(guide().textContent.includes('Chặng 1: Hiểu đúng trước khi dịch'));
+  assert(guide().textContent.includes('Chặng 2: Dựng lại câu bằng 5 quyết định'));
+  assert(guide().textContent.includes('Chặng 3: Kiểm tra bản dịch'));
+  assert(guide().textContent.includes('His employment was terminated.'));
+  assert(guide().textContent.includes('Traffic made me late.'));
+  assert(guide().textContent.includes('It was Nam who helped me.'));
+  assert(guide().textContent.includes('take medicine'));
+  assert(guide().textContent.includes('a bit tired'));
   assert.equal(app.saved.get('pq-english-meaning-translation-v2'),draft);
   app.buttons().find(b=>b.textContent==='Hoàn tác').onclick();
   assert.equal(guide().open,true,'The guide should stay open when the exercise rerenders');

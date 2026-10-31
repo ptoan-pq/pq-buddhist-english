@@ -77,6 +77,34 @@
     section.append(node('p','Câu hỏi ở bước 4 là phần quan trọng nhất. Làm đều mỗi ngày, bạn sẽ dần tích lũy được những cách nói có sẵn để dùng ngay, thay vì phải ghép từng từ.'),node('p','Lưu ý khi áp dụng: đây là các gợi ý theo ngữ cảnh, không phải quy tắc cứng. “Gấp câu gốc lại” giúp dựng cách diễn đạt, nhưng cuối cùng vẫn phải mở lại để kiểm tra đủ nghĩa, chủ thể, phủ định, điều kiện và sắc thái. Chỉ cắt chữ thừa, không cắt ý nguồn. Với bản sách, chọn giọng văn sách phù hợp, không ép mọi câu thành khẩu ngữ.','helper'));
     body.append(section);
   }
+  function appendTranslationStages(body){
+    const section=node('section',undefined,'translation-practice-note');
+    section.append(node('h3','3 chặng: hiểu ý → dựng lại bằng tiếng Anh → kiểm tra'),node('p','Trước khi dịch, hãy tự hỏi đúng câu hỏi của từng chặng. Mục tiêu là nói đúng chức năng, quan hệ và sắc thái của câu; không chỉ thay từng chữ Việt bằng một chữ Anh.'));
+    section.append(node('h4','Chặng 1: Hiểu đúng trước khi dịch'));
+    const understand=node('ol');
+    [
+      ['Câu này đang làm gì?','Cùng một câu có thể là lời trách sau khi việc đã xảy ra hoặc lời khuyên trước khi làm. “Anh làm thế là không được đâu” → You should not have done that. (trách sau việc đã xảy ra) / I would not do that if I were you. (khuyên trước khi làm).'],
+      ['Ai nói với ai, thân hay xa?','Tiếng Việt thể hiện quan hệ qua xưng hô; tiếng Anh thường thể hiện qua cách chọn từ. “Anh ấy bị đuổi việc” → He got fired. (thân mật) / He was let go. (tế nhị) / His employment was terminated. (rất trang trọng).'],
+      ['Câu đang giấu thông tin gì?','Tiếng Việt hay lược chủ ngữ, thời gian và số lượng. “Mai đi không?” có thể là Are you going tomorrow? (hỏi kế hoạch) hoặc Want to go tomorrow? (lời rủ).'],
+      ['Thông tin nào là mới hoặc cần nhấn?','Tiếng Anh thường đưa thông tin quan trọng về cuối câu. “Chính Nam đã giúp tôi” → It was Nam who helped me.']
+    ].forEach(([title,text])=>{const li=node('li');li.append(node('strong',title),node('p',text));understand.append(li);});section.append(understand);
+    section.append(node('h4','Chặng 2: Dựng lại câu bằng 5 quyết định'));
+    const build=node('ol');
+    [
+      ['Chọn chủ ngữ','Đừng mặc định lấy từ đầu câu Việt làm chủ ngữ. “Ở Đà Lạt, mùa này lạnh lắm” → Da Lat gets really cold this time of year. “Vì kẹt xe nên tôi đến trễ” → Traffic made me late.'],
+      ['Tìm động từ thật sự','Với “có sự…”, “tiến hành…”, “đưa ra…”, hãy tìm động từ nằm bên trong: tiến hành điều tra → investigate; đưa ra quyết định → decide; công ty có sự tăng trưởng mạnh → The company grew rapidly.'],
+      ['Xác định thời gian','Đừng đổi máy móc “đã” thành quá khứ, “đang” thành tiếp diễn. “Tôi sống ở Huế 5 năm” → I lived in Huế for five years. (đã chuyển đi) / I have lived in Huế for five years. (vẫn đang sống ở đó).'],
+      ['Sắp xếp ý chính và ý phụ','Tiếng Việt có thể nối nhiều vế ngang nhau bằng dấu phẩy. Tiếng Anh thường rõ hơn khi có vế chính, vế phụ: “Tôi về nhà, thấy cửa mở, hoảng quá, gọi công an.” → When I got home and found the door open, I panicked and called the police.'],
+      ['Dùng cụm từ quen thuộc','Mưa to → heavy rain, không phải big rain; uống thuốc → take medicine; bật đèn → turn on the light. Hãy nhớ cả cụm, không chỉ từng từ.']
+    ].forEach(([title,text])=>{const li=node('li');li.append(node('strong',title),node('p',text));build.append(li);});section.append(build);
+    section.append(node('h4','Chặng 3: Kiểm tra bản dịch'),node('p','Tạm quên câu tiếng Việt, đọc to câu tiếng Anh và tự hỏi: Người chưa đọc câu gốc có hiểu ngay không? Câu có giọng Việt không? Có cụm nào chỉ đang đoán không? Có lệch mức độ không? “Hơi mệt” là a bit tired, không phải exhausted. Khi chưa chắc cách dùng, tra YouGlish hoặc từ điển collocation như Ozdic.'));
+    const checks=node('ul');['Dễ hiểu không?','Có giọng Việt không? Cảnh giác với very lặp nhiều, the problem of, the fact that, hoặc câu dài toàn and/so.','Có cụm nào đoán không?','Có lệch ý không? Dữ kiện, mức độ và giọng điệu vẫn phải giữ.'].forEach(text=>checks.append(node('li',text)));section.append(checks);
+    const examples=node('div',undefined,'translation-guide-example');examples.append(node('strong','Hai ví dụ từ đầu đến cuối'),node('p','Trong cuộc họp: “Về vấn đề này, tôi nghĩ chúng ta cần phải xem xét lại một cách kỹ lưỡng hơn.”'),node('p','Chức năng: góp ý lịch sự, chưa muốn chốt.'),node('p','I think we should take a closer look at this.','guide-english'),node('p','Câu giàu cảm xúc: “Chị ấy cả đời chỉ biết hy sinh cho chồng con, chưa bao giờ nghĩ cho bản thân mình.”'),node('p',"She's spent her whole life putting her husband and children first, never once thinking of herself.",'guide-english'),node('p','Nếu nhân vật còn sống, dùng has spent; “chỉ biết hy sinh” tự nhiên hơn khi chuyển thành putting … first.'));section.append(examples);
+    section.append(node('h4','Bảng tự hỏi trước mỗi câu'));
+    const questions=node('ol');['Câu này thật ra muốn nói gì và để làm gì?','Ai nói với ai, bằng giọng nào?','Câu đang giấu thông tin gì?','Chủ ngữ nào hợp nhất?','Động từ chính là gì?','Việc xảy ra khi nào, còn liên quan đến hiện tại không?','Đâu là ý chính, đâu là ý phụ?','Người bản xứ quen dùng cụm nào ở đây?','Đọc to lên có tự nhiên và còn đúng ý không?'].forEach(text=>questions.append(node('li',text)));section.append(questions);
+    section.append(node('p','Lúc đầu, hãy làm chậm với 5–10 câu mỗi ngày và viết ra câu trả lời cho từng bước. Khi đã quen, các bước này sẽ dần diễn ra rất nhanh trong đầu.','helper'));
+    body.append(section);
+  }
   function renderTranslationGuide(){
     if(C.programId!=='translation')return;
     const guide=node('details',undefined,'translation-guide');guide.open=guideOpen;guide.ontoggle=()=>{guideOpen=guide.open;};
@@ -95,6 +123,7 @@
     const example=node('div',undefined,'translation-guide-example');example.append(node('strong','Ví dụ ghép theo hai đơn vị ý'),node('p','“Thấy người có lỗi, ta không vội chê trách.”'),node('p','When we see someone at fault, we do not rush to blame them.','guide-english'),node('p','Hoàn cảnh thấy lỗi → thái độ không vội chê trách. Không cần giữ nguyên thứ tự từng chữ để giữ đúng quan hệ ý.'));body.append(example);
     const linked=node('p');linked.append(node('strong','Với yêu cầu 2–3 câu: '),node('span','xác định câu sau tiếp nối, giải thích hay đối lập với câu trước, rồi chọn đại từ, từ nối và thứ tự thông tin. Đọc lại cả cụm, đừng chỉ kiểm tra từng câu riêng.'));body.append(linked);
     appendTranslationPracticeNote(body);
+    appendTranslationStages(body);
     body.append(node('p','Đọc Việt → hình dung trục câu → nhìn thẻ → ghép theo cụm → đọc lại toàn ý.','translation-guide-recall'),node('p','Tự nhắc: “Tôi hiểu ý gì? Tôi lấy gì làm trục? Tôi sẽ nói ý ấy bằng cụm nào?”','helper'));
     guide.append(body);main.append(guide);
   }

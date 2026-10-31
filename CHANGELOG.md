@@ -9,6 +9,12 @@
 - Thêm backup/restore sổ tay cụm từ tùy chọn; JSON cũ không có sổ tay vẫn khôi phục bình thường và không xóa dữ liệu sổ tay hiện tại.
 - Thêm kiểm thử dữ liệu hỏng, lưu trùng, lịch ôn, retry, backup, giao diện click-only; toàn bộ **83/83 test** đạt.
 
+## Bổ sung 3 chặng tư duy dịch — 2026-10-30
+
+- Mở rộng mục “Cách tư duy trước khi dịch” với 3 chặng: hiểu chức năng/quan hệ người nói, dựng câu qua chủ ngữ–động từ–thời gian–trật tự–collocation, rồi kiểm tra độ tự nhiên và độ trung thành.
+- Thêm ví dụ về mức độ thân mật/trang trọng, chủ ngữ ẩn, thông tin cần nhấn, *Traffic made me late*, *take medicine*, *It was Nam who helped me*, và hai ví dụ hoàn chỉnh theo chức năng.
+- Thêm bảng 9 câu tự hỏi và nhắc luyện chậm 5–10 câu mỗi ngày trước khi các bước diễn ra tự động.
+
 ## Bổ sung ghi chú tư duy — 2026-10-30
 
 - Lưu nội dung người học bổ sung tại `authoring/translation-thinking-note.md`.

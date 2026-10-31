@@ -53,3 +53,54 @@ Câu hỏi ở bước 4 là phần quan trọng nhất. Làm đều mỗi ngày
 ## Lưu ý khi áp dụng cùng hướng dẫn hiện có
 
 Đây là các gợi ý theo ngữ cảnh, không phải quy tắc cứng. “Gấp câu gốc lại” giúp dựng cách diễn đạt, nhưng cuối cùng vẫn phải mở lại để kiểm tra đủ nghĩa, chủ thể, phủ định, điều kiện và sắc thái. Chỉ cắt chữ thừa, không cắt ý nguồn. Với bản sách, chọn giọng văn sách phù hợp, không ép mọi câu thành khẩu ngữ.
+
+## 3 chặng: hiểu ý → dựng lại bằng tiếng Anh → kiểm tra
+
+### Chặng 1: Hiểu đúng trước khi dịch
+
+1. **Câu này đang làm gì?** Cùng một câu có thể mang nhiều chức năng. “Anh làm thế là không được đâu” có thể là *You shouldn't have done that.* khi trách sau khi việc đã xảy ra, hoặc *I wouldn't do that if I were you.* khi khuyên trước khi làm.
+2. **Ai nói với ai, thân hay xa?** “Anh ấy bị đuổi việc” có thể là *He got fired.* (thân mật), *He was let go.* (tế nhị), hoặc *His employment was terminated.* (rất trang trọng).
+3. **Câu đang giấu thông tin gì?** “Mai đi không?” có thể là *Are you going tomorrow?* (hỏi kế hoạch) hoặc *Want to go tomorrow?* (lời rủ).
+4. **Thông tin nào là mới hoặc cần nhấn?** “Chính Nam đã giúp tôi” → *It was Nam who helped me.*
+
+### Chặng 2: Dựng lại câu bằng 5 quyết định
+
+1. **Chọn chủ ngữ.** “Ở Đà Lạt, mùa này lạnh lắm” → *Da Lat gets really cold this time of year.* “Vì kẹt xe nên tôi đến trễ” → *Traffic made me late.*
+2. **Tìm động từ thật sự.** “Tiến hành điều tra” → *investigate*; “đưa ra quyết định” → *decide*; “Công ty có sự tăng trưởng mạnh” → *The company grew rapidly.*
+3. **Xác định thời gian.** “Tôi sống ở Huế 5 năm” → *I lived in Huế for five years.* (đã chuyển đi) / *I've lived in Huế for five years.* (vẫn đang sống ở đó).
+4. **Sắp xếp ý chính và ý phụ.** “Tôi về nhà, thấy cửa mở, hoảng quá, gọi công an.” → *When I got home and found the door open, I panicked and called the police.*
+5. **Dùng cụm từ người bản xứ quen dùng.** “Mưa to” → *heavy rain*, không dùng *big rain*; “uống thuốc” → *take medicine*; “bật đèn” → *turn on the light*.
+
+### Chặng 3: Kiểm tra bản dịch
+
+Tạm quên câu tiếng Việt, đọc to câu tiếng Anh và kiểm tra: người chưa đọc câu gốc có hiểu ngay không; câu có giọng Việt không; có cụm nào chỉ đang đoán không; có lệch mức độ không. “Hơi mệt” là *a bit tired*, không thể thành *exhausted*. Khi chưa chắc cách dùng, tra YouGlish hoặc từ điển collocation như Ozdic.
+
+Dịch theo ý không có nghĩa là tự thêm bớt. Dữ kiện, mức độ và giọng điệu vẫn phải giữ. Văn bản pháp lý hay kỹ thuật cần bám sát câu chữ hơn hội thoại hay văn chương.
+
+### Hai ví dụ từ đầu đến cuối
+
+**Trong cuộc họp:** “Về vấn đề này, tôi nghĩ chúng ta cần phải xem xét lại một cách kỹ lưỡng hơn.”
+
+- Word by word: *About this problem, I think we need to review again in a more careful way.*
+- Chức năng: góp ý lịch sự, chưa muốn chốt.
+- Bản dịch: *I think we should take a closer look at this.*
+
+**Câu giàu cảm xúc:** “Chị ấy cả đời chỉ biết hy sinh cho chồng con, chưa bao giờ nghĩ cho bản thân mình.”
+
+- Word by word: *She all her life only knows sacrificing for husband and children, never thinks for herself.*
+- Nếu chị ấy còn sống, dùng *has spent*; “chỉ biết hy sinh” tự nhiên hơn khi chuyển thành *putting … first*.
+- Bản dịch: *She's spent her whole life putting her husband and children first, never once thinking of herself.*
+
+### Bảng tự hỏi trước mỗi câu
+
+1. Câu này thật ra muốn nói gì và để làm gì?
+2. Ai nói với ai, bằng giọng nào?
+3. Câu đang giấu thông tin gì?
+4. Chủ ngữ nào hợp nhất?
+5. Động từ chính là gì?
+6. Việc xảy ra khi nào, còn liên quan đến hiện tại không?
+7. Đâu là ý chính, đâu là ý phụ?
+8. Người bản xứ quen dùng cụm nào ở đây?
+9. Đọc to lên có tự nhiên và còn đúng ý không?
+
+Lúc đầu, hãy làm chậm với 5–10 câu mỗi ngày và viết ra câu trả lời cho từng bước. Khi đã quen, các bước này sẽ dần diễn ra rất nhanh trong đầu.
